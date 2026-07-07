@@ -1,1 +1,4 @@
 .env
+data/chats.json
+__pycache__/
+*.pyc
