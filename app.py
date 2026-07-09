@@ -118,17 +118,17 @@ st.set_page_config(page_title="Chemistry Tutor", layout="wide")
 
 st.markdown("""
 <style>
-.stApp { background: linear-gradient(160deg, #0f172a 0%, #1e293b 50%, #164e63 100%); color: #e2e8f0; }
-section[data-testid="stSidebar"] { background: #0f172a; border-right: 1px solid #334155; }
-.stChatMessage { background: #1e293b; border-radius: 14px; padding: 10px; }
-h1, h2, h3 { color: #5eead4; }
-.stButton button { border-radius: 10px; border: 1px solid #5eead4; color: #5eead4; background: transparent; }
-.stButton button:hover { background: #5eead4; color: #0f172a; }
+.stApp { background: #0d0d0d; color: #ececec; }
+section[data-testid="stSidebar"] { background: #111111; border-right: 1px solid #222222; }
+.stChatMessage { background: #1a1a1a; border-radius: 14px; padding: 10px; }
+h1, h2, h3 { color: #ffffff; }
+.stButton button { border-radius: 10px; border: 1px solid #444444; color: #ececec; background: transparent; }
+.stButton button:hover { background: #222222; color: #ffffff; }
 .badge { display:inline-block; padding:3px 10px; border-radius:20px; font-size:12px; font-weight:600; margin-bottom:8px; }
-.badge-concept { background:#1e3a8a; color:#93c5fd; }
-.badge-calculation { background:#78350f; color:#fcd34d; }
-.badge-experiment { background:#064e3b; color:#6ee7b7; }
-.badge-refused { background:#4c0519; color:#fda4af; }
+.badge-concept { background:#1a3a5c; color:#7eb8f7; }
+.badge-calculation { background:#3a2a00; color:#fcd34d; }
+.badge-experiment { background:#0a2a1a; color:#6ee7b7; }
+.badge-refused { background:#2a0a0a; color:#fda4af; }
 </style>
 """, unsafe_allow_html=True)
 
