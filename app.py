@@ -54,7 +54,6 @@ with this exact structure, nothing else (no markdown, no backticks):
 }
 
 Rules:
-- Rules:
 - CRITICAL: Always match your explanation depth strictly to the class level given in square brackets at the start of the user message:
   * Class 9: Simple language, shell model only (2,8,8 rule), no subshells, basic definitions, everyday examples
   * Class 10: Slightly deeper, introduce valency, basic reactions, periodic trends simply
@@ -97,8 +96,6 @@ def load_chats():
     return {}
 
 def save_chats():
-    # Bug 6 fix — atomic write using temp file
-    # If save fails, original file stays intact and user sees an error
     try:
         saveable = {}
         for chat_id, chat in st.session_state.chats.items():
@@ -323,6 +320,94 @@ def build_particle_html(particle_data):
     </style>
     """
 
+# ---------------- Highlight Chemistry Terms ----------------
+def highlight_text(text):
+    chemistry_terms = [
+        # Class 9
+        "mixture", "compound", "element", "atom", "molecule",
+        "physical change", "chemical change", "evaporation",
+        "condensation", "sublimation", "distillation", "filtration",
+        "saturated", "unsaturated", "solute", "solvent", "solution",
+        "colloid", "suspension", "Tyndall effect", "Brownian motion",
+        "proton", "neutron", "electron", "nucleus", "shell",
+        "atomic number", "mass number", "isotope", "isobar",
+        # Class 10
+        "chemical reaction", "reactant", "product", "catalyst",
+        "oxidation", "reduction", "redox", "corrosion", "rancidity",
+        "precipitation", "neutralization", "exothermic", "endothermic",
+        "pH", "acid", "base", "salt", "indicator", "litmus",
+        "valency", "ionic bond", "covalent bond", "metallic bond",
+        "periodic table", "period", "group", "alkali metal",
+        "alkaline earth metal", "halogen", "noble gas",
+        "electronegativity", "electron affinity", "ionization energy",
+        "alloy", "amalgam", "ore", "mineral", "refining",
+        "hydrocarbon", "alkane", "alkene", "alkyne", "isomer",
+        "functional group", "homologous series", "substitution",
+        "addition reaction", "saponification", "esterification",
+        # Class 11
+        "Aufbau Principle", "Pauli Exclusion Principle", "Hund's Rule",
+        "quantum number", "principal quantum number", "azimuthal",
+        "magnetic quantum number", "spin quantum number",
+        "orbital", "subshell", "electron configuration",
+        "s-orbital", "p-orbital", "d-orbital", "f-orbital",
+        "sp3", "sp2", "sigma bond", "pi bond",
+        "hybridization", "VSEPR", "dipole moment",
+        "van der Waals", "hydrogen bond", "ionic radius",
+        "atomic radius", "Le Chatelier", "equilibrium constant",
+        "Kc", "Kp", "degree of dissociation", "buffer solution",
+        "activation energy", "enthalpy", "entropy", "Gibbs energy",
+        "Hess's Law", "bond energy", "lattice energy",
+        "Avogadro", "mole", "molarity", "molality", "normality",
+        "mole fraction", "limiting reagent", "stoichiometry",
+        "Boyle's Law", "Charles Law", "ideal gas", "real gas",
+        "van der Waals equation", "critical temperature",
+        "s-block", "p-block", "d-block", "f-block",
+        "transition metal",
+        # Class 12
+        "electrochemistry", "electrolysis", "electrode",
+        "anode", "cathode", "Faraday", "Nernst equation",
+        "cell potential", "EMF", "standard electrode potential",
+        "galvanic cell", "electrolytic cell", "fuel cell",
+        "chemical kinetics", "rate of reaction", "rate law",
+        "order of reaction", "half life", "Arrhenius equation",
+        "molecularity", "activation complex", "transition state",
+        "solid state", "unit cell", "crystal lattice",
+        "coordination number", "packing efficiency",
+        "Schottky defect", "Frenkel defect", "semiconductor",
+        "colligative properties", "osmotic pressure", "osmosis",
+        "vapour pressure", "Raoult's Law",
+        "Van't Hoff factor",
+        "surface chemistry", "adsorption", "absorption",
+        "emulsion", "sol", "gel", "coagulation", "peptization",
+        "coordination compound", "ligand", "chelate",
+        "crystal field theory", "spectrochemical series",
+        "haloalkane", "haloarene", "nucleophilic substitution",
+        "SN1", "SN2", "elimination reaction",
+        "alcohol", "phenol", "ether", "aldehyde", "ketone",
+        "carboxylic acid", "ester", "amide", "amine",
+        "aromatic", "benzene", "electrophilic",
+        "nucleophilic", "carbocation", "carbanion", "free radical",
+        "polymer", "monomer", "addition polymer", "condensation polymer",
+        "biomolecule", "carbohydrate", "protein", "amino acid",
+        "enzyme", "vitamin", "nucleic acid", "DNA", "RNA",
+        # Undergraduate
+        "molecular orbital theory", "HOMO", "LUMO",
+        "spectroscopy", "NMR", "IR spectroscopy", "mass spectrometry",
+        "statistical thermodynamics", "partition function",
+        "quantum mechanics", "wave function", "Schrodinger equation",
+        "Heisenberg uncertainty principle", "de Broglie",
+        "reaction mechanism", "stereochemistry", "chirality",
+        "enantiomer", "diastereomer", "racemic mixture",
+        "retrosynthesis", "protecting group", "Grignard reagent"
+    ]
+    for term in chemistry_terms:
+        if term in text:
+            text = text.replace(
+                term,
+                f'<span style="background:#1a2a1a; color:#86efac; padding:1px 4px; border-radius:3px; font-weight:500;">{term}</span>'
+            )
+    return text
+
 # ---------------- Multi-Chat Session State ----------------
 if "chats" not in st.session_state:
     saved = load_chats()
@@ -364,7 +449,6 @@ with st.sidebar:
 
     st.divider()
 
-    # Bug 5 fix — limit empty chats to max 3
     empty_chats = [c for c in st.session_state.chats.values() if not c["display"]]
     if st.button("➕ New Chat", use_container_width=True):
         if len(empty_chats) >= 3:
@@ -425,11 +509,13 @@ for item in active_chat["display"]:
         badge_class = f"badge-{qtype}" if qtype in ("concept", "calculation", "experiment", "refused") else "badge-concept"
         st.markdown(f'<span class="badge {badge_class}">{qtype.upper()}</span>', unsafe_allow_html=True)
 
-        # Bug 2 and Bug 4 fix — refused questions show warning and nothing else
         if qtype == "refused":
             st.warning(f"🚫 {data.get('concept_explanation', 'I can only answer chemistry questions.')}")
         else:
-            st.markdown(f"**📖 Explanation:** {data.get('concept_explanation', '')}")
+            # Highlighted explanation
+            explanation = data.get('concept_explanation', '')
+            st.markdown("**📖 Explanation:**")
+            st.markdown(highlight_text(explanation), unsafe_allow_html=True)
 
             if qtype == "calculation":
                 if data.get("formula"):
@@ -446,9 +532,10 @@ for item in active_chat["display"]:
                 if steps:
                     st.markdown("**🧫 Steps:**")
                     for i, step in enumerate(steps, 1):
-                        st.write(f"{i}. {step}")
+                        st.markdown(highlight_text(f"{i}. {step}"), unsafe_allow_html=True)
                 if data.get("observations"):
-                    st.markdown(f"**👀 Observations:** {data.get('observations')}")
+                    st.markdown("**👀 Observations:**")
+                    st.markdown(highlight_text(data.get('observations', '')), unsafe_allow_html=True)
 
             if vtype == "beaker" and data.get("beaker_stages"):
                 components.html(build_beaker_html(data["beaker_stages"]), height=440)
@@ -487,11 +574,9 @@ for item in active_chat["display"]:
 user_input = st.chat_input("Ask a chemistry question...")
 
 if user_input:
-    # Bug 1 fix — ignore whitespace only input
     if not user_input.strip():
         st.stop()
 
-    # Bug 3 fix — limit input length to 500 characters
     if len(user_input) > 500:
         st.warning("⚠️ Question too long. Please keep it under 500 characters.")
         st.stop()
