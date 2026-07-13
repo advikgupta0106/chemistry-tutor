@@ -3,3 +3,4 @@ data/chats.json
 __pycache__/
 *.pyc
 .vscode/
+.streamlit/secrets.toml

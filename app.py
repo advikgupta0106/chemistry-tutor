@@ -1,6 +1,8 @@
 import os
 import json
+import time
 import uuid
+from datetime import datetime, timezone
 import streamlit as st
 import streamlit.components.v1 as components
 
@@ -17,14 +19,149 @@ from components.beaker import build_beaker_html
 from components.atom import build_atom_html
 from components.particle import build_particle_html
 
+# ---------------- Page Config ----------------
+st.set_page_config(page_title="Chemistry Tutor", layout="wide")
+
 # ---------------- Setup ----------------
 load_dotenv()
-google_api_key = os.getenv("GOOGLE_API_KEY")
+
+
+def get_api_key():
+    key = os.getenv("GOOGLE_API_KEY")
+    if key:
+        return key
+    try:
+        return st.secrets.get("GOOGLE_API_KEY")
+    except Exception:
+        return None
+
+
+google_api_key = get_api_key()
+
+if not google_api_key:
+    st.error("⚠️ GOOGLE_API_KEY is not configured. Add it to a local .env file, or to Streamlit secrets when deployed.")
+    st.stop()
 
 model = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     google_api_key=google_api_key
 )
+
+# Per-session rate limit to protect the shared API key/budget on a multi-user deployment.
+RATE_LIMIT_MAX_QUESTIONS = 8
+RATE_LIMIT_WINDOW_SECONDS = 60
+
+# ---------------- Auth (Google sign-in) ----------------
+# Only enforced when [auth] secrets are configured (Google OAuth client), so local
+# dev without that setup still works, just without cross-session persistence below.
+def auth_configured():
+    try:
+        return bool(st.secrets.get("auth", {}).get("client_id"))
+    except Exception:
+        return False
+
+
+AUTH_CONFIGURED = auth_configured()
+
+if AUTH_CONFIGURED:
+    if not st.user.is_logged_in:
+        st.title("🧪 Chemistry Tutor")
+        st.write("Sign in with Google to save and access your chat history across visits.")
+        st.button("Sign in with Google", on_click=st.login)
+        st.stop()
+    user_email = st.user.email
+else:
+    user_email = None
+
+# ---------------- Persistent storage (Supabase) ----------------
+# Only enabled when both signed in and Supabase secrets are configured; otherwise
+# chats stay session-only (in-memory), which is still safe for multi-user privacy.
+def get_supabase_client():
+    try:
+        url = st.secrets["SUPABASE_URL"]
+        key = st.secrets["SUPABASE_SERVICE_KEY"]
+    except Exception:
+        return None
+    from supabase import create_client
+    try:
+        return create_client(url, key)
+    except Exception:
+        return None
+
+
+supabase = get_supabase_client()
+PERSISTENCE_ENABLED = supabase is not None and user_email is not None
+
+
+def enrich_visual_data(data):
+    """Compute the SMILES image / YouTube results once, whether the answer was
+    just generated or is being hydrated from storage on load."""
+    smiles = data.get("main_compound_smiles", "")
+    if smiles and "smiles_image" not in data:
+        try:
+            mol = Chem.MolFromSmiles(smiles)
+            if mol:
+                data["smiles_image"] = Draw.MolToImage(mol, size=(350, 350))
+        except Exception:
+            pass
+
+    query = data.get("youtube_search_query", "")
+    if query and "video_results" not in data:
+        try:
+            data["video_results"] = YoutubeSearch(query, max_results=3).to_dict()
+        except Exception:
+            data["video_results"] = None
+    return data
+
+
+def serialize_chat_for_db(chat):
+    display = []
+    for item in chat["display"]:
+        data = {k: v for k, v in item["data"].items() if k != "smiles_image"}
+        display.append({"question": item["question"], "data": data})
+    return {"title": chat["title"], "display": display}
+
+
+def fetch_user_chats():
+    if not PERSISTENCE_ENABLED:
+        return {}
+    try:
+        res = (
+            supabase.table("chats")
+            .select("id, title, display")
+            .eq("user_email", user_email)
+            .order("updated_at")
+            .execute()
+        )
+        return {row["id"]: {"title": row["title"], "display": row["display"]} for row in res.data}
+    except Exception as e:
+        st.error(f"⚠️ Could not load saved chats: {e}")
+        return {}
+
+
+def upsert_chat(chat_id, chat):
+    if not PERSISTENCE_ENABLED:
+        return
+    try:
+        supabase.table("chats").upsert({
+            "id": chat_id,
+            "user_email": user_email,
+            "title": chat["title"],
+            "display": serialize_chat_for_db(chat)["display"],
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+        }).execute()
+    except Exception as e:
+        st.error(f"⚠️ Could not save chat: {e}")
+
+
+def delete_chat_row(chat_id):
+    if not PERSISTENCE_ENABLED:
+        return
+    try:
+        supabase.table("chats").delete().eq("id", chat_id).execute()
+    except Exception as e:
+        st.error(f"⚠️ Could not delete chat from storage: {e}")
+
 
 SYSTEM_PROMPT_TEXT = """
 You are a chemistry helper. For every question, respond ONLY in valid JSON 
@@ -84,38 +221,6 @@ SYLLABUS = {
     "Undergraduate": ["Quantum Chemistry", "Spectroscopy", "Thermodynamics & Statistical Mechanics", "Organic Reaction Mechanisms", "Inorganic Coordination Chemistry", "Analytical Chemistry", "Physical Chemistry - Kinetics", "Electrochemistry (Advanced)", "Polymer Chemistry"],
     "Others": ["General"]
 }
-
-# ---------------- Chat Persistence ----------------
-CHATS_FILE = "data/chats.json"
-
-def load_chats():
-    if os.path.exists(CHATS_FILE):
-        try:
-            with open(CHATS_FILE, "r") as f:
-                content = f.read().strip()
-                if content:
-                    return json.loads(content)
-        except Exception:
-            pass
-    return {}
-
-def save_chats():
-    try:
-        saveable = {}
-        for chat_id, chat in st.session_state.chats.items():
-            saveable[chat_id] = {
-                "title": chat["title"],
-                "display": chat["display"]
-            }
-        temp_file = CHATS_FILE + ".tmp"
-        with open(temp_file, "w") as f:
-            json.dump(saveable, f, indent=2)
-        os.replace(temp_file, CHATS_FILE)
-    except Exception as e:
-        st.error(f"⚠️ Could not save chats: {e}")
-
-# ---------------- Page Config ----------------
-st.set_page_config(page_title="Chemistry Tutor", layout="wide")
 
 st.markdown("""
 <style>
@@ -222,11 +327,21 @@ def highlight_text(text):
     return text
 
 # ---------------- Multi-Chat Session State ----------------
+# Chats always live in st.session_state (per-browser-session) so one student can
+# never see another student's chats mid-session. When signed in with Supabase
+# configured, they're additionally loaded from / saved to per-user DB rows so
+# they survive refreshes, restarts, and return visits.
+def make_empty_chat():
+    return {"title": "New Chat", "messages": [SystemMessage(content=SYSTEM_PROMPT_TEXT)], "display": []}
+
+
 if "chats" not in st.session_state:
-    saved = load_chats()
+    saved = fetch_user_chats()
     if saved:
         st.session_state.chats = {}
         for chat_id, chat in saved.items():
+            for item in chat["display"]:
+                enrich_visual_data(item["data"])
             st.session_state.chats[chat_id] = {
                 "title": chat["title"],
                 "display": chat["display"],
@@ -235,13 +350,36 @@ if "chats" not in st.session_state:
         st.session_state.active_chat = list(saved.keys())[-1]
     else:
         first_id = str(uuid.uuid4())
-        st.session_state.chats = {
-            first_id: {"title": "New Chat", "messages": [SystemMessage(content=SYSTEM_PROMPT_TEXT)], "display": []}
-        }
+        st.session_state.chats = {first_id: make_empty_chat()}
         st.session_state.active_chat = first_id
+
+
+def build_chat_export(chat):
+    lines = [f"# {chat['title']}\n"]
+    for item in chat["display"]:
+        lines.append(f"## Q: {item['question']}\n")
+        data = item["data"]
+        if data.get("question_type") == "refused":
+            lines.append(data.get("concept_explanation", ""))
+        else:
+            lines.append(data.get("concept_explanation", ""))
+            if data.get("formula"):
+                lines.append(f"\nFormula: {data['formula']}")
+            for i, step in enumerate(data.get("worked_solution") or data.get("steps") or [], 1):
+                lines.append(f"{i}. {step}")
+            if data.get("final_answer"):
+                lines.append(f"\nFinal Answer: {data['final_answer']}")
+        lines.append("\n")
+    return "\n".join(lines)
 
 # ---------------- Sidebar ----------------
 with st.sidebar:
+    if AUTH_CONFIGURED:
+        st.caption(f"Signed in as {user_email}")
+        if st.button("Sign out"):
+            st.logout()
+        st.divider()
+
     st.header("⚙️ Settings")
     school_class = st.selectbox("Class / Grade", list(SYLLABUS.keys()))
     class_topics = SYLLABUS.get(school_class, ["General"])
@@ -268,13 +406,9 @@ with st.sidebar:
             st.warning("You have unused empty chats. Use one before creating a new one.")
         else:
             new_id = str(uuid.uuid4())
-            st.session_state.chats[new_id] = {
-                "title": "New Chat",
-                "messages": [SystemMessage(content=SYSTEM_PROMPT_TEXT)],
-                "display": []
-            }
+            st.session_state.chats[new_id] = make_empty_chat()
             st.session_state.active_chat = new_id
-            save_chats()
+            upsert_chat(new_id, st.session_state.chats[new_id])
             st.rerun()
 
     st.header("💬 Your Chats")
@@ -290,19 +424,16 @@ with st.sidebar:
         with col2:
             if st.button("🗑️", key=f"delete_{chat_id}"):
                 del st.session_state.chats[chat_id]
+                delete_chat_row(chat_id)
                 if st.session_state.active_chat == chat_id:
                     remaining = list(st.session_state.chats.keys())
                     if remaining:
                         st.session_state.active_chat = remaining[-1]
                     else:
                         new_id = str(uuid.uuid4())
-                        st.session_state.chats[new_id] = {
-                            "title": "New Chat",
-                            "messages": [SystemMessage(content=SYSTEM_PROMPT_TEXT)],
-                            "display": []
-                        }
+                        st.session_state.chats[new_id] = make_empty_chat()
                         st.session_state.active_chat = new_id
-                save_chats()
+                        upsert_chat(new_id, st.session_state.chats[new_id])
                 st.rerun()
 
 # ---------------- Active Chat ----------------
@@ -310,6 +441,14 @@ active_chat = st.session_state.chats[st.session_state.active_chat]
 
 st.title("🧪 Chemistry Tutor")
 st.caption(f"Class: {school_class} | Topic: {topic_filter} | Chat: {active_chat['title']}")
+
+if active_chat["display"]:
+    st.download_button(
+        "⬇️ Download this chat",
+        data=build_chat_export(active_chat),
+        file_name=f"{active_chat['title'][:40] or 'chat'}.md",
+        mime="text/markdown",
+    )
 
 for item in active_chat["display"]:
     with st.chat_message("user"):
@@ -357,31 +496,23 @@ for item in active_chat["display"]:
             elif vtype == "particle" and data.get("particle_data"):
                 components.html(build_particle_html(data["particle_data"]), height=300)
 
-            smiles = data.get("main_compound_smiles", "")
-            if smiles:
-                try:
-                    mol = Chem.MolFromSmiles(smiles)
-                    if mol:
-                        img = Draw.MolToImage(mol, size=(350, 350))
-                        st.image(img, caption=smiles)
-                except Exception:
-                    pass
+            smiles_image = data.get("smiles_image")
+            if smiles_image is not None:
+                st.image(smiles_image, caption=data.get("main_compound_smiles", ""))
 
-            query = data.get("youtube_search_query", "")
-            if query:
+            if data.get("youtube_search_query"):
                 st.markdown("**🎥 Reference Videos:**")
-                try:
-                    results = YoutubeSearch(query, max_results=3).to_dict()
-                    if results:
-                        cols = st.columns(len(results))
-                        for col, vid in zip(cols, results):
-                            with col:
-                                st.video(f"https://www.youtube.com/watch?v={vid['id']}")
-                                st.caption(vid.get("title", "")[:50])
-                    else:
-                        st.write("No videos found for this topic.")
-                except Exception as e:
-                    st.write(f"Error fetching videos: {e}")
+                results = data.get("video_results")
+                if results:
+                    cols = st.columns(len(results))
+                    for col, vid in zip(cols, results):
+                        with col:
+                            st.video(f"https://www.youtube.com/watch?v={vid['id']}")
+                            st.caption(vid.get("title", "")[:50])
+                elif results == []:
+                    st.write("No videos found for this topic.")
+                else:
+                    st.write("Could not fetch reference videos.")
 
 # ---------------- Chat Input ----------------
 user_input = st.chat_input("Ask a chemistry question...")
@@ -394,11 +525,24 @@ if user_input:
         st.warning("⚠️ Question too long. Please keep it under 500 characters.")
         st.stop()
 
+    now = time.time()
+    recent = [t for t in st.session_state.get("question_times", []) if now - t < RATE_LIMIT_WINDOW_SECONDS]
+    if len(recent) >= RATE_LIMIT_MAX_QUESTIONS:
+        st.warning(f"⚠️ You're asking questions faster than I can keep up! Please wait a moment and try again.")
+        st.stop()
+    recent.append(now)
+    st.session_state.question_times = recent
+
     contextual_prompt = f"[Class: {school_class}, Topic focus: {topic_filter}] {user_input}"
     active_chat["messages"].append(HumanMessage(content=contextual_prompt))
 
     with st.spinner("Thinking..."):
-        response = model.invoke(active_chat["messages"])
+        try:
+            response = model.invoke(active_chat["messages"])
+        except Exception:
+            active_chat["messages"].pop()
+            st.error("⚠️ Couldn't reach the AI tutor right now. Please try again in a moment.")
+            st.stop()
 
     active_chat["messages"].append(response)
 
@@ -412,10 +556,13 @@ if user_input:
             "atom_data": {}, "particle_data": {}, "topic": ""
         }
 
+    enrich_visual_data(data)
+
     active_chat["display"].append({"question": user_input, "data": data})
 
     if active_chat["title"] == "New Chat":
         active_chat["title"] = user_input[:30] + ("..." if len(user_input) > 30 else "")
 
-    save_chats()
+    upsert_chat(st.session_state.active_chat, active_chat)
+
     st.rerun()
