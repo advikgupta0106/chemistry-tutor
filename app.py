@@ -10,8 +10,12 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import SystemMessage, HumanMessage
 
-from rdkit import Chem
-from rdkit.Chem import Draw
+try:
+    from rdkit import Chem
+    from rdkit.Chem import Draw
+    RDKIT_AVAILABLE = True
+except ImportError:
+    RDKIT_AVAILABLE = False
 
 from youtube_search import YoutubeSearch
 
@@ -98,7 +102,7 @@ def enrich_visual_data(data):
     """Compute the SMILES image / YouTube results once, whether the answer was
     just generated or is being hydrated from storage on load."""
     smiles = data.get("main_compound_smiles", "")
-    if smiles and "smiles_image" not in data:
+    if smiles and RDKIT_AVAILABLE and "smiles_image" not in data:
         try:
             mol = Chem.MolFromSmiles(smiles)
             if mol:
