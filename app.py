@@ -65,7 +65,8 @@ AUTH_CONFIGURED = auth_configured()
 
 if AUTH_CONFIGURED:
     if not st.user.is_logged_in:
-        st.title("🧪 Chemistry Tutor")
+        st.title("Chemistry Tutor")
+        st.caption("Exam-ready chemistry answers for CBSE Class XI–XII")
         st.write("Sign in with Google to save and access your chat history across visits.")
         st.button("Sign in with Google", on_click=st.login)
         st.stop()
@@ -171,9 +172,11 @@ with this exact structure, nothing else (no markdown, no backticks):
   "topic": "Short topic name",
   "question_type": "concept" or "calculation" or "experiment" or "refused",
   "visual_type": "beaker" or "atom" or "particle" or "none",
-  "concept_explanation": "Clear explanation of the fundamental concept",
-  "steps": ["Step 1...", "Step 2...", "Step 3..."],
-  "observations": "What you would observe (only relevant for experiment type, else empty string)",
+  "balanced_equation": "Balanced chemical equation if a reaction is involved, else empty string",
+  "reaction_type": "Type of reaction if applicable, e.g. displacement, redox, acid-base, combination, decomposition, else empty string",
+  "observation": "What you would observe, else empty string if not applicable",
+  "explanation": "Clear, exam-ready explanation of the concept or reaction",
+  "application": "A real-world application or relevance of this concept/reaction",
   "formula": "Relevant formula if calculation type, else empty string",
   "worked_solution": ["Line 1 of working...", "Line 2..."],
   "final_answer": "Final numeric/symbolic answer if calculation type, else empty string",
@@ -203,9 +206,10 @@ Rules:
   * Undergraduate: University level — molecular orbital theory, spectroscopy, statistical thermodynamics, advanced organic mechanisms
   * Never simplify a Class 11 or 12 answer to Class 9 level. Never overwhelm a Class 9 student with Class 11 concepts.
 - Always give comprehensive, exam-ready answers. Never truncate explanations. For Class 11 and 12, answers should be detailed enough that a student could use them directly as study notes without needing any other source. Include all relevant exceptions, examples, and applications.
-- If the question is NOT related to chemistry, set question_type to "refused" and explain politely in concept_explanation that you only answer chemistry questions. Leave all other fields empty.
-- If the question involves making dangerous substances, illegal activities, or could cause harm to anyone, set question_type to "refused" and explain in concept_explanation that you cannot help with this. Leave all other fields empty.
-- question_type "experiment": fill beaker_stages (3-5 stages) and observations, use visual_type "beaker".
+- Always fill balanced_equation, reaction_type, observation, explanation, and application for every non-refused question. Use an empty string for any of these that genuinely don't apply (e.g. a purely definitional question may have an empty balanced_equation/reaction_type), but explanation and application should almost always be filled.
+- If the question is NOT related to chemistry, set question_type to "refused" and explain politely in explanation that you only answer chemistry questions. Leave all other fields empty.
+- If the question involves making dangerous substances, illegal activities, or could cause harm to anyone, set question_type to "refused" and explain in explanation that you cannot help with this. Leave all other fields empty.
+- question_type "experiment": fill beaker_stages (3-5 stages), use visual_type "beaker".
 - question_type "concept" about atomic structure: use visual_type "atom" and fill atom_data.
 - question_type about gases/kinetic theory/states of matter: use visual_type "particle" and fill particle_data.
 - question_type "calculation": fill formula, worked_solution (step by step), final_answer. Use visual_type "none" unless a visual genuinely helps.
@@ -224,17 +228,12 @@ SYLLABUS = {
 
 st.markdown("""
 <style>
-.stApp { background: #0d0d0d; color: #ececec; }
-section[data-testid="stSidebar"] { background: #111111; border-right: 1px solid #222222; }
-.stChatMessage { background: #1a1a1a; border-radius: 14px; padding: 10px; }
-h1, h2, h3 { color: #ffffff; }
-.stButton button { border-radius: 10px; border: 1px solid #444444; color: #ececec; background: transparent; }
-.stButton button:hover { background: #222222; color: #ffffff; }
+.stChatMessage { background: #F1F3F4; border-radius: 14px; padding: 10px; }
 .badge { display:inline-block; padding:3px 10px; border-radius:20px; font-size:12px; font-weight:600; margin-bottom:8px; }
-.badge-concept { background:#1a3a5c; color:#7eb8f7; }
-.badge-calculation { background:#3a2a00; color:#fcd34d; }
-.badge-experiment { background:#0a2a1a; color:#6ee7b7; }
-.badge-refused { background:#2a0a0a; color:#fda4af; }
+.badge-concept { background:#E3F2FD; color:#1565C0; }
+.badge-calculation { background:#FFF8E1; color:#F57F17; }
+.badge-experiment { background:#E8F5E9; color:#2E7D32; }
+.badge-refused { background:#FFEBEE; color:#C62828; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -322,7 +321,7 @@ def highlight_text(text):
         if term in text:
             text = text.replace(
                 term,
-                f'<span style="background:#1a2a1a; color:#86efac; padding:1px 4px; border-radius:3px; font-weight:500;">{term}</span>'
+                f'<span style="background:#E8F5E9; color:#1B5E20; padding:1px 4px; border-radius:3px; font-weight:500;">{term}</span>'
             )
     return text
 
@@ -360,12 +359,20 @@ def build_chat_export(chat):
         lines.append(f"## Q: {item['question']}\n")
         data = item["data"]
         if data.get("question_type") == "refused":
-            lines.append(data.get("concept_explanation", ""))
+            lines.append(data.get("explanation", ""))
         else:
-            lines.append(data.get("concept_explanation", ""))
+            if data.get("balanced_equation"):
+                lines.append(f"Balanced Equation: {data['balanced_equation']}")
+            if data.get("reaction_type"):
+                lines.append(f"Reaction Type: {data['reaction_type']}")
+            if data.get("observation"):
+                lines.append(f"Observation: {data['observation']}")
+            lines.append(f"\nExplanation: {data.get('explanation', '')}")
+            if data.get("application"):
+                lines.append(f"\nApplication: {data['application']}")
             if data.get("formula"):
                 lines.append(f"\nFormula: {data['formula']}")
-            for i, step in enumerate(data.get("worked_solution") or data.get("steps") or [], 1):
+            for i, step in enumerate(data.get("worked_solution") or [], 1):
                 lines.append(f"{i}. {step}")
             if data.get("final_answer"):
                 lines.append(f"\nFinal Answer: {data['final_answer']}")
@@ -439,7 +446,8 @@ with st.sidebar:
 # ---------------- Active Chat ----------------
 active_chat = st.session_state.chats[st.session_state.active_chat]
 
-st.title("🧪 Chemistry Tutor")
+st.title("Chemistry Tutor")
+st.caption("Exam-ready chemistry answers for CBSE Class XI–XII")
 st.caption(f"Class: {school_class} | Topic: {topic_filter} | Chat: {active_chat['title']}")
 
 if active_chat["display"]:
@@ -449,6 +457,19 @@ if active_chat["display"]:
         file_name=f"{active_chat['title'][:40] or 'chat'}.md",
         mime="text/markdown",
     )
+else:
+    st.write("Try an example question:")
+    example_questions = [
+        "What happens when Zn reacts with dilute H2SO4?",
+        "Why is respiration exothermic?",
+        "What happens when AgNO3 reacts with NaCl?",
+    ]
+    example_cols = st.columns(3)
+    for col, example_q in zip(example_cols, example_questions):
+        with col:
+            if st.button(example_q, use_container_width=True):
+                st.session_state.pending_question = example_q
+                st.rerun()
 
 for item in active_chat["display"]:
     with st.chat_message("user"):
@@ -462,32 +483,38 @@ for item in active_chat["display"]:
         st.markdown(f'<span class="badge {badge_class}">{qtype.upper()}</span>', unsafe_allow_html=True)
 
         if qtype == "refused":
-            st.warning(f"🚫 {data.get('concept_explanation', 'I can only answer chemistry questions.')}")
+            st.warning(f"🚫 {data.get('explanation', 'I can only answer chemistry questions.')}")
         else:
-            # Highlighted explanation
-            explanation = data.get('concept_explanation', '')
-            st.markdown("**📖 Explanation:**")
-            st.markdown(highlight_text(explanation), unsafe_allow_html=True)
+            with st.container():
+                st.subheader("Balanced Equation")
+                st.write(data.get("balanced_equation") or "Not applicable for this question.")
+
+            with st.container():
+                st.subheader("Reaction Type")
+                st.write(data.get("reaction_type") or "Not applicable for this question.")
+
+            with st.container():
+                st.subheader("What You'd Observe")
+                st.markdown(highlight_text(data.get("observation") or "Not applicable for this question."), unsafe_allow_html=True)
+
+            with st.container():
+                st.subheader("Explanation")
+                st.markdown(highlight_text(data.get("explanation", "")), unsafe_allow_html=True)
+
+            with st.container():
+                st.subheader("Real-World Application")
+                st.markdown(highlight_text(data.get("application") or "Not applicable for this question."), unsafe_allow_html=True)
 
             if qtype == "calculation":
                 if data.get("formula"):
-                    st.markdown(f"**🧮 Formula:** `{data.get('formula')}`")
+                    st.markdown(f"**Formula:** `{data.get('formula')}`")
                 ws = data.get("worked_solution", [])
                 if ws:
-                    st.markdown("**✏️ Worked Solution:**")
+                    st.markdown("**Worked Solution:**")
                     for i, line in enumerate(ws, 1):
                         st.write(f"{i}. {line}")
                 if data.get("final_answer"):
                     st.success(f"**Final Answer:** {data.get('final_answer')}")
-            else:
-                steps = data.get("steps", [])
-                if steps:
-                    st.markdown("**🧫 Steps:**")
-                    for i, step in enumerate(steps, 1):
-                        st.markdown(highlight_text(f"{i}. {step}"), unsafe_allow_html=True)
-                if data.get("observations"):
-                    st.markdown("**👀 Observations:**")
-                    st.markdown(highlight_text(data.get('observations', '')), unsafe_allow_html=True)
 
             if vtype == "beaker" and data.get("beaker_stages"):
                 components.html(build_beaker_html(data["beaker_stages"]), height=440)
@@ -516,9 +543,13 @@ for item in active_chat["display"]:
 
 # ---------------- Chat Input ----------------
 user_input = st.chat_input("Ask a chemistry question...")
+pending_question = st.session_state.pop("pending_question", None)
+if pending_question:
+    user_input = pending_question
 
 if user_input:
     if not user_input.strip():
+        st.warning("Please enter a question before submitting.")
         st.stop()
 
     if len(user_input) > 500:
@@ -541,7 +572,7 @@ if user_input:
             response = model.invoke(active_chat["messages"])
         except Exception:
             active_chat["messages"].pop()
-            st.error("⚠️ Couldn't reach the AI tutor right now. Please try again in a moment.")
+            st.error("Something went wrong. Please try again.")
             st.stop()
 
     active_chat["messages"].append(response)
@@ -550,8 +581,9 @@ if user_input:
         data = json.loads(response.content)
     except json.JSONDecodeError:
         data = {
-            "concept_explanation": response.content, "question_type": "concept", "visual_type": "none",
-            "steps": [], "observations": "", "formula": "", "worked_solution": [], "final_answer": "",
+            "explanation": response.content, "question_type": "concept", "visual_type": "none",
+            "balanced_equation": "", "reaction_type": "", "observation": "", "application": "",
+            "formula": "", "worked_solution": [], "final_answer": "",
             "main_compound_smiles": "", "youtube_search_query": "", "beaker_stages": [],
             "atom_data": {}, "particle_data": {}, "topic": ""
         }
