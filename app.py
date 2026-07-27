@@ -571,22 +571,20 @@ if user_input:
     contextual_prompt = f"[Class: {school_class}, Topic focus: {topic_filter}] {user_input}"
     active_chat["messages"].append(HumanMessage(content=contextual_prompt))
 
-    with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
-            try:
-                stream = model.stream(active_chat["messages"])
-                first_chunk = next(stream)
-            except Exception:
-                active_chat["messages"].pop()
-                st.error("Something went wrong. Please try again.")
-                st.stop()
+    with st.spinner("Thinking..."):
+        try:
+            stream = model.stream(active_chat["messages"])
+            first_chunk = next(stream)
+        except Exception:
+            active_chat["messages"].pop()
+            st.error("Something went wrong. Please try again.")
+            st.stop()
 
-        def token_stream():
-            yield first_chunk.content
-            for chunk in stream:
-                yield chunk.content
-
-        full_text = st.write_stream(token_stream())
+    with st.spinner("Writing answer..."):
+        chunks = [first_chunk.content]
+        for chunk in stream:
+            chunks.append(chunk.content)
+        full_text = "".join(chunks)
 
     active_chat["messages"].append(AIMessage(content=full_text))
 
