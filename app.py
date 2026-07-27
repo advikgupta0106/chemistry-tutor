@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.messages import SystemMessage, HumanMessage
+from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 
 try:
     from rdkit import Chem
@@ -571,21 +571,30 @@ if user_input:
     contextual_prompt = f"[Class: {school_class}, Topic focus: {topic_filter}] {user_input}"
     active_chat["messages"].append(HumanMessage(content=contextual_prompt))
 
-    with st.spinner("Thinking..."):
-        try:
-            response = model.invoke(active_chat["messages"])
-        except Exception:
-            active_chat["messages"].pop()
-            st.error("Something went wrong. Please try again.")
-            st.stop()
+    with st.chat_message("assistant"):
+        with st.spinner("Thinking..."):
+            try:
+                stream = model.stream(active_chat["messages"])
+                first_chunk = next(stream)
+            except Exception:
+                active_chat["messages"].pop()
+                st.error("Something went wrong. Please try again.")
+                st.stop()
 
-    active_chat["messages"].append(response)
+        def token_stream():
+            yield first_chunk.content
+            for chunk in stream:
+                yield chunk.content
+
+        full_text = st.write_stream(token_stream())
+
+    active_chat["messages"].append(AIMessage(content=full_text))
 
     try:
-        data = json.loads(response.content)
+        data = json.loads(full_text)
     except json.JSONDecodeError:
         data = {
-            "explanation": response.content, "question_type": "concept", "visual_type": "none",
+            "explanation": full_text, "question_type": "concept", "visual_type": "none",
             "balanced_equation": "", "reaction_type": "", "observation": "", "application": "",
             "formula": "", "worked_solution": [], "final_answer": "",
             "main_compound_smiles": "", "youtube_search_query": "", "beaker_stages": [],
