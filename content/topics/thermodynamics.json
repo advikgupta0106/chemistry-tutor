@@ -1,0 +1,19 @@
+{
+  "id": "thermodynamics",
+  "title": "Thermodynamics",
+  "icon": "flame",
+  "tint": "orange",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 6 },
+    { "name": "NEET", "weightage_percent": 4 }
+  ],
+  "chapters": [
+    { "id": "thermodynamic-terms", "number": 1, "title": "Thermodynamic Terms", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "internal-energy", "number": 2, "title": "Internal Energy and the First Law", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "enthalpy", "number": 3, "title": "Enthalpy and Enthalpy Change", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "hess-law", "number": 4, "title": "Hess's Law of Constant Heat Summation", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "entropy", "number": 5, "title": "Entropy and Spontaneity", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "gibbs-energy", "number": 6, "title": "Gibbs Energy Change", "summary": "", "sections": [], "estimated_minutes": 20 }
+  ]
+}

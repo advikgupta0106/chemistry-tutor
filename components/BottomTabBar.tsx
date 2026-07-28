@@ -24,14 +24,14 @@ export default function BottomTabBar() {
             <Link
               key={href}
               href={href}
-              className="flex flex-1 flex-col items-center gap-1 rounded-lg py-1.5"
+              className="flex min-w-0 flex-1 flex-col items-center gap-1 rounded-lg py-1.5"
             >
               <Icon
                 size={20}
                 strokeWidth={1.5}
                 className={active ? "text-accent" : "text-text-dim"}
               />
-              <span className={`text-[11px] ${active ? "font-medium text-accent" : "text-text-dim"}`}>
+              <span className={`truncate text-[11px] ${active ? "font-medium text-accent" : "text-text-dim"}`}>
                 {label}
               </span>
             </Link>

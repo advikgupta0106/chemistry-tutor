@@ -1,6 +1,7 @@
 {
   "id": "chemical-bonding",
-  "title": "Chemical Bonding",
+  "title": "Chemical Bonding and Molecular Structure",
+  "short_title": "Chemical Bonding",
   "icon": "bonds",
   "tint": "purple",
   "class": ["11"],

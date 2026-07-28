@@ -1,0 +1,21 @@
+{
+  "id": "some-basic-concepts",
+  "title": "Some Basic Concepts of Chemistry",
+  "icon": "flask",
+  "tint": "green",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 4 },
+    { "name": "NEET", "weightage_percent": 4 }
+  ],
+  "chapters": [
+    { "id": "importance-of-chemistry", "number": 1, "title": "Importance of Chemistry", "summary": "", "sections": [], "estimated_minutes": 10 },
+    { "id": "nature-of-matter", "number": 2, "title": "Nature of Matter", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "laws-of-chemical-combination", "number": 3, "title": "Laws of Chemical Combination", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "daltons-atomic-theory", "number": 4, "title": "Dalton's Atomic Theory", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "atomic-molecular-mass", "number": 5, "title": "Atomic and Molecular Mass", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "mole-concept", "number": 6, "title": "Mole Concept and Molar Mass", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "percentage-composition", "number": 7, "title": "Percentage Composition", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "stoichiometry", "number": 8, "title": "Stoichiometry and Stoichiometric Calculations", "summary": "", "sections": [], "estimated_minutes": 30 }
+  ]
+}

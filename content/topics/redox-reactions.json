@@ -1,0 +1,21 @@
+{
+  "id": "redox-reactions",
+  "title": "Redox Reactions",
+  "icon": "redox",
+  "tint": "red",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 4 },
+    { "name": "NEET", "weightage_percent": 3 }
+  ],
+  "chapters": [
+    { "id": "classical-idea", "number": 1, "title": "Classical Idea of Redox Reactions", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "oxidation-number", "number": 2, "title": "Oxidation Number Concept", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "balancing-redox-equations", "number": 3, "title": "Balancing Redox Equations", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "redox-in-terms-of-electrons", "number": 4, "title": "Redox Reactions as Electron Transfer", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "competitive-electron-transfer", "number": 5, "title": "Competitive Electron Transfer Reactions", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "electrode-processes", "number": 6, "title": "Electrode Processes", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "applications", "number": 7, "title": "Applications of Redox Reactions", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "quantitative-aspects", "number": 8, "title": "Quantitative Aspects of Redox Titrations", "summary": "", "sections": [], "estimated_minutes": 20 }
+  ]
+}

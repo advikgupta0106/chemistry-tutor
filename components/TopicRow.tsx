@@ -18,7 +18,7 @@ export default function TopicRow({
   return (
     <Link
       href={href}
-      className="flex items-center gap-3 rounded-2xl border border-border bg-surface p-3"
+      className="flex w-full min-w-0 items-center gap-3 rounded-2xl border border-border bg-surface p-3"
     >
       <TopicIcon icon={icon} tint={tint} />
       <div className="min-w-0 flex-1">

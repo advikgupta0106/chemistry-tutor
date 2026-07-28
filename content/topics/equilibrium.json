@@ -1,0 +1,20 @@
+{
+  "id": "equilibrium",
+  "title": "Equilibrium",
+  "icon": "scale",
+  "tint": "blue",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 5 },
+    { "name": "NEET", "weightage_percent": 4 }
+  ],
+  "chapters": [
+    { "id": "equilibrium-in-physical-processes", "number": 1, "title": "Equilibrium in Physical Processes", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "equilibrium-in-chemical-processes", "number": 2, "title": "Equilibrium in Chemical Processes", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "law-of-chemical-equilibrium", "number": 3, "title": "Law of Chemical Equilibrium and Kc", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "homogeneous-heterogeneous-equilibria", "number": 4, "title": "Homogeneous and Heterogeneous Equilibria", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "le-chatelier", "number": 5, "title": "Le Chatelier's Principle", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "ionic-equilibrium", "number": 6, "title": "Ionic Equilibrium in Solution", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "acids-bases-buffers", "number": 7, "title": "Acids, Bases and Buffer Solutions", "summary": "", "sections": [], "estimated_minutes": 25 }
+  ]
+}

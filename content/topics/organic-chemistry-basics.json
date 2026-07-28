@@ -1,0 +1,25 @@
+{
+  "id": "organic-chemistry-basics",
+  "title": "Organic Chemistry – Some Basic Principles",
+  "icon": "hexagon",
+  "tint": "green",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 6 },
+    { "name": "NEET", "weightage_percent": 5 }
+  ],
+  "chapters": [
+    { "id": "general-introduction", "number": 1, "title": "General Introduction to Organic Compounds", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "tetravalency-of-carbon", "number": 2, "title": "Tetravalency of Carbon", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "classification", "number": 3, "title": "Classification of Organic Compounds", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "nomenclature", "number": 4, "title": "IUPAC Nomenclature", "summary": "", "sections": [], "estimated_minutes": 30 },
+    { "id": "isomerism", "number": 5, "title": "Isomerism", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "fission-of-covalent-bond", "number": 6, "title": "Fission of a Covalent Bond", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "reactive-intermediates", "number": 7, "title": "Reactive Intermediates", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "electron-displacement-effects", "number": 8, "title": "Electron Displacement Effects", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "types-of-organic-reactions", "number": 9, "title": "Types of Organic Reactions", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "purification-methods", "number": 10, "title": "Methods of Purification", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "qualitative-analysis", "number": 11, "title": "Qualitative Analysis of Organic Compounds", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "quantitative-analysis", "number": 12, "title": "Quantitative Analysis of Organic Compounds", "summary": "", "sections": [], "estimated_minutes": 25 }
+  ]
+}

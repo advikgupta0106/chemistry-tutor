@@ -36,7 +36,7 @@ export default function HomePage() {
 
       <div className="mt-6">
         <ContinueLearningCard
-          title={chemicalBonding.title}
+          title={chemicalBonding.short_title ?? chemicalBonding.title}
           percent={progress.per_topic["chemical-bonding"].percent}
           href="/explore"
         />
@@ -73,7 +73,7 @@ export default function HomePage() {
             href="/explore"
             icon={chemicalBonding.icon}
             tint={chemicalBonding.tint}
-            title={chemicalBonding.title}
+            title={chemicalBonding.short_title ?? chemicalBonding.title}
             subLabel={`${chemicalBonding.chapters.length} Chapters`}
           />
         </div>

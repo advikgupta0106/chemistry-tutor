@@ -13,6 +13,7 @@ export type Chapter = {
 export type Topic = {
   id: string;
   title: string;
+  short_title?: string;
   icon: string;
   tint: "purple" | "blue" | "green" | "orange" | "red";
   class: string[];
