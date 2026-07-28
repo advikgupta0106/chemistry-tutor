@@ -1,0 +1,37 @@
+{
+  "id": "electrophilic-aromatic-substitution",
+  "title": "Electrophilic Substitution Mechanism",
+  "example": "Nitration of Benzene",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Generation of electrophile",
+      "explanation": "Concentrated nitric acid reacts with concentrated sulfuric acid. The sulfuric acid protonates nitric acid, which then loses water to generate the electrophile, the nitronium ion (NO2+).",
+      "key_point": "Sulfuric acid acts as a catalyst here — it is regenerated later in the mechanism, not consumed."
+    },
+    {
+      "number": 2,
+      "title": "Attack on aromatic ring",
+      "explanation": "The electrophile attacks the electron-rich benzene ring, forming a sigma complex.",
+      "key_point": "The aromaticity is temporarily lost in this step."
+    },
+    {
+      "number": 3,
+      "title": "Formation of arenium ion",
+      "explanation": "The sigma complex, called the arenium ion (or Wheland intermediate), is a resonance-stabilized carbocation where the positive charge is delocalized over three carbon atoms of the ring.",
+      "key_point": "The arenium ion is stabilized by resonance across three ring positions, but it is not aromatic."
+    },
+    {
+      "number": 4,
+      "title": "Deprotonation",
+      "explanation": "A base, typically the bisulfate ion (HSO4-), removes a proton from the sp3 carbon bearing the nitro group. This reforms the ring's double bond and restores aromaticity.",
+      "key_point": "Losing the proton restores the stable aromatic sextet of electrons, which makes this step strongly favored."
+    },
+    {
+      "number": 5,
+      "title": "Regeneration of catalyst",
+      "explanation": "The proton removed in the previous step combines with HSO4- to reform H2SO4, regenerating the catalyst and completing the reaction with nitrobenzene as the final product.",
+      "key_point": "Sulfuric acid is not consumed overall — it is regenerated, confirming its role as a catalyst rather than a reactant."
+    }
+  ]
+}

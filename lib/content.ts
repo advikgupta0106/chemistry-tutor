@@ -33,6 +33,20 @@ export type Molecule = {
   pubchem_cid: number;
 };
 
+export type MechanismStep = {
+  number: number;
+  title: string;
+  explanation: string;
+  key_point: string;
+};
+
+export type Mechanism = {
+  id: string;
+  title: string;
+  example: string;
+  steps: MechanismStep[];
+};
+
 export type UserProgress = {
   topics_learned: number;
   practice_score_percent: number;
@@ -61,6 +75,16 @@ export function getAllMolecules(): Molecule[] {
 
 export function getMolecule(id: string): Molecule | undefined {
   return getAllMolecules().find((m) => m.id === id);
+}
+
+export function getAllMechanisms(): Mechanism[] {
+  const mechanismsDir = path.join(CONTENT_DIR, "mechanisms");
+  const files = fs.readdirSync(mechanismsDir).filter((f) => f.endsWith(".json"));
+  return files.map((f) => JSON.parse(fs.readFileSync(path.join(mechanismsDir, f), "utf-8")));
+}
+
+export function getMechanism(id: string): Mechanism | undefined {
+  return getAllMechanisms().find((m) => m.id === id);
 }
 
 export function getUserProgress(): UserProgress {
