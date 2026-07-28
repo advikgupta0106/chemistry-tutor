@@ -12,6 +12,7 @@ import {
   RotateCcw,
   Ruler,
   ChevronRight,
+  WifiOff,
 } from "lucide-react";
 import type { Molecule } from "@/lib/content";
 import { formatFormula } from "@/lib/formatFormula";
@@ -19,6 +20,7 @@ import { formatFormula } from "@/lib/formatFormula";
 type Atom3D = { elem: string; x: number; y: number; z: number };
 
 type Viewer3D = {
+  addModel: (data: string, format: string) => void;
   setStyle: (sel: object, style: object) => void;
   zoomTo: () => void;
   zoom: (factor: number, duration?: number) => void;
@@ -33,8 +35,20 @@ type Viewer3D = {
 
 type ThreeDMol = {
   createViewer: (el: HTMLElement, config: object) => Viewer3D;
-  download: (query: string, viewer: Viewer3D, options: object, callback: () => void) => void;
 };
+
+type LoadState = "loading" | "loaded" | "error";
+
+const FETCH_TIMEOUT_MS = 10000;
+
+async function fetchSDF(cid: number, signal: AbortSignal): Promise<string> {
+  const res = await fetch(
+    `https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cid}/SDF?record_type=3d`,
+    { signal }
+  );
+  if (!res.ok) throw new Error(`PubChem returned ${res.status}`);
+  return res.text();
+}
 
 declare global {
   interface Window {
@@ -76,6 +90,9 @@ export default function MoleculeViewerClient({
   const measureFirstAtom = useRef<Atom3D | null>(null);
 
   const [scriptReady, setScriptReady] = useState(false);
+  const [scriptError, setScriptError] = useState(false);
+  const [loadState, setLoadState] = useState<LoadState>("loading");
+  const [retryCount, setRetryCount] = useState(0);
   const [viewMode, setViewMode] = useState<"3D" | "2D">("3D");
   const [style, setStyle] = useState<Style>("ballAndStick");
   const [spinning, setSpinning] = useState(false);
@@ -83,12 +100,20 @@ export default function MoleculeViewerClient({
   const [measuring, setMeasuring] = useState(false);
 
   useEffect(() => {
+    if (scriptError) {
+      setLoadState("error");
+      return;
+    }
     if (!scriptReady || viewMode !== "3D") return;
     const $3Dmol = window.$3Dmol;
     if (!$3Dmol) return;
 
     let cancelled = false;
     let rafId: number;
+    const abortController = new AbortController();
+    const timeoutId = setTimeout(() => abortController.abort(), FETCH_TIMEOUT_MS);
+
+    setLoadState("loading");
 
     function findVisibleContainer(): HTMLDivElement | null {
       const mobileWidth = mobileContainerRef.current?.getBoundingClientRect().width ?? 0;
@@ -116,29 +141,44 @@ export default function MoleculeViewerClient({
       setMeasuring(false);
       measureFirstAtom.current = null;
 
+      // A previous failed attempt (or retry) can leave a stale canvas behind
+      // in this same container, since createViewer appends rather than replaces.
+      container.innerHTML = "";
+
       const viewer = $3Dmol.createViewer(container, {
         backgroundColor: "#16141F",
       });
       viewerRef.current = viewer;
 
-      $3Dmol.download(`cid:${molecule.pubchem_cid}`, viewer, {}, () => {
-        if (cancelled) return;
-        viewer.resize();
-        viewer.setStyle({}, STYLE_SPECS[style]);
-        viewer.zoomTo();
-        viewer.render();
-      });
+      fetchSDF(molecule.pubchem_cid, abortController.signal)
+        .then((sdf) => {
+          if (cancelled) return;
+          clearTimeout(timeoutId);
+          viewer.addModel(sdf, "sdf");
+          viewer.resize();
+          viewer.setStyle({}, STYLE_SPECS[style]);
+          viewer.zoomTo();
+          viewer.render();
+          setLoadState("loaded");
+        })
+        .catch(() => {
+          if (cancelled) return;
+          clearTimeout(timeoutId);
+          setLoadState("error");
+        });
     }
 
     start(0);
 
     return () => {
       cancelled = true;
+      abortController.abort();
+      clearTimeout(timeoutId);
       if (rafId) cancelAnimationFrame(rafId);
       viewerRef.current = null;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [scriptReady, molecule.id, viewMode]);
+  }, [scriptReady, scriptError, molecule.id, viewMode, retryCount]);
 
   useEffect(() => {
     const viewer = viewerRef.current;
@@ -231,16 +271,50 @@ export default function MoleculeViewerClient({
     setMeasuring(true);
   }
 
+  function handleRetry() {
+    if (scriptError) {
+      window.location.reload();
+      return;
+    }
+    setLoadState("loading");
+    setRetryCount((c) => c + 1);
+  }
+
   function renderCanvasArea(ref: React.RefObject<HTMLDivElement | null>) {
-    return viewMode === "3D" ? (
-      <div ref={ref} className="relative h-full w-full" />
-    ) : (
-      // eslint-disable-next-line @next/next/no-img-element
-      <img
-        src={pubchem2DImageUrl(molecule.pubchem_cid)}
-        alt={`${molecule.name} 2D structure`}
-        className="h-full w-full object-contain p-6"
-      />
+    if (viewMode === "2D") {
+      return (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={pubchem2DImageUrl(molecule.pubchem_cid)}
+          alt={`${molecule.name} 2D structure`}
+          className="h-full w-full object-contain p-6"
+        />
+      );
+    }
+
+    return (
+      <div className="relative h-full w-full">
+        <div ref={ref} className="h-full w-full" />
+        {loadState === "loading" && (
+          <div className="absolute inset-0 flex items-center justify-center bg-surface">
+            <div className="h-8 w-8 animate-spin rounded-full border-2 border-border border-t-accent" />
+          </div>
+        )}
+        {loadState === "error" && (
+          <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-surface px-8 text-center">
+            <WifiOff size={28} strokeWidth={1.5} className="text-text-dim" />
+            <p className="text-sm text-text-dim">
+              Couldn&apos;t load the 3D structure. Check your connection and try again.
+            </p>
+            <button
+              onClick={handleRetry}
+              className="rounded-lg bg-accent px-4 py-2 text-xs font-semibold text-white"
+            >
+              Retry
+            </button>
+          </div>
+        )}
+      </div>
     );
   }
 
@@ -250,6 +324,7 @@ export default function MoleculeViewerClient({
         src="https://cdn.jsdelivr.net/npm/3dmol@2/build/3Dmol-min.js"
         strategy="afterInteractive"
         onReady={() => setScriptReady(true)}
+        onError={() => setScriptError(true)}
       />
 
       <div className="mx-auto max-w-md px-6 pb-10 pt-8 md:hidden">
