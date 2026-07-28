@@ -1,0 +1,11 @@
+{
+  "id": "phenol",
+  "name": "Phenol",
+  "formula": "C6H6O",
+  "molar_mass": 94.11,
+  "type": "Aromatic Alcohol",
+  "hybridization": "sp2",
+  "bond_angle": "120°",
+  "about": "Phenol is an aromatic compound with a hydroxyl group attached directly to the benzene ring.",
+  "pubchem_cid": 996
+}

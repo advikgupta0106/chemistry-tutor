@@ -1,0 +1,11 @@
+{
+  "id": "methane",
+  "name": "Methane",
+  "formula": "CH4",
+  "molar_mass": 16.04,
+  "type": "Alkane",
+  "hybridization": "sp3",
+  "bond_angle": "109.5°",
+  "about": "Methane is the simplest alkane and the main component of natural gas.",
+  "pubchem_cid": 297
+}

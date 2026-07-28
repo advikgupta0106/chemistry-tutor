@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { solveReaction, type SolveResult } from "@/lib/solver";
+import { formatFormula } from "@/lib/formatFormula";
 
 const TABS = ["Solve", "Balance", "Predict"] as const;
 type Tab = (typeof TABS)[number];
@@ -80,7 +81,7 @@ export default function SolveClient() {
                   Answer
                 </p>
                 <div className="rounded-xl bg-surface-2 px-4 py-3 text-sm text-text">
-                  {result.answer}
+                  {formatFormula(result.answer)}
                 </div>
               </div>
 

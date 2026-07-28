@@ -1,0 +1,11 @@
+{
+  "id": "aniline",
+  "name": "Aniline",
+  "formula": "C6H7N",
+  "molar_mass": 93.13,
+  "type": "Aromatic Amine",
+  "hybridization": "sp2",
+  "bond_angle": "120°",
+  "about": "Aniline is an aromatic amine used as a precursor in dye and polymer manufacturing.",
+  "pubchem_cid": 6115
+}

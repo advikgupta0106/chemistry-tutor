@@ -21,6 +21,18 @@ export type Topic = {
   chapters: Chapter[];
 };
 
+export type Molecule = {
+  id: string;
+  name: string;
+  formula: string;
+  molar_mass: number;
+  type: string;
+  hybridization: string;
+  bond_angle: string;
+  about: string;
+  pubchem_cid: number;
+};
+
 export type UserProgress = {
   topics_learned: number;
   practice_score_percent: number;
@@ -39,6 +51,16 @@ export function getAllTopics(): Topic[] {
 
 export function getTopic(id: string): Topic | undefined {
   return getAllTopics().find((t) => t.id === id);
+}
+
+export function getAllMolecules(): Molecule[] {
+  const moleculesDir = path.join(CONTENT_DIR, "molecules");
+  const files = fs.readdirSync(moleculesDir).filter((f) => f.endsWith(".json"));
+  return files.map((f) => JSON.parse(fs.readFileSync(path.join(moleculesDir, f), "utf-8")));
+}
+
+export function getMolecule(id: string): Molecule | undefined {
+  return getAllMolecules().find((m) => m.id === id);
 }
 
 export function getUserProgress(): UserProgress {

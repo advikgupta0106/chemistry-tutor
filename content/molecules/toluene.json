@@ -1,0 +1,11 @@
+{
+  "id": "toluene",
+  "name": "Toluene",
+  "formula": "C7H8",
+  "molar_mass": 92.14,
+  "type": "Aromatic Hydrocarbon",
+  "hybridization": "sp2",
+  "bond_angle": "120°",
+  "about": "Toluene is a methylbenzene used widely as an industrial solvent.",
+  "pubchem_cid": 1140
+}

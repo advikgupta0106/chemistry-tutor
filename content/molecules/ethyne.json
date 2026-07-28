@@ -1,0 +1,11 @@
+{
+  "id": "ethyne",
+  "name": "Ethyne",
+  "formula": "C2H2",
+  "molar_mass": 26.04,
+  "type": "Alkyne",
+  "hybridization": "sp",
+  "bond_angle": "180°",
+  "about": "Ethyne, commonly known as acetylene, is the simplest alkyne with a linear triple-bonded structure.",
+  "pubchem_cid": 6326
+}

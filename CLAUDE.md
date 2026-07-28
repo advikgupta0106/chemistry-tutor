@@ -72,7 +72,10 @@ Shape & feel:
   components.
 - All solver calls go to the FastAPI backend — no chemistry logic in the
   frontend.
-- Formulas always with proper sub/superscripts.
+- Formulas always with proper sub/superscripts. Students type plain text
+  (e.g. "CH3COOH + NaOH") — the app must accept that as-is and render
+  subscripts itself (see `lib/formatFormula.ts`); never require the user to
+  type special characters.
 - Keyboard focus visible; respect prefers-reduced-motion.
 - Copy style: plain, short, active voice ("Solve", "Continue", "Practice
   Quiz"); sentence case everywhere except brand name.

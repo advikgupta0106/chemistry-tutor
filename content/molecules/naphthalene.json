@@ -1,0 +1,11 @@
+{
+  "id": "naphthalene",
+  "name": "Naphthalene",
+  "formula": "C10H8",
+  "molar_mass": 128.17,
+  "type": "Aromatic Hydrocarbon",
+  "hybridization": "sp2",
+  "bond_angle": "120°",
+  "about": "Naphthalene is a fused bicyclic aromatic hydrocarbon, the main ingredient in traditional mothballs.",
+  "pubchem_cid": 931
+}

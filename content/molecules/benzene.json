@@ -1,0 +1,11 @@
+{
+  "id": "benzene",
+  "name": "Benzene",
+  "formula": "C6H6",
+  "molar_mass": 78.11,
+  "type": "Aromatic Hydrocarbon",
+  "hybridization": "sp2",
+  "bond_angle": "120°",
+  "about": "Benzene is a cyclic aromatic hydrocarbon with a planar structure.",
+  "pubchem_cid": 241
+}
