@@ -1,6 +1,6 @@
 .env
-data/chats.json
+old-streamlit/data/chats.json
 __pycache__/
 *.pyc
 .vscode/
-.streamlit/secrets.toml
+old-streamlit/.streamlit/secrets.toml
