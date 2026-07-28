@@ -8,7 +8,7 @@ import { getTopic, getUserProgress, relativeStudyLabel } from "@/lib/content";
 export default function HomePage() {
   const progress = getUserProgress();
   const chemicalBonding = getTopic("chemical-bonding")!;
-  const atomicStructure = getTopic("atomic-structure")!;
+  const structureOfAtom = getTopic("structure-of-atom")!;
   const periodicTable = getTopic("periodic-table")!;
 
   return (
@@ -57,10 +57,10 @@ export default function HomePage() {
         <div className="flex flex-col gap-2.5">
           <TopicRow
             href="/explore"
-            icon={atomicStructure.icon}
-            tint={atomicStructure.tint}
-            title={atomicStructure.title}
-            subLabel={`${atomicStructure.chapters.length} Chapters`}
+            icon={structureOfAtom.icon}
+            tint={structureOfAtom.tint}
+            title={structureOfAtom.title}
+            subLabel={`${structureOfAtom.chapters.length} Chapters`}
           />
           <TopicRow
             href="/explore"

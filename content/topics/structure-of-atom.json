@@ -9,14 +9,15 @@
     { "name": "NEET", "weightage_percent": 3 }
   ],
   "chapters": [
-    { "id": "subatomic-particles", "number": 1, "title": "Discovery of Subatomic Particles", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "atomic-models", "number": 2, "title": "Atomic Models", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "bohr-model", "number": 3, "title": "Bohr's Model of the Atom", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "quantum-mechanical-model", "number": 4, "title": "Quantum Mechanical Model of Atom", "summary": "", "sections": [], "estimated_minutes": 30 },
-    { "id": "quantum-numbers", "number": 5, "title": "Quantum Numbers", "summary": "", "sections": [], "estimated_minutes": 30 },
-    { "id": "shapes-of-orbitals", "number": 6, "title": "Shapes of Atomic Orbitals", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "filling-rules", "number": 7, "title": "Aufbau, Pauli and Hund's Rule", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "electronic-configuration", "number": 8, "title": "Electronic Configuration of Atoms", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "stability-of-configurations", "number": 9, "title": "Stability of Half and Fully Filled Orbitals", "summary": "", "sections": [], "estimated_minutes": 15 }
+    { "id": "subatomic-particles", "number": 1, "title": "Discovery of Electron, Proton and Neutron", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "atomic-models", "number": 2, "title": "Atomic Models: Thomson and Rutherford", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "atomic-mass-isotopes", "number": 3, "title": "Atomic Number, Mass Number, Isotopes and Isobars", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "developments-leading-to-bohr", "number": 4, "title": "Developments Leading to Bohr's Model (Wave Nature of Light, Photoelectric Effect, Line Spectra)", "summary": "", "sections": [], "estimated_minutes": 30 },
+    { "id": "bohr-model", "number": 5, "title": "Bohr's Model of the Hydrogen Atom", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "towards-quantum-mechanical-model", "number": 6, "title": "Towards a Quantum Mechanical Model (de Broglie, Heisenberg Uncertainty Principle)", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "quantum-mechanical-model", "number": 7, "title": "Quantum Mechanical Model of the Atom", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "quantum-numbers", "number": 8, "title": "Orbitals and Quantum Numbers", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "shapes-of-orbitals", "number": 9, "title": "Shapes of Atomic Orbitals", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "electronic-configuration", "number": 10, "title": "Electronic Configuration: Aufbau, Pauli, Hund's Rule and Stability of Filled/Half-filled Orbitals", "summary": "", "sections": [], "estimated_minutes": 25 }
   ]
 }
