@@ -1,0 +1,88 @@
+{
+  "_readme": "Organize ALL app content in this shape. One file per topic in /content/topics/. Claude Code should migrate the existing Streamlit content into this format. This structure is what makes the app feel 'organised' — every topic knows its class, exam relevance, chapters, and questions.",
+
+  "topic": {
+    "id": "chemical-bonding",
+    "title": "Chemical Bonding and Molecular Structure",
+    "icon": "bonds",
+    "tint": "purple",
+    "class": ["11"],
+    "exams": [
+      { "name": "JEE", "weightage_percent": 5 },
+      { "name": "NEET", "weightage_percent": 4 }
+    ],
+    "chapters": [
+      {
+        "id": "hybridization",
+        "number": 5,
+        "title": "Hybridization",
+        "summary": "One-paragraph plain-language overview shown at the top of the chapter.",
+        "sections": [
+          {
+            "heading": "What is hybridization?",
+            "body": "Markdown text. Formulas written as CH~3~COOH style or LaTeX, rendered with proper subscripts.",
+            "molecule_ids": ["methane", "benzene"],
+            "key_point": "Optional one-line callout shown in a highlighted card."
+          }
+        ],
+        "estimated_minutes": 25
+      }
+    ]
+  },
+
+  "molecule": {
+    "id": "benzene",
+    "name": "Benzene",
+    "formula": "C6H6",
+    "molar_mass": 78.11,
+    "type": "Aromatic Hydrocarbon",
+    "hybridization": "sp2",
+    "bond_angle": "120°",
+    "about": "Benzene is a cyclic aromatic hydrocarbon with a planar structure.",
+    "structure_source": "pubchem_cid or embedded SDF/mol block for 3Dmol.js"
+  },
+
+  "reaction": {
+    "id": "acetic-acid-bicarbonate",
+    "equation": "CH3COOH + NaHCO3 -> CH3COONa + H2O + CO2",
+    "type": "Acid-Base Reaction",
+    "explanation": "Acetic acid reacts with sodium bicarbonate to form sodium acetate, water and carbon dioxide.",
+    "topics": ["equilibrium", "some-basic-concepts"]
+  },
+
+  "mechanism": {
+    "id": "electrophilic-aromatic-substitution",
+    "title": "Electrophilic Substitution Mechanism",
+    "example": "Nitration of Benzene",
+    "steps": [
+      {
+        "number": 2,
+        "title": "Attack on aromatic ring",
+        "explanation": "The electrophile attacks the electron-rich benzene ring, forming a sigma complex.",
+        "key_point": "The aromaticity is temporarily lost in this step."
+      }
+    ]
+  },
+
+  "question": {
+    "id": "cb-hyb-014",
+    "topic_id": "chemical-bonding",
+    "chapter_id": "hybridization",
+    "difficulty": "medium",
+    "exams": ["JEE"],
+    "prompt": "What is the hybridization of carbon in ethyne (C2H2)?",
+    "options": ["sp", "sp2", "sp3", "sp3d"],
+    "answer_index": 0,
+    "explanation": "Each carbon in ethyne forms 2 sigma bonds and 2 pi bonds, so it is sp hybridized.",
+    "source": "NCERT Class 11, Ch 4"
+  },
+
+  "user_progress_shape": {
+    "_note": "Stored per user (backend or local). Drives the dashboard stats.",
+    "topics_learned": 56,
+    "practice_score_percent": 85,
+    "reactions_solved": 128,
+    "study_streak_days": 12,
+    "per_topic": { "chemical-bonding": { "percent": 67, "last_studied": "2026-07-27" } }
+  }
+}
