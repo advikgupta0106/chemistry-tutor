@@ -1,0 +1,41 @@
+{
+  "id": "chemical-bonding",
+  "title": "Chemical Bonding",
+  "icon": "bonds",
+  "tint": "purple",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 5 },
+    { "name": "NEET", "weightage_percent": 4 }
+  ],
+  "chapters": [
+    { "id": "kossel-lewis", "number": 1, "title": "Kossel-Lewis Approach to Bonding", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "ionic-bond", "number": 2, "title": "Ionic or Electrovalent Bond", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "covalent-bond", "number": 3, "title": "Covalent Bond", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "bond-parameters", "number": 4, "title": "Bond Parameters", "summary": "", "sections": [], "estimated_minutes": 15 },
+    {
+      "id": "hybridization",
+      "number": 5,
+      "title": "Hybridization",
+      "summary": "One-paragraph plain-language overview shown at the top of the chapter.",
+      "sections": [
+        {
+          "heading": "What is hybridization?",
+          "body": "Markdown text. Formulas written as CH~3~COOH style or LaTeX, rendered with proper subscripts.",
+          "molecule_ids": ["methane", "benzene"],
+          "key_point": "Optional one-line callout shown in a highlighted card."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    { "id": "vsepr", "number": 6, "title": "VSEPR Theory", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "valence-bond-theory", "number": 7, "title": "Valence Bond Theory", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "resonance", "number": 8, "title": "Resonance Structures", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "polarity-of-bonds", "number": 9, "title": "Polarity of Bonds", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "molecular-orbital-theory", "number": 10, "title": "Molecular Orbital Theory", "summary": "", "sections": [], "estimated_minutes": 30 },
+    { "id": "bonding-in-molecules", "number": 11, "title": "Bonding in Some Homonuclear Molecules", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "hydrogen-bond", "number": 12, "title": "Hydrogen Bonding", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "metallic-bond", "number": 13, "title": "Metallic Bonding", "summary": "", "sections": [], "estimated_minutes": 10 },
+    { "id": "dipole-moment", "number": 14, "title": "Dipole Moment", "summary": "", "sections": [], "estimated_minutes": 15 }
+  ]
+}

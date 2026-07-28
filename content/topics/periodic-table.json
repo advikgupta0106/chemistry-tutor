@@ -1,0 +1,17 @@
+{
+  "id": "periodic-table",
+  "title": "Periodic Table",
+  "icon": "table",
+  "tint": "green",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 3 },
+    { "name": "NEET", "weightage_percent": 3 }
+  ],
+  "chapters": [
+    { "id": "periodic-law", "number": 1, "title": "Genesis of Periodic Classification", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "modern-periodic-law", "number": 2, "title": "Modern Periodic Law", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "periodic-trends", "number": 3, "title": "Periodic Trends in Properties", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "nomenclature", "number": 4, "title": "Nomenclature of Elements", "summary": "", "sections": [], "estimated_minutes": 10 }
+  ]
+}

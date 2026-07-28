@@ -1,0 +1,25 @@
+{
+  "id": "atomic-structure",
+  "title": "Atomic Structure",
+  "icon": "atom",
+  "tint": "blue",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 4 },
+    { "name": "NEET", "weightage_percent": 3 }
+  ],
+  "chapters": [
+    { "id": "discovery-of-subatomic-particles", "number": 1, "title": "Discovery of Subatomic Particles", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "atomic-models", "number": 2, "title": "Atomic Models", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "bohr-model", "number": 3, "title": "Bohr's Model of the Atom", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "quantum-numbers", "number": 4, "title": "Quantum Numbers", "summary": "", "sections": [], "estimated_minutes": 30 },
+    { "id": "shapes-of-orbitals", "number": 5, "title": "Shapes of Atomic Orbitals", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "aufbau-principle", "number": 6, "title": "Aufbau Principle", "summary": "", "sections": [], "estimated_minutes": 20 },
+    { "id": "pauli-exclusion", "number": 7, "title": "Pauli Exclusion Principle", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "hunds-rule", "number": 8, "title": "Hund's Rule of Maximum Multiplicity", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "electronic-configuration", "number": 9, "title": "Electronic Configuration of Atoms", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "stability-of-configurations", "number": 10, "title": "Stability of Half and Fully Filled Orbitals", "summary": "", "sections": [], "estimated_minutes": 15 },
+    { "id": "de-broglie-heisenberg", "number": 11, "title": "de Broglie Relation and Heisenberg Uncertainty", "summary": "", "sections": [], "estimated_minutes": 25 },
+    { "id": "quantum-mechanical-model", "number": 12, "title": "Quantum Mechanical Model of Atom", "summary": "", "sections": [], "estimated_minutes": 30 }
+  ]
+}
