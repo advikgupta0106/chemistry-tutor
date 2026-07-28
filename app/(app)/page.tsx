@@ -38,7 +38,7 @@ export default function HomePage() {
         <ContinueLearningCard
           title={chemicalBonding.short_title ?? chemicalBonding.title}
           percent={progress.per_topic["chemical-bonding"].percent}
-          href="/explore"
+          href={`/explore/${chemicalBonding.id}`}
         />
       </div>
 
@@ -56,21 +56,21 @@ export default function HomePage() {
         </div>
         <div className="flex flex-col gap-2.5">
           <TopicRow
-            href="/explore"
+            href={`/explore/${structureOfAtom.id}`}
             icon={structureOfAtom.icon}
             tint={structureOfAtom.tint}
             title={structureOfAtom.title}
             subLabel={`${structureOfAtom.chapters.length} Chapters`}
           />
           <TopicRow
-            href="/explore"
+            href={`/explore/${periodicTable.id}`}
             icon={periodicTable.icon}
             tint={periodicTable.tint}
             title={periodicTable.title}
             subLabel={relativeStudyLabel(progress.per_topic["periodic-table"].last_studied)}
           />
           <TopicRow
-            href="/explore"
+            href={`/explore/${chemicalBonding.id}`}
             icon={chemicalBonding.icon}
             tint={chemicalBonding.tint}
             title={chemicalBonding.short_title ?? chemicalBonding.title}

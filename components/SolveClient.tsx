@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { solveReaction, type SolveResult } from "@/lib/solver";
 import { formatFormula } from "@/lib/formatFormula";
+import { recordReactionSolved } from "@/lib/progress";
 
 const TABS = ["Solve", "Balance", "Predict"] as const;
 type Tab = (typeof TABS)[number];
@@ -21,6 +22,7 @@ export default function SolveClient() {
     const res = await solveReaction(reaction);
     setResult(res);
     setLoading(false);
+    recordReactionSolved();
   }
 
   return (

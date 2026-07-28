@@ -76,7 +76,7 @@ export default function ExploreClient({ topics }: { topics: Topic[] }) {
         {filtered.map((topic) => (
           <TopicRow
             key={topic.id}
-            href="#"
+            href={`/explore/${topic.id}`}
             icon={topic.icon}
             tint={topic.tint}
             title={topic.title}
