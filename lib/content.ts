@@ -52,6 +52,7 @@ export type UserProgress = {
   practice_score_percent: number;
   reactions_solved: number;
   study_streak_days: number;
+  overall_progress_percent: number;
   per_topic: Record<string, { percent: number; last_studied: string }>;
 };
 
