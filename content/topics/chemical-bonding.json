@@ -58,29 +58,128 @@
       "id": "ionic-bond",
       "number": 2,
       "title": "Ionic or Electrovalent Bond",
-      "summary": "",
-      "sections": [],
-      "estimated_minutes": 20
-    },
-    {
-      "id": "covalent-bond",
-      "number": 3,
-      "title": "Covalent Bond",
-      "summary": "",
-      "sections": [],
-      "estimated_minutes": 20
-    },
-    {
-      "id": "bond-parameters",
-      "number": 4,
-      "title": "Bond Parameters",
-      "summary": "",
-      "sections": [],
+      "summary": "An ionic bond doesn't just need atoms willing to lose or gain electrons — it needs the resulting ions to actually end up more stable together than apart. This chapter looks at what governs that: how easily an atom forms a positive or negative ion, and how the electrostatic attraction inside a crystal lattice of billions of such ions can more than make up for the energy spent forming them in the first place.",
+      "sections": [
+        {
+          "heading": "Forming ions: ionisation and electron gain enthalpy",
+          "body": "Making an ionic compound needs two things to line up: the neutral atoms have to be able to form the positive and negative ions in the first place, and those ions then have to pack into a stable arrangement, the crystal lattice. Forming the positive ion is ionisation — removing an electron from the neutral gas-phase atom, M(g) → M⁺(g) + e⁻ — and this step always costs energy (ionisation enthalpy). Forming the negative ion is electron gain, X(g) + e⁻ → X⁻(g), and this step can release energy or cost it depending on the atom; the enthalpy change here is the electron gain enthalpy, and electron affinity is defined as its negative. Ionic bonds form most readily between elements that combine a comparatively low ionisation enthalpy with a comparatively large negative electron gain enthalpy — which is exactly why most ionic compounds pair a metal cation with a non-metal anion. The ammonium ion, NH~4~⁺, is the standard exception: both elements it's built from are non-metals, yet it still behaves as the cation in many ionic compounds. (NCERT 4.2)",
+          "key_point": "An ionic compound needs both an energetically feasible ion-forming step (low ionisation enthalpy for the cation, favourable electron gain enthalpy for the anion) and a stable crystal arrangement of those ions."
+        },
+        {
+          "heading": "The crystal lattice makes up the energy difference",
+          "body": "In the solid state, ionic compounds aren't isolated ion pairs — they're a three-dimensional, orderly stack of cations and anions, held together by the sum of all the electrostatic attractions and repulsions across the whole lattice, called the crystal lattice. The exact packing pattern depends on the relative sizes of the ions and other geometric factors, and rock-salt-structured NaCl is the standard reference example. What matters energetically is that the ionisation enthalpy of the cation and the electron gain enthalpy of the anion don't have to add up to something favourable on their own — the energy released when the lattice forms can more than cover the difference. For NaCl, ionising Na(g) to Na⁺(g) costs 495.8 kJ mol⁻¹, while the electron gain enthalpy of Cl(g) is only −348.7 kJ mol⁻¹, leaving a net cost of 147.1 kJ mol⁻¹ before the lattice is even considered — but the lattice formation enthalpy of NaCl(s) is −788 kJ mol⁻¹, more than enough to make the overall process favourable. So the real measure of whether an ionic compound is stable is its lattice formation enthalpy, not just whether the isolated ions look favourable in the gas phase. (NCERT 4.2)",
+          "key_point": "A stable ionic compound doesn't need ionisation + electron gain to be favourable on their own — the lattice formation enthalpy can (and often does) make up the difference, as it does for NaCl."
+        },
+        {
+          "heading": "Lattice enthalpy",
+          "body": "The lattice enthalpy of an ionic solid is defined as the energy needed to completely separate one mole of it into its gaseous ions, spread infinitely far apart. For NaCl, that figure is 788 kJ mol⁻¹: the energy required to pull one mole of solid NaCl apart into one mole of gaseous Na⁺ and one mole of gaseous Cl⁻. This single number bundles together both the attraction between oppositely charged ions and the repulsion between ions of the same charge across the whole three-dimensional crystal, so it can't be worked out from a simple pairwise force calculation — the geometry of the crystal itself has to be accounted for. (NCERT 4.2.1)",
+          "key_point": "Lattice enthalpy is the energy to separate one mole of an ionic solid into its gaseous ions at infinite separation — for NaCl this is 788 kJ mol⁻¹."
+        }
+      ],
       "estimated_minutes": 15
     },
     {
-      "id": "hybridization",
+      "id": "bond-parameters",
+      "number": 3,
+      "title": "Bond Parameters",
+      "summary": "A single bond can be described by a handful of measurable numbers — how long it is, what angle it makes with its neighbours, how much energy it takes to break, and how many electron pairs it's built from — and these bond parameters are what let chemists compare bonds across completely different molecules. Two further ideas round out the picture: resonance, for molecules no single Lewis structure can represent accurately, and polarity, for bonds where the shared electrons aren't split evenly between the two atoms.",
+      "sections": [
+        {
+          "heading": "Bond length",
+          "body": "Bond length is the equilibrium distance between the nuclei of two bonded atoms, measured by spectroscopic, X-ray diffraction or electron-diffraction techniques. Each atom contributes its own share to that distance: for a covalent bond, that share is called the atom's covalent radius, measured as roughly half the distance between two identical atoms joined by a covalent bond in the same molecule. A related but different quantity is the van der Waals radius, which is half the distance between two identical, non-bonded atoms in separate molecules packed together in a solid — it describes the atom's overall size rather than its bonded core. In chlorine, for example, the covalent radius is 99 pm while the van der Waals radius is much larger, 180 pm, since the van der Waals radius includes the whole outer electron cloud rather than just the bonded core. The bond length itself is simply the sum of the two atoms' covalent radii. (NCERT 4.3.1)",
+          "key_point": "Bond length = sum of the covalent radii of the two bonded atoms; the van der Waals radius (a separate, larger quantity) describes an atom's overall non-bonded size instead."
+        },
+        {
+          "heading": "Bond angle",
+          "body": "Bond angle is the angle between the orbitals containing the bonding electron pairs around a central atom in a molecule or complex ion, measured experimentally by spectroscopic methods. It's a useful diagnostic because it reflects how the electron pairs are arranged in space around the central atom, and that arrangement is what determines the molecule's shape — the H–O–H angle in water is the standard example used to illustrate the idea. (NCERT 4.3.2)",
+          "key_point": "Bond angle is the angle between bonding orbitals at a central atom; it directly reflects the molecule's shape."
+        },
+        {
+          "heading": "Bond enthalpy",
+          "body": "Bond enthalpy is the energy needed to break one mole of a particular type of bond between two atoms in the gaseous state, in kJ mol⁻¹. Breaking the H–H bond in H~2~ takes 435.8 kJ mol⁻¹; breaking the bonds in molecules with multiple bonds takes more — 498 kJ mol⁻¹ for O=O in O~2~ and 946.0 kJ mol⁻¹ for the N≡N triple bond in N~2~, which is one of the highest bond dissociation enthalpies known for a diatomic molecule. In general, a larger bond dissociation enthalpy means a stronger bond. For polyatomic molecules the picture is more complicated, since breaking chemically identical-looking bonds one at a time doesn't cost the same energy each time: in water, breaking the first O–H bond takes 502 kJ mol⁻¹ while breaking the second (now in the OH radical) takes only 427 kJ mol⁻¹, because the chemical environment of that bond has changed. For this reason, polyatomic molecules are described using an average bond enthalpy — the total dissociation enthalpy divided by the number of bonds broken, which for water works out to (502 + 427)/2 = 464.5 kJ mol⁻¹. (NCERT 4.3.3)",
+          "key_point": "Bond enthalpy is the energy to break one mole of a given bond type in the gas phase; for polyatomic molecules, chemically similar bonds don't take identical energy to break one at a time, so an average bond enthalpy is used instead."
+        },
+        {
+          "heading": "Bond order",
+          "body": "In the Lewis picture, bond order is simply the number of bonds between two atoms in a molecule — 1 for the single shared pair in H~2~, 2 for the two shared pairs in O~2~, and 3 for the three shared pairs in N~2~ or in CO. Molecules or ions that are isoelectronic (same total electron count) share the same bond order: F~2~ and O~2~²⁻ are both bond order 1, while N~2~, CO and NO⁺ are all bond order 3. As a general rule, increasing bond order goes with increasing bond enthalpy and decreasing bond length — which is consistent with N~2~'s very high bond enthalpy (946 kJ mol⁻¹) matching its triple bond. (NCERT 4.3.4)",
+          "key_point": "Bond order = number of shared electron pairs between two atoms; higher bond order means a stronger, shorter bond, and isoelectronic species share the same bond order."
+        },
+        {
+          "heading": "Resonance structures",
+          "body": "Sometimes a single Lewis structure can't account for a molecule's actual, experimentally measured bond lengths. Ozone, O~3~, is the classic case: it can be drawn with one O–O single bond and one O=O double bond, and swapping which oxygen gets the double bond gives an equally valid second structure. A normal O–O single bond measures 148 pm and a normal O=O double bond measures 121 pm, but both oxygen-oxygen bonds in real O~3~ measure the same 128 pm — a value in between the two, which neither individual structure can represent on its own. The concept of resonance solves this: when no single Lewis structure fits the real molecule, several structures of similar energy, nuclear positions and electron-pair arrangement (the canonical structures) are considered together, and their hybrid — not any one of them individually — is the actual structure of the molecule. The carbonate ion, CO~3~²⁻, and carbon dioxide are two other standard examples: CO~3~²⁻'s three canonical forms (each with two single C–O bonds and one double bond, on a different oxygen each time) average out to three identical, in-between C–O bonds, matching experiment. It's worth being clear about what resonance does not mean: the canonical forms have no real, separate existence, the molecule doesn't spend some fraction of its time as one form and some as another, and there's no dynamic equilibrium between them the way there is between tautomers — the molecule has one single structure, the resonance hybrid, which just can't be drawn with a single Lewis structure. Resonance also stabilises the molecule, since the hybrid's energy is lower than that of any one canonical form on its own. (NCERT 4.3.5)",
+          "key_point": "When a real molecule's bond lengths fall between what any single Lewis structure predicts (as in ozone), it's described as a resonance hybrid of several canonical structures — none of which has any real, separate existence."
+        },
+        {
+          "heading": "Polarity of bonds",
+          "body": "No real bond is completely ionic or completely covalent — even the covalent bond between two identical hydrogen atoms has some ionic character. When two identical atoms share a pair of electrons, as in H~2~, O~2~, Cl~2~, N~2~ or F~2~, the pair is attracted equally by both nuclei and sits exactly between them: a nonpolar covalent bond. In a heteronuclear molecule like HF, the shared pair is pulled closer to the more electronegative atom (fluorine), giving a polar covalent bond. This separation of charge gives the molecule a dipole moment, defined as the charge multiplied by the distance separating the positive and negative centres, denoted μ and usually measured in debye units (1 D = 3.33564 × 10⁻³⁰ C m). For a polyatomic molecule, the overall dipole moment is the vector sum of all the individual bond dipoles, so it depends on the molecule's shape as well as its bond polarities — bent H~2~O has a net dipole moment of 1.85 D, while linear, symmetric molecules like BeF~2~ and trigonal planar BF~3~ come out to zero, because their equal bond dipoles point in directions that cancel exactly. Comparing NH~3~ and NF~3~ shows why shape and lone pairs matter as much as electronegativity: even though fluorine is more electronegative than nitrogen, NH~3~'s dipole moment (4.90 × 10⁻³⁰ C m) is larger than NF~3~'s (0.8 × 10⁻³⁰ C m), because in NH~3~ the lone pair's own contribution points the same way as the N–H bond dipoles add up, while in NF~3~ it points the opposite way and partly cancels them. Ionic bonds, in turn, have some covalent character, which Fajans described with a set of rules: covalent character increases as the cation gets smaller and the anion gets larger, as the cation's charge increases, and — for cations of similar size and charge — a transition-metal-type configuration polarises the anion more than a noble-gas-type configuration does. (NCERT 4.3.6)",
+          "key_point": "Dipole moment = charge × separation distance; in polyatomic molecules it's the vector sum of bond dipoles, so molecular shape (not just electronegativity) decides whether the net dipole moment is zero — as it is for BeF~2~ and BF~3~ — or not."
+        }
+      ],
+      "estimated_minutes": 30
+    },
+    {
+      "id": "vsepr",
+      "number": 4,
+      "title": "VSEPR Theory",
+      "summary": "Lewis structures show which atoms are bonded, but not what shape the resulting molecule takes — that's what the Valence Shell Electron Pair Repulsion (VSEPR) theory predicts. Its core idea is simple: every electron pair around a central atom, bonded or lone, repels every other pair, and the pairs arrange themselves to keep that repulsion as small as possible. Whether or not the central atom carries lone pairs of its own turns out to be the single biggest factor in what shape falls out.",
+      "sections": [
+        {
+          "heading": "The postulates of VSEPR theory",
+          "body": "Sidgwick and Powell first proposed, in 1940, that a molecule's shape could be predicted from simple electron-pair repulsion, and Nyholm and Gillespie refined this into the modern VSEPR theory in 1957. The core idea: a molecule's shape depends on the total number of valence-shell electron pairs — bonded or lone — around its central atom. Since these pairs are all negatively charged electron clouds, they repel one another, and they arrange themselves in space to keep that repulsion to a minimum, effectively as far apart as possible on an imagined sphere centred on the atom. A multiple bond (double or triple) is treated as a single 'super pair' for this purpose, counted the same as one ordinary bond pair, and where a molecule has more than one resonance structure the VSEPR model can be applied to any one of them. (NCERT 4.4)",
+          "key_point": "VSEPR predicts a molecule's shape from the total number of electron pairs (bonded or lone) around the central atom, which arrange themselves to minimise mutual repulsion."
+        },
+        {
+          "heading": "Molecules with no lone pairs on the central atom",
+          "body": "When the central atom carries no lone pairs, the number of bonded groups alone fixes the geometry: two groups give a linear arrangement, three give trigonal planar, four give tetrahedral, five give trigonal bipyramidal, and six give octahedral. BF~3~ (three bonded groups, trigonal planar), CH~4~ (four bonded groups, tetrahedral) and PCl~5~ (five bonded groups, trigonal bipyramidal) are the standard examples of this category. VSEPR is particularly successful at predicting the geometry of this kind of compound, especially for p-block elements, even in cases where the energy difference between competing possible shapes is very small — though the theory doesn't actually explain, at a deeper level, why electron-pair repulsion should produce these effects; that's still a point of some theoretical discussion. (NCERT 4.4)",
+          "molecule_ids": ["methane"],
+          "key_point": "With no lone pairs on the central atom, geometry follows directly from the count of bonded groups: 2→linear, 3→trigonal planar, 4→tetrahedral, 5→trigonal bipyramidal, 6→octahedral (e.g. BF~3~, CH~4~, PCl~5~)."
+        },
+        {
+          "heading": "Lone pairs distort the ideal shape",
+          "body": "Lone pairs sit closer to the central atom than bonded pairs do — a bonded pair is shared between two nuclei, while a lone pair is localised on just one — so lone pairs take up more space and repel their neighbours more strongly. The repulsion strength decreases in the order lone pair–lone pair > lone pair–bond pair > bond pair–bond pair, and this is what pulls real molecules away from their 'ideal', lone-pair-free geometry. Ammonia, NH~3~, has four electron pairs around nitrogen (three bonding, one lone) which would be tetrahedral if all four were bond pairs; the extra lone pair–bond pair repulsion squeezes the H–N–H angle down from 109.5° to 107°, giving a pyramidal shape. Water, H~2~O, has two lone pairs among its four pairs, so the even greater lone pair–lone pair repulsion squeezes its H–O–H angle further, down to 104.5°, giving a bent (angular) shape. The same logic explains why a molecule like SnCl~2~ (three pairs, one lone) is bent rather than trigonal planar, with its bond angle reduced to 119.5° from the ideal 120°. (NCERT 4.4)",
+          "key_point": "Repulsion strength runs lone pair–lone pair > lone pair–bond pair > bond pair–bond pair, which is why real bond angles fall below the 'ideal' values as lone pairs are added — NH~3~ (107°) and H~2~O (104.5°) versus a lone-pair-free 109.5°."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "valence-bond-theory",
       "number": 5,
+      "title": "Valence Bond Theory",
+      "summary": "Lewis structures show how a molecule's electrons are arranged, but they can't explain why a bond forms, or why two single covalent bonds formed the same way can still differ enormously in strength. Valence bond theory closes that gap: it describes a covalent bond as the direct result of two atomic orbitals overlapping, with the strength of the bond tied to how much overlap actually happens — and along the way it gives the sigma and pi bond a real physical meaning.",
+      "sections": [
+        {
+          "heading": "Why valence bond theory was needed",
+          "body": "The Lewis approach is good at showing how a molecule's electrons are arranged, but it can't explain why a bond forms in the first place, or why two single covalent bonds formed the same way — sharing one electron pair — can have very different strengths and lengths: the H–H bond in H~2~ has a dissociation enthalpy of 435.8 kJ mol⁻¹ and a length of 74 pm, while the F–F bond in F~2~ has a dissociation enthalpy of only 155 kJ mol⁻¹ and a length of 144 pm. VSEPR fills in the geometry gap but doesn't explain it theoretically either, and has limited reach. Valence bond (VB) theory, introduced by Heitler and London in 1927 and developed further by Pauling, addresses the energetics VSEPR and Lewis structures are silent on, by explaining bond formation in terms of the overlap of atomic orbitals. (NCERT 4.5)",
+          "key_point": "Neither the Lewis approach nor VSEPR explains why bonds form or why chemically similar bonds (like H–H versus F–F) differ so much in strength — valence bond theory fills that gap using orbital overlap."
+        },
+        {
+          "heading": "Formation of the hydrogen molecule",
+          "body": "Consider two separate hydrogen atoms, far enough apart that they don't interact. As they approach, new forces appear alongside the ones already present within each atom: attractive forces between each nucleus and the other atom's electron, and repulsive forces between the two electrons and between the two nuclei. Experimentally, the new attractive forces turn out to be stronger than the new repulsive ones, so the atoms are pulled together and the system's potential energy falls. This continues until the attractive and repulsive forces exactly balance and the energy reaches a minimum — at that point the two atoms are bonded into a stable H~2~ molecule, with a bond length of 74 pm. Because energy is released as the bond forms, the H~2~ molecule is more stable than two separate hydrogen atoms; the same amount of energy, 435.8 kJ mol⁻¹, has to be put back in to pull the molecule apart again. (NCERT 4.5)",
+          "key_point": "As two atoms approach, new attraction outweighs new repulsion until the energy reaches a minimum at the bond length — the energy released there is the bond enthalpy."
+        },
+        {
+          "heading": "Orbital overlap and directional bonding",
+          "body": "At the minimum-energy separation, the two atoms are close enough that their atomic orbitals partially interpenetrate — this is called overlapping, and it results in the pairing of the electrons involved. The general rule is that greater overlap gives a stronger bond, so a covalent bond forms by the pairing of opposite-spin valence electrons wherever their orbitals overlap. For a simple diatomic molecule like H~2~ this is enough (overlap of the two 1s orbitals), but polyatomic molecules also need to explain their overall geometry, not just bond formation — why is CH~4~ tetrahedral with 109.5° H–C–H angles, and why is NH~3~ pyramidal rather than based on 90° angles? Plain orbital overlap runs into trouble here: carbon's three 2p orbitals sit at 90° to each other, so overlapping them directly with hydrogen's 1s orbitals would predict three C–H bonds at 90° to one another, and the fourth bond (from the spherically symmetric 2s orbital) could point in any direction — nothing like the real, symmetric 109.5° tetrahedral angle. The same kind of mismatch shows up for NH~3~ and H~2~O, where simple overlap would predict 90° angles rather than the observed 107° and 104.5°. This gap is exactly what hybridisation of atomic orbitals (covered separately) was introduced to close. (NCERT 4.5.1, 4.5.2)",
+          "molecule_ids": ["methane"],
+          "key_point": "Simple, unhybridised orbital overlap correctly explains bond formation in H~2~ but fails to predict the real bond angles of CH~4~, NH~3~ and H~2~O — the gap hybridisation was introduced to close."
+        },
+        {
+          "heading": "Positive, negative and zero overlap",
+          "body": "When two orbitals approach each other, their overlap can be positive, negative, or zero, depending on the sign (phase) of the orbital's wave function and how the orbitals are oriented in space — this sign is a mathematical property of the wave function, not an electric charge. Orbitals only bond effectively when they overlap with the same phase and a compatible orientation; this is called positive overlap. If the phases are mismatched, or if the geometry lines the orbitals up so that any positive overlap in one region is cancelled by negative overlap in another, no net bonding results. This overlap criterion is the same whether the molecule is a simple homonuclear diatomic, a heteronuclear diatomic, or a larger polyatomic molecule. (NCERT 4.5.3)",
+          "key_point": "Orbitals bond only when they overlap with matching phase (positive overlap) — mismatched phase or geometry gives negative or zero overlap and no bond."
+        },
+        {
+          "heading": "Sigma and pi bonds",
+          "body": "Covalent bonds are classified by how the orbitals overlap. A sigma (σ) bond forms by end-to-end, head-on overlap along the line joining the two nuclei (the internuclear axis) — this can come from s–s, s–p, or p–p overlap, as long as it's along that axis. A pi (π) bond forms instead by sidewise overlap, where the two orbitals' axes stay parallel to each other but perpendicular to the internuclear axis, producing two lobes of electron density, one above and one below the plane of the bonded atoms. Because sigma overlap happens to a greater extent than sidewise pi overlap, sigma bonds are stronger than pi bonds. Whenever two atoms are joined by a multiple bond, one of the bonds is always a sigma bond and any additional bond(s) are pi bonds — a double bond is one sigma plus one pi, and a triple bond is one sigma plus two pi. (NCERT 4.5.4, 4.5.5)",
+          "key_point": "A sigma bond is head-on overlap along the internuclear axis (stronger); a pi bond is sidewise overlap perpendicular to it (weaker) — every multiple bond has exactly one sigma bond plus one or two pi bonds."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "hybridization",
+      "number": 6,
       "title": "Hybridisation",
       "summary": "Plain orbital overlap cannot explain why CH~4~ is tetrahedral with bond angles of 109.5°, when carbon's three p orbitals sit at 90° to one another. Pauling solved this with hybridisation: orbitals of slightly different energies in the same valence shell intermix and redistribute their energies to give a brand-new set of orbitals that are identical in energy and shape. These hybrid orbitals point in definite directions in space, and that is what decides the geometry of the molecule.",
       "sections": [
@@ -130,75 +229,90 @@
       "estimated_minutes": 30
     },
     {
-      "id": "vsepr",
-      "number": 6,
-      "title": "VSEPR Theory",
-      "summary": "",
-      "sections": [],
-      "estimated_minutes": 25
-    },
-    {
-      "id": "valence-bond-theory",
-      "number": 7,
-      "title": "Valence Bond Theory",
-      "summary": "",
-      "sections": [],
-      "estimated_minutes": 25
-    },
-    {
-      "id": "resonance",
-      "number": 8,
-      "title": "Resonance Structures",
-      "summary": "",
-      "sections": [],
-      "estimated_minutes": 15
-    },
-    {
-      "id": "polarity-of-bonds",
-      "number": 9,
-      "title": "Polarity of Bonds",
-      "summary": "",
-      "sections": [],
-      "estimated_minutes": 15
-    },
-    {
       "id": "molecular-orbital-theory",
-      "number": 10,
+      "number": 7,
       "title": "Molecular Orbital Theory",
-      "summary": "",
-      "sections": [],
+      "summary": "Molecular orbital theory takes a different starting point from Lewis structures and valence bond theory: instead of electrons belonging to one bond between two atoms, it treats them as occupying orbitals that belong to the molecule as a whole. Combining two atomic orbitals always produces one lower-energy bonding orbital and one higher-energy antibonding orbital, and how electrons fill those orbitals directly predicts a molecule's stability, bond order, and even whether it's magnetic — something the Lewis picture can't do at all.",
+      "sections": [
+        {
+          "heading": "The postulates of molecular orbital theory",
+          "body": "Molecular orbital (MO) theory, developed by Hund and Mulliken in 1932, treats the electrons of a molecule the way atomic theory treats the electrons of a single atom — as occupying a set of orbitals, except that a molecular orbital belongs to the whole molecule rather than to one nucleus. Atomic orbitals of comparable energy and matching symmetry combine to form these molecular orbitals; an atomic orbital is monocentric (influenced by one nucleus) while a molecular orbital is polycentric (influenced by two or more). Combining two atomic orbitals always produces two molecular orbitals — one bonding, one antibonding — so the total number of molecular orbitals formed always equals the number of atomic orbitals that combined. The bonding orbital sits at lower energy (and so is more stable) than the corresponding antibonding orbital, and molecular orbitals are filled the same way atomic orbitals are: following the aufbau principle, the Pauli exclusion principle, and Hund's rule. (NCERT 4.7)",
+          "key_point": "Combining two atomic orbitals of similar energy and matching symmetry always gives one lower-energy bonding and one higher-energy antibonding molecular orbital."
+        },
+        {
+          "heading": "Building molecular orbitals: the LCAO method",
+          "body": "Atomic orbitals can be described by wave functions that represent the amplitude of the electron's wave, obtained by solving the Schrödinger equation — but that equation can't be solved exactly for any system with more than one electron, which makes molecular orbitals hard to get directly. The linear combination of atomic orbitals (LCAO) is the standard workaround. For the hydrogen molecule, with atomic orbitals described by wave functions ψ_A and ψ_B, adding the two wave functions gives the bonding molecular orbital (σ = ψ_A + ψ_B), while subtracting them gives the antibonding molecular orbital (σ* = ψ_A − ψ_B). Physically, the bonding orbital comes from the two electron waves reinforcing each other (constructive interference), which builds up electron density between the nuclei and lowers repulsion between them; the antibonding orbital comes from the waves cancelling (destructive interference), which leaves a nodal plane of zero electron density between the nuclei and so increases their mutual repulsion. Electrons in a bonding orbital hold the nuclei together and stabilise the molecule; electrons in an antibonding orbital destabilise it. The bonding orbital's energy is lowered below, and the antibonding orbital's energy raised above, the energy of the original atomic orbitals — but the total energy of the two molecular orbitals together stays equal to the total energy of the two original atomic orbitals. (NCERT 4.7.1)",
+          "key_point": "LCAO builds molecular orbitals by adding (bonding, σ) or subtracting (antibonding, σ*) atomic wave functions; the bonding orbital concentrates electron density between the nuclei and is lower in energy."
+        },
+        {
+          "heading": "Conditions for atomic orbitals to combine",
+          "body": "Not every pair of atomic orbitals can combine into molecular orbitals — three conditions have to hold. First, the combining orbitals must have the same or nearly the same energy: a 1s orbital can combine with another 1s orbital but not with a 2s orbital, because the energy gap is too large (this restriction loosens somewhat if the two atoms are very different from each other). Second, the combining orbitals must have the same symmetry about the molecular axis (taken by convention as the z-axis) — a 2pz orbital on one atom can combine with a 2pz orbital on the other, but not with a 2px or 2py orbital, because their symmetries don't match, even if the energies do. Third, the orbitals must overlap to the maximum extent possible, since greater overlap means greater electron density built up between the nuclei. (NCERT 4.7.2)",
+          "key_point": "Atomic orbitals only combine into molecular orbitals if they have similar energy, matching symmetry about the molecular axis, and maximum possible overlap."
+        },
+        {
+          "heading": "Sigma and pi molecular orbitals, and their energy order",
+          "body": "Molecular orbitals of diatomic molecules are labelled sigma (σ), pi (π), and so on depending on their symmetry: sigma orbitals are symmetrical around the bond axis, while pi orbitals are not. Combining two 1s orbitals gives σ1s and σ*1s; combining two 2pz orbitals (with the internuclear axis taken as z) gives σ2pz and σ*2pz — both sigma-type, since both are symmetric around the axis. Combining 2px or 2py orbitals instead gives π and π* molecular orbitals, which have positive and negative lobes above and below the molecular plane rather than symmetry around the axis; the bonding π orbital concentrates electron density above and below the internuclear axis, while the antibonding π* orbital has a node between the nuclei. For the eight atomic orbitals contributed by the 2s and 2p shells of two atoms, the resulting eight molecular orbitals (σ2s, σ*2s, σ2pz, σ*2pz, π2px, π2py, π*2px, π*2py) don't always fall in the same energy order: for O~2~ and F~2~, σ2pz sits below the π2p orbitals, but for the lighter molecules — Li~2~, Be~2~, B~2~, C~2~, N~2~ — the π2px and π2py orbitals actually sit below σ2pz. (NCERT 4.7.3, 4.7.4)",
+          "key_point": "Sigma MOs are symmetric around the bond axis, pi MOs are not; the relative energy order of σ2pz versus the π2p orbitals actually flips between the lighter (Li~2~–N~2~) and heavier (O~2~, F~2~) homonuclear diatomics."
+        },
+        {
+          "heading": "Reading a molecule from its electron configuration",
+          "body": "Once you know how many electrons sit in bonding orbitals (Nb) versus antibonding orbitals (Na), several properties follow directly. The molecule is stable if Nb is greater than Na, and unstable — meaning it won't actually form — if Nb is less than or equal to Na. Bond order is defined as half the difference between the two: bond order = ½(Nb − Na). A positive bond order means a stable molecule; a bond order of zero or negative means it doesn't exist. Integral bond orders of 1, 2 or 3 correspond to the familiar single, double and triple bonds, bond length decreases as bond order increases, and — just as with the classical picture — a higher bond order goes with a stronger bond. Finally, a molecule's magnetic behaviour follows from whether its molecular orbitals are all doubly occupied: if they are, the molecule is diamagnetic (weakly repelled by a magnetic field); if one or more orbitals hold a single, unpaired electron, the molecule is paramagnetic (attracted by a magnetic field). (NCERT 4.7.5)",
+          "key_point": "Bond order = ½(bonding electrons − antibonding electrons); a molecule with any unpaired electrons in its molecular orbitals is paramagnetic, otherwise it's diamagnetic."
+        }
+      ],
       "estimated_minutes": 30
     },
     {
       "id": "bonding-in-molecules",
-      "number": 11,
+      "number": 8,
       "title": "Bonding in Some Homonuclear Molecules",
-      "summary": "",
-      "sections": [],
+      "summary": "Molecular orbital theory is best tested against the simplest possible molecules: two identical atoms bonded together. Working through H~2~, He~2~, Li~2~, C~2~ and O~2~ one at a time shows the theory can do things the Lewis picture can't — correctly predicting that He~2~ simply doesn't exist, and that O~2~, despite its familiar double bond, is actually paramagnetic.",
+      "sections": [
+        {
+          "heading": "Hydrogen and helium: why H2 exists and He2 doesn't",
+          "body": "Each hydrogen atom contributes one electron in its 1s orbital, so H~2~ has two electrons total, both of which go into the bonding σ1s orbital: H~2~ : (σ1s)². Its bond order works out to ½(2 − 0) = 1, matching the familiar single covalent bond, and since there are no unpaired electrons, H~2~ is diamagnetic — its measured bond dissociation energy is 438 kJ mol⁻¹ and its bond length 74 pm. Helium, by contrast, has two electrons per atom, so He~2~ would have four electrons total: two fill the bonding σ1s orbital and the other two are forced into the antibonding σ*1s orbital, giving He~2~ : (σ1s)²(σ*1s)². That's a bond order of ½(2 − 2) = 0 — no net bonding at all — which is exactly why He~2~ is unstable and doesn't exist. The same reasoning shows that Be~2~, with configuration (σ1s)²(σ*1s)²(σ2s)²(σ*2s)², also has a bond order of zero and doesn't exist. (NCERT 4.8)",
+          "key_point": "Bond order predicts existence directly: H~2~ (bond order 1) is a stable, diamagnetic molecule, while He~2~ and Be~2~ (both bond order 0) don't exist."
+        },
+        {
+          "heading": "Lithium: a genuine single bond",
+          "body": "Lithium's electronic configuration is 1s² 2s¹, so Li~2~ has six electrons total, giving the configuration (σ1s)²(σ*1s)²(σ2s)² — often abbreviated KK(σ2s)², where KK stands for the filled, non-bonding inner shell (σ1s)²(σ*1s)². Four of those six electrons sit in bonding orbitals and two in antibonding orbitals, so the bond order is ½(4 − 2) = 1: Li~2~ is a genuinely stable, single-bonded molecule, and since it has no unpaired electrons it should be diamagnetic. This matches experiment — diamagnetic Li~2~ molecules are indeed detected in the vapour phase. (NCERT 4.8)",
+          "key_point": "Li~2~'s (σ1s)²(σ*1s)²(σ2s)² configuration gives bond order 1 and no unpaired electrons — a real, diamagnetic molecule, confirmed in the vapour phase."
+        },
+        {
+          "heading": "Carbon: a double bond made entirely of pi bonds",
+          "body": "Carbon's configuration is 1s² 2s² 2p², so C~2~ has twelve electrons total, giving the configuration KK(σ2s)²(σ*2s)²(π2px² = π2py²). Eight of the twelve electrons sit in bonding orbitals and four in antibonding orbitals, so the bond order is ½(8 − 4) = 2 — a double bond — and since all the orbitals are fully paired, C~2~ should be diamagnetic, which is indeed observed for C~2~ detected in the vapour phase. What's unusual here is that this double bond is made up of two pi bonds (both π2p orbitals are occupied), rather than the more familiar one-sigma-plus-one-pi combination that describes a double bond in most other molecules. (NCERT 4.8)",
+          "key_point": "C~2~'s bond order works out to 2 (a double bond), but unusually it's built from two pi bonds rather than the usual sigma-plus-pi combination."
+        },
+        {
+          "heading": "Oxygen: molecular orbital theory explains its magnetism",
+          "body": "Oxygen's configuration is 1s² 2s² 2p⁴, so O~2~ has sixteen electrons total. Filling the molecular orbitals in the order that applies to O~2~ and F~2~ gives ten electrons in bonding orbitals and six in antibonding orbitals, so the bond order is ½(10 − 6) = 2, matching the familiar O=O double bond. What the classical Lewis picture can't explain, but molecular orbital theory can, is that O~2~'s highest-energy electrons end up as one unpaired electron each in the two degenerate π*2px and π*2py antibonding orbitals — following Hund's rule — which makes O~2~ paramagnetic, attracted to a magnetic field. This is exactly what's observed experimentally, and it's one of MO theory's clearest successes over the simple Lewis dot picture, which predicts no unpaired electrons in O~2~ at all. (NCERT 4.8)",
+          "key_point": "MO theory correctly predicts that O~2~ has two unpaired electrons in its π* orbitals and is therefore paramagnetic — something the Lewis structure of O~2~ (which shows only paired electrons) cannot explain."
+        }
+      ],
       "estimated_minutes": 20
     },
     {
       "id": "hydrogen-bond",
-      "number": 12,
+      "number": 9,
       "title": "Hydrogen Bonding",
-      "summary": "",
-      "sections": [],
-      "estimated_minutes": 15
-    },
-    {
-      "id": "metallic-bond",
-      "number": 13,
-      "title": "Metallic Bonding",
-      "summary": "",
-      "sections": [],
-      "estimated_minutes": 10
-    },
-    {
-      "id": "dipole-moment",
-      "number": 14,
-      "title": "Dipole Moment",
-      "summary": "",
-      "sections": [],
+      "summary": "A hydrogen atom bonded to a strongly electronegative atom like fluorine, oxygen or nitrogen ends up carrying a partial positive charge, and that partial charge can attract another electronegative atom nearby — a weaker, second bond called the hydrogen bond. It's weaker than a normal covalent bond, but it's strong enough to noticeably shape the structure and properties of the compounds it appears in, whether it forms between separate molecules or within a single one.",
+      "sections": [
+        {
+          "heading": "What is a hydrogen bond?",
+          "body": "Nitrogen, oxygen and fluorine are all highly electronegative. When any of them is covalently bonded to hydrogen, the shared electron pair is pulled toward the more electronegative atom, leaving the hydrogen atom carrying a partial positive charge. That partially positive hydrogen can then form a separate, weaker bond with another highly electronegative atom nearby — this is the hydrogen bond, weaker than a covalent bond. In hydrogen fluoride, for instance, the hydrogen of one HF molecule forms a hydrogen bond with the fluorine of a neighbouring HF molecule. Here, hydrogen acts as a bridge, held to one atom by a covalent bond and to another by a hydrogen bond — so a hydrogen bond can be defined as the attractive force that binds a hydrogen atom of one molecule to an electronegative atom (F, O or N) of another. (NCERT 4.9)",
+          "key_point": "A hydrogen bond is the weak attraction between a hydrogen atom (made partially positive by a covalent bond to F, O or N) and an electronegative F, O or N atom elsewhere — weaker than a covalent bond but real."
+        },
+        {
+          "heading": "Why hydrogen bonds form",
+          "body": "When hydrogen is bonded to a strongly electronegative element X, the shared electron pair shifts away from the hydrogen atom and toward X. This leaves hydrogen carrying a fractional positive charge (δ+) and X carrying a fractional negative charge (δ−), producing a polar bond and, with it, an electrostatic attraction that can bridge to another electronegative atom nearby. How strong this effect is depends on the physical state of the compound — hydrogen bonding is strongest in the solid state and weakest in the gaseous state, since the molecules are held closest together (and most rigidly) as a solid. Because of this, hydrogen bonds can have a substantial effect on a compound's structure and physical properties. (NCERT 4.9.1)",
+          "key_point": "Hydrogen bonding arises because bonding a hydrogen to a strongly electronegative atom leaves the hydrogen partially positive; the effect is strongest in the solid state and weakest as a gas."
+        },
+        {
+          "heading": "Intermolecular and intramolecular hydrogen bonds",
+          "body": "Hydrogen bonds come in two forms. An intermolecular hydrogen bond forms between two separate molecules — of the same compound or of different compounds — such as the hydrogen bonding between HF molecules, or between molecules of an alcohol or of water. An intramolecular hydrogen bond, by contrast, forms within a single molecule, when a hydrogen atom sits between two highly electronegative atoms (F, O or N) that are both part of that same molecule. o-Nitrophenol is the standard example: its hydrogen bridges between two oxygen atoms that both belong to the same molecule, rather than to a neighbouring one. (NCERT 4.9.2)",
+          "key_point": "Intermolecular hydrogen bonds link separate molecules (as in HF or water); intramolecular hydrogen bonds form within a single molecule, as in o-nitrophenol."
+        }
+      ],
       "estimated_minutes": 15
     }
   ]
