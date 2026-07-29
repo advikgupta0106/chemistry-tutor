@@ -230,7 +230,58 @@ No molecules from `/content/molecules` are relevant to this topic
 
 ## Thermodynamics — `content/topics/thermodynamics.json`
 Source: `content/source/unit-5.pdf`
-Status: ⬜ **not started**
+
+### Chapter list corrected
+The original 6-chapter list skipped several substantial NCERT
+subsections entirely:
+- **Added** "Measuring ΔU and ΔH: Calorimetry" (§5.3) — bomb
+  calorimeter and constant-pressure calorimeter. Missing entirely.
+- **Added** "Reaction Enthalpy" (§5.4 a-d) — standard states, phase
+  transformation enthalpies (fusion/vaporisation/sublimation),
+  standard enthalpy of formation, thermochemical equation
+  conventions. The old chapter list jumped straight from Cp/Cv to
+  Hess's Law without ever covering this.
+- **Added** "Enthalpies for Different Types of Reactions" (§5.5) —
+  combustion, atomization, bond enthalpy, lattice enthalpy/Born-Haber
+  cycle, enthalpy of solution and dilution. Missing entirely.
+- Renumbered all 9 chapters (was 6) to the PDF's own order.
+
+### Chapters filled
+| # | Chapter | NCERT §§ covered | Sections | Molecules linked |
+|---|---|---|---|---|
+| 1 | Thermodynamic Terms | 5.1.1–5.1.3 | 3 | — |
+| 2 | Internal Energy and the First Law | 5.1.4, 5.2.1 | 5 | — |
+| 3 | Enthalpy and Enthalpy Change | 5.2.2(a-d) | 4 | — |
+| 4 | Measuring ΔU and ΔH: Calorimetry | 5.3(a,b) | 3 | — |
+| 5 | Reaction Enthalpy | 5.4(a-d) | 4 | naphthalene |
+| 6 | Hess's Law of Constant Heat Summation | 5.4(e) | 3 | benzene |
+| 7 | Enthalpies for Different Types of Reactions | 5.5(a-f) | 5 | glucose, methane |
+| 8 | Entropy and Spontaneity | 5.6(a,b,d,e) | 4 | — |
+| 9 | Gibbs Energy Change | 5.6(c), 5.7 | 3 | — |
+
+**Status: complete.** All 9 chapters filled and committed.
+
+### Numbers written, with source page (unit-5.pdf)
+- Cp − Cv = R (derivation) — p.144 (§5.2.2d)
+- Graphite combustion: bomb calorimeter ΔT 298→299 K, C=20.7 kJ/K → ΔU = −2.48×10² kJ mol⁻¹ — p.146 (§5.3b, Problem 5.6)
+- Water: ΔfusH = 6.00 kJ mol⁻¹, ΔvapH = +40.79 kJ mol⁻¹; dry ice ΔsubH = 25.2 kJ mol⁻¹; naphthalene ΔsubH = 73.0 kJ mol⁻¹ — p.147-148 (§5.4b)
+- CaCO₃ decomposition ΔrH° = +178.3 kJ mol⁻¹ (from ΔfH° of CaO −635.1, CO₂ −393.5, CaCO₃ −1206.9) — p.149 (§5.4c)
+- NH₃ formation/decomposition ±91.8 kJ mol⁻¹ — p.151 (§5.4d)
+- C(graphite)+O₂→CO₂ ΔrH=−393.5; CO+½O₂→CO₂ ΔrH=−283.0; combined → C+½O₂→CO, ΔrH=−110.5 kJ mol⁻¹ — p.151 (§5.4e)
+- Benzene formation via Hess's law: combustion −3267.0, CO₂ formation −393.5, H₂O formation −285.83 → ΔfH(benzene) = −48.51 kJ mol⁻¹ — p.152-153 (§5.4e, Problem 5.9)
+- Butane combustion −2658.0 kJ mol⁻¹; glucose combustion −2802.0 kJ mol⁻¹ — p.151-152 (§5.5a)
+- H₂ bond/atomization enthalpy 435.0 kJ mol⁻¹; Na atomization 108.4 kJ mol⁻¹ — p.153 (§5.5b)
+- Methane C-H bonds broken stepwise: 427, 439, 452, 347 kJ mol⁻¹; mean = 416 kJ mol⁻¹ (¼ × 1665) — p.153-154 (§5.5c)
+- NaCl lattice enthalpy +788 kJ mol⁻¹ via Born-Haber (sublimation 108.4, ionization 496, ½Cl₂ dissociation 121, electron gain −348.6) — p.155 (§5.5d)
+- NaCl solution enthalpy: lattice +788, hydration −784 → +4 kJ mol⁻¹ — p.156 (§5.5e)
+- NH₃ synthesis ΔrH = −46.1 kJ mol⁻¹; HCl formation −92.32; H₂O formation −285.8; NO₂ formation +33.2 kJ mol⁻¹ (spontaneous despite being endothermic) — p.157 (§5.6a)
+- ∆rG° = −RT ln K = −2.303RT log K — p.162 (§5.7)
+
+### Unsure / flag for your check
+- None outstanding — all numbers above were read directly off the
+  extracted PDF text this session.
+
+---
 
 ## Equilibrium — `content/topics/equilibrium.json`
 Source: `content/source/unit-6.pdf`
