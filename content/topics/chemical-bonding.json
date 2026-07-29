@@ -4,39 +4,202 @@
   "short_title": "Chemical Bonding",
   "icon": "bonds",
   "tint": "purple",
-  "class": ["11"],
+  "class": [
+    "11"
+  ],
   "exams": [
-    { "name": "JEE", "weightage_percent": 5 },
-    { "name": "NEET", "weightage_percent": 4 }
+    {
+      "name": "JEE",
+      "weightage_percent": 5
+    },
+    {
+      "name": "NEET",
+      "weightage_percent": 4
+    }
   ],
   "chapters": [
-    { "id": "kossel-lewis", "number": 1, "title": "Kossel-Lewis Approach to Bonding", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "ionic-bond", "number": 2, "title": "Ionic or Electrovalent Bond", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "covalent-bond", "number": 3, "title": "Covalent Bond", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "bond-parameters", "number": 4, "title": "Bond Parameters", "summary": "", "sections": [], "estimated_minutes": 15 },
+    {
+      "id": "kossel-lewis",
+      "number": 1,
+      "title": "Kossel-Lewis Approach to Bonding",
+      "summary": "Why do atoms bond at all, and why only in certain combinations? In 1916 Kössel and Lewis gave the first workable answer: atoms bond, by transferring or sharing electrons, in order to reach the same eight-electron outer shell that makes noble gases so unreactive — the octet rule. This one idea explains both the electron-transfer bonding of ionic compounds like NaCl and the electron-sharing bonding of covalent molecules like Cl~2~, and it gives a systematic way — the Lewis structure — to work out how a molecule's electrons are arranged. The rule isn't perfect, though: it doesn't hold for every molecule, and it says nothing about shape or stability, gaps later theories had to fill.",
+      "sections": [
+        {
+          "heading": "Lewis symbols and the octet rule",
+          "body": "Lewis pictured an atom as a positively charged core — the nucleus plus its inner, well-protected electrons — surrounded by an outer shell that holds at most eight electrons. Only these outer-shell electrons, the valence electrons, take part in bonding. A Lewis symbol represents an atom by its chemical symbol surrounded by dots equal to its valence-electron count, and that same count fixes the atom's usual valence: either the number of dots, or eight minus the number of dots.\n\nKössel noticed a pattern in the periodic table: the strongly electronegative halogens and the strongly electropositive alkali metals sit on either side of a noble gas. A halogen atom can gain the one electron it needs to complete an octet, while an alkali metal can lose the one electron it has beyond a noble-gas configuration — sodium losing an electron to chlorine to form Na⁺ and Cl⁻ is the standard case, and calcium losing two electrons to two fluorine atoms to give CaF~2~ works the same way. The oppositely charged ions produced this way, now electronically identical to a noble gas, are held together purely by electrostatic attraction — what Kössel called an electrovalent bond. Kössel and Lewis folded all of this into a single principle, the octet rule: atoms bond either by transferring valence electrons between each other or by sharing them, whichever route lets every atom involved end up with a full octet. (NCERT 4.1, 4.1.1)",
+          "key_point": "Atoms bond to reach a stable eight-electron outer shell (the octet), either by transferring electrons (as in NaCl) or by sharing them — this single idea is the octet rule."
+        },
+        {
+          "heading": "The covalent bond and multiple bonds",
+          "body": "Lewis's original picture of a rigid cube of eight electrons didn't fit every molecule, so in 1919 Langmuir refined the idea and gave it the name still used today: the covalent bond. Take Cl~2~ — each chlorine atom is one electron short of argon's electron count, so the two atoms share one electron pair between them, usually drawn as a single dash, Cl–Cl. Sharing lets each electron of that pair count toward both atoms' octets at once, so both chlorine atoms end up with a full outer shell without either one permanently gaining or losing anything.\n\nA single shared pair is a single covalent bond, but some molecules need more shared pairs to satisfy every atom's octet. Sharing two electron pairs gives a double bond — carbon dioxide has two C=O double bonds, and the two carbons of ethene are joined by one C=C double bond. Sharing three electron pairs gives a triple bond, as in the N~2~ molecule and in ethyne, where the two carbon atoms are joined by a C≡C triple bond. Any such Lewis structure has to satisfy three conditions: each bond comes from one shared electron pair, each combining atom contributes at least one electron to that pair, and the sharing has to actually bring every atom involved to its nearest noble-gas electron count. (NCERT 4.1.2)",
+          "molecule_ids": ["ethyne"],
+          "key_point": "A shared electron pair is a single covalent bond; two shared pairs give a double bond, three give a triple bond — as in ethyne's C≡C."
+        },
+        {
+          "heading": "Writing Lewis structures",
+          "body": "Once bonding is understood as reaching an octet through shared electrons, drawing a molecule's Lewis structure becomes mostly bookkeeping. Start by adding up the valence electrons of every atom involved — methane, CH~4~, has 4 from carbon and 1 from each of four hydrogens, for 8 electrons in total. For an ion, add one electron per unit of negative charge or remove one per unit of positive charge: the carbonate ion, CO~3~²⁻, gets two extra electrons for its two negative charges, while NH~4~⁺ has one electron fewer than the neutral atoms alone would supply.\n\nNext, decide on a skeletal structure — which atom sits where. As a rule of thumb, the least electronegative atom of the group usually takes the central position, with more electronegative atoms such as fluorine or oxygen arranged around it. Distribute the counted electrons as shared pairs along that skeleton first, then use whatever pairs are left over to either complete an atom's octet as a lone pair or upgrade a bond to a double or triple bond — until every bonded atom (other than hydrogen, which needs only a pair, matching helium) has a full octet. (NCERT 4.1.3)",
+          "molecule_ids": ["methane"],
+          "key_point": "Build a Lewis structure by counting all valence electrons (adjusting for ionic charge), placing the least electronegative atom centrally, then filling octets with shared and lone pairs."
+        },
+        {
+          "heading": "Formal charge",
+          "body": "A Lewis structure doesn't show a molecule's true shape, and for a polyatomic ion the overall charge belongs to the ion as a whole rather than to any single atom — but it's still useful to assign each atom a formal charge, a bookkeeping figure rather than a real, measurable one. It's calculated as the atom's valence-electron count in its free, isolated state, minus the electrons in its own lone pairs, minus half of the electrons it shares in bonds.\n\nOzone, O~3~, is the standard worked example: with the central oxygen double-bonded to one neighbouring oxygen and single-bonded to the other, the central atom works out to a formal charge of +1, the doubly-bonded outer oxygen comes to 0, and the singly-bonded outer oxygen comes to −1. None of this means a real charge is sitting on those atoms — formal charge assumes every bonding pair is split perfectly evenly between the two atoms, which is rarely true in practice — but it is a quick way to judge which of several possible Lewis structures for the same formula is more reasonable: the structure with the smallest formal charges on its atoms is usually the preferred one. (NCERT 4.1.4)",
+          "key_point": "Formal charge = (valence electrons in the free atom) − (lone-pair electrons) − ½(bonding electrons); among competing Lewis structures, the one with the smallest formal charges is usually favoured."
+        },
+        {
+          "heading": "Limitations of the octet rule",
+          "body": "The octet rule is a useful guideline rather than a law, and it mainly holds up for second-period elements — it breaks down in three recognisable ways. Some central atoms end up with fewer than eight electrons around them: elements with fewer than four valence electrons, such as lithium, beryllium and boron, form compounds like LiCl, BeH~2~ and BCl~3~ where the central atom simply cannot reach a full octet.\n\nA second group are odd-electron molecules — species like nitric oxide, NO, and nitrogen dioxide, NO~2~, have an odd total electron count, so at least one atom can never be given a complete, pair-based octet. The third exception runs the other way: elements from the third period onward have empty d orbitals available alongside their s and p orbitals, so their compounds can accommodate more than eight electrons around the central atom — an expanded octet, as in PF~5~, SF~6~ and H~2~SO~4~.\n\nBeyond these three categories, the rule has other blind spots: it rests entirely on the assumed chemical inertness of noble gases, yet gases like xenon and krypton do form real compounds such as XeF~2~ and KrF~2~; and the rule says nothing at all about a molecule's shape or its relative stability. (NCERT 4.1.5)",
+          "key_point": "The octet rule fails for incomplete octets (BeH~2~, BCl~3~), odd-electron molecules (NO, NO~2~), and expanded octets from period 3 onward (SF~6~, PF~5~) — and it never predicts molecular shape."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "ionic-bond",
+      "number": 2,
+      "title": "Ionic or Electrovalent Bond",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "covalent-bond",
+      "number": 3,
+      "title": "Covalent Bond",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "bond-parameters",
+      "number": 4,
+      "title": "Bond Parameters",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 15
+    },
     {
       "id": "hybridization",
       "number": 5,
-      "title": "Hybridization",
-      "summary": "One-paragraph plain-language overview shown at the top of the chapter.",
+      "title": "Hybridisation",
+      "summary": "Plain orbital overlap cannot explain why CH~4~ is tetrahedral with bond angles of 109.5°, when carbon's three p orbitals sit at 90° to one another. Pauling solved this with hybridisation: orbitals of slightly different energies in the same valence shell intermix and redistribute their energies to give a brand-new set of orbitals that are identical in energy and shape. These hybrid orbitals point in definite directions in space, and that is what decides the geometry of the molecule.",
       "sections": [
         {
-          "heading": "What is hybridization?",
-          "body": "Markdown text. Formulas written as CH~3~COOH style or LaTeX, rendered with proper subscripts.",
-          "molecule_ids": ["methane", "benzene"],
-          "key_point": "Optional one-line callout shown in a highlighted card."
+          "heading": "What is hybridisation?",
+          "body": "Hybridisation is the intermixing of atomic orbitals of slightly different energies belonging to the same atom, so that their energies are redistributed and a new set of orbitals of equal energy and identical shape is produced. These are called hybrid orbitals, and unlike pure atomic orbitals it is the hybrid orbitals that are actually used in bond formation.\n\nFour features are worth remembering. The number of hybrid orbitals formed is always equal to the number of atomic orbitals mixed — mix one s and three p orbitals and you get exactly four sp³ orbitals. The hybrid orbitals are always equivalent to each other in energy and shape. They form stronger, more stable bonds than pure atomic orbitals because they overlap more effectively. And because they are directed in space so as to keep electron pairs as far apart as possible, the type of hybridisation tells you the geometry of the molecule.\n\nThere are conditions on which orbitals may hybridise. Only orbitals of the valence shell take part, and they must be close to one another in energy. Promotion of an electron to a higher orbital is not an essential condition for hybridisation. It is also not necessary that only half-filled orbitals participate — in some molecules completely filled valence-shell orbitals take part as well.",
+          "key_point": "The number of hybrid orbitals equals the number of atomic orbitals mixed, and the type of hybridisation fixes the shape of the molecule."
+        },
+        {
+          "heading": "sp hybridisation",
+          "body": "In sp hybridisation, one s orbital mixes with one p orbital to give two equivalent sp hybrid orbitals. Each has 50% s-character and 50% p-character. The two hybrids point in exactly opposite directions along the same axis, 180° apart, so a central atom that is sp hybridised and bonded to two other atoms gives a linear molecule. For this reason sp hybridisation is also called diagonal hybridisation. Each hybrid has a large positive lobe and a very small negative lobe, which allows more effective overlap and therefore stronger bonds.\n\nBeCl~2~ is the standard example. In the ground state beryllium is 1s²2s², with no unpaired electrons. In the excited state one 2s electron is promoted to a vacant 2p orbital, which accounts for beryllium's bivalency. The 2s and one 2p orbital then hybridise to give two sp orbitals oriented at 180°, and each overlaps axially with a 2p orbital of chlorine to form a Be–Cl sigma bond. The molecule is linear.\n\nEthyne, C~2~H~2~, is the other important case: both carbon atoms are sp hybridised, each leaving two unhybridised p orbitals behind.",
+          "molecule_ids": [
+            "ethyne"
+          ],
+          "key_point": "sp → 2 hybrid orbitals at 180°, linear geometry. Example: BeCl~2~."
+        },
+        {
+          "heading": "sp² hybridisation",
+          "body": "Here one s orbital mixes with two p orbitals to give three equivalent sp² hybrid orbitals. They lie in one plane and point towards the corners of an equilateral triangle, 120° apart, so the geometry is trigonal planar.\n\nBCl~3~ is the standard example. Boron's ground state configuration is 1s²2s²2p¹, which leaves only one unpaired electron. In the excited state one 2s electron is promoted to a vacant 2p orbital, giving boron three unpaired electrons. The 2s orbital and the two 2p orbitals then hybridise into three sp² orbitals in a trigonal planar arrangement, and each overlaps with a 2p orbital of chlorine to form a B–Cl bond. The Cl–B–Cl bond angle is 120°.\n\nEthene, C~2~H~4~, is the carbon example, and the same sp² pattern is what makes benzene planar with 120° bond angles.",
+          "molecule_ids": [
+            "benzene"
+          ],
+          "key_point": "sp² → 3 hybrid orbitals in one plane at 120°, trigonal planar. Example: BCl~3~."
+        },
+        {
+          "heading": "sp³ hybridisation",
+          "body": "One s orbital mixes with all three p orbitals to give four equivalent sp³ hybrid orbitals, each with 25% s-character and 75% p-character. They are directed towards the four corners of a tetrahedron, with an angle of 109.5° between them.\n\nCH~4~ is the classic case. Carbon's four sp³ orbitals each overlap with the 1s orbital of a hydrogen atom, giving a tetrahedral molecule with H–C–H angles of 109.5° — exactly what plain p-orbital overlap failed to explain.\n\nNH~3~ and H~2~O are also sp³, but their shapes are distorted by lone pairs. In ammonia, nitrogen has three unpaired electrons in three sp³ orbitals and a lone pair in the fourth. A lone pair repels a bond pair more strongly than two bond pairs repel each other, so the angle is squeezed from 109.5° down to 107° and the molecule is pyramidal. In water, two of oxygen's four sp³ orbitals hold lone pairs and two are bonded to hydrogen. With two lone pairs the repulsion is greater still, so the angle falls to 104.5° and the molecule is bent, or V-shaped.",
+          "molecule_ids": [
+            "methane"
+          ],
+          "key_point": "sp³ → 4 hybrid orbitals at 109.5°, tetrahedral — but lone pairs squeeze the angle (NH~3~ 107°, H~2~O 104.5°)."
+        },
+        {
+          "heading": "Hybridisation in ethane, ethene and ethyne",
+          "body": "Ethane, C~2~H~6~: both carbons are sp³. One sp³ orbital of each carbon overlaps axially with an sp³ orbital of the other to form the C–C sigma bond, and the remaining three on each carbon form sp³–s sigma bonds with hydrogen atoms. The C–C bond length is 154 pm and each C–H bond is 109 pm.\n\nEthene, C~2~H~4~: both carbons are sp². One sp² orbital of each carbon overlaps axially to give the C–C sigma bond, and the other two on each carbon form sp²–s sigma bonds with hydrogen. The leftover unhybridised p orbital on each carbon overlaps sideways to form a weak pi bond, whose electron cloud lies above and below the plane of the molecule. So a C=C double bond is one sigma bond plus one pi bond. The C=C bond length is 134 pm, the C–H bond is 108 pm, the H–C–H angle is 117.6° and the H–C–C angle is 121°.\n\nEthyne, C~2~H~2~: both carbons are sp, each keeping two unhybridised p orbitals. One sp orbital of each carbon forms the C–C sigma bond and the other bonds to hydrogen. The two pairs of unhybridised p orbitals overlap sideways to give two pi bonds. A triple bond is therefore one sigma bond and two pi bonds.",
+          "molecule_ids": [
+            "ethyne"
+          ],
+          "key_point": "A double bond is 1 sigma + 1 pi; a triple bond is 1 sigma + 2 pi. Only the sigma bond uses hybrid orbitals."
+        },
+        {
+          "heading": "Hybridisation involving d orbitals",
+          "body": "From the third period onwards, d orbitals are close enough in energy to s and p orbitals to take part in hybridisation, which allows more than four bonds around a central atom. Hybridisation of 3s, 3p with 3d is possible, and so is 3d with 4s, 4p — but 3p, 3d and 4s cannot hybridise together, because 3p and 4s differ too much in energy.\n\nsp³d gives five hybrid orbitals directed towards the corners of a trigonal bipyramid, as in PCl~5~ and PF~5~. In PCl~5~ the five bonds are not equivalent: three equatorial P–Cl bonds lie in one plane at 120° to each other, while the two axial bonds lie above and below that plane at 90° to it. The axial bond pairs suffer more repulsion from the equatorial pairs, so the axial bonds are slightly longer and weaker — which is why PCl~5~ is a reactive molecule.\n\nsp³d² gives six hybrid orbitals directed towards the corners of a regular octahedron, as in SF~6~. In the excited state sulphur has six singly occupied orbitals (one s, three p and two d); these hybridise and each overlaps with a fluorine orbital, giving six equivalent S–F sigma bonds. Two other schemes worth knowing from the same table are dsp², which gives a square planar shape as in [Ni(CN)~4~]²⁻, and sp³d², which also describes the square pyramidal shape of BrF~5~.",
+          "key_point": "sp³d → trigonal bipyramidal (PCl~5~); sp³d² → octahedral (SF~6~). In PCl~5~ the axial bonds are longer and weaker than the equatorial ones."
         }
       ],
+      "estimated_minutes": 30
+    },
+    {
+      "id": "vsepr",
+      "number": 6,
+      "title": "VSEPR Theory",
+      "summary": "",
+      "sections": [],
       "estimated_minutes": 25
     },
-    { "id": "vsepr", "number": 6, "title": "VSEPR Theory", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "valence-bond-theory", "number": 7, "title": "Valence Bond Theory", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "resonance", "number": 8, "title": "Resonance Structures", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "polarity-of-bonds", "number": 9, "title": "Polarity of Bonds", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "molecular-orbital-theory", "number": 10, "title": "Molecular Orbital Theory", "summary": "", "sections": [], "estimated_minutes": 30 },
-    { "id": "bonding-in-molecules", "number": 11, "title": "Bonding in Some Homonuclear Molecules", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "hydrogen-bond", "number": 12, "title": "Hydrogen Bonding", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "metallic-bond", "number": 13, "title": "Metallic Bonding", "summary": "", "sections": [], "estimated_minutes": 10 },
-    { "id": "dipole-moment", "number": 14, "title": "Dipole Moment", "summary": "", "sections": [], "estimated_minutes": 15 }
+    {
+      "id": "valence-bond-theory",
+      "number": 7,
+      "title": "Valence Bond Theory",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "resonance",
+      "number": 8,
+      "title": "Resonance Structures",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "polarity-of-bonds",
+      "number": 9,
+      "title": "Polarity of Bonds",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "molecular-orbital-theory",
+      "number": 10,
+      "title": "Molecular Orbital Theory",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 30
+    },
+    {
+      "id": "bonding-in-molecules",
+      "number": 11,
+      "title": "Bonding in Some Homonuclear Molecules",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "hydrogen-bond",
+      "number": 12,
+      "title": "Hydrogen Bonding",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "metallic-bond",
+      "number": 13,
+      "title": "Metallic Bonding",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "dipole-moment",
+      "number": 14,
+      "title": "Dipole Moment",
+      "summary": "",
+      "sections": [],
+      "estimated_minutes": 15
+    }
   ]
 }
