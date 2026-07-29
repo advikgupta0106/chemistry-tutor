@@ -9,11 +9,260 @@
     { "name": "NEET", "weightage_percent": 4 }
   ],
   "chapters": [
-    { "id": "thermodynamic-terms", "number": 1, "title": "Thermodynamic Terms", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "internal-energy", "number": 2, "title": "Internal Energy and the First Law", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "enthalpy", "number": 3, "title": "Enthalpy and Enthalpy Change", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "hess-law", "number": 4, "title": "Hess's Law of Constant Heat Summation", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "entropy", "number": 5, "title": "Entropy and Spontaneity", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "gibbs-energy", "number": 6, "title": "Gibbs Energy Change", "summary": "", "sections": [], "estimated_minutes": 20 }
+    {
+      "id": "thermodynamic-terms",
+      "number": 1,
+      "title": "Thermodynamic Terms",
+      "summary": "Before any energy calculation makes sense, thermodynamics needs a precise vocabulary: what counts as the system versus the surroundings, how freely matter and energy can cross between them, and how a system's state is captured by just a handful of measurable properties rather than the motion of every individual particle in it.",
+      "sections": [
+        {
+          "heading": "System and surroundings",
+          "body": "In thermodynamics, a system is whatever part of the universe we're actually observing; everything else is the surroundings — together, system and surroundings make up the universe. In practice, only the portion of the universe that can actually interact with the system matters, so 'surroundings' usually just means the immediate neighbourhood of the system. If you're studying a reaction between two substances in a beaker, the beaker and its contents are the system, and the room around it is the surroundings. The wall that separates a system from its surroundings — real or imaginary — is called the boundary, and it's what lets us track every movement of matter and energy in or out of the system. (NCERT 5.1.1)",
+          "key_point": "A thermodynamic system is the specific part of the universe under study; everything else is surroundings, separated from the system by a boundary that may be real (a beaker's glass) or purely imaginary."
+        },
+        {
+          "heading": "Open, closed and isolated systems",
+          "body": "Systems are classified by what can cross their boundary. An open system can exchange both matter and energy with its surroundings — reactants in an open beaker are the standard example. A closed system can exchange energy but not matter — reactants sealed in a conducting vessel (say, copper or steel) fit this. An isolated system can exchange neither matter nor energy — reactants in a thermos flask or any well-insulated, sealed vessel. (NCERT 5.1.2)",
+          "key_point": "Open systems exchange both matter and energy; closed systems exchange only energy; isolated systems exchange neither — the difference comes down entirely to what the boundary allows to cross it."
+        },
+        {
+          "heading": "The state of a system",
+          "body": "To make any useful calculation, a system has to be described quantitatively — by its pressure (p), volume (V), temperature (T), and composition. Unlike mechanics, where a system's state needs the position and velocity of every individual particle, thermodynamics only needs a system's average, measurable (macroscopic) properties, called state functions or state variables — p, V, T and amount (n) are the standard ones. A state variable's value depends only on the system's current state, not on how it got there, and it isn't necessary to fix every single property to define a state completely: only a certain number can vary independently (depending on the system), and once those are fixed, the rest follow automatically. Unlike the system, the surroundings' state can never be fully specified — fortunately, it doesn't need to be. (NCERT 5.1.3)",
+          "key_point": "A system's state is described by a handful of macroscopic state variables (p, V, T, n) whose values depend only on the current state, not the path taken to reach it — you don't need to specify every property, just enough independent ones to fix the rest."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "internal-energy",
+      "number": 2,
+      "title": "Internal Energy and the First Law",
+      "summary": "Internal energy, U, bundles up every form of energy a system holds, and Joule's experiments showed it's a genuine state function — which is exactly what lets the first law of thermodynamics, ∆U = q + w, connect heat and work to energy conservation regardless of how a change is actually carried out.",
+      "sections": [
+        {
+          "heading": "Internal energy as a state function",
+          "body": "The internal energy, U, of a system is the sum of every kind of energy it contains — chemical, electrical, mechanical, or any other form — and it can change three ways: heat passing in or out, work being done on or by the system, or matter entering or leaving. J.P. Joule showed, between 1840 and 1850, that a given amount of work done on a system — no matter how it's done — always produces exactly the same change of state (as measured by temperature change), regardless of the path taken. This is exactly what makes internal energy a state function: the adiabatic work, w_ad, needed to bring about a change of state equals the difference between the internal energy in the two states, ∆U = U₂ − U₁ = w_ad, and w_ad has the same value no matter which method of doing work is used. (NCERT 5.1.4)",
+          "key_point": "Joule's experiments (1840s) showed that a given amount of work always produces the same change of state, however it's done — which is exactly what makes internal energy, U, a state function."
+        },
+        {
+          "heading": "Changing internal energy by doing work",
+          "body": "An adiabatic system — like water in a thermos flask — doesn't allow heat to cross its boundary (an adiabatic wall); a process carried out this way is an adiabatic process. Starting the system in state A (temperature T_A, internal energy U_A), doing 1 kJ of mechanical work on it (say, by churning water with paddles) brings it to state B (temperature T_B > T_A, internal energy U_B). Doing the same 1 kJ of electrical work instead (via an immersion heater) produces exactly the same temperature change — confirming that the change in internal energy only depends on how much work was done, not the method. By IUPAC convention, w is positive when work is done on the system (internal energy increases) and negative when work is done by the system (internal energy decreases). (NCERT 5.1.4a)",
+          "key_point": "Whether you heat water by mechanical churning or by electrical resistance, an equal amount of work produces an equal change in internal energy — confirming ∆U depends only on the amount of work, not the method."
+        },
+        {
+          "heading": "Changing internal energy by heat transfer",
+          "body": "Internal energy can also change by transferring heat (q) between system and surroundings without any work being done, purely as a result of a temperature difference. If a system at temperature T_A (with thermally conducting walls) is placed in contact with a much larger heat reservoir at T_B, the heat absorbed can be measured from the temperature difference, and at constant volume (no work), ∆U = q. By IUPAC convention, q is positive when heat flows from surroundings into the system (internal energy increases) and negative when heat flows out (internal energy decreases). (NCERT 5.1.4b)",
+          "key_point": "At constant volume, with no work done, ∆U = q exactly — heat flowing into the system is positive, heat flowing out is negative, by IUPAC convention."
+        },
+        {
+          "heading": "The first law of thermodynamics",
+          "body": "In the general case, where a change of state involves both heat transfer and work, ∆U = q + w — and while q and w individually can vary depending on exactly how the change is carried out, their sum, ∆U, depends only on the initial and final states, not the path. This equation is the mathematical statement of the first law of thermodynamics: the energy of an isolated system is constant. It's essentially the law of conservation of energy — energy can be neither created nor destroyed, only converted between forms or transferred as heat and work. For an isolated system, where neither heat nor work crosses the boundary (q = 0, w = 0), ∆U is necessarily zero. (NCERT 5.1.4c)",
+          "key_point": "The first law of thermodynamics, ∆U = q + w, says energy is conserved: q and w can each vary with how a process is carried out, but their sum (∆U) depends only on the initial and final states."
+        },
+        {
+          "heading": "Pressure-volume work and reversible processes",
+          "body": "For a gas compressed by a constant external pressure p_ex in a single step, the work done on the system is w = −p_ex∆V = −p_ex(V_f − V_i); the negative sign is needed so that compression (where V_f < V_i, making ∆V negative) gives a positive w, correctly indicating work done on the system. If the external pressure changes so that it's always just infinitesimally greater (during compression) or less (during expansion) than the gas's own pressure, the process is reversible — at every moment, an infinitesimally small change could reverse its direction, and system and surroundings stay in near-equilibrium throughout. Processes that don't meet this condition are irreversible. For an isothermal (constant-temperature) reversible expansion or compression of an ideal gas, integrating the work expression gives w_rev = −2.303nRT log(V_f/V_i) — and for free expansion into a vacuum (p_ex = 0), no work is done at all, whether the process is reversible or irreversible. (NCERT 5.2.1)",
+          "key_point": "Work done on a gas is w = −p_ex∆V for a constant external pressure, or w_rev = −2.303nRT log(V_f/V_i) for a reversible isothermal process — expansion into a vacuum (free expansion) always does zero work, reversible or not."
+        }
+      ],
+      "estimated_minutes": 30
+    },
+    {
+      "id": "enthalpy",
+      "number": 3,
+      "title": "Enthalpy and Enthalpy Change",
+      "summary": "Since most chemical reactions run at constant pressure rather than constant volume, enthalpy (H = U + pV) is the state function that actually matches how heat is measured in practice — and understanding it properly means knowing which properties scale with amount of substance (extensive) and which don't (intensive), plus how heat capacity connects heat to temperature change.",
+      "sections": [
+        {
+          "heading": "Enthalpy: a useful new state function",
+          "body": "Heat absorbed at constant volume equals the change in internal energy, ∆U = q_V — but most chemical reactions happen at constant (atmospheric) pressure, not constant volume, in ordinary flasks and test tubes. At constant pressure, ∆U = q_p − p∆V, which rearranges to q_p = (U₂ + pV₂) − (U₁ + pV₁). This motivates defining a new state function, enthalpy, H = U + pV, so that q_p = H₂ − H₁ = ∆H. Since H depends only on U, p and V — all state functions — H is itself a state function, and so ∆H (and therefore q_p) is independent of path. Rearranged for a finite change at constant pressure, ∆H = ∆U + p∆V. In short: when heat is absorbed at constant pressure, what's actually being measured is the change in enthalpy. (NCERT 5.2.2a)",
+          "key_point": "Enthalpy, H = U + pV, is defined specifically because most reactions happen at constant pressure, where the heat absorbed (q_p) exactly equals ∆H — a state function, unlike q or w individually."
+        },
+        {
+          "heading": "Extensive and intensive properties",
+          "body": "Thermodynamic properties split into two types. Extensive properties depend on how much matter is present — mass, volume, internal energy, enthalpy and heat capacity are all extensive. Intensive properties don't depend on the amount present — temperature, density and pressure are intensive. Splitting a container of gas in half with a partition halves the volume (extensive) in each half, but the temperature (intensive) stays the same throughout. A molar property is an extensive property divided by the amount of substance (n), which makes it independent of amount — molar volume and molar heat capacity are examples. (NCERT 5.2.2b)",
+          "key_point": "Extensive properties (mass, volume, U, H, heat capacity) scale with the amount of substance present; intensive properties (temperature, density, pressure) don't — dividing an extensive property by n gives an intensive molar property."
+        },
+        {
+          "heading": "Heat capacity",
+          "body": "The temperature rise a system experiences is proportional to the heat transferred to it, q = C∆T, where the proportionality constant C — the heat capacity — depends on the system's size, composition and nature; a large heat capacity means a given amount of heat produces only a small temperature rise (water is a well-known example of a substance with large heat capacity). Heat capacity scales directly with the amount of substance present, so the molar heat capacity, C_m = C/n, is the heat needed to raise one mole of a substance by one degree; specific heat capacity is the same idea per unit mass rather than per mole, so heat can also be calculated as q = c·m·∆T. (NCERT 5.2.2c)",
+          "key_point": "Heat capacity C relates heat and temperature change via q = C∆T; molar heat capacity (per mole) and specific heat capacity (per unit mass) are the same idea scaled to a standard amount of substance."
+        },
+        {
+          "heading": "The relationship between Cp and Cv",
+          "body": "Heat capacity at constant volume is denoted C_V (with q_V = C_V∆T = ∆U); at constant pressure it's C_p (with q_p = C_p∆T = ∆H). For an ideal gas, using ∆H = ∆U + ∆(pV) = ∆U + R∆T (from the ideal gas law for one mole), substituting C_p∆T for ∆H and C_V∆T for ∆U gives C_p∆T = C_V∆T + R∆T, and dividing through by ∆T gives the simple relationship C_p − C_V = R. (NCERT 5.2.2d)",
+          "key_point": "For an ideal gas, C_p − C_V = R exactly — following directly from ∆H = ∆U + R∆T, since heat capacity at constant pressure always has to account for the extra pV work that constant-volume heating doesn't."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "calorimetry",
+      "number": 4,
+      "title": "Measuring ΔU and ΔH: Calorimetry",
+      "summary": "Calorimetry turns a measured temperature change into an actual heat quantity — a bomb calorimeter's sealed, constant-volume design measures ΔU directly, while a constant-pressure calorimeter measures ΔH, and which one you need depends entirely on whether the process you're studying happens at fixed volume or fixed pressure.",
+      "sections": [
+        {
+          "heading": "Calorimetry: measuring heat changes",
+          "body": "Calorimetry is the experimental technique for measuring the energy changes accompanying chemical or physical processes: the process is carried out in a vessel called a calorimeter, immersed in a known volume of liquid, and the resulting temperature change — combined with the known heat capacities of the liquid and the calorimeter itself — reveals the heat evolved or absorbed. Measurements can be made under two conditions: at constant volume (giving q_V) or at constant pressure (giving q_p). (NCERT 5.3)",
+          "key_point": "Calorimetry converts a measured temperature change into a heat quantity, using the known heat capacity of the calorimeter and its surrounding liquid — done at either constant volume (q_V) or constant pressure (q_p)."
+        },
+        {
+          "heading": "Bomb calorimeter: measuring ΔU",
+          "body": "For chemical reactions, heat absorbed at constant volume is measured with a bomb calorimeter: a sealed steel vessel (the 'bomb'), immersed in a water bath, in which a combustible substance is burned in pure oxygen. Because the bomb is sealed, its volume can't change, so no pressure-volume work is done — even for reactions involving gases, since ∆V = 0 — meaning the measured heat corresponds directly to q_V, and therefore to ∆U. The temperature rise of the water bath, converted using the calorimeter's known heat capacity, gives q_V directly. (NCERT 5.3a)",
+          "key_point": "A bomb calorimeter measures heat at constant volume (∆V = 0, so no work is done), which means the measured heat equals q_V — and so equals ∆U directly, for any reaction including those involving gases."
+        },
+        {
+          "heading": "Constant-pressure calorimeter: measuring ΔH",
+          "body": "Heat changes at constant (usually atmospheric) pressure are measured in a different style of calorimeter that allows the system's volume to change freely. Since ∆H = q_p at constant pressure, the heat absorbed or evolved this way is also called the heat of reaction or enthalpy of reaction, ∆_rH. In an exothermic reaction, the system loses heat to its surroundings, so q_p (and therefore ∆_rH) is negative; in an endothermic reaction, both are positive. For a graphite combustion reaction where temperature rose from 298 K to 299 K in a bomb calorimeter of known heat capacity 20.7 kJ/K, the heat released works out to −20.7 kJ for 1 g of graphite, or −2.48 × 10² kJ mol⁻¹ for a full mole — and since ∆n_g = 0 for this reaction, ∆H = ∆U here exactly. (NCERT 5.3b, Problem 5.6)",
+          "key_point": "At constant pressure, the measured heat is q_p = ∆H (the enthalpy/heat of reaction) directly — negative for exothermic reactions, positive for endothermic ones."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "reaction-enthalpy",
+      "number": 5,
+      "title": "Reaction Enthalpy",
+      "summary": "A reaction's enthalpy change only means something once it's tied to standard conditions — and from there, the same basic idea (products' enthalpy minus reactants') explains everything from why melting always costs energy, to how a single table of formation enthalpies can predict the enthalpy of virtually any reaction.",
+      "sections": [
+        {
+          "heading": "Reaction enthalpy and standard states",
+          "body": "The enthalpy change accompanying a reaction, ∆_rH, is the sum of the products' enthalpies minus the sum of the reactants' enthalpies, each weighted by its stoichiometric coefficient: ∆_rH = Σaᵢ·H(products) − Σbᵢ·H(reactants). Since this depends on the exact conditions a reaction is run under, standard conditions are needed for meaningful comparison: the standard state of a substance at a given temperature is its pure form at 1 bar, usually reported at 298 K, denoted with a superscript (∆_rH°). Standard enthalpy of reaction is the enthalpy change when every substance involved is in its standard state. (NCERT 5.4a)",
+          "key_point": "Reaction enthalpy ∆_rH = Σ(coefficient × enthalpy of each product) − Σ(coefficient × enthalpy of each reactant); the standard state is a substance's pure form at 1 bar, usually reported at 298 K."
+        },
+        {
+          "heading": "Enthalpy changes during phase transformations",
+          "body": "Phase changes absorb or release energy while temperature stays constant. Melting a solid always requires heat (endothermic), so the standard enthalpy of fusion (∆_fusH, per mole, in the standard state) is always positive — water's is 6.00 kJ mol⁻¹. Vaporising a liquid similarly requires heat at its boiling point; water's standard enthalpy of vaporisation (∆_vapH) is +40.79 kJ mol⁻¹. Solid-to-vapour sublimation likewise has a standard enthalpy of sublimation, ∆_subH — dry ice (solid CO₂) sublimes at 195 K with ∆_subH = 25.2 kJ mol⁻¹, while naphthalene sublimes slowly with ∆_subH = 73.0 kJ mol⁻¹. In every case, the size of the enthalpy change reflects the strength of the intermolecular forces being overcome — water's strong hydrogen bonds mean it takes far more heat to vaporise than a weakly-interacting liquid like acetone. (NCERT 5.4b)",
+          "molecule_ids": ["naphthalene"],
+          "key_point": "Phase-change enthalpies (fusion, vaporisation, sublimation) are always positive, since melting/boiling/subliming all require energy input — their size directly reflects how strong the substance's intermolecular forces are (naphthalene's 73.0 kJ mol⁻¹ sublimation enthalpy versus dry ice's 25.2 kJ mol⁻¹)."
+        },
+        {
+          "heading": "Standard enthalpy of formation",
+          "body": "The standard molar enthalpy of formation, ∆_fH°, is the enthalpy change when one mole of a compound forms, in its standard state, from its constituent elements in their most stable ('reference') states of aggregation at 25°C and 1 bar — dihydrogen's reference state is H₂ gas, carbon's is graphite, sulphur's is rhombic sulphur. By convention, any element in its reference state has ∆_fH° = 0. Knowing every substance's ∆_fH° lets you calculate any reaction's enthalpy directly: ∆_rH° = Σaᵢ∆_fH°(products) − Σbᵢ∆_fH°(reactants). For the decomposition of calcium carbonate, CaCO₃(s) → CaO(s) + CO₂(g), this gives ∆_rH° = (−635.1) + (−393.5) − (−1206.9) = +178.3 kJ mol⁻¹, confirming it's endothermic and needs heating to proceed. (NCERT 5.4c)",
+          "key_point": "Standard enthalpy of formation (∆_fH°, zero by convention for elements in their reference state) lets any reaction's enthalpy be calculated as Σ∆_fH°(products) − Σ∆_fH°(reactants) — as with CaCO₃'s +178.3 kJ mol⁻¹ decomposition enthalpy."
+        },
+        {
+          "heading": "Thermochemical equations",
+          "body": "A balanced chemical equation written together with its ∆_rH value is a thermochemical equation, and it comes with three conventions worth remembering. First, the coefficients always refer to moles (never molecules) of reactants and products, and the reported ∆_rH corresponds to exactly that amount — meaning enthalpy is an extensive quantity: balancing the same reaction with all coefficients halved also halves the reported ∆_rH. Second, since enthalpy is a state function, reversing an equation reverses the sign of ∆_rH — the formation of ammonia releases 91.8 kJ mol⁻¹, so its decomposition back to N₂ and H₂ absorbs the same 91.8 kJ mol⁻¹. Third, the physical (and allotropic) state of every substance must be specified, since a reaction's enthalpy depends on it. (NCERT 5.4d)",
+          "key_point": "A thermochemical equation's coefficients are always moles, and its reported ∆_rH scales exactly with those coefficients (enthalpy is extensive); reversing the equation flips the sign of ∆_rH, since enthalpy is a state function."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "hess-law",
+      "number": 6,
+      "title": "Hess's Law of Constant Heat Summation",
+      "summary": "Because enthalpy is a state function, a reaction's total enthalpy change is the same whether it happens in one step or many — which means an enthalpy that can't be measured directly (like carbon burning to CO alone) can still be calculated exactly, just by combining other reactions whose enthalpies are known.",
+      "sections": [
+        {
+          "heading": "Hess's Law",
+          "body": "Since enthalpy is a state function, the enthalpy change for a reaction is exactly the same whether it happens in one step or via a series of intermediate steps — this is Hess's Law of constant heat summation: if a reaction proceeds in several steps, its standard reaction enthalpy is the sum of the standard enthalpies of the intermediate reactions it can be divided into, all at the same temperature. In general, if an overall reaction A → B has enthalpy ∆_rH, and it can also be reached via a different route through intermediate reactions with enthalpies ∆_rH₁, ∆_rH₂, ∆_rH₃..., then ∆_rH = ∆_rH₁ + ∆_rH₂ + ∆_rH₃ + ... (NCERT 5.4e)",
+          "key_point": "Hess's Law: because enthalpy is a state function, a reaction's overall enthalpy change equals the sum of the enthalpy changes of any set of steps that get from the same reactants to the same products."
+        },
+        {
+          "heading": "Using Hess's Law: an example",
+          "body": "Hess's Law is especially useful when a reaction's enthalpy can't be measured directly — burning graphite in a limited supply of oxygen to form CO(g) always produces some CO₂(g) too, so ∆_rH for C(graphite) + ½O₂(g) → CO(g) can't be measured cleanly on its own. But two related, directly measurable reactions can be combined to get it: C(graphite) + O₂(g) → CO₂(g), ∆_rH = −393.5 kJ mol⁻¹, and CO(g) + ½O₂(g) → CO₂(g), ∆_rH = −283.0 kJ mol⁻¹. Reversing the second equation (which flips its sign to +283.0 kJ mol⁻¹) and adding it to the first cancels the CO₂ and gives exactly the desired reaction, with ∆_rH = (−393.5 + 283.0) = −110.5 kJ mol⁻¹. (NCERT 5.4e)",
+          "key_point": "Hess's Law lets you calculate a reaction's enthalpy from other, more easily measured reactions — by adding and reversing known thermochemical equations (and their ∆H values) until they combine to the target reaction."
+        },
+        {
+          "heading": "Combining formation and combustion enthalpies",
+          "body": "Hess's Law also lets an unmeasurable formation enthalpy be worked out from measurable combustion data. Benzene's formation reaction, 6C(graphite) + 3H₂(g) → C₆H₆(l), can't be run directly, but its combustion enthalpy (−3267.0 kJ mol⁻¹) and the known formation enthalpies of CO₂(g) (−393.5 kJ mol⁻¹) and H₂O(l) (−285.83 kJ mol⁻¹) can be combined: scaling carbon's combustion equation by 6 and hydrogen's by 3, adding them together, and then adding the reversed benzene combustion equation, gives benzene's standard enthalpy of formation as −48.51 kJ mol⁻¹. (NCERT 5.4e, Problem 5.9)",
+          "molecule_ids": ["benzene"],
+          "key_point": "A compound's enthalpy of formation can be worked out from its enthalpy of combustion plus the known formation enthalpies of CO₂ and H₂O — exactly how benzene's formation enthalpy (−48.51 kJ mol⁻¹) is found, since its direct formation reaction can't be run."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "enthalpies-of-reactions",
+      "number": 7,
+      "title": "Enthalpies for Different Types of Reactions",
+      "summary": "Chemists give a specific name to the enthalpy change of nearly every distinct kind of process — combustion, atomization, bond breaking, lattice dissociation, dissolving — because each one shows up constantly and follows its own recognisable pattern, from the always-exothermic burn of a fuel to the near-perfect cancellation that makes dissolving table salt barely change the temperature at all.",
+      "sections": [
+        {
+          "heading": "Enthalpy of combustion",
+          "body": "Standard enthalpy of combustion, ∆_cH, is the enthalpy change per mole when a substance burns completely, with every reactant and product in its standard state — always exothermic. Butane, the main component of cooking gas, releases 2658.0 kJ per mole burned: C₄H₁₀(g) + 13/2 O₂(g) → 4CO₂(g) + 5H₂O(l), ∆_cH = −2658.0 kJ mol⁻¹. Glucose combustion releases 2802.0 kJ per mole: C₆H₁₂O₆(s) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), ∆_cH = −2802.0 kJ mol⁻¹ — and the body generates energy from food via essentially the same overall process, even though it actually happens through a long series of enzyme-driven biochemical steps rather than direct burning. (NCERT 5.5a)",
+          "molecule_ids": ["glucose"],
+          "key_point": "Standard enthalpy of combustion is always exothermic (negative) — glucose's combustion releases 2802.0 kJ mol⁻¹, essentially the same overall energy the body extracts from it via a much longer chain of biochemical reactions."
+        },
+        {
+          "heading": "Enthalpy of atomization",
+          "body": "Enthalpy of atomization, ∆_aH, is the enthalpy change when one mole of bonds is completely broken to give atoms in the gas phase. For diatomic molecules, this is identical to the bond dissociation enthalpy — breaking H₂(g) into 2H(g) takes 435.0 kJ mol⁻¹, which is both the atomization enthalpy of hydrogen and the H–H bond dissociation enthalpy. Atomizing a solid metal, like sodium, works the same way: Na(s) → Na(g), ∆_aH = 108.4 kJ mol⁻¹. (NCERT 5.5b)",
+          "key_point": "Enthalpy of atomization is the energy to break one mole of bonds into gas-phase atoms — for diatomic molecules (like H₂) it's identical to the bond dissociation enthalpy."
+        },
+        {
+          "heading": "Bond enthalpy",
+          "body": "For a polyatomic molecule, the bond dissociation enthalpy differs slightly for each successive bond broken, even for chemically identical bonds — breaking methane's four C–H bonds one at a time takes 427, 439, 452 and 347 kJ mol⁻¹ respectively, even though all four C–H bonds are identical in length and energy in the intact molecule. Since these individual values differ, chemists use the mean bond enthalpy instead — for methane's C–H bond, that's simply the total atomization enthalpy divided by the number of bonds: ¼ × 1665 kJ mol⁻¹ = 416 kJ mol⁻¹. Using tabulated mean bond enthalpies (via Hess's Law), a gas-phase reaction's enthalpy can be estimated as ∆_rH = Σ(bond enthalpies broken in reactants) − Σ(bond enthalpies formed in products) — particularly useful when formation-enthalpy data isn't available, though the approximation is only reliable when every substance involved is in the gas phase. (NCERT 5.5c)",
+          "molecule_ids": ["methane"],
+          "key_point": "Mean bond enthalpy averages the differing energies of breaking chemically-identical bonds one at a time (methane's four C–H bonds average to 416 kJ mol⁻¹) — this lets reaction enthalpies be estimated from Σ(bonds broken) − Σ(bonds formed), for gas-phase reactions only."
+        },
+        {
+          "heading": "Lattice enthalpy and the Born-Haber cycle",
+          "body": "Lattice enthalpy is the enthalpy change when one mole of an ionic compound dissociates completely into its gaseous ions — NaCl(s) → Na⁺(g) + Cl⁻(g), ∆_latticeH = +788 kJ mol⁻¹. Since this can't be measured directly, it's calculated indirectly via a Born-Haber cycle: a sequence of measurable steps (sublimation of the metal, ionization of the metal atom, dissociation of the non-metal, electron gain by the non-metal atom, and finally combination of the gaseous ions into the solid lattice) that, added together via Hess's Law, sum to zero around the complete cycle. For NaCl, summing sublimation (108.4), ionization (496), half the Cl₂ bond dissociation enthalpy (121), and chlorine's electron gain enthalpy (−348.6) gives the lattice enthalpy as +788 kJ mol⁻¹. (NCERT 5.5d)",
+          "key_point": "Lattice enthalpy can't be measured directly, so it's calculated via a Born-Haber cycle — a Hess's-Law sum of sublimation, ionization, bond dissociation and electron gain enthalpies that must balance to give NaCl's +788 kJ mol⁻¹."
+        },
+        {
+          "heading": "Enthalpy of solution and dilution",
+          "body": "Enthalpy of solution, ∆_solH, is the enthalpy change when one mole of a substance dissolves in a specified amount of solvent, and it's the sum of two opposing effects: the lattice enthalpy (energy needed to break the ionic lattice apart, always positive) and the enthalpy of hydration (energy released as ions are solvated by water, always negative): ∆_solH = ∆_latticeH + ∆_hydH. For NaCl, +788 kJ mol⁻¹ (lattice) plus −784 kJ mol⁻¹ (hydration) gives a nearly-neutral +4 kJ mol⁻¹ — which is why dissolving NaCl produces almost no noticeable heat change. Since ∆_solH is usually positive (dissolution is usually endothermic), most salts become more soluble as temperature rises. Enthalpy of dilution is the heat change when more solvent is added to an already-prepared solution; it depends on both the original concentration and how much solvent is added, and it approaches a limiting value as the solution becomes infinitely dilute (interactions between dissolved ions become negligible). (NCERT 5.5e, 5.5f)",
+          "key_point": "Enthalpy of solution = lattice enthalpy (always positive) + enthalpy of hydration (always negative) — for NaCl these nearly cancel (+788 and −784 kJ mol⁻¹), which is why dissolving table salt barely changes temperature at all."
+        }
+      ],
+      "estimated_minutes": 30
+    },
+    {
+      "id": "entropy",
+      "number": 8,
+      "title": "Entropy and Spontaneity",
+      "summary": "The first law can't say which direction a process actually goes — some spontaneous reactions release energy, but others absorb it, so decreasing enthalpy alone can't be the answer. Entropy (disorder) is: for any spontaneous process, the total entropy of system plus surroundings always increases, and that single rule is what the second and third laws of thermodynamics build on.",
+      "sections": [
+        {
+          "heading": "What makes a process spontaneous?",
+          "body": "The first law says nothing about which direction a process actually proceeds — but real, naturally occurring processes are unidirectional: heat flows from hot to cold, never the reverse; a gas expands to fill its container, but never spontaneously contracts into one corner. Spontaneity doesn't mean fast — mixing hydrogen and oxygen at room temperature is a spontaneous reaction, even though it might take years to notice any change, since spontaneity just means 'having the potential to proceed without external assistance', with no reference to rate. What all spontaneous processes share is that they can't reverse themselves on their own: a spontaneous process is an irreversible process, reversible only with the help of some external agency. (NCERT 5.6)",
+          "key_point": "Spontaneity is about direction, not speed — a spontaneous process (however slowly it proceeds) can never reverse itself without outside help, which is exactly what makes it irreversible."
+        },
+        {
+          "heading": "Is decreasing enthalpy the driving force?",
+          "body": "Many spontaneous reactions are exothermic — ½N₂(g) + 3/2H₂(g) → NH₃(g), ∆_rH = −46.1 kJ mol⁻¹, or H₂(g) + ½O₂(g) → H₂O(l), ∆_rH = −285.8 kJ mol⁻¹ — which might suggest that a decrease in enthalpy is what drives spontaneity, similar to how a ball rolls downhill toward lower potential energy. But some spontaneous reactions are endothermic: ½N₂(g) + O₂(g) → NO₂(g), ∆_rH = +33.2 kJ mol⁻¹, still proceeds spontaneously despite the enthalpy increase. So decreasing enthalpy can contribute to spontaneity, but it clearly isn't the whole story — something else has to be driving these endothermic-yet-spontaneous cases. (NCERT 5.6a)",
+          "key_point": "Decrease in enthalpy can't be the sole criterion for spontaneity, since some endothermic reactions (like N₂ + O₂ → NO₂) proceed spontaneously anyway — there must be another factor at work."
+        },
+        {
+          "heading": "Entropy: the real driving force",
+          "body": "Consider two gases diffusing into each other in an isolated container after a partition is removed — here ∆H = 0, yet the process is clearly spontaneous, and reversing it (the gases separating back out on their own) never happens. What's changed is that the system has become more disordered: before mixing, you could confidently predict which gas any given molecule belonged to; afterward, you can't. This disorder is entropy (S): a measure of the degree of randomness in a system, higher for more disordered arrangements — a gas has higher entropy than a liquid, which has higher entropy than a crystalline solid (the most ordered state). Entropy is a state function, related to reversible heat transfer by ∆S = q_rev/T. For a spontaneous process, the total entropy change of system plus surroundings is always positive: ∆S_total = ∆S_sys + ∆S_surr > 0 — and at equilibrium, entropy is at its maximum and ∆S = 0. This is why entropy — unlike energy — can distinguish reversible from irreversible processes: for an ideal gas expanding isothermally, ∆U = 0 either way, but ∆S_total is only zero for the reversible case. (NCERT 5.6b)",
+          "key_point": "Entropy (S) measures disorder, and for any spontaneous process the total entropy of system plus surroundings must increase (∆S_total > 0), reaching zero change only at equilibrium — this is what lets entropy (unlike ∆U) tell reversible and irreversible processes apart."
+        },
+        {
+          "heading": "The second and third laws of thermodynamics",
+          "body": "Since an isolated system's internal energy stays constant, the second law of thermodynamics follows directly: entropy naturally increases in such a system, which is the natural direction of spontaneous change. This is also why spontaneous exothermic reactions are so common — the heat they release increases the surroundings' disorder enough that the total entropy change stays positive, even if the reaction's own entropy change is unfavourable. The third law of thermodynamics addresses entropy's absolute value: the entropy of any pure, perfectly ordered crystalline substance approaches zero as temperature approaches absolute zero, since there's perfect order in such a crystal at 0 K (this doesn't hold for solutions or supercooled liquids, which retain some disorder even at 0 K). The third law's real importance is practical: it lets absolute entropy values be calculated from thermal data alone, by summing q_rev/T contributions from 0 K up to the temperature of interest. (NCERT 5.6d, 5.6e)",
+          "key_point": "The second law says entropy naturally increases in an isolated system (explaining why exothermic reactions are so often spontaneous); the third law says a perfect crystal's entropy is exactly zero at absolute zero — which is what makes absolute entropy values calculable at all."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "gibbs-energy",
+      "number": 9,
+      "title": "Gibbs Energy Change",
+      "summary": "Since neither enthalpy nor entropy alone reliably predicts spontaneity, Gibbs energy (G = H − TS) combines them into one clean rule — ∆G < 0 means spontaneous — that also happens to connect directly to how far a reaction actually proceeds, through its equilibrium constant.",
+      "sections": [
+        {
+          "heading": "Gibbs energy: combining enthalpy and entropy",
+          "body": "Since most real reactions involve changes in both enthalpy and entropy, neither one alone reliably predicts spontaneity — so a new state function, Gibbs energy (or Gibbs function), is defined: G = H − TS. At constant temperature, the change in Gibbs energy is ∆G = ∆H − T∆S, the Gibbs equation, one of the most important relationships in chemistry. Working through the total entropy change (∆S_total = ∆S_sys + ∆S_surr) for a system in thermal equilibrium with its surroundings shows that a spontaneous process always has −∆G > 0, i.e. ∆G < 0. This gives a clean, self-contained criterion for spontaneity at constant temperature and pressure: ∆G negative means spontaneous, ∆G positive means non-spontaneous — using only the system's own properties, without needing to separately track the surroundings. Because T∆S represents energy that isn't available to do useful work, ∆G represents the energy that is available — which is why it's also called the free energy of a reaction. (NCERT 5.6c)",
+          "key_point": "Gibbs energy, ∆G = ∆H − T∆S, gives spontaneity in terms of the system alone: ∆G < 0 means spontaneous, ∆G > 0 means non-spontaneous, at constant temperature and pressure."
+        },
+        {
+          "heading": "Gibbs energy and temperature",
+          "body": "A reaction with a positive enthalpy change and a positive entropy change can still become spontaneous if T∆S grows large enough to outweigh ∆H — which can happen either because the entropy increase is small (needing a large T to compensate) or because it's large (letting even a modest T do the job). This is exactly why many reactions that don't proceed at room temperature become spontaneous when heated. The relationship between the signs of ∆H, ∆S and the resulting ∆G (and so spontaneity) falls into six possible combinations — a reaction can be spontaneous at all temperatures (∆H negative, ∆S positive), non-spontaneous at all temperatures (∆H positive, ∆S negative), or temperature-dependent in various ways in between. (NCERT 5.6c, Table 5.4)",
+          "key_point": "Whether a reaction with positive ∆H and positive ∆S becomes spontaneous depends entirely on temperature — high enough T makes T∆S outweigh ∆H, which is exactly why many otherwise non-spontaneous reactions are run hot."
+        },
+        {
+          "heading": "Gibbs energy and the equilibrium constant",
+          "body": "For a reaction at equilibrium, ∆_rG = 0 — if it weren't, the system would spontaneously shift toward whichever direction lowers its Gibbs energy further, until it reached the minimum. This connects Gibbs energy directly to the equilibrium constant: ∆_rG° = −RT ln K, or equivalently ∆_rG° = −2.303RT log K. This relationship works both ways — a measured or estimated ∆_rG° (from ∆H and ∆S) predicts K, while an experimentally measured K reveals ∆_rG° at that temperature. Strongly exothermic reactions with large negative ∆_rH tend to have large negative ∆_rG° and so large K (going nearly to completion), while strongly endothermic reactions tend to have small K (barely proceeding) — though the entropy term can shift this balance either way. (NCERT 5.7)",
+          "key_point": "∆_rG° = −RT ln K links spontaneity directly to how far a reaction proceeds — strongly negative ∆_rG° (as in strongly exothermic reactions) means a large K and near-complete reaction, while positive ∆_rG° means K is small."
+        }
+      ],
+      "estimated_minutes": 20
+    }
   ]
 }
