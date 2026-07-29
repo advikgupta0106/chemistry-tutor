@@ -2,16 +2,10 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Check, Circle, Bookmark } from "lucide-react";
+import { ArrowLeft, Check, Circle, Bookmark, ChevronRight } from "lucide-react";
 import type { Topic } from "@/lib/content";
 import TopicIcon from "@/components/TopicIcon";
-import {
-  getProgress,
-  isChapterRead,
-  markChapterRead,
-  unmarkChapterRead,
-  type ProgressData,
-} from "@/lib/progress";
+import { getProgress, isChapterRead, type ProgressData } from "@/lib/progress";
 import { isTopicBookmarked, toggleTopicBookmark } from "@/lib/bookmarks";
 
 export default function TopicDetailClient({ topic }: { topic: Topic }) {
@@ -34,15 +28,6 @@ export default function TopicDetailClient({ topic }: { topic: Topic }) {
   const percent = topic.chapters.length
     ? Math.round((readCount / topic.chapters.length) * 100)
     : 0;
-
-  function toggleChapter(chapterId: string) {
-    if (!progress) return;
-    const read = isChapterRead(progress, topic.id, chapterId);
-    const next = read
-      ? unmarkChapterRead(topic.id, chapterId)
-      : markChapterRead(topic.id, chapterId);
-    setProgress({ ...next });
-  }
 
   return (
     <div className="mx-auto max-w-md px-6 pb-10 pt-8 md:max-w-2xl md:px-10">
@@ -82,10 +67,10 @@ export default function TopicDetailClient({ topic }: { topic: Topic }) {
         {topic.chapters.map((chapter) => {
           const read = progress ? isChapterRead(progress, topic.id, chapter.id) : false;
           return (
-            <button
+            <Link
               key={chapter.id}
-              onClick={() => toggleChapter(chapter.id)}
-              className="flex items-center gap-3 rounded-2xl border border-border bg-surface p-3 text-left"
+              href={`/explore/${topic.id}/${chapter.id}`}
+              className="flex items-center gap-3 rounded-2xl border border-border bg-surface p-3"
             >
               {read ? (
                 <Check size={18} strokeWidth={2} className="shrink-0 text-success" />
@@ -100,7 +85,8 @@ export default function TopicDetailClient({ topic }: { topic: Topic }) {
                   <p className="text-xs text-text-dim">{chapter.estimated_minutes} min</p>
                 )}
               </div>
-            </button>
+              <ChevronRight size={18} strokeWidth={1.5} className="shrink-0 text-text-dim" />
+            </Link>
           );
         })}
       </div>

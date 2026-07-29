@@ -16,3 +16,16 @@ export function formatFormula(input: string): string {
       prefix + digits.split("").map((d) => SUBSCRIPT_DIGITS[d] ?? d).join("")
     );
 }
+
+// content-schema.json's documented convention for chapter body text is
+// "CH~3~COOH" style tilde-delimited subscripts (its own _readme says
+// "Formulas written as CH~3~COOH style ... rendered with proper
+// subscripts"). This converts that markup, then also runs formatFormula()
+// so any plain-digit formulas in the same text still get subscripted.
+export function formatChapterText(input: string): string {
+  return formatFormula(
+    input.replace(/~(\d+)~/g, (_match, digits: string) =>
+      digits.split("").map((d) => SUBSCRIPT_DIGITS[d] ?? d).join("")
+    )
+  );
+}

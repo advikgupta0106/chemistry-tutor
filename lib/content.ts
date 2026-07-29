@@ -1,12 +1,19 @@
 import fs from "fs";
 import path from "path";
 
+export type ChapterSection = {
+  heading: string;
+  body: string;
+  molecule_ids?: string[];
+  key_point?: string;
+};
+
 export type Chapter = {
   id: string;
   number: number;
   title: string;
   summary: string;
-  sections: unknown[];
+  sections: ChapterSection[];
   estimated_minutes: number;
 };
 
