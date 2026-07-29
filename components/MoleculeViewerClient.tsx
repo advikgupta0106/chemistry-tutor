@@ -13,9 +13,11 @@ import {
   Ruler,
   ChevronRight,
   WifiOff,
+  Bookmark,
 } from "lucide-react";
 import type { Molecule } from "@/lib/content";
 import { formatFormula } from "@/lib/formatFormula";
+import { isMoleculeBookmarked, toggleMoleculeBookmark } from "@/lib/bookmarks";
 
 type Atom3D = { elem: string; x: number; y: number; z: number };
 
@@ -98,6 +100,16 @@ export default function MoleculeViewerClient({
   const [spinning, setSpinning] = useState(false);
   const [labelsOn, setLabelsOn] = useState(false);
   const [measuring, setMeasuring] = useState(false);
+  const [bookmarked, setBookmarked] = useState(false);
+
+  useEffect(() => {
+    setBookmarked(isMoleculeBookmarked(molecule.id));
+  }, [molecule.id]);
+
+  function handleToggleBookmark() {
+    const b = toggleMoleculeBookmark(molecule.id);
+    setBookmarked(b.molecules.includes(molecule.id));
+  }
 
   useEffect(() => {
     if (scriptError) {
@@ -335,9 +347,21 @@ export default function MoleculeViewerClient({
             </Link>
             <h1 className="text-lg font-bold text-text">Molecule Viewer</h1>
           </div>
-          <button className="flex h-9 w-9 items-center justify-center rounded-full bg-surface">
-            <Share2 size={16} strokeWidth={1.5} className="text-text-dim" />
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={handleToggleBookmark}
+              className="flex h-9 w-9 items-center justify-center rounded-full bg-surface"
+            >
+              <Bookmark
+                size={16}
+                strokeWidth={1.5}
+                className={bookmarked ? "fill-accent text-accent" : "text-text-dim"}
+              />
+            </button>
+            <button className="flex h-9 w-9 items-center justify-center rounded-full bg-surface">
+              <Share2 size={16} strokeWidth={1.5} className="text-text-dim" />
+            </button>
+          </div>
         </div>
 
         <div className="mt-5 flex items-start justify-between">
@@ -393,6 +417,16 @@ export default function MoleculeViewerClient({
             </div>
             <div className="flex items-center gap-2">
               <ViewModeToggle viewMode={viewMode} setViewMode={setViewMode} />
+              <button
+                onClick={handleToggleBookmark}
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-surface"
+              >
+                <Bookmark
+                  size={16}
+                  strokeWidth={1.5}
+                  className={bookmarked ? "fill-accent text-accent" : "text-text-dim"}
+                />
+              </button>
               <button className="flex h-9 w-9 items-center justify-center rounded-full bg-surface">
                 <Share2 size={16} strokeWidth={1.5} className="text-text-dim" />
               </button>
