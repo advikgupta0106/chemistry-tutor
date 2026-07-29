@@ -91,6 +91,20 @@ export function recordReactionSolved(): ProgressData {
   return data;
 }
 
+export function relativeLabel(isoTimestamp: string | null): string {
+  if (!isoTimestamp) return "Not started";
+  const then = new Date(isoTimestamp);
+  const now = new Date();
+  const diffDays = Math.round(
+    (Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) -
+      Date.UTC(then.getFullYear(), then.getMonth(), then.getDate())) /
+      86400000
+  );
+  if (diffDays <= 0) return "Today";
+  if (diffDays === 1) return "Yesterday";
+  return `${diffDays} days ago`;
+}
+
 export function computeStreak(activityDates: string[]): number {
   if (activityDates.length === 0) return 0;
   const set = new Set(activityDates);

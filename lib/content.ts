@@ -78,15 +78,6 @@ export type Question = {
   source: string;
 };
 
-export type UserProgress = {
-  topics_learned: number;
-  practice_score_percent: number;
-  reactions_solved: number;
-  study_streak_days: number;
-  overall_progress_percent: number;
-  per_topic: Record<string, { percent: number; last_studied: string }>;
-};
-
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
 export function getAllTopics(): Topic[] {
@@ -156,20 +147,3 @@ export function getPublishedQuestions(): Question[] {
   return getAllQuestions().filter((q) => publishedIds.has(q.topic_id));
 }
 
-export function getUserProgress(): UserProgress {
-  const file = path.join(CONTENT_DIR, "user-progress.json");
-  return JSON.parse(fs.readFileSync(file, "utf-8"));
-}
-
-export function relativeStudyLabel(dateStr: string): string {
-  const then = new Date(dateStr + "T00:00:00");
-  const now = new Date();
-  const diffDays = Math.round(
-    (Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) -
-      Date.UTC(then.getFullYear(), then.getMonth(), then.getDate())) /
-      86400000
-  );
-  if (diffDays <= 0) return "Today";
-  if (diffDays === 1) return "Yesterday";
-  return `${diffDays} days ago`;
-}
