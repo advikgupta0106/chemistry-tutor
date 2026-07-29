@@ -122,7 +122,58 @@ Renumbered the existing 8 chapters to make room (they were 1-8, now
 
 ## Structure of Atom — `content/topics/structure-of-atom.json`
 Source: `content/source/unit-2.pdf`
-Status: ⬜ **not started**
+
+### Chapter list corrected
+- **Moved** "drawbacks of the Rutherford model" (§2.2.5) from the
+  isotopes/isobars chapter into "Atomic Models" — it evaluates the
+  Rutherford model discussed in that chapter and has nothing to do
+  with isotopes.
+- **Added** a new chapter, "Energies of Orbitals" (§2.6.3: shielding,
+  effective nuclear charge, the (n+l) rule) — a whole NCERT subsection
+  that had no chapter at all, sitting between Shapes of Orbitals and
+  Electronic Configuration in the PDF's own order.
+- Renumbered all 11 chapters (was 10) to match the PDF's order.
+
+### Chapters filled
+| # | Chapter | NCERT §§ covered | Sections |
+|---|---|---|---|
+| 1 | Discovery of Electron, Proton and Neutron | 2.1.1–2.1.4 | 4 |
+| 2 | Atomic Models: Thomson and Rutherford | 2.2, 2.2.1, 2.2.2, 2.2.5 | 4 |
+| 3 | Atomic Number, Mass Number, Isotopes and Isobars | 2.2.3, 2.2.4 | 3 |
+| 4 | Developments Leading to Bohr's Model | 2.3, 2.3.1–2.3.3 | 6 |
+| 5 | Bohr's Model of the Hydrogen Atom | 2.4, 2.4.1, 2.4.2 | 4 |
+| 6 | Towards a Quantum Mechanical Model | 2.5, 2.5.1, 2.5.2 | 3 |
+| 7 | Quantum Mechanical Model of the Atom | 2.6 | 3 |
+| 8 | Orbitals and Quantum Numbers | 2.6.1 | 4 |
+| 9 | Shapes of Atomic Orbitals | 2.6.2 | 5 |
+| 10 | Energies of Orbitals | 2.6.3 | 3 |
+| 11 | Electronic Configuration | 2.6.4–2.6.6 | 6 |
+
+No molecules from `/content/molecules` are relevant to this topic
+(atomic-physics content, not specific compounds), so no `molecule_ids`
+appear anywhere in this file — that's expected, not an omission.
+
+**Status: complete.** All 11 chapters filled and committed.
+
+### Numbers written, with source page (unit-2.pdf)
+- e/mₑ = 1.758820×10¹¹ C kg⁻¹ (Thomson) — p.31 (§2.1.2)
+- Electron charge −1.602176×10⁻¹⁹ C, mass 9.1094×10⁻³¹ kg (Millikan) — p.31 (§2.1.3)
+- Atom radius ~10⁻¹⁰ m, nucleus radius ~10⁻¹⁵ m (Rutherford) — p.34 (§2.2.2)
+- Planck's constant h = 6.626×10⁻³⁴ J s; E = hν — p.41 (§2.3.2)
+- Speed of light c = 2.997925×10⁸ m s⁻¹ — p.38 (§2.3.1)
+- Rydberg constant for H: 109,677 cm⁻¹ (spectroscopic); R_H = 2.18×10⁻¹⁸ J (Bohr energy form) — p.45, p.47 (§2.3.3, §2.4)
+- Bohr radius a₀ = 52.9 pm; r_n = n²a₀ — p.47 (§2.4)
+- Ground state energy E₁ = −2.18×10⁻¹⁸ J; E₂ = −0.545×10⁻¹⁸ J — p.47 (§2.4)
+- Heisenberg uncertainty Δx·Δp ≥ h/4π — p.51 (§2.5.2)
+- de Broglie relation λ = h/(mv) — p.50 (§2.5.1)
+- Cr valence config 3d⁵4s¹ (not 3d⁴4s²); Cu valence config 3d¹⁰4s¹ (not 3d⁹4s²) — p.64 (§2.6.6)
+- Orbital/node counting rules: orbitals per shell = n²; nodes per orbital = n−1 — p.55, p.59 (§2.6.1, §2.6.2)
+
+### Unsure / flag for your check
+- None outstanding — all numbers above were read directly off the
+  extracted PDF text this session.
+
+---
 
 ## Periodic Table (Classification of Elements and Periodicity) — `content/topics/periodic-table.json`
 Source: `content/source/unit-3.pdf`
