@@ -31,6 +31,10 @@ export function getBookmarks(): Bookmarks {
   return load();
 }
 
+export function clearBookmarks(): void {
+  save({ topics: [], molecules: [] });
+}
+
 export function isTopicBookmarked(topicId: string): boolean {
   return load().topics.includes(topicId);
 }

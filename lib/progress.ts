@@ -48,6 +48,10 @@ export function getProgress(): ProgressData {
   return load();
 }
 
+export function clearProgress(): void {
+  save({ chaptersRead: [], answers: [], reactionsSolved: 0, activityDates: [] });
+}
+
 export function isChapterRead(data: ProgressData, topicId: string, chapterId: string): boolean {
   return data.chaptersRead.some((c) => c.topicId === topicId && c.chapterId === chapterId);
 }

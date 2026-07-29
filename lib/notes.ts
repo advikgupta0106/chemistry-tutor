@@ -32,6 +32,10 @@ export function getNotes(): Note[] {
   return load().sort((a, b) => (b.updatedAt > a.updatedAt ? 1 : -1));
 }
 
+export function clearNotes(): void {
+  save([]);
+}
+
 export function addNote(title: string, body: string): Note[] {
   const notes = load();
   const now = new Date().toISOString();
