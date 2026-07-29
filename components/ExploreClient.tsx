@@ -20,6 +20,8 @@ export default function ExploreClient({ topics }: { topics: Topic[] }) {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState<FilterValue>("All");
 
+  const visibleFilters = FILTERS.filter((f) => topics.some((t) => topicMatchesFilter(t, f)));
+
   const filtered = topics.filter(
     (t) =>
       t.title.toLowerCase().includes(search.toLowerCase()) &&
@@ -55,7 +57,7 @@ export default function ExploreClient({ topics }: { topics: Topic[] }) {
       </div>
 
       <div className="mt-4 flex gap-2 overflow-x-auto pb-1">
-        {FILTERS.map((f) => (
+        {visibleFilters.map((f) => (
           <button
             key={f}
             onClick={() => setFilter(f)}
