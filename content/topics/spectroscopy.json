@@ -3,7 +3,10 @@
   "title": "Spectroscopy",
   "icon": "atom",
   "tint": "purple",
-  "class": ["undergraduate"],
+  "class": [
+    "undergraduate"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

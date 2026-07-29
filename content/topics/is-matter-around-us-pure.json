@@ -3,7 +3,10 @@
   "title": "Is Matter Around Us Pure",
   "icon": "flask",
   "tint": "green",
-  "class": ["9"],
+  "class": [
+    "9"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

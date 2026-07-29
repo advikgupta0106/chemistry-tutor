@@ -1,7 +1,7 @@
 import PracticeClient from "@/components/PracticeClient";
-import { getAllQuestions } from "@/lib/content";
+import { getPublishedQuestions } from "@/lib/content";
 
 export default function PracticePage() {
-  const questions = getAllQuestions();
+  const questions = getPublishedQuestions();
   return <PracticeClient questions={questions} />;
 }

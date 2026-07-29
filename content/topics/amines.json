@@ -3,10 +3,19 @@
   "title": "Amines",
   "icon": "hexagon",
   "tint": "green",
-  "class": ["12"],
-  "exams": [
-    { "name": "JEE", "weightage_percent": 2 },
-    { "name": "NEET", "weightage_percent": 2 }
+  "class": [
+    "12"
   ],
-  "chapters": []
+  "exams": [
+    {
+      "name": "JEE",
+      "weightage_percent": 2
+    },
+    {
+      "name": "NEET",
+      "weightage_percent": 2
+    }
+  ],
+  "chapters": [],
+  "published": false
 }

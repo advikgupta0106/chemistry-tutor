@@ -3,7 +3,10 @@
   "title": "Analytical Chemistry",
   "icon": "flask",
   "tint": "blue",
-  "class": ["undergraduate"],
+  "class": [
+    "undergraduate"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

@@ -3,10 +3,19 @@
   "title": "d and f Block Elements",
   "icon": "table",
   "tint": "purple",
-  "class": ["12"],
-  "exams": [
-    { "name": "JEE", "weightage_percent": 3 },
-    { "name": "NEET", "weightage_percent": 2 }
+  "class": [
+    "12"
   ],
-  "chapters": []
+  "exams": [
+    {
+      "name": "JEE",
+      "weightage_percent": 3
+    },
+    {
+      "name": "NEET",
+      "weightage_percent": 2
+    }
+  ],
+  "chapters": [],
+  "published": false
 }

@@ -3,7 +3,10 @@
   "title": "Structure of the Atom",
   "icon": "atom",
   "tint": "blue",
-  "class": ["9"],
+  "class": [
+    "9"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

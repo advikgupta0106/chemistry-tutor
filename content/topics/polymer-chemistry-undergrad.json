@@ -3,7 +3,10 @@
   "title": "Polymer Chemistry",
   "icon": "hexagon",
   "tint": "orange",
-  "class": ["undergraduate"],
+  "class": [
+    "undergraduate"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

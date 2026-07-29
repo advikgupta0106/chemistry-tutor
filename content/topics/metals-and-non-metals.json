@@ -3,7 +3,10 @@
   "title": "Metals and Non-metals",
   "icon": "table",
   "tint": "purple",
-  "class": ["10"],
+  "class": [
+    "10"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

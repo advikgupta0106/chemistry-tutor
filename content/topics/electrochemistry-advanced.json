@@ -3,7 +3,10 @@
   "title": "Electrochemistry (Advanced)",
   "icon": "redox",
   "tint": "red",
-  "class": ["undergraduate"],
+  "class": [
+    "undergraduate"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

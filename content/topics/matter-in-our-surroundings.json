@@ -3,7 +3,10 @@
   "title": "Matter in Our Surroundings",
   "icon": "flask",
   "tint": "green",
-  "class": ["9"],
+  "class": [
+    "9"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

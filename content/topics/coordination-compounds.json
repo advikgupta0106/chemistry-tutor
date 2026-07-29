@@ -3,10 +3,19 @@
   "title": "Coordination Compounds",
   "icon": "bonds",
   "tint": "purple",
-  "class": ["12"],
-  "exams": [
-    { "name": "JEE", "weightage_percent": 4 },
-    { "name": "NEET", "weightage_percent": 3 }
+  "class": [
+    "12"
   ],
-  "chapters": []
+  "exams": [
+    {
+      "name": "JEE",
+      "weightage_percent": 4
+    },
+    {
+      "name": "NEET",
+      "weightage_percent": 3
+    }
+  ],
+  "chapters": [],
+  "published": false
 }

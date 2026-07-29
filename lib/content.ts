@@ -19,6 +19,9 @@ export type Topic = {
   class: string[];
   exams: { name: string; weightage_percent: number }[];
   chapters: Chapter[];
+  // Absent/true = published. Only topics explicitly marked false are
+  // excluded from the published set (see getPublishedTopics()).
+  published?: boolean;
 };
 
 export type Molecule = {
@@ -89,6 +92,18 @@ export function getTopic(id: string): Topic | undefined {
   return getAllTopics().find((t) => t.id === id);
 }
 
+// The app is currently scoped to CBSE Class 11 chemistry. Topics for other
+// classes exist in /content (migrated from old-streamlit's syllabus list)
+// but are marked published: false and excluded here.
+export function getPublishedTopics(): Topic[] {
+  return getAllTopics().filter((t) => t.published !== false);
+}
+
+export function getPublishedTopic(id: string): Topic | undefined {
+  const topic = getTopic(id);
+  return topic && topic.published !== false ? topic : undefined;
+}
+
 export function getAllMolecules(): Molecule[] {
   const moleculesDir = path.join(CONTENT_DIR, "molecules");
   const files = fs.readdirSync(moleculesDir).filter((f) => f.endsWith(".json"));
@@ -127,6 +142,11 @@ export function getAllQuestions(): Question[] {
 
 export function getQuestion(id: string): Question | undefined {
   return getAllQuestions().find((q) => q.id === id);
+}
+
+export function getPublishedQuestions(): Question[] {
+  const publishedIds = new Set(getPublishedTopics().map((t) => t.id));
+  return getAllQuestions().filter((q) => publishedIds.has(q.topic_id));
 }
 
 export function getUserProgress(): UserProgress {

@@ -3,9 +3,15 @@
   "title": "Chemistry in Everyday Life",
   "icon": "flask",
   "tint": "blue",
-  "class": ["12"],
-  "exams": [
-    { "name": "NEET", "weightage_percent": 2 }
+  "class": [
+    "12"
   ],
-  "chapters": []
+  "exams": [
+    {
+      "name": "NEET",
+      "weightage_percent": 2
+    }
+  ],
+  "chapters": [],
+  "published": false
 }

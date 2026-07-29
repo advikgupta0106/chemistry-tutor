@@ -3,7 +3,10 @@
   "title": "Physical Chemistry - Kinetics",
   "icon": "flame",
   "tint": "orange",
-  "class": ["undergraduate"],
+  "class": [
+    "undergraduate"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

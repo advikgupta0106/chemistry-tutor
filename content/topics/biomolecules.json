@@ -3,10 +3,19 @@
   "title": "Biomolecules",
   "icon": "hexagon",
   "tint": "red",
-  "class": ["12"],
-  "exams": [
-    { "name": "JEE", "weightage_percent": 2 },
-    { "name": "NEET", "weightage_percent": 4 }
+  "class": [
+    "12"
   ],
-  "chapters": []
+  "exams": [
+    {
+      "name": "JEE",
+      "weightage_percent": 2
+    },
+    {
+      "name": "NEET",
+      "weightage_percent": 4
+    }
+  ],
+  "chapters": [],
+  "published": false
 }

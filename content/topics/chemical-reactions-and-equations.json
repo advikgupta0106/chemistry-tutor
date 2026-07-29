@@ -3,7 +3,10 @@
   "title": "Chemical Reactions and Equations",
   "icon": "flask",
   "tint": "green",
-  "class": ["10"],
+  "class": [
+    "10"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

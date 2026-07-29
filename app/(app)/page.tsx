@@ -3,13 +3,13 @@ import ContinueLearningCard from "@/components/ContinueLearningCard";
 import QuickActions from "@/components/QuickActions";
 import TopicRow from "@/components/TopicRow";
 import Link from "next/link";
-import { getTopic, getUserProgress, relativeStudyLabel } from "@/lib/content";
+import { getPublishedTopic, getUserProgress, relativeStudyLabel } from "@/lib/content";
 
 export default function HomePage() {
   const progress = getUserProgress();
-  const chemicalBonding = getTopic("chemical-bonding")!;
-  const structureOfAtom = getTopic("structure-of-atom")!;
-  const periodicTable = getTopic("periodic-table")!;
+  const chemicalBonding = getPublishedTopic("chemical-bonding")!;
+  const structureOfAtom = getPublishedTopic("structure-of-atom")!;
+  const periodicTable = getPublishedTopic("periodic-table")!;
 
   return (
     <div className="mx-auto max-w-md px-6 pb-10 pt-8 md:max-w-2xl md:px-10">

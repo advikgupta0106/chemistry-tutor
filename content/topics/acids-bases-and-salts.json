@@ -3,7 +3,10 @@
   "title": "Acids, Bases and Salts",
   "icon": "flask",
   "tint": "orange",
-  "class": ["10"],
+  "class": [
+    "10"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

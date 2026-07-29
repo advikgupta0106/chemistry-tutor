@@ -1,5 +1,5 @@
 import ExploreClient from "@/components/ExploreClient";
-import { getTopic } from "@/lib/content";
+import { getPublishedTopic } from "@/lib/content";
 
 const EXPLORE_TOPIC_IDS = [
   "some-basic-concepts",
@@ -12,6 +12,8 @@ const EXPLORE_TOPIC_IDS = [
 ];
 
 export default function ExplorePage() {
-  const topics = EXPLORE_TOPIC_IDS.map((id) => getTopic(id)!);
+  const topics = EXPLORE_TOPIC_IDS.map((id) => getPublishedTopic(id)).filter(
+    (t) => t !== undefined
+  );
   return <ExploreClient topics={topics} />;
 }

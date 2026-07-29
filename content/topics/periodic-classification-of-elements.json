@@ -3,7 +3,10 @@
   "title": "Periodic Classification of Elements",
   "icon": "table",
   "tint": "green",
-  "class": ["10"],
+  "class": [
+    "10"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

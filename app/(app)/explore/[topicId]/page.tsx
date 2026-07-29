@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
 import TopicDetailClient from "@/components/TopicDetailClient";
-import { getAllTopics, getTopic } from "@/lib/content";
+import { getPublishedTopics, getPublishedTopic } from "@/lib/content";
 
 export function generateStaticParams() {
-  return getAllTopics().map((t) => ({ topicId: t.id }));
+  return getPublishedTopics().map((t) => ({ topicId: t.id }));
 }
 
 export default async function TopicDetailPage({
@@ -12,7 +12,7 @@ export default async function TopicDetailPage({
   params: Promise<{ topicId: string }>;
 }) {
   const { topicId } = await params;
-  const topic = getTopic(topicId);
+  const topic = getPublishedTopic(topicId);
   if (!topic) notFound();
 
   return <TopicDetailClient topic={topic} />;

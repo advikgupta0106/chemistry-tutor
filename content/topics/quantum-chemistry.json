@@ -3,7 +3,10 @@
   "title": "Quantum Chemistry",
   "icon": "atom",
   "tint": "blue",
-  "class": ["undergraduate"],
+  "class": [
+    "undergraduate"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }

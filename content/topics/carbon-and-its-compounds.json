@@ -3,7 +3,10 @@
   "title": "Carbon and its Compounds",
   "icon": "hexagon",
   "tint": "green",
-  "class": ["10"],
+  "class": [
+    "10"
+  ],
   "exams": [],
-  "chapters": []
+  "chapters": [],
+  "published": false
 }
