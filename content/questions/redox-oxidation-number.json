@@ -1,0 +1,12 @@
+{
+  "id": "redox-oxnum-009",
+  "topic_id": "redox-reactions",
+  "chapter_id": "oxidation-number",
+  "difficulty": "medium",
+  "exams": ["JEE"],
+  "prompt": "What is the oxidation number of chromium in K2Cr2O7?",
+  "options": ["+3", "+6", "+7", "+2"],
+  "answer_index": 1,
+  "explanation": "Let Cr = x: 2(+1) + 2x + 7(-2) = 0, so 2x = 12, x = +6.",
+  "source": "NCERT Class 11, Ch 8"
+}

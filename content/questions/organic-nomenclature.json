@@ -1,0 +1,12 @@
+{
+  "id": "organic-nomen-001",
+  "topic_id": "organic-chemistry-basics",
+  "chapter_id": "nomenclature",
+  "difficulty": "easy",
+  "exams": ["JEE", "NEET"],
+  "prompt": "What is the IUPAC name of CH3-CH2-CH2-OH?",
+  "options": ["Propan-1-ol", "Propan-2-ol", "Methanol", "Ethanol"],
+  "answer_index": 0,
+  "explanation": "The three-carbon chain with the -OH group on the terminal carbon is named propan-1-ol.",
+  "source": "NCERT Class 11, Ch 12"
+}

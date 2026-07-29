@@ -1,0 +1,12 @@
+{
+  "id": "soa-qn-007",
+  "topic_id": "structure-of-atom",
+  "chapter_id": "quantum-numbers",
+  "difficulty": "easy",
+  "exams": ["JEE", "NEET"],
+  "prompt": "Which quantum number determines the shape of an orbital?",
+  "options": ["Principal (n)", "Azimuthal (l)", "Magnetic (ml)", "Spin (ms)"],
+  "answer_index": 1,
+  "explanation": "The azimuthal (angular momentum) quantum number l determines the subshell and therefore the shape of the orbital (s, p, d, f).",
+  "source": "NCERT Class 11, Ch 2"
+}

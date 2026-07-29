@@ -1,0 +1,12 @@
+{
+  "id": "organic-isomer-004",
+  "topic_id": "organic-chemistry-basics",
+  "chapter_id": "isomerism",
+  "difficulty": "easy",
+  "exams": ["NEET"],
+  "prompt": "Butane and isobutane are examples of which type of isomerism?",
+  "options": ["Chain isomerism", "Position isomerism", "Functional isomerism", "Metamerism"],
+  "answer_index": 0,
+  "explanation": "Butane (straight chain) and isobutane (branched) have the same molecular formula but differ in carbon chain arrangement, which is chain isomerism.",
+  "source": "NCERT Class 11, Ch 12"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "eq-lechatelier-005",
+  "topic_id": "equilibrium",
+  "chapter_id": "le-chatelier",
+  "difficulty": "medium",
+  "exams": ["JEE", "NEET"],
+  "prompt": "According to Le Chatelier's principle, increasing the pressure on the equilibrium N2 + 3H2 ⇌ 2NH3 will shift it toward:",
+  "options": ["Reactants", "Products", "No change", "Cannot be determined"],
+  "answer_index": 1,
+  "explanation": "Increasing pressure shifts equilibrium toward the side with fewer moles of gas; products (2 mol) are fewer than reactants (4 mol), so it shifts toward products.",
+  "source": "NCERT Class 11, Ch 7"
+}

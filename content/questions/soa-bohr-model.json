@@ -1,0 +1,12 @@
+{
+  "id": "soa-bohr-003",
+  "topic_id": "structure-of-atom",
+  "chapter_id": "bohr-model",
+  "difficulty": "easy",
+  "exams": ["NEET"],
+  "prompt": "In Bohr's model, what happens to the energy of an electron as it moves to a higher orbit?",
+  "options": ["Decreases", "Increases", "Remains the same", "Becomes zero"],
+  "answer_index": 1,
+  "explanation": "Higher orbits are farther from the nucleus and have higher (less negative) energy, so the electron's energy increases.",
+  "source": "NCERT Class 11, Ch 2"
+}

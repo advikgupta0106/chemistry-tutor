@@ -1,0 +1,12 @@
+{
+  "id": "thermo-entropy-006",
+  "topic_id": "thermodynamics",
+  "chapter_id": "entropy",
+  "difficulty": "medium",
+  "exams": ["JEE"],
+  "prompt": "What generally happens to the entropy of a system when a solid melts into a liquid?",
+  "options": ["Decreases", "Increases", "Remains constant", "Becomes zero"],
+  "answer_index": 1,
+  "explanation": "Melting increases molecular disorder as the rigid solid structure breaks down into a more disordered liquid, so entropy increases.",
+  "source": "NCERT Class 11, Ch 6"
+}

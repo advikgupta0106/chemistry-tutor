@@ -1,0 +1,12 @@
+{
+  "id": "cb-vsepr-021",
+  "topic_id": "chemical-bonding",
+  "chapter_id": "vsepr",
+  "difficulty": "medium",
+  "exams": ["JEE", "NEET"],
+  "prompt": "According to VSEPR theory, what is the shape of the ammonia (NH3) molecule?",
+  "options": ["Trigonal planar", "Tetrahedral", "Trigonal pyramidal", "Linear"],
+  "answer_index": 2,
+  "explanation": "Nitrogen has one lone pair and three bond pairs; the lone pair pushes the bonding pairs together, giving a trigonal pyramidal shape.",
+  "source": "NCERT Class 11, Ch 4"
+}

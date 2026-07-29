@@ -1,0 +1,12 @@
+{
+  "id": "thermo-enth-002",
+  "topic_id": "thermodynamics",
+  "chapter_id": "enthalpy",
+  "difficulty": "easy",
+  "exams": ["JEE", "NEET"],
+  "prompt": "For an exothermic reaction, what is the sign of ΔH?",
+  "options": ["Positive", "Negative", "Zero", "Cannot be determined"],
+  "answer_index": 1,
+  "explanation": "Exothermic reactions release heat to the surroundings, so the enthalpy of the system decreases, giving a negative ΔH.",
+  "source": "NCERT Class 11, Ch 6"
+}
