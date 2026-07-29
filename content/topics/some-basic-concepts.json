@@ -9,13 +9,294 @@
     { "name": "NEET", "weightage_percent": 4 }
   ],
   "chapters": [
-    { "id": "importance-of-chemistry", "number": 1, "title": "Importance of Chemistry", "summary": "", "sections": [], "estimated_minutes": 10 },
-    { "id": "nature-of-matter", "number": 2, "title": "Nature of Matter", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "laws-of-chemical-combination", "number": 3, "title": "Laws of Chemical Combination", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "daltons-atomic-theory", "number": 4, "title": "Dalton's Atomic Theory", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "atomic-molecular-mass", "number": 5, "title": "Atomic and Molecular Mass", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "mole-concept", "number": 6, "title": "Mole Concept and Molar Mass", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "percentage-composition", "number": 7, "title": "Percentage Composition", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "stoichiometry", "number": 8, "title": "Stoichiometry and Stoichiometric Calculations", "summary": "", "sections": [], "estimated_minutes": 30 }
+    {
+      "id": "importance-of-chemistry",
+      "number": 1,
+      "title": "Importance of Chemistry",
+      "summary": "Chemistry sits at the centre of modern science and industry — from drug discovery to material design to tackling environmental problems — but the discipline is far from new. Ancient India had its own long, well-documented chemical tradition, including an atomic theory that predates Dalton's by roughly 2500 years.",
+      "sections": [
+        {
+          "heading": "Why chemistry matters",
+          "body": "Chemistry sits at the centre of science, feeding into fields as different as weather prediction, the workings of the brain, and how a computer functions, and it underpins the large-scale manufacture of fertilisers, alkalis, acids, salts, dyes, polymers, drugs, soaps, detergents, metals and alloys. It contributes substantially to the national economy and to meeting basic human needs, most visibly through the large-scale production of fertilisers and improved pesticides, and through providing methods to isolate or synthesise life-saving drugs — cisplatin and taxol (used in cancer therapy) and AZT (used to help AIDS patients) are named examples. A better understanding of chemical principles has also made it possible to design new materials with specific magnetic, electric or optical properties, leading to superconducting ceramics, conducting polymers and optical fibres, and the industries built around acids, alkalis, dyes, polymers and metals generate significant employment. Chemistry has also helped address environmental problems, such as developing safer alternatives to the ozone-depleting CFC refrigerants — though big challenges remain, like managing greenhouse gases such as methane and carbon dioxide, and finding large-scale, enzyme-based routes to producing chemicals. (NCERT 1.1)",
+          "key_point": "Chemistry's reach spans drug discovery, materials design, industrial manufacturing and environmental remediation — it's genuinely central to modern science, not a narrow specialist field."
+        },
+        {
+          "heading": "Ancient India's own chemical tradition",
+          "body": "Long before modern chemistry took shape in 18th-century Europe, chemistry in ancient India — called Rasayan Shastra, Rastantra, Ras Kriya or Rasvidya — already covered metallurgy, medicine, and the manufacture of cosmetics, glass and dyes. Archaeological excavations at Mohenjodaro and Harappa show mass-produced, glazed pottery and gypsum cement containing lime, sand and traces of CaCO~3~, and Harappans made faience (a type of glass) and worked metals like lead, silver, gold and copper, hardening copper with tin and arsenic. Textual sources add further detail: the Charaka Samhita mentions the preparation of sulphuric acid, nitric acid, and oxides and sulphates of copper, zinc and iron; the Rasopanishada describes a gunpowder mixture; and Nagarjuna's Rasratnakar covers the formulation of mercury compounds and the extraction of gold, silver, tin and copper. Chakrapani is credited with discovering mercury sulphide and inventing soap, using mustard oil and alkalies as ingredients. (NCERT Unit 1 introduction)",
+          "key_point": "Chemistry in India — metallurgy, glassmaking, acid preparation, soap-making — predates modern, 18th-century European chemistry by many centuries, evidenced by both archaeology (Mohenjodaro, Harappa) and classical texts (Charaka Samhita, Rasratnakar)."
+        },
+        {
+          "heading": "Kanada's atomic theory, centuries before Dalton",
+          "body": "The idea that matter is ultimately built from indivisible units also has ancient Indian roots. Acharya Kanada (born around 600 BCE, originally named Kashyap) proposed that all substances are aggregates of smaller, indivisible units he called 'Paramãnu' — comparable to atoms — which he described as eternal, indestructible, spherical, imperceptible to human senses, and always in motion. He authored the Vaiseshika Sutras, argued that different classes of substances are made of different varieties of these Paramãnu, and proposed that they combine in pairs, triplets and other combinations through unseen forces. This is roughly 2500 years before John Dalton (1766–1844) put forward his own atomic theory. Separately, the Charaka Samhita — the oldest Ayurvedic text of India — already discussed reducing the particle size of metals (what would now be called nanotechnology) in the form of metal bhasmas used in treating ailments, which modern analysis has confirmed do contain metal nanoparticles. (NCERT Unit 1 introduction)",
+          "key_point": "Kanada's Paramãnu — indivisible, eternal, spherical particles that combine to form matter — anticipated the core idea of Dalton's atomic theory by about 2500 years."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "nature-of-matter",
+      "number": 2,
+      "title": "Nature of Matter",
+      "summary": "Anything with mass that takes up space is matter, and it exists in three interconvertible physical states — solid, liquid, gas — depending on how closely and freely its particles move. Matter is also classified by composition, splitting first into mixtures and pure substances, and then, within pure substances, into elements and compounds.",
+      "sections": [
+        {
+          "heading": "The three states of matter",
+          "body": "Matter — anything with mass that occupies space — can exist in three physical states: solid, liquid and gas, and the difference between them comes down to how closely and how freely their constituent particles are arranged. In solids, particles are held very close together in an orderly fashion with little freedom to move, giving solids a definite volume and a definite shape. In liquids, particles are still close together but can move around, so liquids have a definite volume but take the shape of whatever container holds them. In gases, particles are far apart and move quickly and easily, so gases have neither a definite volume nor a definite shape — they simply expand to fill their container completely. These three states can be converted into one another by changing temperature and pressure: heating a solid usually turns it to a liquid and then, with further heating, to a gas, while cooling reverses the process. (NCERT 1.2.1)",
+          "key_point": "The three states of matter differ in how closely and freely their particles move: solids (fixed shape and volume), liquids (fixed volume, no fixed shape), gases (neither)."
+        },
+        {
+          "heading": "Mixtures and pure substances",
+          "body": "At the macroscopic level, matter is first classified as either a mixture or a pure substance. A pure substance has all its constituent particles the same in chemical nature, while a mixture contains particles of two or more pure substances, called its components, in a composition that can vary. Sugar solution and air are both mixtures. Mixtures themselves split further into homogeneous and heterogeneous: in a homogeneous mixture, the components are uniformly distributed throughout, giving a uniform composition everywhere (sugar solution, air), while in a heterogeneous mixture the composition isn't uniform and different components may even be visible separately (a mixture of salt and sugar, or grains and pulses with bits of dirt). Because the different components of a mixture haven't reacted chemically, they can be separated back out using physical methods — hand-picking, filtration, crystallisation, distillation and so on. Pure substances, by contrast, have a fixed composition that physical methods can't separate — glucose, for instance, always has carbon, hydrogen and oxygen in the same fixed ratio, and those elements can only be separated by chemical, not physical, means. (NCERT 1.2.2)",
+          "molecule_ids": ["glucose"],
+          "key_point": "Mixtures (variable composition, separable by physical methods) split into homogeneous and heterogeneous; pure substances have a fixed composition and need chemical methods to break apart."
+        },
+        {
+          "heading": "Elements and compounds",
+          "body": "Pure substances are further classified into elements and compounds. An element's particles are all one type of atom, though those particles may exist either as free atoms (sodium, copper, silver) or as molecules made of two identical atoms bonded together (hydrogen, nitrogen and oxygen gas all exist as diatomic molecules). A compound, on the other hand, forms when two or more different elements combine in a fixed, definite ratio — a ratio that's characteristic of that particular compound — and a compound's properties are typically very different from those of the elements that make it up: hydrogen and oxygen are both gases, but the water they combine to form is a liquid, and while hydrogen burns with a pop and oxygen supports combustion, water is used to put fires out. Unlike a mixture, the elements within a compound can't be separated by simple physical methods — only by chemical ones. (NCERT 1.2.2)",
+          "key_point": "An element's particles are one type of atom (possibly as diatomic molecules like H~2~); a compound forms when different elements combine in a fixed ratio and its properties can be wildly different from its constituent elements, as with H~2~ + O~2~ → water."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "properties-of-matter",
+      "number": 3,
+      "title": "Properties of Matter and their Measurement",
+      "summary": "Every substance has physical and chemical properties, and describing them precisely means measuring them in a common, agreed system of units — the SI system, with its seven base quantities. This chapter also covers the everyday quantities every measurement in chemistry eventually reduces to: mass, volume, density and temperature.",
+      "sections": [
+        {
+          "heading": "Physical vs chemical properties",
+          "body": "Every substance has properties that fall into one of two categories. Physical properties — colour, odour, melting point, boiling point, density and so on — can be measured or observed without changing the substance's identity or composition. Chemical properties — such as acidity, basicity or combustibility — can only be measured or observed by actually letting a chemical change happen; unlike physical properties, they require a chemical transformation to occur before you can observe them. Chemists rely on careful measurement and experimentation of both kinds of properties to describe, interpret and predict how substances behave. (NCERT 1.3.1)",
+          "key_point": "Physical properties (colour, melting point) can be measured without altering the substance; chemical properties (acidity, combustibility) can only be observed by letting a chemical change actually happen."
+        },
+        {
+          "heading": "A common system of units: SI",
+          "body": "Quantitative measurement means expressing a property as a number followed by a unit — 6 m for a room's length, say, where 6 is the number and m (metre) is the unit. Historically, different parts of the world used different systems (the English system and the metric system, the latter originating in France in the late 18th century and preferred for being decimal-based), and by 1960 the scientific community had agreed on a single common standard: the International System of Units, SI (Le Système International d'Unités), established under the Metre Convention treaty of 1875. SI defines seven base physical quantities, each with its own base unit: length (metre, m), mass (kilogram, kg), time (second, s), electric current (ampere, A), thermodynamic temperature (kelvin, K), amount of substance (mole, mol) and luminous intensity (candela, cd). Every other physical quantity used in chemistry — speed, volume, density and so on — is derived from these seven. SI also allows prefixes (like kilo-, milli-, nano-) to express multiples or submultiples of a unit conveniently. (NCERT 1.3.2, 1.3.3)",
+          "key_point": "SI has exactly seven base units — metre, kilogram, second, ampere, kelvin, mole, candela — and every other unit used in chemistry is derived from these seven."
+        },
+        {
+          "heading": "Mass and weight",
+          "body": "Mass is the amount of matter present in a substance, while weight is the force gravity exerts on that matter. Mass stays constant no matter where an object is, but weight can change from place to place if gravity changes — so the two terms aren't interchangeable, even though they're often used loosely as if they were. In the laboratory, mass is measured accurately with an analytical balance. The SI unit of mass is the kilogram, but because the amounts of chemicals used in a lab are usually small, the gram (1 kg = 1000 g) is the more commonly used unit in practice. (NCERT 1.3.4)",
+          "key_point": "Mass (amount of matter, constant everywhere) and weight (the force of gravity on that matter, which varies by location) are genuinely different quantities, even though they're often used interchangeably in everyday speech."
+        },
+        {
+          "heading": "Volume",
+          "body": "Volume is the amount of space a substance occupies, and since it's a length cubed, its SI unit is the cubic metre (m³). In a chemistry lab, though, quantities are usually much smaller, so volume is more often expressed in cm³ or dm³, and litres (L) — not itself an SI unit — are the common unit for liquids, where 1 L = 1000 mL and 1000 cm³ = 1 dm³. Liquid volumes in the lab are measured with tools like a graduated cylinder, burette or pipette, while a volumetric flask is used to prepare a solution of a precisely known volume. (NCERT 1.3.5)",
+          "key_point": "Volume's SI unit is m³, but chemistry labs work in the smaller cm³, dm³ or litre instead (1 L = 1000 mL = 1 dm³)."
+        },
+        {
+          "heading": "Density",
+          "body": "Density relates the two properties just covered — it's a substance's mass per unit volume, calculated as density = mass ÷ volume. The SI unit of density works out to kg m⁻³, but because that's an inconveniently large unit for lab-scale quantities, chemists usually express density in g cm⁻³ instead, with mass in grams and volume in cm³. Density is really a measure of how tightly a substance's particles are packed together — the higher the density, the more closely packed the particles. (NCERT 1.3.6)",
+          "key_point": "Density = mass ÷ volume, usually expressed as g cm⁻³ in the lab; a higher density means more tightly packed particles."
+        },
+        {
+          "heading": "Temperature",
+          "body": "Temperature is commonly measured on three scales: degree Celsius (°C), degree Fahrenheit (°F), and kelvin (K), the last of which is the SI unit. The Celsius scale is usually calibrated between 0° (water's freezing point) and 100° (water's boiling point), while the Fahrenheit scale runs from 32° to 212° over that same range. The two are related by °F = (9/5)°C + 32, and Celsius converts to kelvin with K = °C + 273.15. One important difference: negative temperatures are possible on the Celsius scale, but not on the Kelvin scale, since 0 K is the lowest temperature that can exist. (NCERT 1.3.7)",
+          "key_point": "K = °C + 273.15 and °F = (9/5)°C + 32; unlike Celsius, the Kelvin scale has no negative values, since 0 K is an absolute lower limit."
+        }
+      ],
+      "estimated_minutes": 30
+    },
+    {
+      "id": "uncertainty-in-measurement",
+      "number": 4,
+      "title": "Uncertainty in Measurement",
+      "summary": "Chemistry works with numbers spanning an enormous range — from atom counts with 23 digits to atomic masses with 23 zeros after the decimal point — so scientific notation, significant figures and dimensional analysis are the tools that make those numbers usable and their built-in uncertainty explicit.",
+      "sections": [
+        {
+          "heading": "Scientific notation",
+          "body": "Chemistry regularly deals with numbers that are absurdly large or small — the number of molecules in 2 g of hydrogen gas runs to 24 digits, while the mass of a single hydrogen atom needs 24 zeros after the decimal point before a non-zero digit appears. Doing arithmetic directly on numbers like that is impractical, so chemists use scientific (exponential) notation instead: any number is written as N × 10ⁿ, where N (the digit term) is between 1.000... and 9.999..., and n is a positive or negative whole-number exponent. So 232.508 becomes 2.32508 × 10², since the decimal point moves two places to the left, and 0.00016 becomes 1.6 × 10⁻⁴, since the decimal point moves four places to the right (hence the negative exponent). When adding or subtracting numbers in scientific notation, both numbers first need the same exponent before their digit terms can be combined; multiplying or dividing follows the ordinary rules for exponents. (NCERT 1.4.1)",
+          "key_point": "Scientific notation writes any number as N × 10ⁿ with 1 ≤ N < 10; addition/subtraction requires matching exponents first, while multiplication/division follows normal exponent rules."
+        },
+        {
+          "heading": "Significant figures",
+          "body": "Every experimental measurement carries some uncertainty, from the limits of the instrument and the person using it — a platform balance might read a mass as 9.4 g, while a more precise analytical balance reads the same object as 9.4213 g. Significant figures are the way this uncertainty gets communicated: they're the digits known with certainty, plus one final estimated (uncertain) digit. A handful of rules fix how many significant figures a number has: all non-zero digits count; zeros before the first non-zero digit don't count (0.03 has one significant figure); zeros between two non-zero digits do count (2.005 has four); and trailing zeros count only if they're after a decimal point (0.200 g has three significant figures, but plain 100 has just one, unless written as 100. or in scientific notation to make the intended precision explicit). Counting whole objects — like 2 balls or 20 eggs — is treated as having infinite significant figures, since these are exact numbers rather than measurements. In scientific notation, every digit written is significant. (NCERT 1.4.2)",
+          "key_point": "Significant figures are the digits known with certainty plus one final estimated digit; zeros are only significant if they come after a non-zero digit, or after a decimal point, or both."
+        },
+        {
+          "heading": "Precision, accuracy, and arithmetic with significant figures",
+          "body": "Precision and accuracy answer two different questions. Precision is how close repeated measurements of the same quantity are to each other; accuracy is how close a measurement is to the true value. A set of measurements can be precise (tightly clustered) without being accurate (close to the true value), and it's possible to be neither, or — ideally — both. When adding or subtracting measured numbers, the result can't have more digits after the decimal point than the least precise of the original numbers has; when multiplying or dividing, the result can't have more significant figures than the measurement with the fewest significant figures. Rounding off follows three rules: if the digit being dropped is more than 5, round the preceding digit up; if it's less than 5, leave the preceding digit as is; and if it's exactly 5, round to the nearest even digit (so 6.35 rounds to 6.4, but 6.25 rounds to 6.2). (NCERT 1.4.2)",
+          "key_point": "Precision (repeatability) and accuracy (closeness to the true value) are independent of each other; a result of an addition/subtraction or multiplication/division can never claim more precision than its least precise input."
+        },
+        {
+          "heading": "Dimensional analysis",
+          "body": "Dimensional analysis (also called the factor-label or unit-factor method) converts a measurement from one system of units to another by multiplying it by a unit factor — a ratio between two equivalent quantities that itself equals exactly 1, so multiplying by it doesn't change the actual quantity, only the units it's expressed in. Since 1 inch = 2.54 cm, both 1 in / 2.54 cm and 2.54 cm / 1 in equal 1, and multiplying 3 inches by the second one (which puts the wanted unit, cm, on top) gives 3 in × 2.54 cm/in = 7.62 cm. Units behave just like ordinary numbers in this kind of calculation — they can be cancelled, multiplied, divided or raised to a power — which is how a volume conversion like 2 L to m³ can be worked through by cubing a length-based unit factor, or a time conversion like 2 days to seconds can be done by chaining several unit factors (days→hours→minutes→seconds) together in a single multiplication. (NCERT 1.4.3)",
+          "key_point": "Dimensional analysis converts between units by multiplying by 'unit factors' that equal 1 (like 2.54 cm / 1 in) — units cancel and combine exactly like ordinary algebraic quantities."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "laws-of-chemical-combination",
+      "number": 5,
+      "title": "Laws of Chemical Combination",
+      "summary": "Five experimentally-derived laws govern how elements combine into compounds: mass is conserved overall, a given compound always has the same composition, multiple compounds of the same two elements relate by simple whole-number ratios, and reacting gases combine in simple whole-number volume ratios too. Together, they set the stage for Dalton's atomic theory.",
+      "sections": [
+        {
+          "heading": "Law of conservation of mass",
+          "body": "Antoine Lavoisier put forward this law in 1789, after careful experimental studies of combustion reactions showed that the total mass involved in a physical or chemical change doesn't change overall — matter is neither created nor destroyed. Lavoisier reached this conclusion through exact measurement of the masses of reactants and products in carefully planned experiments, and it went on to form the basis for a great deal of later chemistry. (NCERT 1.5.1)",
+          "key_point": "The law of conservation of mass (Lavoisier, 1789): matter is neither created nor destroyed in a physical or chemical change — the total mass stays the same."
+        },
+        {
+          "heading": "Law of definite proportions",
+          "body": "Joseph Proust showed that a given compound always contains exactly the same elements combined in exactly the same proportion by mass, regardless of the source or method of preparation. He demonstrated this with two samples of cupric carbonate — one naturally occurring, one made synthetically — and found identical percentages of copper (51.35%), carbon (9.74%) and oxygen (38.91%) in both. This law is sometimes also called the law of definite composition. (NCERT 1.5.2)",
+          "key_point": "The law of definite proportions (Proust): a given compound always has the same elements in the same fixed mass ratio, no matter where the sample came from — confirmed by matching natural and synthetic cupric carbonate."
+        },
+        {
+          "heading": "Law of multiple proportions",
+          "body": "Dalton proposed in 1803 that if two elements can combine to form more than one compound, the masses of one element that combine with a fixed mass of the other element are always in a ratio of small whole numbers. Hydrogen and oxygen illustrate this well: 2 g of hydrogen combines with 16 g of oxygen to give 18 g of water, while 2 g of hydrogen combines with 32 g of oxygen to give 34 g of hydrogen peroxide. The two masses of oxygen that combine with the same fixed mass of hydrogen (16 g and 32 g) are in the simple ratio 1:2. (NCERT 1.5.3)",
+          "key_point": "The law of multiple proportions (Dalton, 1803): when two elements form more than one compound, the different masses of one element that combine with a fixed mass of the other are in a small whole-number ratio — 1:2 for oxygen combining with a fixed mass of hydrogen in water versus hydrogen peroxide."
+        },
+        {
+          "heading": "Gay Lussac's law of gaseous volumes",
+          "body": "Gay Lussac observed, in 1808, that when gases combine or are produced in a reaction, they do so in a simple ratio by volume, as long as all the gases are measured at the same temperature and pressure. In the reaction of hydrogen and oxygen to give water vapour, 100 mL of hydrogen combines with 50 mL of oxygen to give 100 mL of water vapour — a 2:1 ratio between the volumes of hydrogen and oxygen that combine. This discovery is really the law of definite proportions restated in terms of volume rather than mass, and it was properly explained a few years later by Avogadro's work. (NCERT 1.5.4)",
+          "key_point": "Gay Lussac's law (1808): reacting gases combine in simple whole-number volume ratios at the same temperature and pressure — 2 volumes of hydrogen to 1 of oxygen, for water vapour."
+        },
+        {
+          "heading": "Avogadro's law",
+          "body": "Avogadro proposed, in 1811, that equal volumes of any gas, at the same temperature and pressure, contain equal numbers of molecules — and crucially, he distinguished between atoms and molecules in a way that resolved Gay Lussac's result. Two volumes of hydrogen combine with one volume of oxygen to give two volumes of water vapour, with no oxygen left over, and this only makes sense if hydrogen and oxygen gas both exist as diatomic molecules (H~2~, O~2~) rather than as single atoms — an idea Dalton and others at the time didn't accept. Avogadro's proposal, published in a French physics journal, was correct but went largely unnoticed for about 50 years, until Stanislao Cannizaro championed it at the first international chemistry conference, held in Karlsruhe in 1860. (NCERT 1.5.5)",
+          "key_point": "Avogadro's law (1811): equal volumes of any gas at the same temperature and pressure contain equal numbers of molecules — this only works if gases like hydrogen and oxygen exist as diatomic molecules, not single atoms, an idea that took roughly 50 years to gain acceptance."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "daltons-atomic-theory",
+      "number": 6,
+      "title": "Dalton's Atomic Theory",
+      "summary": "The idea of indivisible matter particles goes back to ancient Greek philosophy, but it took the early 1800s laws of chemical combination to give it real scientific footing. Dalton's 1808 theory explained those laws cleanly, though it couldn't yet explain gas volume ratios or why atoms bond in the first place.",
+      "sections": [
+        {
+          "heading": "An old idea, revived by new evidence",
+          "body": "The notion that matter is made of small, indivisible particles goes back to Democritus, a Greek philosopher (460–370 BCE), who called them 'a-tomio' — meaning indivisible. This idea lay dormant for centuries until the experimental work behind the laws of chemical combination (conservation of mass, definite proportions, multiple proportions) gave it fresh support in the early 1800s. (NCERT 1.6)",
+          "key_point": "The idea of indivisible matter particles dates back to Democritus (460–370 BCE), but it took the experimentally-derived laws of chemical combination to bring it back into serious scientific use."
+        },
+        {
+          "heading": "Dalton's postulates",
+          "body": "In 1808, John Dalton published 'A New System of Chemical Philosophy', proposing four postulates: matter consists of indivisible atoms; all atoms of a given element are identical in their properties, including mass, while atoms of different elements differ in mass; compounds form when atoms of different elements combine in a fixed ratio; and chemical reactions simply reorganise atoms — atoms are neither created nor destroyed in the process. (NCERT 1.6)",
+          "key_point": "Dalton's four postulates (1808): atoms are indivisible; atoms of one element are identical to each other (and different from other elements' atoms); compounds form from fixed ratios of different atoms; chemical reactions only rearrange atoms, never create or destroy them."
+        },
+        {
+          "heading": "What Dalton's theory could and couldn't explain",
+          "body": "Dalton's theory successfully accounted for the laws of chemical combination already established by that point — conservation of mass, definite proportions, and multiple proportions all follow naturally from atoms combining in fixed ratios. What it couldn't explain was Gay Lussac's law of gaseous volumes, since Dalton didn't accept that elements like hydrogen and oxygen could exist as diatomic molecules — that gap was only closed later, by Avogadro's distinction between atoms and molecules. Dalton's theory also didn't offer any explanation for why atoms combine in the first place; that question was answered by later theories of bonding. (NCERT 1.6)",
+          "key_point": "Dalton's theory explained the laws of chemical combination but not Gay Lussac's law of gaseous volumes (since he rejected diatomic molecules), and it offered no explanation at all for why atoms bond."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "atomic-molecular-mass",
+      "number": 7,
+      "title": "Atomic and Molecular Mass",
+      "summary": "Atomic mass is defined relative to a single agreed standard, carbon-12, rather than measured directly, and because most elements are a natural mix of isotopes, the atomic mass actually used is a weighted average across them. Molecular and formula mass then build directly on top of atomic mass, just by summing up every atom present.",
+      "sections": [
+        {
+          "heading": "Atomic mass",
+          "body": "Because atoms are so small, their masses have to be defined relative to some agreed standard rather than measured directly. Hydrogen — the lightest atom — was originally, arbitrarily, assigned a mass of 1, with other elements measured relative to it, but since 1961 the accepted standard has been carbon-12 (¹²C), one of carbon's isotopes, assigned a mass of exactly 12 atomic mass units (amu). One atomic mass unit is defined as exactly one-twelfth of the mass of a single carbon-12 atom, which works out to 1.66056 × 10⁻²⁴ g. On this scale, hydrogen's atomic mass comes to about 1.0080 amu and oxygen-16's to about 15.995 amu. The unit 'amu' has since been replaced by 'u' (unified mass). (NCERT 1.7.1)",
+          "key_point": "Atomic mass is measured relative to ¹²C, defined as exactly 12 u; 1 u = one-twelfth the mass of a single carbon-12 atom = 1.66056 × 10⁻²⁴ g."
+        },
+        {
+          "heading": "Average atomic mass",
+          "body": "Most naturally occurring elements exist as a mix of isotopes, so the atomic mass actually used in calculations — and listed in the periodic table — is a weighted average across an element's isotopes, weighted by how abundant each one actually is in nature. Carbon, for instance, occurs as ¹²C (98.892% abundant, mass 12 u exactly), ¹³C (1.108% abundant, mass 13.00335 u) and a negligible trace of ¹⁴C; weighting each isotope's mass by its abundance and adding them up gives carbon's average atomic mass of 12.011 u — the figure that appears on the periodic table. (NCERT 1.7.2)",
+          "key_point": "The atomic mass shown on the periodic table is an average, weighted by each isotope's natural abundance — carbon's 12.011 u reflects mostly ¹²C with a small contribution from ¹³C."
+        },
+        {
+          "heading": "Molecular mass",
+          "body": "A molecule's mass is simply the sum of the atomic masses of every atom in it, each atomic mass multiplied by how many times that atom appears. Methane, CH~4~, has one carbon and four hydrogens, so its molecular mass is 12.011 u + 4 × 1.008 u = 16.043 u. Water, H~2~O, has two hydrogens and one oxygen, giving 2 × 1.008 u + 16.00 u = 18.02 u. Glucose, C~6~H~12~O~6~, works the same way: 6 × 12.011 u + 12 × 1.008 u + 6 × 16.00 u = 180.162 u. (NCERT 1.7.3)",
+          "molecule_ids": ["methane", "glucose"],
+          "key_point": "Molecular mass = sum of (atomic mass × number of atoms) for every atom in the molecule — methane comes to 16.043 u, glucose to 180.162 u."
+        },
+        {
+          "heading": "Formula mass",
+          "body": "Some substances, like sodium chloride, don't exist as discrete molecules at all — in the solid state, NaCl is a three-dimensional lattice of alternating Na⁺ and Cl⁻ ions, where each sodium ion is surrounded by six chloride ions and vice versa, with no single 'molecule' of NaCl to point to. For compounds like this, the formula (NaCl) is used to calculate a formula mass rather than a molecular mass — worked out the same way, by summing atomic masses: sodium's 23.0 u plus chlorine's 35.5 u gives a formula mass of 58.5 u for sodium chloride. (NCERT 1.7.4)",
+          "key_point": "Ionic solids like NaCl don't form discrete molecules, so their formula (not molecular) mass is calculated the same way — sum of atomic masses — giving NaCl a formula mass of 58.5 u."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "mole-concept",
+      "number": 8,
+      "title": "Mole Concept and Molar Mass",
+      "summary": "Atoms and molecules are far too numerous to count individually, so chemistry uses the mole — a fixed count of 6.022 × 10²³ entities — the same way everyday counting uses a dozen. Molar mass then bridges that huge count directly to a mass you can actually weigh on a balance.",
+      "sections": [
+        {
+          "heading": "Why the mole exists",
+          "body": "Atoms and molecules are so small, and present in such enormous numbers even in a tiny sample, that a convenient counting unit is needed — the same reasoning that gives us a dozen for 12 items or a gross for 144. The mole (symbol mol) is that unit for chemistry, introduced as the seventh SI base quantity, for the amount of a substance. (NCERT 1.8)",
+          "key_point": "A mole is simply a convenient counting unit for atoms, molecules or other particles — the chemistry equivalent of a dozen, just enormously larger."
+        },
+        {
+          "heading": "The Avogadro constant",
+          "body": "One mole is defined as containing exactly 6.02214076 × 10²³ elementary entities — atoms, molecules, ions, electrons, or any other specified particle — a number known as the Avogadro constant (N_A) or Avogadro number, in honour of Amedeo Avogadro. Written out in full, without the power of ten, that's 602,213,670,000,000,000,000,000 — a mole of hydrogen atoms is 6.022 × 10²³ atoms, a mole of water molecules is 6.022 × 10²³ molecules, and a mole of sodium chloride is 6.022 × 10²³ formula units. This number was pinned down precisely by weighing a carbon-12 atom with a mass spectrometer (1.992648 × 10⁻²³ g) and dividing the known mass of one mole of carbon (12 g) by that single-atom mass. (NCERT 1.8)",
+          "key_point": "One mole = 6.02214076 × 10²³ entities (the Avogadro constant) of whatever's being counted — atoms, molecules, ions, or formula units."
+        },
+        {
+          "heading": "Molar mass",
+          "body": "The molar mass of a substance is the mass of one mole of it, in grams, and it's numerically identical to the atomic, molecular, or formula mass expressed in u — so water's molar mass is 18.02 g mol⁻¹ (matching its molecular mass of 18.02 u) and sodium chloride's is 58.5 g mol⁻¹ (matching its formula mass of 58.5 u). This equivalence is what makes the mole so useful in practice: it lets you move directly between a measurable mass in grams and a count of particles, without ever having to handle 10²³-sized numbers directly. (NCERT 1.8)",
+          "key_point": "Molar mass (g mol⁻¹) is numerically equal to atomic/molecular/formula mass (u) — this is exactly what lets you convert between a mass you can weigh and a number of particles you can't."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "percentage-composition",
+      "number": 9,
+      "title": "Percentage Composition",
+      "summary": "Percentage composition tells you what fraction, by mass, each element contributes to a compound — and working backwards from that percentage data, through moles, gets you first the empirical formula and then, if the molar mass is known, the true molecular formula.",
+      "sections": [
+        {
+          "heading": "Mass percent composition",
+          "body": "Given an unknown compound, one of the first useful questions to ask is what elements it contains and in what ratio — and percentage composition answers exactly that, expressed as mass % of an element = (mass of that element in the compound ÷ molar mass of the compound) × 100. For water (molar mass 18.02 g), that gives 11.18% hydrogen and 88.79% oxygen by mass (using hydrogen's contribution of 2 × 1.008 g out of the total). For ethanol, C~2~H~5~OH (molar mass 46.068 g), the same method gives 52.14% carbon, 13.13% hydrogen and 34.73% oxygen. Percentage composition is also useful as a purity check: a genuine sample of a known compound should reproduce the expected percentages. (NCERT 1.9)",
+          "key_point": "Mass % of an element = (mass of that element in the compound ÷ molar mass of the compound) × 100 — useful both for identifying an unknown compound and for checking a known sample's purity."
+        },
+        {
+          "heading": "Empirical formula from percent composition",
+          "body": "An empirical formula gives the simplest whole-number ratio of the different atoms in a compound (as opposed to a molecular formula, which gives the exact number of each atom actually in one molecule), and it can be worked out directly from mass percent data. Take a compound that's 4.07% hydrogen, 24.27% carbon and 71.65% chlorine by mass: treating 100 g of the compound as the starting sample gives 4.07 g hydrogen, 24.27 g carbon and 71.65 g chlorine. Dividing each mass by its atomic mass gives the number of moles of each element (4.04 mol H, 2.021 mol C, 2.021 mol Cl), and dividing all three by the smallest value (2.021) gives a mole ratio of 2:1:1 for H:C:Cl — so the empirical formula is CH~2~Cl. If a ratio doesn't come out as whole numbers, every value is multiplied by whatever small factor makes them all whole. (NCERT 1.9.1)",
+          "key_point": "To find an empirical formula: convert mass % to grams (using 100 g as a sample), convert grams to moles using atomic mass, then divide every mole value by the smallest one to get a whole-number ratio."
+        },
+        {
+          "heading": "From empirical formula to molecular formula",
+          "body": "Once you have the empirical formula, getting to the actual molecular formula just needs the compound's molar mass. First, calculate the empirical formula's own mass by summing its atomic masses — for CH~2~Cl, that's 12.01 + (2 × 1.008) + 35.453 = 49.48 g. Dividing the compound's known molar mass by this empirical formula mass gives a whole number, n (here, 98.96 ÷ 49.48 ≈ 2), and multiplying every subscript in the empirical formula by n gives the true molecular formula — so CH~2~Cl with n = 2 becomes C~2~H~4~Cl~2~. (NCERT 1.9.1)",
+          "key_point": "Molecular formula = empirical formula × n, where n = (molar mass) ÷ (empirical formula mass) — for CH~2~Cl with a 98.96 g molar mass, n = 2, giving C~2~H~4~Cl~2~."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "stoichiometry",
+      "number": 10,
+      "title": "Stoichiometry and Stoichiometric Calculations",
+      "summary": "A balanced chemical equation is really several statements at once — about molecules, moles, and grams — and stoichiometry is the discipline of using those mole ratios to calculate exactly how much of each reactant is needed or each product forms, including when one reactant runs out before the other (the limiting reagent).",
+      "sections": [
+        {
+          "heading": "What a balanced equation tells you",
+          "body": "Stoichiometry — from the Greek stoicheion (element) and metron (measure) — is the calculation of the masses (and sometimes volumes) of reactants and products in a chemical reaction, and a balanced chemical equation is the starting point for all of it. Take the combustion of methane: CH~4~(g) + 2O~2~(g) → CO~2~(g) + 2H~2~O(g). Methane and dioxygen are the reactants, carbon dioxide and water the products, and the number in front of each formula (the stoichiometric coefficient) tells you how many molecules — or, equivalently, moles — of that substance take part. So this equation says, all at once: 1 mole of CH~4~ reacts with 2 moles of O~2~ to give 1 mole of CO~2~ and 2 moles of H~2~O; equally, 1 molecule of CH~4~ reacts with 2 molecules of O~2~; equally, 16 g of CH~4~ reacts with 2×32 g of O~2~ to give 44 g of CO~2~ and 2×18 g of H~2~O. (NCERT 1.10)",
+          "molecule_ids": ["methane"],
+          "key_point": "A balanced equation's coefficients give the mole (and molecule) ratios of every reactant and product at once — the same equation can be read in moles, molecules, or grams."
+        },
+        {
+          "heading": "Balancing a chemical equation",
+          "body": "A balanced equation has the same number of atoms of every element on both sides, following directly from the law of conservation of mass, and many equations can be balanced by trial and error. Balancing the combustion of propane, C~3~H~8~ + O~2~ → CO~2~ + H~2~O, works step by step: first balance carbon (3 carbons in C~3~H~8~ means 3 CO~2~ on the right), then hydrogen (8 hydrogens means 4 H~2~O, since each water molecule has 2), and finally oxygen (3 CO~2~ and 4 H~2~O together need 10 oxygen atoms, so 5 O~2~ is needed on the left) — giving the balanced equation C~3~H~8~ + 5O~2~ → 3CO~2~ + 4H~2~O. One rule always applies: the subscripts within a formula (which fix what the substance actually is) can never be changed to balance an equation — only the coefficients in front of each formula can be adjusted. (NCERT 1.10)",
+          "key_point": "Balance one element at a time (carbon, then hydrogen, then oxygen works well for combustion reactions) by adjusting coefficients only — never the subscripts inside a formula, which would change what substance it is."
+        },
+        {
+          "heading": "Using stoichiometry to calculate amounts",
+          "body": "Once an equation is balanced, its coefficients convert directly into a mole ratio you can use for calculation. To find how much water forms when 16 g of methane burns (CH~4~ + 2O~2~ → CO~2~ + 2H~2~O): 16 g of CH~4~ is exactly 1 mole (since methane's molar mass is 16 g mol⁻¹), and the equation says 1 mole of CH~4~ gives 2 moles of H~2~O; since 1 mole of H~2~O is 18 g, 2 moles is 36 g — so 16 g of methane produces 36 g of water. The same logic runs in reverse to find how much of a reactant is needed for a given amount of product, simply by using the mole ratio from the balanced equation as a conversion factor. (NCERT 1.10)",
+          "molecule_ids": ["methane"],
+          "key_point": "Stoichiometric calculations always run through moles: convert a given mass to moles, apply the balanced equation's mole ratio, then convert the answer back to whatever unit (mass, volume) is wanted."
+        },
+        {
+          "heading": "Limiting reagent",
+          "body": "Reactions are often carried out with reactants in amounts that don't exactly match the balanced equation's ratio — one reactant ends up in excess, while the other is used up first. Whichever reactant is completely consumed first stops the reaction there, no matter how much of the other reactant remains — this is the limiting reagent, and it's what actually determines how much product forms. Working out the limiting reagent means converting every reactant's given amount into moles, then comparing the mole ratio you actually have against the mole ratio the balanced equation requires: whichever reactant falls short of what's needed (relative to the other) is the limiting one. For example, mixing 50.0 kg of N~2~ with 10.0 kg of H~2~ to make ammonia (N~2~ + 3H~2~ → 2NH~3~) requires 3 moles of H~2~ for every mole of N~2~ — but the amounts given only provide enough H~2~ to react with part of the N~2~, making dihydrogen the limiting reagent, and the amount of NH~3~ formed is calculated from the H~2~ available, not the N~2~. (NCERT 1.10.1)",
+          "key_point": "The limiting reagent is whichever reactant runs out first — found by converting every reactant to moles and comparing against the balanced equation's required mole ratio; it alone determines how much product actually forms."
+        },
+        {
+          "heading": "Expressing concentration: mass %, mole fraction, molarity, molality",
+          "body": "Most lab reactions happen in solution, so there are several standard ways to express how much solute is present in a given amount of solution or solvent. Mass per cent (or weight per cent) is the mass of solute divided by the total mass of solution, times 100. Mole fraction is the ratio of one component's moles to the total moles of every component in the solution. Molarity (M) — the most widely used of the four — is the number of moles of solute per litre of solution; it changes with temperature, since a solution's volume depends on temperature. Molality (m) is the number of moles of solute per kilogram of solvent; unlike molarity, it doesn't change with temperature, since it's based on mass rather than volume. Diluting a concentrated 'stock' solution to a lower molarity uses the relationship M~1~V~1~ = M~2~V~2~, since the moles of solute stay the same through dilution — only the volume of solvent changes. (NCERT 1.10.2)",
+          "key_point": "Molarity (mol per litre of solution) changes with temperature; molality (mol per kg of solvent) doesn't — that's the key practical difference between the two most commonly confused concentration units."
+        }
+      ],
+      "estimated_minutes": 30
+    }
   ]
 }
