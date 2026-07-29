@@ -9,9 +9,203 @@
     { "name": "NEET", "weightage_percent": 3 }
   ],
   "chapters": [
-    { "id": "periodic-law", "number": 1, "title": "Genesis of Periodic Classification", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "modern-periodic-law", "number": 2, "title": "Modern Periodic Law", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "periodic-trends", "number": 3, "title": "Periodic Trends in Properties", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "nomenclature", "number": 4, "title": "Nomenclature of Elements", "summary": "", "sections": [], "estimated_minutes": 10 }
+    {
+      "id": "periodic-law",
+      "number": 1,
+      "title": "Genesis of Periodic Classification",
+      "summary": "With well over a hundred known elements, chemists needed a systematic way to organise them — one that could rationalise known facts and predict new ones. Several attempts (Döbereiner's triads, Newlands' octaves) captured real but partial patterns before Mendeleev's Periodic Law finally organised elements by recurring properties, boldly enough to predict elements that hadn't even been discovered yet.",
+      "sections": [
+        {
+          "heading": "Why classify 114 elements?",
+          "body": "In 1800, only 31 elements were known; by 1865 that number had more than doubled to 63, and today 114 are known, with the most recently discovered ones made artificially by scientists rather than found in nature. Studying the chemistry of each element and its innumerable compounds individually became increasingly impractical as that number grew, so chemists searched for a systematic way to organise their knowledge — one that would not just rationalise known facts about elements, but also predict new ones worth investigating. (NCERT 3.1)",
+          "key_point": "With well over 100 known elements, classifying them systematically isn't just tidiness — it's what lets chemists organise existing knowledge and predict properties of elements not yet studied."
+        },
+        {
+          "heading": "Döbereiner's triads and Newlands' octaves",
+          "body": "Johann Döbereiner, in the early 1800s, was the first to notice trends among elements' properties: by 1829 he'd found several groups of three elements (triads) — lithium, sodium, potassium is one — where the middle element's atomic weight sat almost exactly halfway between the other two, and its properties were similarly in between. This relationship (the law of triads) only worked for a handful of elements, though, and was largely dismissed as coincidence. A.E.B. de Chancourtois arranged elements by increasing atomic weight into a cylindrical table in 1862, but this too went largely unnoticed. In 1865, John Newlands proposed the law of octaves: arranging elements by increasing atomic weight, he found every eighth element had properties resembling the first — much like the eighth note in a musical octave resembles the first. This pattern held up only as far as calcium, and while not widely accepted at the time, Newlands was eventually awarded the Davy Medal in 1887 for the work. (NCERT 3.2)",
+          "key_point": "Early classification attempts — Döbereiner's triads (middle element's atomic weight and properties fall between the outer two) and Newlands' octaves (every eighth element resembles the first) — captured real patterns but only worked for a small stretch of the known elements."
+        },
+        {
+          "heading": "Mendeleev's Periodic Law",
+          "body": "The Periodic Law as it's understood today traces back to Dmitri Mendeleev and, independently, Lothar Meyer, both working in 1869: arranging elements by increasing atomic weight reveals physical and chemical similarities recurring at regular intervals. Meyer plotted physical properties (atomic volume, melting point, boiling point) against atomic weight and found a periodically repeating pattern, developing a table by 1868 that closely resembles the modern one — but it wasn't published until after Mendeleev's, and it's Mendeleev who's generally credited with the Periodic Table's development. Mendeleev was the first to actually publish the Periodic Law: the properties of the elements are a periodic function of their atomic weights. He arranged elements into horizontal rows and vertical columns so that elements with similar properties fell into the same column (group), relying heavily on the similarities between the compounds elements formed — and where strict atomic-weight order would have broken this pattern, he deliberately placed elements out of weight order (iodine, with a lower atomic weight than tellurium, was still placed after it, in the halogen group, because its properties matched fluorine, chlorine and bromine so much better). (NCERT 3.2)",
+          "key_point": "Mendeleev's Periodic Law (1869) — properties recur periodically with atomic weight — deliberately prioritised chemical similarity over strict atomic-weight order, correctly regrouping elements like iodine against the weight-only sequence."
+        },
+        {
+          "heading": "Mendeleev's bold predictions",
+          "body": "Mendeleev's real triumph was leaving deliberate gaps in his table for elements not yet discovered, since his priority was keeping elements of similar properties in the same group even when that meant a blank space. He predicted the existence and even the approximate properties of two such elements, calling them eka-aluminium and eka-silicon; when gallium and germanium were later discovered, their measured properties matched Mendeleev's predictions closely — gallium's predicted atomic weight of 68 came in at a measured 70, and its predicted density of 5.9 g/cm³ came in at 5.94 g/cm³. This kind of successful, specific prediction is what made Mendeleev and his Periodic Table famous. (NCERT 3.2)",
+          "key_point": "Mendeleev left deliberate gaps for undiscovered elements and predicted their properties in advance — gallium and germanium (his 'eka-aluminium' and 'eka-silicon') matched his predictions closely once discovered, cementing the Periodic Table's credibility."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "modern-periodic-law",
+      "number": 2,
+      "title": "Modern Periodic Law",
+      "summary": "Mendeleev built his table without knowing anything about atomic structure, ordering elements purely by atomic weight. Moseley's X-ray studies later showed atomic number is the truly fundamental property, giving the Periodic Law its modern form — and directly explaining why the long-form table's periods and groups are shaped exactly the way they are.",
+      "sections": [
+        {
+          "heading": "Moseley and the atomic number",
+          "body": "When Mendeleev built his table, nothing was known yet about the atom's internal structure — his ordering was based purely on atomic weight. In 1913, Henry Moseley studied the characteristic X-ray spectra of elements and found that plotting the square root of X-ray frequency against atomic number gave a straight line, while plotting it against atomic weight did not. This showed that atomic number — not atomic weight — is the more fundamental property governing an element's identity and behaviour, exactly the kind of correction needed to fix Mendeleev's occasional weight-order violations (like iodine and tellurium) on solid theoretical footing. (NCERT 3.3)",
+          "key_point": "Moseley's X-ray spectra experiments (1913) showed atomic number, not atomic weight, is the truly fundamental ordering property of the elements — vindicating Mendeleev's weight-order exceptions."
+        },
+        {
+          "heading": "The modern Periodic Law",
+          "body": "Mendeleev's Periodic Law was revised accordingly into the modern Periodic Law: the physical and chemical properties of the elements are periodic functions of their atomic numbers. This reformulation held up cleanly across the 94 naturally occurring elements and extended naturally to the artificially produced, short-lived elements discovered since. Since atomic number equals the number of protons (or, in a neutral atom, the number of electrons), periodicity is now understood to be, at its root, a consequence of the periodic pattern in which electronic configurations repeat as atomic number increases — configuration, not raw weight, is what really determines an element's physical and chemical properties. (NCERT 3.3)",
+          "key_point": "The modern Periodic Law: properties are a periodic function of atomic number, not atomic weight — and since atomic number fixes electronic configuration, periodicity ultimately traces back to how electron configurations repeat."
+        },
+        {
+          "heading": "Periods and groups in the long form",
+          "body": "The modern, widely-used 'long form' of the Periodic Table arranges elements into horizontal rows, called periods (Mendeleev called them series), and vertical columns, called groups or families, with elements sharing similar outer electronic configurations grouped in the same column. IUPAC recommends numbering groups 1 to 18, replacing the older Roman-numeral labels. There are seven periods, and the period number corresponds directly to the highest principal quantum number (n) among the elements in that period: the first period has 2 elements, and the following periods have 8, 8, 18, 18 and 32 respectively, with the seventh (incomplete) period having a theoretical maximum of 32. To preserve the table's structure, the 14-element lanthanoid and actinoid series (from both the sixth and seventh periods) are placed in separate panels beneath the main table rather than stretching it sideways. (NCERT 3.3)",
+          "key_point": "In the long-form table, period number = highest principal quantum number (n) present, with periods holding 2, 8, 8, 18, 18, 32 elements in sequence — the lanthanoids and actinoids are shown separately purely to keep the table's shape manageable."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "nomenclature",
+      "number": 3,
+      "title": "Nomenclature of Elements",
+      "summary": "Newly discovered elements have traditionally been named by their discoverers, but disputed claims over unstable, barely-detectable superheavy elements forced IUPAC to introduce a neutral, systematic temporary naming scheme built directly from the atomic number, used until a permanent name is confirmed by vote.",
+      "sections": [
+        {
+          "heading": "Why elements need a temporary naming system",
+          "body": "Naming a newly discovered element has traditionally been the discoverer's privilege, ratified by IUPAC — but this led to real controversy for elements with very high atomic numbers, since these are so unstable that only minute quantities (sometimes just a handful of atoms) can ever be produced, and scientists have at times rushed to claim discovery before the data was fully reliable. Element 104 is the classic example: American scientists named it Rutherfordium while Soviet scientists named it Kurchatovium, each claiming the discovery. (NCERT 3.4)",
+          "key_point": "Disputes over who discovered which superheavy element (like the US/Soviet dispute over element 104) are exactly why IUPAC introduced a neutral, systematic naming scheme for undiscovered or unconfirmed elements."
+        },
+        {
+          "heading": "Building a systematic name from the atomic number",
+          "body": "To sidestep naming disputes, IUPAC recommends deriving a temporary, systematic name directly from an element's atomic number, using fixed numerical roots for each digit 0–9 (nil, un, bi, tri, quad, pent, hex, sept, oct, enn) strung together in the order of the atomic number's digits, with 'ium' added at the end — giving each new element a temporary three-letter symbol until its discovery is confirmed and a permanent name is chosen by a vote of IUPAC representatives. For example, element 120 would be named unbinilium (symbol Ubn): the roots for 1, 2 and 0 are un, bi and nil. (NCERT 3.4, Problem 3.1)",
+          "key_point": "A temporary IUPAC name is built by stringing together numerical roots for each digit of the atomic number plus 'ium' — element 120 becomes 'unbinilium' (Ubn) this way."
+        },
+        {
+          "heading": "From temporary to permanent names",
+          "body": "Once an element's discovery is confirmed, a permanent name and symbol are chosen by a vote of IUPAC representatives from each member country, often honouring the country (or region) where it was discovered, or a notable scientist — element 106, for instance, is named Seaborgium (Sg) after Glenn Seaborg, whose work on transuranium elements reshaped the modern periodic table's layout. As of now, all elements up to atomic number 118 have been discovered and officially named. (NCERT 3.4)",
+          "key_point": "Permanent element names, chosen by IUPAC vote once discovery is confirmed, typically honour either the discovery's location or a notable scientist — as with Seaborgium (element 106), named for Glenn Seaborg."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "electronic-configurations-periods-groups",
+      "number": 4,
+      "title": "Electronic Configurations and the Periodic Table",
+      "summary": "The Periodic Table's whole shape falls directly out of how electrons fill orbitals: the period number is just the principal quantum number being filled, a period's length is fixed by how many orbitals that level has, and elements in the same group share the same valence configuration pattern — which is the real, underlying reason properties repeat with atomic number.",
+      "sections": [
+        {
+          "heading": "Periods track the shell being filled",
+          "body": "An element's position in the Periodic Table directly reflects the quantum numbers of the last electron added to build up its configuration — and the period number specifically indicates the principal quantum number (n) of the outermost, valence shell. Each successive period corresponds to the next principal energy level being filled: the first period (n=1) starts by filling the lowest level, 1s, giving just two elements, hydrogen (1s¹) and helium (1s²), which completes the first (K) shell. The second period (n=2) starts at lithium (filling 2s) and, once boron through neon progressively fill 2p, ends at neon (2s²2p⁶) with 8 elements total. The third period (n=3) repeats the same pattern one shell up, filling 3s and 3p from sodium to argon, again 8 elements. (NCERT 3.5)",
+          "key_point": "The period number equals the principal quantum number (n) of the valence shell being filled — the first three periods (2, 8, 8 elements) come from filling 1s, then 2s/2p, then 3s/3p."
+        },
+        {
+          "heading": "Why periods have 2, 8, 8, 18, 18, 32 elements",
+          "body": "The number of elements in a period is always twice the number of atomic orbitals available in the energy level being filled. The fourth period (n=4) starts at potassium, filling 4s — but before 4p starts filling, it becomes energetically favourable to fill the 3d orbitals first, giving rise to the 3d transition series starting at scandium (Z=21, configuration 3d¹4s²) and ending at zinc (Z=30, configuration 3d¹⁰4s²); the period then finishes with 4p, filling up to krypton, for 18 elements total. The fifth period (n=5) follows an identical pattern with the 4d transition series (starting at yttrium), also 18 elements, ending at xenon. The sixth period (n=6, 32 elements) fills 6s, then the 4f orbitals (giving the lanthanoid series, cerium through lutetium), then 5d, then 6p. The seventh period follows the same pattern with 7s, 5f (the actinoid series, starting after actinium), 6d and 7p, and will end at element 118, a noble gas. (NCERT 3.5, Problem 3.2)",
+          "key_point": "A period's length is always twice its available orbital count; the fourth and fifth periods (18 elements each) exist because d orbitals start filling partway through, and the sixth and seventh (32 elements each) because f orbitals do too."
+        },
+        {
+          "heading": "Groups share valence configuration",
+          "body": "Elements in the same vertical column (group) share the same valence-shell electronic configuration — the same number of electrons in their outermost orbitals — which is exactly why they show similar chemical properties. Every Group 1 element (the alkali metals), for instance, has an ns¹ valence configuration: lithium is [He]2s¹, sodium [Ne]3s¹, potassium [Ar]4s¹, rubidium [Kr]5s¹, caesium [Xe]6s¹, and francium [Rn]7s¹ — only the value of n changes down the group. This is the underlying reason properties depend periodically on atomic number rather than on atomic mass: it's the recurring pattern of valence configurations, not the raw increase in mass, that drives periodicity. (NCERT 3.5)",
+          "key_point": "Every element in a group shares the same valence configuration pattern (Group 1 is always ns¹) — only n changes down the group, which is why periodicity tracks atomic number/configuration rather than atomic mass."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "element-blocks",
+      "number": 5,
+      "title": "s-, p-, d- and f-Block Elements",
+      "summary": "Which type of orbital an element's last electron enters sorts every element into one of four blocks — s, p, d or f — each with its own broad chemical personality, from the fiercely reactive s-block metals to the mutually similar f-block series. Overlaid on this is the older, simpler split into metals, non-metals, and the metalloids straddling the line between them.",
+      "sections": [
+        {
+          "heading": "s-block elements",
+          "body": "Group 1 (alkali metals, ns¹) and Group 2 (alkaline earth metals, ns²) together make up the s-block elements. They're all highly reactive metals with low ionization enthalpies, readily losing their outermost electron(s) to form 1+ ions (alkali metals) or 2+ ions (alkaline earth metals); both metallic character and reactivity increase going down each group. Because they're so reactive, s-block elements are never found pure in nature, and — with the exception of lithium and beryllium — their compounds are predominantly ionic. (NCERT 3.6.1)",
+          "key_point": "s-block elements (Groups 1 and 2, ns¹ or ns²) are highly reactive metals that readily lose their valence electron(s) to form ionic compounds, never occurring pure in nature."
+        },
+        {
+          "heading": "p-block elements",
+          "body": "The p-block covers Groups 13 to 18, with outer configurations ranging from ns²np¹ to ns²np⁶ across each period; together with the s-block, these are called the representative (or main group) elements. Each period ends with a noble gas (ns²np⁶), whose completely filled valence shell is very hard to disturb, giving noble gases their famously low reactivity. Just before the noble gases sit two important non-metal groups: the halogens (Group 17) and chalcogens (Group 16), both with highly negative electron gain enthalpies, readily gaining one or two electrons respectively to reach a noble-gas configuration. Non-metallic character increases moving left to right across a period, while metallic character increases moving down a group. (NCERT 3.6.2)",
+          "key_point": "The p-block (Groups 13-18) runs from ns²np¹ to ns²np⁶ and ends each period with an unreactive noble gas — the halogens and chalcogens immediately preceding the noble gases are the p-block's most reactive non-metals."
+        },
+        {
+          "heading": "d-block elements (transition elements)",
+          "body": "Groups 3 to 12, in the middle of the table, make up the d-block, characterised by progressively filling inner d orbitals — general outer configuration (n−1)d¹⁻¹⁰ns⁰⁻² (palladium is the one exception, with 4d¹⁰5s⁰). All are metals, and they typically form coloured ions, show variable valence (multiple oxidation states), display paramagnetism, and are widely used as catalysts. Zinc, cadmium and mercury — with configuration (n−1)d¹⁰ns² — are exceptions that don't show most of these transition-metal properties. Sitting between the highly reactive s-block metals and the less reactive Group 13/14 elements, they act as a chemical bridge, which is exactly where the name 'transition elements' comes from. (NCERT 3.6.3)",
+          "key_point": "d-block (transition) elements fill inner d orbitals, generally form coloured, paramagnetic ions with variable oxidation states, and bridge the reactive s-block metals and the less reactive p-block — Zn, Cd and Hg are the exceptions that don't fit this pattern."
+        },
+        {
+          "heading": "f-block elements (inner-transition elements)",
+          "body": "The two rows at the bottom of the table — the lanthanoids (Ce, Z=58, through Lu, Z=71) and actinoids (Th, Z=90, through Lr, Z=103) — make up the f-block, with the general outer configuration (n−2)f¹⁻¹⁴(n−1)d⁰⁻¹ns². Since the last electron added always goes into an f orbital, they're called inner-transition elements; all are metals, and within each series the elements' properties are quite similar to one another. Actinoid chemistry is more complicated than lanthanoid chemistry, since actinoids can adopt a much wider range of oxidation states, and actinoids are radioactive — many have only ever been made in nanogram quantities or less via nuclear reactions, so their chemistry isn't fully studied. Elements after uranium are called transuranium elements. (NCERT 3.6.4)",
+          "key_point": "The f-block (lanthanoids and actinoids) fills f orbitals last, giving each series broadly similar properties within itself — actinoids are radioactive, often only ever synthesised in trace amounts, and adopt a wider range of oxidation states than lanthanoids."
+        },
+        {
+          "heading": "Metals, non-metals and metalloids",
+          "body": "Beyond the s/p/d/f classification, elements also split into metals and non-metals: metals make up more than 78% of known elements, sit on the left side of the table, are usually solid at room temperature (mercury, gallium and caesium are notable exceptions with very low melting points), and have high melting/boiling points, good conductivity, and are malleable and ductile. Non-metals sit at the top right, are usually solid or gaseous at room temperature with low melting/boiling points (boron and carbon are exceptions), are poor conductors, and are typically brittle rather than malleable or ductile. Metallic character increases going down a group and decreases moving left to right across a period, but the metal/non-metal transition isn't abrupt — a zig-zag band of elements (silicon, germanium, arsenic, antimony, tellurium) running diagonally across the table shows properties of both, and are called metalloids or semi-metals. (NCERT 3.6.5)",
+          "key_point": "Metals (left side, most of the table) are malleable, ductile and conductive; non-metals (top right) are the opposite — the metalloids (Si, Ge, As, Sb, Te) sit on the diagonal boundary between them, sharing properties of both."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "periodic-trends",
+      "number": 6,
+      "title": "Periodic Trends in Physical Properties",
+      "summary": "Five physical properties — atomic radius, ionic radius, ionization enthalpy, electron gain enthalpy, and electronegativity — all trace back to the same two forces: growing effective nuclear charge across a period, and growing shielding down a group. Once you see that, every trend (and most of its exceptions) follows logically.",
+      "sections": [
+        {
+          "heading": "Atomic radius",
+          "body": "Measuring an atom's size precisely is genuinely difficult — atoms are extremely small (~1.2 × 10⁻¹⁰ m in radius) and their surrounding electron cloud has no sharp boundary, so there's no direct way to measure a single, isolated atom's size. Instead, atomic size is estimated from the distance between atoms in their combined state. For non-metals, the covalent radius is taken as half the bond length between two identical atoms joined by a single covalent bond — chlorine's Cl-Cl bond length is 198 pm, giving a covalent radius of 99 pm. For metals, the metallic radius is half the distance between adjacent metal atoms in the solid — copper atoms sit 256 pm apart in solid copper, giving a metallic radius of 128 pm. Atomic radius decreases moving across a period (effective nuclear charge increases while valence electrons stay in the same shell, pulling them in tighter) and increases moving down a group (each new shell adds more inner-shell shielding, pushing the valence electrons further out despite the larger nuclear charge). Noble gases are excluded from this comparison, since their non-bonded (van der Waals) radii are measured differently and are much larger. (NCERT 3.7.1a)",
+          "key_point": "Atomic radius (covalent for non-metals, metallic for metals) decreases across a period (rising effective nuclear charge) and increases down a group (added shielding shells outweigh the larger nuclear charge)."
+        },
+        {
+          "heading": "Ionic radius",
+          "body": "Losing an electron gives a cation; gaining one gives an anion, and ionic radii — measured from distances between ions in a crystal — generally follow the same trends as atomic radii. A cation is always smaller than its parent atom (fewer electrons, same nuclear charge pulling them in), while an anion is always larger (more electrons means more repulsion and a lower effective nuclear charge per electron) — fluorine's atomic radius is 64 pm but its ionic radius (F⁻) is 136 pm, while sodium's atomic radius is 186 pm against just 95 pm for Na⁺. Among isoelectronic species (same electron count, like O²⁻, F⁻, Na⁺ and Mg²⁺, all with 10 electrons), the one with the greatest positive nuclear charge has the smallest radius, since its electrons are pulled in hardest; the one with the greatest negative charge has the largest, since electron-electron repulsion there is greatest. (NCERT 3.7.1b)",
+          "key_point": "Cations are always smaller and anions always larger than their parent atom; among isoelectronic species, radius shrinks as nuclear charge (and so positive charge) increases — O²⁻ > F⁻ > Na⁺ > Mg²⁺."
+        },
+        {
+          "heading": "Ionization enthalpy",
+          "body": "Ionization enthalpy measures how strongly an atom holds onto its electrons — it's the energy needed to remove an electron from an isolated gaseous atom in its ground state, X(g) → X⁺(g) + e⁻, always positive since removing an electron always costs energy. Removing a second electron (from the already-positive X⁺) always takes more energy than the first, and a third more than the second, and so on. Ionization enthalpy generally increases across a period (rising effective nuclear charge holds electrons more tightly, since shielding from other electrons in the same shell doesn't increase enough to compensate) and decreases down a group (increased shielding from filled inner shells outweighs the larger nuclear charge, so the outermost electron is easier to remove). Two exceptions are worth knowing: boron's ionization enthalpy is slightly lower than beryllium's, because removing a more-shielded 2p electron (boron) is easier than removing a less-shielded 2s electron (beryllium); and oxygen's is slightly lower than nitrogen's, because oxygen's fourth 2p electron must pair up in an already-occupied orbital, and the resulting electron-electron repulsion makes it easier to remove than one of nitrogen's three singly-occupied 2p electrons. (NCERT 3.7.1c)",
+          "key_point": "Ionization enthalpy rises across a period and falls down a group — with two notable exceptions (B lower than Be; O lower than N) both explained by which specific subshell the removed electron comes from."
+        },
+        {
+          "heading": "Electron gain enthalpy",
+          "body": "Electron gain enthalpy is the energy change when a neutral gaseous atom gains an electron to become an anion, X(g) + e⁻ → X⁻(g); it can be exothermic (negative) or endothermic (positive) depending on the element. Halogens have very high negative electron gain enthalpies, since gaining one electron gets them straight to a stable noble-gas configuration; noble gases themselves have positive electron gain enthalpies, since the extra electron would have to start a whole new, unstable shell. In general, electron gain enthalpy becomes more negative across a period (rising effective nuclear charge makes it easier to attract an extra electron) and less negative down a group (the larger atom puts the added electron further from the nucleus) — though oxygen and fluorine are exceptions, since their small 2p shell forces the incoming electron into significant repulsion with the electrons already there, making their electron gain enthalpies less negative than the elements right after them (sulphur, chlorine), whose larger 3p shell has more room. (NCERT 3.7.1d)",
+          "key_point": "Electron gain enthalpy generally becomes more negative across a period and less negative down a group — but O and F break this pattern, since their cramped 2p shell causes more electron-electron repulsion than the corresponding 3p elements below them."
+        },
+        {
+          "heading": "Electronegativity",
+          "body": "Electronegativity is a qualitative measure of how strongly an atom in a compound attracts a shared pair of electrons toward itself; unlike ionization enthalpy and electron gain enthalpy, it isn't directly measurable, though several numerical scales exist (Pauling, Mulliken-Jaffe, Allred-Rochow), of which the Pauling scale is most widely used — Linus Pauling arbitrarily assigned fluorine, the most electronegative element, a value of 4.0. An element's electronegativity isn't fixed; it varies somewhat depending on what it's bonded to. Electronegativity increases across a period (as atomic radius shrinks, the nucleus attracts the valence electrons more strongly) and decreases down a group (as atomic radius grows) — the same trend as ionization enthalpy, and for the same underlying reason. Because non-metals have a strong tendency to gain electrons, electronegativity is directly related to non-metallic character (and inversely related to metallic character): electronegativity rising across a period tracks rising non-metallic character, and electronegativity falling down a group tracks rising metallic character. (NCERT 3.7.1e)",
+          "key_point": "Electronegativity (highest for fluorine, 4.0 on the Pauling scale) rises across a period and falls down a group, tracking atomic radius exactly — and directly tracks non-metallic character for the same reason."
+        }
+      ],
+      "estimated_minutes": 30
+    },
+    {
+      "id": "periodic-trends-chemical",
+      "number": 7,
+      "title": "Periodic Trends in Chemical Properties and Reactivity",
+      "summary": "Valence, and the anomalous first member of every s- and p-block group, both fall directly out of electronic configuration — and the same underlying trends in radius, ionization enthalpy and electron gain enthalpy that shape physical properties also explain why reactivity peaks at both edges of a period and shifts predictably up and down each group.",
+      "sections": [
+        {
+          "heading": "Periodicity of valence",
+          "body": "Valence — an element's most characteristic property — is understood through its electronic configuration: for representative elements, it usually equals either the number of electrons in the outermost orbitals or eight minus that number. The related, more modern term is oxidation state, the charge an atom is assigned based on electronegativity when it's part of a compound: in OF₂, fluorine (more electronegative) is assigned oxidation state −1 and oxygen +2; in Na₂O, oxygen (more electronegative than sodium) is assigned −2 and sodium +1. Across the main groups, valence follows a clear pattern — Group 1 elements are valence 1, Group 2 are valence 2, and so on up to Group 17 (valence 1) and Group 18 (valence 0) — visible directly in the formulas of elements' hydrides and oxides (LiH, Li₂O; NaH, Na₂O; and so on). (NCERT 3.7.2a)",
+          "key_point": "Valence for representative elements is either the outer electron count or eight minus it; oxidation state is the same idea applied within a specific compound, assigned by relative electronegativity (fluorine always −1, since nothing is more electronegative)."
+        },
+        {
+          "heading": "Anomalous behaviour of second-period elements",
+          "body": "The first element of each group in the s- and p-blocks (lithium, beryllium, and boron through fluorine) behaves noticeably differently from the rest of its group — lithium and beryllium, for instance, form compounds with much more covalent character than the rest of their groups (which are predominantly ionic), instead behaving more like the second element of the following group (magnesium and aluminium respectively) — a pattern called the diagonal relationship. This anomalous behaviour comes from the first group member's small size, high charge-to-radius ratio, and high electronegativity, plus the fact that it only has four valence orbitals available (2s, 2p) versus the nine available to the second member (3s, 3p, 3d) — so the first member's maximum covalency is capped at 4 (boron can only form BF₄⁻), while later members can expand their valence shell further (aluminium forms AlF₆³⁻). The first p-block member also forms strong pπ-pπ multiple bonds far more readily than later members (C=C, C≡C, N=N, N≡N, and cross-element bonds like C=O, C=N). (NCERT 3.7.2b)",
+          "key_point": "The first element of each s/p-block group behaves anomalously — more covalent, capped at 4-coordinate bonding, and prone to strong multiple bonding — because it's smaller, more electronegative, and has only 4 valence orbitals rather than 9; this often makes it resemble the second element of the next group (the diagonal relationship)."
+        },
+        {
+          "heading": "Chemical reactivity across a period",
+          "body": "Since atomic/ionic radii shrink across a period, ionization enthalpies generally rise and electron gain enthalpies generally become more negative — meaning the element at the extreme left of a period has the lowest ionization enthalpy (so it reacts by readily losing an electron) while the element at the extreme right (before the noble gas) has the most negative electron gain enthalpy (so it reacts by readily gaining one). This gives high reactivity at both extremes of a period and low reactivity in the middle, and it tracks directly with metallic character (highest on the left, falling steadily to the right) versus non-metallic character (the reverse). It shows up cleanly in how elements react with oxygen: oxides formed by elements on the extreme left are the most basic (Na₂O), oxides on the extreme right are the most acidic (Cl₂O₇), and oxides of elements in between are amphoteric (Al₂O₃) or neutral (CO, NO). (NCERT 3.7.3)",
+          "key_point": "Reactivity peaks at both extremes of a period (electron loss on the left, electron gain on the right) and is lowest in the middle — visible directly in oxide character, from strongly basic (Na₂O) on the left to strongly acidic (Cl₂O₇) on the right."
+        },
+        {
+          "heading": "Chemical reactivity down a group",
+          "body": "Down a main group, growing atomic and ionic radii generally bring ionization enthalpies down and electron gain enthalpies less negative, so metallic character increases and non-metallic character decreases going down the table — which is why alkali metal reactivity increases down the group (easier to lose an electron) while halogen reactivity decreases down the group (harder to gain one as negative charge gets less favourable). Transition elements behave somewhat differently: their atomic radii change much less across a period than representative elements' do (and even less among the inner-transition, 4f, elements), and their ionization enthalpies sit intermediate between the s- and p-blocks — making them less electropositive than Group 1 and 2 metals, and in a group, transition elements can actually show a reverse ionization-enthalpy trend compared to main-group elements. (NCERT 3.7.3)",
+          "key_point": "Down a main group, growing size makes metals more reactive (easier electron loss) but non-metals less reactive (harder electron gain) — transition elements deviate from this because their atomic radii barely change across a period."
+        }
+      ],
+      "estimated_minutes": 20
+    }
   ]
 }
