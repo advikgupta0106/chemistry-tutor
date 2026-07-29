@@ -8,5 +8,6 @@
     { "name": "JEE", "weightage_percent": 5 },
     { "name": "NEET", "weightage_percent": 4 }
   ],
-  "chapters": []
+  "chapters": [],
+  "published": true
 }
