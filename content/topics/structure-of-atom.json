@@ -9,15 +9,329 @@
     { "name": "NEET", "weightage_percent": 3 }
   ],
   "chapters": [
-    { "id": "subatomic-particles", "number": 1, "title": "Discovery of Electron, Proton and Neutron", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "atomic-models", "number": 2, "title": "Atomic Models: Thomson and Rutherford", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "atomic-mass-isotopes", "number": 3, "title": "Atomic Number, Mass Number, Isotopes and Isobars", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "developments-leading-to-bohr", "number": 4, "title": "Developments Leading to Bohr's Model (Wave Nature of Light, Photoelectric Effect, Line Spectra)", "summary": "", "sections": [], "estimated_minutes": 30 },
-    { "id": "bohr-model", "number": 5, "title": "Bohr's Model of the Hydrogen Atom", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "towards-quantum-mechanical-model", "number": 6, "title": "Towards a Quantum Mechanical Model (de Broglie, Heisenberg Uncertainty Principle)", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "quantum-mechanical-model", "number": 7, "title": "Quantum Mechanical Model of the Atom", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "quantum-numbers", "number": 8, "title": "Orbitals and Quantum Numbers", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "shapes-of-orbitals", "number": 9, "title": "Shapes of Atomic Orbitals", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "electronic-configuration", "number": 10, "title": "Electronic Configuration: Aufbau, Pauli, Hund's Rule and Stability of Filled/Half-filled Orbitals", "summary": "", "sections": [], "estimated_minutes": 25 }
+    {
+      "id": "subatomic-particles",
+      "number": 1,
+      "title": "Discovery of Electron, Proton and Neutron",
+      "summary": "Dalton's atom was supposed to be indivisible, but cathode ray experiments in the late 1800s showed otherwise: every atom actually contains three fundamental particles — the negatively charged electron, the positively charged proton, and the electrically neutral neutron — each pinned down by a distinct, ingenious experiment.",
+      "sections": [
+        {
+          "heading": "Discovery of the electron",
+          "body": "In 1830, Michael Faraday showed that passing electricity through an electrolyte solution causes chemical reactions at the electrodes, hinting that electricity itself has a particulate nature. By the mid-1850s, scientists were studying electrical discharge through partially evacuated glass tubes fitted with two metal electrodes — cathode ray discharge tubes — and found that at very low pressure and very high voltage, a stream of particles flowed from the negative electrode (cathode) to the positive electrode (anode), producing a bright spot where they struck a zinc sulphide coating. These cathode rays travel in straight lines in the absence of any field, but in the presence of an electric or magnetic field they behave exactly as negatively charged particles would — bending toward the positive plate — which is how they were identified as electrons. Crucially, the properties of these cathode rays don't depend on the electrode material or the gas in the tube, meaning electrons are a universal constituent of all atoms. (NCERT 2.1.1)",
+          "key_point": "Cathode ray tube experiments showed that all matter contains a universal, negatively charged particle — the electron — regardless of what the electrodes or gas inside the tube are made of."
+        },
+        {
+          "heading": "Thomson's charge-to-mass ratio",
+          "body": "In 1897, J.J. Thomson measured the ratio of an electron's charge (e) to its mass (m_e) by passing a cathode ray beam through perpendicular electric and magnetic fields and observing how much the beam deflected. The amount of deflection depends on three things: the magnitude of the particle's charge (more charge, more deflection), the particle's mass (lighter particles deflect more), and the strength of the applied field (stronger field, more deflection). By carefully balancing the electric and magnetic fields against each other and measuring the resulting deflections, Thomson determined e/m_e to be 1.758820 × 10¹¹ C kg⁻¹. (NCERT 2.1.2)",
+          "key_point": "Thomson's crossed electric/magnetic field method gave the electron's charge-to-mass ratio, e/m_e = 1.758820 × 10¹¹ C kg⁻¹, without needing to measure charge and mass separately."
+        },
+        {
+          "heading": "Millikan's oil drop experiment: the charge on the electron",
+          "body": "R.A. Millikan's oil drop experiment (1906–14) pinned down the electron's actual charge. Fine oil droplets were sprayed into a chamber and given an electric charge by ionising the surrounding air with X-rays; by adjusting the voltage across the chamber's plates, Millikan could balance the droplets' fall against gravity, and from the voltage needed to hold a given droplet stationary he could calculate the charge it carried. He found that this charge was always a whole-number multiple of a single fundamental value — the electron's charge, −1.6 × 10⁻¹⁹ C (the present accepted value is −1.602176 × 10⁻¹⁹ C). Combining this charge with Thomson's e/m_e ratio then gave the electron's mass: 9.1094 × 10⁻³¹ kg. (NCERT 2.1.3)",
+          "key_point": "Millikan's oil drop experiment showed electrical charge always comes in whole-number multiples of one fundamental value, −1.602176 × 10⁻¹⁹ C — combined with Thomson's e/m_e, this gave the electron's mass, 9.1094 × 10⁻³¹ kg."
+        },
+        {
+          "heading": "Discovery of the proton and the neutron",
+          "body": "Running the cathode ray tube experiment with a perforated cathode revealed a second kind of ray travelling in the opposite direction — canal rays, made of positively charged particles. Unlike cathode rays, these particles' mass and charge-to-mass ratio depend on which gas is in the tube, since they're simply positively charged gas ions, and their behaviour in electric and magnetic fields is opposite to that of electrons. The smallest and lightest of these positive ions came from hydrogen and was named the proton, characterised in 1919. A separate, electrically neutral particle was still needed to complete the picture of the atom's mass; Chadwick discovered it in 1932 by bombarding a thin sheet of beryllium with α-particles, which knocked out neutral particles slightly heavier than protons — he named these neutrons. (NCERT 2.1.4)",
+          "key_point": "The proton (the lightest positive ion, from hydrogen, 1919) and the neutron (electrically neutral, discovered by Chadwick bombarding beryllium with α-particles in 1932) completed the three fundamental subatomic particles."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "atomic-models",
+      "number": 2,
+      "title": "Atomic Models: Thomson and Rutherford",
+      "summary": "Once electrons and protons were known to exist, scientists needed a model of how they're actually arranged inside an atom. Thomson's uniform sphere of positive charge came first, but Rutherford's gold foil experiment overturned it in favour of a tiny, dense, positively charged nucleus — a model that itself couldn't explain why atoms don't simply collapse.",
+      "sections": [
+        {
+          "heading": "Thomson's plum pudding model",
+          "body": "After protons and electrons were discovered, scientists faced several open problems: accounting for the stability of the atom, explaining the physical and chemical behaviour of elements, explaining how atoms combine into molecules, and understanding the electromagnetic radiation atoms absorb or emit. In 1898, J.J. Thomson proposed that an atom is a sphere (radius about 10⁻¹⁰ m) of uniformly distributed positive charge, with electrons embedded in it in whatever arrangement gives the most stable electrostatic configuration — a picture often called the plum pudding, raisin pudding, or watermelon model. This model correctly explained the atom's overall electrical neutrality (the model's mass was also assumed to be spread evenly through the sphere), but it wasn't consistent with later experimental results. (NCERT 2.2, 2.2.1)",
+          "key_point": "Thomson's plum pudding model (1898) pictured the atom as a uniform sphere of positive charge with electrons embedded in it — it explained overall neutrality but not much else."
+        },
+        {
+          "heading": "Rutherford's gold foil experiment",
+          "body": "Rutherford, working with Hans Geiger and Ernest Marsden, directed a stream of high-energy α-particles from a radioactive source at a very thin (~100 nm) gold foil, ringed by a fluorescent zinc sulphide screen that flashed wherever a particle struck it. If Thomson's model were correct — mass spread evenly through the whole atom — the α-particles should have passed straight through with only small deflections. Instead: most α-particles passed through the foil completely undeflected; a small fraction deflected by small angles; and a very small fraction (about 1 in 20,000) bounced almost straight back, deflected by nearly 180°. (NCERT 2.2.2)",
+          "key_point": "Rutherford's gold foil experiment found that almost all α-particles passed straight through, but about 1 in 20,000 bounced back nearly 180° — a result Thomson's uniform-sphere model couldn't possibly produce."
+        },
+        {
+          "heading": "Rutherford's nuclear model of the atom",
+          "body": "From these results Rutherford drew three conclusions: most of an atom's volume is empty space (since almost all α-particles pass straight through); the positive charge must be concentrated in an extremely small volume, not spread through the whole atom, since only that could repel and deflect the occasional α-particle strongly enough to bounce it back; and calculations showed that this concentrated region — the nucleus — occupies a negligibly small fraction of the atom's total volume, with the atom's radius around 10⁻¹⁰ m against the nucleus's roughly 10⁻¹⁵ m (if the nucleus were the size of a cricket ball, the atom would be about 5 km across). On this basis, Rutherford proposed his nuclear model: the positive charge and almost all the mass sit densely packed in the nucleus at the atom's centre, electrons circle the nucleus at high speed in orbits (much like planets orbiting the sun), and electrostatic attraction holds the electrons and nucleus together. (NCERT 2.2.2)",
+          "key_point": "Rutherford's nuclear model: nearly all the atom's mass and all its positive charge sit in a tiny central nucleus (~10⁻¹⁵ m, versus the atom's ~10⁻¹⁰ m), with electrons orbiting around it like planets around the sun."
+        },
+        {
+          "heading": "Why the Rutherford model fails",
+          "body": "Rutherford's solar-system-like model runs into a serious problem once classical physics is applied to it properly. An orbiting electron is constantly accelerating (its direction keeps changing, even at constant speed), and Maxwell's electromagnetic theory says an accelerating charged particle must radiate energy continuously — something planets don't do, since they're uncharged. An electron radiating energy this way would lose energy continuously and spiral into the nucleus, and calculations show this collapse should take only about 10⁻⁸ seconds — yet atoms are obviously stable and this doesn't happen. The model also has nothing to say about how electrons are actually distributed around the nucleus or what their energies are. (NCERT 2.2.5)",
+          "key_point": "By classical electromagnetic theory, an orbiting (and therefore accelerating) electron should radiate energy continuously and spiral into the nucleus within about 10⁻⁸ seconds — the Rutherford model can't explain why atoms are actually stable."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "atomic-mass-isotopes",
+      "number": 3,
+      "title": "Atomic Number, Mass Number, Isotopes and Isobars",
+      "summary": "A nucleus's identity comes down to two numbers: how many protons it has (atomic number) and how many nucleons total (mass number). Atoms of the same element can still differ in neutron count (isotopes), while atoms of different elements can coincidentally share a mass number (isobars) — and reading either off the standard notation is mostly just careful bookkeeping.",
+      "sections": [
+        {
+          "heading": "Atomic number and mass number",
+          "body": "The nucleus's positive charge comes from its protons, whose charge is equal in magnitude but opposite in sign to the electron's. The number of protons in the nucleus is the atomic number (Z) — hydrogen has 1 proton (Z=1), sodium has 11 (Z=11) — and since a neutral atom has no net charge, its number of electrons always equals its atomic number too. The nucleus's mass, meanwhile, comes from both its protons and its neutrons, which together are called nucleons; the total nucleon count is the mass number (A), so A = Z + (number of neutrons). (NCERT 2.2.3)",
+          "key_point": "Atomic number (Z) = number of protons = number of electrons in a neutral atom; mass number (A) = protons + neutrons (nucleons)."
+        },
+        {
+          "heading": "Isotopes and isobars",
+          "body": "A species is written with its mass number as a left superscript and atomic number as a left subscript on the element symbol (ᴬZX). Isobars are atoms with the same mass number but different atomic numbers — ¹⁴₆C and ¹⁴₇N are a classic pair. Isotopes, by contrast, are atoms of the same element (same atomic number) with different mass numbers — meaning they differ only in neutron count. Hydrogen has three: protium (¹₁H, 99.985% of natural hydrogen, 1 proton and 0 neutrons), deuterium (²₁D, 0.015%, 1 proton and 1 neutron), and tritium (³₁T, only trace amounts, 1 proton and 2 neutrons). Carbon similarly has isotopes with 6, 7 and 8 neutrons (¹²C, ¹³C, ¹⁴C, all with 6 protons), and chlorine has isotopes with 18 and 20 neutrons (³⁵Cl, ³⁷Cl, both with 17 protons). Since chemical behaviour is governed by the number of electrons — which tracks the number of protons — neutron count barely affects chemical properties at all, so all isotopes of an element behave chemically alike. (NCERT 2.2.4)",
+          "key_point": "Isotopes share the same atomic number but differ in neutron count (protium/deuterium/tritium for hydrogen); isobars share the same mass number but different atomic numbers (¹⁴C and ¹⁴N) — isotopes of the same element behave chemically alike since chemistry depends on protons/electrons, not neutrons."
+        },
+        {
+          "heading": "Reading a species from its notation",
+          "body": "Given a species written as ᴬZX, working out its composition just needs care about whether it's neutral or an ion. For a neutral atom, protons = electrons = Z, and neutrons = A − Z: bromine-80 (⁸⁰₃₅Br) has Z=35 protons, 35 electrons, and 80−35 = 45 neutrons. For an ion, protons still equal Z and neutrons still equal A−Z, but the electron count differs from Z by the ionic charge. A species with 18 electrons, 16 protons and 16 neutrons has atomic number 16 (sulphur), mass number 16+16 = 32, and since it has 2 more electrons than protons, it's a 2− anion — written ³²₁₆S²⁻. (NCERT 2.2.4, Problems 2.1–2.2)",
+          "key_point": "For any ᴬZX species: protons = Z, neutrons = A − Z always; only the electron count changes for an ion, by exactly the amount of its charge."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "developments-leading-to-bohr",
+      "number": 4,
+      "title": "Developments Leading to Bohr's Model (Wave Nature of Light, Photoelectric Effect, Line Spectra)",
+      "summary": "Two lines of evidence — light's puzzling dual wave-and-particle behaviour, and the sharp, discrete line spectra atoms produce rather than a smooth continuous glow — didn't fit the Rutherford model at all. Bohr built his model of hydrogen directly on top of these two clues, so understanding them first is the key to understanding what Bohr actually did.",
+      "sections": [
+        {
+          "heading": "Electromagnetic radiation: wave properties",
+          "body": "James Clerk Maxwell showed, around 1870, that an accelerating charged particle produces alternating electric and magnetic fields that propagate outward as electromagnetic waves — light being the most familiar example, though it took until the 19th century for light's wave nature to be firmly established (Newton had earlier imagined light as a stream of particles). The oscillating electric and magnetic components of such a wave are perpendicular to each other and to the wave's direction of travel, and unlike sound waves or water waves, electromagnetic waves need no medium — they travel through a vacuum. Electromagnetic radiation spans a huge range of wavelengths (or, equivalently, frequencies) — the electromagnetic spectrum — from radio waves (~10⁶ Hz) through microwaves, infrared, the visible region (~10¹⁵ Hz, the only part human eyes detect), ultraviolet and beyond. All electromagnetic radiation travels at the same speed in vacuum, the speed of light, c = 3.0 × 10⁸ m s⁻¹ (2.997925 × 10⁸ m s⁻¹ precisely), and frequency (ν), wavelength (λ) and speed are related by c = νλ. (NCERT 2.3.1)",
+          "key_point": "All electromagnetic radiation — radio waves to gamma rays — travels at the same speed c in vacuum, related to frequency and wavelength by c = νλ; visible light is only a tiny slice of the full spectrum."
+        },
+        {
+          "heading": "Planck's quantum theory",
+          "body": "By the late 19th century, several observations resisted explanation by classical (wave-only) physics: how hot bodies emit radiation (black-body radiation), the photoelectric effect, how solids' heat capacity varies with temperature, and the line spectra of atoms. Max Planck, in 1900, gave the first solid explanation of black-body radiation by assuming that atoms in the black body's walls can only emit or absorb energy in discrete chunks, not continuously — he called the smallest such chunk a quantum. The energy of a quantum of radiation is proportional to its frequency: E = hν, where h (Planck's constant) is 6.626 × 10⁻³⁴ J s. This means the allowed energies form a discrete staircase (0, hν, 2hν, 3hν...) rather than a continuous ramp — a system simply cannot take up or give off energy at values in between. (NCERT 2.3.2)",
+          "key_point": "Planck's quantum theory: energy is emitted or absorbed only in discrete packets (quanta) of size E = hν, not continuously — like standing on stair steps rather than a ramp."
+        },
+        {
+          "heading": "The photoelectric effect",
+          "body": "In 1887, Hertz found that shining light on certain metals (potassium, rubidium, caesium) ejects electrons — the photoelectric effect — with three puzzling features: electrons are ejected the instant light strikes the surface, with no time lag; the number of electrons ejected scales with the light's intensity; but below a metal-specific threshold frequency (ν₀), no electrons are ejected at all, no matter how intense the light, while above ν₀ the ejected electrons' kinetic energy increases with the light's frequency (not its intensity). Classical wave theory predicted ejection should depend on brightness alone, so it couldn't explain the threshold frequency or the energy dependence. Einstein resolved this in 1905 using Planck's quantum idea: light itself arrives as discrete photons of energy hν, and if hν₀ (the work function) is the minimum energy needed to eject an electron, the excess energy hν − hν₀ becomes the ejected electron's kinetic energy, ½m_ev² = h(ν − ν₀). A brighter beam simply means more photons — and so more ejected electrons — not higher-energy ones. (NCERT 2.3.2)",
+          "key_point": "Einstein's photoelectric equation, ½m_ev² = h(ν − ν₀), explains why ejected electrons' kinetic energy depends only on light's frequency (not intensity), and why there's a hard threshold frequency below which nothing happens at all."
+        },
+        {
+          "heading": "Light's dual nature: wave and particle",
+          "body": "The particle picture of light (photons) explains black-body radiation and the photoelectric effect neatly, but it doesn't sit well with light's well-established wave behaviour — interference and diffraction, which only make sense for waves. The only way to reconcile both sets of evidence is to accept that light has a genuine dual nature: it behaves as a wave while propagating (showing interference and diffraction), but as a stream of particles (photons) when it interacts with matter, such as in the photoelectric effect. This was a genuinely strange idea at the time, and — as later became clear — some material particles, like electrons, show the same wave-particle duality. (NCERT 2.3.2)",
+          "key_point": "Light shows wave behaviour (interference, diffraction) while travelling but particle behaviour (photons) when interacting with matter — both are real, not alternative descriptions of the same thing."
+        },
+        {
+          "heading": "Emission and absorption spectra",
+          "body": "When white light passes through a prism, it spreads into a continuous spectrum, since ordinary white light contains every visible wavelength merging smoothly into the next. Atoms and molecules that have absorbed energy (been 'excited') release it again as radiation, and the resulting emission spectrum — recorded as the sample gives up its absorbed energy — or the complementary absorption spectrum, where a continuous beam passes through a sample and specific wavelengths are removed, leaving dark lines, is studied by spectroscopy. Unlike the continuous spectrum of white light, gas-phase atoms emit or absorb only at specific, discrete wavelengths, producing a line spectrum (or atomic spectrum) rather than a continuous spread. Every element has its own unique line spectrum, which makes spectroscopy a reliable way to identify unknown elements — several elements (rubidium, caesium, thallium, indium, gallium, scandium) were discovered this way, and helium was first found in the sun's spectrum before being found on Earth. (NCERT 2.3.3)",
+          "key_point": "Gas-phase atoms emit or absorb light only at specific, discrete wavelengths (a line spectrum), and every element's line spectrum is unique — a chemical fingerprint that led to the discovery of several elements."
+        },
+        {
+          "heading": "The line spectrum of hydrogen",
+          "body": "Passing an electric discharge through hydrogen gas dissociates the H~2~ molecules and excites the resulting hydrogen atoms, which then emit radiation at discrete frequencies, grouped into several named series. Balmer found in 1885 that the spectral lines falling in the visible region obey a simple formula in terms of wavenumber, and this series (n=3,4,5...) is still called the Balmer series — the only hydrogen series that falls in the visible range. Rydberg later generalised this into a single formula covering every series in the hydrogen spectrum, built around the Rydberg constant (109,677 cm⁻¹): each series corresponds to a fixed lower quantum number n₁ (1 through 5, giving the Lyman, Balmer, Paschen, Brackett and Pfund series respectively), with an upper quantum number n₂ that can take any higher integer value. Hydrogen's spectrum is the simplest of any element's, and heavier atoms show progressively more complex line spectra — but all share the same two features: each element's spectrum is unique, and each shows a clear internal regularity, both clues pointing directly at the electronic structure explained later by Bohr's model. (NCERT 2.3.3)",
+          "key_point": "The hydrogen spectrum's lines fall into named series (Lyman, Balmer, Paschen, Brackett, Pfund), all following one Rydberg-constant-based formula — Balmer's is the only series in the visible range."
+        }
+      ],
+      "estimated_minutes": 30
+    },
+    {
+      "id": "bohr-model",
+      "number": 5,
+      "title": "Bohr's Model of the Hydrogen Atom",
+      "summary": "Bohr used Planck's idea of quantised energy to fix the two big problems with Rutherford's model: he restricted the electron to a discrete set of fixed-energy orbits, which both explained hydrogen's stability and let every line in its spectrum be calculated directly. The model works beautifully for hydrogen and hydrogen-like ions, but it can't be stretched to explain anything with more than one electron.",
+      "sections": [
+        {
+          "heading": "Bohr's postulates",
+          "body": "In 1913, Niels Bohr used Planck's idea of energy quantisation to give the first quantitative account of the hydrogen atom and its spectrum. His model rests on a few postulates: the electron moves around the nucleus only in certain fixed, circular paths of definite radius and energy, called orbits, stationary states, or allowed energy states; the electron's energy in a given orbit doesn't change over time, but the electron can jump between stationary states by absorbing energy (moving to a higher-energy orbit) or emitting energy (moving to a lower-energy orbit), and this energy change is never continuous; and the frequency of radiation absorbed or emitted during such a jump follows Bohr's frequency rule, ν = (E₂ − E₁)/h, for a transition between energy levels E₁ and E₂. (NCERT 2.4)",
+          "key_point": "Bohr's model restricts the electron to fixed-energy circular orbits; jumps between orbits absorb or emit radiation of frequency ν = ΔE/h, and never happen continuously."
+        },
+        {
+          "heading": "Quantised angular momentum and stationary-state energies",
+          "body": "Bohr's fourth postulate quantises the electron's angular momentum directly: it can only take values that are whole-number multiples of h/2π, i.e. m_evr = nh/2π for n = 1, 2, 3... This restriction is what limits the electron to only certain orbits in the first place, rather than any radius at all. Working through the consequences, Bohr found that a stationary state's radius is r_n = n²a₀, where a₀ = 52.9 pm — so the smallest orbit (n=1, the Bohr orbit) has radius 52.9 pm, and the radius grows as n² increases. The energy of a stationary state works out to E_n = −R_H(1/n²), where R_H (the Rydberg constant expressed as an energy) is 2.18 × 10⁻¹⁸ J — so the ground state (n=1) has energy −2.18 × 10⁻¹⁸ J, and the n=2 state has energy −0.545 × 10⁻¹⁸ J. The negative sign simply means the electron in that orbit has lower energy than a free electron at rest infinitely far from the nucleus (defined as zero energy); the more negative the energy, the more tightly the electron is held, with n=1 (the ground state) being the most tightly bound of all. The same equations, generalised with the nuclear charge Z, apply to any one-electron ion like He⁺, Li²⁺ or Be³⁺. (NCERT 2.4)",
+          "key_point": "Bohr's quantised angular momentum (m_evr = nh/2π) gives orbit radii r_n = n²a₀ (a₀ = 52.9 pm) and energies E_n = −R_H/n² (R_H = 2.18×10⁻¹⁸ J) — more negative energy means a more tightly bound, more stable electron."
+        },
+        {
+          "heading": "Explaining hydrogen's line spectrum",
+          "body": "Bohr's model lets you calculate exactly which frequencies hydrogen should absorb or emit: the energy gap between an initial orbit n_i and final orbit n_f is ΔE = −R_H(1/n_f² − 1/n_i²), and this can be converted directly into a frequency or a wavenumber for the corresponding spectral line. If n_f > n_i, ΔE is positive and energy is absorbed; if n_i > n_f, ΔE is negative and energy is released as emission. This expression matches the empirical Rydberg formula exactly, but now it comes with a physical explanation attached: every line in hydrogen's spectrum corresponds to a specific transition between two of Bohr's allowed orbits, and since a real sample contains huge numbers of atoms in many different excited states at once, every possible transition shows up simultaneously as a distinct spectral line. (NCERT 2.4.1)",
+          "key_point": "Bohr's model derives the Rydberg formula from first principles: each spectral line is one specific electron transition between two allowed orbits, with ΔE = −R_H(1/n_f² − 1/n_i²)."
+        },
+        {
+          "heading": "Limitations of Bohr's model",
+          "body": "Bohr's model was a real improvement over Rutherford's — it accounted for hydrogen's stability and its line spectrum, and it extends cleanly to other one-electron species like He⁺, Li²⁺ and Be³⁺ — but it's too simple in several ways. It can't explain the finer details of hydrogen's spectrum seen with more sophisticated spectroscopy (closely-spaced doublets of lines), it can't explain the spectra of any atom with more than one electron (even helium, with just two), and it can't account for how spectral lines split in a magnetic field (the Zeeman effect) or an electric field (the Stark effect). It also says nothing at all about how atoms bond to form molecules. (NCERT 2.4.2)",
+          "key_point": "Bohr's model explains hydrogen's basic spectrum but fails for multi-electron atoms (even helium), can't explain spectral line splitting in magnetic/electric fields, and says nothing about chemical bonding."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "towards-quantum-mechanical-model",
+      "number": 6,
+      "title": "Towards a Quantum Mechanical Model (de Broglie, Heisenberg Uncertainty Principle)",
+      "summary": "Two ideas finally broke the Bohr model for good: de Broglie's proposal that matter itself has wave properties, and Heisenberg's discovery that an electron's position and momentum can never both be known precisely. Together, they rule out the very idea of an electron following a fixed, well-defined orbital path — which is exactly what Bohr's model assumed.",
+      "sections": [
+        {
+          "heading": "De Broglie: matter has wave properties too",
+          "body": "In 1924, the French physicist de Broglie proposed that matter, just like radiation, should show dual wave-particle behaviour — if a photon has both momentum and wavelength, then material particles like electrons should too. He gave the relation λ = h/(mv) = h/p, connecting a particle's wavelength (λ) to its mass (m), velocity (v), and momentum (p). This prediction was confirmed experimentally when electron beams were shown to diffract, a phenomenon only waves display — and it's the basis of the electron microscope, which achieves roughly 15 million times magnification by exploiting electrons' wave nature the way an ordinary microscope exploits light's. Every moving object, according to de Broglie, has an associated wavelength, but for everyday, large-mass objects that wavelength is far too small to ever detect; it only becomes significant for very light particles like electrons. (NCERT 2.5.1)",
+          "key_point": "De Broglie's relation, λ = h/(mv), gives every moving particle a wavelength — negligibly small for everyday objects, but large enough to matter (and to be confirmed experimentally, via electron diffraction) for electrons."
+        },
+        {
+          "heading": "Heisenberg's uncertainty principle",
+          "body": "Werner Heisenberg stated, in 1927, that it's fundamentally impossible to know both the exact position and the exact momentum (or velocity) of an electron at the same time — a direct consequence of matter's dual wave-particle nature. Mathematically, Δx · Δp_x ≥ h/4π: the more precisely position (Δx) is known, the less precisely momentum (Δp_x) can be known, and vice versa. This isn't a limitation of measuring instruments — it's a fundamental feature of how microscopic particles behave. The effect is utterly negligible for everyday, macroscopic objects (a golf ball's position and momentum can both be known to enormous precision at once), but for an electron, the uncertainty is large enough to be the dominant fact about its behaviour: pinning down an electron's position to within 10⁻⁸ m leaves its velocity uncertain by about 10⁶ m s⁻¹ or more. (NCERT 2.5.2)",
+          "key_point": "Heisenberg's uncertainty principle, Δx · Δp_x ≥ h/4π, means position and momentum can never both be known exactly — negligible for macroscopic objects, but dominant for a particle as light as an electron."
+        },
+        {
+          "heading": "Why the uncertainty principle sank the Bohr model",
+          "body": "A well-defined orbit — a specific path the electron follows through space — can only exist if both the electron's position and its velocity are known exactly at every instant, so its future path can be predicted the way a planet's orbit can be. The uncertainty principle rules this out completely for something as light as an electron: since position and momentum can never both be known precisely, the electron simply cannot be said to follow a definite trajectory at all. Bohr's model, which pictures the electron moving in a well-defined circular orbit, therefore ignores both matter's dual wave-particle nature and the uncertainty principle — which is exactly why it had to be replaced. In its place, exact statements about where an electron is and how fast it's moving have to be replaced with statements of probability — the electron has a certain probability of being found at a given position with a given momentum, rather than a definite position and momentum at all. This probabilistic picture is the basis of the quantum mechanical model of the atom. (NCERT 2.5.2)",
+          "key_point": "Since the uncertainty principle rules out a well-defined trajectory for an electron, Bohr's fixed circular orbits can't be physically real — this forces a shift from exact positions to probabilities, the core idea of the quantum mechanical model."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "quantum-mechanical-model",
+      "number": 7,
+      "title": "Quantum Mechanical Model of the Atom",
+      "summary": "Quantum mechanics accounts for both wave-particle duality and the uncertainty principle at once, using the Schrödinger equation in place of Newton's laws. Solving it for hydrogen gives quantised energies and wave functions — atomic orbitals — and replaces the idea of a definite electron path with the probability of finding the electron at a given point.",
+      "sections": [
+        {
+          "heading": "Quantum mechanics and the Schrödinger equation",
+          "body": "Classical mechanics, built on Newton's laws, works perfectly for macroscopic objects like a falling stone or an orbiting planet, but it fails for microscopic objects like electrons, because it ignores both wave-particle duality and the uncertainty principle. Quantum mechanics is the branch of physics that accounts for both, developed independently in 1926 by Heisenberg and Schrödinger; applied to macroscopic objects (where wave properties are negligible), it simply reduces to the same answers as classical mechanics. Schrödinger's version, built on wave motion, is captured in the Schrödinger equation, which for a system whose energy doesn't change with time is written using a mathematical operator (the Hamiltonian) built from the system's total energy — the kinetic energies of every particle plus the attractive and repulsive potential energies between them. Solving this equation gives both the allowed energies (E) and the corresponding wave functions (ψ) of the system. (NCERT 2.6)",
+          "key_point": "Quantum mechanics (Heisenberg and Schrödinger, 1926) accounts for both wave-particle duality and the uncertainty principle; solving the Schrödinger equation for a system yields its allowed energies and wave functions."
+        },
+        {
+          "heading": "Solving the Schrödinger equation for hydrogen",
+          "body": "Solving the Schrödinger equation for the hydrogen atom gives the possible energy levels an electron can occupy, and a wave function (ψ) for each one — these wave functions, for one-electron species like hydrogen or He⁺, are called atomic orbitals, and are naturally characterised by three quantum numbers: the principal quantum number (n), the azimuthal quantum number (l), and the magnetic quantum number (m_l). The wave function ψ itself carries no direct physical meaning — it's a mathematical function of the electron's coordinates — but the probability of finding the electron at any given point is proportional to |ψ|² at that point. The Schrödinger equation can't be solved exactly for atoms with more than one electron, but approximate methods show that other atoms' orbitals aren't radically different from hydrogen's — they're mainly contracted by the larger nuclear charge, and unlike hydrogen (where energy depends only on n), a multi-electron atom's orbital energies depend on both n and l. (NCERT 2.6)",
+          "key_point": "For hydrogen, solving the Schrödinger equation gives quantised energy levels and wave functions (orbitals) characterised by three quantum numbers (n, l, m_l); |ψ|² gives the probability of finding the electron at a point."
+        },
+        {
+          "heading": "The key features of the quantum mechanical model",
+          "body": "A few ideas sum up the quantum mechanical picture of the atom. Electron energies in an atom are quantised — they can only take specific values — and this quantisation falls directly out of the wave-like solutions to the Schrödinger equation. Since position and momentum can't both be known exactly (Heisenberg), an electron's path can never be traced exactly, so only the probability of finding it at different points can be discussed. An atomic orbital is simply the wave function ψ for an electron in an atom; each orbital holds at most two electrons, and in a multi-electron atom, electrons fill orbitals in order of increasing energy. Finally, the probability of finding an electron at a given point is proportional to |ψ|² there — the probability density — which is always positive and lets you map out where an electron is most likely to be found around the nucleus. (NCERT 2.6)",
+          "key_point": "Quantised electron energies, no definite electron trajectory, and probability density |ψ|² (rather than a definite position) are the three ideas that define the quantum mechanical model of the atom."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "quantum-numbers",
+      "number": 8,
+      "title": "Orbitals and Quantum Numbers",
+      "summary": "Every atomic orbital is completely pinned down by a set of quantum numbers: the principal quantum number (size, shell), the azimuthal quantum number (shape, subshell), the magnetic quantum number (orientation), and — for the electron actually occupying it — a fourth, spin quantum number that isn't a property of the orbital at all.",
+      "sections": [
+        {
+          "heading": "The principal quantum number (n)",
+          "body": "Atomic orbitals differ from one another in size, shape and orientation, and each is precisely labelled by a set of quantum numbers: n, l and m_l. The principal quantum number n is a positive integer (1, 2, 3...) that fixes an orbital's size and, to a large extent, its energy — for hydrogen and other one-electron species, energy and size depend on n alone. n also identifies the shell an orbital belongs to (shells n=1,2,3,4... are labelled K, L, M, N...), and the number of orbitals allowed for a given n is n². As n increases, orbitals get larger (the electron is found further from the nucleus on average) and higher in energy, since pulling a negatively charged electron further from the positive nucleus costs energy. (NCERT 2.6.1)",
+          "key_point": "The principal quantum number n (1, 2, 3...) fixes an orbital's size, shell (K, L, M, N...), and — for one-electron species — its energy; the number of orbitals for a given n is n²."
+        },
+        {
+          "heading": "The azimuthal quantum number (l)",
+          "body": "The azimuthal (or orbital angular momentum, or subsidiary) quantum number l defines an orbital's three-dimensional shape. For a given n, l can take any of n values, from 0 up to (n−1) — so n=1 allows only l=0; n=2 allows l=0 or 1; n=3 allows l=0, 1 or 2. Each value of l corresponds to a subshell, conventionally labelled with a letter: l=0 is s, l=1 is p, l=2 is d, l=3 is f, and so on. So the first shell (n=1) has just one subshell (1s); the second shell (n=2) has two (2s, 2p); the third (n=3) has three (3s, 3p, 3d). (NCERT 2.6.1)",
+          "key_point": "The azimuthal quantum number l (0 to n−1) defines an orbital's shape and its subshell label (l=0→s, l=1→p, l=2→d, l=3→f) — the number of subshells in a shell equals n."
+        },
+        {
+          "heading": "The magnetic quantum number (m_l)",
+          "body": "The magnetic quantum number m_l describes an orbital's spatial orientation relative to a standard set of axes. For a given l, m_l can take any of (2l+1) values, running from −l through 0 to +l: for l=0, only m_l=0 is possible (one s orbital); for l=1, m_l can be −1, 0 or +1 (three p orbitals); for l=2, m_l can be −2, −1, 0, +1 or +2 (five d orbitals). Every orbital in an atom is therefore uniquely defined by a specific set of n, l and m_l values — for example, n=2, l=1, m_l=0 identifies one particular orbital in the 2p subshell. (NCERT 2.6.1)",
+          "key_point": "The magnetic quantum number m_l (−l to +l, giving 2l+1 values) fixes an orbital's spatial orientation — three p orbitals, five d orbitals, and so on, one for each allowed m_l value."
+        },
+        {
+          "heading": "Electron spin: the fourth quantum number",
+          "body": "The three quantum numbers n, l and m_l fully describe an orbital's energy, shape and orientation, but they aren't enough to explain why some lines in multi-electron atoms' spectra actually appear as closely-spaced doublets or triplets — evidence of additional energy states the three quantum numbers alone don't predict. In 1925, Uhlenbeck and Goudsmit proposed a fourth, the electron spin quantum number (m_s): an electron behaves as if spinning on its own axis, and this spin angular momentum can point in one of two directions relative to a chosen axis, giving m_s the value +½ or −½ (commonly drawn as ↑ 'spin up' and ↓ 'spin down'). Since an orbital can hold at most two electrons, and those two electrons must have opposite spins (one +½, one −½), spin is what ultimately lets exactly two — and only two — electrons share a single orbital. (NCERT 2.6.1)",
+          "key_point": "The electron spin quantum number, m_s = +½ or −½, is what allows exactly two electrons (with opposite spins) to occupy the same orbital — the three spatial quantum numbers alone can't account for this."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "shapes-of-orbitals",
+      "number": 9,
+      "title": "Shapes of Atomic Orbitals",
+      "summary": "An orbital's wave function has no physical meaning on its own, but plotting where the electron is most likely to be found — its probability density — gives every orbital a real, distinctive shape: spheres for s, dumbbells for p, and mostly four-lobed clovers for d, each dotted with regions (nodes) where the electron is never found at all.",
+      "sections": [
+        {
+          "heading": "Boundary surface diagrams",
+          "body": "The wave function ψ itself has no physical meaning, but plotting the probability density |ψ|² as a function of distance from the nucleus gives a real, useful picture of an orbital's shape. A boundary surface diagram draws a surface, in three dimensions, on which |ψ|² is constant, chosen so that it encloses a region where the electron is very likely to be found — typically about 90% probability, since |ψ|² technically never reaches exactly zero at any finite distance, so no boundary could ever enclose a region of 100% probability. These boundary surface diagrams are what's normally meant by 'the shape' of an orbital. (NCERT 2.6.2)",
+          "key_point": "A boundary surface diagram is the surface enclosing the region (typically ~90% probability) where an electron is most likely to be found — this is what's actually meant by an orbital's 'shape'."
+        },
+        {
+          "heading": "s orbitals",
+          "body": "The boundary surface for any s orbital (l=0) is a sphere centred on the nucleus — in two dimensions it looks like a circle — meaning the probability of finding the electron at a given distance is the same in every direction (spherically symmetric). s orbitals get larger as n increases (4s > 3s > 2s > 1s), moving the electron further from the nucleus on average. For 1s, the probability density is highest right at the nucleus and falls off sharply moving away; for 2s, it drops to zero, rises again to a small secondary maximum, then falls to zero again as distance increases further — a pattern that repeats, with more such zero-probability regions (nodes) appearing as n increases. (NCERT 2.6.2)",
+          "key_point": "All s orbitals are spherically symmetric and grow larger with increasing n (4s > 3s > 2s > 1s); higher-n s orbitals show more nodes (regions of zero probability) than lower ones."
+        },
+        {
+          "heading": "p orbitals",
+          "body": "p orbitals (l=1) are not spherical — each consists of two lobes on either side of a plane passing through the nucleus, with the probability density falling to zero exactly on that plane. All three p orbitals in a given subshell are identical in size, shape and energy, differing only in orientation — conventionally described as lying along the x, y or z axis and labelled p_x, p_y, p_z accordingly (though there's no simple direct correspondence between the three m_l values and these three axes). Like s orbitals, p orbitals grow larger and higher in energy as n increases (4p > 3p > 2p). (NCERT 2.6.2)",
+          "key_point": "The three p orbitals in a subshell (p_x, p_y, p_z) are identical in size, shape and energy — two-lobed, oriented along different axes, and zero on the plane between the lobes."
+        },
+        {
+          "heading": "d orbitals",
+          "body": "d orbitals (l=2) require n to be at least 3, since l can never exceed n−1. There are five possible m_l values for l=2 (−2, −1, 0, +1, +2), giving five d orbitals, labelled d_xy, d_yz, d_xz, d_x²−y², and d_z². The first four share a similar four-lobed shape; d_z² looks different from the rest, but all five are equal in energy within the same subshell. d orbitals with n greater than 3 (4d, 5d...) have similar shapes to 3d, differing only in size and energy. (NCERT 2.6.2)",
+          "key_point": "There are always five d orbitals (n ≥ 3 required); four (d_xy, d_yz, d_xz, d_x²−y²) share one shape, while d_z² looks different — but all five have equal energy."
+        },
+        {
+          "heading": "Nodes",
+          "body": "A node is a region where the probability density falls to exactly zero. There are two kinds: radial nodes, spherical surfaces (at a particular distance from the nucleus) where |ψ|² is zero — the number of these is (n − l − 1) — and angular nodes, flat planes passing through the nucleus where |ψ|² is zero, with the number of these equal to l (so p orbitals have one angular node, d orbitals have two). Adding the two kinds together, the total number of nodes for any orbital is always (n − 1). (NCERT 2.6.2)",
+          "key_point": "Total nodes in any orbital = n − 1, split between radial nodes (n − l − 1, spherical surfaces) and angular nodes (l, flat planes through the nucleus)."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "energies-of-orbitals",
+      "number": 10,
+      "title": "Energies of Orbitals",
+      "summary": "In hydrogen, an orbital's energy depends only on its shell — but in every other atom, electron-electron repulsion splits that simple picture apart, and energy ends up depending on shape too, through shielding and effective nuclear charge. The (n+l) rule is the simple shortcut that predicts the resulting order.",
+      "sections": [
+        {
+          "heading": "Orbital energies in hydrogen vs multi-electron atoms",
+          "body": "In a hydrogen atom, an electron's energy is fixed entirely by its principal quantum number n, so orbitals with the same n but different l — like 2s and 2p, or 3s, 3p and 3d — all have exactly the same energy; orbitals like this, sharing one energy, are called degenerate. The lowest-energy state (1s) is the ground state, and any electron in 2s, 2p or higher is in an excited state. In a multi-electron atom, this simplicity breaks down: energy now depends on both n and l, so within a given shell, energy increases in the order s < p < d < f, and at higher energy levels this splitting can be pronounced enough that orbitals from different shells overlap in energy (4s sits below 3d, for instance, and 6s below 5d). (NCERT 2.6.3)",
+          "key_point": "In hydrogen, orbitals with the same n are degenerate (equal energy) regardless of l; in multi-electron atoms, energy depends on both n and l, with energy increasing s < p < d < f within a shell — sometimes enough to invert shells entirely (4s below 3d)."
+        },
+        {
+          "heading": "Shielding and effective nuclear charge",
+          "body": "The reason multi-electron atoms behave differently comes down to electron-electron repulsion, which simply doesn't exist in hydrogen. An electron in an outer shell doesn't feel the nucleus's full positive charge (Ze), because inner-shell electrons partially block, or shield, that attraction — the charge the outer electron actually experiences is called the effective nuclear charge (Z_eff·e), and it's always somewhat less than the true nuclear charge. Even so, Z_eff — and so the attractive force on outer electrons — still increases with increasing nuclear charge overall. Shielding itself depends on orbital shape: a spherical s orbital shields outer electrons more effectively than a p orbital does, and a p orbital shields more than a d orbital, since s electrons spend more time close to the nucleus. This is exactly why, within one shell, s orbitals sit at lower (more negative) energy than p, which sit lower than d. (NCERT 2.6.3)",
+          "key_point": "Effective nuclear charge (Z_eff) is what an outer electron actually feels after inner electrons partially shield the true nuclear charge; s orbitals shield better than p, which shield better than d — which is why s < p < d in energy within a shell."
+        },
+        {
+          "heading": "The (n+l) rule",
+          "body": "Predicting exactly how orbital energies rank across n and l in a multi-electron atom is mathematically complicated, but one simple rule captures it well: the lower the value of (n + l) for an orbital, the lower its energy; if two orbitals share the same (n + l) value, the one with the smaller n has the lower energy. This is why 4s (n+l = 4+0 = 4) fills before 3d (n+l = 3+2 = 5) despite 3d's smaller n — 4s simply has the lower (n+l) sum. It's also worth noting that orbital energies in the same subshell fall as atomic number rises — for instance, the energy of the 2s orbital decreases going from hydrogen to lithium to sodium to potassium, since a larger nuclear charge pulls the electron in more tightly. (NCERT 2.6.3)",
+          "key_point": "The (n+l) rule: lower (n+l) means lower energy, and ties go to the smaller n — this is why 4s (n+l=4) fills before 3d (n+l=5), even though 3d has the smaller principal quantum number."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "electronic-configuration",
+      "number": 11,
+      "title": "Electronic Configuration: Aufbau, Pauli, Hund's Rule and Stability of Filled/Half-filled Orbitals",
+      "summary": "Three rules together determine how an atom's electrons actually fill its orbitals — aufbau (lowest energy first), Pauli (two electrons per orbital, opposite spins), and Hund's rule (spread out before pairing up) — and a handful of elements, like chromium and copper, bend the straightforward prediction because half-filled and completely filled subshells carry a genuine, extra stability.",
+      "sections": [
+        {
+          "heading": "The aufbau principle",
+          "body": "'Aufbau' is German for 'building up', and the aufbau principle governs the order electrons fill orbitals in a ground-state atom: orbitals are filled in order of increasing energy, with electrons occupying the lowest-energy available orbital first, and only moving to higher-energy orbitals once lower ones are full. Because orbital energy depends on effective nuclear charge in a way that varies somewhat from atom to atom, there's no single filling order that's universally exact for every atom — but the following order works remarkably well for predicting where an atom's outermost (valence) electrons end up: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s... For example, this order correctly predicts that potassium's last electron goes into 4s rather than 3d. (NCERT 2.6.4)",
+          "key_point": "The aufbau principle fills the lowest-energy orbitals first, following the sequence 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s... — a very reliable, though not universally exact, guide."
+        },
+        {
+          "heading": "Pauli exclusion principle",
+          "body": "Wolfgang Pauli's exclusion principle (1926) states that no two electrons in an atom can share the same set of all four quantum numbers — equivalently, an orbital can hold at most two electrons, and if it holds two, they must have opposite spins. This single restriction is what fixes how many electrons each type of subshell can hold: an s subshell (one orbital) holds at most 2 electrons, a p subshell (three orbitals) holds at most 6, a d subshell (five orbitals) holds at most 10, and so on — in general, a shell with principal quantum number n can hold at most 2n² electrons. (NCERT 2.6.4)",
+          "key_point": "Pauli's exclusion principle (no two electrons share all four quantum numbers) caps every orbital at two electrons — giving s, p, d, f subshells maximum capacities of 2, 6, 10 and 14 electrons respectively, and 2n² electrons per shell."
+        },
+        {
+          "heading": "Hund's rule of maximum multiplicity",
+          "body": "Hund's rule governs how electrons distribute across the several orbitals of one subshell (degenerate orbitals of equal energy): pairing of electrons in orbitals of the same subshell doesn't begin until every orbital in that subshell already holds one electron each. Since there are three p, five d and seven f orbitals, pairing only starts with the 4th electron entering a p subshell, the 6th entering a d subshell, and the 8th entering an f subshell. Subshells that end up either exactly half-filled or completely filled this way gain extra stability from their symmetry. (NCERT 2.6.4)",
+          "key_point": "Hund's rule: electrons occupy every orbital of a subshell singly, with parallel spin, before any pairing begins — pairing starts on the 4th electron in a p subshell, the 6th in d, the 8th in f."
+        },
+        {
+          "heading": "Writing electronic configurations",
+          "body": "An atom's electronic configuration — how its electrons are distributed across orbitals — is written either as sᵃpᵇdᶜ... (with the subshell's electron count as a superscript) or as an orbital diagram of boxes and spin arrows, the latter capturing all four quantum numbers explicitly. Hydrogen's single electron goes into the lowest orbital, giving 1s¹; helium's second electron also fits in 1s (with opposite spin), giving 1s². Lithium's third electron, barred from 1s by the Pauli principle, goes into 2s, giving 1s²2s¹, and the next six elements (boron through neon) progressively fill the 2p subshell. Sodium through argon repeat the same pattern one shell up (3s, 3p), often abbreviated using the previous noble gas as a shorthand core — sodium is [Ne]3s¹, argon is [Ne]3s²3p⁶. Electrons in these fully-filled inner shells are core electrons; those being added to the outermost shell are valence electrons. In potassium and calcium, 4s (lower in energy than 3d) fills first; from scandium onward, the 3d orbitals begin filling instead, since 3d is now lower in energy than 4p. (NCERT 2.6.5)",
+          "key_point": "Electronic configurations are built by filling orbitals per the aufbau order, Pauli's two-electrons-per-orbital limit, and Hund's rule — noble-gas shorthand (like [Ne]3s¹ for sodium) separates the unreactive core from the reactive valence electrons."
+        },
+        {
+          "heading": "Exceptions: chromium and copper",
+          "body": "Chromium and copper don't follow the straightforward aufbau prediction. Based on their position, chromium would be expected to have the configuration [Ar]3d⁴4s² and copper [Ar]3d⁹4s², but their actual configurations are [Ar]3d⁵4s¹ and [Ar]3d¹⁰4s¹ instead — one electron shifts from 4s into 3d compared to the naive prediction. This happens because 4s and 3d are close enough in energy that the shift is worthwhile whenever it produces an exactly half-filled (d⁵) or completely filled (d¹⁰) 3d subshell, since those configurations carry extra stability. (NCERT 2.6.6)",
+          "key_point": "Chromium ([Ar]3d⁵4s¹, not 3d⁴4s²) and copper ([Ar]3d¹⁰4s¹, not 3d⁹4s²) shift one electron from 4s to 3d specifically to reach the extra-stable half-filled or completely filled 3d configuration."
+        },
+        {
+          "heading": "Why filled and half-filled subshells are extra stable",
+          "body": "Two effects give completely filled or exactly half-filled subshells their extra stability. First, a symmetrical distribution of electrons is inherently more stable, and electrons in the same subshell — despite having equal energy — occupy different regions of space, so they shield each other from the nucleus relatively little, meaning each is more strongly attracted to the nucleus. Second, electrons with the same spin occupying degenerate orbitals of a subshell can exchange positions with each other, releasing what's called exchange energy — and the number of such possible exchanges, and so the exchange energy released, is at its maximum precisely when the subshell is half-filled or completely filled. This same exchange-energy effect is the underlying reason Hund's rule favours parallel spins across separate orbitals in the first place. (NCERT 2.6.6)",
+          "key_point": "Half-filled and completely filled subshells are extra stable because of (1) more effective mutual shielding from a symmetrical electron distribution and (2) maximum exchange energy, the same effect underlying Hund's rule."
+        }
+      ],
+      "estimated_minutes": 25
+    }
   ]
 }
