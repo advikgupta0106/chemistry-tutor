@@ -177,7 +177,56 @@ appear anywhere in this file — that's expected, not an omission.
 
 ## Periodic Table (Classification of Elements and Periodicity) — `content/topics/periodic-table.json`
 Source: `content/source/unit-3.pdf`
-Status: ⬜ **not started**
+
+### Chapter list corrected
+The original 4-chapter list skipped two whole NCERT sections and
+merged others together too tightly:
+- **Added** "Electronic Configurations and the Periodic Table" (§3.5)
+  — why period number equals the principal quantum number, why
+  periods have 2/8/8/18/18/32 elements, why groups share valence
+  configuration. Missing entirely.
+- **Added** "s-, p-, d- and f-Block Elements" (§3.6) — the four-block
+  classification (3.6.1–3.6.4) plus metals/non-metals/metalloids
+  (3.6.5). Also missing entirely.
+- **Split** the old single "Periodic Trends in Properties" chapter
+  into two, since NCERT 3.7 itself splits physical properties (§3.7.1:
+  atomic/ionic radius, ionization enthalpy, electron gain enthalpy,
+  electronegativity) from chemical properties/reactivity (§3.7.2,
+  §3.7.3: valence periodicity, second-period anomalies, reactivity
+  trends) — one chapter was carrying two unrelated NCERT sections.
+- Renumbered all 7 chapters (was 4) to the PDF's own order.
+
+### Chapters filled
+| # | Chapter | NCERT §§ covered | Sections |
+|---|---|---|---|
+| 1 | Genesis of Periodic Classification | 3.1, 3.2 | 4 |
+| 2 | Modern Periodic Law | 3.3 | 3 |
+| 3 | Nomenclature of Elements | 3.4 | 3 |
+| 4 | Electronic Configurations and the Periodic Table | 3.5 | 3 |
+| 5 | s-, p-, d- and f-Block Elements | 3.6.1–3.6.5 | 5 |
+| 6 | Periodic Trends in Physical Properties | 3.7.1(a-e) | 5 |
+| 7 | Periodic Trends in Chemical Properties and Reactivity | 3.7.2, 3.7.3 | 4 |
+
+No molecules from `/content/molecules` are relevant to this topic
+(elements/periodic-table content, not specific compounds), so no
+`molecule_ids` appear anywhere in this file.
+
+**Status: complete.** All 7 chapters filled and committed.
+
+### Numbers written, with source page (unit-3.pdf)
+- Gallium prediction vs found: predicted density 5.9 g/cm³, found 5.94 g/cm³ — p.76 (§3.2, Table 3.3)
+- Period sizes: 2, 8, 8, 18, 18, 32 — p.78, p.84 (§3.3, §3.5)
+- Cl covalent radius 99 pm (from Cl₂ bond length 198 pm); Cu metallic radius 128 pm — p.85-86 (§3.7.1a)
+- F atomic radius 64 pm vs F⁻ ionic radius 136 pm; Na atomic radius 186 pm vs Na⁺ 95 pm — p.87 (§3.7.1b)
+- Pauling electronegativity scale: F = 4.0 (assigned reference value) — p.90 (§3.7.1e)
+- Na/Mg/Si first ionization enthalpies 496/737/786 kJ mol⁻¹ (Problem 3.6, used only to confirm the general trend, not directly restated as a number in my text) — p.88
+- Group 1-18 valence pattern (1,2,3,4,3-5,2-6,1-7,0-8 valence electrons) — p.92 (§3.7.2a, Table 3.9)
+
+### Unsure / flag for your check
+- None outstanding — all numbers above were read directly off the
+  extracted PDF text this session.
+
+---
 
 ## Thermodynamics — `content/topics/thermodynamics.json`
 Source: `content/source/unit-5.pdf`
