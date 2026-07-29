@@ -1,0 +1,7 @@
+{
+  "id": "iron-copper-sulfate",
+  "equation": "Fe + CuSO4 -> FeSO4 + Cu",
+  "type": "Displacement (Redox) Reaction",
+  "explanation": "Iron is more reactive than copper, so it displaces copper from copper sulfate solution, forming iron sulfate and depositing metallic copper.",
+  "topics": ["redox-reactions"]
+}

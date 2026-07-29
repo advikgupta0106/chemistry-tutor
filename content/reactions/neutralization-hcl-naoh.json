@@ -1,0 +1,7 @@
+{
+  "id": "neutralization-hcl-naoh",
+  "equation": "HCl + NaOH -> NaCl + H2O",
+  "type": "Acid-Base (Neutralization) Reaction",
+  "explanation": "Hydrochloric acid reacts with sodium hydroxide in a neutralization reaction to form sodium chloride and water.",
+  "topics": ["equilibrium", "some-basic-concepts"]
+}

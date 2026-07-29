@@ -1,0 +1,7 @@
+{
+  "id": "methane-combustion",
+  "equation": "CH4 + 2O2 -> CO2 + 2H2O",
+  "type": "Combustion Reaction",
+  "explanation": "Methane burns completely in excess oxygen to form carbon dioxide and water, releasing a large amount of heat.",
+  "topics": ["organic-chemistry-basics", "thermodynamics"]
+}

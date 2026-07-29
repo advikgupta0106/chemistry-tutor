@@ -1,0 +1,7 @@
+{
+  "id": "acetic-acid-bicarbonate",
+  "equation": "CH3COOH + NaHCO3 -> CH3COONa + H2O + CO2",
+  "type": "Acid-Base Reaction",
+  "explanation": "Acetic acid reacts with sodium bicarbonate to form sodium acetate, water and carbon dioxide.",
+  "topics": ["equilibrium", "some-basic-concepts"]
+}

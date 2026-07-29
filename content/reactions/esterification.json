@@ -1,0 +1,7 @@
+{
+  "id": "esterification",
+  "equation": "CH3COOH + C2H5OH <-> CH3COOC2H5 + H2O",
+  "type": "Esterification (Condensation) Reaction",
+  "explanation": "Acetic acid reacts with ethanol in the presence of an acid catalyst to form ethyl acetate (a sweet-smelling ester) and water; the reaction is reversible.",
+  "topics": ["organic-chemistry-basics"]
+}

@@ -47,6 +47,27 @@ export type Mechanism = {
   steps: MechanismStep[];
 };
 
+export type Reaction = {
+  id: string;
+  equation: string;
+  type: string;
+  explanation: string;
+  topics: string[];
+};
+
+export type Question = {
+  id: string;
+  topic_id: string;
+  chapter_id: string;
+  difficulty: "easy" | "medium" | "hard";
+  exams: string[];
+  prompt: string;
+  options: string[];
+  answer_index: number;
+  explanation: string;
+  source: string;
+};
+
 export type UserProgress = {
   topics_learned: number;
   practice_score_percent: number;
@@ -86,6 +107,26 @@ export function getAllMechanisms(): Mechanism[] {
 
 export function getMechanism(id: string): Mechanism | undefined {
   return getAllMechanisms().find((m) => m.id === id);
+}
+
+export function getAllReactions(): Reaction[] {
+  const dir = path.join(CONTENT_DIR, "reactions");
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
+  return files.map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf-8")));
+}
+
+export function getReaction(id: string): Reaction | undefined {
+  return getAllReactions().find((r) => r.id === id);
+}
+
+export function getAllQuestions(): Question[] {
+  const dir = path.join(CONTENT_DIR, "questions");
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
+  return files.map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf-8")));
+}
+
+export function getQuestion(id: string): Question | undefined {
+  return getAllQuestions().find((q) => q.id === id);
 }
 
 export function getUserProgress(): UserProgress {

@@ -1,0 +1,7 @@
+{
+  "id": "thermal-decomposition-caco3",
+  "equation": "CaCO3 -> CaO + CO2",
+  "type": "Thermal Decomposition Reaction",
+  "explanation": "On strong heating, calcium carbonate decomposes into calcium oxide (quicklime) and carbon dioxide gas.",
+  "topics": ["thermodynamics", "some-basic-concepts"]
+}

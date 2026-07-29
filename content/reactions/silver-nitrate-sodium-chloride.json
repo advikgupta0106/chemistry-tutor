@@ -1,0 +1,7 @@
+{
+  "id": "silver-nitrate-sodium-chloride",
+  "equation": "AgNO3 + NaCl -> AgCl + NaNO3",
+  "type": "Double Displacement (Precipitation) Reaction",
+  "explanation": "Silver nitrate reacts with sodium chloride to form insoluble silver chloride, which precipitates out of solution, and sodium nitrate.",
+  "topics": ["equilibrium", "some-basic-concepts"]
+}

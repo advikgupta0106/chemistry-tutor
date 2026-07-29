@@ -1,0 +1,7 @@
+{
+  "id": "zinc-sulfuric-acid",
+  "equation": "Zn + H2SO4 -> ZnSO4 + H2",
+  "type": "Single Displacement Reaction",
+  "explanation": "Zinc is more reactive than hydrogen, so it displaces hydrogen from dilute sulfuric acid, forming zinc sulfate and releasing hydrogen gas.",
+  "topics": ["redox-reactions", "some-basic-concepts"]
+}

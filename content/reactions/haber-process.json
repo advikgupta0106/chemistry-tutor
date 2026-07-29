@@ -1,0 +1,7 @@
+{
+  "id": "haber-process",
+  "equation": "N2 + 3H2 <-> 2NH3",
+  "type": "Combination (Equilibrium) Reaction",
+  "explanation": "Nitrogen and hydrogen combine under high pressure and temperature with an iron catalyst to form ammonia; the reaction is reversible and reaches a dynamic equilibrium.",
+  "topics": ["equilibrium"]
+}

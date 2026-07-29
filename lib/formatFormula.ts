@@ -10,6 +10,7 @@ const SUBSCRIPT_DIGITS: Record<string, string> = {
 // stoichiometric coefficients (the "2" in "2H2O") are left as normal digits.
 export function formatFormula(input: string): string {
   return input
+    .replace(/<-+>/g, "⇌")
     .replace(/-+>/g, "→")
     .replace(/([A-Za-z)])(\d+)/g, (_match, prefix: string, digits: string) =>
       prefix + digits.split("").map((d) => SUBSCRIPT_DIGITS[d] ?? d).join("")
