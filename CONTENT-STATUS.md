@@ -71,7 +71,54 @@ Changed:
 
 ## Some Basic Concepts of Chemistry — `content/topics/some-basic-concepts.json`
 Source: `content/source/unit-1.pdf`
-Status: ⬜ **not started**
+
+### Chapter list corrected
+The original 8-chapter list skipped two whole NCERT sections entirely.
+Added:
+- **"Properties of Matter and their Measurement"** (§1.3) — physical vs
+  chemical properties, SI base units, mass/weight, volume, density,
+  temperature. None of this had a chapter before.
+- **"Uncertainty in Measurement"** (§1.4) — scientific notation,
+  significant figures, precision/accuracy, dimensional analysis. Also
+  missing entirely.
+
+Renumbered the existing 8 chapters to make room (they were 1-8, now
+1-2 stay, then the two new chapters are 3-4, and the old 3-8 become 5-10).
+
+### Chapters filled
+| # | Chapter | NCERT §§ covered | Sections | Molecules linked |
+|---|---|---|---|---|
+| 1 | Importance of Chemistry | 1.1 + unit intro (unnumbered) | 3 | — |
+| 2 | Nature of Matter | 1.2, 1.2.1, 1.2.2 | 3 | glucose |
+| 3 | Properties of Matter and their Measurement | 1.3.1–1.3.7 | 6 | — |
+| 4 | Uncertainty in Measurement | 1.4.1–1.4.3 | 4 | — |
+| 5 | Laws of Chemical Combination | 1.5.1–1.5.5 | 5 | — |
+| 6 | Dalton's Atomic Theory | 1.6 | 3 | — |
+| 7 | Atomic and Molecular Mass | 1.7.1–1.7.4 | 4 | methane, glucose |
+| 8 | Mole Concept and Molar Mass | 1.8 | 3 | — |
+| 9 | Percentage Composition | 1.9, 1.9.1 | 3 | — |
+| 10 | Stoichiometry and Stoichiometric Calculations | 1.10, 1.10.1, 1.10.2 | 5 | methane |
+
+**Status: complete.** All 10 chapters filled and committed.
+
+### Numbers written, with source page (unit-1.pdf)
+- 1 amu = 1.66056×10⁻²⁴ g; H atomic mass 1.0080 u; O-16 15.995 u — p.16-17 (§1.7.1)
+- Carbon isotope abundances (¹²C 98.892%, ¹³C 1.108%, ¹⁴C ~0%) → average 12.011 u — p.17 (§1.7.2)
+- Methane molecular mass 16.043 u; water 18.02 u; glucose 180.162 u — p.16-17, p.17 (§1.7.3, Problem 1.1)
+- NaCl formula mass 58.5 u (Na 23.0 + Cl 35.5) — p.17 (§1.7.4)
+- Avogadro constant 6.02214076×10²³ mol⁻¹; ¹²C atom mass 1.992648×10⁻²³ g — p.18 (§1.8)
+- Water % composition 11.18% H / 88.79% O; ethanol 52.14% C / 13.13% H / 34.73% O — p.19 (§1.9)
+- Worked empirical/molecular formula example: 4.07% H, 24.27% C, 71.65% Cl,
+  molar mass 98.96 g → CH₂Cl → C₂H₄Cl₂ — p.19-20 (Problem 1.2, §1.9.1)
+- Methane combustion: 16 g CH₄ + 2×32 g O₂ → 44 g CO₂ + 2×18 g H₂O — p.20-22 (§1.10, Problem 1.3)
+- N₂ + 3H₂ → 2NH₃ limiting-reagent example (50.0 kg N₂, 10.0 kg H₂, H₂ limiting) — p.22-23 (§1.10.1, Problem 1.5)
+- 1 in = 2.54 cm; 2 days = 172800 s — p.13-14 (§1.4.3, dimensional analysis examples)
+
+### Unsure / flag for your check
+- None outstanding — all numbers above were read directly off the
+  extracted PDF text this session.
+
+---
 
 ## Structure of Atom — `content/topics/structure-of-atom.json`
 Source: `content/source/unit-2.pdf`
