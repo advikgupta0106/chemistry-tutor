@@ -1,0 +1,9 @@
+{
+  "id": "spectroscopy",
+  "title": "Spectroscopy",
+  "icon": "atom",
+  "tint": "purple",
+  "class": ["undergraduate"],
+  "exams": [],
+  "chapters": []
+}

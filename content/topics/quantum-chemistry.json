@@ -1,0 +1,9 @@
+{
+  "id": "quantum-chemistry",
+  "title": "Quantum Chemistry",
+  "icon": "atom",
+  "tint": "blue",
+  "class": ["undergraduate"],
+  "exams": [],
+  "chapters": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "electrochemistry-advanced",
+  "title": "Electrochemistry (Advanced)",
+  "icon": "redox",
+  "tint": "red",
+  "class": ["undergraduate"],
+  "exams": [],
+  "chapters": []
+}

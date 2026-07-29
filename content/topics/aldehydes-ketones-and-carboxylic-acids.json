@@ -1,0 +1,12 @@
+{
+  "id": "aldehydes-ketones-and-carboxylic-acids",
+  "title": "Aldehydes, Ketones and Carboxylic Acids",
+  "icon": "hexagon",
+  "tint": "green",
+  "class": ["12"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 4 },
+    { "name": "NEET", "weightage_percent": 3 }
+  ],
+  "chapters": []
+}

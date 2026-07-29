@@ -1,0 +1,12 @@
+{
+  "id": "alcohols-phenols-and-ethers",
+  "title": "Alcohols, Phenols and Ethers",
+  "icon": "hexagon",
+  "tint": "green",
+  "class": ["12"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 3 },
+    { "name": "NEET", "weightage_percent": 2 }
+  ],
+  "chapters": []
+}

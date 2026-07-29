@@ -1,0 +1,9 @@
+{
+  "id": "thermodynamics-statistical-mechanics",
+  "title": "Thermodynamics & Statistical Mechanics",
+  "icon": "flame",
+  "tint": "orange",
+  "class": ["undergraduate"],
+  "exams": [],
+  "chapters": []
+}

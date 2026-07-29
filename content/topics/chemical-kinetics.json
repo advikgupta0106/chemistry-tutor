@@ -1,0 +1,12 @@
+{
+  "id": "chemical-kinetics",
+  "title": "Chemical Kinetics",
+  "icon": "flame",
+  "tint": "orange",
+  "class": ["12"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 4 },
+    { "name": "NEET", "weightage_percent": 3 }
+  ],
+  "chapters": []
+}

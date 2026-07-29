@@ -1,0 +1,9 @@
+{
+  "id": "physical-chemistry-kinetics",
+  "title": "Physical Chemistry - Kinetics",
+  "icon": "flame",
+  "tint": "orange",
+  "class": ["undergraduate"],
+  "exams": [],
+  "chapters": []
+}

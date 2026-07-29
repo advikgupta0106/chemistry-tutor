@@ -1,0 +1,12 @@
+{
+  "id": "polymers",
+  "title": "Polymers",
+  "icon": "hexagon",
+  "tint": "orange",
+  "class": ["12"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 2 },
+    { "name": "NEET", "weightage_percent": 2 }
+  ],
+  "chapters": []
+}

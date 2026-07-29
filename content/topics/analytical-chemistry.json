@@ -1,0 +1,9 @@
+{
+  "id": "analytical-chemistry",
+  "title": "Analytical Chemistry",
+  "icon": "flask",
+  "tint": "blue",
+  "class": ["undergraduate"],
+  "exams": [],
+  "chapters": []
+}

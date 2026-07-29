@@ -1,0 +1,12 @@
+{
+  "id": "hydrogen",
+  "title": "Hydrogen",
+  "icon": "atom",
+  "tint": "blue",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 2 },
+    { "name": "NEET", "weightage_percent": 2 }
+  ],
+  "chapters": []
+}

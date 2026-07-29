@@ -1,0 +1,12 @@
+{
+  "id": "s-block-elements",
+  "title": "s-Block Elements",
+  "icon": "table",
+  "tint": "purple",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 3 },
+    { "name": "NEET", "weightage_percent": 2 }
+  ],
+  "chapters": []
+}

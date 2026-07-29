@@ -1,0 +1,12 @@
+{
+  "id": "states-of-matter",
+  "title": "States of Matter",
+  "icon": "flask",
+  "tint": "blue",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 4 },
+    { "name": "NEET", "weightage_percent": 3 }
+  ],
+  "chapters": []
+}

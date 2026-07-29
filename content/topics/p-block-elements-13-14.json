@@ -1,0 +1,12 @@
+{
+  "id": "p-block-elements-13-14",
+  "title": "p-Block Elements (Group 13-14)",
+  "icon": "table",
+  "tint": "purple",
+  "class": ["11"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 3 },
+    { "name": "NEET", "weightage_percent": 2 }
+  ],
+  "chapters": []
+}

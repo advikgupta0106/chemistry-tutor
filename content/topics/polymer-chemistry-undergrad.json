@@ -1,0 +1,9 @@
+{
+  "id": "polymer-chemistry-undergrad",
+  "title": "Polymer Chemistry",
+  "icon": "hexagon",
+  "tint": "orange",
+  "class": ["undergraduate"],
+  "exams": [],
+  "chapters": []
+}

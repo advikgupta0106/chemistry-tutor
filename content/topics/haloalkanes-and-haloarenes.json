@@ -1,0 +1,12 @@
+{
+  "id": "haloalkanes-and-haloarenes",
+  "title": "Haloalkanes and Haloarenes",
+  "icon": "hexagon",
+  "tint": "green",
+  "class": ["12"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 3 },
+    { "name": "NEET", "weightage_percent": 2 }
+  ],
+  "chapters": []
+}

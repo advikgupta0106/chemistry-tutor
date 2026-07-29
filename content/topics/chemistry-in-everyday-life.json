@@ -1,0 +1,11 @@
+{
+  "id": "chemistry-in-everyday-life",
+  "title": "Chemistry in Everyday Life",
+  "icon": "flask",
+  "tint": "blue",
+  "class": ["12"],
+  "exams": [
+    { "name": "NEET", "weightage_percent": 2 }
+  ],
+  "chapters": []
+}

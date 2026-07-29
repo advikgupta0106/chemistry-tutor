@@ -1,0 +1,12 @@
+{
+  "id": "electrochemistry",
+  "title": "Electrochemistry",
+  "icon": "redox",
+  "tint": "red",
+  "class": ["12"],
+  "exams": [
+    { "name": "JEE", "weightage_percent": 4 },
+    { "name": "NEET", "weightage_percent": 3 }
+  ],
+  "chapters": []
+}
