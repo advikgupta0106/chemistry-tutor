@@ -6,6 +6,7 @@ import { ArrowLeft, Bookmark, Check } from "lucide-react";
 import type { Topic, Chapter, Molecule } from "@/lib/content";
 import { formatChapterText } from "@/lib/formatFormula";
 import { isChapterRead, markChapterRead, unmarkChapterRead, getProgress } from "@/lib/progress";
+import AskDoubt from "@/components/AskDoubt";
 
 function pubchem2DImageUrl(cid: number) {
   return `https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=l`;
@@ -127,6 +128,8 @@ export default function ChapterReaderClient({
           "Mark as Read"
         )}
       </button>
+
+      <AskDoubt topicTitle={topic.short_title ?? topic.title} chapter={chapter} />
     </div>
   );
 }
