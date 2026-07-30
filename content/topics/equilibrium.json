@@ -9,12 +9,336 @@
     { "name": "NEET", "weightage_percent": 4 }
   ],
   "chapters": [
-    { "id": "equilibrium-in-physical-processes", "number": 1, "title": "Equilibrium in Physical Processes", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "equilibrium-in-chemical-processes", "number": 2, "title": "Equilibrium in Chemical Processes", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "law-of-chemical-equilibrium", "number": 3, "title": "Law of Chemical Equilibrium and Kc", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "homogeneous-heterogeneous-equilibria", "number": 4, "title": "Homogeneous and Heterogeneous Equilibria", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "le-chatelier", "number": 5, "title": "Le Chatelier's Principle", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "ionic-equilibrium", "number": 6, "title": "Ionic Equilibrium in Solution", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "acids-bases-buffers", "number": 7, "title": "Acids, Bases and Buffer Solutions", "summary": "", "sections": [], "estimated_minutes": 25 }
+    {
+      "id": "equilibrium-in-physical-processes",
+      "number": 1,
+      "title": "Equilibrium in Physical Processes",
+      "summary": "Melting, boiling, subliming and dissolving all reach the same kind of state once left alone in a closed container: a dynamic equilibrium where opposing processes run at exactly matched rates, so every measurable property — vapour pressure, melting point, solubility — settles to one constant value.",
+      "sections": [
+        {
+          "heading": "Solid-liquid and liquid-vapour equilibrium",
+          "body": "Ice and water in a perfectly insulated flask at 273 K and atmospheric pressure sit in dynamic equilibrium: molecules constantly transfer between ice and liquid water in both directions at equal rates, so the mass of each phase stays constant even though activity never stops at the boundary. For any pure substance at atmospheric pressure, the temperature at which solid and liquid coexist in equilibrium is its normal melting (or freezing) point. Liquid-vapour equilibrium works the same way: in a closed container, water evaporates until the rate of evaporation exactly equals the rate of condensation, at which point the vapour exerts a constant equilibrium vapour pressure that increases with temperature. Different liquids have different vapour pressures at the same temperature — the more volatile liquid (higher vapour pressure) has the lower boiling point. In an open system, evaporated molecules disperse into the room rather than returning, so equilibrium can never actually be reached — a liquid left open to the air simply evaporates away completely. The normal boiling point is the temperature, at 1.013 bar, where a liquid and its vapour are in equilibrium; since it depends on atmospheric pressure, boiling point falls at higher altitude. (NCERT 6.1.1, 6.1.2)",
+          "key_point": "Normal melting point and normal boiling point are both just names for a specific equilibrium temperature at 1 atm — evaporation only reaches actual equilibrium in a closed system, since an open one lets vapour escape faster than it can condense back."
+        },
+        {
+          "heading": "Solid-vapour equilibrium and dissolution of solids",
+          "body": "Some solids sublime directly to vapour without passing through a liquid phase — solid iodine in a closed vessel fills with violet vapour that intensifies until reaching a constant colour at equilibrium, I₂(solid) ⇌ I₂(vapour); camphor and ammonium chloride behave the same way. Dissolving a solid in a liquid reaches its own equilibrium too: a saturated solution is one where no more solute will dissolve at a given temperature, and in it, the rate of dissolution exactly equals the rate of crystallisation — confirmed experimentally using radioactive sugar, which shows continuous exchange between dissolved and solid sugar molecules even once the solution's overall composition stops changing. (NCERT 6.1.3, 6.1.4)",
+          "key_point": "Solid-vapour equilibrium (sublimation, as in iodine) and solid-liquid dissolution equilibrium (a saturated solution) are both genuinely dynamic — radioactive tracer experiments confirm molecules keep exchanging between phases even once the bulk concentration stops changing."
+        },
+        {
+          "heading": "Dissolution of gases in liquids: Henry's law",
+          "body": "Gases dissolved in liquids reach their own equilibrium too — carbon dioxide dissolved under pressure in a sealed soda bottle, CO₂(gas) ⇌ CO₂(in solution), is governed by Henry's law: the mass of gas dissolved in a given mass of solvent, at any temperature, is proportional to the pressure of the gas above the solvent, and this dissolved amount decreases as temperature rises. Opening the bottle drops the pressure above the liquid, so dissolved CO₂ escapes to reach a new, lower-pressure equilibrium — which is exactly why soda left open goes 'flat' over time. (NCERT 6.1.4)",
+          "key_point": "Henry's law: the mass of gas dissolved in a liquid is proportional to the gas's pressure above it — reducing that pressure (opening a sealed, pressurised bottle) shifts the equilibrium and drives dissolved gas back out."
+        },
+        {
+          "heading": "General characteristics of physical equilibria",
+          "body": "Every physical equilibrium discussed shares the same handful of features: it's only possible in a closed system at a given temperature; both opposing processes happen at the same rate, giving a dynamic but stable condition; every measurable property of the system stays constant; and equilibrium is marked by one specific parameter holding a constant value at a given temperature — vapour pressure for liquid-vapour equilibrium, melting point for solid-liquid, solubility for a dissolved solid, and the ratio of dissolved-to-gaseous concentration for a dissolved gas. The size of that constant value indicates how far the process has proceeded before reaching equilibrium. (NCERT 6.1.5)",
+          "key_point": "Every physical equilibrium (melting, boiling, subliming, dissolving) shares the same signature: a closed system, equal opposing rates, and one specific measurable quantity that holds constant at a given temperature."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "equilibrium-in-chemical-processes",
+      "number": 2,
+      "title": "Equilibrium in Chemical Processes",
+      "summary": "Chemical reactions reach equilibrium the same dynamic way physical processes do — and clever experiments, like mixing deuterium-labelled and ordinary ammonia after each reaches equilibrium separately, prove directly that the forward and reverse reactions never actually stop, they just settle into perfectly matched rates.",
+      "sections": [
+        {
+          "heading": "Dynamic equilibrium in reversible reactions",
+          "body": "Chemical reactions reach equilibrium the same way physical processes do: for a reversible reaction A + B ⇌ C + D, as products C and D accumulate and reactants A and B deplete, the forward reaction slows while the reverse reaction speeds up, until the two rates become equal — at that point, the concentrations of every species stay constant, marking the state of chemical equilibrium. This is a dynamic state, not a static one: the forward reaction (making products) and reverse reaction (remaking reactants) both keep running, just at matched rates. (NCERT 6.2)",
+          "key_point": "Chemical equilibrium is reached when the forward and reverse reaction rates become equal — concentrations stop changing, but both reactions keep running continuously underneath that apparent stillness."
+        },
+        {
+          "heading": "Proving the dynamic nature: Haber's ammonia experiments",
+          "body": "Haber demonstrated equilibrium's dynamic nature directly: starting with known amounts of N₂ and H₂ at high temperature and pressure, the ammonia concentration eventually stopped changing, showing the mixture had reached equilibrium, even with unreacted N₂ and H₂ still present. Running the same synthesis with deuterium (D₂) instead of ordinary hydrogen reached equilibrium with the same overall composition — but mixing the two equilibrated batches (H₂/N₂/NH₃ and D₂/N₂/ND₃) together revealed, on analysis, a scramble of all possible isotope combinations (NH₃, NH₂D, NHD₂, ND₃, and H₂, HD, D₂). This scrambling could only happen if the forward and reverse reactions were still actively running after 'equilibrium' was reached — proof that equilibrium is dynamic, not a state where the reaction has simply stopped. (NCERT 6.2)",
+          "key_point": "Mixing equilibrated H₂/NH₃ and D₂/ND₃ ammonia-synthesis batches produces a scramble of every possible H/D isotope combination — direct proof that the forward and reverse reactions never actually stop at equilibrium, they just balance."
+        },
+        {
+          "heading": "Equilibrium can be reached from either direction",
+          "body": "For the reaction H₂(g) + I₂(g) ⇌ 2HI(g), starting with equal concentrations of H₂ and I₂ lets the reaction proceed forward until all concentrations stabilise; starting with pure HI instead lets it run in reverse, with HI decreasing and H₂/I₂ increasing until they too stabilise. If the same total number of H and I atoms are present in the same volume, both starting points settle into exactly the same equilibrium mixture — confirming that equilibrium is a property of the overall system's composition, not of which direction the reaction happened to start from. (NCERT 6.2)",
+          "key_point": "Starting from pure reactants or pure products, a reaction settles into the same equilibrium mixture as long as the total atom counts match — equilibrium depends on overall composition, not starting direction."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "law-of-chemical-equilibrium",
+      "number": 3,
+      "title": "Law of Chemical Equilibrium and Kc",
+      "summary": "Guldberg and Waage found, from real experimental data, that the exponents in an equilibrium expression are exactly the reaction's own stoichiometric coefficients — a discovery that gives every reversible reaction one fixed equilibrium constant, Kc, at a given temperature.",
+      "sections": [
+        {
+          "heading": "Guldberg and Waage's equilibrium law",
+          "body": "In 1864, Norwegian chemists Cato Guldberg and Peter Waage proposed, based on experimental study of many reversible reactions, that for a reaction A + B ⇌ C + D, the equilibrium concentrations are related by Kc = [C][D] / [A][B], where Kc is the equilibrium constant. This is also called the law of mass action, from the old habit of calling concentration 'active mass'. (NCERT 6.3)",
+          "key_point": "Guldberg and Waage's equilibrium law (1864): at a given temperature, the ratio of product to reactant concentrations (each raised to its coefficient) settles to one constant value, Kc, for any reversible reaction."
+        },
+        {
+          "heading": "Finding the right expression: the H2+I2⇌2HI example",
+          "body": "For H₂(g) + I₂(g) ⇌ 2HI(g), six sets of experiments — some starting with just H₂ and I₂, others with just HI — all reached equilibrium, but a simple ratio like [HI]/[H₂][I₂] wasn't constant across them. Squaring the HI term, though — [HI]²/[H₂][I₂] — gave the same constant value in every single case. The power each concentration is raised to turns out to exactly match its stoichiometric coefficient in the balanced equation — 2 for HI, 1 each for H₂ and I₂. (NCERT 6.3, Table 6.2-6.3)",
+          "key_point": "Experimentally, only [HI]²/[H₂][I₂] — not the simpler [HI]/[H₂][I₂] — comes out constant across every starting condition, because the correct exponents are the reaction's own stoichiometric coefficients."
+        },
+        {
+          "heading": "Writing Kc for a general reaction",
+          "body": "For a general reaction aA + bB ⇌ cC + dD, the equilibrium constant is Kc = [C]^c[D]^d / [A]^a[B]^b, where the bracketed terms are equilibrium concentrations (the 'eq' subscript is conventionally dropped) — this is the law of chemical equilibrium, or equilibrium law. Physical states (s, l, g) are generally omitted when writing the expression, and it applies equally to complex, multi-term equations like 4NH₃(g) + 5O₂(g) ⇌ 4NO(g) + 6H₂O(g), giving Kc = [NO]⁴[H₂O]⁶ / [NH₃]⁴[O₂]⁵. (NCERT 6.3)",
+          "key_point": "Kc = [products]^(coefficients) / [reactants]^(coefficients) — every exponent is exactly the substance's own stoichiometric coefficient in the balanced equation, no matter how many terms are involved."
+        },
+        {
+          "heading": "Kc for the reverse reaction and scaled equations",
+          "body": "The equilibrium constant for a reaction run in reverse is exactly the reciprocal of the forward one: if Kc = [HI]²/[H₂][I₂] for H₂+I₂⇌2HI, then K'c = [H₂][I₂]/[HI]² = 1/Kc for the reverse reaction 2HI⇌H₂+I₂. Similarly, if a balanced equation's coefficients are all scaled by a factor n, its equilibrium constant becomes Kc raised to that same power n — halving the coefficients (½H₂+½I₂⇌HI) gives an equilibrium constant of Kc^(1/2). Because Kc's numerical value depends on exactly how the equation is written, it's essential to specify the balanced equation whenever quoting a Kc value. (NCERT 6.3, Table 6.4)",
+          "key_point": "Reversing an equation inverts its Kc (K'c = 1/Kc); scaling an equation's coefficients by n raises Kc to the power n — so a quoted Kc value is meaningless without the exact balanced equation it belongs to."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "homogeneous-heterogeneous-equilibria",
+      "number": 4,
+      "title": "Homogeneous and Heterogeneous Equilibria",
+      "summary": "Whether an equilibrium is written in terms of concentration (Kc) or partial pressure (Kp) is really just a matter of convenience for gas-phase reactions — and when a reaction includes a pure solid or liquid, its constant concentration drops out of the expression entirely, simplifying heterogeneous equilibria considerably.",
+      "sections": [
+        {
+          "heading": "Homogeneous equilibria",
+          "body": "In a homogeneous equilibrium, every reactant and product is in the same phase — the gaseous synthesis of ammonia, N₂(g)+3H₂(g)⇌2NH₃(g), and reactions entirely within an aqueous solution, like CH₃COOC₂H₅(aq)+H₂O(l)⇌CH₃COOH(aq)+C₂H₅OH(aq), are both homogeneous. (NCERT 6.4)",
+          "key_point": "A homogeneous equilibrium has every reactant and product in the same phase — whether that's an all-gas or an all-aqueous-solution system."
+        },
+        {
+          "heading": "Kp for gaseous equilibria",
+          "body": "For gas-phase reactions, it's often more convenient to express the equilibrium constant in terms of partial pressure rather than concentration, since p ∝ [gas] at constant temperature (from the ideal gas law, p = [gas]RT). For H₂(g)+I₂(g)⇌2HI(g), Kp = p(HI)²/[p(H₂)p(I₂)] can be written exactly parallel to Kc = [HI]²/[H₂][I₂]. (NCERT 6.4.1)",
+          "key_point": "Kp is simply Kc's partial-pressure equivalent, valid because p ∝ [gas] at fixed temperature — the exponents work exactly the same way as in Kc."
+        },
+        {
+          "heading": "Relating Kp and Kc",
+          "body": "Substituting p = [gas]RT into the Kp expression and comparing with Kc shows the general relationship Kp = Kc(RT)^Δn, where Δn = (moles of gaseous products) − (moles of gaseous reactants) in the balanced equation. For H₂+I₂⇌2HI, Δn = 0, so Kp = Kc exactly — but for N₂+3H₂⇌2NH₃, Δn = 2−4 = −2, so Kp = Kc(RT)⁻². Kp must always use pressure in bar, since 1 bar is the standard state for pressure (1 bar = 10⁵ Pa). (NCERT 6.4.1)",
+          "key_point": "Kp = Kc(RT)^Δn, where Δn is the change in moles of gas — Kp and Kc are equal only when Δn = 0; otherwise they differ by a factor of (RT) raised to that mole-change."
+        },
+        {
+          "heading": "Heterogeneous equilibria",
+          "body": "A heterogeneous equilibrium has more than one phase present — water vapour over liquid water, or a solid in equilibrium with its saturated solution, are both examples. Since the concentration of a pure solid or pure liquid is constant regardless of how much is present, these terms are simply dropped from the equilibrium expression (though the solid or liquid must still physically be present for the equilibrium to exist). For CaCO₃(s)⇌CaO(s)+CO₂(g), this simplifies Kc to just [CO₂(g)], or equivalently Kp = p(CO₂) — meaning there's one fixed CO₂ pressure in equilibrium with CaCO₃ and CaO at a given temperature (2.0×10⁵ Pa at 1100 K, giving Kp = 2.00 in units of bar). (NCERT 6.5)",
+          "key_point": "Pure solids and liquids are left out of an equilibrium expression entirely, since their concentration never changes — CaCO₃'s decomposition equilibrium simplifies down to just the CO₂ pressure (Kp = p(CO₂))."
+        },
+        {
+          "heading": "Units of the equilibrium constant",
+          "body": "Kc's units come from substituting concentrations in mol/L; Kp's come from substituting pressures in Pa, kPa, bar or atm — and both end up dimensionless only when the exponents in the numerator and denominator happen to cancel exactly, as in H₂+I₂⇌2HI. For N₂O₄(g)⇌2NO₂(g), Kc carries units of mol/L and Kp carries units of bar, since the exponents don't cancel. Equilibrium constants can also be made formally dimensionless by expressing every concentration or pressure relative to its standard state (1 bar for a gas, 1 M for a solute) — but the resulting numerical value then depends on which standard state was chosen. (NCERT 6.5)",
+          "key_point": "Equilibrium constants only come out dimensionless when the reaction's total gas/solute exponents cancel between products and reactants — otherwise Kc carries mol/L-based units and Kp carries pressure-based units."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "equilibrium-constant-applications",
+      "number": 5,
+      "title": "Applications of Equilibrium Constants",
+      "summary": "Once you have Kc, it tells you three practical things at once: roughly how far a reaction goes (its extent), which way an out-of-equilibrium mixture will shift (via the reaction quotient, Qc), and — via its direct link to Gibbs energy — why that extent is exactly what thermodynamics would predict in the first place.",
+      "sections": [
+        {
+          "heading": "Key features of the equilibrium constant",
+          "body": "Before applying Kc, five properties are worth keeping in mind: the equilibrium expression only applies once concentrations have actually reached constant values; Kc's value doesn't depend on the initial concentrations used to get there; Kc is temperature-dependent, with one unique value for a given balanced equation at a given temperature; the reverse reaction's Kc is the inverse of the forward one; and multiplying or dividing a balanced equation by an integer raises Kc to that same power. (NCERT 6.6)",
+          "key_point": "Kc has one fixed value per balanced equation per temperature, independent of starting concentrations — everything else (direction predictions, concentration calculations) builds on that single fact."
+        },
+        {
+          "heading": "What Kc tells you about a reaction's extent",
+          "body": "A large Kc means products dominate at equilibrium; a small Kc means reactants dominate — since products sit in the numerator and reactants in the denominator of the equilibrium expression. As a rough guide: Kc > 10³ means the reaction proceeds nearly to completion (H₂+Cl₂⇌2HCl at 300 K has Kc = 4.0×10³¹); Kc < 10⁻³ means the reaction barely proceeds at all (2H₂O⇌2H₂+O₂ at 500 K has Kc = 4.1×10⁻⁴⁸); and Kc between 10⁻³ and 10³ means appreciable amounts of both reactants and products coexist at equilibrium (H₂+I₂⇌2HI at 700 K has Kc = 57.0). Importantly, Kc says nothing at all about how fast equilibrium is reached — only how far the reaction goes once it gets there. (NCERT 6.6.1)",
+          "key_point": "Kc > 10³ means the reaction goes nearly to completion; Kc < 10⁻³ means it barely proceeds; in between means real, appreciable amounts of both reactants and products — but Kc never says anything about reaction rate."
+        },
+        {
+          "heading": "Predicting direction with the reaction quotient, Qc",
+          "body": "The reaction quotient, Qc, is calculated exactly like Kc but using concentrations at any arbitrary moment, not necessarily equilibrium values: Qc = [C]^c[D]^d/[A]^a[B]^b. Comparing Qc to Kc predicts which way a reaction will shift to reach equilibrium: if Qc < Kc, the reaction proceeds forward (toward products); if Qc > Kc, it proceeds in reverse (toward reactants); if Qc = Kc, the system is already at equilibrium and no net change occurs. (NCERT 6.6.2)",
+          "key_point": "Comparing the reaction quotient Qc to Kc predicts direction instantly: Qc < Kc means the reaction runs forward, Qc > Kc means it runs in reverse, Qc = Kc means it's already at equilibrium."
+        },
+        {
+          "heading": "Calculating equilibrium concentrations",
+          "body": "Given initial concentrations and Kc, equilibrium concentrations can be worked out with a standard five-step method: write the balanced equation; tabulate each species' initial concentration, its change on reaching equilibrium (in terms of an unknown, x, using the reaction's stoichiometry), and its resulting equilibrium concentration; substitute these equilibrium expressions into the Kc equation and solve for x (choosing whichever root of a quadratic makes physical sense — concentrations can't be negative or exceed the initial amount); calculate the actual equilibrium concentrations from that x; and check the result by substituting back into the equilibrium expression. (NCERT 6.6.3)",
+          "key_point": "Solving for equilibrium concentrations always follows the same pattern: tabulate initial/change/equilibrium concentrations in terms of one unknown x, solve the Kc equation for x, then reject any root that gives a physically impossible (negative, or too-large) concentration."
+        },
+        {
+          "heading": "The equilibrium constant and Gibbs energy",
+          "body": "Kc connects directly to reaction thermodynamics: ∆G = ∆G° + RT ln Q, and at equilibrium (∆G = 0, Q = Kc), this becomes ∆G° = −RT ln K, or K = e^(−∆G°/RT). If ∆G° is negative, K > 1, meaning the reaction is spontaneous and proceeds forward far enough that products dominate; if ∆G° is positive, K < 1, meaning the reaction is non-spontaneous in the forward direction and only a small amount of product forms. This gives a direct thermodynamic explanation for why Kc's magnitude reflects how far a reaction proceeds — it's really just a restatement of how favourable the reaction's Gibbs energy change is. (NCERT 6.7)",
+          "key_point": "∆G° = −RT ln K links equilibrium directly to thermodynamics: negative ∆G° gives K > 1 (products favoured), positive ∆G° gives K < 1 (reactants favoured) — Kc's size is really just Gibbs energy in different units."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "le-chatelier",
+      "number": 6,
+      "title": "Le Chatelier's Principle",
+      "summary": "Disturbing an equilibrium — by adding a substance, changing pressure, or changing temperature — always triggers a shift that partially undoes the disturbance, never one that reinforces it; a catalyst and an inert gas are the two notable exceptions that leave the equilibrium position completely alone.",
+      "sections": [
+        {
+          "heading": "Le Chatelier's Principle",
+          "body": "Le Chatelier's Principle states that when any factor determining a system's equilibrium is changed, the system responds in whatever way reduces or counteracts that change. It applies to every physical and chemical equilibrium, and gives a way to predict — qualitatively — how concentration, pressure, temperature, or the addition of an inert gas or catalyst will shift an equilibrium. This matters enormously in industrial chemistry, where choosing the right conditions (as in the Haber process for ammonia) can be the difference between an economically viable process and a failed one. (NCERT 6.8)",
+          "key_point": "Le Chatelier's Principle: disturbing an equilibrium (via concentration, pressure, temperature, etc.) always triggers a shift that partially counteracts the disturbance — never one that reinforces it."
+        },
+        {
+          "heading": "Effect of concentration change",
+          "body": "Adding more of a reactant or product shifts the equilibrium in whichever direction consumes the added substance; removing a reactant or product shifts it in whichever direction replenishes what was removed. Adding H₂ to the equilibrium H₂(g)+I₂(g)⇌2HI(g) makes Qc drop below Kc, so the reaction runs forward, consuming the added H₂ (along with some I₂) to make more HI. This is exploited industrially: continuously removing ammonia (by liquefying it) or CO₂ (venting it from a lime kiln) keeps Qc below Kc and drives those reactions further toward completion than they'd otherwise reach. (NCERT 6.8.1)",
+          "key_point": "Adding a substance shifts equilibrium to consume it; removing one shifts equilibrium to replace it — continuously removing a product (as with liquefied ammonia, or CO₂ vented from a lime kiln) is a standard industrial trick to push a reaction further toward completion."
+        },
+        {
+          "heading": "Effect of pressure and volume change",
+          "body": "Compressing a gaseous equilibrium mixture (reducing its volume, raising its pressure) shifts the equilibrium toward whichever side has fewer moles of gas, since that's the direction that reduces the total pressure again — for CO(g)+3H₂(g)⇌CH₄(g)+H₂O(g) (4 moles of gas becoming 2), halving the volume doubles the pressure and pushes the reaction forward, toward the smaller mole count. Conversely, C(s)+CO₂(g)⇌2CO(g) shifts in reverse under increased pressure, since the forward direction increases the gas mole count. Pressure changes only matter for equilibria involving gases with unequal mole counts on each side — heterogeneous equilibria are affected only through their gas-phase components, since solid and liquid volumes barely respond to pressure at all. (NCERT 6.8.2)",
+          "key_point": "Increasing pressure (or decreasing volume) shifts a gaseous equilibrium toward whichever side has fewer moles of gas — it has no effect at all if the mole count is the same on both sides, or on solids/liquids in a heterogeneous equilibrium."
+        },
+        {
+          "heading": "Effect of inert gas addition",
+          "body": "Adding an inert gas like argon at constant volume doesn't disturb the equilibrium at all, since it doesn't change the partial pressure or molar concentration of any actual reactant or product — the reaction quotient only changes if the added gas is itself part of the reaction. (NCERT 6.8.3)",
+          "key_point": "Adding an inert gas at constant volume leaves an equilibrium completely undisturbed — it changes total pressure, but not any individual reactant or product's partial pressure or concentration."
+        },
+        {
+          "heading": "Effect of temperature change and catalysts",
+          "body": "Unlike concentration or pressure changes (which shift the reaction quotient without changing Kc itself), a temperature change actually changes the value of Kc, and the direction depends on the reaction's sign of ∆H: an exothermic reaction's Kc falls as temperature rises, while an endothermic reaction's Kc rises. Ammonia synthesis (∆H = −92.38 kJ mol⁻¹) is exothermic, so raising temperature shifts equilibrium left and lowers the ammonia yield — low temperature favours high yield, but reacts too slowly to be practical, which is why an iron catalyst is used instead to speed the reaction up at a more favourable temperature. A catalyst, in general, speeds up both the forward and reverse reactions equally (by lowering the activation energy for both by exactly the same amount), so it changes how fast equilibrium is reached but never the equilibrium composition itself — and it doesn't appear anywhere in the equilibrium constant expression. (NCERT 6.8.4, 6.8.5)",
+          "key_point": "Temperature is the one variable that actually changes Kc itself (up for endothermic, down for exothermic reactions) — a catalyst, by contrast, speeds up reaching equilibrium without changing Kc or the equilibrium composition at all."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "ionic-equilibrium",
+      "number": 7,
+      "title": "Ionic Equilibrium in Solution",
+      "summary": "Weak electrolytes only partially ionise in water, setting up a genuine equilibrium between ions and intact molecules — and the definition of what actually counts as an acid or base has broadened over time, from Arrhenius's H⁺/OH⁻ picture, to Brønsted-Lowry's proton donor/acceptor framework, to Lewis's still more general electron-pair acceptor/donor picture.",
+      "sections": [
+        {
+          "heading": "Electrolytes: strong vs weak",
+          "body": "Substances that conduct electricity in aqueous solution are electrolytes; those that don't (like sugar) are non-electrolytes. Faraday further split electrolytes into strong (almost completely ionised in water — sodium chloride solution is essentially all Na⁺ and Cl⁻ ions) and weak (only partially ionised — acetic acid solution is mostly intact, unionised acetic acid molecules, with less than 5% converted to ions). Dissociation refers to ions separating in water that already existed as ions in the solid (like NaCl); ionization refers to a genuinely neutral molecule splitting into ions once in solution (like acetic acid) — though the two terms are often used interchangeably. (NCERT 6.9)",
+          "key_point": "Strong electrolytes (like NaCl) ionise almost completely in water; weak electrolytes (like acetic acid, under 5% ionised) reach a genuine equilibrium between ions and unionised molecules — that equilibrium is what's meant by ionic equilibrium."
+        },
+        {
+          "heading": "Ionic equilibrium in weak electrolytes",
+          "body": "Because a weak electrolyte only partially ionises, it sets up a dynamic equilibrium between the unionised molecules and the ions they produce — this is ionic equilibrium. Water itself has a very high dielectric constant (80), which weakens the electrostatic attraction between oppositely charged ions by that same factor, letting ions separate and move freely in solution once hydrated — which is exactly why water is such an effective solvent for ionic and polar compounds. (NCERT 6.9, 6.10)",
+          "key_point": "A weak electrolyte sets up a genuine dynamic equilibrium between its ions and unionised molecules; water's unusually high dielectric constant (80) is what lets ionic compounds separate and stay dissolved in the first place."
+        },
+        {
+          "heading": "Arrhenius acids and bases",
+          "body": "Arrhenius defined an acid as a substance that dissociates in water to give H⁺(aq), and a base as one that gives OH⁻(aq): HX(aq) → H⁺(aq) + X⁻(aq); MOH(aq) → M⁺(aq) + OH⁻(aq). Since a bare proton is far too reactive to exist freely in solution, it immediately bonds to a water molecule's lone pair to form the hydronium ion, H₃O⁺ — so H⁺(aq) and H₃O⁺(aq) are used interchangeably to mean the same hydrated proton. The Arrhenius definition has real limits, though: it only applies to aqueous solutions, and it can't explain the basicity of substances like ammonia, which has no hydroxyl group at all. (NCERT 6.10.1)",
+          "key_point": "Arrhenius acids donate H⁺(aq) (really H₃O⁺, since a bare proton can't exist free in solution) and bases donate OH⁻(aq) — but the definition only works in water and can't explain bases like ammonia, which have no OH group."
+        },
+        {
+          "heading": "Brønsted-Lowry acids and bases: conjugate pairs",
+          "body": "Brønsted and Lowry generalised acids and bases in terms of proton transfer: an acid donates a proton (H⁺), a base accepts one. In NH₃ + H₂O ⇌ NH₄⁺ + OH⁻, water donates a proton (acting as the acid) and ammonia accepts it (acting as the base); in the reverse direction, NH₄⁺ donates a proton (acting as an acid) and OH⁻ accepts it (acting as a base). Species that differ by exactly one proton are a conjugate acid-base pair — OH⁻ is the conjugate base of the acid H₂O, and NH₄⁺ is the conjugate acid of the base NH₃. A strong acid always has a weak conjugate base, and vice versa. Some species, like water, can act as either an acid or a base depending on what they're reacting with — this dual capacity is what makes water's own self-ionization possible. (NCERT 6.10.2)",
+          "key_point": "A Brønsted-Lowry acid donates a proton, a base accepts one — a conjugate acid-base pair differs by exactly one proton, and a strong acid always has a weak conjugate base (and vice versa)."
+        },
+        {
+          "heading": "Lewis acids and bases",
+          "body": "G.N. Lewis, in 1923, generalised further still: a Lewis acid accepts an electron pair, a Lewis base donates one. This barely changes what counts as a base (still an electron-pair donor, same as Brønsted-Lowry), but it dramatically expands what counts as an acid, since a Lewis acid doesn't need a proton at all — BF₃, an electron-deficient species with no acidic hydrogen, reacts with NH₃'s lone pair (BF₃ + :NH₃ → BF₃:NH₃) purely as a Lewis acid. Other electron-deficient species like AlCl₃, Co³⁺ and Mg²⁺ can act as Lewis acids, while electron-pair-rich species like H₂O, NH₃ and OH⁻ act as Lewis bases. (NCERT 6.10.3)",
+          "key_point": "Lewis acids accept an electron pair rather than specifically donating a proton — this is what lets proton-free species like BF₃ and AlCl₃ count as acids, something neither the Arrhenius nor Brønsted-Lowry definitions can capture."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "ionization-of-acids-bases",
+      "number": 8,
+      "title": "Ionization of Acids and Bases",
+      "summary": "Water's own ionic product sets up the pH scale, and the same kind of ionization constant — Ka for acids, Kb for bases — measures how strong a weak acid or base actually is, with the two connected for any conjugate pair by one simple relationship, Ka × Kb = Kw.",
+      "sections": [
+        {
+          "heading": "The ionic product of water",
+          "body": "Water is unique in acting as both acid and base at once: one H₂O molecule donates a proton while another accepts it, 2H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq). Since water's own concentration stays essentially constant (it's the solvent), it's absorbed into a new constant, the ionic product of water, Kw = [H⁺][OH⁻]. At 298 K, [H⁺] = [OH⁻] = 1.0×10⁻⁷ M, giving Kw = 1.0×10⁻¹⁴ M². Comparing this to water's total molar concentration (55.55 M) shows only about 2 in every 10⁹ water molecules are actually ionised at any moment — equilibrium overwhelmingly favours undissociated water. Solutions are classified by comparing [H₃O⁺] to [OH⁻]: acidic when [H₃O⁺] > [OH⁻], neutral when equal, basic when [H₃O⁺] < [OH⁻]. (NCERT 6.11.1)",
+          "key_point": "Kw = [H⁺][OH⁻] = 1.0×10⁻¹⁴ at 298 K — with only about 2 in a billion water molecules actually ionised at any moment, and whether a solution is acidic, neutral or basic just comes down to comparing [H₃O⁺] to [OH⁻]."
+        },
+        {
+          "heading": "The pH scale",
+          "body": "Because hydrogen ion concentrations span such an enormous range, they're conventionally expressed on the logarithmic pH scale: pH = −log[H⁺]. Pure water, with [H⁺] = 10⁻⁷ M, has pH = 7; acidic solutions have pH < 7 ([H⁺] > 10⁻⁷ M), basic solutions have pH > 7 ([H⁺] < 10⁻⁷ M). Taking the negative log of Kw = [H₃O⁺][OH⁻] = 10⁻¹⁴ gives pKw = pH + pOH = 14 at 298 K — since the scale is logarithmic, a change of just one pH unit means a tenfold change in [H⁺]. pH can be measured roughly with pH paper (accurate to about ±0.5) or precisely with a pH meter (to within 0.001). (NCERT 6.11.2)",
+          "key_point": "pH = −log[H⁺], and pH + pOH = 14 at 298 K always — because the scale is logarithmic, each single pH unit represents a full tenfold change in hydrogen ion concentration."
+        },
+        {
+          "heading": "Ionization constants of weak acids",
+          "body": "For a weak acid HX partially ionising, HX(aq) + H₂O(l) ⇌ H₃O⁺(aq) + X⁻(aq), the ionization (or dissociation) constant is Ka = [H⁺][X⁻]/[HX] — a larger Ka means a stronger acid. If c is the acid's initial concentration and α its degree of ionization (the fraction that actually ionises), Ka = cα²/(1−α); pKa = −log(Ka) gives the same logarithmic convenience as pH. Hydrofluoric acid (Ka = 3.5×10⁻⁴) is a much stronger acid than phenol (Ka = 1.3×10⁻¹⁰), for instance — both weak, but by very different degrees. (NCERT 6.11.3)",
+          "molecule_ids": ["phenol"],
+          "key_point": "Ka = cα²/(1−α) measures a weak acid's strength directly — larger Ka (or smaller pKa) means a stronger acid, spanning orders of magnitude even among 'weak' acids (phenol's Ka is six orders of magnitude smaller than hydrofluoric acid's)."
+        },
+        {
+          "heading": "Ionization constants of weak bases",
+          "body": "Weak base ionization works the same way: for MOH(aq) ⇌ M⁺(aq) + OH⁻(aq), the base ionization constant is Kb = [M⁺][OH⁻]/[MOH], or Kb = cα²/(1−α) in terms of initial concentration and degree of ionization. Amines — ammonia derivatives with one or more hydrogens replaced by another group — are common weak bases: aniline (Kb = 4.27×10⁻¹⁰) is a considerably weaker base than ammonia itself (Kb = 1.77×10⁻⁵), reflecting how much the attached phenyl group changes the nitrogen's willingness to accept a proton. (NCERT 6.11.4)",
+          "molecule_ids": ["aniline"],
+          "key_point": "Kb = cα²/(1−α) measures a weak base's strength the same way Ka does for acids — aniline's much smaller Kb than ammonia's shows how substituents can weaken a base considerably."
+        },
+        {
+          "heading": "The relationship between Ka and Kb",
+          "body": "For any conjugate acid-base pair, Ka and Kb are linked by Ka × Kb = Kw, since adding the acid-ionization and base-ionization reactions together gives exactly water's own self-ionization — and equilibrium constants for reactions added together multiply. For ammonia and its conjugate acid NH₄⁺, Ka(NH₄⁺) × Kb(NH₃) = (5.6×10⁻¹⁰)(1.8×10⁻⁵) = 1.0×10⁻¹⁴ = Kw. Taking negative logs gives the equally useful pKa + pKb = pKw = 14 (at 298 K) — so knowing either the acid or base ionization constant of a conjugate pair immediately gives the other. (NCERT 6.11.5)",
+          "key_point": "Ka × Kb = Kw for any conjugate acid-base pair (equivalently pKa + pKb = 14 at 298 K) — knowing one ionization constant of a conjugate pair always gives you the other for free."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "polyprotic-acids-common-ion-effect",
+      "number": 9,
+      "title": "Polyprotic Acids, Acid Strength and the Common Ion Effect",
+      "summary": "Some acids can donate more than one proton, but always more reluctantly with each one; what actually makes any acid strong or weak comes down to its H-A bond strength and polarity — and adding an ion already present in an ionization or salt-hydrolysis equilibrium reliably shifts it, exactly as Le Chatelier's principle predicts.",
+      "sections": [
+        {
+          "heading": "Polybasic (polyprotic) acids",
+          "body": "Acids like oxalic acid, sulphuric acid and phosphoric acid have more than one ionizable proton per molecule — polybasic or polyprotic acids. For a dibasic acid H₂X, each proton comes off in its own step, with its own constant: Ka1 = [H⁺][HX⁻]/[H2X] for the first, Ka2 = [H⁺][X²⁻]/[HX⁻] for the second (and so on for tribasic acids). Each successive ionization constant is always smaller than the one before it, since it's harder to pull a positively charged proton away from an already-negative ion than from a neutral molecule — removing a proton from HCO₃⁻ is harder than from neutral H₂CO₃, for the same underlying reason. (NCERT 6.11.6)",
+          "key_point": "A polyprotic acid's successive ionization constants always decrease (Ka1 > Ka2 > Ka3...), since pulling a positive proton away gets progressively harder once the remaining species already carries a negative charge."
+        },
+        {
+          "heading": "What makes one acid stronger than another",
+          "body": "An acid's strength comes down to how easily its H–A bond breaks, which depends on both bond strength and bond polarity. Down a group (comparing elements of similar electronegativity but increasing size), bond strength is the dominant factor: as A gets larger, the H–A bond weakens and acid strength increases, giving the trend HF << HCl << HBr << HI. Across a period (comparing elements of similar size but increasing electronegativity), bond polarity dominates instead: as A becomes more electronegative, the bond's polarity increases and cleaves more easily, giving CH₄ < NH₃ < H₂O < HF. (NCERT 6.11.7)",
+          "key_point": "Acid strength trends split by direction: down a group, weakening bond strength (larger A) drives the trend (HF << HI); across a period, increasing bond polarity (more electronegative A) drives it instead (CH₄ < HF)."
+        },
+        {
+          "heading": "The common ion effect",
+          "body": "Adding an ion to a solution that's already part of that solution's own ionization equilibrium shifts the equilibrium to reduce that ion's concentration — the common ion effect, a direct application of Le Chatelier's principle. Adding acetate ions (from sodium acetate, say) to an acetic acid solution suppresses the acid's own ionization, since CH₃COOH ⇌ H⁺ + CH₃COO⁻ shifts left to counteract the added CH₃COO⁻ — lowering [H⁺] and raising the solution's pH compared to acetic acid alone at the same concentration. The same logic applies to adding a common cation to a weak base's equilibrium. (NCERT 6.11.8)",
+          "key_point": "The common ion effect: adding an ion already present in an ionization equilibrium (like acetate to acetic acid) suppresses that equilibrium's own ionization — a direct, practical application of Le Chatelier's principle."
+        },
+        {
+          "heading": "Hydrolysis of salts",
+          "body": "Salts formed from a strong acid and strong base (like NaCl) simply hydrate in water without hydrolysing, giving a neutral, pH 7 solution. But salts involving a weak acid or weak base do hydrolyse — their ions react with water to regenerate the weak acid or base. Sodium acetate (from weak acetic acid + strong NaOH) hydrolyses at the acetate ion to release OH⁻, giving a solution with pH > 7; ammonium chloride (from weak NH₄OH + strong HCl) hydrolyses at the ammonium ion to release H⁺, giving pH < 7. For a salt of a weak acid and weak base (like ammonium acetate), the resulting pH depends on both pKa and pKb: pH = 7 + ½(pKa − pKb) — greater than 7 if the acid is weaker than the base's conjugate acid, less than 7 if the reverse. (NCERT 6.11.9)",
+          "key_point": "Salts of strong acid + strong base don't hydrolyse (pH 7); salts involving a weak acid or weak base do — weak-acid salts give pH > 7, weak-base salts give pH < 7, and weak+weak salts land at pH = 7 + ½(pKa − pKb)."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "buffer-solutions",
+      "number": 10,
+      "title": "Buffer Solutions",
+      "summary": "A buffer holds its pH steady against small additions of acid or base, or against dilution — and the Henderson-Hasselbalch equation makes designing one for a specific target pH almost mechanical: just pick a weak acid whose pKa sits close to that target.",
+      "sections": [
+        {
+          "heading": "What a buffer solution does",
+          "body": "A buffer solution resists changes in pH when small amounts of acid or base are added, or when it's diluted — essential for biological systems like blood, and for many chemical processes that need a stable pH. A mixture of acetic acid and sodium acetate buffers around pH 4.75; a mixture of ammonium chloride and ammonium hydroxide buffers around pH 9.25. (NCERT 6.12)",
+          "key_point": "A buffer solution resists pH change on dilution or on adding small amounts of acid/base — built from a weak acid (or base) paired with its own conjugate salt."
+        },
+        {
+          "heading": "The Henderson-Hasselbalch equation",
+          "body": "For a weak acid HA and its conjugate base A⁻ (from a salt), pH relates to the acid's own Ka and the ratio of salt to acid concentrations by the Henderson-Hasselbalch equation: pH = pKa + log([Salt]/[Acid]). If [Salt] equals [Acid], the log term is zero and pH = pKa exactly — so choosing an acid whose pKa is close to the target pH, in equal molar concentration with its salt, is the simplest way to hit a specific buffer pH. An equivalent equation, pOH = pKb + log([Conjugate acid]/[Base]), applies to a weak base and its conjugate acid. (NCERT 6.12.1)",
+          "key_point": "Henderson-Hasselbalch: pH = pKa + log([Salt]/[Acid]) — when salt and acid concentrations are equal, pH exactly equals pKa, which is the whole trick to designing a buffer for a specific target pH."
+        },
+        {
+          "heading": "Designing a buffer for a target pH",
+          "body": "To buffer near a specific pH, pick a weak acid whose pKa is close to that target and mix it with its conjugate base salt in roughly equal concentration — acetic acid (pKa 4.76) paired with sodium acetate buffers near pH 4.76, while ammonia (with a conjugate acid pKa of 9.25) paired with ammonium chloride buffers near pH 9.25. A buffer's pH doesn't change on dilution, since the ratio [Salt]/[Acid] in the Henderson-Hasselbalch equation stays the same even as both concentrations drop together. (NCERT 6.12.1)",
+          "key_point": "A buffer's pH stays fixed on dilution because the Henderson-Hasselbalch ratio [Salt]/[Acid] doesn't change even as both concentrations shrink together — which is exactly what makes buffers useful for maintaining a stable pH."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "solubility-equilibria",
+      "number": 11,
+      "title": "Solubility Equilibria",
+      "summary": "A sparingly soluble salt sitting in its own saturated solution is just another equilibrium, described by its own constant — the solubility product, Ksp — which behaves exactly the way Le Chatelier's principle predicts when a common ion or a pH change is introduced.",
+      "sections": [
+        {
+          "heading": "The solubility product constant",
+          "body": "For a sparingly soluble salt like barium sulphate in equilibrium with its saturated solution, BaSO₄(s) ⇌ Ba²⁺(aq) + SO₄²⁻(aq), the equilibrium constant simplifies (since [BaSO₄(s)] is constant) to the solubility product constant, Ksp = [Ba²⁺][SO₄²⁻]. For BaSO₄, Ksp = 1.1×10⁻¹⁰ at 298 K; since both ions come from the same formula unit, their concentrations are equal to the molar solubility S, so Ksp = S², giving S = 1.05×10⁻⁵ mol L⁻¹. Whether a salt dissolves at all depends on a competition between its lattice enthalpy (holding the ions together, working against dissolution) and the solvation enthalpy of its ions (released as they're solvated, working for dissolution) — a salt only dissolves appreciably if solvation enthalpy exceeds lattice enthalpy. (NCERT 6.13, 6.13.1)",
+          "key_point": "Solubility product, Ksp = [cation][anion] (each raised to its stoichiometric count), simplifies a saturated solution's equilibrium to just its ion concentrations — whether a salt dissolves at all comes down to solvation enthalpy beating lattice enthalpy."
+        },
+        {
+          "heading": "Solubility categories and calculating solubility from Ksp",
+          "body": "Salts are grouped by solubility: soluble (solubility > 0.1 M), slightly soluble (0.01–0.1 M), and sparingly soluble (< 0.01 M) — it's this last category where Ksp is most useful. For a general salt MxXy with molar solubility S, Ksp = (xS)^x(yS)^y = x^x·y^y·S^(x+y), so S = (Ksp/(x^x·y^y))^(1/(x+y)). For A₂X₃ with Ksp = 1.1×10⁻²³, this gives [A³⁺] = 2S, [X²⁻] = 3S, so Ksp = 108S⁵, and S works out to 1.0×10⁻⁵ mol L⁻¹. Comparing Ksp values directly only ranks solubility correctly when two salts have the same ion stoichiometry — otherwise the actual solubility (via this formula) has to be calculated to compare them properly. (NCERT 6.13.1)",
+          "key_point": "For a salt MxXy, solubility S = (Ksp/(x^x·y^y))^(1/(x+y)) — comparing raw Ksp values only ranks solubility correctly when two salts split into the same number of ions; otherwise you have to actually calculate S for each."
+        },
+        {
+          "heading": "The common ion effect on solubility",
+          "body": "Just as with weak acid/base ionization, adding a common ion suppresses a sparingly soluble salt's own dissolution, by Le Chatelier's principle — dissolving Ni(OH)₂ in 0.10 M NaOH (rather than pure water) means the OH⁻ already present from NaOH suppresses further dissociation of Ni(OH)₂, dramatically lowering its solubility compared to pure water. This is used practically for gravimetric analysis — precipitating silver as silver chloride, iron(III) as its hydroxide, or barium as its sulphate, all made more complete by adding excess common ion. The solubility of salts of weak acids (like phosphates) also depends on pH: at lower pH, the anion gets protonated (removed from the equilibrium as HX), which — again by Le Chatelier's principle — increases the salt's overall solubility. (NCERT 6.13.2)",
+          "key_point": "A common ion suppresses a sparingly soluble salt's dissolution (used deliberately in gravimetric precipitation), while lowering pH increases the solubility of salts built from weak acids, since protonating the anion pulls it out of the solubility equilibrium."
+        }
+      ],
+      "estimated_minutes": 15
+    }
   ]
 }
