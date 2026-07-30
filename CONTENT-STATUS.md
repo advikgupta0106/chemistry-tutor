@@ -284,8 +284,62 @@ subsections entirely:
 ---
 
 ## Equilibrium — `content/topics/equilibrium.json`
-Source: `content/source/unit-6.pdf`
-Status: ⬜ **not started**
+Source: `content/source/unit-6.pdf` (53 pages — the largest unit yet)
+
+### Chapter list corrected
+The original 7-chapter list skipped or over-compressed several
+substantial sections:
+- **Added** "Applications of Equilibrium Constants" (§6.6, 6.7) —
+  predicting extent/direction via Qc, calculating equilibrium
+  concentrations, the K-Gibbs energy relationship. Missing entirely.
+- **Added** "Solubility Equilibria" (§6.13) — Ksp, molar solubility,
+  common ion effect on solubility. Missing entirely.
+- **Split** the old single "Acids, Bases and Buffer Solutions" chapter
+  (§6.11 + §6.12 crammed together) into three: "Ionization of Acids
+  and Bases" (6.11.1-6.11.5), "Polyprotic Acids, Acid Strength and the
+  Common Ion Effect" (6.11.6-6.11.9), and "Buffer Solutions" (6.12).
+- Renumbered all 11 chapters (was 7) to the PDF's own order.
+
+### Chapters filled
+| # | Chapter | NCERT §§ covered | Sections | Molecules linked |
+|---|---|---|---|---|
+| 1 | Equilibrium in Physical Processes | 6.1.1–6.1.5 | 4 | — |
+| 2 | Equilibrium in Chemical Processes | 6.2 | 3 | — |
+| 3 | Law of Chemical Equilibrium and Kc | 6.3 | 4 | — |
+| 4 | Homogeneous and Heterogeneous Equilibria | 6.4, 6.4.1, 6.5 | 5 | — |
+| 5 | Applications of Equilibrium Constants | 6.6(1-3), 6.7 | 5 | — |
+| 6 | Le Chatelier's Principle | 6.8(1-5) | 5 | — |
+| 7 | Ionic Equilibrium in Solution | 6.9, 6.10(1-3) | 5 | — |
+| 8 | Ionization of Acids and Bases | 6.11.1–6.11.5 | 5 | phenol, aniline |
+| 9 | Polyprotic Acids, Acid Strength and the Common Ion Effect | 6.11.6–6.11.9 | 4 | — |
+| 10 | Buffer Solutions | 6.12, 6.12.1 | 3 | — |
+| 11 | Solubility Equilibria | 6.13.1, 6.13.2 | 3 | — |
+
+**Status: complete.** All 11 chapters filled and committed.
+
+### Numbers written, with source page (unit-6.pdf)
+- H2+I2⇌2HI: only [HI]²/[H2][I2] constant across 6 experiments — p.175-176 (§6.3)
+- Kp = Kc(RT)^Δn — p.178 (§6.4.1)
+- CaCO3⇌CaO+CO2: Kp = p(CO2) = 2.00 at 1100K (2.0×10⁵ Pa) — p.180 (§6.5)
+- Kc thresholds: >10³ (H2+Cl2⇌2HCl, Kc=4.0×10³¹), <10⁻³ (2H2O⇌2H2+O2, Kc=4.1×10⁻⁴⁸), mid-range (H2+I2⇌2HI, Kc=57.0 at 700K) — p.181-182 (§6.6.1)
+- ∆G° = −RT ln K — p.184 (§6.7)
+- NH3 synthesis ∆H = −92.38 kJ/mol (exothermic, Le Chatelier temperature example) — p.187 (§6.8.4)
+- Water dielectric constant 80 — p.189 (§6.10)
+- Kw = 1.0×10⁻¹⁴ M² at 298K; [H2O] = 55.55 M; dissociated fraction ~1.8×10⁻⁹ — p.193 (§6.11.1)
+- pH+pOH = pKw = 14 — p.194 (§6.11.2)
+- HF Ka = 3.5×10⁻⁴; phenol Ka = 1.3×10⁻¹⁰ (Table 6.6) — p.195 (§6.11.3)
+- Aniline Kb = 4.27×10⁻¹⁰; ammonia Kb = 1.77×10⁻⁵ (Table 6.7) — p.197 (§6.11.4)
+- Ka(NH4+)×Kb(NH3) = (5.6×10⁻¹⁰)(1.8×10⁻⁵) = 1.0×10⁻¹⁴ = Kw — p.198 (§6.11.5)
+- pH = 7 + ½(pKa−pKb) hydrolysis formula — p.202 (§6.11.9)
+- Acetic acid/sodium acetate buffer ~pH 4.75-4.76; NH4Cl/NH4OH buffer ~pH 9.25 — p.203 (§6.12, 6.12.1)
+- BaSO4 Ksp = 1.1×10⁻¹⁰ → S = 1.05×10⁻⁵ mol/L — p.204 (§6.13.1)
+- A2X3 example: Ksp=1.1×10⁻²³ → S = 1.0×10⁻⁵ mol/L (Problem 6.26) — p.205 (§6.13.1)
+
+### Unsure / flag for your check
+- None outstanding — all numbers above were read directly off the
+  extracted PDF text this session.
+
+---
 
 ## Redox Reactions — `content/topics/redox-reactions.json`
 Source: `content/source/unit-7.pdf`
