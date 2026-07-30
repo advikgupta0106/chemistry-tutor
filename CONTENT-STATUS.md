@@ -343,7 +343,50 @@ substantial sections:
 
 ## Redox Reactions — `content/topics/redox-reactions.json`
 Source: `content/source/unit-7.pdf`
-Status: ⬜ **not started**
+
+### Chapter list corrected
+- **Removed** "Applications of Redox Reactions" — this title doesn't
+  correspond to any real NCERT heading anywhere in the unit; it looks
+  like it was invented before the source PDF existed.
+- **Added** "Types of Redox Reactions" (§7.3.1: combination,
+  decomposition, displacement, disproportionation) in its place — a
+  genuine, substantial section that had no chapter at all.
+- Reordered all 8 chapters to match the PDF's actual flow (7.1 → 7.2
+  → 7.2.1 → 7.3 → 7.3.1 → 7.3.2 → 7.3.3 → 7.4).
+
+### Chapters filled
+| # | Chapter | NCERT §§ covered | Sections |
+|---|---|---|---|
+| 1 | Classical Idea of Redox Reactions | 7.1 | 3 |
+| 2 | Redox Reactions as Electron Transfer | 7.2 | 3 |
+| 3 | Competitive Electron Transfer Reactions | 7.2.1 | 3 |
+| 4 | Oxidation Number Concept | 7.3, 7.3.4 | 5 |
+| 5 | Types of Redox Reactions | 7.3.1 | 4 |
+| 6 | Balancing Redox Equations | 7.3.2(a,b) | 3 |
+| 7 | Quantitative Aspects of Redox Titrations | 7.3.3 | 3 |
+| 8 | Electrode Processes | 7.4 | 4 |
+
+No molecules from `/content/molecules` are relevant to this topic
+(inorganic/electrochemical content), so no `molecule_ids` appear
+anywhere in this file.
+
+**Status: complete.** All 8 chapters filled and committed.
+
+### Numbers written, with source page (unit-7.pdf)
+- Zn > Cu > Ag activity order from displacement experiments — p.238 (§7.2.1)
+- Fractional oxidation number example: C₃O₂ carbon = 4/3 (average of +2, +2, 0) — p.245 (sidebar, §7.3)
+- H₂O₂ disproportionation: O from −1 → −2 (H₂O) and 0 (O₂) — p.244 (§7.3.1)
+- Cr₂O₇²⁻ + SO₃²⁻ worked balance: +8H⁺, +4H₂O final form — p.247 (§7.3.2a)
+- Fe²⁺/Cr₂O₇²⁻ half-reaction balance: 6Fe²⁺ + Cr₂O₇²⁻ + 14H⁺ → 6Fe³⁺ + 2Cr³⁺ + 7H₂O — p.247-248 (§7.3.2b)
+- MnO₄⁻/I⁻ basic-medium balance: 6I⁻ + 2MnO₄⁻ + 4H₂O → 3I₂ + 2MnO₂ + 8OH⁻ — p.248 (§7.3.2)
+- Permanganate self-indicating endpoint sensitivity ~10⁻⁶ M — p.249 (§7.3.3)
+- Standard electrode potentials: F₂ +2.87 V (strongest oxidant), Li⁺ −3.05 V (strongest reductant), H⁺/H₂ = 0.00 V by convention — p.251 (§7.4, Table 7.1)
+
+### Unsure / flag for your check
+- None outstanding — all numbers above were read directly off the
+  extracted PDF text this session.
+
+---
 
 ## Organic Chemistry — Some Basic Principles and Techniques — `content/topics/organic-chemistry-basics.json`
 Source: `content/source/unit-8.pdf`
