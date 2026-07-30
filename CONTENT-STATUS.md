@@ -475,8 +475,103 @@ not printed NCERT page)
   difference for transparency, not because anything looked wrong.
 
 ## Hydrocarbons — `content/topics/hydrocarbons.json`
-Source: `content/source/unit-9.pdf`
-Status: ⬜ **not started**
+Source: `content/source/unit-9.pdf` (33 pages. Unlike unit-8.pdf, this PDF's
+text extracts cleanly via `pypdf` — no font corruption — so the whole unit
+was read directly from extracted text, no page-image transcription needed.)
+
+### Chapter list corrected
+The file had `"chapters": []` — an empty array, not a placeholder list to
+correct. Built a full 18-chapter structure from scratch, matching NCERT's
+real §9.1–9.6 layout:
+- §9.1 Classification → 1 chapter.
+- §9.2 Alkanes → 5 chapters (structure/nomenclature/isomerism §9.2.1;
+  preparation §9.2.2; physical properties + substitution/halogenation
+  mechanism §9.2.3a; combustion and the remaining §9.2.3 reactions —
+  controlled oxidation, isomerisation, aromatization, steam reaction,
+  pyrolysis; conformations §9.2.4). Split into 5 rather than fewer because
+  §9.2.3 alone covers seven distinct named reaction types.
+- §9.3 Alkenes → 5 chapters (structure/nomenclature §9.3.1–9.3.2; isomerism
+  §9.3.3; preparation §9.3.4; properties split into two — physical
+  properties/addition of H2 and halogens, then Markovnikov's
+  rule/peroxide effect/H2SO4+water addition/oxidation/ozonolysis/
+  polymerisation — since §9.3.5 alone is as dense as an entire other
+  chapter's worth of named reactions).
+- §9.4 Alkynes → 2 chapters (nomenclature/structure/preparation §9.4.1–
+  9.4.3; properties §9.4.4).
+- §9.5 Aromatic hydrocarbons → 4 chapters (nomenclature + structure of
+  benzene §9.5.1–9.5.2; aromaticity + preparation §9.5.3–9.5.4;
+  electrophilic substitution mechanism §9.5.5a; addition/combustion/
+  directive influence §9.5.5b + 9.5.6). Split the substitution-mechanism
+  chapter out on its own since the three-step SE mechanism is dense enough
+  to deserve its own six sections.
+- §9.6 Carcinogenicity and toxicity → 1 chapter.
+
+### Chapters filled
+| # | Chapter | NCERT §§ covered | Sections | Molecules linked |
+|---|---|---|---|---|
+| 1 | Classification of Hydrocarbons | 9.1 | 3 | — |
+| 2 | Alkanes: Structure, Nomenclature and Isomerism | 9.2, 9.2.1 | 5 | methane |
+| 3 | Preparation of Alkanes | 9.2.2 | 5 | — |
+| 4 | Physical Properties and Substitution Reactions of Alkanes | 9.2.3 | 5 | — |
+| 5 | Combustion and Other Reactions of Alkanes | 9.2.3 | 6 | toluene |
+| 6 | Conformations of Alkanes | 9.2.4 | 4 | — |
+| 7 | Alkenes: Structure and Nomenclature | 9.3.1, 9.3.2 | 4 | — |
+| 8 | Isomerism in Alkenes | 9.3.3 | 4 | — |
+| 9 | Preparation of Alkenes | 9.3.4 | 4 | ethyne |
+| 10 | Properties of Alkenes: Physical Properties and Addition of Hydrogen and Halogens | 9.3.5 | 4 | benzene |
+| 11 | Markovnikov's Rule, Peroxide Effect and Further Reactions of Alkenes | 9.3.5 | 6 | — |
+| 12 | Alkynes: Nomenclature, Structure and Preparation | 9.4.1–9.4.3 | 5 | ethyne |
+| 13 | Properties of Alkynes | 9.4.4 | 5 | benzene, ethyne |
+| 14 | Aromatic Hydrocarbons: Nomenclature and Structure of Benzene | 9.5.1, 9.5.2 | 5 | benzene, toluene, naphthalene |
+| 15 | Aromaticity and Preparation of Benzene | 9.5.3, 9.5.4 | 4 | phenol |
+| 16 | Electrophilic Substitution Reactions of Benzene | 9.5.5 | 6 | benzene |
+| 17 | Addition Reactions, Combustion and Directive Influence in Benzene | 9.5.5, 9.5.6 | 5 | benzene, phenol |
+| 18 | Carcinogenicity and Toxicity | 9.6 | 3 | — |
+
+**Status: complete.** All 18 chapters filled and committed.
+
+### Numbers written, with source page (unit-9.pdf)
+- H-C-H bond angle 109.5°; alkane C-C 154 pm, C-H 112 pm — p.1-2 (§9.2)
+- n-Butane b.p. 273 K, isobutane b.p. 261 K; pentane b.p. 309 K/301 K/282.5 K
+  (three C5H12 isomers) — p.3 (§9.2.1)
+- Methane combustion ΔH = −890 kJ mol⁻¹ — p.9 (§9.2.3)
+- Alkane isomer counts: C4H10 = 2, C5H12 = 3, C6H14 = 5, C7H16 = 9,
+  C10H22 = 75 — p.3-4 (§9.2.1)
+- Methanol synthesis: 523 K/100 atm, Cu catalyst — p.10 (§9.2.3)
+- Ethane bond rotation barrier 1-20 kJ mol⁻¹ (general), 12.5 kJ mol⁻¹
+  (ethane specifically, staggered vs eclipsed) — p.11-12 (§9.2.4)
+- C=C bond enthalpy 681 kJ mol⁻¹ (σ ~397 + π ~284); C=C length 133-134 pm
+  vs C-C single 154 pm — p.12 (§9.3.1)
+- cis-but-2-ene dipole moment 0.33 D; trans-but-2-ene ≈ 0 D — p.14-15 (§9.3.3)
+- H-Cl bond enthalpy 430.5 kJ mol⁻¹, H-Br 363.7 kJ mol⁻¹, H-I 296.8 kJ mol⁻¹
+  (used to explain why the peroxide effect only works with HBr) — p.18 (§9.3.5)
+- C≡C bond enthalpy 823 kJ mol⁻¹, length 120 pm (vs C=C 681 kJ mol⁻¹/134 pm,
+  C-C 348 kJ mol⁻¹/154 pm) — p.21 (§9.4.2)
+- Benzene C-C bond length 139 pm (uniform, X-ray diffraction), vs. normal
+  single 154 pm / double 133 pm bonds — p.26-27 (§9.5.2)
+- Aromaticity: Hückel (4n+2) π-electron rule — p.27 (§9.5.3)
+
+### Unsure / flag for your check
+- None outstanding — all numbers above were read directly off the cleanly
+  extracted PDF text this session (no page-image transcription needed for
+  this unit, unlike unit-8.pdf).
+- Worth knowing: unlike every other topic in this project, `hydrocarbons.json`
+  had no existing chapter list at all (`"chapters": []`) — so "correcting"
+  the chapter list here meant designing one from scratch against the PDF's
+  own section structure, rather than editing a prior placeholder list. The
+  18-chapter count is higher than most other topics in this project because
+  §9.2.3 and §9.3.5 each pack in far more distinct named reactions than a
+  typical NCERT subsection elsewhere.
+
+---
+
+## All 9 mapped topics now complete
+
+Some Basic Concepts, Structure of Atom, Periodic Table, Chemical Bonding,
+Thermodynamics, Equilibrium, Redox Reactions, Organic Chemistry Basics, and
+Hydrocarbons have all been filled from their corresponding `unit-N.pdf` and
+committed. No further topics remain in the original unit→topic mapping given
+for this task.
 
 ---
 
@@ -496,6 +591,8 @@ If NCERT PDFs for these exist, send them and they can be filled the same way.
 
 ## Next step
 
-Continue from **Hydrocarbons** (`unit-9.pdf`) — the last remaining topic in
-the original 9-topic mapping. First correct its chapter list against the
-PDF's actual sections, report the changes, then fill.
+None outstanding for the original 9-topic mapping — see "All 9 mapped
+topics now complete" above. If more NCERT unit PDFs are supplied (e.g. for
+`hydrogen.json`, `p-block-elements-13-14.json`, `s-block-elements.json`,
+`states-of-matter.json` — flagged below as published but source-less), they
+can be filled the same way.
