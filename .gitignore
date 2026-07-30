@@ -45,3 +45,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# NCERT source PDFs (used only to author /content JSON, not needed at runtime)
+content/source/
