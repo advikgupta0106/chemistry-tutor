@@ -389,8 +389,90 @@ anywhere in this file.
 ---
 
 ## Organic Chemistry — Some Basic Principles and Techniques — `content/topics/organic-chemistry-basics.json`
-Source: `content/source/unit-8.pdf`
-Status: ⬜ **not started**
+Source: `content/source/unit-8.pdf` (39 pages — this PDF's embedded font has a
+broken ToUnicode CMap, so both `pypdf` and `PyMuPDF` extract garbled text for
+almost the entire document; a naive Caesar-shift decode was tried and rejected
+as unreliable since the shift isn't uniform across letters. Instead, every
+page was rendered to a PNG at 150 dpi and read directly with vision — fully
+sidesteps the font corruption. Pages 37-39 are the Exercises section and were
+skipped, as they're practice problems, not source content.)
+
+### Chapter list corrected
+The original 12-chapter list was missing a whole NCERT section and badly
+under-split a very dense one:
+- **Added** "Structural Representations of Organic Compounds" (§8.3) —
+  complete/condensed/bond-line structural formulas, wedge-and-dash 3D
+  representation, molecular models (framework/ball-and-stick/space-filling).
+  Missing entirely — the old list jumped straight from Tetravalency (§8.2)
+  to Classification (§8.4).
+- **Split** the old single "Electron Displacement Effects" chapter into
+  three, since NCERT §8.7 alone runs ten dense subsections (8.7.3–8.7.10):
+  "Electron Movement and the Inductive Effect" (8.7.3–8.7.5), "Resonance"
+  (8.7.6, 8.7.7), and "Electromeric Effect and Hyperconjugation"
+  (8.7.8–8.7.10).
+- **Renamed** "Reactive Intermediates" (old ch. 7) to "Substrate, Reagent,
+  Nucleophiles and Electrophiles" — its real NCERT content is §8.7.2, which
+  covers substrate/reagent naming and nucleophile/electrophile definitions,
+  not intermediates (those are covered instead in the Fission of a Covalent
+  Bond chapter, §8.7.1).
+- **Removed** "Types of Organic Reactions" as its own chapter and folded its
+  one short paragraph (§8.7.10: substitution/addition/elimination/
+  rearrangement, detail deferred to Unit 9 and Class XII) into the end of
+  the new Electromeric Effect/Hyperconjugation chapter instead — the source
+  material for this subsection is a single sentence naming the four types,
+  too thin to responsibly stretch into its own 3+ section chapter without
+  inventing detail not in the PDF.
+- Renumbered all 14 chapters (was 12) to the PDF's own order.
+
+### Chapters filled
+| # | Chapter | NCERT §§ covered | Sections | Molecules linked |
+|---|---|---|---|---|
+| 1 | General Introduction to Organic Compounds | 8.1 | 3 | — |
+| 2 | Tetravalence of Carbon: Shapes of Organic Compounds | 8.2.1, 8.2.2 | 3 | methane |
+| 3 | Structural Representations of Organic Compounds | 8.3.1, 8.3.2 | 5 | benzene, methane |
+| 4 | Classification of Organic Compounds | 8.4, 8.4.1, 8.4.2 | 5 | benzene, aniline, naphthalene |
+| 5 | IUPAC Nomenclature | 8.5, 8.5.1–8.5.4 | 6 | aniline, toluene |
+| 6 | Isomerism | 8.6, 8.6.1, 8.6.2 | 5 | — |
+| 7 | Fission of a Covalent Bond | 8.7, 8.7.1 | 4 | — |
+| 8 | Substrate, Reagent, Nucleophiles and Electrophiles | 8.7.2 | 3 | toluene |
+| 9 | Electron Movement and the Inductive Effect | 8.7.3–8.7.5 | 4 | — |
+| 10 | Resonance | 8.7.6, 8.7.7 | 4 | benzene, aniline |
+| 11 | Electromeric Effect and Hyperconjugation | 8.7.8–8.7.10 | 5 | — |
+| 12 | Methods of Purification of Organic Compounds | 8.8.1–8.8.5 | 6 | aniline |
+| 13 | Qualitative Analysis of Organic Compounds | 8.9.1, 8.9.2 | 3 | — |
+| 14 | Quantitative Analysis of Organic Compounds | 8.10.1–8.10.6 | 6 | — |
+
+**Status: complete.** All 14 chapters filled and committed.
+
+### Numbers written, with source page (unit-8.pdf, page numbers = PDF page,
+not printed NCERT page)
+- Benzene C-C bond length 139 pm (uniform), vs. normal single 154 pm / double
+  134 pm bonds — p.20 (§8.7.6)
+- Chloroform b.p. 334 K, aniline b.p. 457 K (simple distillation example) — p.28 (§8.8.3)
+- C/H combustion worked example: 0.246 g compound → 0.198 g CO₂ + 0.1014 g
+  H₂O → 21.95% C, 4.58% H — p.33 (§8.10.1)
+- Dumas nitrogen worked example: 0.3 g compound → 50 mL N₂ at 300 K/715 mm
+  (15 mm aqueous tension) → 41.9 mL at STP → 17.46% N — p.34 (§8.10.2)
+- Kjeldahl formula: %N = 1.4 × M × 2(V − V₁/2) / m — p.34 (§8.10.2)
+- Carius bromine worked example: 0.15 g compound → 0.12 g AgBr (188 g/mol,
+  80 g Br) → 34.04% Br — p.35 (§8.10.3)
+- Sulphur worked example: 0.157 g compound → 0.4813 g BaSO₄ (233 g/mol, 32 g
+  S) → 42.10% S — p.36 (§8.10.4)
+- Phosphorus: ammonium phosphomolybdate (NH₄)₃PO₄·12MoO₃, 1877 g/mol, 31 g P;
+  magnesium pyrophosphate Mg₂P₂O₇, 222 g/mol, 62 g P (two alternative
+  gravimetric routes, both given) — p.36 (§8.10.5)
+- Oxygen: 2C + O₂ → 2CO, I₂O₅ + 5CO → I₂ + 5CO₂; %O = 32m₁×100/88m — p.37 (§8.10.6)
+
+### Unsure / flag for your check
+- None outstanding for the content itself — every number above was read
+  directly off the rendered page images this session.
+- Worth knowing: because unit-8.pdf's font is corrupted, I could not
+  cross-check my visual transcription against the PDF's own extracted text
+  the way prior units allowed (extracted text was reliably garbled, not a
+  useful second source). Confidence is high — vision-based transcription
+  of a clean, high-res render is a solid method — but this unit's source
+  material was harder to verify than units 1–7's, so flagging the method
+  difference for transparency, not because anything looked wrong.
 
 ## Hydrocarbons — `content/topics/hydrocarbons.json`
 Source: `content/source/unit-9.pdf`
@@ -414,5 +496,6 @@ If NCERT PDFs for these exist, send them and they can be filled the same way.
 
 ## Next step
 
-Continue from **Some Basic Concepts** (`unit-1.pdf`) — first correct its
-chapter list against the PDF's actual sections, report the changes, then fill.
+Continue from **Hydrocarbons** (`unit-9.pdf`) — the last remaining topic in
+the original 9-topic mapping. First correct its chapter list against the
+PDF's actual sections, report the changes, then fill.
