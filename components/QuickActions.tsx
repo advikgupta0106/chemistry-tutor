@@ -2,8 +2,8 @@ import Link from "next/link";
 import { Beaker, Scale, Atom, ClipboardCheck, ChevronRight, type LucideIcon } from "lucide-react";
 
 const ACTIONS: { label: string; href: string; icon: LucideIcon; tint: "purple" | "blue" | "green" | "orange" }[] = [
-  { label: "Solve Reaction", href: "/solve", icon: Beaker, tint: "purple" },
-  { label: "Balance Equation", href: "/solve?tab=balance", icon: Scale, tint: "blue" },
+  { label: "Solve Reaction", href: "/reactions", icon: Beaker, tint: "purple" },
+  { label: "Balance Equation", href: "/reactions?tab=balance", icon: Scale, tint: "blue" },
   { label: "Explore Elements", href: "/explore", icon: Atom, tint: "green" },
   { label: "Practice Quiz", href: "/practice", icon: ClipboardCheck, tint: "orange" },
 ];

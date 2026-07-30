@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Search, FlaskConical } from "lucide-react";
 import { formatFormula } from "@/lib/formatFormula";
 import type { Reaction, Topic } from "@/lib/content";
+import ReactionSolver from "@/components/ReactionSolver";
 
 export default function ReactionsClient({
   reactions,
@@ -29,9 +30,19 @@ export default function ReactionsClient({
   return (
     <div className="mx-auto max-w-md px-6 pb-10 pt-8 md:max-w-2xl md:px-10">
       <h1 className="text-lg font-bold text-text">Reactions</h1>
-      <p className="text-sm text-text-dim">Browse named reactions from the syllabus.</p>
+      <p className="text-sm text-text-dim">Solve, balance and browse reactions from the syllabus.</p>
 
-      <div className="relative mt-5">
+      <div className="mt-6">
+        <ReactionSolver />
+      </div>
+
+      <div className="mt-8 border-t border-border pt-6">
+        <p className="text-xs font-medium uppercase tracking-wide text-text-dim">
+          Reaction Library
+        </p>
+      </div>
+
+      <div className="relative mt-4">
         <Search size={18} strokeWidth={1.5} className="absolute left-4 top-1/2 -translate-y-1/2 text-text-dim" />
         <input
           type="text"
