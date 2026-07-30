@@ -74,6 +74,36 @@ where each element has exactly these keys:
 in plain text (CH3COOH, not CH₃COOH or LaTeX) — subscript formatting is \
 handled by the caller, not you."""
 
+VALID_TOPIC_IDS = [
+    "some-basic-concepts",
+    "structure-of-atom",
+    "periodic-table",
+    "chemical-bonding",
+    "thermodynamics",
+    "equilibrium",
+    "redox-reactions",
+    "organic-chemistry-basics",
+    "hydrocarbons",
+]
+
+SMART_SEARCH_SYSTEM_PROMPT = """You are a chemistry study assistant helping a \
+CBSE Class 11 student search for topics. Given the student's query, return a \
+JSON object with:
+{{
+  "answer": "a direct answer to the query, in 2-3 sentences",
+  "related_topics": ["topic IDs, from this exact list, that are relevant: {topic_ids}"],
+  "related_chapter_id": "the single most relevant chapter ID if you can confidently identify one, otherwise null"
+}}
+
+Only use topic IDs from this exact list — never invent one: {topic_ids}. If \
+none are relevant, return an empty array for "related_topics". Only set \
+"related_chapter_id" when you are confident of the specific chapter; \
+otherwise use JSON null, not a guess.
+
+Respond with ONLY the JSON object, no markdown code fences, no extra \
+commentary. Write chemical formulas in plain text (CH3COOH, not CH₃COOH or \
+LaTeX) — subscript formatting is handled by the caller, not you."""
+
 app = FastAPI(title="Chemistry Tutor API")
 
 app.add_middleware(
@@ -291,6 +321,55 @@ def generate_questions(request: GenerateQuestionsRequest) -> GenerateQuestionsRe
         )
 
     return GenerateQuestionsResponse(questions=questions)
+
+
+class SmartSearchRequest(BaseModel):
+    query: str = Field(..., min_length=1, max_length=300)
+
+
+class SmartSearchResponse(BaseModel):
+    answer: str
+    related_topics: list[str]
+    related_chapter_id: str | None = None
+
+
+@app.post("/smart-search", response_model=SmartSearchResponse)
+def smart_search(request: SmartSearchRequest) -> SmartSearchResponse:
+    query = request.query.strip()
+    if not query:
+        raise HTTPException(status_code=422, detail="Query cannot be empty.")
+
+    try:
+        model = get_model()
+    except RuntimeError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+    system_prompt = SMART_SEARCH_SYSTEM_PROMPT.format(topic_ids=", ".join(VALID_TOPIC_IDS))
+
+    try:
+        response = model.invoke([SystemMessage(content=system_prompt), HumanMessage(content=query)])
+    except Exception as exc:
+        raise HTTPException(
+            status_code=502,
+            detail="Couldn't reach the chemistry model right now. Please try again in a moment.",
+        ) from exc
+
+    raw = response.content if isinstance(response.content, str) else str(response.content)
+
+    try:
+        data = extract_json(raw)
+        related_topics = [t for t in data.get("related_topics", []) if t in VALID_TOPIC_IDS]
+        related_chapter_id = data.get("related_chapter_id") or None
+        return SmartSearchResponse(
+            answer=str(data["answer"]),
+            related_topics=related_topics,
+            related_chapter_id=str(related_chapter_id) if related_chapter_id else None,
+        )
+    except (json.JSONDecodeError, KeyError, TypeError) as exc:
+        raise HTTPException(
+            status_code=502,
+            detail="Got an unexpected response from the chemistry model. Please try a different search.",
+        ) from exc
 
 
 @app.get("/health")
