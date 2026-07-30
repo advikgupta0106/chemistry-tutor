@@ -8,6 +8,599 @@
     { "name": "JEE", "weightage_percent": 5 },
     { "name": "NEET", "weightage_percent": 4 }
   ],
-  "chapters": [],
+  "chapters": [
+    {
+      "id": "classification-of-hydrocarbons",
+      "number": 1,
+      "title": "Classification of Hydrocarbons",
+      "summary": "Hydrocarbons — compounds of carbon and hydrogen only — are the mixtures behind LPG, CNG, petrol and countless other everyday fuels and materials, and they split into three types by the kind of carbon-carbon bond present: saturated (alkanes, cycloalkanes), unsaturated (multiple bonds), and aromatic.",
+      "sections": [
+        {
+          "heading": "What hydrocarbons are and why they matter",
+          "body": "Hydrocarbons are compounds built from carbon and hydrogen only. They show up constantly in daily life: LPG (liquefied petroleum gas) and CNG (compressed natural gas) are both fuels, petrol, diesel and kerosene come from the fractional distillation of petroleum, and coal gas comes from the destructive distillation of coal. Hydrocarbons are also the starting materials for polymers like polythene, polypropene and polystyrene, and for solvents, dyes and drugs. (NCERT 9.1)",
+          "key_point": "All the everyday fuels — LPG, CNG, petrol, diesel, kerosene, coal gas — are mixtures of hydrocarbons; hydrocarbons are also the raw material behind common polymers, solvents, dyes and drugs."
+        },
+        {
+          "heading": "Saturated hydrocarbons: alkanes and cycloalkanes",
+          "body": "Depending on the type of carbon-carbon bonds present, hydrocarbons fall into three main categories: saturated, unsaturated, and aromatic. Saturated hydrocarbons contain only carbon-carbon and carbon-hydrogen single bonds. If the carbon atoms form an open chain, they're called alkanes; if the carbon atoms instead close into a ring, they're called cycloalkanes. (NCERT 9.1)",
+          "key_point": "Saturated hydrocarbons have only single bonds between carbons — open-chain ones are alkanes, ring-closed ones are cycloalkanes."
+        },
+        {
+          "heading": "Unsaturated and aromatic hydrocarbons",
+          "body": "Unsaturated hydrocarbons contain carbon-carbon multiple bonds — double bonds, triple bonds, or both. Aromatic hydrocarbons are a special type of cyclic compound, distinct from both the saturated and unsaturated categories. Molecular models of all these types can be built using toothpicks and plasticine balls for alkanes, or spring models for the multiply-bonded alkenes, alkynes and aromatic hydrocarbons. (NCERT 9.1)",
+          "key_point": "Unsaturated hydrocarbons carry at least one C-C double or triple bond; aromatic hydrocarbons are cyclic compounds that form their own distinct third category, alongside saturated and unsaturated types."
+        }
+      ],
+      "estimated_minutes": 12
+    },
+    {
+      "id": "alkanes-structure-nomenclature",
+      "number": 2,
+      "title": "Alkanes: Structure, Nomenclature and Isomerism",
+      "summary": "Alkanes (general formula CnH2n+2) are built by successively replacing hydrogens with -CH3 groups starting from methane's tetrahedral shape, classified further by primary/secondary/tertiary/quaternary carbon atoms, and — from butane onward — capable of genuine chain isomerism, named correctly only by finding the true longest chain and numbering it to give substituents the lowest locants.",
+      "sections": [
+        {
+          "heading": "What alkanes are: methane and the homologous series",
+          "body": "Alkanes are saturated, open-chain hydrocarbons containing only carbon-carbon single bonds. Methane (CH~4~), a gas found in coal mines and marshy places, is the first member. Replacing one hydrogen atom of methane with a -CH~3~ group gives ethane (C~2~H~6~), and continuing this replacement gives propane (C~3~H~8~), butane (C~4~H~10~), and so on — a homologous series with the general formula C~n~H~2n+2~. (NCERT 9.2)",
+          "molecule_ids": ["methane"],
+          "key_point": "Alkanes form a homologous series (general formula CnH2n+2) built by successively replacing one hydrogen with a -CH3 group, starting from methane."
+        },
+        {
+          "heading": "The tetrahedral shape of methane and alkane bond lengths",
+          "body": "Methane has a tetrahedral structure, with the carbon atom at the centre and its four hydrogen atoms at the corners of a regular tetrahedron, giving H-C-H bond angles of 109.5°. In alkanes generally, these tetrahedra are joined together, with C-C bond lengths of 154 pm and C-H bond lengths of 112 pm; both bonds are formed by head-on overlap of carbon's sp³ hybrid orbitals with either another carbon's sp³ orbital or a hydrogen's 1s orbital. (NCERT 9.2)",
+          "molecule_ids": ["methane"],
+          "key_point": "Methane's tetrahedral shape (109.5° H-C-H angles) and the standard C-C (154 pm) and C-H (112 pm) bond lengths in alkanes both follow directly from carbon's sp³ hybridisation."
+        },
+        {
+          "heading": "Primary, secondary, tertiary and quaternary carbon atoms",
+          "body": "Carbon atoms in a branched alkane are classified by how many other carbon atoms they're directly attached to. A carbon attached to no other carbon (as in methane) or to only one other carbon (as in ethane, or a terminal carbon in any chain) is primary; one attached to two carbons is secondary; one attached to three carbons is tertiary; and one attached to four carbons is quaternary (also called neo). Terminal carbon atoms in a chain are always primary. (NCERT 9.2.1)",
+          "key_point": "Primary/secondary/tertiary/quaternary carbon classification depends purely on how many other carbon atoms are directly attached — 0-1, 2, 3, or 4 respectively — and terminal chain carbons are always primary."
+        },
+        {
+          "heading": "Chain isomerism in alkanes",
+          "body": "The first three alkanes (methane, ethane, propane) have only one possible structure each, but from butane (C~4~H~10~) onward, more than one structure becomes possible. C~4~H~10~ can be drawn as a continuous chain (n-butane, b.p. 273 K) or a branched chain (2-methylpropane/isobutane, b.p. 261 K); C~5~H~12~ has three such structures (n-pentane, b.p. 309 K; 2-methylbutane, b.p. 301 K; 2,2-dimethylpropane, b.p. 282.5 K). Structures sharing a molecular formula but differing only in how the carbon chain itself branches are chain isomers; C~6~H~14~ has five chain isomers, C~7~H~16~ has nine, and C~10~H~22~ has as many as 75. (NCERT 9.2.1)",
+          "key_point": "Chain isomers share a molecular formula but differ in the carbon skeleton's own branching pattern — the number of possible isomers grows fast: C4H10 has 2, C5H12 has 3, C6H14 has 5, C10H22 has 75."
+        },
+        {
+          "heading": "Alkyl groups and naming branched alkanes",
+          "body": "An alkyl group (general formula C~n~H~2n+1~) is formed by removing one hydrogen atom from an alkane. To name a branched alkane, first identify the longest carbon chain as the parent, number it to give substituents the lowest possible numbers, then prefix the alkyl group names (in alphabetical order) with their position — for example, 2-ethyl-3,3-dimethylpentane is built by drawing five parent carbons, numbering them, then attaching an ethyl group at carbon 3 and two methyl groups at carbon 2 before filling in the remaining hydrogens. Naming errors often come from picking a chain that isn't actually the longest one available, or numbering from the wrong end — for instance, '2-ethylpentane' is wrong because the real longest chain is six carbons long (making the correct name 3-methylhexane), and '5-ethyl-3-methylheptane' is wrong only in which end is numbered first (the correct name is 3-ethyl-5-methylheptane). (NCERT 9.2.1)",
+          "key_point": "Naming a branched alkane correctly means finding the genuinely longest chain (not just the most obvious one) and numbering from the end that gives substituents the lowest locants — both of NCERT's own worked 'incorrect name' examples fail for exactly these two reasons."
+        }
+      ],
+      "estimated_minutes": 22
+    },
+    {
+      "id": "preparation-of-alkanes",
+      "number": 3,
+      "title": "Preparation of Alkanes",
+      "summary": "Alkanes can be built from unsaturated hydrocarbons (hydrogenation), from alkyl halides (reduction, or the Wurtz reaction for even-carbon alkanes), or from carboxylic acid salts (decarboxylation with soda lime, or Kolbe's electrolytic method) — each route with its own characteristic scope and limitations.",
+      "sections": [
+        {
+          "heading": "Hydrogenation of unsaturated hydrocarbons",
+          "body": "Dihydrogen gas adds to alkenes and alkynes in the presence of finely divided catalysts like platinum, palladium or nickel, which adsorb the dihydrogen onto their surface and activate the H-H bond, to give alkanes. Platinum and palladium catalyse this hydrogenation at room temperature, while nickel needs relatively higher temperature and pressure. Ethene gives ethane, propene gives propane, and propyne gives propane as well (via two successive additions of H₂). (NCERT 9.2.2)",
+          "key_point": "Hydrogenation adds H2 across a multiple bond using a Pt/Pd/Ni catalyst that activates the H-H bond on its surface — Pt and Pd work at room temperature, while Ni needs higher temperature and pressure."
+        },
+        {
+          "heading": "Alkanes from alkyl halides",
+          "body": "Alkyl halides (except fluorides) give alkanes on reduction with zinc and dilute hydrochloric acid — chloromethane gives methane, chloroethane gives ethane, and 1-chloropropane gives propane, in each case with HCl released as a byproduct. (NCERT 9.2.2)",
+          "key_point": "Reducing an alkyl halide (except a fluoride) with zinc and dilute HCl simply replaces the halogen with hydrogen, giving the corresponding alkane."
+        },
+        {
+          "heading": "The Wurtz reaction",
+          "body": "Alkyl halides treated with sodium metal in dry ethereal (moisture-free) solution give higher alkanes — this is the Wurtz reaction, used to prepare alkanes with an even number of carbon atoms, since it joins two identical alkyl fragments together. Bromomethane gives ethane; bromoethane gives n-butane. Using two different alkyl halides together is possible in principle, but gives a mixture of products rather than one clean alkane, which is why the reaction is mainly useful for even-carbon alkanes made from a single alkyl halide. (NCERT 9.2.2)",
+          "key_point": "The Wurtz reaction (alkyl halide + Na in dry ether) joins two identical alkyl groups, so it only cleanly makes alkanes with an even number of carbons — mixing two different alkyl halides just gives a mixture of products instead of one useful compound."
+        },
+        {
+          "heading": "Decarboxylation of carboxylic acid salts",
+          "body": "Sodium salts of carboxylic acids give alkanes containing one carbon atom fewer than the acid when heated with soda lime (a mixture of sodium hydroxide and calcium oxide) — this elimination of carbon dioxide from a carboxylic acid salt is called decarboxylation. Sodium ethanoate gives methane this way; correspondingly, sodium butanoate (from butanoic acid) would be needed to prepare propane, since propane has one carbon fewer than butanoic acid. (NCERT 9.2.2)",
+          "key_point": "Decarboxylation of a sodium carboxylate with soda lime gives an alkane with exactly one carbon fewer than the original acid — so the acid needed to make a given alkane always has one carbon more."
+        },
+        {
+          "heading": "Kolbe's electrolytic method",
+          "body": "In Kolbe's electrolytic method, an aqueous solution of the sodium or potassium salt of a carboxylic acid is electrolysed; at the anode, the carboxylate ion loses an electron to form a carboxylate free radical, which loses CO₂ to give an alkyl free radical, and two such alkyl radicals combine to form the alkane — while at the cathode, water is reduced to hydrogen gas and hydroxide ion. Since this mechanism combines two identical alkyl radicals, it always gives an alkane with an even number of carbon atoms (sodium acetate gives ethane this way). (NCERT 9.2.2)",
+          "key_point": "Kolbe's electrolytic method combines two alkyl free radicals generated at the anode from a carboxylate salt, so it only gives even-carbon alkanes — even starting from a one-carbon acid (methanoate), the two resulting methyl radicals combine into ethane, not methane, which is exactly why methane itself can't be made this way."
+        }
+      ],
+      "estimated_minutes": 22
+    },
+    {
+      "id": "alkane-physical-properties-substitution",
+      "number": 4,
+      "title": "Physical Properties and Substitution Reactions of Alkanes",
+      "summary": "Alkanes are non-polar, held together only by van der Waals forces, so their boiling point rises with size but falls with branching — and their one major reaction class, halogenation, proceeds by a free radical chain mechanism whose propagation and termination steps explain both the products and the byproducts observed.",
+      "sections": [
+        {
+          "heading": "Physical properties of alkanes",
+          "body": "Alkanes are almost non-polar, because C-C and C-H bonds are covalent and there's very little electronegativity difference between carbon and hydrogen; they're held together only by weak van der Waals forces. Because of these weak intermolecular forces, C₁ to C₄ are gases, C₅ to C₁₇ are liquids, and those with 18 or more carbons are solids, all at 298 K; alkanes are colourless and odourless. Being non-polar, alkanes follow 'like dissolves like' — they're insoluble in water (a polar solvent) but soluble in non-polar solvents, which is exactly why petrol (a hydrocarbon mixture) is used for dry-cleaning to remove non-polar grease stains. Boiling point rises steadily with molecular mass, since van der Waals forces increase with the molecule's surface area, but branching lowers boiling point (of the three pentane isomers, n-pentane at 309.1 K has the highest boiling point) because a more spherical, branched molecule has a smaller area of contact between molecules, weakening the van der Waals attraction. (NCERT 9.2.3)",
+          "key_point": "Alkane boiling points rise with molecular mass (more surface area, stronger van der Waals forces) but fall with branching (a more spherical shape means less contact area between molecules) — the three C5H12 isomers show both trends at once."
+        },
+        {
+          "heading": "Substitution reactions: halogenation",
+          "body": "Alkanes are generally inert to acids, bases, and oxidising or reducing agents, but they do undergo substitution reactions, in which one or more hydrogen atoms are replaced by another atom or group — commonly halogens, though lower alkanes don't undergo nitration or sulphonation. Halogenation happens at high temperature or in the presence of diffused sunlight or ultraviolet light. Chlorination of methane proceeds stepwise, since each substitution product can itself be further chlorinated: methane gives chloromethane, then dichloromethane, then trichloromethane, and finally tetrachloromethane. (NCERT 9.2.3)",
+          "key_point": "Halogenation of methane doesn't stop at one substitution — chloromethane, dichloromethane, trichloromethane and tetrachloromethane form in succession, since each chlorinated product can itself react further with more chlorine."
+        },
+        {
+          "heading": "Relative reactivity and selectivity in halogenation",
+          "body": "The rate of alkane halogenation follows F₂ > Cl₂ > Br₂ > I₂ — fluorination is too violent to control safely, while iodination is very slow and reversible (it can only be driven forward in the presence of an oxidising agent like HIO₃ or HNO₃, which consumes the HI byproduct: HIO₃ + 5HI → 3I₂ + 3H₂O). (NCERT 9.2.3)",
+          "key_point": "Halogen reactivity toward alkanes runs F2 > Cl2 > Br2 > I2 — fluorination is uncontrollably fast, while iodination is so slow and reversible that it needs an oxidising agent just to consume the HI byproduct and push the reaction forward."
+        },
+        {
+          "heading": "Free radical mechanism: initiation and propagation",
+          "body": "Halogenation proceeds by a free radical chain mechanism in three stages. In initiation, light or heat homolyses the Cl-Cl bond (weaker than C-C or C-H, so it breaks first) to give two chlorine free radicals. In propagation, a chlorine radical attacks methane, breaking a C-H bond to form a methyl free radical and H-Cl; the methyl radical then attacks a fresh chlorine molecule to form chloromethane and regenerate a chlorine radical, which can repeat the cycle. These two propagation steps directly give the principal product, but further propagation steps (chloromethane reacting with another chlorine radical, and so on) are what generate the more highly chlorinated byproducts like dichloromethane. (NCERT 9.2.3)",
+          "key_point": "The propagation cycle regenerates a chlorine radical at every turn (methyl radical + Cl2 → product + new Cl radical), which is exactly why one initiation event can drive a long chain of repeated substitutions — and why further reaction of the first product is what produces more highly halogenated byproducts."
+        },
+        {
+          "heading": "Free radical mechanism: termination and byproducts",
+          "body": "The chain reaction eventually stops (termination) once reactants are consumed, or when two radicals combine directly instead of continuing the chain: two chlorine radicals can combine back to Cl₂, two methyl radicals can combine to form ethane, or a methyl and a chlorine radical can combine to reform chloromethane. The methyl-methyl termination step is exactly why ethane is observed as a byproduct of methane chlorination — a fact the free radical mechanism explains directly. (NCERT 9.2.3)",
+          "key_point": "Termination steps consume radicals without extending the chain — and the methyl+methyl termination step (giving ethane) is the mechanistic reason ethane shows up as a byproduct whenever methane is chlorinated."
+        }
+      ],
+      "estimated_minutes": 22
+    },
+    {
+      "id": "alkane-combustion-other-reactions",
+      "number": 5,
+      "title": "Combustion and Other Reactions of Alkanes",
+      "summary": "Beyond substitution, alkanes take part in complete combustion (fuel use), controlled oxidation to specific products, oxidation of tertiary hydrogens, isomerisation to branched forms, aromatization to benzene derivatives, reaction with steam for industrial hydrogen production, and pyrolysis into smaller fragments.",
+      "sections": [
+        {
+          "heading": "Combustion",
+          "body": "Alkanes burn completely in air or dioxygen to give carbon dioxide and water, releasing a large amount of heat — methane's combustion releases 890 kJ mol⁻¹, for instance. The general combustion equation for any alkane is C~n~H~2n+2~ + (3n+1)/2 O₂ → n CO₂ + (n+1) H₂O. This large heat release is exactly why alkanes are used as fuels; with insufficient air (incomplete combustion), carbon black forms instead, which is used to make ink, printer ink, and black pigments. (NCERT 9.2.3)",
+          "key_point": "Alkane combustion (CnH2n+2 + (3n+1)/2 O2 → n CO2 + (n+1) H2O) releases enough heat (890 kJ mol⁻¹ for methane) to make alkanes useful fuels — but incomplete combustion (insufficient air) gives carbon black instead of full CO2/H2O conversion."
+        },
+        {
+          "heading": "Controlled oxidation",
+          "body": "With a regulated supply of oxygen or air, high pressure, and a suitable catalyst, alkanes can be oxidised to specific, useful products rather than all the way to CO₂ and water: methane with a copper catalyst at 523 K/100 atm gives methanol; methane with a molybdenum oxide catalyst gives methanal (formaldehyde) plus water; and ethane with a manganese acetate catalyst gives ethanoic acid plus water. (NCERT 9.2.3)",
+          "key_point": "Controlled oxidation (regulated O2, catalyst, specific conditions) stops the reaction at a useful intermediate product — methanol or methanal from methane, ethanoic acid from ethane — rather than running combustion all the way to CO2 and water."
+        },
+        {
+          "heading": "Oxidation of tertiary hydrogens",
+          "body": "Alkanes ordinarily resist oxidation, but an alkane with a tertiary hydrogen atom can be oxidised directly to the corresponding alcohol by potassium permanganate — 2-methylpropane gives 2-methylpropan-2-ol this way. (NCERT 9.2.3)",
+          "key_point": "A tertiary C-H bond is the one exception to alkanes' general resistance to oxidation — KMnO4 can oxidise it directly to a tertiary alcohol, something it can't do to primary or secondary C-H bonds under the same conditions."
+        },
+        {
+          "heading": "Isomerisation",
+          "body": "n-Alkanes heated in the presence of anhydrous aluminium chloride and hydrogen chloride gas isomerise into their branched-chain isomers — n-hexane, for instance, gives a mixture of 2-methylpentane and 3-methylpentane as its major products (minor products are also possible but generally aren't reported). (NCERT 9.2.3)",
+          "key_point": "Isomerisation (AlCl3 + HCl gas, heat) converts a straight-chain alkane into its own branched isomers — n-hexane's major isomerisation products are 2-methylpentane and 3-methylpentane."
+        },
+        {
+          "heading": "Aromatization",
+          "body": "n-Alkanes with six or more carbon atoms, heated to 773 K at 10-20 atmospheres in the presence of oxides of vanadium, molybdenum or chromium supported on alumina, get dehydrogenated and cyclised into benzene and its homologues — a reaction called aromatization or reforming. Toluene (C₇H₈), the methyl derivative of benzene, would need heptane as the starting alkane to be made this way. (NCERT 9.2.3)",
+          "molecule_ids": ["toluene"],
+          "key_point": "Aromatization (773 K, 10-20 atm, V/Mo/Cr oxide catalyst on alumina) dehydrogenates and cyclises a six-or-more-carbon n-alkane into benzene or one of its homologues — heptane is the starting alkane for toluene specifically, since it has the right carbon count."
+        },
+        {
+          "heading": "Reaction with steam and pyrolysis",
+          "body": "Methane reacts with steam at 1273 K over a nickel catalyst to give carbon monoxide and dihydrogen — this is used industrially to manufacture dihydrogen gas. Separately, higher alkanes decompose into smaller alkanes, alkenes and other fragments when heated to high temperature, a process called pyrolysis or cracking, believed to proceed by a free radical mechanism; dodecane (a constituent of kerosene oil), heated to 973 K over platinum, palladium or nickel, breaks down into heptane, pentene and other products — the same principle used industrially to make petrol gas or oil gas from kerosene oil or petrol. (NCERT 9.2.3)",
+          "key_point": "Methane + steam over nickel at 1273 K is an industrial route to dihydrogen gas; pyrolysis (cracking) instead breaks higher alkanes into smaller alkanes and alkenes by heat alone — the same principle behind converting kerosene into lighter petrol/oil gas."
+        }
+      ],
+      "estimated_minutes": 28
+    },
+    {
+      "id": "conformations-of-alkanes",
+      "number": 6,
+      "title": "Conformations of Alkanes",
+      "summary": "Free rotation about a C-C single bond gives alkanes an infinite number of conformations, drawn as Sawhorse or Newman projections — the staggered conformation is more stable than the eclipsed one because of torsional strain, though ethane's rotational energy barrier is small enough that its conformers can never actually be isolated.",
+      "sections": [
+        {
+          "heading": "Free rotation and conformations",
+          "body": "A carbon-carbon sigma bond's electron distribution is symmetrical around the internuclear axis, so rotating around that axis doesn't disturb the bonding — this permits free rotation about a C-C single bond. Different spatial arrangements produced by this rotation, which can interconvert into one another, are called conformations, conformers, or rotamers; an alkane can in principle have an infinite number of them. This rotation isn't completely free, though — it's hindered by a small energy barrier of 1-20 kJ mol⁻¹, caused by weak repulsive interaction between the bonds on adjacent carbons, called torsional strain. (NCERT 9.2.4)",
+          "key_point": "A sigma bond's cylindrically symmetric electron distribution is what permits free rotation about a C-C bond — but the rotation isn't perfectly free, since a small torsional-strain energy barrier (1-20 kJ mol⁻¹) resists it."
+        },
+        {
+          "heading": "Sawhorse and Newman projections",
+          "body": "Ethane's two extreme conformations are the eclipsed form, where hydrogens on the two carbons sit as close together as possible, and the staggered form, where they sit as far apart as possible; any other conformation in between is a skew conformation. These are drawn using Sawhorse projections (viewing the molecule along its axis, with the C-C bond drawn as a tilted line, front carbon at the bottom and rear carbon at the top, each carbon's three C-H bonds drawn at 120° to each other) or Newman projections (viewing straight down the C-C bond, with the front carbon shown as a point and the rear carbon as a circle, each one's three C-H bonds again drawn at 120° to each other). In every conformation, bond angles and bond lengths stay exactly the same — only the spatial arrangement changes. (NCERT 9.2.4)",
+          "key_point": "Sawhorse projections view the C-C bond from the side (tilted line); Newman projections view straight down it (point for the front carbon, circle for the rear) — both are ways of drawing the same eclipsed/staggered/skew conformations, which differ only in spatial arrangement, never in bond length or angle."
+        },
+        {
+          "heading": "Torsional strain and relative stability",
+          "body": "In the staggered conformation, the electron clouds of the C-H bonds on the two carbons are as far apart as possible, giving minimum repulsion, minimum energy, and maximum stability; moving toward the eclipsed conformation brings those electron clouds closer together, increasing repulsion (torsional strain) and raising the molecule's energy. The staggered form therefore has the least torsional strain and is the most stable conformation, while the eclipsed form has the most torsional strain and is the least stable — the angle of rotation responsible for this (the dihedral or torsional angle) directly controls how much torsional strain is present. (NCERT 9.2.4)",
+          "key_point": "Torsional strain (electron-cloud repulsion between C-H bonds on adjacent carbons) is minimised in the staggered conformation and maximised in the eclipsed one — which is exactly why staggered ethane is more stable than eclipsed ethane."
+        },
+        {
+          "heading": "Why ethane's rotation is 'almost free'",
+          "body": "The energy difference between ethane's staggered and eclipsed extremes is only about 12.5 kJ mol⁻¹ — small enough that even at ordinary temperatures, intermolecular collisions give the molecule enough thermal energy to overcome this barrier freely. So while rotation about the C-C bond in ethane isn't technically completely free, it is, for all practical purposes, essentially free: individual conformational isomers of ethane have never been separated and isolated, since they interconvert far too quickly. (NCERT 9.2.4)",
+          "key_point": "Ethane's rotational energy barrier (~12.5 kJ mol⁻¹) is small enough that ordinary thermal energy overcomes it constantly — which is why, despite technically not being 'free' rotation, no one has ever isolated a single conformer of ethane."
+        }
+      ],
+      "estimated_minutes": 18
+    },
+    {
+      "id": "alkenes-structure-nomenclature",
+      "number": 7,
+      "title": "Alkenes: Structure and Nomenclature",
+      "summary": "Alkenes (general formula CnH2n) get a strong sigma bond plus a weaker, more reactive pi bond from their carbon-carbon double bond — the pi bond's loosely-held electrons are exactly why alkenes are attacked by electrophiles, and IUPAC naming replaces the '-ane' suffix with '-ene', numbering from whichever end is closer to the double bond.",
+      "sections": [
+        {
+          "heading": "What alkenes are",
+          "body": "Alkenes are unsaturated hydrocarbons containing at least one carbon-carbon double bond; since one double bond means two fewer hydrogens than the corresponding alkane, their general formula is C~n~H~2n~. Alkenes are also called olefins ('oil-forming'), since the first member, ethene (C~2~H~4~), was found to form an oily liquid on reaction with chlorine. (NCERT 9.3)",
+          "key_point": "Alkenes (general formula CnH2n) get their alternative name 'olefins' from ethene's oil-forming reaction with chlorine — the earliest observation that gave this whole class its common name."
+        },
+        {
+          "heading": "The structure of the carbon-carbon double bond",
+          "body": "A carbon-carbon double bond consists of one strong sigma bond (bond enthalpy ~397 kJ mol⁻¹), from head-on overlap of sp² hybrid orbitals, and one weaker pi bond (bond enthalpy ~284 kJ mol⁻¹), from sideways overlap of the two carbons' unhybridised 2p orbitals. The double bond (134 pm) is shorter than a single C-C bond (154 pm), and the overall double bond (bond enthalpy 681 kJ mol⁻¹) is stronger than a single C-C bond (348 kJ mol⁻¹) — but weaker than twice a single bond would be, since the pi component itself is comparatively weak. (NCERT 9.3.1)",
+          "key_point": "A C=C double bond splits into a strong sigma component (sp² overlap, ~397 kJ mol⁻¹) and a weaker pi component (sideways p-orbital overlap, ~284 kJ mol⁻¹) — the pi bond alone is what's responsible for the double bond being shorter and, overall, stronger than a single bond, despite being individually weaker than the sigma bond."
+        },
+        {
+          "heading": "Why the pi bond makes alkenes reactive",
+          "body": "The pi bond's poor sideways orbital overlap makes it a weaker bond than the sigma bond, which leaves its electrons loosely held and mobile — this is exactly why alkenes are readily attacked by electrophilic reagents (reagents seeking electrons). This same weaker pi bond also makes alkenes less stable than alkanes, so alkenes readily convert to single-bond compounds by reacting with electrophiles. (NCERT 9.3.1)",
+          "key_point": "The pi bond's weak, loosely-held electrons are the direct cause of alkenes' characteristic electrophilic-addition reactivity — the same weakness that makes alkenes less stable than alkanes is what drives them to react with electrophiles and become single-bond compounds."
+        },
+        {
+          "heading": "Naming alkenes",
+          "body": "IUPAC names for alkenes select the longest chain containing the double bond and number it from whichever end is nearer the double bond, replacing the alkane suffix '-ane' with '-ene'. The very first member by formula, CH₂ (n=1 in C~n~H~2n~), is called methene but is too short-lived to matter; the first stable member is C~2~H~4~, ethylene (common name) or ethene (IUPAC name). Position of the double bond is given by the lower-numbered carbon it starts from — propene, but-1-ene, but-2-ene, buta-1,3-diene, 2-methylprop-1-ene and 3-methylbut-1-ene are all examples following this pattern. (NCERT 9.3.2)",
+          "key_point": "Alkene names replace '-ane' with '-ene' and number the parent chain from whichever end is closer to the double bond — the position number always refers to the lower-numbered carbon of the double bond itself."
+        }
+      ],
+      "estimated_minutes": 18
+    },
+    {
+      "id": "isomerism-in-alkenes",
+      "number": 8,
+      "title": "Isomerism in Alkenes",
+      "summary": "Beyond the chain and position isomerism alkenes share with alkanes, restricted rotation around the C=C double bond gives rise to genuine geometrical (cis-trans) isomerism — a real spatial difference, not just a structural one, that shows up measurably in melting point, boiling point, dipole moment and solubility.",
+      "sections": [
+        {
+          "heading": "Structural isomerism in alkenes",
+          "body": "As with alkanes, the first two alkenes (ethene, propene) have only one possible structure, but higher alkenes have more than one. C~4~H~8~ can be written as but-1-ene, but-2-ene, or 2-methylprop-1-ene: but-1-ene and 2-methylprop-1-ene, and but-2-ene and 2-methylprop-1-ene, are pairs of chain isomers (different carbon skeletons), while but-1-ene and but-2-ene are position isomers (same skeleton, different double-bond position). (NCERT 9.3.3)",
+          "key_point": "C4H8's three structures split into a chain-isomer relationship (but-1-ene/but-2-ene vs. the branched 2-methylprop-1-ene) and a position-isomer relationship (but-1-ene vs. but-2-ene, same skeleton, double bond in a different place)."
+        },
+        {
+          "heading": "Geometrical isomerism: why C=C restricts rotation",
+          "body": "When each doubly-bonded carbon carries two different atoms or groups (YXC=CXY), those groups can be arranged in space in two genuinely different ways — but only because rotation around the C=C bond is restricted, unlike rotation around a C-C single bond. This can be demonstrated with two pieces of cardboard joined by two nails: holding one and trying to rotate the other shows the rotation simply can't happen, illustrating why the doubly-bonded carbons' groups stay fixed in one spatial arrangement or the other rather than freely interconverting. (NCERT 9.3.3)",
+          "key_point": "Geometrical isomerism only exists because rotation around a C=C double bond is restricted (unlike a C-C single bond) — without that restriction, the two possible spatial arrangements would simply interconvert and there'd be nothing to distinguish."
+        },
+        {
+          "heading": "Cis and trans isomers",
+          "body": "These two different spatial arrangements are called geometrical isomers, a type of stereoisomer (same structure, different configuration). If two identical atoms or groups lie on the same side of the double bond, the isomer is called cis; if they lie on opposite sides, it's trans. Cis and trans isomers of but-2-ene are the standard example, and — because their atoms are arranged differently in space — they differ in melting point, boiling point, dipole moment, and solubility, even though they share the exact same molecular structure. (NCERT 9.3.3)",
+          "key_point": "Cis (identical groups same side) and trans (identical groups opposite sides) isomers share identical structure and connectivity but differ measurably in melting point, boiling point, dipole moment and solubility — purely because of their different spatial configuration."
+        },
+        {
+          "heading": "Polarity differences between cis and trans isomers",
+          "body": "The cis form of an alkene is generally more polar than the trans form — cis-but-2-ene has a dipole moment of 0.33 D, while trans-but-2-ene's dipole moment is almost zero. In trans-but-2-ene, the two methyl groups point in opposite directions, so the dipole moments of their C-CH₃ bonds cancel out, making the molecule non-polar overall; in solids, the trans isomer typically has the higher melting point of the pair. Geometrical (cis-trans) isomerism isn't limited to the XYC=CXY case — it also appears in alkenes of the form XYC=CXZ and XYC=CZW. (NCERT 9.3.3)",
+          "key_point": "trans-but-2-ene is essentially non-polar (dipole moment ≈ 0) because its two methyl groups point opposite directions and their bond dipoles cancel — cis-but-2-ene, with the methyls on the same side, has a real net dipole moment (0.33 D) instead."
+        }
+      ],
+      "estimated_minutes": 18
+    },
+    {
+      "id": "preparation-of-alkenes",
+      "number": 9,
+      "title": "Preparation of Alkenes",
+      "summary": "Alkenes can be made by partially reducing alkynes (Lindlar's catalyst for cis, Na/NH3 for trans), or by three different elimination reactions — dehydrohalogenation of alkyl halides, dehalogenation of vicinal dihalides, and acidic dehydration of alcohols — the first and third both genuine β-eliminations.",
+      "sections": [
+        {
+          "heading": "Partial reduction of alkynes",
+          "body": "Alkynes undergo partial reduction with a calculated amount of dihydrogen over palladised charcoal partially deactivated with a poison like sulphur compounds or quinoline — this partially deactivated catalyst is called Lindlar's catalyst — to give alkenes with cis geometry. Reducing alkynes instead with sodium in liquid ammonia gives the trans alkene. (NCERT 9.3.4)",
+          "molecule_ids": ["ethyne"],
+          "key_point": "Lindlar's catalyst (Pd/C poisoned with sulphur compounds or quinoline) partially reduces an alkyne to a cis alkene; Na/liquid NH3 instead gives the trans alkene — the same alkyne, two different reducing conditions, two different geometrical outcomes."
+        },
+        {
+          "heading": "Dehydrohalogenation of alkyl halides",
+          "body": "Alkyl halides (R-X), heated with alcoholic potash (potassium hydroxide dissolved in alcohol), eliminate one molecule of hydrogen halide to form an alkene — a reaction called dehydrohalogenation. Since the hydrogen removed comes from the β-carbon (the carbon adjacent to the one bearing the halogen), this is an example of β-elimination. Reaction rate depends on both the halogen (iodine > bromine > chlorine) and the alkyl group (tertiary > secondary > primary). (NCERT 9.3.4)",
+          "key_point": "Dehydrohalogenation (alkyl halide + alcoholic KOH) is a β-elimination — the hydrogen removed always comes from the carbon next to the halogen-bearing one — and its rate favours iodine over bromine over chlorine, and tertiary over secondary over primary alkyl groups."
+        },
+        {
+          "heading": "Dehalogenation of vicinal dihalides",
+          "body": "Vicinal dihalides (dihalides with the two halogen atoms on adjacent carbons) lose a molecule of ZnX₂ when treated with zinc metal, giving an alkene — a reaction called dehalogenation. 1,2-Dibromoethane gives ethene and zinc bromide this way, and 1,2-dibromopropane gives propene the same way. (NCERT 9.3.4)",
+          "key_point": "Dehalogenation removes both halogens from a vicinal dihalide at once (as ZnX2), directly regenerating the C=C double bond that presumably formed the dihalide in the first place."
+        },
+        {
+          "heading": "Acidic dehydration of alcohols",
+          "body": "Alcohols (R-OH, where R is C~n~H~2n+1~) form alkenes when heated with concentrated sulphuric acid, losing one molecule of water — this is called acidic dehydration, and since the -OH group takes a hydrogen atom out from the β-carbon, it's also an example of β-elimination, exactly like dehydrohalogenation. (NCERT 9.3.4)",
+          "key_point": "Acidic dehydration of an alcohol is mechanistically the same kind of β-elimination as dehydrohalogenation of an alkyl halide — both remove a leaving group plus a hydrogen from the adjacent carbon to form the double bond."
+        }
+      ],
+      "estimated_minutes": 18
+    },
+    {
+      "id": "alkene-properties-physical-addition",
+      "number": 10,
+      "title": "Properties of Alkenes: Physical Properties and Addition of Hydrogen and Halogens",
+      "summary": "Alkenes largely track alkanes in physical properties, differing mainly in isomerism and polarity — and their addition reactions with dihydrogen (giving alkanes) and halogens (giving vicinal dihalides, with bromine's colour change serving as a direct visible test for unsaturation) are the simplest entry point into their characteristic electrophilic chemistry.",
+      "sections": [
+        {
+          "heading": "Physical properties of alkenes",
+          "body": "Alkenes mostly resemble alkanes in physical properties, apart from their capacity for isomerism and their difference in polar character: the first three members are gases, the next fourteen are liquids, and the higher ones are solids. Ethene itself is a colourless gas with a faint sweet smell; all other alkenes are colourless and odourless. They're insoluble in water but fairly soluble in non-polar solvents like benzene and petroleum ether, and — like alkanes — boiling point rises steadily with size, with straight-chain alkenes boiling higher than their branched isomers. (NCERT 9.3.5)",
+          "molecule_ids": ["benzene"],
+          "key_point": "Alkenes track alkanes closely in physical properties (gas/liquid/solid by size, boiling point rising with size and falling with branching) — the real differences between the two classes show up in isomerism and polarity, not physical state."
+        },
+        {
+          "heading": "Addition of dihydrogen",
+          "body": "Alkenes add one molecule of dihydrogen gas over finely divided nickel, palladium or platinum to form the corresponding alkane — this is the same hydrogenation reaction used to prepare alkanes from alkenes. (NCERT 9.3.5)",
+          "key_point": "Hydrogenation of an alkene (Ni/Pd/Pt catalyst) is the same reaction covered as an alkane-preparation method — alkenes are simply the substrate side of that same transformation."
+        },
+        {
+          "heading": "Addition of halogens",
+          "body": "Halogens like bromine or chlorine add across an alkene's double bond to form a vicinal dihalide — bromine specifically dissolved in carbon tetrachloride has a reddish-orange colour that's discharged (decolourised) the moment it adds to an unsaturated site. Iodine, notably, doesn't undergo this addition under normal conditions. This addition proceeds by an electrophilic addition mechanism involving formation of a cyclic halonium ion intermediate. (NCERT 9.3.5)",
+          "key_point": "Bromine's reddish-orange colour in CCl4 disappearing the instant it's added to an alkene is a direct, visible test for unsaturation — one of the few colour-change tests in this unit simple enough to use as a quick diagnostic."
+        },
+        {
+          "heading": "Addition as a test for unsaturation",
+          "body": "Because saturated hydrocarbons don't react with bromine in carbon tetrachloride under these mild conditions, but alkenes (and alkynes) do — decolourising the reddish-orange bromine solution — this reaction serves as a standard chemical test to distinguish unsaturated hydrocarbons from saturated ones. (NCERT 9.3.5)",
+          "key_point": "The bromine-in-CCl4 decolourisation test works precisely because alkanes are unreactive toward bromine under these conditions while alkenes and alkynes aren't — the contrast in reactivity is what makes it a usable diagnostic test."
+        }
+      ],
+      "estimated_minutes": 18
+    },
+    {
+      "id": "markovnikov-rule-peroxide-effect",
+      "number": 11,
+      "title": "Markovnikov's Rule, Peroxide Effect and Further Reactions of Alkenes",
+      "summary": "Unsymmetrical alkenes react with hydrogen halides according to Markovnikov's rule (electrophile attacks to form the more stable carbocation) unless peroxides are present, which flips the outcome via a free-radical mechanism — and alkenes further react with sulphuric acid, water, oxidising agents, ozone, and each other (polymerisation) in reactions that all build on this same electrophilic-addition foundation.",
+      "sections": [
+        {
+          "heading": "Addition of hydrogen halides to symmetrical alkenes",
+          "body": "Hydrogen halides (HCl, HBr, HI) add to alkenes to form alkyl halides, with reactivity order HI > HBr > HCl; like halogen addition, this is an electrophilic addition reaction. When the alkene is symmetrical (identical groups on each doubly-bonded carbon), there's only one possible addition product — ethene with HBr gives bromoethane, and but-2-ene with HBr gives 2-bromobutane. (NCERT 9.3.5)",
+          "key_point": "Symmetrical alkenes give only one possible hydrogen-halide addition product, since both ends of the double bond are chemically equivalent — the real question of which product forms only arises with unsymmetrical alkenes."
+        },
+        {
+          "heading": "Markovnikov's rule",
+          "body": "For unsymmetrical alkenes, two different addition products are possible, and one usually predominates. Markovnikov, studying such reactions in 1869, generalised that the negative part of the adding molecule attaches to the carbon bearing fewer hydrogen atoms — for propene and HBr, this predicts (and matches the actual major product) 2-bromopropane rather than 1-bromopropane. (NCERT 9.3.5)",
+          "key_point": "Markovnikov's rule — the negative part of the addendum goes to the carbon with fewer hydrogens — correctly predicts 2-bromopropane as propene's major HBr-addition product, matching what's actually observed."
+        },
+        {
+          "heading": "Mechanism of Markovnikov addition",
+          "body": "The electrophile, H⁺ from HBr, attacks the double bond to form a carbocation. Attack at one carbon gives a secondary carbocation, while attack at the other gives a primary carbocation; since the secondary carbocation is more stable, it forms faster and predominates. Br⁻ then attacks this more stable carbocation to give the major product, 2-bromopropane. This mechanism is exactly why Markovnikov's rule works: the rule is really just a shorthand for 'the more stable carbocation intermediate wins'. (NCERT 9.3.5)",
+          "key_point": "Markovnikov's rule isn't an independent law — it's the observable consequence of carbocation stability: H⁺ adds to whichever carbon generates the more stable (here, secondary) carbocation intermediate, and that carbocation then determines where the halide ends up."
+        },
+        {
+          "heading": "The peroxide (Kharash) effect",
+          "body": "In the presence of peroxides, HBr adds to unsymmetrical alkenes like propene against Markovnikov's rule — this anti-Markovnikov addition, observed by Kharash and Mayo in 1933, is called the peroxide or Kharash effect, and gives 1-bromopropane as the major product from propene instead of 2-bromopropane. It proceeds by a free radical chain mechanism, in which the secondary free radical intermediate (more stable than the primary alternative) determines the outcome — the same logic as ordinary Markovnikov addition, but for radicals instead of carbocations. Notably, the peroxide effect is observed only with HBr, not HCl or HI: the H-Cl bond (430.5 kJ mol⁻¹) is too strong for the bromine free radical to break, while the H-I bond (296.8 kJ mol⁻¹) is weak enough that iodine radicals simply recombine into I₂ instead of adding to the double bond. (NCERT 9.3.5)",
+          "key_point": "The peroxide effect only happens with HBr, never HCl or HI — the H-Br bond (363.7 kJ mol⁻¹) sits in exactly the right range: weak enough for a bromine radical to break it, unlike the stronger H-Cl bond, but strong enough that iodine radicals recombine into I2 before ever adding to the alkene."
+        },
+        {
+          "heading": "Addition of sulphuric acid and water",
+          "body": "Cold concentrated sulphuric acid adds to alkenes, following Markovnikov's rule, to form an alkyl hydrogen sulphate by electrophilic addition. In the presence of a few drops of concentrated sulphuric acid, alkenes similarly react with water to form alcohols, again following Markovnikov's rule. (NCERT 9.3.5)",
+          "key_point": "Both sulphuric acid addition (giving an alkyl hydrogen sulphate) and acid-catalysed water addition (giving an alcohol) follow Markovnikov's rule exactly the same way HBr addition does — the electrophile always ends up on the carbon with more hydrogens already attached."
+        },
+        {
+          "heading": "Oxidation, ozonolysis and polymerisation",
+          "body": "Cold, dilute, aqueous potassium permanganate (Baeyer's reagent) oxidises alkenes to vicinal glycols, decolourising the purple KMnO₄ solution — another standard test for unsaturation. Acidic KMnO₄ or acidic potassium dichromate, more vigorously, oxidise alkenes to ketones and/or acids depending on the alkene and conditions — but-2-ene, for instance, is oxidised all the way to two molecules of ethanoic acid. Ozonolysis instead adds ozone across the double bond to form an ozonide, which is then cleaved (with Zn and H₂O) into smaller carbonyl fragments — a reaction especially useful for locating exactly where a double bond sits in an unknown alkene. Finally, alkenes undergo polymerisation: many ethene molecules combine at high temperature and pressure with a catalyst to form polythene, and propene similarly forms polypropene — both large-scale industrial polymers, though their widespread use raises real environmental concerns. (NCERT 9.3.5)",
+          "key_point": "Baeyer's reagent (cold dilute KMnO4) gives a mild oxidation to glycols and doubles as an unsaturation test; ozonolysis is the more surgical tool, since cleaving the ozonide tells you exactly where the double bond was — a different purpose from the vigorous acidic-KMnO4/dichromate oxidation that just breaks the alkene down to ketones or acids."
+        }
+      ],
+      "estimated_minutes": 28
+    },
+    {
+      "id": "alkynes-nomenclature-structure-preparation",
+      "number": 12,
+      "title": "Alkynes: Nomenclature, Structure and Preparation",
+      "summary": "Alkynes (general formula CnH2n-2) get their linear, sp-hybridised, triple-bonded structure — the strongest and shortest of the three carbon-carbon bond types — and can be made industrially from limestone via calcium carbide, or in the lab by double dehydrohalogenation of vicinal dihalides.",
+      "sections": [
+        {
+          "heading": "What alkynes are: ethyne and the homologous series",
+          "body": "Alkynes are unsaturated hydrocarbons containing at least one carbon-carbon triple bond, with general formula C~n~H~2n-2~ — fewer hydrogens even than the corresponding alkene. Ethyne, popularly known as acetylene, is the first stable member; it's used for arc welding as an oxyacetylene flame (acetylene mixed with oxygen gas), and it's also a common starting material for a large number of other organic compounds. (NCERT 9.4)",
+          "molecule_ids": ["ethyne"],
+          "key_point": "Alkynes' general formula CnH2n-2 reflects them having even fewer hydrogens than alkenes of the same carbon count — ethyne (acetylene) is both the first stable member and, via arc-welding and downstream synthesis, one of the most industrially useful compounds in this whole unit."
+        },
+        {
+          "heading": "Naming alkynes and their isomerism",
+          "body": "IUPAC names for alkynes replace the alkane suffix '-ane' with '-yne', with the triple bond's position given by its first triply-bonded carbon; common names instead treat alkynes as derivatives of acetylene. Ethyne and propyne have only one possible structure each, but butyne has two — but-1-yne and but-2-yne, which are position isomers, since they differ only in where the triple bond sits. The next homologue, C~5~H~8~, has three possible structures: pent-1-yne and pent-2-yne (position isomers of each other) and 3-methylbut-1-yne (a chain isomer of both). (NCERT 9.4.1)",
+          "key_point": "But-1-yne and but-2-yne are position isomers of each other (same skeleton, different triple-bond position); at C5H8, a genuine chain isomer (3-methylbut-1-yne) appears alongside the position-isomer pair, the same two-isomerism-types pattern seen throughout alkanes and alkenes."
+        },
+        {
+          "heading": "The structure of the triple bond",
+          "body": "In ethyne, each carbon is sp hybridised: the C-C sigma bond comes from head-on overlap of the two carbons' sp orbitals, and each carbon's remaining sp orbital overlaps with a hydrogen's 1s orbital to form a C-H sigma bond, giving a linear molecule with a 180° H-C-C bond angle. Each carbon's two unhybridised p orbitals, perpendicular to each other and to the sigma-bond axis, overlap sideways with the corresponding p orbitals on the other carbon to form two pi bonds. The resulting triple bond (bond enthalpy 823 kJ mol⁻¹) is stronger than a double bond (681 kJ mol⁻¹) or single bond (348 kJ mol⁻¹), and shorter (120 pm) than a double bond (134 pm) or single bond (154 pm); its electron cloud is cylindrically symmetric about the internuclear axis. (NCERT 9.4.2)",
+          "key_point": "A C≡C triple bond (one sigma + two perpendicular pi bonds, from sp-hybridised carbons) is both the strongest (823 kJ mol⁻¹) and shortest (120 pm) of the three carbon-carbon bond types — the two pi bonds add strength and pull the atoms closer together compared to a double or single bond."
+        },
+        {
+          "heading": "Ethyne from calcium carbide",
+          "body": "Industrially, ethyne is prepared by treating calcium carbide with water: CaC₂ + 2H₂O → Ca(OH)₂ + C₂H₂. Calcium carbide is itself made by heating quicklime with coke (CaO + 3C → CaC₂ + CO), and quicklime is obtained by heating limestone (CaCO₃ → CaO + CO₂) — so the full route runs from limestone, through quicklime and calcium carbide, to ethyne. (NCERT 9.4.3)",
+          "molecule_ids": ["ethyne"],
+          "key_point": "Industrial ethyne production is a three-step chain starting from limestone (CaCO3 → CaO → CaC2 → C2H2), not a single reaction — each step uses the previous one's product as its own starting material."
+        },
+        {
+          "heading": "Alkynes from vicinal dihalides",
+          "body": "Vicinal dihalides, treated with alcoholic potassium hydroxide, undergo dehydrohalogenation (losing one molecule of hydrogen halide) to form an alkenyl halide; treating that alkenyl halide with sodamide then eliminates a second molecule of hydrogen halide to give the alkyne. (NCERT 9.4.3)",
+          "key_point": "Making an alkyne from a vicinal dihalide takes two separate elimination steps (alcoholic KOH, then sodamide) — each one removes one molecule of hydrogen halide, first to the alkenyl halide stage, then on to the alkyne."
+        }
+      ],
+      "estimated_minutes": 22
+    },
+    {
+      "id": "properties-of-alkynes",
+      "number": 13,
+      "title": "Properties of Alkynes",
+      "summary": "Alkynes track alkanes and alkenes in physical properties but stand apart in their acidic terminal hydrogens (a direct result of sp carbon's high electronegativity), their doubled addition reactions (two molecules of H2, halogen or HX, giving gem-dihalides), and their two genuinely different polymerisation routes.",
+      "sections": [
+        {
+          "heading": "Physical properties of alkynes",
+          "body": "Alkynes follow the same physical-property trend as alkenes and alkanes: the first three members are gases, the next eight are liquids, and the higher ones are solids. All alkynes are colourless; ethyne has a characteristic odour, while the rest are odourless. Alkynes are weakly polar, lighter than water and immiscible with it, but soluble in organic solvents like ethers, carbon tetrachloride and benzene — and, like the other two classes, melting point, boiling point and density all increase with molar mass. (NCERT 9.4.4)",
+          "molecule_ids": ["benzene"],
+          "key_point": "Alkynes match alkanes and alkenes in the broad size-dependent trends (state, boiling point, density) but stand out with their own characteristic feature: ethyne specifically has a distinct odour that the rest of the series lacks."
+        },
+        {
+          "heading": "Acidic character of terminal alkynes",
+          "body": "Sodium metal and sodamide (NaNH₂), both strong bases, react with ethyne to form sodium acetylide (or disodium acetylide with excess sodium), liberating dihydrogen gas — a reaction not observed with ethene or ethane, indicating that ethyne is acidic relative to them. Propyne similarly reacts with sodamide to give sodium propynide plus ammonia. These reactions distinguish alkynes from alkenes and alkanes, since only alkynes with a terminal (triply-bonded, hydrogen-bearing) carbon show this behaviour: but-1-yne would react this way, but but-2-yne, having no hydrogen on its triply-bonded carbons, would not. (NCERT 9.4.4)",
+          "key_point": "The sodium/sodamide reaction only works on a hydrogen directly attached to a triply-bonded carbon — it's a clean chemical test that distinguishes not just alkynes from alkenes/alkanes, but terminal alkynes (like but-1-yne) from internal ones (like but-2-yne) too."
+        },
+        {
+          "heading": "Why alkynes are more acidic than alkenes and alkanes",
+          "body": "The hydrogen atoms attached to a triply-bonded carbon in an alkyne are acidic — though not every hydrogen in the molecule, only those on the sp-hybridised, triply-bonded carbons themselves. This comes down to hybridisation: sp orbitals have the highest s-character (50%) of the three types, giving sp-hybridised carbon the greatest electronegativity, so it pulls the shared C-H electron pair toward itself more strongly than sp² carbon (in alkenes) or sp³ carbon (in alkanes) does — making that C-H bond's hydrogen easier to release as a proton. The overall acidity trend follows ethyne > ethene > ethane, and, among alkynes themselves, a terminal triple bond (as in ethyne or propyne) is far more acidic than an internal one (as in but-2-yne). (NCERT 9.4.4)",
+          "key_point": "Alkyne acidity traces directly back to hybridisation: sp carbon's 50% s-character makes it the most electronegative of the three hybridisation states, pulling harder on the C-H bond's shared electrons and making that hydrogen easier to lose as a proton — hence ethyne > ethene > ethane in acidity."
+        },
+        {
+          "heading": "Addition reactions of alkynes",
+          "body": "Alkynes, having a triple bond, add up to two molecules of dihydrogen, halogens, or hydrogen halides — with dihydrogen over Pt/Pd/Ni, ethyne gives ethane (via an ethene intermediate) and propyne gives propane (via propene). Halogens (like bromine in carbon tetrachloride) add similarly, again decolourising the reddish-orange solution as a test for unsaturation. Hydrogen halides add twice, in unsymmetrical alkynes following Markovnikov's rule (via the more stable vinylic cation), giving gem-dihalides — where both halogens end up on the same carbon; ethyne with two equivalents of HBr gives 1,1-dibromoethane via bromoethene. Water adds too, but only with a mercuric sulphate/dilute sulphuric acid catalyst at 333 K, giving a carbonyl compound rather than a simple alcohol. (NCERT 9.4.4)",
+          "key_point": "Alkynes accept addition twice over (two molecules of H2, halogen, or HX, since there are two pi bonds to saturate) — hydrogen halide addition specifically gives gem-dihalides (both halogens on one carbon), the alkyne-specific counterpart to the vicinal dihalides alkenes produce."
+        },
+        {
+          "heading": "Polymerisation of ethyne",
+          "body": "Ethyne polymerises in two distinct ways. Linear polymerisation gives polyacetylene (polyethyne), a high-molecular-weight polyene of repeating -CH=CH-CH=CH- units, which under special conditions conducts electricity — thin films of it are used as battery electrodes, being lighter and cheaper than metal conductors. Cyclic polymerisation instead passes ethyne through a red-hot iron tube at 873 K, where three molecules combine to form benzene — the starting point for a huge range of derivatives, dyes, drugs and other organic compounds, and the best synthetic route from aliphatic to aromatic chemistry. (NCERT 9.4.4)",
+          "molecule_ids": ["ethyne", "benzene"],
+          "key_point": "Ethyne's two polymerisation routes lead to genuinely different destinations: linear polymerisation gives the electrically-conductive polymer polyacetylene, while cyclic trimerisation (873 K, red-hot iron tube) gives benzene itself — making ethyne the standard synthetic bridge from aliphatic to aromatic compounds."
+        }
+      ],
+      "estimated_minutes": 22
+    },
+    {
+      "id": "aromatic-hydrocarbons-benzene-structure",
+      "number": 14,
+      "title": "Aromatic Hydrocarbons: Nomenclature and Structure of Benzene",
+      "summary": "Aromatic hydrocarbons (arenes) split into benzenoids and non-benzenoids; benzene's own structure was a genuine puzzle — its formula implied unsaturation its chemistry didn't show — resolved only when Kekulé's oscillating double bonds gave way to resonance and a fully delocalised pi system, confirmed by X-ray diffraction showing all six C-C bonds are an identical, intermediate length.",
+      "sections": [
+        {
+          "heading": "Arenes, benzenoids and non-benzenoids",
+          "body": "Aromatic hydrocarbons, also called arenes, get their name from the Greek aroma ('pleasant smelling'), since most early examples had a pleasant odour. Most aromatic compounds contain a benzene ring (benzenoids) — benzene, toluene, naphthalene and biphenyl are examples — but some aromatic hydrocarbons don't contain a benzene ring at all, instead relying on some other highly unsaturated ring (non-benzenoids). (NCERT 9.5)",
+          "molecule_ids": ["benzene", "toluene", "naphthalene"],
+          "key_point": "'Aromatic' originally described a smell, not a structure — most aromatic hydrocarbons (benzenoids: benzene, toluene, naphthalene) do contain a benzene ring, but genuine non-benzenoid aromatic compounds exist too, built on other highly unsaturated rings."
+        },
+        {
+          "heading": "Naming substituted benzenes",
+          "body": "When two hydrogen atoms on benzene are replaced by substituents, three different position isomers are possible, named by their relative positions: 1,2- (or 1,6-) is ortho (o-), 1,3- (or 1,5-) is meta (m-), and 1,4- is para (p-). Since all six hydrogens on unsubstituted benzene are equivalent, monosubstitution always gives exactly one product — 1,2-dimethylbenzene (o-xylene), 1,3-dimethylbenzene (m-xylene) and 1,4-dimethylbenzene (p-xylene) are examples of the three disubstitution patterns. (NCERT 9.5.1)",
+          "key_point": "Benzene's six equivalent hydrogens mean monosubstitution always gives one product, but disubstitution splits into exactly three position isomers (ortho/meta/para) — the o-/m-/p-xylene set is the standard worked example."
+        },
+        {
+          "heading": "Why benzene's formula puzzled early chemists",
+          "body": "Benzene was isolated by Michael Faraday in 1825. Its molecular formula, C₆H₆, implies a high degree of unsaturation, but this formula alone didn't fit how benzene actually related to the alkanes, alkenes and alkynes already studied — it took years to work out a structure consistent with benzene's actual behaviour. Two key clues eventually shaped that structure: benzene forms a triozonide (implying three double bonds are present), and it produces only one monosubstituted derivative (implying all six carbon and all six hydrogen atoms are equivalent to each other). (NCERT 9.5.2)",
+          "key_point": "Benzene's structure had to satisfy two seemingly awkward facts simultaneously: forming a triozonide (implying three real double bonds) while also giving only one monosubstituted product (implying all six carbons are identical) — a single alternating-bond ring is the natural first guess that satisfies both."
+        },
+        {
+          "heading": "Kekulé's structure and its problem",
+          "body": "In 1865, August Kekulé proposed benzene as a six-membered ring of carbon atoms with alternating single and double bonds, one hydrogen on each carbon. This structure predicted two different possible 1,2-dibromobenzene isomers — one with the bromines on the doubly-bonded carbons, one with them on the singly-bonded carbons — but only one such isomer is ever actually observed. Kekulé patched this by proposing that the double bonds 'oscillate' between the two possible positions, but even this modified structure still couldn't explain benzene's unusual stability or its strong preference for substitution reactions over the addition reactions typical of ordinary alkenes. (NCERT 9.5.2)",
+          "key_point": "Kekulé's alternating-bond structure, even with 'oscillating' double bonds added to fix the disubstitution problem, still couldn't explain benzene's real defining features — its extra stability and its preference for substitution over addition — which is exactly what resonance was later needed to explain."
+        },
+        {
+          "heading": "Resonance and the delocalised pi system",
+          "body": "Valence bond theory resolves Kekulé's 'oscillating bond' problem through resonance: benzene is a hybrid of the two Kekulé structures (its main contributing structures), represented by drawing a circle inside the hexagon to stand for the six delocalised electrons. In orbital terms, all six benzene carbons are sp² hybridised; two sp² orbitals per carbon overlap with neighbouring carbons to form six C-C sigma bonds in the ring's plane, and the third sp² orbital on each carbon overlaps with a hydrogen 1s orbital to form the six C-H sigma bonds. Each carbon is then left with one unhybridised p orbital, perpendicular to the ring — these six p orbitals overlap sideways with equal probability in both possible directions, giving two continuous doughnut-shaped electron clouds (one above, one below the ring plane) rather than three fixed, localised pi bonds. This delocalisation is attracted more strongly by the ring's carbon nuclei than a localised pi bond would be, making benzene more stable than the hypothetical 'cyclohexatriene' with fixed alternating bonds — consistent with X-ray diffraction showing all six C-C bond lengths are identical (139 pm), intermediate between a single bond (154 pm) and a double bond (133 pm), and consistent with benzene's reluctance to undergo the addition reactions a genuine double bond would readily show. (NCERT 9.5.2)",
+          "molecule_ids": ["benzene"],
+          "key_point": "Benzene's uniform 139 pm C-C bond length (measured by X-ray diffraction, between a 154 pm single bond and a 133 pm double bond) is the direct experimental proof of the delocalised-ring picture over Kekulé's fixed alternating-bond structure — and that same delocalisation is what makes benzene both extra-stable and reluctant to undergo addition reactions."
+        }
+      ],
+      "estimated_minutes": 22
+    },
+    {
+      "id": "aromaticity-preparation-of-benzene",
+      "number": 15,
+      "title": "Aromaticity and Preparation of Benzene",
+      "summary": "A ring system counts as aromatic if it's planar, has completely delocalised pi electrons, and satisfies Hückel's (4n+2) rule — regardless of whether it's built on benzene itself — and benzene specifically can be made by cyclic polymerisation of ethyne, decarboxylation of benzoate salts, or reduction of phenol, though industrially it's just isolated from coal tar.",
+      "sections": [
+        {
+          "heading": "The Hückel rule and the conditions for aromaticity",
+          "body": "'Aromatic' now applies to any ring system, whether or not it contains an actual benzene ring, that satisfies three conditions: the ring must be planar, its pi electrons must be completely delocalised around the ring, and it must contain (4n+2) pi electrons in the ring, where n is any non-negative integer (0, 1, 2, ...) — this last condition is known as Hückel's rule. (NCERT 9.5.3)",
+          "key_point": "Aromaticity is defined by three conditions together — planarity, complete pi-electron delocalisation, and a (4n+2) pi-electron count (Hückel's rule) — not by simply containing a benzene ring, which is why non-benzenoid aromatic compounds can exist at all."
+        },
+        {
+          "heading": "Cyclic polymerisation of ethyne",
+          "body": "One laboratory route to benzene is cyclic polymerisation of ethyne: three ethyne molecules combine over a red-hot iron tube at 873 K to form one benzene molecule — the same reaction already covered as a characteristic property of alkynes. (NCERT 9.5.4)",
+          "key_point": "Cyclic polymerisation of ethyne — one of ethyne's own characteristic reactions — doubles as one of benzene's standard laboratory preparation methods."
+        },
+        {
+          "heading": "Decarboxylation of aromatic acids",
+          "body": "Benzene can also be prepared by decarboxylating an aromatic carboxylic acid: the sodium salt of benzoic acid, heated with soda lime, loses carbon dioxide to give benzene — the same decarboxylation principle already seen for making alkanes from aliphatic carboxylic acid salts, just applied to an aromatic acid instead. (NCERT 9.5.4)",
+          "key_point": "Benzoic acid's sodium salt decarboxylating (with soda lime) to give benzene is the aromatic-series counterpart of the same decarboxylation reaction that turns aliphatic carboxylate salts into alkanes."
+        },
+        {
+          "heading": "Reduction of phenol",
+          "body": "Benzene can also be made by reducing phenol: passing phenol vapour over heated zinc dust removes the -OH group's oxygen, giving benzene directly. Commercially, though, benzene is isolated straightforwardly from coal tar rather than synthesised by any of these laboratory methods. (NCERT 9.5.4)",
+          "molecule_ids": ["phenol"],
+          "key_point": "Passing phenol vapour over heated zinc dust is a direct reduction to benzene — one of three laboratory preparation routes covered (alongside ethyne trimerisation and benzoate decarboxylation), even though industrially benzene is simply isolated from coal tar."
+        }
+      ],
+      "estimated_minutes": 18
+    },
+    {
+      "id": "electrophilic-substitution-benzene",
+      "number": 16,
+      "title": "Electrophilic Substitution Reactions of Benzene",
+      "summary": "Benzene's characteristic reactions — nitration, halogenation, sulphonation, and Friedel-Crafts alkylation/acylation — all proceed through the same three-step electrophilic substitution mechanism: generating the electrophile, forming an arenium ion intermediate that temporarily breaks aromaticity, then losing a proton to restore it.",
+      "sections": [
+        {
+          "heading": "Nitration, halogenation and sulphonation",
+          "body": "Arenes are characterised by electrophilic substitution reactions, in which an electrophile (E⁺) replaces a hydrogen on the ring. Nitration introduces a nitro group when benzene is heated with a nitrating mixture of concentrated nitric and sulphuric acids, giving nitrobenzene. Halogenation replaces a hydrogen with a halogen when benzene reacts with a halogen in the presence of a Lewis acid like anhydrous FeCl₃, FeBr₃ or AlCl₃, giving a haloarene (chlorobenzene, for instance). Sulphonation replaces a hydrogen with a sulphonic acid group when benzene is heated with fuming sulphuric acid (oleum). (NCERT 9.5.5)",
+          "molecule_ids": ["benzene"],
+          "key_point": "Nitration, halogenation and sulphonation are all electrophilic substitutions on benzene, each needing its own specific reagent/catalyst combination — nitrating mixture for nitration, a Lewis acid halide catalyst for halogenation, and oleum for sulphonation."
+        },
+        {
+          "heading": "Friedel-Crafts alkylation and acylation",
+          "body": "In Friedel-Crafts alkylation, benzene reacts with an alkyl halide in the presence of anhydrous aluminium chloride to form an alkylbenzene. In Friedel-Crafts acylation, benzene instead reacts with an acyl halide or acid anhydride (again with a Lewis acid like AlCl₃) to give an acylbenzene. One subtlety: treating benzene with 1-chloropropane under Friedel-Crafts conditions actually gives isopropylbenzene rather than the expected n-propylbenzene, since the reaction proceeds through a carbocation intermediate that can rearrange to the more stable secondary form before the ring attacks it. (NCERT 9.5.5)",
+          "key_point": "Friedel-Crafts alkylation with 1-chloropropane gives isopropylbenzene, not n-propylbenzene — a direct sign that the reaction goes through a carbocation intermediate, which rearranges to the more stable form before the aromatic ring ever attacks it."
+        },
+        {
+          "heading": "Excess reagent and successive substitution",
+          "body": "If an electrophilic reagent is used in excess, substitution isn't limited to a single hydrogen — further substitution can replace additional hydrogens on the ring in succession. Benzene treated with excess chlorine over anhydrous AlCl₃, for example, can be chlorinated all the way to hexachlorobenzene (C₆Cl₆). (NCERT 9.5.5)",
+          "key_point": "Excess electrophilic reagent drives repeated substitution around the ring, just as excess chlorine drove methane's stepwise halogenation earlier in the unit — benzene with excess Cl2/AlCl3 goes all the way to hexachlorobenzene."
+        },
+        {
+          "heading": "Mechanism step one: generating the electrophile",
+          "body": "Electrophilic substitution on benzene (SE reactions) proceeds through three steps: generating the electrophile, forming a carbocation intermediate, and removing a proton to restore aromaticity. In chlorination, alkylation and acylation, anhydrous AlCl₃ (a Lewis acid) generates the electrophile — Cl⁺, R⁺, or an acylium ion (RC≡O⁺) — by combining with the attacking reagent. In nitration, the electrophile is the nitronium ion, generated when sulphuric acid protonates nitric acid; here, sulphuric acid acts as the acid and nitric acid as the base, in a simple acid-base equilibrium. (NCERT 9.5.5)",
+          "key_point": "Generating the electrophile always needs an activating step first — AlCl3 pulling a halide/alkyl/acyl group off the reagent, or sulphuric acid protonating nitric acid to make the nitronium ion — the electrophile itself is never just sitting there ready to attack."
+        },
+        {
+          "heading": "Mechanism step two: the arenium ion",
+          "body": "The electrophile's attack on the ring forms a sigma complex (also called an arenium ion), in which one ring carbon becomes sp³ hybridised — this carbon is no longer part of the delocalised aromatic pi system. The resulting positive charge on the arenium ion is stabilised by resonance across the remaining part of the ring. (NCERT 9.5.5)",
+          "key_point": "The arenium ion intermediate has one sp³ carbon that's dropped out of the ring's aromatic delocalisation entirely — its positive charge is spread by resonance over the rest of the ring, but the ring as a whole has temporarily lost its aromatic character at this stage."
+        },
+        {
+          "heading": "Mechanism step three: restoring aromaticity",
+          "body": "Because the sp³ carbon in the arenium ion breaks the ring's delocalisation, the sigma complex has lost its aromatic character; to restore it, the complex releases the proton from that sp³ carbon, attacked by [AlCl₄]⁻ (in halogenation, alkylation and acylation) or [HSO₄]⁻ (in nitration). Losing this proton restores full sp² hybridisation and the delocalised aromatic pi system across all six carbons, completing the substitution. (NCERT 9.5.5)",
+          "key_point": "The final mechanistic step isn't optional bookkeeping — losing the proton from the arenium ion's sp³ carbon is exactly what restores aromaticity, which is the whole thermodynamic reason substitution (not addition) is the ring's preferred reaction pathway."
+        }
+      ],
+      "estimated_minutes": 28
+    },
+    {
+      "id": "benzene-addition-combustion-directive-influence",
+      "number": 17,
+      "title": "Addition Reactions, Combustion and Directive Influence in Benzene",
+      "summary": "Benzene only undergoes addition under genuinely forcing conditions and burns with a sooty flame like other aromatic compounds — and when a monosubstituted benzene reacts further, the substituent already on the ring (not the incoming electrophile) decides whether the next group goes ortho/para or meta, through the combined action of induction and resonance.",
+      "sections": [
+        {
+          "heading": "Addition reactions of benzene",
+          "body": "Under vigorous conditions — high temperature and/or pressure, with a nickel catalyst — benzene can be hydrogenated to cyclohexane, despite its usual preference for substitution over addition. Under ultraviolet light, three chlorine molecules add to benzene to give benzene hexachloride (C₆H₆Cl₆), also called gammaxane. (NCERT 9.5.5)",
+          "key_point": "Benzene's addition reactions (hydrogenation to cyclohexane, UV-driven chlorine addition to benzene hexachloride) only happen under genuinely vigorous, forcing conditions — a direct contrast to how readily it undergoes substitution instead."
+        },
+        {
+          "heading": "Combustion of benzene",
+          "body": "Benzene burns in air with a characteristically sooty flame, producing CO₂ and H₂O: C₆H₆ + 15/2 O₂ → 6CO₂ + 3H₂O. The general combustion equation for any hydrocarbon, C~x~H~y~ + (x + y/4)O₂ → xCO₂ + (y/2)H₂O, covers this and every other hydrocarbon combustion in the unit. (NCERT 9.5.5)",
+          "molecule_ids": ["benzene"],
+          "key_point": "Benzene's sooty combustion flame is a visible signature of its high carbon-to-hydrogen ratio relative to alkanes — the same general combustion formula (CxHy + (x+y/4)O2 → xCO2 + y/2 H2O) applies uniformly across every hydrocarbon class in this unit."
+        },
+        {
+          "heading": "Directive influence of substituents",
+          "body": "Further substitution on a monosubstituted benzene doesn't give the three possible disubstituted products (ortho, meta, para) in equal amounts — instead, either ortho/para dominates, or meta dominates, depending entirely on the substituent already on the ring (not on the nature of the incoming electrophile). This dependence on the existing substituent, rather than the attacking group, is called the directive influence of substituents. (NCERT 9.5.6)",
+          "key_point": "Which position (ortho/para vs. meta) an incoming electrophile prefers is decided entirely by whatever substituent is already on the ring — the identity of the new, incoming electrophile itself plays no role in that choice."
+        },
+        {
+          "heading": "Ortho/para directing groups",
+          "body": "Groups that direct an incoming electrophile to the ortho and para positions are ortho/para directors. Phenol's -OH group is a representative example: phenol is a resonance hybrid of several structures in which electron density is pushed specifically onto the ortho and para ring positions, so substitution happens mainly there. The -OH group's own inductive (-I) effect slightly reduces electron density at ortho/para positions too, but the resonance donation outweighs it, so the net electron density at ortho/para still rises, activating the ring toward electrophilic attack overall. Other activating, ortho/para-directing groups include -NH₂, -NHR, -NHCOCH₃, -OCH₃, -CH₃ and -C₂H₅. Aryl halides are a partial exception: their strong -I effect lowers overall ring electron density (making them moderately deactivating, so substitution is harder than on benzene itself), but resonance still leaves ortho/para positions relatively more electron-rich than meta, so halogens remain ortho/para directors despite deactivating the ring overall. (NCERT 9.5.6)",
+          "molecule_ids": ["phenol"],
+          "key_point": "Halogens are the one genuinely two-faced substituent in this section: they deactivate the ring overall (strong -I effect lowers total electron density, making substitution harder than on plain benzene) while still directing ortho/para (resonance still favours those positions specifically) — activating/deactivating and ortho-para/meta-directing are two separate questions, not the same one."
+        },
+        {
+          "heading": "Meta directing groups",
+          "body": "Groups that direct an incoming electrophile to the meta position are meta directors — examples include -NO₂, -CN, -CHO, -COR, -COOH, -COOR and -SO₃H. Nitrobenzene, for instance, is a resonance hybrid of structures in which the nitro group's strong -I effect withdraws electron density from the ring, and that withdrawal is felt most at the ortho and para positions specifically (through resonance), leaving the meta position comparatively more electron-rich — so the electrophile attacks there instead. (NCERT 9.5.6)",
+          "key_point": "Meta-directing groups (like -NO2) withdraw electron density from the ring by both induction and resonance, but the resonance withdrawal specifically hits ortho and para hardest — leaving meta as the relatively electron-richest position left standing, which is exactly where the electrophile ends up attacking."
+        }
+      ],
+      "estimated_minutes": 22
+    },
+    {
+      "id": "carcinogenicity-and-toxicity",
+      "number": 18,
+      "title": "Carcinogenicity and Toxicity",
+      "summary": "Benzene and larger fused-ring (polynuclear) aromatic hydrocarbons formed by incomplete combustion of organic materials like tobacco, coal and petroleum are toxic and carcinogenic, damaging DNA once inside the body — tying this unit's very first combustion discussion back to a genuine health consequence.",
+      "sections": [
+        {
+          "heading": "Polynuclear hydrocarbons and their source",
+          "body": "Benzene, and polynuclear hydrocarbons containing more than two fused benzene rings, are toxic and possess carcinogenic (cancer-producing) properties. These polynuclear hydrocarbons form during the incomplete combustion of organic materials such as tobacco, coal and petroleum. (NCERT 9.6)",
+          "key_point": "Carcinogenic polynuclear aromatic hydrocarbons aren't a separate class of industrial chemical — they're a direct byproduct of incompletely burning ordinary organic materials like tobacco, coal and petroleum."
+        },
+        {
+          "heading": "How carcinogens act in the body",
+          "body": "Once these polynuclear hydrocarbons enter the human body, they undergo various biochemical reactions and ultimately damage DNA, which is what causes cancer. (NCERT 9.6)",
+          "key_point": "The carcinogenic mechanism runs through DNA damage specifically — these compounds aren't directly toxic in the way an acute poison is, but act through biochemical transformation inside the body that ultimately corrupts genetic material."
+        },
+        {
+          "heading": "Why this matters for hydrocarbon exposure",
+          "body": "Because these carcinogenic compounds form specifically from incomplete combustion, exposure risk tracks directly with how completely a fuel or organic material burns — a fact that ties this section back to the unit's earlier point that alkanes only combust cleanly (to CO₂ and water) with sufficient air or oxygen, while insufficient air gives incomplete combustion products instead. (NCERT 9.6)",
+          "key_point": "This section closes the loop with the unit's very first combustion discussion: incomplete combustion doesn't just waste fuel and produce carbon black, it's also the specific chemical pathway that generates carcinogenic polynuclear hydrocarbons."
+        }
+      ],
+      "estimated_minutes": 12
+    }
+  ],
   "published": true
 }
