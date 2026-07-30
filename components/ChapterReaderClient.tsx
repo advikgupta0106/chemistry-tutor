@@ -2,11 +2,12 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Bookmark, Check } from "lucide-react";
+import { ArrowLeft, Bookmark, Check, PenLine } from "lucide-react";
 import type { Topic, Chapter, Molecule } from "@/lib/content";
 import { formatChapterText } from "@/lib/formatFormula";
 import { isChapterRead, markChapterRead, unmarkChapterRead, getProgress } from "@/lib/progress";
 import AskDoubt from "@/components/AskDoubt";
+import ChapterQuiz from "@/components/ChapterQuiz";
 
 function pubchem2DImageUrl(cid: number) {
   return `https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=l`;
@@ -22,6 +23,7 @@ export default function ChapterReaderClient({
   molecules: Molecule[];
 }) {
   const [read, setRead] = useState(false);
+  const [quizMode, setQuizMode] = useState(false);
 
   useEffect(() => {
     setRead(isChapterRead(getProgress(), topic.id, chapter.id));
@@ -39,21 +41,36 @@ export default function ChapterReaderClient({
   const moleculeById = Object.fromEntries(molecules.map((m) => [m.id, m]));
   const hasContent = chapter.sections.length > 0;
 
+  if (quizMode) {
+    return <ChapterQuiz topic={topic} chapter={chapter} onExit={() => setQuizMode(false)} />;
+  }
+
   return (
     <div className="mx-auto max-w-md px-6 pb-10 pt-8 md:max-w-2xl md:px-10">
-      <div className="flex items-center gap-3">
-        <Link
-          href={`/explore/${topic.id}`}
-          className="flex h-9 w-9 items-center justify-center rounded-full bg-surface"
-        >
-          <ArrowLeft size={18} strokeWidth={1.5} className="text-text" />
-        </Link>
-        <div className="min-w-0">
-          <p className="text-xs text-text-dim">{topic.short_title ?? topic.title}</p>
-          <h1 className="truncate text-lg font-bold text-text">
-            {chapter.number}. {chapter.title}
-          </h1>
+      <div className="flex items-center justify-between gap-3">
+        <div className="flex min-w-0 items-center gap-3">
+          <Link
+            href={`/explore/${topic.id}`}
+            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-surface"
+          >
+            <ArrowLeft size={18} strokeWidth={1.5} className="text-text" />
+          </Link>
+          <div className="min-w-0">
+            <p className="text-xs text-text-dim">{topic.short_title ?? topic.title}</p>
+            <h1 className="truncate text-lg font-bold text-text">
+              {chapter.number}. {chapter.title}
+            </h1>
+          </div>
         </div>
+        {hasContent && (
+          <button
+            onClick={() => setQuizMode(true)}
+            className="flex shrink-0 items-center gap-1.5 rounded-xl bg-accent px-3 py-2 text-xs font-semibold text-white"
+          >
+            <PenLine size={14} strokeWidth={2} />
+            Practice
+          </button>
+        )}
       </div>
 
       {chapter.summary && (

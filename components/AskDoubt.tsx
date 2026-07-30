@@ -2,24 +2,15 @@
 
 import { useState } from "react";
 import { AlertCircle, MessageCircleQuestion } from "lucide-react";
-import { formatFormula, formatChapterText } from "@/lib/formatFormula";
+import { formatFormula } from "@/lib/formatFormula";
 import type { Chapter } from "@/lib/content";
+import { buildChapterContent } from "@/lib/chapterContent";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 const MAX_VISIBLE_PAIRS = 3;
 
 type QAPair = { question: string; answer: string };
 type RequestState = "idle" | "loading" | "error";
-
-function buildChapterContent(chapter: Chapter): string {
-  const parts = [chapter.summary];
-  for (const section of chapter.sections) {
-    parts.push(section.heading);
-    parts.push(section.body);
-    if (section.key_point) parts.push(`Key point: ${section.key_point}`);
-  }
-  return formatChapterText(parts.filter(Boolean).join("\n\n"));
-}
 
 export default function AskDoubt({
   topicTitle,

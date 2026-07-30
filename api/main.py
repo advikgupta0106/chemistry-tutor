@@ -53,6 +53,27 @@ exam-relevant understanding.
 Write chemical formulas in plain text (CH3COOH, not CH₃COOH or LaTeX) — \
 subscript formatting is handled by the caller, not you."""
 
+QUESTIONS_SYSTEM_PROMPT = """You are a CBSE Class 11 chemistry question paper \
+setter. Generate exactly {count} MCQ questions based ONLY on this chapter's \
+content. Each question must have 4 options, one correct answer, and a \
+one-line explanation. Vary difficulty: 2 easy, 2 medium, 1 hard (adjust this \
+mix proportionally if {count} is not 5).
+
+Respond with ONLY a JSON array, no markdown code fences, no extra commentary, \
+where each element has exactly these keys:
+{{
+  "prompt": "the question text",
+  "options": ["option A", "option B", "option C", "option D"],
+  "answer_index": 0,
+  "explanation": "a one-line explanation of why that option is correct",
+  "difficulty": "easy, medium, or hard"
+}}
+
+"options" must always have exactly 4 entries, and "answer_index" must be the \
+0-based index of the correct option within "options". Write chemical formulas \
+in plain text (CH3COOH, not CH₃COOH or LaTeX) — subscript formatting is \
+handled by the caller, not you."""
+
 app = FastAPI(title="Chemistry Tutor API")
 
 app.add_middleware(
@@ -188,6 +209,88 @@ def doubt(request: DoubtRequest) -> DoubtResponse:
         )
 
     return DoubtResponse(answer=answer)
+
+
+class GenerateQuestionsRequest(BaseModel):
+    topic_title: str = Field(..., min_length=1, max_length=200)
+    chapter_title: str = Field(..., min_length=1, max_length=200)
+    chapter_content: str = Field(..., min_length=1, max_length=20000)
+    count: int = Field(5, ge=1, le=10)
+
+
+class GeneratedQuestion(BaseModel):
+    prompt: str
+    options: list[str]
+    answer_index: int
+    explanation: str
+    difficulty: str = "medium"
+
+
+class GenerateQuestionsResponse(BaseModel):
+    questions: list[GeneratedQuestion]
+
+
+def extract_json_array(text: str) -> list:
+    text = text.strip()
+    fence_match = re.search(r"```(?:json)?\s*(\[.*?\])\s*```", text, re.DOTALL)
+    if fence_match:
+        text = fence_match.group(1)
+    else:
+        bracket_match = re.search(r"\[.*\]", text, re.DOTALL)
+        if bracket_match:
+            text = bracket_match.group(0)
+    return json.loads(text)
+
+
+@app.post("/generate-questions", response_model=GenerateQuestionsResponse)
+def generate_questions(request: GenerateQuestionsRequest) -> GenerateQuestionsResponse:
+    try:
+        model = get_model()
+    except RuntimeError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+    human_content = (
+        f"Topic: {request.topic_title}\n"
+        f"Chapter: {request.chapter_title}\n\n"
+        f"Chapter content:\n{request.chapter_content}"
+    )
+    system_prompt = QUESTIONS_SYSTEM_PROMPT.format(count=request.count)
+
+    try:
+        response = model.invoke(
+            [SystemMessage(content=system_prompt), HumanMessage(content=human_content)]
+        )
+    except Exception as exc:
+        raise HTTPException(
+            status_code=502,
+            detail="Couldn't reach the chemistry model right now. Please try again in a moment.",
+        ) from exc
+
+    raw = response.content if isinstance(response.content, str) else str(response.content)
+
+    try:
+        items = extract_json_array(raw)
+        questions = [GeneratedQuestion(**item) for item in items]
+    except (json.JSONDecodeError, TypeError, ValueError) as exc:
+        raise HTTPException(
+            status_code=502,
+            detail="Got an unexpected response from the chemistry model. Please try again.",
+        ) from exc
+
+    for q in questions:
+        if len(q.options) != 4 or not (0 <= q.answer_index < len(q.options)):
+            raise HTTPException(
+                status_code=502,
+                detail="Got malformed questions from the chemistry model. Please try again.",
+            )
+
+    if not questions:
+        raise HTTPException(
+            status_code=502,
+            detail="Didn't get any questions back from the chemistry model. Please try again.",
+        )
+
+    return GenerateQuestionsResponse(questions=questions)
 
 
 @app.get("/health")
