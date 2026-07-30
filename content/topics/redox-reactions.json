@@ -9,13 +9,217 @@
     { "name": "NEET", "weightage_percent": 3 }
   ],
   "chapters": [
-    { "id": "classical-idea", "number": 1, "title": "Classical Idea of Redox Reactions", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "oxidation-number", "number": 2, "title": "Oxidation Number Concept", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "balancing-redox-equations", "number": 3, "title": "Balancing Redox Equations", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "redox-in-terms-of-electrons", "number": 4, "title": "Redox Reactions as Electron Transfer", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "competitive-electron-transfer", "number": 5, "title": "Competitive Electron Transfer Reactions", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "electrode-processes", "number": 6, "title": "Electrode Processes", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "applications", "number": 7, "title": "Applications of Redox Reactions", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "quantitative-aspects", "number": 8, "title": "Quantitative Aspects of Redox Titrations", "summary": "", "sections": [], "estimated_minutes": 20 }
+    {
+      "id": "classical-idea",
+      "number": 1,
+      "title": "Classical Idea of Redox Reactions",
+      "summary": "Oxidation began as a narrow idea — simply adding oxygen — but kept broadening as chemists noticed the same underlying pattern in reactions that added other electronegative elements or removed hydrogen. Reduction is its exact mirror image, and the two turn out to be inseparable: neither ever happens without the other, which is exactly why the field settled on one combined word, 'redox'.",
+      "sections": [
+        {
+          "heading": "Oxidation: from adding oxygen to a broader idea",
+          "body": "Oxidation originally meant simply adding oxygen to an element or compound — magnesium burning to MgO, or sulphur burning to SO2, are classic examples, and it's exactly why so many elements occur naturally as oxides given how much oxygen (~20%) is in the atmosphere. But methane burning to CO2 and H2O showed the same kind of change happening via the removal of hydrogen (from CH4), so the definition broadened to include hydrogen removal too — 2H2S + O2 → 2S + 2H2O is oxidation of H2S by this broader definition, even though no oxygen was added to sulphur itself. The definition kept expanding: reactions like magnesium combining with fluorine, chlorine or sulphur (which involve no oxygen or hydrogen at all) were still recognisably the 'same kind' of change, so oxidation came to mean the addition of oxygen or any electronegative element, or the removal of hydrogen or any electropositive element. (NCERT 7.1)",
+          "key_point": "Oxidation started out meaning 'add oxygen', but broadened step by step to mean adding any electronegative element or removing hydrogen/any electropositive element — all recognisably the same underlying change."
+        },
+        {
+          "heading": "Reduction: the mirror image of oxidation",
+          "body": "Reduction was originally the removal of oxygen from a compound — heating mercuric oxide to release oxygen and metallic mercury is the classic example. Following the same broadening pattern as oxidation, reduction now means removing oxygen or any electronegative element, or adding hydrogen or any electropositive element — reducing ferric chloride to ferrous chloride by removing chlorine, hydrogenating ethene to ethane by adding hydrogen, and converting mercuric chloride to mercurous chloride by adding mercury are all reduction by this definition. (NCERT 7.1)",
+          "key_point": "Reduction is oxidation's mirror image: removing oxygen/electronegative elements, or adding hydrogen/electropositive elements — broadened the same way, for the same reasons."
+        },
+        {
+          "heading": "Why 'redox' is one word, not two",
+          "body": "Looking back at any of these classical examples shows that oxidation and reduction always happen together — when mercuric chloride gains mercury (reduction), stannous chloride simultaneously loses electrons to become stannic chloride (oxidation). One substance can never be oxidised without another being reduced in the same reaction, which is exactly why chemists coined the single term 'redox' for this whole class of reactions, rather than treating oxidation and reduction as two separate reaction types. (NCERT 7.1)",
+          "key_point": "Oxidation and reduction never happen in isolation — one substance's oxidation is always paired with another's reduction in the same reaction, which is exactly why the two are treated as one combined phenomenon, 'redox'."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "redox-in-terms-of-electrons",
+      "number": 2,
+      "title": "Redox Reactions as Electron Transfer",
+      "summary": "Recognising that classic 'oxidation' products like sodium chloride are actually ionic compounds reveals what the classical definitions were really describing all along: a genuine transfer of electrons. Splitting a redox reaction into two half reactions — one for electron loss, one for electron gain — gives oxidation, reduction, and the oxidising/reducing agent a cleaner, more mechanistic definition.",
+      "sections": [
+        {
+          "heading": "Ionic compounds reveal the real mechanism: electron transfer",
+          "body": "Sodium reacting with chlorine, oxygen or sulphur is oxidation by the classical definition, since sodium combines with a more electronegative element each time. But knowing that the products — sodium chloride, sodium oxide, sodium sulphide — are ionic compounds (better written Na⁺Cl⁻, (Na⁺)₂O²⁻, (Na⁺)₂S²⁻) reveals what's actually happening underneath: sodium is genuinely losing electrons, and chlorine, oxygen and sulphur are genuinely gaining them. (NCERT 7.2)",
+          "key_point": "Recognising that classic 'oxidation' products like NaCl are actually ionic compounds reveals the real mechanism underneath the classical oxygen/hydrogen definitions: a genuine transfer of electrons."
+        },
+        {
+          "heading": "Half reactions: splitting oxidation from reduction",
+          "body": "Each electron-transfer reaction can be split into two half reactions — one showing only the loss of electrons, one showing only the gain. For sodium and chlorine: 2Na(s) → 2Na⁺(g) + 2e⁻ (the oxidation half) and Cl₂(g) + 2e⁻ → 2Cl⁻(g) (the reduction half); adding the two together (and cancelling the electrons) gives back the overall reaction, 2Na(s) + Cl₂(g) → 2NaCl(s). Reformulated this way: oxidation is the loss of electrons by any species, and reduction is the gain of electrons by any species. (NCERT 7.2)",
+          "key_point": "Any electron-transfer redox reaction splits cleanly into two half reactions — one for electron loss (oxidation), one for electron gain (reduction) — that add back up to the overall equation."
+        },
+        {
+          "heading": "Oxidising and reducing agents, redefined",
+          "body": "In the sodium/chlorine reaction, sodium donates electrons to chlorine — helping reduce it — so sodium is the reducing agent; chlorine accepts those electrons — helping oxidise sodium — so chlorine is the oxidising agent. In electron-transfer terms: an oxidising agent is an acceptor of electrons, and a reducing agent is a donor of electrons. This new definition connects directly back to the classical one — the species that behaves as an oxidant or reductant by the classical (oxygen/hydrogen) definition is the same species that accepts or donates electrons in the electron-transfer picture. (NCERT 7.2)",
+          "key_point": "An oxidising agent accepts electrons (and so gets reduced); a reducing agent donates electrons (and so gets oxidised) — this electron-transfer definition of oxidant/reductant agrees exactly with the older, classical one."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "competitive-electron-transfer",
+      "number": 3,
+      "title": "Competitive Electron Transfer Reactions",
+      "summary": "Some metals give up their electrons to other metal ions far more readily than others do — zinc hands electrons to copper, and copper hands them to silver — and lining up enough of these competitions builds a full activity series, the same underlying competition that makes galvanic cells possible.",
+      "sections": [
+        {
+          "heading": "Zinc displaces copper: a directly observable electron transfer",
+          "body": "Dipping a zinc strip into copper nitrate solution for about an hour visibly coats the strip with reddish copper metal, while the solution's blue colour (from Cu²⁺) fades: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). Zinc loses electrons to become Zn²⁺ (oxidised), and Cu²⁺ gains those same electrons to become metallic copper (reduced) — a direct, visible electron transfer from zinc to copper. (NCERT 7.2.1)",
+          "key_point": "Zinc metal directly reduces Cu²⁺ to copper metal while being oxidised to Zn²⁺ itself — a visible, hour-long demonstration of electron transfer between two different metals."
+        },
+        {
+          "heading": "Does the reaction go both ways? Testing equilibrium position",
+          "body": "Running the reverse experiment — dipping copper metal into zinc sulphate solution — produces no visible reaction at all, and even a sensitive test for Cu²⁺ (passing H₂S gas to form black CuS) fails to detect any. This shows the equilibrium for Zn + Cu²⁺ ⇌ Zn²⁺ + Cu lies almost entirely toward the products. Comparing this against copper metal in silver nitrate (which does react, forming Cu²⁺ and silver metal, again favouring products) and cobalt metal in nickel sulphate (which reaches equilibrium with appreciable amounts of both Co²⁺ and Ni²⁺ present) shows that different metal pairs sit at very different equilibrium positions along this same kind of electron-transfer competition. (NCERT 7.2.1)",
+          "key_point": "Testing the reverse reaction (copper in zinc sulphate: nothing detectable) confirms Zn/Cu²⁺ equilibrium sits almost entirely toward products — but Co/Ni²⁺ shows both reactants and products present at equilibrium, proving these competitions land at very different positions depending on the metals involved."
+        },
+        {
+          "heading": "Building an activity series",
+          "body": "This competition for electrons between metals mirrors the competition for protons between acids, and lets metals be ranked by how readily they release electrons — from the experiments so far, zinc releases electrons to copper, and copper releases electrons to silver, giving the order Zn > Cu > Ag. Extending this comparison across many more metals builds a full activity series (or electrochemical series), and this same electron-releasing competition between metals is what makes galvanic cells possible — cells where a spontaneous redox reaction directly generates electrical energy. (NCERT 7.2.1)",
+          "key_point": "Ranking metals by how readily they release electrons (Zn > Cu > Ag, and so on) builds an activity series — the same competitive electron transfer this relies on is also what makes galvanic cells work."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "oxidation-number",
+      "number": 4,
+      "title": "Oxidation Number Concept",
+      "summary": "Covalent reactions don't involve a complete transfer of electrons the way ionic ones do, so oxidation number was invented as a deliberate bookkeeping convention — assuming full electron transfer to the more electronegative atom regardless of what's literally happening — which lets redox changes be tracked consistently across every kind of compound.",
+      "sections": [
+        {
+          "heading": "Oxidation number: bookkeeping for covalent compounds",
+          "body": "Electron transfer explains ionic reactions cleanly, but covalent reactions like 2H₂(g) + O₂(g) → 2H₂O(l) don't involve a complete transfer of electrons at all — really it's more of a partial electron shift, since H and O share their bonding electrons unevenly rather than one fully giving them to the other. To keep track of these shifts anyway, chemists developed the oxidation number: a bookkeeping convention that simply assumes complete electron transfer from the less electronegative atom to the more electronegative one, whether or not that's literally what happens. Writing out H₂O with this assumption gives hydrogen +1 and oxygen −2 — numbers that don't represent real, whole charges, but let redox reactions in covalent compounds be tracked using the same language as clearly ionic ones. (NCERT 7.3)",
+          "key_point": "Oxidation number is a deliberate bookkeeping fiction — it assumes complete electron transfer to the more electronegative atom even in covalent compounds, purely so redox changes can be tracked consistently regardless of whether the bonding is ionic or covalent."
+        },
+        {
+          "heading": "The rules for assigning oxidation numbers",
+          "body": "A handful of rules fix an element's oxidation number in any compound or ion. Atoms of an element in its free, uncombined state always have oxidation number zero (each atom in H₂, O₂, P₄, Na). A monatomic ion's oxidation number equals its charge (Na⁺ is +1, Cl⁻ is −1); alkali metals are always +1 and alkaline earth metals always +2 in their compounds. Oxygen is normally −2, except in peroxides like H₂O₂ (−1), superoxides like KO₂ (−½), and compounds with fluorine like OF₂ (+2). Hydrogen is normally +1, except in metal hydrides like NaH (−1). Fluorine is always −1 in every compound; the other halogens are −1 as halide ions, but positive when bonded to oxygen. Finally, the oxidation numbers of every atom in a neutral compound must sum to zero, and in a polyatomic ion they must sum to the ion's overall charge. (NCERT 7.3)",
+          "key_point": "Oxidation numbers follow a fixed rule set: free elements are zero, monatomic ions equal their charge, oxygen is usually −2 and hydrogen usually +1 (with specific named exceptions), and every compound's or ion's oxidation numbers must sum to its actual overall charge."
+        },
+        {
+          "heading": "Oxidation, reduction and redox — redefined once more",
+          "body": "With oxidation number established, the definitions sharpen further: oxidation is an increase in an element's oxidation number, reduction is a decrease. An oxidising agent (or oxidant) is whatever causes another element's oxidation number to increase; a reducing agent (or reductant) is whatever causes it to decrease. A redox reaction, in full generality, is simply any reaction involving a change in oxidation number for at least one element — this definition subsumes both the classical (oxygen/hydrogen) and electron-transfer pictures into one consistent framework. (NCERT 7.3)",
+          "key_point": "The most general definition: oxidation is an increase in oxidation number, reduction is a decrease, and a redox reaction is any reaction where at least one element's oxidation number actually changes."
+        },
+        {
+          "heading": "Stock notation",
+          "body": "A metal's oxidation number in a compound is sometimes shown using Stock notation — a Roman numeral in parentheses right after the metal's symbol. Aurous and auric chloride become Au(I)Cl and Au(III)Cl₃; stannous and stannic chloride become Sn(II)Cl₂ and Sn(IV)Cl₄. Since a change in oxidation number signals a change in oxidation state, this notation makes it easy to see at a glance which form is more oxidised or more reduced — Hg₂(I)Cl₂ is immediately recognisable as the reduced form of Hg(II)Cl₂. (NCERT 7.3)",
+          "key_point": "Stock notation puts a metal's oxidation number directly in its name, as a Roman numeral — Sn(II)Cl₂ versus Sn(IV)Cl₄ makes the oxidation state (and so which is more reduced) obvious at a glance."
+        },
+        {
+          "heading": "The limits of the oxidation number idea",
+          "body": "Oxidation number is a useful convention, not a physical measurement, and the concept has kept evolving — more recently, oxidation is understood more precisely as a decrease in electron density around the atoms involved, and reduction as an increase, rather than a literal count of transferred electrons. Some compounds even show a fractional oxidation number when averaged across multiple atoms of the same element (like carbon's 4/3 in C₃O₂) — a sign that the 'average' number is hiding the fact that those atoms are actually in different, whole-number oxidation states from each other, only revealed by the compound's real structure. (NCERT 7.3.4)",
+          "key_point": "Oxidation number is a bookkeeping convention, not a literal physical charge — fractional oxidation numbers (like carbon's 4/3 in C₃O₂) are really just an average masking atoms that are actually in different whole-number states."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "types-of-redox-reactions",
+      "number": 5,
+      "title": "Types of Redox Reactions",
+      "summary": "Redox reactions fall into four recognisable patterns: combination and decomposition reactions (which need a free element on one side or the other), displacement reactions (where one element's reactivity lets it replace another), and disproportionation, where a single element splits into both a higher and lower oxidation state at once.",
+      "sections": [
+        {
+          "heading": "Combination reactions",
+          "body": "A combination reaction, A + B → C, counts as redox only if at least one of A and B starts out as a free element. All combustion reactions (which use elemental dioxygen) qualify, along with reactions between other elements: carbon burning to CO₂, magnesium reacting with dinitrogen to form Mg₃N₂, and methane burning to CO₂ and water are all combination redox reactions. (NCERT 7.3.1)",
+          "key_point": "A combination reaction (A + B → C) only counts as redox if at least one starting material is a free, uncombined element — which is why every combustion reaction qualifies."
+        },
+        {
+          "heading": "Decomposition reactions",
+          "body": "Decomposition reactions run combination reactions in reverse — a compound breaks down into two or more components, at least one of which must end up as a free element, for the decomposition to be a redox reaction. Electrolysis of water into H₂ and O₂, and heating potassium chlorate into KCl and O₂, are both decomposition redox reactions. Not every decomposition is redox, though: calcium carbonate decomposing into CaO and CO₂ involves no change in any element's oxidation number at all, so it isn't a redox reaction despite being a genuine decomposition. (NCERT 7.3.1)",
+          "key_point": "A decomposition reaction is only redox if at least one product is a free element — CaCO₃ decomposing to CaO and CO₂ is a real decomposition, but not a redox one, since no oxidation number actually changes."
+        },
+        {
+          "heading": "Displacement reactions",
+          "body": "In a displacement reaction, X + YZ → XZ + Y, one element replaces another already combined in a compound — and these split into metal displacement and non-metal displacement. Metal displacement underlies extractive metallurgy: zinc displacing copper from copper sulphate, or aluminium displacing chromium from Cr₂O₃, both work because the displacing metal is a stronger reducing agent (more willing to lose electrons) than the metal being displaced. Non-metal displacement mostly means hydrogen displacement: reactive metals (alkali metals, and Ca/Sr/Ba) displace hydrogen from cold water, less reactive metals like magnesium and iron need steam, and many others (zinc, magnesium, iron) displace it from acids instead — the rate of hydrogen gas evolution directly tracks metal reactivity, from fastest (magnesium) to slowest (iron), with very unreactive metals like silver and gold not reacting even with hydrochloric acid. Halogens show their own displacement activity series too: fluorine, the strongest oxidising agent, can even displace oxygen from water, while chlorine can displace bromide and iodide ions from solution (the basis of the 'layer test' for identifying Br⁻ and I⁻ in the lab). (NCERT 7.3.1)",
+          "key_point": "Displacement reactions require the displacing element to be a stronger reducing (for metals) or oxidising (for halogens) agent than what it displaces — metal displacement underlies extractive metallurgy, while the halogen activity series (F₂ > Cl₂ > Br₂ > I₂ as oxidants) underlies tests like the 'layer test' for Br⁻/I⁻."
+        },
+        {
+          "heading": "Disproportionation reactions",
+          "body": "In a disproportionation reaction, one element in a single intermediate oxidation state is simultaneously oxidised and reduced, splitting into both a higher and a lower oxidation state at once — this requires the starting element to be capable of at least three different oxidation states. Hydrogen peroxide decomposing, 2H₂O₂ → 2H₂O + O₂, is the classic case: oxygen goes from −1 in peroxide to −2 in water (reduced) and to 0 in O₂ (oxidised), simultaneously. Chlorine disproportionates in alkali to give the hypochlorite ion (the basis of household bleach) alongside chloride; phosphorus and sulphur disproportionate in alkaline conditions too. Fluorine is the one halogen that never disproportionates, since — as the most electronegative element of all — it can never be pushed into a positive oxidation state, which a disproportionation reaction would require. (NCERT 7.3.1)",
+          "key_point": "Disproportionation splits one intermediate oxidation state into both a higher and lower state simultaneously (as in H₂O₂'s decomposition, or chlorine forming household bleach) — it requires an element with at least three possible oxidation states, which is exactly why fluorine (stuck at 0 or −1) never disproportionates."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "balancing-redox-equations",
+      "number": 6,
+      "title": "Balancing Redox Equations",
+      "summary": "Two methods balance a redox equation from scratch: matching the total increase and decrease in oxidation number directly, or splitting the reaction into two half reactions and balancing each independently before recombining them — both need a small extra step to adapt from acidic to basic medium.",
+      "sections": [
+        {
+          "heading": "The oxidation number method",
+          "body": "This method balances a redox equation by tracking oxidation number changes directly, in five steps: write the correct formula for every reactant and product; assign oxidation numbers to identify which atoms actually change; calculate the total increase and total decrease in oxidation number (across however many atoms are involved) and multiply by whatever factor makes these equal; if the reaction is in aqueous solution, add H⁺ (for acidic medium) or OH⁻ (for basic medium) to balance the ionic charge; and finally add water molecules to balance hydrogen (and check that oxygen balances too). For Cr₂O₇²⁻ + SO₃²⁻ → Cr³⁺ + SO₄²⁻ in acid, chromium drops by 3 (from +6 to +3) while sulphur rises by 2 (from +4 to +6) per atom — matching these (2 Cr³⁺ for every 3 SO₄²⁻) and then adding 8H⁺ and 4H₂O gives the fully balanced equation. (NCERT 7.3.2a)",
+          "key_point": "The oxidation number method balances a redox equation by matching the total increase and decrease in oxidation number across all atoms involved, then adding H⁺/OH⁻ and H₂O to fix the ionic charge and atom counts."
+        },
+        {
+          "heading": "The half reaction method",
+          "body": "This method splits a redox reaction into its two half reactions — oxidation and reduction — balances each independently, then adds them back together. For Fe²⁺ oxidised by Cr₂O₇²⁻ in acid: first, separate the oxidation half (Fe²⁺ → Fe³⁺) from the reduction half (Cr₂O₇²⁻ → Cr³⁺); balance non-O/H atoms (2Cr³⁺, to match the two chromiums in dichromate); balance oxygen with H₂O and hydrogen with H⁺ (giving Cr₂O₇²⁻ + 14H⁺ → 2Cr³⁺ + 7H₂O); balance the charge on each half by adding electrons (Fe²⁺ → Fe³⁺ + e⁻; Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O); scale the two half reactions so their electron counts match (multiplying the iron half by 6); and finally add the two half reactions together, cancelling the electrons, to get the overall balanced equation. (NCERT 7.3.2b)",
+          "key_point": "The half reaction method balances oxidation and reduction separately (atoms, then O/H, then charge via electrons), scales them so electron counts match exactly, then adds them together — the electrons always cancel in the final sum."
+        },
+        {
+          "heading": "Balancing in basic medium",
+          "body": "Both methods can be adapted for reactions happening in basic (rather than acidic) solution. The simplest approach is to balance the equation as if it were in acidic medium first (using H⁺ and H₂O as usual), then add one OH⁻ ion to both sides for every H⁺ present — wherever H⁺ and OH⁻ end up on the same side, they combine to give H₂O, which simplifies the final equation. Balancing MnO₄⁻ oxidising I⁻ to I₂ and MnO₂ this way, for instance, ends with 6I⁻ + 2MnO₄⁻ + 4H₂O → 3I₂ + 2MnO₂ + 8OH⁻ once every H⁺/OH⁻ pair has been converted to water. (NCERT 7.3.2)",
+          "key_point": "To balance a redox equation in basic medium, balance it as if acidic first, then add one OH⁻ per H⁺ to both sides and combine any H⁺/OH⁻ pairs that land on the same side into water."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "quantitative-aspects",
+      "number": 7,
+      "title": "Quantitative Aspects of Redox Titrations",
+      "summary": "A redox titration tracks its endpoint with a redox-sensitive indicator instead of a pH-sensitive one — sometimes the titrant colours itself (as with permanganate), sometimes a separate indicator does the job, and sometimes iodine's sharp reaction with starch and thiosulphate is used as a stand-in endpoint marker entirely.",
+      "sections": [
+        {
+          "heading": "Self-indicating titrations",
+          "body": "A redox titration works the same way an acid-base titration does, but tracks the reaction's endpoint with a redox-sensitive indicator instead of a pH-sensitive one. In some titrations, the titrant itself is intensely coloured and needs no separate indicator — permanganate ion, MnO₄⁻, is deep purple as an ion but colourless once reduced, so the very first lasting tinge of pink (once every last bit of reductant, like Fe²⁺ or oxalate, has been oxidised) marks the endpoint directly, with almost no overshoot since it's visible at MnO₄⁻ concentrations as low as 10⁻⁶ M. (NCERT 7.3.3)",
+          "key_point": "Permanganate titrations are self-indicating: MnO₄⁻'s own deep purple colour appears the instant the last bit of reductant is used up, giving a sharp, low-overshoot endpoint with no separate indicator needed."
+        },
+        {
+          "heading": "Titrations with a separate indicator",
+          "body": "Not every titrant has permanganate's convenient auto-colour-change. Dichromate ion, Cr₂O₇²⁻, isn't self-indicating, but it oxidises a separate indicator substance, diphenylamine, right after the equivalence point, producing an intense blue colour that flags the endpoint just as sharply. (NCERT 7.3.3)",
+          "key_point": "When the titrant itself doesn't change colour usefully (like dichromate), a separate indicator that gets oxidised right at the equivalence point — turning diphenylamine intensely blue — can mark the endpoint instead."
+        },
+        {
+          "heading": "Iodometric titrations",
+          "body": "A third, common method applies to reagents (like Cu²⁺) that can oxidise iodide ion: 2Cu²⁺ + 4I⁻ → Cu₂I₂ + I₂. The liberated iodine gives an intensely blue colour with starch, and reacts specifically (and quantitatively) with thiosulphate ions, I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻ — itself a redox reaction. Adding starch after the iodine is released produces the blue colour, which then fades exactly as the thiosulphate consumes the last of the iodine, giving a sharp, easily tracked endpoint from which the original reagent's concentration can be calculated stoichiometrically. (NCERT 7.3.3)",
+          "key_point": "Iodometric titrations use a reagent to first liberate iodine from iodide, then titrate that iodine against thiosulphate using starch's blue colour (which vanishes exactly at the endpoint) to track the reaction's progress."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "electrode-processes",
+      "number": 8,
+      "title": "Electrode Processes",
+      "summary": "Physically separating a redox reaction's two halves into different beakers — connected by a salt bridge and an external wire — forces electron transfer to happen through a measurable circuit instead of directly between reactants, and the resulting electrode potential of each half-cell gives a single, standardised way to compare how badly any species wants to be oxidised or reduced.",
+      "sections": [
+        {
+          "heading": "Separating the electron transfer: redox couples",
+          "body": "The same zinc/copper reaction that transfers electrons directly when a zinc rod sits straight in copper sulphate solution can instead be split apart: zinc metal in zinc sulphate solution in one beaker, copper metal in copper sulphate solution in another. At the interface between each metal and its own solution, both the oxidised and reduced forms of that metal are present together — this pairing is called a redox couple, written with the oxidised form first, separated by a slash: Zn²⁺/Zn and Cu²⁺/Cu. (NCERT 7.4)",
+          "key_point": "A redox couple pairs a species' oxidised and reduced forms (written oxidised/reduced, like Zn²⁺/Zn) — exactly what's present together at a metal electrode sitting in a solution of its own ions."
+        },
+        {
+          "heading": "The Daniell cell",
+          "body": "Connecting the two half-cells (zinc in zinc sulphate; copper in copper sulphate) with a salt bridge (a jelly-like tube of KCl or NH₄NO₃ that lets ions migrate between the solutions without letting them mix) and joining the two metal rods with a wire creates a Daniell cell. With the switch closed, electrons flow through the external wire (rather than directly between the metals), while ions migrate through the salt bridge to complete the circuit internally — current only flows because there's a potential difference between the two electrodes. (NCERT 7.4)",
+          "key_point": "A Daniell cell physically separates a redox reaction's two halves into different beakers, forcing electrons to travel through an external wire (generating usable current) while a salt bridge completes the circuit internally via ion migration."
+        },
+        {
+          "heading": "Electrode potential",
+          "body": "The potential associated with each electrode is its electrode potential, and it measures the relative tendency of that electrode's species to stay in oxidised or reduced form. When every species involved is at unit concentration (and any gas at 1 atm), measured at 298 K, this is the standard electrode potential, E°. By convention, the hydrogen electrode is fixed at E° = 0.00 V, and every other electrode's E° is measured relative to it: a negative E° means that redox couple is a stronger reducing agent than H⁺/H₂, while a positive E° means it's a weaker one. (NCERT 7.4)",
+          "key_point": "Standard electrode potential, E°, is measured relative to the hydrogen electrode (fixed at 0.00 V) — negative E° means a stronger reducing agent than H⁺/H₂, positive E° means a weaker one."
+        },
+        {
+          "heading": "Reading the standard electrode potential table",
+          "body": "A table of standard electrode potentials, arranged from most positive to most negative, doubles as both an oxidising-agent and reducing-agent ranking at once: species at the top (like F₂, with E° = +2.87 V) are the strongest oxidising agents, since they hold onto electrons most eagerly, while species at the bottom (like Li⁺, with E° = −3.05 V) are associated with the strongest reducing agents, since their reduced form (Li metal) gives up electrons most readily. This single table is what lets the relative strength of any two redox couples be compared directly, without needing to run the actual experiment. (NCERT 7.4, Table 7.1)",
+          "key_point": "One table of standard electrode potentials ranks oxidising agents (most positive E°, like F₂) and reducing agents (most negative E°, like Li) simultaneously — comparing any two entries predicts which reaction is feasible without running it."
+        }
+      ],
+      "estimated_minutes": 20
+    }
   ]
 }
