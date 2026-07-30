@@ -9,17 +9,450 @@
     { "name": "NEET", "weightage_percent": 5 }
   ],
   "chapters": [
-    { "id": "general-introduction", "number": 1, "title": "General Introduction to Organic Compounds", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "tetravalency-of-carbon", "number": 2, "title": "Tetravalency of Carbon", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "classification", "number": 3, "title": "Classification of Organic Compounds", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "nomenclature", "number": 4, "title": "IUPAC Nomenclature", "summary": "", "sections": [], "estimated_minutes": 30 },
-    { "id": "isomerism", "number": 5, "title": "Isomerism", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "fission-of-covalent-bond", "number": 6, "title": "Fission of a Covalent Bond", "summary": "", "sections": [], "estimated_minutes": 15 },
-    { "id": "reactive-intermediates", "number": 7, "title": "Reactive Intermediates", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "electron-displacement-effects", "number": 8, "title": "Electron Displacement Effects", "summary": "", "sections": [], "estimated_minutes": 25 },
-    { "id": "types-of-organic-reactions", "number": 9, "title": "Types of Organic Reactions", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "purification-methods", "number": 10, "title": "Methods of Purification", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "qualitative-analysis", "number": 11, "title": "Qualitative Analysis of Organic Compounds", "summary": "", "sections": [], "estimated_minutes": 20 },
-    { "id": "quantitative-analysis", "number": 12, "title": "Quantitative Analysis of Organic Compounds", "summary": "", "sections": [], "estimated_minutes": 25 }
+    {
+      "id": "general-introduction",
+      "number": 1,
+      "title": "General Introduction to Organic Compounds",
+      "summary": "Organic chemistry is barely two hundred years old as a distinct science — it only became a laboratory discipline once Wohler's synthesis of urea, followed by Kolbe's acetic acid and Berthelot's methane, disproved the old idea that organic compounds needed some unique 'vital force' only living things could supply.",
+      "sections": [
+        {
+          "heading": "What organic chemistry studies",
+          "body": "Organic compounds are essential to life — they include complex molecules like DNA (genetic information) and the proteins that make up blood, muscle and skin — and they show up constantly in everyday materials: clothing, fuels, polymers, dyes and medicines. (NCERT 8.1)",
+          "key_point": "Organic chemistry covers an enormous range, from life's own molecules (DNA, proteins) to everyday materials like fuels, dyes and medicines."
+        },
+        {
+          "heading": "From 'vital force' to laboratory synthesis",
+          "body": "Organic chemistry is only about two hundred years old as a distinct science. Around 1780, chemists began distinguishing organic compounds — obtained from plants and animals — from inorganic compounds prepared from mineral sources, and the Swedish chemist Berzilius proposed that a 'vital force', unique to living things, was responsible for making organic compounds. This idea was disproved in 1828, when F. Wohler synthesised urea (an organic compound) by heating ammonium cyanate (an inorganic compound): NH₄CNO → NH₂CONH₂. (NCERT 8.1)",
+          "key_point": "Wohler's 1828 synthesis of urea from ammonium cyanate disproved the 'vital force' theory — the first proof that an organic compound could be made from a purely inorganic starting material."
+        },
+        {
+          "heading": "Confirming organic synthesis in the laboratory",
+          "body": "Wohler's result wasn't a one-off: Kolbe's synthesis of acetic acid (1845) and Berthelot's synthesis of methane (1856) showed conclusively that organic compounds could be built up from inorganic sources under laboratory conditions, not just extracted from living things. The subsequent development of the electronic theory of covalent bonding is what brought organic chemistry into its modern form. (NCERT 8.1)",
+          "key_point": "Kolbe's acetic acid (1845) and Berthelot's methane (1856) syntheses, following Wohler's urea, confirmed that organic compounds can be built from inorganic starting materials in general, not as an isolated exception."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "tetravalency-of-carbon",
+      "number": 2,
+      "title": "Tetravalence of Carbon: Shapes of Organic Compounds",
+      "summary": "Carbon's tetravalence and the shapes of organic molecules both come straight from hybridisation: methane, ethene and ethyne owe their tetrahedral, planar and linear shapes to sp³, sp² and sp hybrid orbitals respectively, and the exposed, sideways-overlapping pi bond is exactly what makes multiply-bonded molecules so much more reactive than singly-bonded ones.",
+      "sections": [
+        {
+          "heading": "Hybridisation and the shapes of carbon compounds",
+          "body": "Carbon's tetravalence and its ability to form covalent bonds are explained by its electronic configuration and the hybridisation of its s and p orbitals. The shapes of methane (CH~4~), ethene (C~2~H~4~) and ethyne (C~2~H~2~) follow directly from carbon using sp³, sp² and sp hybrid orbitals respectively in each molecule. (NCERT 8.2.1)",
+          "molecule_ids": ["methane"],
+          "key_point": "Methane, ethene and ethyne get their characteristic shapes from carbon's sp³, sp² and sp hybridisation respectively — the same hybridisation concept covered for bonding generally now explains organic molecule shapes specifically."
+        },
+        {
+          "heading": "Hybridisation changes bond length, strength and electronegativity",
+          "body": "The proportion of s-character in a hybrid orbital changes both the bonds it forms and the electronegativity of the carbon itself. An sp orbital, with more s-character, sits closer to the nucleus and forms shorter, stronger bonds than an sp³ orbital does; sp² is intermediate in both s-character and bond length/enthalpy. Greater s-character also means greater electronegativity — so a carbon atom using sp hybrid orbitals (50% s-character) is more electronegative than one using sp² or sp³ orbitals, and this relative electronegativity shows up in several physical and chemical properties of the molecules involved. (NCERT 8.2.1)",
+          "key_point": "More s-character in a hybrid orbital means a shorter, stronger bond and a more electronegative carbon — sp (50% s) > sp² > sp³ in both bond strength and electronegativity."
+        },
+        {
+          "heading": "Characteristic features of pi bonds",
+          "body": "Forming a pi bond needs the two p orbitals on adjacent atoms to be parallel to each other for proper sideways overlap — in H₂C=CH₂, this forces every atom into the same plane, with both p orbitals perpendicular to that plane. Because rotating one CH₂ fragment relative to the other would break this parallel alignment and disrupt the overlap, rotation about a carbon-carbon double bond is restricted. The pi bond's electron cloud sits above and below the plane of the bonding atoms, which makes those electrons easily available to attacking reagents — in general, pi bonds provide the most reactive centres in molecules that contain multiple bonds. (NCERT 8.2.2)",
+          "key_point": "A pi bond's electron cloud sits exposed above and below the molecular plane (not shielded like a sigma bond), which is exactly why pi bonds are the most reactive centres in molecules with multiple bonds — and why rotation around a C=C double bond is restricted."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "structural-representations",
+      "number": 3,
+      "title": "Structural Representations of Organic Compounds",
+      "summary": "The same molecule can be drawn as a fully-explicit structure, a condensed shorthand, or a bare-bones bond-line zig-zag, depending on how much detail actually matters — and wedge-and-dash notation (or a physical model) is what's needed once you want to show its real three-dimensional shape on flat paper.",
+      "sections": [
+        {
+          "heading": "Complete structural formulas",
+          "body": "Organic structures can be drawn several ways. A complete structural formula (or Lewis/dot structure simplified with dashes) shows every atom and every bond explicitly, with a single dash for a single bond, a double dash for a double bond, and a triple dash for a triple bond — lone pairs on heteroatoms like oxygen, nitrogen or sulphur may or may not be shown. Ethane, ethene, ethyne and methanol can all be drawn this way, showing every C-H and C-C (or C-O) bond individually. (NCERT 8.3.1)",
+          "key_point": "A complete structural formula draws every atom and bond explicitly — single/double/triple dashes for single/double/triple bonds — the most detailed but least compact way to represent a structure."
+        },
+        {
+          "heading": "Condensed structural formulas",
+          "body": "A condensed structural formula abbreviates the complete formula by omitting some or all of the dashes representing bonds, and by using a subscript to show how many identical groups are attached to one atom. Ethane, ethene, ethyne and methanol condense to CH₃CH₃, H₂C=CH₂, HC≡CH and CH₃OH — and a longer chain like CH₃CH₂CH₂CH₂CH₂CH₂CH₂CH₃ condenses further still, to CH₃(CH₂)₆CH₃. (NCERT 8.3.1)",
+          "key_point": "A condensed formula drops most bond-dashes and uses subscripts for repeated identical groups — CH₃(CH₂)₆CH₃ instead of writing out all eight carbons and their hydrogens individually."
+        },
+        {
+          "heading": "Bond-line structural formulas",
+          "body": "For further simplification, a bond-line structural formula uses only lines: carbon and hydrogen atoms aren't written at all, carbon-carbon bonds are drawn as a zig-zag, and only heteroatoms (oxygen, chlorine, nitrogen, etc.) are written explicitly. Each terminal of a zig-zag line represents a methyl (-CH₃) group unless a functional group is shown there instead, and each line junction represents a carbon bonded to however many hydrogens are needed to complete its valence. This convention extends naturally to cyclic compounds too — cyclopropane, cyclopentane and chlorocyclohexane are drawn as their bare ring shapes, with only the chlorine substituent written out. (NCERT 8.3.1)",
+          "key_point": "Bond-line formulas show only heteroatoms explicitly — carbon and hydrogen are implied entirely by the zig-zag lines and their junctions, making this the most compact way to draw a structure."
+        },
+        {
+          "heading": "Three-dimensional (wedge-and-dash) representation",
+          "body": "A molecule's real, three-dimensional shape can be shown on flat paper using solid-wedge and dashed-wedge bonds: a solid wedge represents a bond projecting out of the paper toward the observer, a dashed wedge represents a bond projecting away from the observer, and an ordinary line represents a bond lying in the plane of the paper — wedges are always drawn with their broad end toward the observer. Methane's tetrahedral shape is the standard example drawn this way, with two bonds in the plane, one solid wedge coming forward, and one dashed wedge going back. (NCERT 8.3.2)",
+          "molecule_ids": ["methane"],
+          "key_point": "Wedge-and-dash notation shows real 3D shape on paper: solid wedge = bond coming toward you, dashed wedge = bond going away, plain line = bond in the paper's own plane."
+        },
+        {
+          "heading": "Molecular models",
+          "body": "Molecular models are physical (or computer-graphic) aids for visualising a molecule's three-dimensional shape. Three types are common: the framework model shows only the bonds, not the atoms, emphasising the bonding pattern while ignoring atomic size; the ball-and-stick model shows both atoms (as balls) and bonds (as sticks or, for C=C bonds, springs — sometimes called a ball-and-spring model); and the space-filling model shows each atom's relative size based on its van der Waals radius, without showing bonds at all, conveying the actual volume each atom occupies. (NCERT 8.3.2)",
+          "key_point": "Framework models show only bonds (ignoring atom size); ball-and-stick models show both atoms and bonds; space-filling models show only relative atomic volume (no bonds at all) — three different trade-offs for visualising the same molecule."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "classification",
+      "number": 4,
+      "title": "Classification of Organic Compounds",
+      "summary": "Organic compounds are sorted first by their carbon skeleton — open-chain, ring-shaped (alicyclic), or aromatic — and then by functional group, since compounds sharing a functional group form a homologous series with predictable, shared chemistry.",
+      "sections": [
+        {
+          "heading": "Acyclic (aliphatic) compounds",
+          "body": "Organic compounds are broadly classified as acyclic (open-chain) or cyclic (closed-chain, ring) compounds. Acyclic compounds — also called aliphatic compounds — consist of straight or branched chains, with no ring at all: ethane, isobutane, acetaldehyde and acetic acid are all examples. (NCERT 8.4)",
+          "key_point": "Acyclic (aliphatic) compounds are straight- or branched-chain compounds with no ring in their structure at all — ethane and acetic acid are examples."
+        },
+        {
+          "heading": "Alicyclic compounds",
+          "body": "Cyclic compounds split into alicyclic and aromatic types. Alicyclic (aliphatic cyclic) compounds have carbon atoms joined into a ring (homocyclic, like cyclopropane, cyclohexane and cyclohexene) and behave similarly to aliphatic compounds in many ways. Sometimes an atom other than carbon sits in the ring too (heterocyclic) — tetrahydrofuran, with an oxygen in its ring, is an example, and these also share properties with aliphatic compounds. (NCERT 8.4)",
+          "key_point": "Alicyclic compounds are rings of carbon (homocyclic, like cyclohexane) or rings with one non-carbon atom included (heterocyclic, like tetrahydrofuran) — both behave chemically much like open-chain aliphatic compounds."
+        },
+        {
+          "heading": "Aromatic compounds",
+          "body": "Aromatic compounds are a special category of ring compounds. Benzenoid aromatic compounds are benzene and related ring systems — benzene, aniline and naphthalene are examples — while non-benzenoid aromatic compounds, like tropone, share aromatic character without being built on the benzene ring itself. Aromatic rings can also contain a heteroatom, giving heterocyclic aromatic compounds such as furan, thiophene and pyridine. (NCERT 8.4)",
+          "molecule_ids": ["benzene", "aniline", "naphthalene"],
+          "key_point": "Aromatic compounds split into benzenoid (benzene, aniline, naphthalene — built on the benzene ring), non-benzenoid (like tropone), and heterocyclic aromatic (furan, thiophene, pyridine — a heteroatom in an aromatic ring)."
+        },
+        {
+          "heading": "Functional groups",
+          "body": "Beyond ring structure, organic compounds are also classified by functional group — an atom or group of atoms attached to the carbon chain that's responsible for the compound's characteristic chemical properties. The hydroxyl group (-OH), aldehyde group (-CHO) and carboxylic acid group (-COOH) are examples; a compound can also contain two or more identical or different functional groups at once, making it polyfunctional. (NCERT 8.4.1)",
+          "key_point": "A functional group is the specific atom or group responsible for a compound's characteristic chemistry — a single molecule can carry more than one, becoming polyfunctional."
+        },
+        {
+          "heading": "Homologous series",
+          "body": "A homologous series is a family of compounds that all share the same characteristic functional group, whose members (homologues) can be represented by one general molecular formula, with successive members differing by exactly one -CH₂- unit. Alkanes, alkenes, alkynes, haloalkanes, alkanols, alkanals, alkanones and alkanoic acids are all examples of homologous series. (NCERT 8.4.2)",
+          "key_point": "A homologous series is a family sharing one functional group and one general formula, where each member differs from the next by exactly one -CH₂- unit — alkanes are the simplest example."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "nomenclature",
+      "number": 5,
+      "title": "IUPAC Nomenclature",
+      "summary": "IUPAC names are built systematically — parent chain, then prefixes and suffixes for substituents and functional groups — following a fixed set of rules (longest chain, lowest locants, alphabetical order, priority order for polyfunctional compounds) precise enough that the structure can always be read straight back off the name.",
+      "sections": [
+        {
+          "heading": "Common names vs the IUPAC system",
+          "body": "Before the IUPAC (International Union of Pure and Applied Chemistry) system, organic compounds were named after their origin or properties — citric acid (found in citrus fruits) and formic acid (from the Latin formica, ant, since it's found in red ants) are examples of these trivial or common names. Common names remain useful, and sometimes indispensable, when the systematic alternative is long and complicated — buckminsterfullerene (the C₆₀ carbon cluster, named for its resemblance to Buckminster Fuller's geodesic domes) is a modern example. The IUPAC system, by contrast, correlates a compound's name directly with its structure, so the structure can be deduced from the name (and vice versa): a systematic name is built by identifying the parent hydrocarbon and the functional group(s) attached to it, then modifying that parent name with prefixes and suffixes. (NCERT 8.5, 8.5.1)",
+          "key_point": "IUPAC names are built systematically from a parent hydrocarbon plus prefixes/suffixes for functional groups, so the structure can be read directly off the name — common names (citric acid, buckminsterfullerene) persist mainly where the systematic name would be unwieldy."
+        },
+        {
+          "heading": "Naming straight-chain and branched alkanes",
+          "body": "Compounds of carbon and hydrogen only are hydrocarbons; a saturated hydrocarbon (only C-C single bonds) belongs to the homologous series called alkanes, named with the suffix '-ane' and a prefix showing the carbon count (methane through butane keep their traditional names; pentane onward use Greek/Latin number prefixes). An alkyl group is formed by removing one hydrogen from an alkane, named by swapping '-ane' for '-yl' (methane → methyl); branched alkyl groups have their own trivial names too — isopropyl, sec-butyl, isobutyl, tert-butyl and neopentyl are all standard examples. In a branched alkane, these alkyl groups are prefixed to the parent alkane's name, with their position given by number. (NCERT 8.5.2)",
+          "key_point": "Alkanes are named with the suffix '-ane'; alkyl groups (from removing one H) use '-yl' instead — branched groups like isopropyl, sec-butyl and tert-butyl have their own standard trivial names still used in IUPAC nomenclature."
+        },
+        {
+          "heading": "Rules for numbering and naming substituents",
+          "body": "Naming a branched alkane follows a fixed sequence: first identify the longest carbon chain (the parent chain) — even if a shorter alternative chain looks more obvious, the actual longest chain must be used; then number that chain so the branched (substituted) carbons get the lowest possible numbers; then prefix the alkyl group names to the parent alkane name, with their position given by number, listing different alkyl groups in alphabetical order. Two or more identical substituents are indicated with di-, tri-, tetra- etc. (not counted for alphabetical ordering) and their positions are separated by commas; if two substituents sit in equivalent positions, the lower number goes to whichever one comes first alphabetically. If two chains of equal length are both candidates for 'parent', the one with more side chains is chosen. (NCERT 8.5.2)",
+          "key_point": "Naming rules in order: pick the longest chain as parent (never a shorter one), number it to give substituents the lowest possible numbers, list substituents alphabetically with di-/tri- prefixes for repeats (ignored in alphabetizing) — and when two positions tie, alphabetical order breaks it."
+        },
+        {
+          "heading": "Naming cyclic alkanes",
+          "body": "A saturated monocyclic compound is named by prefixing 'cyclo' to the corresponding straight-chain alkane name — cyclopentane, for instance. If side chains are present, the same numbering and naming rules used for branched open-chain alkanes apply, with numbering chosen to give the lowest locants, and (where there's a choice) the more heavily branched carbon getting the lower number. (NCERT 8.5.2)",
+          "key_point": "Monocyclic alkanes take the 'cyclo-' prefix on the parent chain name, then follow exactly the same branch-numbering rules as open-chain alkanes."
+        },
+        {
+          "heading": "Naming compounds with functional groups",
+          "body": "For a compound with a functional group, the group present fixes the suffix used (from a standard list: -ol for alcohols, -al for aldehydes, -one for ketones, -oic acid for carboxylic acids, and so on), and the longest chain containing that functional group is numbered so the functional group gets the lowest possible position. For a polyfunctional compound, one functional group is chosen as the principal functional group (named with a suffix) based on a fixed order of decreasing priority — -COOH, -SO₃H, -COOR, -COCl, -CONH₂, -CN, -CHO, >C=O, -OH, -NH₂, >C=C<, -C≡C- — while the rest are named as substituent prefixes instead. If more than one functional group of the same type is present, di-, tri- etc. are added before the class suffix, and the parent alkane's terminal '-e' is dropped when more than one double or triple bond is present (buta-1,3-diene, not buta-1,3-dien-e-ene). (NCERT 8.5.3)",
+          "key_point": "One functional group is chosen as 'principal' (named with a suffix) by a fixed priority order (-COOH highest, down to -C≡C- lowest); every other functional group present is named as a substituent prefix instead."
+        },
+        {
+          "heading": "Naming substituted benzene compounds",
+          "body": "For IUPAC names of substituted benzene compounds, the substituent is prefixed to the word 'benzene' — methylbenzene (common name toluene), aminobenzene (common name aniline) — though common names for many substituted benzenes remain in universal use. If the ring carries two substituents, its carbons are numbered to give the substituents the lowest possible numbers; the trivial prefixes ortho (1,2-), meta (1,3-) and para (1,4-) are used informally for disubstituted benzenes, but can't be used once there are three or more substituents, where the lowest-locant rule takes over instead. When a benzene ring is attached to an alkane chain that itself carries the principal functional group, the ring is treated as a substituent (named phenyl, C₆H₅-, abbreviated Ph) rather than as the parent. (NCERT 8.5.4)",
+          "molecule_ids": ["aniline", "toluene"],
+          "key_point": "Substituted benzenes are named with the substituent prefixed to 'benzene' (methylbenzene = toluene, aminobenzene = aniline); ortho/meta/para only work for two substituents — three or more requires the lowest-locant numbering rule instead."
+        }
+      ],
+      "estimated_minutes": 35
+    },
+    {
+      "id": "isomerism",
+      "number": 6,
+      "title": "Isomerism",
+      "summary": "Compounds sharing one molecular formula but built (or arranged) differently are isomers — structural isomers differ in how their atoms are actually connected (chain, position, functional group, or metamerism), while stereoisomers share identical connectivity and differ only in spatial arrangement.",
+      "sections": [
+        {
+          "heading": "What isomerism means",
+          "body": "Isomerism is the existence of two or more compounds that share the same molecular formula but differ in their properties — such compounds are called isomers. Isomerism splits broadly into structural isomerism (where the atoms are actually connected differently) and stereoisomerism (where the connectivity is identical but atoms differ in their spatial arrangement). (NCERT 8.6)",
+          "key_point": "Isomers share one molecular formula but differ in properties — structural isomers differ in how atoms are actually connected, while stereoisomers share identical connectivity but differ in spatial arrangement."
+        },
+        {
+          "heading": "Chain isomerism",
+          "body": "Compounds with the same molecular formula but different carbon skeletons are chain isomers, and the phenomenon is chain isomerism. C₅H₁₂ represents three such compounds: pentane (a straight chain), isopentane (2-methylbutane), and neopentane (2,2-dimethylpropane) — all sharing the same formula but built on genuinely different carbon frameworks. (NCERT 8.6.1)",
+          "key_point": "Chain isomers share a molecular formula but differ in their actual carbon skeleton — C₅H₁₂'s three isomers (pentane, isopentane, neopentane) are the standard example."
+        },
+        {
+          "heading": "Position isomerism",
+          "body": "When two or more compounds differ only in where a substituent atom or functional group sits on an otherwise identical carbon skeleton, they're position isomers, and the phenomenon is position isomerism. C₃H₈O represents two such alcohols: propan-1-ol and propan-2-ol, differing only in which carbon holds the -OH group. (NCERT 8.6.1)",
+          "key_point": "Position isomers share the same carbon skeleton and functional group, differing only in exactly where on the chain that group sits — propan-1-ol versus propan-2-ol is the standard example."
+        },
+        {
+          "heading": "Functional group isomerism and metamerism",
+          "body": "Functional group isomers share a molecular formula but carry entirely different functional groups — C₃H₆O represents both an aldehyde (propanal) and a ketone (propanone), a genuinely different kind of difference from chain or position isomerism. Metamerism, by contrast, arises from having different alkyl chains on either side of the same functional group: C₄H₁₀O represents both methoxypropane (CH₃OC₃H₇) and ethoxyethane (C₂H₅OC₂H₅), both ethers, differing only in how the carbons are distributed on each side of the oxygen. (NCERT 8.6.1)",
+          "key_point": "Functional group isomers carry different functional groups entirely (an aldehyde vs. a ketone, both C₃H₆O); metamers share the same functional group but split its flanking alkyl chains differently (methoxypropane vs. ethoxyethane, both ethers)."
+        },
+        {
+          "heading": "Stereoisomerism",
+          "body": "Stereoisomers share the same connectivity and sequence of covalent bonds but differ in how their atoms or groups are arranged in space — a fundamentally different kind of isomerism from the structural types above, since the atoms are connected in exactly the same way. Stereoisomerism splits into geometrical isomerism and optical isomerism. (NCERT 8.6.2)",
+          "key_point": "Stereoisomers have identical connectivity (unlike structural isomers) and differ only in spatial arrangement — splitting further into geometrical and optical isomerism, covered in more depth in later units."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "fission-of-covalent-bond",
+      "number": 7,
+      "title": "Fission of a Covalent Bond",
+      "summary": "A covalent bond can break in two genuinely different ways — heterolytic cleavage (giving a carbocation and an anion, or a carbanion and a cation) or homolytic cleavage (giving two free radicals) — and each of the resulting reactive intermediates has its own characteristic shape, stability order and reaction type named after it.",
+      "sections": [
+        {
+          "heading": "Substrate, reagent, and reaction mechanism",
+          "body": "In an organic reaction, an organic molecule (the substrate) reacts with an attacking reagent to form one or more intermediates, and finally product(s) — sometimes alongside byproducts. A full, sequential account of each step — the electron movements, the energetics of bond cleavage and formation, and the rate at which reactants convert to products — is called the reaction mechanism, and understanding it is essential for predicting reactivity and planning synthesis. In such a reaction, a covalent bond between two carbons (or a carbon and some other atom) is broken and a new bond is formed. (NCERT 8.7)",
+          "key_point": "A reaction mechanism is the full, step-by-step account of how a substrate becomes product(s) via an attacking reagent — covering electron movement, energetics, and rate, not just the overall starting/ending formulas."
+        },
+        {
+          "heading": "Heterolytic cleavage and carbocations",
+          "body": "A covalent bond can break in one of two ways: heterolytic cleavage or homolytic cleavage. In heterolytic cleavage, the bond breaks so that the shared electron pair stays entirely with one fragment — leaving one atom with a sextet of electrons and a positive charge, and the other with a full octet (including at least one lone pair) and a negative charge. Heterolysis of bromomethane, for instance, gives ĊH₃⁺ and Br⁻. A species with a positively charged carbon holding only a sextet of electrons is a carbocation (formerly carbonium ion); carbocations are classified as primary, secondary or tertiary depending on how many carbons are directly attached to the charged carbon, and their stability increases in that order (primary < secondary < tertiary) because alkyl groups directly attached stabilise the positive charge through inductive and hyperconjugation effects. Carbocations are trigonal planar, with the positively charged carbon sp² hybridised and its empty p orbital perpendicular to the plane of the three attached groups. (NCERT 8.7.1)",
+          "key_point": "Heterolytic cleavage gives a carbocation (positive, sextet-electron carbon, sp² and trigonal planar) on one side — stability increases primary < secondary < tertiary, since more attached alkyl groups better stabilise the positive charge."
+        },
+        {
+          "heading": "Heterolytic cleavage and carbanions",
+          "body": "Heterolytic cleavage can also leave the carbon with the shared electron pair instead — when a leaving group Z takes both electrons of the C-Z bond with it as it departs (CH₃-Z → H₃C:⁻ + Z⁺), the resulting carbon species, carrying a negative charge and a lone pair, is a carbanion. Carbon in a carbanion is generally sp³ hybridised, giving it a distorted tetrahedral shape (three bonds plus the lone pair). Like carbocations, carbanions are unstable, highly reactive species; reactions that proceed via heterolytic bond cleavage are called ionic, heteropolar, or simply polar reactions. (NCERT 8.7.1)",
+          "key_point": "The other possible outcome of heterolytic cleavage is a carbanion — a negatively charged, sp³-hybridised, lone-pair-bearing carbon, just as unstable and reactive as a carbocation."
+        },
+        {
+          "heading": "Homolytic cleavage and free radicals",
+          "body": "In homolytic cleavage, each of the two bonded atoms keeps one electron of the shared pair, so a single unpaired electron moves rather than a full pair — this single-electron movement is shown with a half-headed 'fish hook' arrow, rather than the full-headed arrow used for pairs. Homolysis produces neutral species (an atom or group) carrying an unpaired electron, called free radicals; like carbocations and carbanions, free radicals are highly reactive. Alkyl radicals are classified as primary, secondary or tertiary the same way carbocations are, and their stability increases the same way too (primary < secondary < tertiary). Reactions proceeding by homolytic fission are called free radical, homopolar, or nonpolar reactions. (NCERT 8.7.1)",
+          "key_point": "Homolytic cleavage splits the shared electron pair one-to-each-atom, producing free radicals (neutral, unpaired-electron species) rather than charged ions — their stability follows the same primary < secondary < tertiary trend as carbocations."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "substrate-reagent-nucleophiles",
+      "number": 8,
+      "title": "Substrate, Reagent, Nucleophiles and Electrophiles",
+      "summary": "By convention, whichever reactant supplies the carbon for a new bond is called the substrate and the other the reagent — and reagents themselves split into nucleophiles (electron-pair donors, attacking electron-poor sites) and electrophiles (electron-pair acceptors, attacking electron-rich sites).",
+      "sections": [
+        {
+          "heading": "Naming the substrate and the reagent",
+          "body": "Organic reactions rarely involve free ions — molecules themselves are what react. By convention, whichever reactant supplies the carbon for a new bond is called the substrate, and the other is the reagent; when both reactants supply carbon to a new C-C bond, the choice of which to call which is arbitrary and depends on which molecule is actually under discussion. In CH₂=CH₂ + Br₂ → BrCH₂-CH₂Br, ethene is the substrate and bromine the reagent; when benzene reacts with CH₃Cl to give toluene, benzene is the substrate. (NCERT 8.7.2)",
+          "molecule_ids": ["toluene"],
+          "key_point": "The substrate is whichever reactant supplies the carbon for the new bond; the reagent is the other — an arbitrary choice when both reactants contribute carbon, but a useful naming convention regardless."
+        },
+        {
+          "heading": "Nucleophiles: electron-pair donors",
+          "body": "A reagent that brings an electron pair to the substrate's reactive site is a nucleophile (Nu:, 'nucleus-seeking'), and the reaction it drives is nucleophilic. Nucleophiles attack the substrate's electrophilic centre — the specific atom or part of the molecule that's electron-deficient. Examples include negatively charged ions with a lone pair (hydroxide, cyanide, carbanions) and neutral molecules with a lone pair to donate (water, amines). (NCERT 8.7.2)",
+          "key_point": "A nucleophile donates an electron pair to the substrate's electron-deficient (electrophilic) site — negatively charged lone-pair species (OH⁻, CN⁻) and neutral lone-pair molecules (H₂O, amines) both qualify."
+        },
+        {
+          "heading": "Electrophiles: electron-pair acceptors",
+          "body": "A reagent that takes an electron pair away from the substrate's reactive site is an electrophile (E⁺, 'electron-seeking'), and the reaction is electrophilic; electrophiles attack the substrate's nucleophilic centre — the electron-rich part of the molecule, such as a π bond. Carbocations are a natural example (their carbon has only a sextet and can accept a pair), and so are neutral molecules with an electron-poor functional group, like a carbonyl (>C=O) or an alkyl halide (R₃C-X), where bond polarity leaves the carbon partially positive and able to accept a nucleophile's electron pair. A curved-arrow notation shows the movement of the electron pair from nucleophile to electrophile during bond formation. (NCERT 8.7.2)",
+          "key_point": "An electrophile accepts an electron pair from the substrate's electron-rich (nucleophilic) site — carbocations qualify directly (empty orbital), while neutral carbonyls and alkyl halides qualify because bond polarity leaves their carbon partially positive."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "electron-displacement-effects",
+      "number": 9,
+      "title": "Electron Movement and the Inductive Effect",
+      "summary": "Curved-arrow notation tracks how electron pairs move during a reaction, and electron displacement inside a molecule can be either permanent (inductive effect, resonance) or temporary (electromeric effect) — the inductive effect specifically is the polarisation one polar bond induces in its neighbours, an effect that fades out almost completely after about three bonds.",
+      "sections": [
+        {
+          "heading": "Showing electron movement with curved arrows",
+          "body": "The movement of electrons during an organic reaction is shown using curved-arrow notation: the arrow starts at the point an electron pair is shifting from, and ends where that pair moves to. This can show a pair moving from a π bond to an adjacent bond position, from a π bond to an adjacent atom, or from an atom to an adjacent bond position — and the movement of just a single electron (rather than a full pair) is shown with a half-headed 'fish hook' arrow instead. (NCERT 8.7.3)",
+          "key_point": "Curved-arrow notation tracks exactly where an electron pair (full-headed arrow) or single electron (fish-hook arrow) moves from and to during a reaction — the standard visual language for organic mechanisms."
+        },
+        {
+          "heading": "Permanent vs temporary electron displacement",
+          "body": "Electron displacement within an organic molecule can happen in the ground state — under the permanent influence of an atom or substituent group already present — or only temporarily, in the presence of an attacking reagent. Inductive effect and resonance are examples of permanent electron displacement, causing permanent bond polarisation; the electromeric effect (or polarisability effect) is temporary, appearing only while a reagent is actually attacking the molecule. (NCERT 8.7.4)",
+          "key_point": "Inductive effect and resonance are permanent electron displacements (built into the molecule's own structure); the electromeric effect is temporary, appearing only during an actual attack by a reagent."
+        },
+        {
+          "heading": "Bond polarity and the inductive effect",
+          "body": "When a covalent bond forms between atoms of different electronegativity, electron density shifts toward the more electronegative atom, giving a polar covalent bond — shown with fractional charges δ⁺ and δ⁻, and an arrow pointing from the δ⁺ to the δ⁻ end. In chloroethane, the polar C-Cl bond leaves carbon-1 with a δ⁺ charge and chlorine with δ⁻; that same δ⁺ on carbon-1 then draws some electron density from the adjacent C-C bond, developing a smaller positive charge (δδ⁺) on carbon-2 too. This polarisation of one sigma bond caused by the polarisation of an adjacent sigma bond is the inductive effect. Based on whether they withdraw or donate electron density relative to hydrogen, substituents are classed as electron-withdrawing (halogens, -NO₂, -CN, -COOH, -COOR, -OAr) or electron-donating (alkyl groups like -CH₃ and -CH₂CH₃). (NCERT 8.7.5)",
+          "key_point": "The inductive effect is the polarisation of one sigma bond caused by an adjacent polar sigma bond — substituents are classed as electron-withdrawing (halogens, -NO₂, -CN) or electron-donating (alkyl groups) based on this effect relative to hydrogen."
+        },
+        {
+          "heading": "How far the inductive effect reaches",
+          "body": "The inductive effect passes along a chain of bonds, but weakens rapidly as the number of intervening bonds increases, becoming vanishingly small after about three bonds — so in a molecule like CH₃CH₂CH₂Br, the inductive effect is strongest at the carbon closest to the bromine and essentially negligible three carbons away. This decay-with-distance behaviour is exactly what makes the inductive effect a 'permanent' but localised effect, distinct from resonance (which can act over a fully conjugated system regardless of length). (NCERT 8.7.5)",
+          "key_point": "The inductive effect decays rapidly with distance — it's essentially gone after about three bonds, which is why it only meaningfully affects carbons close to the polar bond causing it."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "resonance",
+      "number": 10,
+      "title": "Resonance",
+      "summary": "Some molecules — benzene's uniform bond lengths are the classic proof — simply can't be represented by any single Lewis structure, so their real structure is described as a hybrid of several hypothetical canonical structures, ranked by stability using a fixed set of rules, and the resonance effect this hybrid produces is transmitted through a conjugated system without ever fading with distance.",
+      "sections": [
+        {
+          "heading": "Why some molecules need more than one Lewis structure",
+          "body": "Some organic molecules can't be explained by a single Lewis structure. Benzene's usual structure — a ring of alternating C-C single and C=C double bonds — would predict two different bond lengths, but experimentally benzene's C-C bond distance is a single, uniform 139 pm, sitting between a normal C-C single bond (154 pm) and a normal C=C double bond (134 pm). A single alternating-bond structure simply can't represent this. (NCERT 8.7.6)",
+          "molecule_ids": ["benzene"],
+          "key_point": "Benzene's real, uniform C-C bond length (139 pm — between a single bond's 154 pm and a double bond's 134 pm) is exactly the kind of experimental fact that a single Lewis structure can't explain."
+        },
+        {
+          "heading": "Resonance structures and the resonance hybrid",
+          "body": "Benzene can be drawn equally well as two energetically identical Lewis structures with the double bonds shifted to alternate positions; the actual molecule is neither structure individually, but a hybrid of the two, called its resonance (or canonical, or contributing) structures. These resonance structures are hypothetical — no single one represents any real molecule — and contribute to the real, hybrid structure in proportion to their own stability. Nitromethane (CH₃NO₂) is another example: its two Lewis structures, differing in which N-O bond is the double bond, both contribute to a hybrid whose two N-O bonds are, in reality, of identical, intermediate length. (NCERT 8.7.6)",
+          "key_point": "A resonance hybrid is the real structure of a molecule that no single Lewis structure can represent — the canonical (contributing) structures are hypothetical bookkeeping devices, not real, physically-existing alternatives."
+        },
+        {
+          "heading": "Rules for judging resonance structures",
+          "body": "Valid resonance structures for the same molecule must share the same positions of nuclei and the same number of unpaired electrons. Among the possible resonance structures, the more stable — and so more important — contributor is the one with more covalent bonds, complete octets on every atom (except hydrogen, which needs only a duplet), less separation of opposite charges (with any negative charge preferably on the more electronegative atom and any positive charge on the more electropositive one), and greater dispersal of charge. The resonance hybrid's energy is always lower than that of any single contributing structure — the difference between the hybrid's actual energy and the lowest-energy canonical structure is the resonance energy, and it grows with the number of significant contributing structures. (NCERT 8.7.6)",
+          "key_point": "Resonance structures are ranked by more covalent bonds, complete octets, less charge separation (with charges on chemically sensible atoms), and more charge dispersal — the actual hybrid always sits lower in energy than any single contributor, by an amount called the resonance energy."
+        },
+        {
+          "heading": "The resonance effect",
+          "body": "The resonance (or mesomeric) effect is the polarity produced in a molecule by the interaction between two π bonds, or between a π bond and a lone pair on an adjacent atom — and unlike the inductive effect, it's transmitted through a fully conjugated chain rather than decaying with distance. A positive resonance effect (+R) pushes electron density away from an atom or group attached to the conjugated system, as seen in aniline, where nitrogen's lone pair delocalises into the ring, making certain ring positions electron-rich; a negative resonance effect (−R) pulls electron density toward the attached group instead, as in nitrobenzene, where the ring's electron density is drawn toward the electron-withdrawing -NO₂ group. Halogens, -OH, -OR, -NH₂ and similar groups typically show +R; -COOH, -CHO, >C=O, -CN and -NO₂ typically show −R. (NCERT 8.7.7)",
+          "molecule_ids": ["aniline"],
+          "key_point": "The resonance effect works through a fully conjugated system, not decaying with distance the way induction does — +R groups (like -NH₂ in aniline) push electron density into the ring, while −R groups (like -NO₂ in nitrobenzene) pull it away."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "electromeric-effect-hyperconjugation",
+      "number": 11,
+      "title": "Electromeric Effect and Hyperconjugation",
+      "summary": "The electromeric effect is a genuinely temporary π-electron shift that only appears while a reagent is actually attacking a multiple bond, while hyperconjugation — delocalising a C-H bond's electrons into an adjacent empty orbital or π system — is a permanent, stabilising effect that directly explains why more heavily alkyl-substituted carbocations are always more stable.",
+      "sections": [
+        {
+          "heading": "The electromeric effect",
+          "body": "The electromeric effect (E effect) is a temporary effect, shown only by compounds with a multiple bond (double or triple), and only in the presence of an attacking reagent: it's the complete transfer of a shared pair of π electrons to one of the two atoms joined by the multiple bond, triggered by the reagent's demand. Unlike the inductive or resonance effects, the electromeric effect switches off the instant the attacking reagent is removed from the reaction. (NCERT 8.7.8)",
+          "key_point": "The electromeric effect is a genuinely temporary electron shift — a full π-electron pair transfer that only happens while an attacking reagent is actually present, switching off the moment it's removed."
+        },
+        {
+          "heading": "Positive and negative electromeric effect",
+          "body": "In the positive electromeric effect (+E), the π electrons of a multiple bond transfer to the atom the reagent actually attaches to — as when >C=C< reacts with H⁺ to give >C⁺-C(H)<, with the electron pair moving to form the new C-H bond. In the negative electromeric effect (−E), the π electrons instead transfer to the atom the reagent does not attach to — as when >C=C< reacts with CN⁻, with the electron pair moving away from the incoming cyanide to leave a carbanion elsewhere in the molecule. When the inductive and electromeric effects act in opposing directions, the electromeric effect generally predominates. (NCERT 8.7.8)",
+          "key_point": "+E moves the multiple bond's electrons toward the atom the reagent attaches to; −E moves them away from it — and when inductive and electromeric effects conflict, the (temporary) electromeric effect usually wins out."
+        },
+        {
+          "heading": "Hyperconjugation",
+          "body": "Hyperconjugation is a general stabilising interaction: it involves delocalising the σ electrons of a C-H bond in an alkyl group directly attached to an unsaturated system (or to an atom with an empty p orbital) into that adjacent system. In an ethyl cation, CH₃ĊH₂, one of the methyl group's C-H bonds can align with the empty p orbital on the adjacent positively charged carbon, letting that bond's electrons delocalise into the empty orbital — this overlap stabilises the carbocation by helping disperse its positive charge. Hyperconjugation is a permanent effect, and it's also possible in alkenes and alkylarenes, where a C-H σ bond delocalises into an adjacent π system instead. (NCERT 8.7.9)",
+          "key_point": "Hyperconjugation delocalises a C-H σ bond's electrons into an adjacent empty orbital or π system — in a carbocation, this helps disperse the positive charge and stabilise it, and it's a permanent (not reagent-dependent) effect."
+        },
+        {
+          "heading": "Hyperconjugation and carbocation stability",
+          "body": "The more alkyl groups attached to a positively charged carbon, the more C-H bonds are available to hyperconjugate with the empty orbital, and so the greater the stabilisation. This gives the observed order of carbocation stability: methyl < ethyl < isopropyl < tert-butyl cation — the same order inductive and hyperconjugation effects both point toward, since more attached alkyl groups mean both more electron-donation by induction and more hyperconjugative overlap. (NCERT 8.7.9)",
+          "key_point": "Carbocation stability (methyl < ethyl < isopropyl < tert-butyl) tracks the number of attached alkyl groups directly, since each one adds both an inductive electron-donation and additional C-H bonds available for hyperconjugation."
+        },
+        {
+          "heading": "Types of organic reactions",
+          "body": "Organic reactions are broadly classified into four categories: substitution reactions, addition reactions, elimination reactions, and rearrangement reactions. The detailed mechanisms of each type are studied later, in Unit 9 and in Class XII. (NCERT 8.7.10)",
+          "key_point": "Organic reactions fall into four broad mechanistic categories — substitution, addition, elimination and rearrangement — each studied in mechanistic detail in later units."
+        }
+      ],
+      "estimated_minutes": 25
+    },
+    {
+      "id": "purification-methods",
+      "number": 12,
+      "title": "Methods of Purification of Organic Compounds",
+      "summary": "Which purification technique to use comes down to the physical property that best distinguishes a compound from its impurities — sublimability, solubility, boiling point, water-miscibility, or adsorption strength — and most real separations (fractional and steam distillation, chromatography) are really just repeated, refined applications of one of these basic ideas.",
+      "sections": [
+        {
+          "heading": "Sublimation",
+          "body": "Some solids convert directly from solid to vapour on heating, without passing through a liquid state. The purification technique built on this — sublimation — separates sublimable compounds from non-sublimable impurities, since only the sublimable component vaporises and can be recovered separately. (NCERT 8.8.1)",
+          "key_point": "Sublimation purifies a compound that vaporises directly from the solid state, leaving behind any impurity that doesn't sublime."
+        },
+        {
+          "heading": "Crystallisation",
+          "body": "Crystallisation, one of the most common techniques for purifying solid organic compounds, exploits the difference in solubility between the compound and its impurities in a chosen solvent. The impure solid is dissolved in a solvent where it's only sparingly soluble at room temperature but much more soluble hot, the solution is concentrated to near saturation, and cooling crystallises out the pure compound, leaving impurities behind in the remaining solution (the mother liquor), which is removed by filtration. Coloured impurities can be removed by adsorbing them onto activated charcoal, and compounds with impurities of similar solubility may need repeated crystallisation, sometimes from a mixed solvent. (NCERT 8.8.2)",
+          "key_point": "Crystallisation purifies by dissolving a compound near saturation in a solvent it's only sparingly soluble in cold, then cooling to crystallise the pure compound out while impurities stay in solution (the mother liquor)."
+        },
+        {
+          "heading": "Distillation",
+          "body": "Distillation separates volatile liquids from non-volatile impurities, or liquids with sufficiently different boiling points from each other, since liquids vaporise at different temperatures. The mixture is heated in a round-bottom flask; vapours are cooled in a condenser and the resulting liquid collected separately as each component boils off in turn — chloroform (b.p. 334 K) and aniline (b.p. 457 K) are separated this way. (NCERT 8.8.3)",
+          "molecule_ids": ["aniline"],
+          "key_point": "Simple distillation separates liquids with a sufficiently large boiling-point difference (like chloroform, 334 K, and aniline, 457 K) by collecting each component's condensed vapour as it boils off in sequence."
+        },
+        {
+          "heading": "Fractional distillation and distillation under reduced pressure",
+          "body": "When two liquids' boiling points are too close for simple distillation to separate them (their vapours form within the same temperature range and condense together), fractional distillation is used instead: vapours pass up through a fractionating column before reaching the condenser, giving many surfaces for heat exchange between the ascending vapour and the descending, re-condensing liquid. Each successive re-condensation and re-vaporisation (a 'theoretical plate') enriches the ascending vapour in the more volatile component, so a pure, low-boiling fraction reaches the top first, while the flask itself becomes progressively enriched in the higher-boiling component; separating crude oil into its fractions in the petroleum industry is a large-scale application. Distillation under reduced pressure, separately, purifies liquids with very high boiling points, or that decompose at or near their normal boiling point: since a liquid boils once its vapour pressure equals the external pressure, lowering that external pressure (with a water or vacuum pump) lets the liquid boil — and so be distilled — at a much lower temperature than usual. Glycerol is separated from spent-lye in the soap industry this way. (NCERT 8.8.3)",
+          "key_point": "Fractional distillation (via a fractionating column, many re-condensation/re-vaporisation cycles) separates liquids whose boiling points are too close for simple distillation; distillation under reduced pressure instead lowers a liquid's boiling point by lowering the external pressure, letting heat-sensitive or very-high-boiling liquids distil safely."
+        },
+        {
+          "heading": "Steam distillation and differential extraction",
+          "body": "Steam distillation separates substances that are steam-volatile and immiscible with water: steam passed through the heated liquid lets the mixture boil once the sum of the organic liquid's own vapour pressure and water's vapour pressure equals atmospheric pressure — since the organic liquid's own vapour pressure alone is lower than atmospheric, it vaporises at a temperature below its normal boiling point. Aniline is separated from an aniline-water mixture this way. Differential extraction, separately, purifies a compound dissolved in an aqueous medium by shaking it with an immiscible organic solvent that dissolves it better than water does; the two immiscible layers separate in a separatory funnel and the compound is recovered from the organic layer afterward, by distillation or evaporation. If the compound is only poorly soluble in the extracting solvent, continuous extraction (repeatedly reusing the same solvent) is used instead. (NCERT 8.8.3, 8.8.4)",
+          "molecule_ids": ["aniline"],
+          "key_point": "Steam distillation lets a water-immiscible liquid (like aniline) boil below its normal boiling point, since it only needs its own vapour pressure plus water's to reach atmospheric pressure; differential extraction instead separates a dissolved compound into a better solvent using a separatory funnel."
+        },
+        {
+          "heading": "Chromatography",
+          "body": "Chromatography (from the Greek chroma, colour, since it was first used to separate coloured plant pigments) separates a mixture by passing a mobile phase (a solvent, solvent mixture, or gas) slowly over a stationary phase (solid or liquid) holding the mixture — the components separate as they move at different rates. Adsorption chromatography relies on components adsorbing to different degrees onto an adsorbent like silica gel or alumina — column chromatography (separation down a packed column, with the most strongly adsorbed compounds staying nearest the top) and thin layer chromatography (TLC, separation across a thin adsorbent-coated plate, with each spot's relative movement measured by its retardation factor, Rf = distance moved by substance ÷ distance moved by solvent) are its two main forms. Partition chromatography instead relies on continuous differential partitioning between stationary and mobile phases — paper chromatography, where water trapped in the paper itself is the stationary phase, is the standard example. (NCERT 8.8.5)",
+          "key_point": "Chromatography separates mixtures by differential movement over a stationary phase — adsorption chromatography (column, TLC, using Rf values) relies on differing adsorption strength; partition chromatography (paper chromatography) relies on differing partition between stationary and mobile phases instead."
+        }
+      ],
+      "estimated_minutes": 30
+    },
+    {
+      "id": "qualitative-analysis",
+      "number": 13,
+      "title": "Qualitative Analysis of Organic Compounds",
+      "summary": "Carbon and hydrogen are detected together by simple combustion, but nitrogen, sulphur, halogens and phosphorus need Lassaigne's test first — fusing the compound with sodium metal to convert these elements into ionic sodium salts that standard inorganic tests can then detect.",
+      "sections": [
+        {
+          "heading": "Detecting carbon and hydrogen",
+          "body": "Carbon and hydrogen are detected together by heating the compound with copper(II) oxide: carbon is oxidised to carbon dioxide (confirmed by turbidity in lime water) and hydrogen to water (confirmed by anhydrous copper sulphate turning from white to blue). C + 2CuO → 2Cu + CO₂; H₂ + CuO → Cu + H₂O; CO₂ + Ca(OH)₂ → CaCO₃↓ + H₂O; 5H₂O + CuSO₄ → CuSO₄·5H₂O (white → blue). (NCERT 8.9.1)",
+          "key_point": "Carbon and hydrogen are detected together by heating with CuO — CO₂ turns lime water turbid, and water turns anhydrous (white) copper sulphate blue, confirming both elements in a single test."
+        },
+        {
+          "heading": "Lassaigne's test: converting covalent to ionic form",
+          "body": "Nitrogen, sulphur, halogens and phosphorus are detected via Lassaigne's test, which converts these elements from covalent form into ionic form by fusing the compound with sodium metal: Na + C + N → NaCN; 2Na + S → Na₂S; Na + X → NaX (X = Cl, Br or I) — with the carbon, nitrogen, sulphur and halogen all coming from the organic compound itself. The resulting cyanide, sulphide and halide of sodium are extracted from the fused mass by boiling it with distilled water, giving the sodium fusion extract used for all the individual element tests. (NCERT 8.9.2)",
+          "key_point": "Lassaigne's test fuses the compound with sodium metal to convert N, S and halogens into ionic sodium salts (NaCN, Na₂S, NaX) — the resulting sodium fusion extract is what every individual element test is then run on."
+        },
+        {
+          "heading": "Tests for nitrogen, sulphur, halogens and phosphorus",
+          "body": "Each element in the sodium fusion extract gets its own confirmatory test. For nitrogen, boiling the extract with iron(II) sulphate then acidifying with concentrated sulphuric acid gives a Prussian blue colour (from cyanide reacting via iron(II) and iron(III) hexacyanidoferrate). For sulphur, acidifying with acetic acid and adding lead acetate gives a black lead sulphide precipitate, or treating with sodium nitroprusside gives a violet colour; if both nitrogen and sulphur are present, sodium thiocyanate forms instead, giving a blood-red colour with Fe³⁺ (and no Prussian blue, since no free cyanide remains). For halogens, acidifying the extract with nitric acid and adding silver nitrate gives a precipitate whose colour identifies the halogen: white (soluble in ammonia) for chlorine, yellowish (sparingly soluble in ammonia) for bromine, yellow (insoluble in ammonia) for iodine — though if nitrogen or sulphur is also present, the extract must first be boiled with concentrated nitric acid to destroy any interfering cyanide or sulphide. For phosphorus, the compound is heated with an oxidising agent (sodium peroxide) to convert phosphorus to phosphate, then treated with nitric acid and ammonium molybdate — a yellow colour or precipitate confirms phosphorus. (NCERT 8.9.2)",
+          "key_point": "Each element gets a distinct colour test from the sodium fusion extract: Prussian blue for nitrogen, black PbS (or violet with nitroprusside) for sulphur, a silver halide precipitate whose colour identifies the specific halogen, and a yellow ammonium phosphomolybdate for phosphorus."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "quantitative-analysis",
+      "number": 14,
+      "title": "Quantitative Analysis of Organic Compounds",
+      "summary": "Every element in an organic compound has its own quantitative estimation method — combustion for carbon and hydrogen, Dumas' or Kjeldahl's method for nitrogen, Carius' method for halogens and sulphur — and every one of them follows the same basic logic: convert the element to a specific, easily-measured product, then work back to its mass percentage from a known reaction stoichiometry.",
+      "sections": [
+        {
+          "heading": "Carbon and hydrogen",
+          "body": "Carbon and hydrogen are estimated together: a known mass of compound is burnt completely in excess oxygen with copper(II) oxide, oxidising carbon to CO₂ and hydrogen to H₂O, CxHy + (x + y/4)O₂ → xCO₂ + (y/2)H₂O. The water produced is absorbed and weighed in a U-tube of anhydrous calcium chloride; the CO₂ is absorbed and weighed in a second U-tube of concentrated potassium hydroxide solution. If m is the compound's mass and m₁, m₂ are the masses of water and CO₂ produced, percentage of carbon = (12 × m₂ × 100)/(44 × m) and percentage of hydrogen = (2 × m₁ × 100)/(18 × m). For a compound where 0.246 g gave 0.198 g CO₂ and 0.1014 g H₂O, this works out to 21.95% carbon and 4.58% hydrogen. (NCERT 8.10.1)",
+          "key_point": "Carbon and hydrogen are estimated from the weighed masses of CO₂ and H₂O produced on complete combustion: %C = 12m₂×100/44m and %H = 2m₁×100/18m, where m₁ and m₂ are the water and CO₂ masses collected."
+        },
+        {
+          "heading": "Nitrogen: the Dumas method",
+          "body": "In the Dumas method, the nitrogen-containing compound is heated with copper oxide in an atmosphere of CO₂, releasing free nitrogen alongside CO₂ and water; any nitrogen oxide traces are reduced back to nitrogen by passing the gas over heated copper gauze. The gas mixture is collected over aqueous KOH, which absorbs the CO₂, leaving pure nitrogen to be measured. If V mL of nitrogen is collected at STP for a compound of mass m g, percentage of nitrogen = (28 × V × 100)/(22400 × m), since 22,400 mL of N₂ at STP weighs 28 g. For a compound where 0.3 g gave 50 mL of nitrogen at 300 K and 715 mm pressure (with 15 mm aqueous tension), correcting to STP gives 41.9 mL, and a nitrogen percentage of 17.46%. (NCERT 8.10.2)",
+          "key_point": "The Dumas method measures nitrogen gas volume directly (after absorbing CO₂ in KOH): %N = 28V×100/22400m, using the fact that 22,400 mL of N₂ at STP weighs exactly 28 g."
+        },
+        {
+          "heading": "Nitrogen: Kjeldahl's method",
+          "body": "In Kjeldahl's method, the compound is heated with concentrated sulphuric acid, converting its nitrogen to ammonium sulphate; the mixture is then heated with excess sodium hydroxide, and the liberated ammonia is absorbed into a known, excess volume of standard sulphuric acid. Titrating the unreacted sulphuric acid against standard alkali gives, by difference, the amount of acid actually consumed by the ammonia. If V mL of H₂SO₄ of molarity M was taken and V₁ mL of NaOH of the same molarity M was needed to neutralise the excess, percentage of nitrogen = 1.4 × M × 2(V − V₁/2) / m. Kjeldahl's method doesn't work for nitrogen present as a nitro or azo group, or as ring nitrogen (as in pyridine), since these forms don't convert to ammonium sulphate under the reaction conditions. (NCERT 8.10.2)",
+          "key_point": "Kjeldahl's method converts nitrogen to ammonium sulphate, then measures it by back-titrating unreacted standard acid — but it fails for nitro, azo, or aromatic ring nitrogen (like pyridine), none of which convert to ammonium sulphate."
+        },
+        {
+          "heading": "Halogens: the Carius method",
+          "body": "In the Carius method, a known mass of compound is heated with fuming nitric acid in the presence of silver nitrate inside a sealed Carius tube; the halogen present forms the corresponding silver halide (AgX), which is filtered, washed, dried and weighed. If m₁ g of AgX forms from m g of compound, percentage of halogen = (atomic mass of X × m₁ × 100)/(molecular mass of AgX × m). For a 0.15 g compound giving 0.12 g of AgBr (molar mass 188 g/mol, of which 80 g is bromine), this gives 34.04% bromine. (NCERT 8.10.3)",
+          "key_point": "The Carius method converts a compound's halogen to silver halide (AgX) by heating with fuming nitric acid and AgNO₃ — weighing the AgX precipitate gives the halogen percentage directly."
+        },
+        {
+          "heading": "Sulphur and phosphorus",
+          "body": "For sulphur, the compound is heated in a Carius tube with sodium peroxide or fuming nitric acid, oxidising sulphur to sulphuric acid, which is precipitated as barium sulphate by adding excess barium chloride; percentage of sulphur = (32 × m₁ × 100)/(233 × m), using BaSO₄'s molar mass of 233 g/mol (of which 32 g is sulphur). A 0.157 g sample giving 0.4813 g of BaSO₄ works out to 42.10% sulphur. For phosphorus, the compound is similarly heated with fuming nitric acid to oxidise phosphorus to phosphoric acid, which is precipitated as ammonium phosphomolybdate, (NH₄)₃PO₄·12MoO₃ (molar mass 1877 g/mol, containing one phosphorus atom, mass 31), giving percentage of phosphorus = (31 × m₁ × 100)/(1877 × m); alternatively, precipitating as magnesium pyrophosphate (Mg₂P₂O₇, molar mass 222, containing two phosphorus atoms, mass 62) gives percentage of phosphorus = (62 × m₁ × 100)/(222 × m). (NCERT 8.10.4, 8.10.5)",
+          "key_point": "Sulphur is estimated by precipitating it as BaSO₄ (%S = 32m₁×100/233m); phosphorus is estimated by precipitating as ammonium phosphomolybdate or magnesium pyrophosphate, using each precipitate's known molar mass and phosphorus content the same way."
+        },
+        {
+          "heading": "Oxygen",
+          "body": "Oxygen is usually found indirectly, as the difference between 100% and the summed percentages of every other element present. It can also be measured directly: the compound is decomposed by heating in a stream of nitrogen, the gaseous products (containing oxygen) are passed over red-hot coke to convert all the oxygen to carbon monoxide, and that CO is passed through warm iodine pentoxide, which oxidises it to CO₂ while releasing iodine — 2C + O₂ → 2CO, and I₂O₅ + 5CO → I₂ + 5CO₂. Since every mole of oxygen liberated ultimately produces two moles of CO₂ this way, 88 g of CO₂ corresponds to 32 g of oxygen, giving percentage of oxygen = (32 × m₁ × 100)/(88 × m), where m₁ is the mass of CO₂ produced from a compound of mass m; the oxygen percentage can also be worked out from the amount of iodine liberated instead. (NCERT 8.10.6)",
+          "key_point": "Oxygen is usually found by difference (100% minus every other element's percentage), but can also be measured directly by converting it to CO via red-hot coke, then to CO₂ via iodine pentoxide — %O = 32m₁×100/88m, from the CO₂ produced."
+        }
+      ],
+      "estimated_minutes": 30
+    }
   ]
 }
