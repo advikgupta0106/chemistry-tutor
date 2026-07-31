@@ -157,9 +157,19 @@ export default function MoleculeViewerClient({
       // in this same container, since createViewer appends rather than replaces.
       container.innerHTML = "";
 
-      const viewer = $3Dmol.createViewer(container, {
-        backgroundColor: "#16141F",
-      });
+      // createViewer runs synchronously and isn't wrapped in a promise, so a
+      // failure here (e.g. WebGL unavailable) would otherwise be an uncaught
+      // exception — the loading spinner would spin forever instead of
+      // falling through to the existing error/retry state below.
+      let viewer: Viewer3D;
+      try {
+        viewer = $3Dmol.createViewer(container, {
+          backgroundColor: "#16141F",
+        });
+      } catch {
+        setLoadState("error");
+        return;
+      }
       viewerRef.current = viewer;
 
       fetchSDF(molecule.pubchem_cid, abortController.signal)

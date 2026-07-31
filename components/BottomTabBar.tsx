@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Compass, NotebookText, TrendingUp, User } from "lucide-react";
+import { Home, Compass, Atom, NotebookText, TrendingUp, User } from "lucide-react";
 
 const TABS = [
   { href: "/", label: "Home", icon: Home },
   { href: "/explore", label: "Explore", icon: Compass },
+  { href: "/molecules", label: "Molecules", icon: Atom },
   { href: "/notebook", label: "Notebook", icon: NotebookText },
   { href: "/progress", label: "Progress", icon: TrendingUp },
   { href: "/profile", label: "Profile", icon: User },
