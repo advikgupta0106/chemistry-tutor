@@ -83,7 +83,15 @@ const CONTENT_DIR = path.join(process.cwd(), "content");
 export function getAllTopics(): Topic[] {
   const topicsDir = path.join(CONTENT_DIR, "topics");
   const files = fs.readdirSync(topicsDir).filter((f) => f.endsWith(".json"));
-  return files.map((f) => JSON.parse(fs.readFileSync(path.join(topicsDir, f), "utf-8")));
+  return files.map((f) => {
+    const topic: Topic = JSON.parse(fs.readFileSync(path.join(topicsDir, f), "utf-8"));
+    // JSON array order is whatever it was last edited/committed in, which
+    // doesn't reliably match NCERT's own section numbering — sort by the
+    // authoritative "number" field so every screen renders chapters in the
+    // real syllabus sequence, not insertion order.
+    topic.chapters = [...topic.chapters].sort((a, b) => a.number - b.number);
+    return topic;
+  });
 }
 
 export function getTopic(id: string): Topic | undefined {
