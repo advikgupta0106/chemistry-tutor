@@ -60,11 +60,40 @@ declare global {
 
 type Style = "ballAndStick" | "spaceFill" | "wireframe";
 
+// Slightly larger atoms / thinner bonds than 3Dmol's defaults in Ball &
+// Stick, so the CPK colors below actually read clearly at a glance instead
+// of being crowded out by thick grey sticks.
 const STYLE_SPECS: Record<Style, Record<string, unknown>> = {
-  ballAndStick: { stick: { radius: 0.15 }, sphere: { scale: 0.25 } },
+  ballAndStick: { stick: { radius: 0.1 }, sphere: { scale: 0.3 } },
   spaceFill: { sphere: { scale: 1.0 } },
   wireframe: { line: {} },
 };
+
+// Standard CPK coloring. 3Dmol has no public API for custom per-element
+// colors via a single call — the documented, reliable way is to set a base
+// style for every atom, then re-apply a per-element selector on top for
+// each color so it overrides just those atoms.
+const CPK_COLORS: Record<string, string> = {
+  C: "#555555",
+  H: "#FFFFFF",
+  O: "#FF2222",
+  N: "#3050F8",
+  Cl: "#1FF01F",
+  S: "#FFFF30",
+  P: "#FF8000",
+};
+
+function applyStyle(viewer: Viewer3D, style: Style) {
+  const spec = STYLE_SPECS[style];
+  viewer.setStyle({}, spec);
+  for (const [elem, color] of Object.entries(CPK_COLORS)) {
+    const coloredSpec: Record<string, unknown> = {};
+    for (const [shape, shapeSpec] of Object.entries(spec)) {
+      coloredSpec[shape] = { ...(shapeSpec as Record<string, unknown>), color };
+    }
+    viewer.setStyle({ elem }, coloredSpec);
+  }
+}
 
 const STYLE_LABELS: { value: Style; label: string }[] = [
   { value: "ballAndStick", label: "Ball & Stick" },
@@ -163,8 +192,15 @@ export default function MoleculeViewerClient({
       // falling through to the existing error/retry state below.
       let viewer: Viewer3D;
       try {
+        // backgroundAlpha: 0 makes the WebGL canvas itself transparent, so
+        // the container's CSS gradient (set below) shows through instead of
+        // a flat, solid fill — 3Dmol has no built-in gradient background of
+        // its own. antialias smooths sphere edges, which reads as glossier
+        // and more three-dimensional than the jagged default.
         viewer = $3Dmol.createViewer(container, {
           backgroundColor: "#16141F",
+          backgroundAlpha: 0,
+          antialias: true,
         });
       } catch {
         setLoadState("error");
@@ -178,7 +214,7 @@ export default function MoleculeViewerClient({
           clearTimeout(timeoutId);
           viewer.addModel(sdf, "sdf");
           viewer.resize();
-          viewer.setStyle({}, STYLE_SPECS[style]);
+          applyStyle(viewer, style);
           viewer.zoomTo();
           viewer.render();
           setLoadState("loaded");
@@ -205,7 +241,7 @@ export default function MoleculeViewerClient({
   useEffect(() => {
     const viewer = viewerRef.current;
     if (!viewer) return;
-    viewer.setStyle({}, STYLE_SPECS[style]);
+    applyStyle(viewer, style);
     viewer.render();
   }, [style]);
 
@@ -382,7 +418,7 @@ export default function MoleculeViewerClient({
           <ViewModeToggle viewMode={viewMode} setViewMode={setViewMode} />
         </div>
 
-        <div className="mt-4 aspect-square w-full overflow-hidden rounded-2xl border border-border bg-surface">
+        <div className="mt-4 aspect-square w-full overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-bg to-surface shadow-[0_0_36px_-6px_rgba(139,92,246,0.4)]">
           {renderCanvasArea(mobileContainerRef)}
         </div>
 
@@ -444,7 +480,7 @@ export default function MoleculeViewerClient({
           </div>
 
           <div className="flex min-h-0 flex-1 items-stretch gap-3 px-6 py-4">
-            <div className="aspect-square min-w-0 flex-1 overflow-hidden rounded-2xl border border-border bg-surface">
+            <div className="aspect-square min-w-0 flex-1 overflow-hidden rounded-2xl border border-border bg-gradient-to-br from-bg to-surface shadow-[0_0_36px_-6px_rgba(139,92,246,0.4)]">
               {renderCanvasArea(desktopContainerRef)}
             </div>
             <div className="flex flex-col gap-2">
