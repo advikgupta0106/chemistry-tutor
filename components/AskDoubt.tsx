@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import { AlertCircle, MessageCircleQuestion } from "lucide-react";
-import { formatFormula } from "@/lib/formatFormula";
+import { formatFormula, formatChapterText } from "@/lib/formatFormula";
 import type { Chapter } from "@/lib/content";
-import { buildChapterContent } from "@/lib/chapterContent";
 import { API_URL } from "@/lib/apiUrl";
+
 const MAX_VISIBLE_PAIRS = 3;
 
 type QAPair = { question: string; answer: string };
@@ -38,7 +38,12 @@ export default function AskDoubt({
           question: trimmed,
           topic_title: topicTitle,
           chapter_title: chapter.title,
-          chapter_content: buildChapterContent(chapter),
+          chapter_summary: formatChapterText(chapter.summary),
+          sections: chapter.sections.map((section) => ({
+            heading: formatChapterText(section.heading),
+            body: formatChapterText(section.body),
+            key_point: section.key_point ? formatChapterText(section.key_point) : null,
+          })),
         }),
       });
 

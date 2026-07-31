@@ -1,4 +1,5 @@
 import json
+import logging
 import os
 import re
 
@@ -13,6 +14,9 @@ from pydantic import BaseModel, Field
 # meant to run from /api, but the .env lives one level up alongside the
 # Next.js frontend).
 load_dotenv(find_dotenv())
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("chemistry-tutor-api")
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
@@ -201,15 +205,38 @@ def solve(request: SolveRequest) -> SolveResponse:
         ) from exc
 
 
+class DoubtSection(BaseModel):
+    heading: str
+    body: str
+    key_point: str | None = None
+
+
 class DoubtRequest(BaseModel):
     question: str = Field(..., min_length=1, max_length=1000)
     topic_title: str = Field(..., min_length=1, max_length=200)
     chapter_title: str = Field(..., min_length=1, max_length=200)
-    chapter_content: str = Field(..., min_length=1, max_length=20000)
+    chapter_summary: str = Field("", max_length=2000)
+    sections: list[DoubtSection] = Field(..., min_length=1)
 
 
 class DoubtResponse(BaseModel):
     answer: str
+
+
+def format_chapter_context(chapter_summary: str, sections: list[DoubtSection]) -> str:
+    # Lays out every section's heading, body and key point explicitly and in
+    # order, rather than a single opaque blob — so the model gets the same
+    # actual NCERT-derived content the student is reading, clearly
+    # attributable section by section, not a lossy paraphrase of it.
+    lines = []
+    if chapter_summary:
+        lines.append(f"Summary: {chapter_summary}")
+    for i, section in enumerate(sections, start=1):
+        lines.append(f"\nSection {i}: {section.heading}")
+        lines.append(section.body)
+        if section.key_point:
+            lines.append(f"Key point: {section.key_point}")
+    return "\n".join(lines)
 
 
 @app.post("/doubt", response_model=DoubtResponse)
@@ -226,9 +253,16 @@ def doubt(request: DoubtRequest) -> DoubtResponse:
     system_prompt = DOUBT_SYSTEM_PROMPT.format(
         chapter_title=request.chapter_title, topic_title=request.topic_title
     )
-    human_content = (
-        f"Chapter content:\n{request.chapter_content}\n\n"
-        f"Student's question: {question}"
+    chapter_context = format_chapter_context(request.chapter_summary, request.sections)
+    human_content = f"Chapter content:\n{chapter_context}\n\nStudent's question: {question}"
+
+    logger.info(
+        "/doubt chapter=%r sections=%d system_prompt_chars=%d human_content_chars=%d total_chars=%d",
+        request.chapter_title,
+        len(request.sections),
+        len(system_prompt),
+        len(human_content),
+        len(system_prompt) + len(human_content),
     )
 
     try:
