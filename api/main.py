@@ -106,9 +106,12 @@ LaTeX) — subscript formatting is handled by the caller, not you."""
 
 app = FastAPI(title="Chemistry Tutor API")
 
+# Wide open for now — this API has no auth/cookies, so a wildcard origin
+# carries no credential-leak risk, and it lets the frontend be deployed
+# separately (different domain) without needing to know its URL up front.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )

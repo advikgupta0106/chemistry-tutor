@@ -6,8 +6,8 @@ import type { Chapter, Topic } from "@/lib/content";
 import { buildChapterContent } from "@/lib/chapterContent";
 import { recordAnswer } from "@/lib/progress";
 import { formatFormula } from "@/lib/formatFormula";
+import { API_URL } from "@/lib/apiUrl";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 const QUESTION_COUNT = 5;
 
 type GeneratedQuestion = {

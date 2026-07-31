@@ -3,11 +3,10 @@
 import { useEffect, useState } from "react";
 import { AlertCircle, Sparkles } from "lucide-react";
 import { formatFormula } from "@/lib/formatFormula";
+import { API_URL } from "@/lib/apiUrl";
 
 const TABS = ["Solve", "Balance", "Predict"] as const;
 type Tab = (typeof TABS)[number];
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
 type SolveResult = {
   answer: string;

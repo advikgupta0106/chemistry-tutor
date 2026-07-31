@@ -5,8 +5,7 @@ import { AlertCircle, MessageCircleQuestion } from "lucide-react";
 import { formatFormula } from "@/lib/formatFormula";
 import type { Chapter } from "@/lib/content";
 import { buildChapterContent } from "@/lib/chapterContent";
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+import { API_URL } from "@/lib/apiUrl";
 const MAX_VISIBLE_PAIRS = 3;
 
 type QAPair = { question: string; answer: string };

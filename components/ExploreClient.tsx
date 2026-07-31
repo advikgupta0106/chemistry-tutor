@@ -6,11 +6,10 @@ import { ArrowLeft, Search, Filter, Sparkles, ChevronRight } from "lucide-react"
 import TopicRow from "@/components/TopicRow";
 import type { Topic } from "@/lib/content";
 import { formatFormula } from "@/lib/formatFormula";
+import { API_URL } from "@/lib/apiUrl";
 
 const FILTERS = ["All", "Class 11", "Class 12", "JEE", "NEET"] as const;
 type FilterValue = (typeof FILTERS)[number];
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
 type SmartSearchResult = {
   answer: string;
