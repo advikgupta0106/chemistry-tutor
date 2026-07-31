@@ -44,11 +44,18 @@ Write chemical formulas in plain text (CH3COOH, not CH₃COOH or LaTeX) — \
 subscript formatting is handled by the caller, not you. Do not include any \
 commentary outside the JSON object."""
 
-DOUBT_SYSTEM_PROMPT = """You are a CBSE Class 11 chemistry tutor. Answer the \
-student's doubt using only the content from this specific chapter. If the \
-question is outside this chapter's scope, say so and suggest which topic to \
-look at. Keep answers concise, use proper chemical notation, and focus on \
-exam-relevant understanding.
+DOUBT_SYSTEM_PROMPT = """You are a strict CBSE Class 11 chemistry exam tutor. \
+The student is asking about this chapter: {chapter_title} from {topic_title}.
+
+Rules:
+- Answer ONLY using concepts from this chapter
+- Structure every answer as: Definition → Explanation → Example → Exam tip
+- Use proper chemical notation with subscripts
+- If it's a 'why' question, give the textbook reasoning that CBSE markers expect
+- End every answer with 'Exam tip:' followed by one line on how this concept \
+is typically asked in exams (MCQ pattern, common traps, or marks weightage)
+- Keep answers under 150 words — students need concise, memorizable responses
+- If the question is outside this chapter, say so and name the correct chapter
 
 Write chemical formulas in plain text (CH3COOH, not CH₃COOH or LaTeX) — \
 subscript formatting is handled by the caller, not you."""
@@ -216,16 +223,17 @@ def doubt(request: DoubtRequest) -> DoubtResponse:
     except RuntimeError as exc:
         raise HTTPException(status_code=500, detail=str(exc)) from exc
 
+    system_prompt = DOUBT_SYSTEM_PROMPT.format(
+        chapter_title=request.chapter_title, topic_title=request.topic_title
+    )
     human_content = (
-        f"Topic: {request.topic_title}\n"
-        f"Chapter: {request.chapter_title}\n\n"
         f"Chapter content:\n{request.chapter_content}\n\n"
         f"Student's question: {question}"
     )
 
     try:
         response = model.invoke(
-            [SystemMessage(content=DOUBT_SYSTEM_PROMPT), HumanMessage(content=human_content)]
+            [SystemMessage(content=system_prompt), HumanMessage(content=human_content)]
         )
     except Exception as exc:
         raise HTTPException(
