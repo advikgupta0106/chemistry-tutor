@@ -44,6 +44,7 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [state, setState] = useState<SearchState>("idle");
+  const [loadingMessage, setLoadingMessage] = useState("Searching PubChem…");
   const [errorMessage, setErrorMessage] = useState("");
   const [identifyResult, setIdentifyResult] = useState<IdentifyResult | null>(null);
 
@@ -63,17 +64,21 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
     }
 
     setState("loading");
+    setLoadingMessage("Searching PubChem…");
 
-    // 2. PubChem, by name or formula — gives a real 3D structure.
-    const cid = await lookupPubChemCid(trimmed);
-    if (cid) {
-      router.push(`/molecule/${cid}`);
+    // 2. PubChem, by name or formula, using the student's own query —
+    // gives a real 3D structure directly.
+    const directCid = await lookupPubChemCid(trimmed);
+    if (directCid) {
+      router.push(`/molecule/${directCid}`);
       setState("idle");
       return;
     }
 
-    // 3. Not on PubChem either (e.g. a plain-English description) — ask
-    // Gemini to identify it. No 3D model for this path, just an info card.
+    // 3. Not found as-typed (e.g. a plain-English description like "the
+    // acid in lemons") — ask Gemini to identify it.
+    setLoadingMessage("Identifying molecule…");
+    let identified: IdentifyResult;
     try {
       const res = await fetch(`${API_URL}/identify-molecule`, {
         method: "POST",
@@ -86,9 +91,7 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
         throw new Error(body?.detail ?? "Couldn't identify that molecule. Try rephrasing your search.");
       }
 
-      const data: IdentifyResult = await res.json();
-      setIdentifyResult(data);
-      setState("idle");
+      identified = await res.json();
     } catch (err) {
       setErrorMessage(
         err instanceof Error
@@ -96,7 +99,27 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
           : "Couldn't reach the identifier. Check your connection and try again."
       );
       setState("error");
+      return;
     }
+
+    // 4. Gemini often names the real molecule (e.g. "Citric acid") even
+    // when the student's original phrasing could never have matched
+    // PubChem directly — retry PubChem with the corrected name, then
+    // formula, before settling for the info-card-only fallback. This is
+    // what makes "no 3D structure available" mean PubChem genuinely
+    // doesn't have it, not just that the student's own wording didn't
+    // match.
+    setLoadingMessage("Confirming 3D structure…");
+    const retryCid =
+      (await lookupPubChemCid(identified.name)) ?? (await lookupPubChemCid(identified.formula));
+    if (retryCid) {
+      router.push(`/molecule/${retryCid}`);
+      setState("idle");
+      return;
+    }
+
+    setIdentifyResult(identified);
+    setState("idle");
   }
 
   return (
@@ -131,7 +154,7 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
       {state === "loading" && (
         <div className="mt-4 flex items-center gap-3 rounded-2xl border border-border bg-surface p-4">
           <div className="h-5 w-5 shrink-0 animate-spin rounded-full border-2 border-border border-t-accent" />
-          <p className="text-sm text-text-dim">Searching PubChem…</p>
+          <p className="text-sm text-text-dim">{loadingMessage}</p>
         </div>
       )}
 

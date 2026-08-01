@@ -13,7 +13,7 @@ export type PubChemProperties = {
 // whether a failed name lookup is worth retrying against PubChem's formula
 // endpoint at all.
 function looksLikeFormula(query: string): boolean {
-  return /^[A-Z][A-Za-z0-9]*$/.test(query.replace(/\s+/g, ""));
+  return /^[A-Za-z][A-Za-z0-9]*$/.test(query.replace(/\s+/g, ""));
 }
 
 async function tryFetchCid(url: string): Promise<number | null> {
