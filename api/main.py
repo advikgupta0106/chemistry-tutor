@@ -115,6 +115,27 @@ Respond with ONLY the JSON object, no markdown code fences, no extra \
 commentary. Write chemical formulas in plain text (CH3COOH, not CH₃COOH or \
 LaTeX) — subscript formatting is handled by the caller, not you."""
 
+IDENTIFY_SYSTEM_PROMPT = """Identify this molecule. Return JSON:
+{
+  "name": "common name",
+  "formula": "molecular formula, plain text (C6H6, not C₆H₆ or LaTeX)",
+  "iupac_name": "IUPAC name",
+  "molar_mass": "molar mass with units, e.g. 180.16 g/mol",
+  "type": "short category, e.g. Aromatic Hydrocarbon, Carboxylic Acid",
+  "hybridization": "hybridization of the central/defining atom, e.g. sp2",
+  "bond_angle": "characteristic bond angle, e.g. 120°",
+  "about": "one or two sentences describing the molecule"
+}
+
+If the input is a description rather than a name (e.g. "the acid in lemons"),
+figure out which specific molecule they mean and identify that one. If you
+genuinely cannot identify a real molecule from the input, still return the
+JSON object with your best guess rather than refusing, but keep "about"
+honest about any uncertainty.
+
+Respond with ONLY the JSON object, no markdown code fences, no extra
+commentary."""
+
 app = FastAPI(title="Chemistry Tutor API")
 
 # Wide open for now — this API has no auth/cookies, so a wildcard origin
@@ -414,6 +435,63 @@ def smart_search(request: SmartSearchRequest) -> SmartSearchResponse:
         raise HTTPException(
             status_code=502,
             detail="Got an unexpected response from the chemistry model. Please try a different search.",
+        ) from exc
+
+
+class IdentifyMoleculeRequest(BaseModel):
+    query: str = Field(..., min_length=1, max_length=300)
+
+
+class IdentifyMoleculeResponse(BaseModel):
+    name: str
+    formula: str
+    iupac_name: str
+    molar_mass: str
+    type: str
+    hybridization: str
+    bond_angle: str
+    about: str
+
+
+@app.post("/identify-molecule", response_model=IdentifyMoleculeResponse)
+def identify_molecule(request: IdentifyMoleculeRequest) -> IdentifyMoleculeResponse:
+    query = request.query.strip()
+    if not query:
+        raise HTTPException(status_code=422, detail="Query cannot be empty.")
+
+    try:
+        model = get_model()
+    except RuntimeError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+    try:
+        response = model.invoke(
+            [SystemMessage(content=IDENTIFY_SYSTEM_PROMPT), HumanMessage(content=query)]
+        )
+    except Exception as exc:
+        raise HTTPException(
+            status_code=502,
+            detail="Couldn't reach the chemistry model right now. Please try again in a moment.",
+        ) from exc
+
+    raw = response.content if isinstance(response.content, str) else str(response.content)
+
+    try:
+        data = extract_json(raw)
+        return IdentifyMoleculeResponse(
+            name=str(data["name"]),
+            formula=str(data["formula"]),
+            iupac_name=str(data["iupac_name"]),
+            molar_mass=str(data["molar_mass"]),
+            type=str(data["type"]),
+            hybridization=str(data["hybridization"]),
+            bond_angle=str(data["bond_angle"]),
+            about=str(data["about"]),
+        )
+    except (json.JSONDecodeError, KeyError, TypeError) as exc:
+        raise HTTPException(
+            status_code=502,
+            detail="Couldn't identify that molecule. Try rephrasing your search.",
         ) from exc
 
 
