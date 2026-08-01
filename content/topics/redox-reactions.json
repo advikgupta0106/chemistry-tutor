@@ -1,6 +1,7 @@
 {
   "id": "redox-reactions",
   "title": "Redox Reactions",
+  "unit_number": 7,
   "icon": "redox",
   "tint": "red",
   "class": ["11"],

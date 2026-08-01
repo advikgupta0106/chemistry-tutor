@@ -12,7 +12,6 @@ import {
   Bookmark,
   TrendingUp,
   Settings,
-  Sparkles,
 } from "lucide-react";
 import Logo from "@/components/Logo";
 
@@ -54,12 +53,6 @@ export default function Sidebar() {
           );
         })}
       </nav>
-
-      <div className="rounded-2xl border border-border bg-surface-2 p-4">
-        <Sparkles size={18} strokeWidth={1.5} className="mb-2 text-accent" />
-        <p className="text-sm font-medium text-text">Upgrade to Pro</p>
-        <p className="text-xs text-text-dim">Unlock all features</p>
-      </div>
     </aside>
   );
 }

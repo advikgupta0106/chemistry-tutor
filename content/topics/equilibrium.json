@@ -1,6 +1,7 @@
 {
   "id": "equilibrium",
   "title": "Equilibrium",
+  "unit_number": 6,
   "icon": "scale",
   "tint": "blue",
   "class": ["11"],

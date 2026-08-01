@@ -1,6 +1,7 @@
 {
   "id": "periodic-table",
   "title": "Periodic Table",
+  "unit_number": 3,
   "icon": "table",
   "tint": "green",
   "class": ["11"],

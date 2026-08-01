@@ -1,6 +1,7 @@
 {
   "id": "some-basic-concepts",
   "title": "Some Basic Concepts of Chemistry",
+  "unit_number": 1,
   "icon": "flask",
   "tint": "green",
   "class": ["11"],

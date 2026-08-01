@@ -1,6 +1,7 @@
 {
   "id": "organic-chemistry-basics",
   "title": "Organic Chemistry – Some Basic Principles",
+  "unit_number": 8,
   "icon": "hexagon",
   "tint": "green",
   "class": ["11"],

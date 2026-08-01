@@ -26,6 +26,12 @@ export type Topic = {
   class: string[];
   exams: { name: string; weightage_percent: number }[];
   chapters: Chapter[];
+  // NCERT unit number (1-9 for the Class 11 syllabus this app currently
+  // covers) — used to sort topics into real syllabus order rather than
+  // alphabetically. Absent on topics without a mapped NCERT unit (none
+  // currently published lack one, but the field stays optional so
+  // unmapped/legacy topics don't need a placeholder value).
+  unit_number?: number;
   // Absent/true = published. Only topics explicitly marked false are
   // excluded from the published set (see getPublishedTopics()).
   published?: boolean;
@@ -83,7 +89,7 @@ const CONTENT_DIR = path.join(process.cwd(), "content");
 export function getAllTopics(): Topic[] {
   const topicsDir = path.join(CONTENT_DIR, "topics");
   const files = fs.readdirSync(topicsDir).filter((f) => f.endsWith(".json"));
-  return files.map((f) => {
+  const topics = files.map((f) => {
     const topic: Topic = JSON.parse(fs.readFileSync(path.join(topicsDir, f), "utf-8"));
     // JSON array order is whatever it was last edited/committed in, which
     // doesn't reliably match NCERT's own section numbering — sort by the
@@ -92,6 +98,12 @@ export function getAllTopics(): Topic[] {
     topic.chapters = [...topic.chapters].sort((a, b) => a.number - b.number);
     return topic;
   });
+  // fs.readdirSync returns filenames alphabetically, which doesn't match
+  // NCERT's own unit ordering — sort by unit_number instead. Topics without
+  // one (none of the currently published set, but legacy/unmapped topics
+  // exist in /content) sort after every numbered topic, in their original
+  // alphabetical order relative to each other (stable sort).
+  return topics.sort((a, b) => (a.unit_number ?? Infinity) - (b.unit_number ?? Infinity));
 }
 
 export function getTopic(id: string): Topic | undefined {
