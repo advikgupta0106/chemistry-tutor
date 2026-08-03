@@ -9,12 +9,16 @@ import ProgressRing from "@/components/ProgressRing";
 import ContinueLearningBanner from "@/components/ContinueLearningBanner";
 import type { Topic } from "@/lib/content";
 import { getProgress, isChapterRead, computeStats, type ComputedStats } from "@/lib/progress";
+import { getUserName, onUserNameChange } from "@/lib/userName";
 
 export default function DashboardClient({ topics }: { topics: Topic[] }) {
   const [stats, setStats] = useState<ComputedStats | null>(null);
+  const [userName, setUserNameState] = useState<string | null>(null);
 
   useEffect(() => {
     setStats(computeStats(getProgress(), topics));
+    setUserNameState(getUserName());
+    return onUserNameChange(() => setUserNameState(getUserName()));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -33,7 +37,9 @@ export default function DashboardClient({ topics }: { topics: Topic[] }) {
       <div className="flex items-start justify-between">
         <div>
           <h1 className="text-2xl font-bold text-text">Dashboard</h1>
-          <p className="text-sm text-text-dim">Welcome back, Advik!</p>
+          <p className="text-sm text-text-dim">
+            {userName ? `Welcome back, ${userName}!` : "Welcome back!"}
+          </p>
         </div>
         <div className="flex items-center gap-2">
           <button className="relative flex h-10 w-10 items-center justify-center rounded-full bg-surface">

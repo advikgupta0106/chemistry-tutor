@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Trash2 } from "lucide-react";
 import { clearProgress } from "@/lib/progress";
 import { clearNotes } from "@/lib/notes";
 import { clearBookmarks } from "@/lib/bookmarks";
+import { clearUserName, getUserName, setUserName } from "@/lib/userName";
 
 type ClearAction = {
   key: string;
@@ -37,6 +38,12 @@ const ACTIONS: ClearAction[] = [
 export default function SettingsClient() {
   const [confirming, setConfirming] = useState<string | null>(null);
   const [cleared, setCleared] = useState<string | null>(null);
+  const [name, setName] = useState("");
+  const [nameSaved, setNameSaved] = useState(false);
+
+  useEffect(() => {
+    setName(getUserName() ?? "");
+  }, []);
 
   function handleClick(action: ClearAction) {
     if (confirming !== action.key) {
@@ -49,19 +56,48 @@ export default function SettingsClient() {
     setTimeout(() => setCleared(null), 2000);
   }
 
+  function handleSaveName() {
+    const trimmed = name.trim();
+    if (trimmed) {
+      setUserName(trimmed);
+    } else {
+      clearUserName();
+    }
+    setNameSaved(true);
+    setTimeout(() => setNameSaved(false), 2000);
+  }
+
   return (
     <div className="mx-auto max-w-md px-6 pb-10 pt-8 md:max-w-2xl md:px-10">
       <h1 className="text-lg font-bold text-text">Settings</h1>
       <p className="text-sm text-text-dim">Manage your account and local data.</p>
 
-      <div className="mt-6 flex items-center gap-3 rounded-2xl border border-border bg-surface p-4">
-        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-accent/15 text-lg font-bold text-accent">
-          A
+      <div className="mt-6 rounded-2xl border border-border bg-surface p-4">
+        <div className="flex items-center gap-3">
+          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-accent/15 text-lg font-bold text-accent">
+            {name.trim() ? name.trim()[0].toUpperCase() : "?"}
+          </div>
+          <div className="min-w-0 flex-1">
+            <p className="text-xs font-semibold uppercase tracking-wide text-text-dim">Your Name</p>
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") handleSaveName();
+              }}
+              placeholder="Add your name"
+              className="mt-0.5 w-full bg-transparent text-sm font-medium text-text placeholder:text-text-dim focus:outline-none"
+            />
+          </div>
+          <button
+            onClick={handleSaveName}
+            className="shrink-0 rounded-lg bg-accent px-3 py-1.5 text-xs font-semibold text-white"
+          >
+            Save
+          </button>
         </div>
-        <div>
-          <p className="text-sm font-medium text-text">Advik</p>
-          <p className="text-xs text-text-dim">Student</p>
-        </div>
+        {nameSaved && <p className="mt-2 text-xs font-medium text-success">Saved.</p>}
       </div>
 
       <div className="mt-6">

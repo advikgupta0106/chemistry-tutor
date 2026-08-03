@@ -8,12 +8,16 @@ import QuickActions from "@/components/QuickActions";
 import TopicRow from "@/components/TopicRow";
 import type { Topic } from "@/lib/content";
 import { getProgress, computeStats, relativeLabel, type ComputedStats } from "@/lib/progress";
+import { getUserName, onUserNameChange } from "@/lib/userName";
 
 export default function HomeClient({ topics }: { topics: Topic[] }) {
   const [stats, setStats] = useState<ComputedStats | null>(null);
+  const [userName, setUserNameState] = useState<string | null>(null);
 
   useEffect(() => {
     setStats(computeStats(getProgress(), topics));
+    setUserNameState(getUserName());
+    return onUserNameChange(() => setUserNameState(getUserName()));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -30,7 +34,9 @@ export default function HomeClient({ topics }: { topics: Topic[] }) {
     <div className="mx-auto max-w-md px-6 pb-10 pt-8 md:max-w-2xl md:px-10">
       <div className="flex items-start justify-between">
         <div>
-          <h1 className="text-xl font-bold text-text">Hello, Advik 👋</h1>
+          <h1 className="text-xl font-bold text-text">
+            {userName ? `Hello, ${userName} 👋` : "Hello 👋"}
+          </h1>
           <p className="text-sm text-text-dim">Ready to explore today?</p>
         </div>
         <button className="relative flex h-10 w-10 items-center justify-center rounded-full bg-surface">
