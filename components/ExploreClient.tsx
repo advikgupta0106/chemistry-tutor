@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Search, Filter, Sparkles, ChevronRight } from "lucide-react";
+import { ArrowLeft, Search, Filter, Sparkles, ChevronRight, AlertCircle } from "lucide-react";
 import TopicRow from "@/components/TopicRow";
 import type { Topic } from "@/lib/content";
 import { formatFormula } from "@/lib/formatFormula";
@@ -41,6 +41,7 @@ export default function ExploreClient({ topics }: { topics: Topic[] }) {
   const [filter, setFilter] = useState<FilterValue>("All");
   const [aiState, setAiState] = useState<AiState>("idle");
   const [aiResult, setAiResult] = useState<SmartSearchResult | null>(null);
+  const [rateLimitMessage, setRateLimitMessage] = useState("");
 
   const visibleFilters = FILTERS.filter((f) => topics.some((t) => topicMatchesFilter(t, f)));
 
@@ -75,23 +76,34 @@ export default function ExploreClient({ topics }: { topics: Topic[] }) {
     setSearch(value);
     setAiResult(null);
     setAiState("idle");
+    setRateLimitMessage("");
   }
 
   async function handleSearchSubmit() {
     if (!looksLikeQuestion(search)) return;
 
     setAiState("loading");
+    setRateLimitMessage("");
     try {
       const res = await fetch(`${API_URL}/smart-search`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: search.trim() }),
       });
-      if (!res.ok) throw new Error("smart-search failed");
+      if (!res.ok) {
+        // Rate limiting is the one failure worth telling the student about
+        // explicitly — every other failure (bad model output, network
+        // hiccup) falls back to the plain text filter silently, per the
+        // original design here.
+        if (res.status === 429) {
+          const body = await res.json().catch(() => null);
+          setRateLimitMessage(body?.detail ?? "Too many requests, please wait a moment.");
+        }
+        throw new Error("smart-search failed");
+      }
       const data: SmartSearchResult = await res.json();
       setAiResult(data);
     } catch {
-      // Fall back to the plain text filter silently — no error banner.
       setAiResult(null);
     } finally {
       setAiState("idle");
@@ -128,6 +140,13 @@ export default function ExploreClient({ topics }: { topics: Topic[] }) {
           className="w-full rounded-xl bg-surface py-3 pl-11 pr-4 text-sm text-text placeholder:text-text-dim outline-none"
         />
       </div>
+
+      {rateLimitMessage && (
+        <div className="mt-4 flex items-start gap-3 rounded-2xl border border-border bg-surface p-4">
+          <AlertCircle size={20} strokeWidth={1.5} className="mt-0.5 shrink-0 text-danger" />
+          <p className="text-sm text-text-dim">{rateLimitMessage}</p>
+        </div>
+      )}
 
       {aiState === "loading" && (
         <div className="mt-4 flex items-center gap-3 rounded-2xl border border-border bg-surface p-4">

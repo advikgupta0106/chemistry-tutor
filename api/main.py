@@ -2,9 +2,11 @@ import json
 import logging
 import os
 import re
+import time
+from collections import defaultdict
 
 from dotenv import find_dotenv, load_dotenv
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -17,6 +19,45 @@ load_dotenv(find_dotenv())
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("chemistry-tutor-api")
+
+# --- Rate limiting -----------------------------------------------------
+# Simple in-memory sliding-window limiter, no extra dependency. Applied per
+# client IP across every AI-backed endpoint (not /health), since those are
+# the ones that cost real Gemini API quota/money. Note: this state lives in
+# a single process's memory — if this API is ever run with multiple worker
+# processes, each worker enforces its own separate limit rather than a
+# shared one. Fine for this app's current single-process deployment.
+RATE_LIMIT_MAX_REQUESTS = 10
+RATE_LIMIT_WINDOW_SECONDS = 60
+
+_request_log: dict[str, list[float]] = defaultdict(list)
+
+
+def _client_ip(request: Request) -> str:
+    # Render (and most reverse proxies) set X-Forwarded-For to the real
+    # client IP; request.client.host would otherwise just be the proxy.
+    forwarded = request.headers.get("x-forwarded-for")
+    if forwarded:
+        return forwarded.split(",")[0].strip()
+    return request.client.host if request.client else "unknown"
+
+
+def rate_limit(request: Request) -> None:
+    ip = _client_ip(request)
+    now = time.monotonic()
+    window_start = now - RATE_LIMIT_WINDOW_SECONDS
+
+    timestamps = _request_log[ip]
+    while timestamps and timestamps[0] < window_start:
+        timestamps.pop(0)
+
+    if len(timestamps) >= RATE_LIMIT_MAX_REQUESTS:
+        raise HTTPException(
+            status_code=429,
+            detail="Too many requests, please wait a moment.",
+        )
+
+    timestamps.append(now)
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
@@ -188,7 +229,7 @@ def extract_json(text: str) -> dict:
     return json.loads(text)
 
 
-@app.post("/solve", response_model=SolveResponse)
+@app.post("/solve", response_model=SolveResponse, dependencies=[Depends(rate_limit)])
 def solve(request: SolveRequest) -> SolveResponse:
     reaction = request.reaction.strip()
     if not reaction:
@@ -260,7 +301,7 @@ def format_chapter_context(chapter_summary: str, sections: list[DoubtSection]) -
     return "\n".join(lines)
 
 
-@app.post("/doubt", response_model=DoubtResponse)
+@app.post("/doubt", response_model=DoubtResponse, dependencies=[Depends(rate_limit)])
 def doubt(request: DoubtRequest) -> DoubtResponse:
     question = request.question.strip()
     if not question:
@@ -338,7 +379,11 @@ def extract_json_array(text: str) -> list:
     return json.loads(text)
 
 
-@app.post("/generate-questions", response_model=GenerateQuestionsResponse)
+@app.post(
+    "/generate-questions",
+    response_model=GenerateQuestionsResponse,
+    dependencies=[Depends(rate_limit)],
+)
 def generate_questions(request: GenerateQuestionsRequest) -> GenerateQuestionsResponse:
     try:
         model = get_model()
@@ -399,7 +444,7 @@ class SmartSearchResponse(BaseModel):
     related_chapter_id: str | None = None
 
 
-@app.post("/smart-search", response_model=SmartSearchResponse)
+@app.post("/smart-search", response_model=SmartSearchResponse, dependencies=[Depends(rate_limit)])
 def smart_search(request: SmartSearchRequest) -> SmartSearchResponse:
     query = request.query.strip()
     if not query:
@@ -453,7 +498,11 @@ class IdentifyMoleculeResponse(BaseModel):
     about: str
 
 
-@app.post("/identify-molecule", response_model=IdentifyMoleculeResponse)
+@app.post(
+    "/identify-molecule",
+    response_model=IdentifyMoleculeResponse,
+    dependencies=[Depends(rate_limit)],
+)
 def identify_molecule(request: IdentifyMoleculeRequest) -> IdentifyMoleculeResponse:
     query = request.query.strip()
     if not query:
