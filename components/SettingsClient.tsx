@@ -135,7 +135,7 @@ export default function SettingsClient() {
 
       <div className="mt-6 rounded-2xl border border-border bg-surface p-4">
         <p className="text-sm font-medium text-text">About</p>
-        <p className="mt-1 text-xs text-text-dim">Chemistry — exam-ready chemistry for CBSE Class XI–XII.</p>
+        <p className="mt-1 text-xs text-text-dim">Atomica — exam-ready chemistry for CBSE Class XI–XII.</p>
       </div>
     </div>
   );

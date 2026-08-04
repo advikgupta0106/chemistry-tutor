@@ -33,7 +33,7 @@ export default function Logo({
         />
       </div>
       {showWordmark && (
-        <span className={`${text} font-bold text-text`}>Chemistry</span>
+        <span className={`${text} font-bold text-text`}>Atomica</span>
       )}
     </div>
   );

@@ -12,7 +12,7 @@ export default function WelcomePage() {
 
         <div className="flex flex-col gap-3 pb-8">
           <Logo size="lg" showWordmark={false} />
-          <h1 className="text-3xl font-bold text-text">Chemistry</h1>
+          <h1 className="text-3xl font-bold text-text">Atomica</h1>
           <p className="text-xs font-medium tracking-[0.2em] text-accent">
             LEARN &bull; EXPLORE &bull; MASTER
           </p>
