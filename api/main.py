@@ -59,6 +59,28 @@ def rate_limit(request: Request) -> None:
 
     timestamps.append(now)
 
+
+# --- Input length limits -------------------------------------------------
+# Caps the free-typed fields a student directly types into a box (the
+# reaction, the doubt question, the search query) at 500 characters, to
+# stop a single request from ballooning token cost. Applied to those
+# fields specifically, not to app-supplied chapter content/context fields
+# (chapter_content, chapter_summary, sections) — those legitimately run to
+# several thousand characters for a real NCERT chapter, and capping them at
+# 500 would break /doubt and /generate-questions outright rather than add
+# any real security value, since that text never came from an open-ended
+# user text box in the first place.
+MAX_TEXT_FIELD_LENGTH = 500
+
+
+def check_length(value: str) -> None:
+    if len(value) > MAX_TEXT_FIELD_LENGTH:
+        raise HTTPException(
+            status_code=400,
+            detail="Input too long. Please keep your query under 500 characters.",
+        )
+
+
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 SYSTEM_PROMPT = """You are a CBSE chemistry tutor helping a Class 11/12 student \
@@ -179,12 +201,14 @@ commentary."""
 
 app = FastAPI(title="Chemistry Tutor API")
 
-# Wide open for now — this API has no auth/cookies, so a wildcard origin
-# carries no credential-leak risk, and it lets the frontend be deployed
-# separately (different domain) without needing to know its URL up front.
+# Wildcard only for local dev (ENV=dev) — locked to the real deployed
+# frontend otherwise, since this API has no auth of its own and a wildcard
+# origin in production would let any site call it from a browser.
+ALLOWED_ORIGINS = ["*"] if os.getenv("ENV") == "dev" else ["https://atomica-xi.vercel.app"]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=ALLOWED_ORIGINS,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -207,7 +231,10 @@ def get_model() -> ChatGoogleGenerativeAI:
 
 
 class SolveRequest(BaseModel):
-    reaction: str = Field(..., min_length=1, max_length=500)
+    # No max_length here — check_length() enforces the 500-char limit
+    # explicitly in the endpoint body, so the response is our own 400 with
+    # the required message instead of FastAPI's generic 422.
+    reaction: str = Field(..., min_length=1)
 
 
 class SolveResponse(BaseModel):
@@ -231,6 +258,7 @@ def extract_json(text: str) -> dict:
 
 @app.post("/solve", response_model=SolveResponse, dependencies=[Depends(rate_limit)])
 def solve(request: SolveRequest) -> SolveResponse:
+    check_length(request.reaction)
     reaction = request.reaction.strip()
     if not reaction:
         raise HTTPException(status_code=422, detail="Reaction text cannot be empty.")
@@ -303,6 +331,7 @@ def format_chapter_context(chapter_summary: str, sections: list[DoubtSection]) -
 
 @app.post("/doubt", response_model=DoubtResponse, dependencies=[Depends(rate_limit)])
 def doubt(request: DoubtRequest) -> DoubtResponse:
+    check_length(request.question)
     question = request.question.strip()
     if not question:
         raise HTTPException(status_code=422, detail="Question cannot be empty.")
@@ -385,6 +414,13 @@ def extract_json_array(text: str) -> list:
     dependencies=[Depends(rate_limit)],
 )
 def generate_questions(request: GenerateQuestionsRequest) -> GenerateQuestionsResponse:
+    # topic_title/chapter_title are the only fields here that resemble
+    # free-typed text (both already capped at 200 chars anyway); chapter_content
+    # is real NCERT chapter text, legitimately several thousand characters,
+    # and deliberately not subject to this check — see MAX_TEXT_FIELD_LENGTH.
+    check_length(request.topic_title)
+    check_length(request.chapter_title)
+
     try:
         model = get_model()
     except RuntimeError as exc:
@@ -435,7 +471,7 @@ def generate_questions(request: GenerateQuestionsRequest) -> GenerateQuestionsRe
 
 
 class SmartSearchRequest(BaseModel):
-    query: str = Field(..., min_length=1, max_length=300)
+    query: str = Field(..., min_length=1)
 
 
 class SmartSearchResponse(BaseModel):
@@ -446,6 +482,7 @@ class SmartSearchResponse(BaseModel):
 
 @app.post("/smart-search", response_model=SmartSearchResponse, dependencies=[Depends(rate_limit)])
 def smart_search(request: SmartSearchRequest) -> SmartSearchResponse:
+    check_length(request.query)
     query = request.query.strip()
     if not query:
         raise HTTPException(status_code=422, detail="Query cannot be empty.")
@@ -484,7 +521,7 @@ def smart_search(request: SmartSearchRequest) -> SmartSearchResponse:
 
 
 class IdentifyMoleculeRequest(BaseModel):
-    query: str = Field(..., min_length=1, max_length=300)
+    query: str = Field(..., min_length=1)
 
 
 class IdentifyMoleculeResponse(BaseModel):
@@ -504,6 +541,7 @@ class IdentifyMoleculeResponse(BaseModel):
     dependencies=[Depends(rate_limit)],
 )
 def identify_molecule(request: IdentifyMoleculeRequest) -> IdentifyMoleculeResponse:
+    check_length(request.query)
     query = request.query.strip()
     if not query:
         raise HTTPException(status_code=422, detail="Query cannot be empty.")
