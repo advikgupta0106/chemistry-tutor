@@ -8,6 +8,7 @@ import { formatChapterText } from "@/lib/formatFormula";
 import { isChapterRead, markChapterRead, unmarkChapterRead, getProgress } from "@/lib/progress";
 import AskDoubt from "@/components/AskDoubt";
 import ChapterQuiz from "@/components/ChapterQuiz";
+import ReportError from "@/components/ReportError";
 
 function pubchem2DImageUrl(cid: number) {
   return `https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=l`;
@@ -147,6 +148,8 @@ export default function ChapterReaderClient({
       </button>
 
       <AskDoubt topicTitle={topic.short_title ?? topic.title} chapter={chapter} />
+
+      <ReportError topicTitle={topic.short_title ?? topic.title} chapter={chapter} />
     </div>
   );
 }
