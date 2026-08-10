@@ -6,6 +6,7 @@ import type { Chapter } from "@/lib/content";
 
 const REPORT_EMAIL = "atomica.chemistry@gmail.com";
 const MAX_LENGTH = 500;
+const MIN_LENGTH = 15;
 
 export default function ReportError({
   topicTitle,
@@ -17,6 +18,9 @@ export default function ReportError({
   const [open, setOpen] = useState(false);
   const [description, setDescription] = useState("");
 
+  const trimmedLength = description.trim().length;
+  const isTooShort = trimmedLength < MIN_LENGTH;
+
   function handleClose() {
     setOpen(false);
     setDescription("");
@@ -24,7 +28,7 @@ export default function ReportError({
 
   function handleSubmit() {
     const trimmed = description.trim();
-    if (!trimmed) return;
+    if (trimmed.length < MIN_LENGTH) return;
 
     // No backend to store reports in — a pre-filled mailto: is the simplest
     // reliable delivery mechanism here. Chapter title/id and topic are
@@ -74,13 +78,15 @@ export default function ReportError({
               value={description}
               onChange={(e) => setDescription(e.target.value)}
               maxLength={MAX_LENGTH}
-              placeholder="What's incorrect? e.g. the section, formula, or number that looks wrong."
+              placeholder="What's wrong? Include the section name and what the correct answer should be."
               rows={4}
               autoFocus
               className="mt-4 w-full resize-none rounded-xl border border-border bg-surface-2 px-4 py-3 text-sm text-text placeholder:text-text-dim focus:outline-none focus:ring-2 focus:ring-accent"
             />
-            <p className="mt-1 text-right text-[11px] text-text-dim">
-              {description.length}/{MAX_LENGTH}
+            <p className={`mt-1 text-[11px] text-text-dim ${isTooShort ? "text-left" : "text-right"}`}>
+              {isTooShort
+                ? "Please describe the error in a bit more detail."
+                : `${description.length}/${MAX_LENGTH}`}
             </p>
 
             <div className="mt-3 flex gap-2">
@@ -92,8 +98,8 @@ export default function ReportError({
               </button>
               <button
                 onClick={handleSubmit}
-                disabled={!description.trim()}
-                className="flex-1 rounded-xl bg-accent py-2.5 text-sm font-semibold text-white disabled:opacity-50"
+                disabled={isTooShort}
+                className="flex-1 rounded-xl bg-accent py-2.5 text-sm font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50"
               >
                 Submit
               </button>
