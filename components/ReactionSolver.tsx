@@ -1,9 +1,28 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AlertCircle, Sparkles } from "lucide-react";
-import { formatFormula } from "@/lib/formatFormula";
+import { formatFormula, normalizeReactionInput } from "@/lib/formatFormula";
 import { API_URL } from "@/lib/apiUrl";
+
+// Characters that don't have an easy key on a phone keyboard. Tapping one
+// inserts it at the cursor position rather than always appending to the
+// end, so a student can fix up a charge or add an arrow mid-formula.
+const INSERT_BUTTONS: { label: string; insert: string; aria: string }[] = [
+  { label: "⁻", insert: "⁻", aria: "Superscript minus" },
+  { label: "⁺", insert: "⁺", aria: "Superscript plus" },
+  { label: "→", insert: "→", aria: "Reaction arrow" },
+  { label: "₀", insert: "₀", aria: "Subscript 0" },
+  { label: "₁", insert: "₁", aria: "Subscript 1" },
+  { label: "₂", insert: "₂", aria: "Subscript 2" },
+  { label: "₃", insert: "₃", aria: "Subscript 3" },
+  { label: "₄", insert: "₄", aria: "Subscript 4" },
+  { label: "₅", insert: "₅", aria: "Subscript 5" },
+  { label: "₆", insert: "₆", aria: "Subscript 6" },
+  { label: "₇", insert: "₇", aria: "Subscript 7" },
+  { label: "₈", insert: "₈", aria: "Subscript 8" },
+  { label: "₉", insert: "₉", aria: "Subscript 9" },
+];
 
 const TABS = ["Solve", "Balance", "Predict"] as const;
 type Tab = (typeof TABS)[number];
@@ -38,9 +57,28 @@ function SolveTab() {
   const [state, setState] = useState<RequestState>("idle");
   const [result, setResult] = useState<SolveResult | null>(null);
   const [errorMessage, setErrorMessage] = useState("");
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  function insertAtCursor(char: string) {
+    const el = textareaRef.current;
+    if (!el) {
+      setReaction((r) => r + char);
+      return;
+    }
+    const start = el.selectionStart ?? reaction.length;
+    const end = el.selectionEnd ?? reaction.length;
+    const next = reaction.slice(0, start) + char + reaction.slice(end);
+    setReaction(next);
+    // The textarea's value only updates after this re-renders, so restore
+    // the cursor (right after the inserted character) on the next frame.
+    requestAnimationFrame(() => {
+      el.focus();
+      el.setSelectionRange(start + char.length, start + char.length);
+    });
+  }
 
   async function handleSolve() {
-    const trimmed = reaction.trim();
+    const trimmed = normalizeReactionInput(reaction);
     if (!trimmed) return;
 
     setState("loading");
@@ -79,12 +117,36 @@ function SolveTab() {
       </label>
       <textarea
         id="reaction-input"
+        ref={textareaRef}
         value={reaction}
         onChange={(e) => setReaction(e.target.value)}
-        placeholder="CH3COOH + NaOH"
+        placeholder="CH3COOH + NaOH, or MnO4- + Fe2+"
         rows={3}
         className="mt-2 w-full resize-none rounded-2xl border border-border bg-surface-2 px-4 py-3 text-sm text-text placeholder:text-text-dim focus:outline-none focus:ring-2 focus:ring-accent"
       />
+
+      <div className="mt-2 flex gap-1.5 overflow-x-auto pb-1">
+        {INSERT_BUTTONS.map(({ label, insert, aria }) => (
+          <button
+            key={aria}
+            type="button"
+            onClick={() => insertAtCursor(insert)}
+            aria-label={aria}
+            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-surface-2 text-sm font-medium text-text-dim hover:text-accent"
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {reaction.trim() && (
+        <div className="mt-3 rounded-xl bg-surface-2 px-4 py-3">
+          <p className="text-xs font-medium uppercase tracking-wide text-text-dim">
+            Parsed as
+          </p>
+          <p className="mt-1 text-sm text-text">{formatFormula(reaction)}</p>
+        </div>
+      )}
 
       <button
         onClick={handleSolve}
