@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Bookmark, Check, PenLine } from "lucide-react";
+import { ArrowLeft, Beaker, Bookmark, Check, ChevronRight, PenLine } from "lucide-react";
 import type { Topic, Chapter, Molecule } from "@/lib/content";
 import { formatChapterText } from "@/lib/formatFormula";
 import { isChapterRead, markChapterRead, unmarkChapterRead, getProgress } from "@/lib/progress";
@@ -146,6 +146,24 @@ export default function ChapterReaderClient({
           "Mark as Read"
         )}
       </button>
+
+      {hasContent && (
+        <Link
+          href={`/reactions?topic=${topic.id}&chapter=${chapter.id}`}
+          className="mt-6 flex items-center justify-between rounded-2xl border border-border bg-surface p-4"
+        >
+          <div className="flex items-center gap-3">
+            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent/15">
+              <Beaker size={18} strokeWidth={1.5} className="text-accent" />
+            </div>
+            <div>
+              <p className="text-sm font-semibold text-text">Solve a reaction</p>
+              <p className="text-xs text-text-dim">Using the method from this chapter</p>
+            </div>
+          </div>
+          <ChevronRight size={18} strokeWidth={1.5} className="text-text-dim" />
+        </Link>
+      )}
 
       <AskDoubt topicTitle={topic.short_title ?? topic.title} chapter={chapter} />
 

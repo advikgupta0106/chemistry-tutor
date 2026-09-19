@@ -83,20 +83,46 @@ def check_length(value: str) -> None:
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
-SYSTEM_PROMPT = """You are a CBSE chemistry tutor helping a Class 11/12 student \
-understand a chemical reaction they typed in plain text (e.g. "CH3COOH + NaOH"), \
-which may be unbalanced and may not specify products.
+SOLVE_SYSTEM_PROMPT = """You are a CBSE chemistry tutor helping a Class 11/12 student \
+work through a chemical reaction they typed in plain text (e.g. "CH3COOH + NaOH"), \
+which may be unbalanced and may not specify products. The student may also be given \
+some context on the chapter they're currently studying, and/or may name a specific \
+balancing method themselves in their own text.
 
 Given the reaction, you must:
 1. Work out the products (if not given) and balance the full chemical equation.
-2. Identify and name the reaction type (e.g. acid-base neutralisation, redox, \
+2. Decide which balancing method fits and name it explicitly (e.g. "Balancing by \
+inspection", "Oxidation Number Method", "Ion-Electron (Half-Reaction) Method") — \
+see the method-selection rules below.
+3. Show the actual worked steps of that method, in order, as short steps a \
+student could follow themselves — each step should show its own intermediate \
+result (an oxidation number assigned, a half-reaction written, an electron \
+count matched, and so on) rather than jumping straight to the answer. The \
+last step should state the final balanced equation. Do not number the steps \
+yourself (no "1.", "Step 1:", etc.) — the caller displays them as a numbered \
+list already, so each string should start directly with the step's content.
+4. Identify and name the reaction type (e.g. acid-base neutralisation, redox, \
 addition, substitution, precipitation, combustion, esterification).
-3. Explain, in plain language a CBSE student would understand, what happens \
+5. Explain, in plain language a CBSE student would understand, what happens \
 chemically in the reaction and why.
-4. Rate your own confidence in this answer as exactly one of "Low", "Medium", \
+6. Rate your own confidence in this answer as exactly one of "Low", "Medium", \
 or "High" — use "High" only when you are certain of both the products and the \
 balancing, "Medium" if there is some ambiguity in the expected products, and \
 "Low" if the input doesn't look like a clear, valid chemical reaction.
+
+Method-selection rules, in priority order:
+1. If the student's own text names a specific method (e.g. "using the \
+half-reaction method", "by oxidation number"), always use that method, \
+regardless of any chapter context given below.
+2. Otherwise, if chapter context is given below, use the method that chapter \
+teaches for this kind of reaction. If the chapter teaches more than one method \
+(e.g. a "Balancing Redox Equations" chapter that covers both the oxidation \
+number method and the half-reaction method), pick whichever it presents as the \
+primary approach for a reaction shaped like this one.
+3. Otherwise, use whichever method is conventional for the reaction: balancing \
+by inspection for an ordinary (non-redox) reaction, and the oxidation number \
+method for a redox reaction unless it's more naturally expressed as two \
+half-reactions (e.g. an electrochemical cell).
 
 Respond with ONLY a single JSON object, no markdown code fences, no extra \
 commentary, with exactly these keys:
@@ -104,8 +130,13 @@ commentary, with exactly these keys:
   "answer": "the balanced chemical equation as plain text, e.g. CH3COOH + NaOH -> CH3COONa + H2O",
   "explanation": "a short, clear explanation of what happens in the reaction",
   "reaction_type": "the name of the reaction type",
-  "confidence": "Low, Medium, or High"
+  "confidence": "Low, Medium, or High",
+  "method": "the name of the balancing method used, e.g. Oxidation Number Method",
+  "steps": ["the first worked step", "the second worked step", "... in order, the last one stating the final balanced equation"]
 }
+
+"steps" must be a JSON array of plain strings. Include at least 3 steps for any \
+reaction that needs real balancing work.
 
 Write chemical formulas in plain text (CH3COOH, not CH₃COOH or LaTeX) — \
 subscript formatting is handled by the caller, not you. Do not include any \
@@ -235,6 +266,16 @@ class SolveRequest(BaseModel):
     # explicitly in the endpoint body, so the response is our own 400 with
     # the required message instead of FastAPI's generic 422.
     reaction: str = Field(..., min_length=1)
+    # Optional chapter context — app-supplied (from a chapter page, or a
+    # standalone chapter selector), never a raw user text box, so these are
+    # capped via Field like DoubtRequest's equivalents rather than run
+    # through check_length(). All of these are optional together: the
+    # student may use the solver with no chapter selected at all.
+    topic_id: str | None = Field(None, max_length=100)
+    topic_title: str | None = Field(None, max_length=200)
+    chapter_id: str | None = Field(None, max_length=100)
+    chapter_title: str | None = Field(None, max_length=200)
+    chapter_summary: str | None = Field(None, max_length=2000)
 
 
 class SolveResponse(BaseModel):
@@ -242,6 +283,8 @@ class SolveResponse(BaseModel):
     explanation: str
     reaction_type: str
     confidence: str
+    method: str
+    steps: list[str]
 
 
 def extract_json(text: str) -> dict:
@@ -256,12 +299,32 @@ def extract_json(text: str) -> dict:
     return json.loads(text)
 
 
+def format_solve_chapter_context(topic_title: str, chapter_title: str, chapter_summary: str) -> str:
+    lines = [f"Chapter: {chapter_title} (topic: {topic_title})"]
+    if chapter_summary:
+        lines.append(f"What this chapter teaches: {chapter_summary}")
+    return "\n".join(lines)
+
+
 @app.post("/solve", response_model=SolveResponse, dependencies=[Depends(rate_limit)])
 def solve(request: SolveRequest) -> SolveResponse:
     check_length(request.reaction)
     reaction = request.reaction.strip()
     if not reaction:
         raise HTTPException(status_code=422, detail="Reaction text cannot be empty.")
+
+    human_content = reaction
+    if request.chapter_title:
+        chapter_context = format_solve_chapter_context(
+            request.topic_title or "", request.chapter_title, request.chapter_summary or ""
+        )
+        human_content = f"{chapter_context}\n\nReaction: {reaction}"
+
+    logger.info(
+        "/solve chapter=%r has_context=%s",
+        request.chapter_title,
+        bool(request.chapter_title),
+    )
 
     try:
         model = get_model()
@@ -270,7 +333,7 @@ def solve(request: SolveRequest) -> SolveResponse:
 
     try:
         response = model.invoke(
-            [SystemMessage(content=SYSTEM_PROMPT), HumanMessage(content=reaction)]
+            [SystemMessage(content=SOLVE_SYSTEM_PROMPT), HumanMessage(content=human_content)]
         )
     except Exception as exc:
         raise HTTPException(
@@ -282,11 +345,16 @@ def solve(request: SolveRequest) -> SolveResponse:
 
     try:
         data = extract_json(raw)
+        steps = data["steps"]
+        if not isinstance(steps, list):
+            raise TypeError("steps must be a list")
         return SolveResponse(
             answer=str(data["answer"]),
             explanation=str(data["explanation"]),
             reaction_type=str(data["reaction_type"]),
             confidence=str(data["confidence"]),
+            method=str(data["method"]),
+            steps=[str(s) for s in steps],
         )
     except (json.JSONDecodeError, KeyError, TypeError) as exc:
         raise HTTPException(

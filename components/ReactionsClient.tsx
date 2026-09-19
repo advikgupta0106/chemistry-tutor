@@ -33,7 +33,7 @@ export default function ReactionsClient({
       <p className="text-sm text-text-dim">Solve, balance and browse reactions from the syllabus.</p>
 
       <div className="mt-6">
-        <ReactionSolver />
+        <ReactionSolver topics={topics} />
       </div>
 
       <div className="mt-8 border-t border-border pt-6">

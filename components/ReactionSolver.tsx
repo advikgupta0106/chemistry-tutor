@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { AlertCircle, Sparkles } from "lucide-react";
 import { formatFormula, normalizeReactionInput } from "@/lib/formatFormula";
 import { API_URL } from "@/lib/apiUrl";
+import type { Topic } from "@/lib/content";
 
 // Characters that don't have an easy key on a phone keyboard. Tapping one
 // inserts it at the cursor position rather than always appending to the
@@ -32,6 +33,8 @@ type SolveResult = {
   explanation: string;
   reaction_type: string;
   confidence: string;
+  method: string;
+  steps: string[];
 };
 
 type RequestState = "idle" | "loading" | "error";
@@ -52,12 +55,64 @@ function ConfidencePill({ confidence }: { confidence: string }) {
   );
 }
 
-function SolveTab() {
+// A flat, chapter-per-row view of every topic's chapters, for the "which
+// chapter are you studying" <select> below — built once per topics list
+// rather than re-walking the nested Topic[] on every render.
+type ChapterOption = {
+  key: string;
+  topicId: string;
+  topicTitle: string;
+  chapterId: string;
+  chapterTitle: string;
+  chapterSummary: string;
+};
+
+function chapterOptionKey(topicId: string, chapterId: string): string {
+  return `${topicId}::${chapterId}`;
+}
+
+function buildChapterOptions(topics: Topic[]): ChapterOption[] {
+  return topics.flatMap((topic) =>
+    topic.chapters.map((chapter) => ({
+      key: chapterOptionKey(topic.id, chapter.id),
+      topicId: topic.id,
+      topicTitle: topic.short_title ?? topic.title,
+      chapterId: chapter.id,
+      chapterTitle: chapter.title,
+      chapterSummary: chapter.summary,
+    }))
+  );
+}
+
+// Reads ?topic=&chapter= (set by the "Solve a reaction" link on a chapter
+// page) via window.location directly, rather than useSearchParams, so this
+// component doesn't force a Suspense boundary on whatever page embeds it.
+function initialChapterKeyFromQuery(options: ChapterOption[]): string {
+  if (typeof window === "undefined") return "";
+  const params = new URLSearchParams(window.location.search);
+  const topicId = params.get("topic");
+  const chapterId = params.get("chapter");
+  if (!topicId || !chapterId) return "";
+  const match = options.find((o) => o.topicId === topicId && o.chapterId === chapterId);
+  return match?.key ?? "";
+}
+
+function SolveTab({ topics }: { topics: Topic[] }) {
   const [reaction, setReaction] = useState("");
   const [state, setState] = useState<RequestState>("idle");
   const [result, setResult] = useState<SolveResult | null>(null);
   const [errorMessage, setErrorMessage] = useState("");
+  const [chapterKey, setChapterKey] = useState("");
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  const chapterOptions = useMemo(() => buildChapterOptions(topics), [topics]);
+  const selectedChapter = chapterOptions.find((o) => o.key === chapterKey) ?? null;
+
+  useEffect(() => {
+    setChapterKey(initialChapterKeyFromQuery(chapterOptions));
+    // Only meant to run once, off the URL present when the page loads.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   function insertAtCursor(char: string) {
     const el = textareaRef.current;
@@ -89,7 +144,16 @@ function SolveTab() {
       const res = await fetch(`${API_URL}/solve`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ reaction: trimmed }),
+        body: JSON.stringify({
+          reaction: trimmed,
+          ...(selectedChapter && {
+            topic_id: selectedChapter.topicId,
+            topic_title: selectedChapter.topicTitle,
+            chapter_id: selectedChapter.chapterId,
+            chapter_title: selectedChapter.chapterTitle,
+            chapter_summary: selectedChapter.chapterSummary,
+          }),
+        }),
       });
 
       if (!res.ok) {
@@ -112,7 +176,28 @@ function SolveTab() {
 
   return (
     <div className="mt-6">
-      <label htmlFor="reaction-input" className="text-sm font-medium text-text-dim">
+      <label htmlFor="chapter-select" className="text-sm font-medium text-text-dim">
+        Chapter (optional)
+      </label>
+      <select
+        id="chapter-select"
+        value={chapterKey}
+        onChange={(e) => setChapterKey(e.target.value)}
+        className="mt-2 w-full rounded-xl border border-border bg-surface-2 px-4 py-3 text-sm text-text focus:outline-none focus:ring-2 focus:ring-accent"
+      >
+        <option value="">No chapter — use the standard method</option>
+        {topics.map((topic) => (
+          <optgroup key={topic.id} label={topic.short_title ?? topic.title}>
+            {topic.chapters.map((chapter) => (
+              <option key={chapter.id} value={chapterOptionKey(topic.id, chapter.id)}>
+                {chapter.title}
+              </option>
+            ))}
+          </optgroup>
+        ))}
+      </select>
+
+      <label htmlFor="reaction-input" className="mt-4 block text-sm font-medium text-text-dim">
         Reaction
       </label>
       <textarea
@@ -167,11 +252,33 @@ function SolveTab() {
         <div className="mt-5 rounded-2xl border border-border bg-surface p-5">
           <div className="flex items-center gap-2">
             <Sparkles size={16} strokeWidth={1.5} className="text-accent" />
-            <p className="text-xs font-medium uppercase tracking-wide text-text-dim">Answer</p>
+            <p className="text-xs font-medium uppercase tracking-wide text-text-dim">Method</p>
           </div>
-          <p className="mt-2 text-base font-semibold text-text">
-            {formatFormula(result.answer)}
-          </p>
+          <p className="mt-1 text-base font-semibold text-text">{result.method}</p>
+
+          {result.steps.length > 0 && (
+            <ol className="mt-3 flex flex-col gap-2.5">
+              {result.steps.map((step, i) => (
+                <li key={i} className="flex gap-3">
+                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-surface-2 text-[11px] font-semibold text-accent">
+                    {i + 1}
+                  </span>
+                  <span className="text-sm leading-relaxed text-text-dim">
+                    {formatFormula(step)}
+                  </span>
+                </li>
+              ))}
+            </ol>
+          )}
+
+          <div className="mt-4 rounded-xl border border-accent/30 bg-accent/10 px-4 py-3">
+            <p className="text-xs font-medium uppercase tracking-wide text-accent">
+              Final Equation
+            </p>
+            <p className="mt-1 text-base font-semibold text-text">
+              {formatFormula(result.answer)}
+            </p>
+          </div>
 
           <p className="mt-5 text-xs font-medium uppercase tracking-wide text-text-dim">
             Explanation
@@ -212,7 +319,7 @@ function initialTabFromQuery(): Tab {
   return match ?? "Solve";
 }
 
-export default function ReactionSolver() {
+export default function ReactionSolver({ topics }: { topics: Topic[] }) {
   const [tab, setTab] = useState<Tab>("Solve");
 
   useEffect(() => {
@@ -239,7 +346,7 @@ export default function ReactionSolver() {
       </div>
 
       {tab === "Solve" ? (
-        <SolveTab />
+        <SolveTab topics={topics} />
       ) : (
         <div className="mt-10 text-center text-sm text-text-dim">{tab} is coming soon.</div>
       )}
