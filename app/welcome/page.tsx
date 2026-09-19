@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Logo from "@/components/Logo";
 import MoleculeHero from "@/components/MoleculeHero";
+import { pageMetadata } from "@/lib/pageMetadata";
+
+export const metadata = pageMetadata("Welcome", "Your intelligent companion for chemistry mastery.");
 
 export default function WelcomePage() {
   return (

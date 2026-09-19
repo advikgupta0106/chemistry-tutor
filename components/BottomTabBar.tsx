@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Compass, Atom, NotebookText, TrendingUp, User } from "lucide-react";
+import { Home, Compass, Atom, NotebookText, TrendingUp, Settings } from "lucide-react";
 
 const TABS = [
   { href: "/", label: "Home", icon: Home },
@@ -10,7 +10,9 @@ const TABS = [
   { href: "/molecules", label: "Molecules", icon: Atom },
   { href: "/notebook", label: "Notebook", icon: NotebookText },
   { href: "/progress", label: "Progress", icon: TrendingUp },
-  { href: "/profile", label: "Profile", icon: User },
+  // Was "/profile", which doesn't exist as a route (a broken link) —
+  // /settings is the closest real equivalent (account + local data).
+  { href: "/settings", label: "Settings", icon: Settings },
 ];
 
 export default function BottomTabBar() {

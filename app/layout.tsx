@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { SITE_URL } from "@/lib/siteUrl";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,9 +9,16 @@ const inter = Inter({
   weight: ["400", "500", "700"],
 });
 
+const SITE_NAME = "Atomica";
+const SITE_DESCRIPTION = "Your intelligent companion for chemistry mastery.";
+
 export const metadata: Metadata = {
-  title: "Atomica",
-  description: "Your intelligent companion for chemistry mastery.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: SITE_NAME,
+    template: `%s — ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
   manifest: "/manifest.json",
   icons: {
     icon: [
@@ -20,6 +28,27 @@ export const metadata: Metadata = {
       { url: "/brand/icon-512x512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: "/brand/apple-touch-icon.png",
+  },
+  openGraph: {
+    title: { default: SITE_NAME, template: `%s — ${SITE_NAME}` },
+    description: SITE_DESCRIPTION,
+    siteName: SITE_NAME,
+    url: SITE_URL,
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: `${SITE_NAME} — ${SITE_DESCRIPTION}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: { default: SITE_NAME, template: `%s — ${SITE_NAME}` },
+    description: SITE_DESCRIPTION,
+    images: ["/og-image.png"],
   },
 };
 

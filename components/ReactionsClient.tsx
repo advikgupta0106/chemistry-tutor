@@ -84,7 +84,7 @@ export default function ReactionsClient({
           <div key={reaction.id} className="rounded-2xl border border-border bg-surface p-4">
             <div className="flex items-center gap-2">
               <FlaskConical size={16} strokeWidth={1.5} className="text-accent" />
-              <span className="rounded-full bg-accent/15 px-2.5 py-0.5 text-xs font-medium text-accent">
+              <span className="rounded-full bg-accent/15 px-2.5 py-0.5 text-xs font-medium text-accent-2">
                 {reaction.type}
               </span>
             </div>

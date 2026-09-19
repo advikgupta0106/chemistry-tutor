@@ -20,10 +20,10 @@ export default function ContinueLearningCard({
           Continue Learning
         </p>
         <p className="mt-1 text-lg font-bold text-text">{title}</p>
-        <p className="mt-0.5 text-sm font-medium text-accent">{percent}% complete</p>
+        <p className="mt-0.5 text-sm font-medium text-accent-2">{percent}% complete</p>
         <Link
           href={href}
-          className="mt-3 inline-block rounded-full border border-accent px-4 py-1.5 text-xs font-semibold text-accent"
+          className="mt-3 inline-block rounded-full border border-accent px-4 py-1.5 text-xs font-semibold text-accent-2"
         >
           Continue
         </Link>

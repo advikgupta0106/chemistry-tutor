@@ -6,7 +6,7 @@ export default function ProgressRing({ percent }: { percent: number }) {
   return (
     <div className="flex flex-col items-center">
       <div className="relative h-32 w-32">
-        <svg viewBox="0 0 120 120" className="h-full w-full -rotate-90">
+        <svg viewBox="0 0 120 120" className="h-full w-full -rotate-90" aria-hidden="true">
           <circle cx={60} cy={60} r={radius} fill="none" stroke="var(--color-surface-2)" strokeWidth={10} />
           <circle
             cx={60}

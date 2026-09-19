@@ -352,7 +352,12 @@ export default function MoleculeViewerClient({
 
     return (
       <div className="relative h-full w-full">
-        <div ref={ref} className="h-full w-full" />
+        <div
+          ref={ref}
+          role="img"
+          aria-label={`Interactive 3D model of ${molecule.name} (${molecule.formula})`}
+          className="h-full w-full"
+        />
         {loadState === "loading" && (
           <div className="absolute inset-0 flex items-center justify-center bg-surface">
             <div className="h-8 w-8 animate-spin rounded-full border-2 border-border border-t-accent" />
@@ -521,7 +526,7 @@ export default function MoleculeViewerClient({
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={pubchem2DImageUrl(m.pubchem_cid)}
-                    alt={m.name}
+                    alt={`${m.name} molecular structure`}
                     className="h-full w-full object-contain p-1"
                   />
                 </div>

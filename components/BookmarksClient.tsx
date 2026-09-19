@@ -97,7 +97,7 @@ export default function BookmarksClient({
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={pubchem2DImageUrl(molecule.pubchem_cid)}
-                      alt={molecule.name}
+                      alt={`${molecule.name} molecular structure`}
                       className="h-full w-full object-contain p-1"
                     />
                   </div>

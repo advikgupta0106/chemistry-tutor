@@ -65,7 +65,7 @@ export default function DashboardClient({ topics }: { topics: Topic[] }) {
           {stats.recentlyStudied.length === 0 ? (
             <p className="text-sm text-text-dim">
               Nothing studied yet —{" "}
-              <Link href="/explore" className="font-medium text-accent">
+              <Link href="/explore" className="font-medium text-accent-2">
                 head to Explore
               </Link>{" "}
               to start a topic.

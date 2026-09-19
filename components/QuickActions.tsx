@@ -25,10 +25,14 @@ export default function QuickActions() {
           className={`flex flex-col justify-between rounded-2xl p-4 ${TINT_CLASSES[tint]}`}
         >
           <div className="flex items-center justify-between">
-            <Icon size={20} strokeWidth={1.5} className="text-white" />
-            <ChevronRight size={16} strokeWidth={1.5} className="text-white/70" />
+            {/* Dark ink instead of white: white text/icons on these bright
+                tints (especially success/warning) fail WCAG AA contrast —
+                near-black reads clearly on every tint without changing the
+                tile colors themselves. */}
+            <Icon size={20} strokeWidth={1.5} className="text-bg" />
+            <ChevronRight size={16} strokeWidth={1.5} className="text-bg/70" />
           </div>
-          <p className="mt-4 text-sm font-medium text-white">{label}</p>
+          <p className="mt-4 text-sm font-medium text-bg">{label}</p>
         </Link>
       ))}
     </div>

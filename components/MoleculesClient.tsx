@@ -169,7 +169,7 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
         <div className="mt-4 rounded-2xl border border-accent/30 bg-accent/10 p-5">
           <div className="flex items-center gap-2">
             <Sparkles size={16} strokeWidth={1.5} className="text-accent" />
-            <p className="text-xs font-semibold uppercase tracking-wide text-accent">AI Identified</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-accent-2">AI Identified</p>
           </div>
 
           <h2 className="mt-2 text-xl font-bold text-text">{identifyResult.name}</h2>
@@ -208,7 +208,7 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={pubchem2DImageUrl(molecule.pubchem_cid)}
-                alt={molecule.name}
+                alt={`${molecule.name} molecular structure`}
                 className="h-full w-full object-contain p-2"
               />
             </div>

@@ -272,7 +272,7 @@ function SolveTab({ topics }: { topics: Topic[] }) {
           )}
 
           <div className="mt-4 rounded-xl border border-accent/30 bg-accent/10 px-4 py-3">
-            <p className="text-xs font-medium uppercase tracking-wide text-accent">
+            <p className="text-xs font-medium uppercase tracking-wide text-accent-2">
               Final Equation
             </p>
             <p className="mt-1 text-base font-semibold text-text">

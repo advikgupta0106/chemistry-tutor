@@ -82,9 +82,16 @@ function NitroniumIon() {
   );
 }
 
+const STRUCTURE_LABELS: Record<StructureKind, string> = {
+  benzene: "Structure diagram of benzene, an aromatic ring",
+  nitrobenzene: "Structure diagram of nitrobenzene, a benzene ring with a nitro substituent",
+  arenium: "Structure diagram of the arenium ion intermediate, with aromaticity broken",
+  nitronium: "Structure diagram of the nitronium ion, O=N=O with a positive charge",
+};
+
 export default function MechanismStructure({ kind }: { kind: StructureKind }) {
   return (
-    <svg viewBox="0 0 120 96" className="h-20 w-28">
+    <svg viewBox="0 0 120 96" className="h-20 w-28" role="img" aria-label={STRUCTURE_LABELS[kind]}>
       {kind === "benzene" && <AromaticRing />}
       {kind === "nitrobenzene" && <AromaticRing substituentLabel="NO₂" />}
       {kind === "arenium" && <AreniumRing />}

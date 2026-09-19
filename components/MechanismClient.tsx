@@ -181,7 +181,7 @@ export default function MechanismClient({ mechanism }: { mechanism: Mechanism })
             <div className="mt-4 flex gap-3 rounded-2xl border border-accent/30 bg-accent/10 p-4">
               <Bookmark size={18} strokeWidth={1.5} className="mt-0.5 shrink-0 text-accent" />
               <div>
-                <p className="text-sm font-semibold text-accent">Key Point</p>
+                <p className="text-sm font-semibold text-accent-2">Key Point</p>
                 <p className="mt-1 text-sm text-text-dim">{current.key_point}</p>
               </div>
             </div>

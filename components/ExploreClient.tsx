@@ -159,7 +159,7 @@ export default function ExploreClient({ topics }: { topics: Topic[] }) {
         <div className="mt-4 rounded-2xl border border-accent/30 bg-accent/10 p-4">
           <div className="flex items-center gap-2">
             <Sparkles size={16} strokeWidth={1.5} className="text-accent" />
-            <p className="text-xs font-semibold uppercase tracking-wide text-accent">Answer</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-accent-2">Answer</p>
           </div>
           <p className="mt-2 text-sm leading-relaxed text-text">{formatFormula(aiResult.answer)}</p>
 

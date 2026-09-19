@@ -107,7 +107,7 @@ export default function ChapterReaderClient({
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           src={pubchem2DImageUrl(molecule.pubchem_cid)}
-                          alt={molecule.name}
+                          alt={`${molecule.name} molecular structure`}
                           className="h-full w-full object-contain p-1"
                         />
                       </div>
@@ -122,7 +122,7 @@ export default function ChapterReaderClient({
               <div className="mt-3 flex gap-3 rounded-2xl border border-accent/30 bg-accent/10 p-4">
                 <Bookmark size={18} strokeWidth={1.5} className="mt-0.5 shrink-0 text-accent" />
                 <div>
-                  <p className="text-sm font-semibold text-accent">Key Point</p>
+                  <p className="text-sm font-semibold text-accent-2">Key Point</p>
                   <p className="mt-1 text-sm text-text-dim">{formatChapterText(section.key_point)}</p>
                 </div>
               </div>

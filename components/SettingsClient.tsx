@@ -74,7 +74,7 @@ export default function SettingsClient() {
 
       <div className="mt-6 rounded-2xl border border-border bg-surface p-4">
         <div className="flex items-center gap-3">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-accent/15 text-lg font-bold text-accent">
+          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-accent/15 text-lg font-bold text-accent-2">
             {name.trim() ? name.trim()[0].toUpperCase() : "?"}
           </div>
           <div className="min-w-0 flex-1">
@@ -117,7 +117,7 @@ export default function SettingsClient() {
                   onClick={() => handleClick(action)}
                   className={`flex shrink-0 items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold ${
                     confirming === action.key
-                      ? "bg-danger text-white"
+                      ? "bg-danger text-bg"
                       : "border border-border text-text-dim"
                   }`}
                 >
