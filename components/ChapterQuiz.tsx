@@ -7,6 +7,7 @@ import { buildChapterContent } from "@/lib/chapterContent";
 import { recordAnswer } from "@/lib/progress";
 import { formatFormula } from "@/lib/formatFormula";
 import { API_URL } from "@/lib/apiUrl";
+import MarkdownAnswer from "@/components/MarkdownAnswer";
 
 const QUESTION_COUNT = 5;
 
@@ -180,7 +181,7 @@ export default function ChapterQuiz({
                   <p className="text-sm text-success">
                     Correct answer: {a.question.options[a.question.answer_index]}
                   </p>
-                  <p className="mt-2 text-sm text-text-dim">{a.question.explanation}</p>
+                  <MarkdownAnswer text={a.question.explanation} className="mt-2" />
                 </div>
               ))}
             </div>
@@ -256,7 +257,7 @@ export default function ChapterQuiz({
         {selected !== null && (
           <div className="mt-4 rounded-xl bg-surface-2 p-3">
             <p className="text-xs font-semibold uppercase tracking-wide text-text-dim">Explanation</p>
-            <p className="mt-1 text-sm text-text">{formatFormula(question.explanation)}</p>
+            <MarkdownAnswer text={question.explanation} className="mt-1" />
           </div>
         )}
       </div>

@@ -5,8 +5,8 @@ import Link from "next/link";
 import { ArrowLeft, Search, Filter, Sparkles, ChevronRight, AlertCircle } from "lucide-react";
 import TopicRow from "@/components/TopicRow";
 import type { Topic } from "@/lib/content";
-import { formatFormula } from "@/lib/formatFormula";
 import { API_URL } from "@/lib/apiUrl";
+import MarkdownAnswer from "@/components/MarkdownAnswer";
 
 const FILTERS = ["All", "Class 11", "Class 12", "JEE", "NEET"] as const;
 type FilterValue = (typeof FILTERS)[number];
@@ -161,7 +161,7 @@ export default function ExploreClient({ topics }: { topics: Topic[] }) {
             <Sparkles size={16} strokeWidth={1.5} className="text-accent" />
             <p className="text-xs font-semibold uppercase tracking-wide text-accent-2">Answer</p>
           </div>
-          <p className="mt-2 text-sm leading-relaxed text-text">{formatFormula(aiResult.answer)}</p>
+          <MarkdownAnswer text={aiResult.answer} className="mt-2" />
 
           {(aiResult.related_topics.length > 0 || relatedChapter) && (
             <div className="mt-3 flex flex-col gap-2 border-t border-accent/20 pt-3">

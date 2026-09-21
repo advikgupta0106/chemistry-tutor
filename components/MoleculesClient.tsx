@@ -9,6 +9,7 @@ import { formatFormula } from "@/lib/formatFormula";
 import { lookupPubChemCid } from "@/lib/pubchem";
 import { API_URL } from "@/lib/apiUrl";
 import { localMolecule2DUrl } from "@/lib/moleculeAssets";
+import MarkdownAnswer from "@/components/MarkdownAnswer";
 
 type IdentifyResult = {
   name: string;
@@ -189,7 +190,7 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
 
           <div className="mt-4">
             <p className="text-xs font-semibold uppercase tracking-wide text-text-dim">About</p>
-            <p className="mt-1 text-sm text-text-dim">{identifyResult.about}</p>
+            <MarkdownAnswer text={identifyResult.about} className="mt-1" />
           </div>
         </div>
       )}

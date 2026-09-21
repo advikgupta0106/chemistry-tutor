@@ -5,6 +5,7 @@ import { AlertCircle, MessageCircleQuestion } from "lucide-react";
 import { formatFormula, formatChapterText } from "@/lib/formatFormula";
 import type { Chapter } from "@/lib/content";
 import { API_URL } from "@/lib/apiUrl";
+import MarkdownAnswer from "@/components/MarkdownAnswer";
 
 const MAX_VISIBLE_PAIRS = 3;
 
@@ -108,9 +109,7 @@ export default function AskDoubt({
           {pairs.map((pair, i) => (
             <div key={i} className="rounded-2xl border border-border bg-surface p-4">
               <p className="text-sm font-medium text-text">{formatFormula(pair.question)}</p>
-              <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-text-dim">
-                {formatFormula(pair.answer)}
-              </p>
+              <MarkdownAnswer text={pair.answer} className="mt-2" />
             </div>
           ))}
         </div>

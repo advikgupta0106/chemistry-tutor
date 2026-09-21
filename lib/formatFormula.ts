@@ -1,14 +1,18 @@
-const SUBSCRIPT_DIGITS: Record<string, string> = {
+// Exported so lib/scientificNotation.ts (generic "^"/"_" notation in AI
+// prose, e.g. "10^23", "N_A") can reuse the same digit tables instead of
+// duplicating them — this file's own regexes stay scoped to chemical
+// formulas/charges specifically.
+export const SUBSCRIPT_DIGITS: Record<string, string> = {
   "0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄",
   "5": "₅", "6": "₆", "7": "₇", "8": "₈", "9": "₉",
 };
 
-const SUPERSCRIPT_DIGITS: Record<string, string> = {
+export const SUPERSCRIPT_DIGITS: Record<string, string> = {
   "0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴",
   "5": "⁵", "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹",
 };
 
-const SUPERSCRIPT_SIGNS: Record<string, string> = { "+": "⁺", "-": "⁻" };
+export const SUPERSCRIPT_SIGNS: Record<string, string> = { "+": "⁺", "-": "⁻" };
 
 // A sign is either the ASCII a student can type ("+"/"-") or the unicode
 // superscript form the insert-buttons produce directly ("⁺"/"⁻"). Both mean
@@ -41,19 +45,27 @@ function isBareSeparatorPlus(digits: string, signs: string): boolean {
   return !digits && (signs === "+" || signs === "⁺");
 }
 
+// A chemical formula/ion base always starts with an element symbol's
+// capital letter (Cr2O7, SO4, Fe, NH4, ...) — requiring that here is what
+// keeps both regexes below from misfiring on ordinary prose shaped the
+// same way (a lowercase word, a space, a number, a hyphen), e.g. "x 10^-23"
+// or "roughly 5-10 minutes", which are common once this runs over AI-
+// generated explanations rather than just short reaction-equation input.
+const FORMULA_BASE = "[A-Z][A-Za-z0-9)\\]]*";
+
 // Explicit charge markers — a caret ("Cr2O7^2-") or a space before the
 // charge ("Cr2O7 2-") — are unambiguous, so they're resolved to their
 // final superscript form immediately, before the harder no-marker case
 // below ever sees them.
 function resolveExplicitCharges(input: string): string {
   const withCaret = input.replace(
-    new RegExp(`([A-Za-z0-9)\\]]+)\\^(\\d*)([${SIGN_CLASS}]+)`, "g"),
+    new RegExp(`(${FORMULA_BASE})\\^(\\d*)([${SIGN_CLASS}]+)`, "g"),
     (_match, base: string, digits: string, signs: string) =>
       base + toSuperscriptChars(digits) + toSuperscriptChars(signs)
   );
 
   return withCaret.replace(
-    new RegExp(`([A-Za-z0-9)\\]]+)[ \\t]+(\\d*)([${SIGN_CLASS}]+)(?![A-Za-z])`, "g"),
+    new RegExp(`(${FORMULA_BASE})[ \\t]+(\\d*)([${SIGN_CLASS}]+)(?![A-Za-z])`, "g"),
     (match, base: string, digits: string, signs: string) =>
       isBareSeparatorPlus(digits, signs) ? match : base + toSuperscriptChars(digits) + toSuperscriptChars(signs)
   );
@@ -94,9 +106,13 @@ export function formatFormula(input: string): string {
   // a unicode superscript sign a button inserted right after a plain
   // digit) reach the ambiguous glued-charge case — anything the caret/space
   // pass above already resolved now has its digits superscripted too, so
-  // this never re-matches it.
+  // this never re-matches it. The trailing (?!...) requires the sign to
+  // actually end the word (end of string, space, punctuation) rather than
+  // continue into more letters/digits — without it, this misreads an
+  // ordinary hyphenated word in prose ("carbon-12", "well-known") as a
+  // bare charge and corrupts just the hyphen ("carbon⁻12").
   const withGluedCharges = withExplicitCharges.replace(
-    new RegExp(`[A-Za-z0-9)\\]]+[${SIGN_CLASS}]+`, "g"),
+    new RegExp(`[A-Za-z0-9)\\]]+[${SIGN_CLASS}]+(?![A-Za-z0-9])`, "g"),
     formatGluedCharge
   );
 

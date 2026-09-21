@@ -5,6 +5,7 @@ import { AlertCircle, Sparkles } from "lucide-react";
 import { formatFormula, normalizeReactionInput } from "@/lib/formatFormula";
 import { API_URL } from "@/lib/apiUrl";
 import type { Topic } from "@/lib/content";
+import MarkdownAnswer from "@/components/MarkdownAnswer";
 
 // Characters that don't have an easy key on a phone keyboard. Tapping one
 // inserts it at the cursor position rather than always appending to the
@@ -263,9 +264,7 @@ function SolveTab({ topics }: { topics: Topic[] }) {
                   <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-surface-2 text-[11px] font-semibold text-accent">
                     {i + 1}
                   </span>
-                  <span className="text-sm leading-relaxed text-text-dim">
-                    {formatFormula(step)}
-                  </span>
+                  <MarkdownAnswer text={step} />
                 </li>
               ))}
             </ol>
@@ -283,9 +282,7 @@ function SolveTab({ topics }: { topics: Topic[] }) {
           <p className="mt-5 text-xs font-medium uppercase tracking-wide text-text-dim">
             Explanation
           </p>
-          <p className="mt-2 text-sm leading-relaxed text-text">
-            {formatFormula(result.explanation)}
-          </p>
+          <MarkdownAnswer text={result.explanation} className="mt-2" />
 
           <div className="mt-5 flex items-center justify-between border-t border-border pt-4">
             <div>
