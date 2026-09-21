@@ -18,6 +18,7 @@ import {
 import type { Molecule } from "@/lib/content";
 import { formatFormula } from "@/lib/formatFormula";
 import { isMoleculeBookmarked, toggleMoleculeBookmark } from "@/lib/bookmarks";
+import { localMolecule2DUrl, localMoleculeSdfUrl } from "@/lib/moleculeAssets";
 
 type Atom3D = { elem: string; x: number; y: number; z: number };
 
@@ -43,12 +44,9 @@ type LoadState = "loading" | "loaded" | "error";
 
 const FETCH_TIMEOUT_MS = 10000;
 
-async function fetchSDF(cid: number, signal: AbortSignal): Promise<string> {
-  const res = await fetch(
-    `https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cid}/SDF?record_type=3d`,
-    { signal }
-  );
-  if (!res.ok) throw new Error(`PubChem returned ${res.status}`);
+async function fetchSDF(url: string, signal: AbortSignal): Promise<string> {
+  const res = await fetch(url, { signal });
+  if (!res.ok) throw new Error(`Failed to load structure: ${res.status}`);
   return res.text();
 }
 
@@ -112,6 +110,14 @@ export default function MoleculeViewerClient({
   molecule: Molecule;
   allMolecules: Molecule[];
 }) {
+  // allMolecules is always the same curated 8-molecule set regardless of
+  // which page rendered this component (see molecule/[id]/page.tsx) — so
+  // membership in it is what actually distinguishes "one of our built-in
+  // molecules, safe to load from /public/molecules locally" from "an
+  // AI-search result that only exists as a PubChem CID," which still needs
+  // the live PubChem fetch this component always used to do for everyone.
+  const isLocal = allMolecules.some((m) => m.id === molecule.id);
+
   // Two containers exist in the DOM at once (mobile and desktop layouts,
   // toggled with CSS only), so we pick whichever one is actually visible
   // rather than sharing a single ref between both.
@@ -208,7 +214,11 @@ export default function MoleculeViewerClient({
       }
       viewerRef.current = viewer;
 
-      fetchSDF(molecule.pubchem_cid, abortController.signal)
+      const sdfUrl = isLocal
+        ? localMoleculeSdfUrl(molecule.id)
+        : `https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${molecule.pubchem_cid}/SDF?record_type=3d`;
+
+      fetchSDF(sdfUrl, abortController.signal)
         .then((sdf) => {
           if (cancelled) return;
           clearTimeout(timeoutId);
@@ -343,7 +353,7 @@ export default function MoleculeViewerClient({
       return (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={pubchem2DImageUrl(molecule.pubchem_cid)}
+          src={isLocal ? localMolecule2DUrl(molecule.id) : pubchem2DImageUrl(molecule.pubchem_cid)}
           alt={`${molecule.name} 2D structure`}
           className="h-full w-full object-contain p-6"
         />
@@ -525,7 +535,7 @@ export default function MoleculeViewerClient({
                 <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-surface-2">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={pubchem2DImageUrl(m.pubchem_cid)}
+                    src={localMolecule2DUrl(m.id)}
                     alt={`${m.name} molecular structure`}
                     className="h-full w-full object-contain p-1"
                   />

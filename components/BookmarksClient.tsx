@@ -7,10 +7,7 @@ import type { Topic, Molecule } from "@/lib/content";
 import TopicIcon from "@/components/TopicIcon";
 import { getBookmarks, toggleTopicBookmark, toggleMoleculeBookmark } from "@/lib/bookmarks";
 import { formatFormula } from "@/lib/formatFormula";
-
-function pubchem2DImageUrl(cid: number) {
-  return `https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=l`;
-}
+import { localMolecule2DUrl } from "@/lib/moleculeAssets";
 
 export default function BookmarksClient({
   allTopics,
@@ -96,7 +93,7 @@ export default function BookmarksClient({
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-surface-2">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={pubchem2DImageUrl(molecule.pubchem_cid)}
+                      src={localMolecule2DUrl(molecule.id)}
                       alt={`${molecule.name} molecular structure`}
                       className="h-full w-full object-contain p-1"
                     />

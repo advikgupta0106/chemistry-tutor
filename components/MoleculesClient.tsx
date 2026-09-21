@@ -8,10 +8,7 @@ import type { Molecule } from "@/lib/content";
 import { formatFormula } from "@/lib/formatFormula";
 import { lookupPubChemCid } from "@/lib/pubchem";
 import { API_URL } from "@/lib/apiUrl";
-
-function pubchem2DImageUrl(cid: number) {
-  return `https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=l`;
-}
+import { localMolecule2DUrl } from "@/lib/moleculeAssets";
 
 type IdentifyResult = {
   name: string;
@@ -207,7 +204,7 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
             <div className="flex h-20 w-20 items-center justify-center rounded-xl bg-surface-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={pubchem2DImageUrl(molecule.pubchem_cid)}
+                src={localMolecule2DUrl(molecule.id)}
                 alt={`${molecule.name} molecular structure`}
                 className="h-full w-full object-contain p-2"
               />

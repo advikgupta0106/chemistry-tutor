@@ -9,10 +9,7 @@ import { isChapterRead, markChapterRead, unmarkChapterRead, getProgress } from "
 import AskDoubt from "@/components/AskDoubt";
 import ChapterQuiz from "@/components/ChapterQuiz";
 import ReportError from "@/components/ReportError";
-
-function pubchem2DImageUrl(cid: number) {
-  return `https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=l`;
-}
+import { localMolecule2DUrl } from "@/lib/moleculeAssets";
 
 export default function ChapterReaderClient({
   topic,
@@ -106,7 +103,7 @@ export default function ChapterReaderClient({
                       <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-surface-2">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
-                          src={pubchem2DImageUrl(molecule.pubchem_cid)}
+                          src={localMolecule2DUrl(molecule.id)}
                           alt={`${molecule.name} molecular structure`}
                           className="h-full w-full object-contain p-1"
                         />
