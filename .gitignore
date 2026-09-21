@@ -48,3 +48,7 @@ next-env.d.ts
 
 # NCERT source PDFs (used only to author /content JSON, not needed at runtime)
 content/source/
+
+# scripts/'s own Python environment (rdkit etc.) — deliberately separate
+# from api/'s dependencies, and never committed
+scripts/.venv/
