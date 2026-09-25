@@ -13,12 +13,14 @@ import {
   Ruler,
   ChevronRight,
   WifiOff,
+  ServerCrash,
   Bookmark,
 } from "lucide-react";
 import type { Molecule } from "@/lib/content";
 import { formatFormula } from "@/lib/formatFormula";
 import { isMoleculeBookmarked, toggleMoleculeBookmark } from "@/lib/bookmarks";
 import { localMolecule2DUrl, localMoleculeSdfUrl } from "@/lib/moleculeAssets";
+import { fetchPubChemSdf, fetchPubChem2DImageBlob } from "@/lib/pubchem";
 
 type Atom3D = { elem: string; x: number; y: number; z: number };
 
@@ -40,15 +42,7 @@ type ThreeDMol = {
   createViewer: (el: HTMLElement, config: object) => Viewer3D;
 };
 
-type LoadState = "loading" | "loaded" | "error";
-
-const FETCH_TIMEOUT_MS = 10000;
-
-async function fetchSDF(url: string, signal: AbortSignal): Promise<string> {
-  const res = await fetch(url, { signal });
-  if (!res.ok) throw new Error(`Failed to load structure: ${res.status}`);
-  return res.text();
-}
+type LoadState = "loading" | "loaded" | "error" | "service-error";
 
 declare global {
   interface Window {
@@ -99,10 +93,6 @@ const STYLE_LABELS: { value: Style; label: string }[] = [
   { value: "wireframe", label: "Wireframe" },
 ];
 
-function pubchem2DImageUrl(cid: number) {
-  return `https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=${cid}&t=l`;
-}
-
 export default function MoleculeViewerClient({
   molecule,
   allMolecules,
@@ -136,6 +126,9 @@ export default function MoleculeViewerClient({
   const [labelsOn, setLabelsOn] = useState(false);
   const [measuring, setMeasuring] = useState(false);
   const [bookmarked, setBookmarked] = useState(false);
+  const [image2DState, setImage2DState] = useState<LoadState>("loading");
+  const [image2DUrl, setImage2DUrl] = useState<string | null>(null);
+  const [image2DRetryCount, setImage2DRetryCount] = useState(0);
 
   useEffect(() => {
     setBookmarked(isMoleculeBookmarked(molecule.id));
@@ -145,6 +138,46 @@ export default function MoleculeViewerClient({
     const b = toggleMoleculeBookmark(molecule.id);
     setBookmarked(b.molecules.includes(molecule.id));
   }
+
+  // Only the non-local (AI-search) 2D image goes through a real fetch —
+  // it's what lets it retry a transient PubChem failure the way every
+  // other PubChem call does, which a plain <img src> can't do on its own.
+  // The 8 curated molecules' local PNGs stay a plain <img>, same-origin
+  // and reliable enough not to need this.
+  useEffect(() => {
+    if (isLocal || viewMode !== "2D") return;
+
+    let cancelled = false;
+    const abortController = new AbortController();
+    setImage2DState("loading");
+
+    fetchPubChem2DImageBlob(molecule.pubchem_cid, abortController.signal).then((result) => {
+      if (cancelled) return;
+      if (result.status === "ok") {
+        const url = URL.createObjectURL(result.data);
+        setImage2DUrl(url);
+        setImage2DState("loaded");
+      } else if (result.status === "unavailable") {
+        setImage2DState("service-error");
+      } else {
+        setImage2DState("error");
+      }
+    });
+
+    return () => {
+      cancelled = true;
+      abortController.abort();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isLocal, viewMode, molecule.id, image2DRetryCount]);
+
+  // Revoke each blob URL once it's replaced or the component unmounts,
+  // so switching between molecules doesn't leak object URLs.
+  useEffect(() => {
+    return () => {
+      if (image2DUrl) URL.revokeObjectURL(image2DUrl);
+    };
+  }, [image2DUrl]);
 
   useEffect(() => {
     if (scriptError) {
@@ -158,7 +191,6 @@ export default function MoleculeViewerClient({
     let cancelled = false;
     let rafId: number;
     const abortController = new AbortController();
-    const timeoutId = setTimeout(() => abortController.abort(), FETCH_TIMEOUT_MS);
 
     setLoadState("loading");
 
@@ -214,26 +246,44 @@ export default function MoleculeViewerClient({
       }
       viewerRef.current = viewer;
 
-      const sdfUrl = isLocal
-        ? localMoleculeSdfUrl(molecule.id)
-        : `https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${molecule.pubchem_cid}/SDF?record_type=3d`;
+      function onSdfLoaded(sdf: string) {
+        if (cancelled) return;
+        viewer.addModel(sdf, "sdf");
+        viewer.resize();
+        applyStyle(viewer, style);
+        viewer.zoomTo();
+        viewer.render();
+        setLoadState("loaded");
+      }
 
-      fetchSDF(sdfUrl, abortController.signal)
-        .then((sdf) => {
-          if (cancelled) return;
-          clearTimeout(timeoutId);
-          viewer.addModel(sdf, "sdf");
-          viewer.resize();
-          applyStyle(viewer, style);
-          viewer.zoomTo();
-          viewer.render();
-          setLoadState("loaded");
+      if (isLocal) {
+        // A same-origin static file — no PubChem retry/backoff logic
+        // applies here, just a short timeout so a genuinely missing file
+        // doesn't hang the loading state.
+        fetch(localMoleculeSdfUrl(molecule.id), {
+          signal: AbortSignal.any([abortController.signal, AbortSignal.timeout(8000)]),
         })
-        .catch(() => {
+          .then((res) => {
+            if (!res.ok) throw new Error(`${res.status}`);
+            return res.text();
+          })
+          .then(onSdfLoaded)
+          .catch(() => {
+            if (cancelled) return;
+            setLoadState("error");
+          });
+      } else {
+        fetchPubChemSdf(molecule.pubchem_cid, abortController.signal).then((result) => {
           if (cancelled) return;
-          clearTimeout(timeoutId);
-          setLoadState("error");
+          if (result.status === "ok") {
+            onSdfLoaded(result.data);
+          } else if (result.status === "unavailable") {
+            setLoadState("service-error");
+          } else {
+            setLoadState("error");
+          }
         });
+      }
     }
 
     start(0);
@@ -241,7 +291,6 @@ export default function MoleculeViewerClient({
     return () => {
       cancelled = true;
       abortController.abort();
-      clearTimeout(timeoutId);
       if (rafId) cancelAnimationFrame(rafId);
       viewerRef.current = null;
     };
@@ -350,10 +399,53 @@ export default function MoleculeViewerClient({
 
   function renderCanvasArea(ref: React.RefObject<HTMLDivElement | null>) {
     if (viewMode === "2D") {
+      if (isLocal) {
+        return (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={localMolecule2DUrl(molecule.id)}
+            alt={`${molecule.name} 2D structure`}
+            className="h-full w-full object-contain p-6"
+          />
+        );
+      }
+
+      if (image2DState === "loading") {
+        return (
+          <div className="flex h-full w-full items-center justify-center bg-surface">
+            <div className="h-8 w-8 animate-spin rounded-full border-2 border-border border-t-accent" />
+          </div>
+        );
+      }
+
+      if (image2DState === "error" || image2DState === "service-error") {
+        const isServiceError = image2DState === "service-error";
+        return (
+          <div className="flex h-full w-full flex-col items-center justify-center gap-3 bg-surface px-8 text-center">
+            {isServiceError ? (
+              <ServerCrash size={28} strokeWidth={1.5} className="text-text-dim" />
+            ) : (
+              <WifiOff size={28} strokeWidth={1.5} className="text-text-dim" />
+            )}
+            <p className="text-sm text-text-dim">
+              {isServiceError
+                ? "The molecule database is busy right now. Please try again in a moment."
+                : "Couldn't load the 2D structure. Check your connection and try again."}
+            </p>
+            <button
+              onClick={() => setImage2DRetryCount((c) => c + 1)}
+              className="rounded-lg bg-accent px-4 py-2 text-xs font-semibold text-white"
+            >
+              Retry
+            </button>
+          </div>
+        );
+      }
+
       return (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={isLocal ? localMolecule2DUrl(molecule.id) : pubchem2DImageUrl(molecule.pubchem_cid)}
+          src={image2DUrl ?? undefined}
           alt={`${molecule.name} 2D structure`}
           className="h-full w-full object-contain p-6"
         />
@@ -378,6 +470,20 @@ export default function MoleculeViewerClient({
             <WifiOff size={28} strokeWidth={1.5} className="text-text-dim" />
             <p className="text-sm text-text-dim">
               Couldn&apos;t load the 3D structure. Check your connection and try again.
+            </p>
+            <button
+              onClick={handleRetry}
+              className="rounded-lg bg-accent px-4 py-2 text-xs font-semibold text-white"
+            >
+              Retry
+            </button>
+          </div>
+        )}
+        {loadState === "service-error" && (
+          <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-surface px-8 text-center">
+            <ServerCrash size={28} strokeWidth={1.5} className="text-text-dim" />
+            <p className="text-sm text-text-dim">
+              The molecule database is busy right now. Please try again in a moment.
             </p>
             <button
               onClick={handleRetry}

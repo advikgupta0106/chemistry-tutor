@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, Search, Sparkles, AlertCircle, Box } from "lucide-react";
+import { ArrowLeft, Search, Sparkles, AlertCircle, Box, ServerCrash } from "lucide-react";
 import type { Molecule } from "@/lib/content";
 import { formatFormula } from "@/lib/formatFormula";
 import { lookupPubChemCid } from "@/lib/pubchem";
@@ -22,7 +22,7 @@ type IdentifyResult = {
   about: string;
 };
 
-type SearchState = "idle" | "loading" | "error";
+type SearchState = "idle" | "loading" | "error" | "service-error";
 
 function findLocalMatch(molecules: Molecule[], query: string): Molecule | undefined {
   const q = query.trim().toLowerCase();
@@ -65,11 +65,20 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
     setLoadingMessage("Searching PubChem…");
 
     // 2. PubChem, by name or formula, using the student's own query —
-    // gives a real 3D structure directly.
-    const directCid = await lookupPubChemCid(trimmed);
-    if (directCid) {
-      router.push(`/molecule/${directCid}`);
+    // gives a real 3D structure directly. lookupPubChemCid checks its own
+    // cache first and skips the formula fallback when the query isn't
+    // formula-shaped, so this is often zero or one request, not two.
+    const direct = await lookupPubChemCid(trimmed);
+    if (direct.status === "ok") {
+      router.push(`/molecule/${direct.data}`);
       setState("idle");
+      return;
+    }
+    // PubChem itself is down (see the integration diagnosis) — stop here
+    // rather than grinding through the AI-identify + retry chain below,
+    // which would just be more doomed PubChem calls.
+    if (direct.status === "unavailable") {
+      setState("service-error");
       return;
     }
 
@@ -106,13 +115,29 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
     // formula, before settling for the info-card-only fallback. This is
     // what makes "no 3D structure available" mean PubChem genuinely
     // doesn't have it, not just that the student's own wording didn't
-    // match.
+    // match. Each lookupPubChemCid call below stops at the first
+    // "unavailable" instead of trying the next one, for the same reason
+    // as step 2.
     setLoadingMessage("Confirming 3D structure…");
-    const retryCid =
-      (await lookupPubChemCid(identified.name)) ?? (await lookupPubChemCid(identified.formula));
-    if (retryCid) {
-      router.push(`/molecule/${retryCid}`);
+    const byName = await lookupPubChemCid(identified.name);
+    if (byName.status === "ok") {
+      router.push(`/molecule/${byName.data}`);
       setState("idle");
+      return;
+    }
+    if (byName.status === "unavailable") {
+      setState("service-error");
+      return;
+    }
+
+    const byFormula = await lookupPubChemCid(identified.formula);
+    if (byFormula.status === "ok") {
+      router.push(`/molecule/${byFormula.data}`);
+      setState("idle");
+      return;
+    }
+    if (byFormula.status === "unavailable") {
+      setState("service-error");
       return;
     }
 
@@ -160,6 +185,21 @@ export default function MoleculesClient({ molecules }: { molecules: Molecule[] }
         <div className="mt-4 flex items-start gap-3 rounded-2xl border border-border bg-surface p-4">
           <AlertCircle size={20} strokeWidth={1.5} className="mt-0.5 shrink-0 text-danger" />
           <p className="text-sm text-text-dim">{errorMessage}</p>
+        </div>
+      )}
+
+      {state === "service-error" && (
+        <div className="mt-4 flex flex-col items-center gap-3 rounded-2xl border border-border bg-surface p-6 text-center">
+          <ServerCrash size={24} strokeWidth={1.5} className="text-text-dim" />
+          <p className="text-sm text-text-dim">
+            The molecule database is busy right now. Please try again in a moment.
+          </p>
+          <button
+            onClick={handleSearch}
+            className="rounded-lg bg-accent px-4 py-2 text-xs font-semibold text-white"
+          >
+            Retry
+          </button>
         </div>
       )}
 
