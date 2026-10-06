@@ -9,26 +9,33 @@ import TopicRow from "@/components/TopicRow";
 import type { Topic } from "@/lib/content";
 import { getProgress, computeStats, relativeLabel, type ComputedStats } from "@/lib/progress";
 import { getUserName, onUserNameChange } from "@/lib/userName";
+import { useUserClass, topicMatchesUserClass } from "@/lib/userClass";
 
 export default function HomeClient({ topics }: { topics: Topic[] }) {
   const [stats, setStats] = useState<ComputedStats | null>(null);
   const [userName, setUserNameState] = useState<string | null>(null);
+  const userClass = useUserClass();
+  const classTopics = topics.filter((t) => topicMatchesUserClass(t.class, userClass));
 
   useEffect(() => {
-    setStats(computeStats(getProgress(), topics));
+    setStats(computeStats(getProgress(), classTopics));
     setUserNameState(getUserName());
     return onUserNameChange(() => setUserNameState(getUserName()));
+    // Deliberately re-runs only when userClass changes (to recompute stats
+    // against the newly class-filtered topic list), not on every render —
+    // classTopics/topics are omitted since they'd otherwise be a new array
+    // reference each render.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [userClass]);
 
   if (!stats) return null;
 
-  const topicById = Object.fromEntries(topics.map((t) => [t.id, t]));
+  const topicById = Object.fromEntries(classTopics.map((t) => [t.id, t]));
   const mostRecent = stats.recentlyStudied[0];
-  const continueTopic = mostRecent ? topicById[mostRecent.topicId] : topics[0];
+  const continueTopic = mostRecent ? topicById[mostRecent.topicId] : classTopics[0];
   const continuePercent = mostRecent ? mostRecent.percent : 0;
 
-  const rowTopics = topics.slice(0, 3);
+  const rowTopics = classTopics.slice(0, 3);
 
   return (
     <div className="mx-auto max-w-md px-6 pb-10 pt-8 md:max-w-2xl md:px-10">

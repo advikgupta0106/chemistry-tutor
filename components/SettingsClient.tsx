@@ -6,6 +6,7 @@ import { clearProgress } from "@/lib/progress";
 import { clearNotes } from "@/lib/notes";
 import { clearBookmarks } from "@/lib/bookmarks";
 import { clearUserName, getUserName, setUserName } from "@/lib/userName";
+import { useUserClass, setUserClass, type UserClass } from "@/lib/userClass";
 
 type ClearAction = {
   key: string;
@@ -40,10 +41,18 @@ export default function SettingsClient() {
   const [cleared, setCleared] = useState<string | null>(null);
   const [name, setName] = useState("");
   const [nameSaved, setNameSaved] = useState(false);
+  const userClass = useUserClass();
 
   useEffect(() => {
     setName(getUserName() ?? "");
   }, []);
+
+  function handleChangeClass(value: UserClass) {
+    // setUserClass fires the change event every class-filtered list
+    // (Explore, Home, the reaction solver's chapter picker) listens for via
+    // useUserClass — they refilter immediately, no reload needed.
+    setUserClass(value);
+  }
 
   function handleClick(action: ClearAction) {
     if (confirming !== action.key) {
@@ -98,6 +107,26 @@ export default function SettingsClient() {
           </button>
         </div>
         {nameSaved && <p className="mt-2 text-xs font-medium text-success">Saved.</p>}
+      </div>
+
+      <div className="mt-6 rounded-2xl border border-border bg-surface p-4">
+        <p className="text-xs font-semibold uppercase tracking-wide text-text-dim">Class</p>
+        <p className="mt-0.5 text-xs text-text-dim">
+          Sets which chapters and topics you see across the app.
+        </p>
+        <div className="mt-3 flex gap-2">
+          {(["10", "11"] as const).map((c) => (
+            <button
+              key={c}
+              onClick={() => handleChangeClass(c)}
+              className={`flex-1 rounded-xl py-2.5 text-sm font-semibold ${
+                userClass === c ? "bg-accent text-white" : "border border-border text-text-dim"
+              }`}
+            >
+              Class {c}
+            </button>
+          ))}
+        </div>
       </div>
 
       <div className="mt-6">

@@ -6,6 +6,7 @@ import { formatFormula, normalizeReactionInput } from "@/lib/formatFormula";
 import { API_URL } from "@/lib/apiUrl";
 import type { Topic } from "@/lib/content";
 import MarkdownAnswer from "@/components/MarkdownAnswer";
+import { useUserClass, topicMatchesUserClass } from "@/lib/userClass";
 
 // Characters that don't have an easy key on a phone keyboard. Tapping one
 // inserts it at the cursor position rather than always appending to the
@@ -105,8 +106,19 @@ function SolveTab({ topics }: { topics: Topic[] }) {
   const [errorMessage, setErrorMessage] = useState("");
   const [chapterKey, setChapterKey] = useState("");
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const userClass = useUserClass();
 
-  const chapterOptions = useMemo(() => buildChapterOptions(topics), [topics]);
+  // Restricting the picker to the student's own class is what keeps the
+  // solver's method-selection (driven entirely by chapter context — see
+  // api/main.py's SOLVE_SYSTEM_PROMPT) within their syllabus: a Class 10
+  // student can only ever pick a Class 10 chapter, so they'd never get
+  // Class 11's oxidation-number/half-reaction redox methods by picking a
+  // chapter that doesn't teach them.
+  const classTopics = useMemo(
+    () => topics.filter((t) => topicMatchesUserClass(t.class, userClass)),
+    [topics, userClass]
+  );
+  const chapterOptions = useMemo(() => buildChapterOptions(classTopics), [classTopics]);
   const selectedChapter = chapterOptions.find((o) => o.key === chapterKey) ?? null;
 
   useEffect(() => {
@@ -187,7 +199,7 @@ function SolveTab({ topics }: { topics: Topic[] }) {
         className="mt-2 w-full rounded-xl border border-border bg-surface-2 px-4 py-3 text-sm text-text focus:outline-none focus:ring-2 focus:ring-accent"
       >
         <option value="">No chapter — use the standard method</option>
-        {topics.map((topic) => (
+        {classTopics.map((topic) => (
           <optgroup key={topic.id} label={topic.short_title ?? topic.title}>
             {topic.chapters.map((chapter) => (
               <option key={chapter.id} value={chapterOptionKey(topic.id, chapter.id)}>

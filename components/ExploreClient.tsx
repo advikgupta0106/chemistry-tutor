@@ -7,6 +7,7 @@ import TopicRow from "@/components/TopicRow";
 import type { Topic } from "@/lib/content";
 import { API_URL } from "@/lib/apiUrl";
 import MarkdownAnswer from "@/components/MarkdownAnswer";
+import { useUserClass, topicMatchesUserClass } from "@/lib/userClass";
 
 const FILTERS = ["All", "Class 11", "Class 12", "JEE", "NEET"] as const;
 type FilterValue = (typeof FILTERS)[number];
@@ -42,16 +43,23 @@ export default function ExploreClient({ topics }: { topics: Topic[] }) {
   const [aiState, setAiState] = useState<AiState>("idle");
   const [aiResult, setAiResult] = useState<SmartSearchResult | null>(null);
   const [rateLimitMessage, setRateLimitMessage] = useState("");
+  const userClass = useUserClass();
 
-  const visibleFilters = FILTERS.filter((f) => topics.some((t) => topicMatchesFilter(t, f)));
+  // Everything below — the Class 11/12 chips, the plain-text filter, and
+  // the AI search result's topic links — works off this class-restricted
+  // list rather than the full `topics` prop, so a student only ever sees
+  // (or searches within) their own syllabus.
+  const classTopics = topics.filter((t) => topicMatchesUserClass(t.class, userClass));
 
-  const filtered = topics.filter(
+  const visibleFilters = FILTERS.filter((f) => classTopics.some((t) => topicMatchesFilter(t, f)));
+
+  const filtered = classTopics.filter(
     (t) =>
       t.title.toLowerCase().includes(search.toLowerCase()) &&
       topicMatchesFilter(t, filter)
   );
 
-  const topicById = Object.fromEntries(topics.map((t) => [t.id, t]));
+  const topicById = Object.fromEntries(classTopics.map((t) => [t.id, t]));
 
   // The model only ever returns a chapter *id*, not which topic it's under —
   // resolve it against the real chapter list we already have client-side, so
@@ -59,7 +67,7 @@ export default function ExploreClient({ topics }: { topics: Topic[] }) {
   // rather than pointing somewhere broken.
   let relatedChapter: { topicId: string; topicTitle: string; chapterTitle: string } | null = null;
   if (aiResult?.related_chapter_id) {
-    for (const topic of topics) {
+    for (const topic of classTopics) {
       const chapter = topic.chapters.find((c) => c.id === aiResult.related_chapter_id);
       if (chapter) {
         relatedChapter = {
