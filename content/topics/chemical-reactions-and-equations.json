@@ -1,12 +1,133 @@
 {
   "id": "chemical-reactions-and-equations",
   "title": "Chemical Reactions and Equations",
+  "unit_number": 1,
   "icon": "flask",
   "tint": "green",
   "class": [
     "10"
   ],
   "exams": [],
-  "chapters": [],
-  "published": false
+  "chapters": [
+    {
+      "id": "writing-chemical-equations",
+      "number": 1,
+      "title": "Writing Chemical Equations",
+      "summary": "A chemical reaction has happened whenever a substance's nature or identity actually changes — signalled by a change in state, colour, temperature, or the evolution of a gas — and a chemical equation is just a compact, symbolic way of writing down what reacted to form what.",
+      "sections": [
+        {
+          "heading": "Spotting a chemical reaction",
+          "body": "A chemical reaction has taken place whenever the nature and identity of a substance genuinely changes, not just its appearance. Burning a magnesium ribbon in air turns the shiny metal into a white ash (magnesium oxide); dropping zinc granules into dilute sulphuric acid produces bubbles of hydrogen gas and warms the test tube; mixing lead nitrate solution with potassium iodide solution instantly produces a yellow solid. Across examples like these, four observations reliably signal that a reaction has occurred: a change in state, a change in colour, evolution of a gas, or a change in temperature.",
+          "key_point": "A chemical reaction is happening whenever you see a change in state, a change in colour, a gas being evolved, or a change in temperature — these four observations are the practical signals a reaction has taken place."
+        },
+        {
+          "heading": "From word equations to chemical equations",
+          "body": "Describing a reaction in a full sentence (\"when a magnesium ribbon is burnt in oxygen, it gets converted to magnesium oxide\") is accurate but long-winded, so chemists write it instead as a word equation: Magnesium + Oxygen → Magnesium oxide. The substances written before the arrow, on the left-hand side, are the reactants — the ones that undergo the chemical change; the substance written after the arrow, on the right-hand side, is the product — the new substance formed. The arrow itself points from reactants to products and shows the direction the reaction runs. A word equation can be made shorter still by swapping in chemical formulas: Mg + O2 → MgO. This formula version is called a skeletal chemical equation — it correctly identifies every reactant and product, but says nothing yet about whether the numbers of atoms actually balance on both sides. (NCERT 1.1, 1.1.1)",
+          "key_point": "A word equation (Magnesium + Oxygen → Magnesium oxide) writes reactants on the left and products on the right of an arrow that shows the reaction's direction; swapping in chemical formulas (Mg + O2 → MgO) gives a more compact skeletal equation, which doesn't yet guarantee the atom counts actually balance."
+        },
+        {
+          "heading": "Why equations must be balanced",
+          "body": "The law of conservation of mass (met in Class 9) says mass can neither be created nor destroyed in a chemical reaction — so the total mass of the elements present in the products must equal the total mass of the elements present in the reactants, which in practice means the number of atoms of each element has to stay exactly the same before and after the reaction. Checking Zn + H2SO4 → ZnSO4 + H2 atom by atom (1 Zn, 2 H, 1 S and 4 O on each side) shows every count matches, so this equation is already balanced. A skeletal equation that doesn't yet satisfy this — where some element's atom count differs between the two sides — is called unbalanced, and has to be balanced before it correctly represents the reaction. (NCERT 1.1.2)",
+          "key_point": "The law of conservation of mass requires the number of atoms of every element to be identical on both sides of a correctly written chemical equation — an equation where they don't yet match is unbalanced and still needs fixing."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "balancing-chemical-equations",
+      "number": 2,
+      "title": "Balancing Chemical Equations",
+      "summary": "Balancing a skeletal equation by hit-and-trial means adjusting whole-number coefficients in front of each formula — never touching the formulas themselves — until every element's atom count matches on both sides, and then optionally adding state symbols and reaction conditions to make the finished equation more informative.",
+      "sections": [
+        {
+          "heading": "The hit-and-trial method, step by step",
+          "body": "Balancing Fe + H2O → Fe3O4 + H2 starts by boxing each formula as a fixed, unchangeable unit — balancing only ever adjusts whole-number coefficients placed in front of a formula, never the subscripts inside it (oxygen is fixed with 4 H2O, never rewritten as H2O4 or (H2O)4). Listing atom counts shows oxygen unbalanced first (1 on the left, in H2O, versus 4 on the right, in Fe3O4), so multiplying H2O by 4 fixes oxygen: Fe + 4H2O → Fe3O4 + H2. That same step of adding 4 H2O creates 8 hydrogen atoms on the left, so H2 on the right needs a coefficient of 4 to match: Fe + 4H2O → Fe3O4 + 4H2. Finally, Fe3O4 has 3 iron atoms, so the lone Fe on the left needs a coefficient of 3: 3Fe + 4H2O → Fe3O4 + 4H2. Recounting every element confirms it's now balanced (3 Fe, 8 H, 4 O on each side) — this trial-and-adjustment approach, using the smallest whole-number coefficients that work, is called the hit-and-trial method, and it's conventional to start with whichever compound has the most atoms of any single element (here, the 4 oxygens in Fe3O4) and balance that element first. (NCERT 1.1.2)",
+          "key_point": "Balancing by hit-and-trial means adjusting whole-number coefficients in front of each formula (never the subscripts inside one) until every element's count matches — conventionally starting with the compound that has the most atoms of any single element, as 3Fe + 4H2O → Fe3O4 + 4H2 does by starting from Fe3O4's four oxygens."
+        },
+        {
+          "heading": "State symbols and reaction conditions",
+          "body": "A balanced equation like 3Fe + 4H2O → Fe3O4 + 4H2 says nothing yet about the physical state of each substance — adding that makes the equation more informative, using (s), (l), (g) and (aq) for solid, liquid, gas, and a substance dissolved in water (aqueous), respectively: 3Fe(s) + 4H2O(g) → Fe3O4(s) + 4H2(g), where the (g) on water specifically signals that this reaction uses steam, not liquid water. State symbols are usually left out unless they're actually needed to understand the reaction. Equations can also show reaction conditions — like temperature, pressure, or a catalyst — written above or below the arrow, as in the industrial synthesis of methanol from carbon monoxide and hydrogen under heat, pressure and a catalyst, or in photosynthesis's reliance on sunlight and chlorophyll to convert carbon dioxide and water into glucose and oxygen. (NCERT 1.1.2)",
+          "key_point": "State symbols — (s), (l), (g), (aq) — added after each formula make an equation specify exactly what physical form every substance is in (e.g. (g) on H2O signalling steam specifically), and conditions like temperature, pressure or a catalyst can be written directly above or below the reaction arrow."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "combination-and-decomposition",
+      "number": 3,
+      "title": "Combination and Decomposition Reactions",
+      "summary": "Combination reactions join two or more substances into a single product, while decomposition reactions run that process in reverse, breaking one substance into two or more — and whichever direction a reaction runs, it's exothermic if it releases heat and endothermic if it absorbs energy instead.",
+      "sections": [
+        {
+          "heading": "Combination reactions and exothermic heat",
+          "body": "When calcium oxide (quicklime) reacts vigorously with water to form calcium hydroxide (slaked lime), releasing a large amount of heat — CaO(s) + H2O(l) → Ca(OH)2(aq) + Heat — two reactants combine into exactly one product. Any reaction in which a single product forms from two or more reactants is a combination reaction, and this pattern covers plenty of everyday examples: carbon burning to CO2, hydrogen and oxygen combining to water, and natural gas (methane) burning to CO2 and water. Because this particular reaction releases heat along with its product, it's also exothermic — a reaction in which heat is given out is called an exothermic reaction, and the same label applies to burning natural gas, to the vegetable matter that slowly decomposes into compost, and even to respiration, where glucose combining with oxygen in the body's cells (C6H12O6(aq) + 6O2(aq) → 6CO2(aq) + 6H2O(l) + energy) is what actually releases the energy a body runs on. (NCERT 1.2.1)",
+          "key_point": "A combination reaction forms a single product from two or more reactants (like CaO + H2O → Ca(OH)2); when a reaction releases heat along with its products — as this one, combustion, and even respiration all do — it's called exothermic."
+        },
+        {
+          "heading": "Decomposition reactions and endothermic energy",
+          "body": "Decomposition runs combination in reverse: a single reactant breaks down into two or more simpler products. Heating ferrous sulphate crystals turns their green colour to a reddish solid (ferric oxide) while releasing the smell of burning sulphur, as the compound breaks apart into ferric oxide, sulphur dioxide and sulphur trioxide — a decomposition reaction driven by heat, which is specifically called thermal decomposition, and the same label applies to heating limestone (calcium carbonate) into quicklime and carbon dioxide, an industrially important reaction used in cement manufacture: CaCO3(s) →(Heat) CaO(s) + CO2(g). Not every decomposition reaction needs heat, though — passing an electric current through water splits it into hydrogen and oxygen gas (electrolytic decomposition, with exactly twice as much hydrogen collected as oxygen), and leaving silver chloride or silver bromide in sunlight decomposes them into silver metal and the respective halogen gas (photolytic decomposition, the same light-driven reaction black-and-white photography is built on). Since decomposition always needs an input of energy — as heat, light, or electricity — to break the reactant apart, every decomposition reaction is endothermic: a reaction in which energy is absorbed rather than released. (NCERT 1.2.2)",
+          "key_point": "Decomposition reactions break a single reactant into two or more products, always by absorbing energy (making them endothermic) — as heat in thermal decomposition (CaCO3 → CaO + CO2), as electricity in electrolysis of water, or as light in the photolytic decomposition that black-and-white photography relies on."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "displacement-and-double-displacement",
+      "number": 4,
+      "title": "Displacement and Double Displacement Reactions",
+      "summary": "In a displacement reaction a single, more reactive element shoulders another element out of its compound, while in a double displacement reaction two compounds trade partner ions with each other entirely — often producing an insoluble precipitate in the process.",
+      "sections": [
+        {
+          "heading": "Displacement reactions",
+          "body": "Dipping iron nails into copper sulphate solution for about twenty minutes coats the nails with reddish copper while the solution's blue colour visibly fades — Fe(s) + CuSO4(aq) → FeSO4(aq) + Cu(s). Iron has displaced, or removed, copper from copper sulphate: a reaction where one element takes the place of another element already combined in a compound is a displacement reaction. The same pattern shows up with zinc displacing copper from copper sulphate (Zn + CuSO4 → ZnSO4 + Cu) and lead displacing copper from copper chloride (Pb + CuCl2 → PbCl2 + Cu) — in both cases, because zinc and lead are more reactive elements than copper, they're able to displace it from its compounds. (NCERT 1.2.3)",
+          "key_point": "A displacement reaction happens when a more reactive element takes the place of a less reactive one already combined in a compound — iron, zinc and lead can all displace copper from its salts (e.g. Fe + CuSO4 → FeSO4 + Cu) precisely because each is more reactive than copper."
+        },
+        {
+          "heading": "Double displacement and precipitation reactions",
+          "body": "Mixing sodium sulphate solution with barium chloride solution produces a white, water-insoluble substance — Na2SO4(aq) + BaCl2(aq) → BaSO4(s) + 2NaCl(aq) — formed when the SO4²⁻ and Ba²⁺ ions pair up, while the sodium and chloride ions left over stay dissolved as sodium chloride. This insoluble solid is called a precipitate, and any reaction that produces one can be called a precipitation reaction. What's actually happening here is that the two compounds have swapped partners entirely — sodium left sulphate for chloride, and barium left chloride for sulphate — and reactions with this kind of full ion exchange between the reactants are called double displacement reactions, distinct from an ordinary (single) displacement reaction where only one element moves. (NCERT 1.2.4)",
+          "key_point": "A double displacement reaction exchanges ions between two compounds entirely, rather than moving just one element — Na2SO4 + BaCl2 → BaSO4 + 2NaCl is a precipitation reaction specifically because one of the swapped-ion products, BaSO4, happens to be insoluble in water."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "oxidation-and-reduction-class-10",
+      "number": 5,
+      "title": "Oxidation and Reduction",
+      "summary": "At this stage, oxidation and reduction are defined purely by the gain or loss of oxygen or hydrogen — a substance is oxidised if it gains oxygen or loses hydrogen, and reduced if it loses oxygen or gains hydrogen — and since both always happen together in the same reaction, the pair is called a redox reaction.",
+      "sections": [
+        {
+          "heading": "Gaining and losing oxygen",
+          "body": "Heating copper powder in a china dish coats its surface with a black layer of copper(II) oxide — 2Cu + O2 →(Heat) 2CuO — because oxygen has been added to copper. If hydrogen gas is then passed over this heated black coating, the reverse happens: the black colour turns back to brown copper metal as oxygen is removed — CuO + H2 →(Heat) Cu + H2O. A substance that gains oxygen during a reaction is said to be oxidised; a substance that loses oxygen is said to be reduced. In this second reaction, copper(II) oxide loses oxygen (reduced) exactly as hydrogen gains it (oxidised) — one reactant is always oxidised while the other is reduced in the very same reaction, which is why this entire class of reactions is called oxidation-reduction, or redox, reactions. (NCERT 1.2.5)",
+          "key_point": "A substance is oxidised if it gains oxygen and reduced if it loses oxygen — in CuO + H2 → Cu + H2O, copper(II) oxide is reduced (loses oxygen) while hydrogen is oxidised (gains it), and because the two always happen together in one reaction, the pair is called a redox reaction."
+        },
+        {
+          "heading": "Gaining and losing hydrogen",
+          "body": "The same oxidation/reduction pattern extends to hydrogen, not just oxygen: a substance that loses hydrogen during a reaction is also considered oxidised, and one that gains hydrogen is also considered reduced. In ZnO + C → Zn + CO, zinc oxide is reduced to zinc while carbon is oxidised to carbon monoxide; in MnO2 + 4HCl → MnCl2 + 2H2O + Cl2, manganese dioxide is reduced to manganese chloride while hydrochloric acid is oxidised to chlorine gas, since HCl has lost hydrogen in the process. Put together, a substance is oxidised in a reaction if it gains oxygen or loses hydrogen, and reduced if it loses oxygen or gains hydrogen — a definition broad enough to classify both of these quite different-looking reactions as redox reactions by the same rule. (NCERT 1.2.5)",
+          "key_point": "Oxidation and reduction also apply to hydrogen, not just oxygen — gaining oxygen or losing hydrogen counts as oxidation, losing oxygen or gaining hydrogen counts as reduction — which is what makes both ZnO + C → Zn + CO and MnO2 + 4HCl → MnCl2 + 2H2O + Cl2 redox reactions by the same single rule."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "effects-of-oxidation-in-everyday-life",
+      "number": 6,
+      "title": "Effects of Oxidation in Everyday Life",
+      "summary": "Two everyday consequences of oxidation are corrosion, where a metal's surface is slowly attacked and worn away by substances around it, and rancidity, where oxidation turns fats and oils in food stale-tasting and foul-smelling.",
+      "sections": [
+        {
+          "heading": "Corrosion",
+          "body": "Iron articles left exposed to humid air slowly develop a reddish-brown coating known as rust — this is a specific case of a much broader process called corrosion, where a metal is attacked by substances around it, such as moisture or acids, and its surface is slowly eaten away. Other metals corrode too, just with different-looking results: silver develops a black coating, and copper develops a green coating. Corrosion is a serious, costly problem — it damages car bodies, bridges, iron railings and ships, and an enormous amount of money is spent every year just replacing iron that corrosion has damaged. (NCERT 1.3.1)",
+          "key_point": "Corrosion is a metal's surface being attacked and worn away by substances in its environment — rusting (iron's reddish-brown coating) is the most familiar case, but silver tarnishing black and copper developing a green coating are corrosion too, and the damage it causes is costly enough to matter industrially."
+        },
+        {
+          "heading": "Rancidity",
+          "body": "Fat- or oil-containing food left out for a long time develops an unpleasant smell and taste that's very different from how it started — this is rancidity, caused by the oxidation of the fats and oils in the food. It's prevented in practice in two main ways: adding substances called antioxidants that specifically prevent oxidation, and simply keeping oxygen away from the food in the first place, which is why food is often kept in air-tight containers, and why chip manufacturers commonly flush their bags with nitrogen gas before sealing them — nitrogen displaces the oxygen that would otherwise react with the oil in the chips over time. (NCERT 1.3.2)",
+          "key_point": "Rancidity is oxidation of the fats and oils in food, turning its smell and taste unpleasant over time — preventing it means either blocking the oxidation itself (adding antioxidants) or keeping oxygen away from the food entirely (air-tight containers, or flushing chip bags with nitrogen gas)."
+        }
+      ],
+      "estimated_minutes": 15
+    }
+  ],
+  "published": true
 }

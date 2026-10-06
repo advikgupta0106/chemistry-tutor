@@ -1,12 +1,166 @@
 {
   "id": "carbon-and-its-compounds",
   "title": "Carbon and its Compounds",
+  "unit_number": 4,
   "icon": "hexagon",
   "tint": "green",
   "class": [
     "10"
   ],
   "exams": [],
-  "chapters": [],
-  "published": false
+  "chapters": [
+    {
+      "id": "covalent-bonding-in-carbon",
+      "number": 1,
+      "title": "Covalent Bonding in Carbon",
+      "summary": "Carbon has four electrons in its outermost shell, too many to lose and too few to gain comfortably, so it reaches a stable configuration by sharing electron pairs with other atoms instead — forming covalent bonds, which is why carbon compounds are generally poor electrical conductors with low melting and boiling points.",
+      "sections": [
+        {
+          "heading": "Why carbon shares electrons instead of transferring them",
+          "body": "Carbon compounds like acetic acid, chloroform and methane have much lower melting and boiling points than ionic compounds, and are largely non-conductors of electricity — both signs that no ions are involved in their bonding. Carbon's atomic number is 6, giving it four electrons in its outermost shell; to reach a stable, noble-gas-like configuration, it would need to either lose all four (forming a C⁴⁺ cation, which would take a huge amount of energy) or gain four more (forming a C⁴⁻ anion, which its own nucleus couldn't easily hold onto). Both options are too costly, so carbon takes a third path: sharing its valence electrons with other atoms. The simplest example is hydrogen itself — two hydrogen atoms, each with one electron in an incomplete K shell, share that pair of electrons so both atoms effectively have a full shell, forming the H2 molecule. A shared pair of electrons constitutes a single covalent bond, commonly drawn as a line between the two atoms. (NCERT 4.1)",
+          "key_point": "Carbon has four valence electrons — too many to lose, too few to gain cheaply — so instead of forming ions the way metals and non-metals do, it reaches a stable configuration by sharing electron pairs with other atoms, forming covalent bonds (the same strategy hydrogen uses to form H2)."
+        },
+        {
+          "heading": "Single, double and triple bonds — and methane",
+          "body": "How many electron pairs two atoms share depends on how many more electrons each needs to complete its octet. Oxygen, with six outer electrons, needs two more; two oxygen atoms sharing two electrons each gives two shared pairs — a double bond. Nitrogen, with five outer electrons, needs three more; two nitrogen atoms sharing three electrons each gives a triple bond. Methane, CH4 — the simplest compound formed by carbon, and a major component of biogas and CNG — shows the same sharing principle in a carbon compound: carbon, with four valence electrons, shares one electron each with four separate hydrogen atoms, forming four single covalent bonds and satisfying every atom's shell at once. Because covalently bonded molecules have strong bonds holding each molecule together but only weak forces between separate molecules, and because no ions are formed, covalent compounds generally have low melting and boiling points and are poor conductors of electricity. (NCERT 4.1)",
+          "molecule_ids": [
+            "methane"
+          ],
+          "key_point": "How many electron pairs two atoms share (a single, double, or triple bond) depends on how many more electrons each needs to complete its octet — methane, CH4, is carbon forming four single bonds at once, one to each of four hydrogen atoms, which is why it (like covalent compounds generally) has a low melting point and doesn't conduct electricity."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "catenation-and-saturation",
+      "number": 2,
+      "title": "Catenation and Saturated/Unsaturated Compounds",
+      "summary": "Carbon forms more known compounds than every other element put together, mainly because of two properties working together — catenation, its unmatched ability to bond with other carbon atoms, and its fixed valency of four — and those carbon-carbon bonds can be single (saturated compounds) or double/triple (unsaturated compounds).",
+      "sections": [
+        {
+          "heading": "Catenation: carbon's unique ability to bond with itself",
+          "body": "The number of known carbon compounds runs into the millions — far outnumbering the compounds formed by every other element combined. Two properties of carbon, working together, explain why. First, carbon has a unique ability to form bonds with other carbon atoms, building long chains, branched chains, or rings — a property called catenation. No other element exhibits catenation anywhere near this extent: silicon can form hydrogen compounds with chains up to only seven or eight atoms long, and even those are highly reactive, while the carbon-carbon bond is strong and stable enough to support chains of essentially any length. Second, because carbon's valency is four, each carbon atom can bond not just with other carbon atoms but also with atoms of other elements — oxygen, hydrogen, nitrogen, sulphur, chlorine among them — giving rise to compounds with widely varying properties depending on what else is in the molecule. Carbon's small atomic size is part of why these bonds are so strong in the first place: its nucleus holds on to shared electron pairs tightly, more tightly than bigger atoms can manage. (It was once thought these carbon compounds — now called organic compounds — could only be made within a living system, until Friedrich Wöhler disproved that in 1828 by synthesising urea from ammonium cyanate in the laboratory.) (NCERT 4.2)",
+          "key_point": "Carbon's two defining properties — catenation (an unmatched ability to bond with other carbon atoms into chains, branches or rings) and a fixed valency of four (letting it also bond with many other elements) — together explain why carbon compounds vastly outnumber every other element's compounds combined."
+        },
+        {
+          "heading": "Saturated and unsaturated compounds",
+          "body": "Carbon-carbon bonds within a chain can be single, double, or triple, and this distinction has a name: compounds whose carbon atoms are linked only by single bonds are called saturated compounds, while compounds with at least one double or triple bond between carbon atoms are called unsaturated compounds. Ethane, C2H6, is saturated — two carbons joined by a single bond, with every other valency on each carbon satisfied by hydrogen. Ethene, C2H4, needs a double bond between its two carbons instead, since a single bond alone would leave one valency per carbon unsatisfied — making it unsaturated. Ethyne, C2H2, needs a triple bond between its carbons to satisfy every valency, making it unsaturated too. Saturated compounds are normally not very reactive, while unsaturated compounds — with that extra double or triple bond available to react across — are generally more reactive. (NCERT 4.2.1)",
+          "molecule_ids": [
+            "ethyne"
+          ],
+          "key_point": "A saturated compound (like ethane) links its carbon atoms only by single bonds and is generally unreactive; an unsaturated compound (like ethene or ethyne) has at least one carbon-carbon double or triple bond instead, and that extra bond is exactly what makes unsaturated compounds more reactive."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "chains-branches-rings-and-isomers",
+      "number": 3,
+      "title": "Chains, Branches, Rings and Isomers",
+      "summary": "Carbon chains can run straight, branch, or close into a ring, and the same molecular formula can sometimes correspond to more than one genuinely different structure — compounds like that are called structural isomers — with hydrocarbons further split into saturated alkanes and unsaturated alkenes or alkynes depending on their bonding.",
+      "sections": [
+        {
+          "heading": "Straight chains and the first few alkanes",
+          "body": "Carbon chains can extend well beyond the two or three carbons of ethane and propane — methane (1 carbon), ethane (2), propane (3), butane (4), pentane (5) and hexane (6) form a simple progressive series, each one carbon longer than the last, with every carbon valency not used for the chain itself filled in by hydrogen. All of these compounds contain only carbon and hydrogen, which makes them hydrocarbons specifically; because every bond in each of them is a single bond, they're also all alkanes — the name for saturated hydrocarbons generally. (NCERT 4.2.2)",
+          "key_point": "Methane through hexane form a simple one-carbon-at-a-time progression of alkanes (saturated hydrocarbons) — compounds containing only carbon and hydrogen, bonded entirely by single bonds, with every remaining carbon valency filled by hydrogen."
+        },
+        {
+          "heading": "Branching and structural isomers",
+          "body": "Butane's four carbons, C4H10, can actually be arranged in two genuinely different ways: a straight chain (C—C—C—C), or a chain with one carbon branching off a three-carbon backbone. Filling in hydrogens to satisfy every valency gives two distinct molecules that nonetheless share the exact same molecular formula, C4H10 — compounds like this, with an identical formula but a different structure, are called structural isomers. Carbon chains don't have to stay straight or even branched, either — some close into a ring instead, as cyclohexane (C6H12) does, and such ring, branched and straight-chain compounds can each be either saturated or unsaturated. Benzene, C6H6, is a ring compound built from six carbons joined by alternating single and double bonds. (NCERT 4.2.2)",
+          "molecule_ids": [
+            "benzene"
+          ],
+          "key_point": "Structural isomers are compounds that share an identical molecular formula but have a genuinely different structure — butane's two possible four-carbon skeletons (straight versus branched), both C4H10, are the simplest example — and carbon chains can also close into rings, as both cyclohexane and benzene do."
+        },
+        {
+          "heading": "Alkanes, alkenes and alkynes",
+          "body": "Hydrocarbons — compounds containing only carbon and hydrogen — split into three families based on their carbon-carbon bonding. Saturated hydrocarbons (single bonds only) are alkanes. Unsaturated hydrocarbons containing one or more double bonds are alkenes. Unsaturated hydrocarbons containing one or more triple bonds are alkynes. This three-way split is what the earlier saturated/unsaturated distinction looks like once it's applied specifically to hydrocarbon chains, and it carries straight through into how these compounds are later named. (NCERT 4.2.2)",
+          "key_point": "Hydrocarbons split into three families by their carbon-carbon bonding alone: alkanes (all single bonds), alkenes (at least one double bond), and alkynes (at least one triple bond) — the same saturated/unsaturated distinction, just named per bond type."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "functional-groups-homologous-series-and-nomenclature",
+      "number": 4,
+      "title": "Functional Groups, Homologous Series and Nomenclature",
+      "summary": "A heteroatom or group of atoms replacing a hydrogen on a carbon chain is called a functional group, and it's this group — not the chain's length — that fixes a compound's chemical properties, giving rise to homologous series of compounds and a systematic, predictable way of naming them.",
+      "sections": [
+        {
+          "heading": "Functional groups",
+          "body": "Carbon doesn't only bond with hydrogen — one or more hydrogens on a carbon chain can be replaced by other elements (halogens, oxygen, nitrogen, sulphur among them) as long as carbon's own valency stays satisfied. An element replacing hydrogen this way is called a heteroatom, and these heteroatoms often appear as part of a specific group of atoms: —Cl or —Br for a haloalkane, —OH for an alcohol, plus distinct groups for aldehydes, ketones and carboxylic acids. Whichever heteroatom-containing group is actually attached, it's called a functional group, because it confers its own specific chemical properties onto the compound regardless of how long or short the rest of the carbon chain is. (NCERT 4.2.3)",
+          "key_point": "A functional group is a heteroatom or group of atoms (like —OH for alcohols, or —Cl for haloalkanes) that replaces one or more hydrogens on a carbon chain and fixes the compound's chemical properties, independent of how long the underlying carbon chain actually is."
+        },
+        {
+          "heading": "Homologous series",
+          "body": "Methanol, ethanol, propanol and butanol all share the same —OH functional group, and all behave very similarly in chemical reactions, despite having different chain lengths — this is exactly what a homologous series is: a series of compounds in which the same functional group replaces hydrogen along carbon chains of increasing length. Consecutive members of a homologous series differ from each other by a fixed –CH2– unit, and so by a fixed difference in molecular mass too — CH4 and C2H6 differ by one –CH2– unit, as do C2H6 and C3H8. The general formula for an entire family follows from this pattern directly: alkenes, for instance, all fit CnH2n. As molecular mass increases up a homologous series, melting point, boiling point and solubility all shift gradually together — but the chemical properties, set by the functional group alone, stay essentially the same all the way up. (NCERT 4.2.4)",
+          "key_point": "A homologous series is a family of compounds sharing one functional group across carbon chains of increasing length, each successive member differing by a fixed –CH2– unit — physical properties like melting point shift gradually up the series, but the chemical properties stay essentially constant, since those are set by the functional group alone."
+        },
+        {
+          "heading": "Naming carbon compounds",
+          "body": "A carbon compound's name is built from the length of its carbon chain, modified by a prefix or suffix that signals its functional group. First, the number of carbon atoms fixes the base name — three carbons gives propane. Then, if a functional group is present, it's added as a prefix (haloalkanes: chloro-, bromo-) or a suffix (alcohols: -ol; aldehydes: -al; ketones: -one; carboxylic acids: -oic acid) — and when the suffix starts with a vowel, the chain name's final 'e' is dropped first, so propane plus a ketone group becomes propan + one = propanone. An unsaturated chain swaps its usual '-ane' ending for '-ene' (one or more double bonds) or '-yne' (one or more triple bonds) instead — propene for a three-carbon chain with a double bond, propyne for one with a triple bond. (NCERT 4.2.5)",
+          "key_point": "Naming a carbon compound starts from its chain-length base name (propane for three carbons), then layers on a prefix or suffix for its functional group (chloro- for a haloalkane, -ol for an alcohol, -one for a ketone) — and an unsaturated chain swaps its '-ane' ending for '-ene' (double bond) or '-yne' (triple bond) instead."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "chemical-properties-of-carbon-compounds",
+      "number": 5,
+      "title": "Chemical Properties of Carbon Compounds",
+      "summary": "Carbon compounds burn to release heat and light (combustion), can have oxygen added to them by an oxidising agent (oxidation), can take up hydrogen across a double or triple bond (addition), and can have one of their atoms swapped out for another under sunlight (substitution).",
+      "sections": [
+        {
+          "heading": "Combustion and oxidation",
+          "body": "Carbon, in every one of its allotropic forms, burns in oxygen to give carbon dioxide along with heat and light — and most carbon compounds burn the same way: CH4 + 2O2 → CO2 + 2H2O + heat and light. Saturated hydrocarbons generally burn with a clean flame, while unsaturated ones burn with a yellow, sooty flame, depositing visible soot on a surface held above it; limiting the air supply makes even a saturated hydrocarbon burn with a sooty flame too, which is exactly why a gas stove needs its air holes kept clear — a blackened cooking vessel is a sign the air holes are blocked and fuel is being wasted. Separately from combustion, a substance capable of adding oxygen to another compound is called an oxidising agent — warming ethanol gently with alkaline potassium permanganate converts it into a carboxylic acid, with the permanganate acting as the oxidising agent by supplying that oxygen. (NCERT 4.3.1, 4.3.2)",
+          "key_point": "Carbon and its compounds burn in oxygen to release heat and light (CH4 + 2O2 → CO2 + 2H2O), cleanly if saturated and with a sooty yellow flame if unsaturated or air-starved — and separately, an oxidising agent like alkaline potassium permanganate can add oxygen to a carbon compound directly, as when it converts ethanol into a carboxylic acid."
+        },
+        {
+          "heading": "Addition and substitution reactions",
+          "body": "Unsaturated hydrocarbons can add hydrogen across their double or triple bond, in the presence of a catalyst like palladium or nickel, to become saturated — this addition reaction is the basis of hydrogenating vegetable oils (which have long unsaturated carbon chains) into solid fats using a nickel catalyst, which is why vegetable oils with more unsaturated fatty acids are generally considered the healthier cooking choice compared to saturated animal fats. Saturated hydrocarbons, by contrast, are fairly unreactive on their own, but in the presence of sunlight they undergo a substitution reaction instead, where chlorine replaces their hydrogen atoms one by one: CH4 + Cl2 → CH3Cl + HCl. It's called substitution because one type of atom (or group of atoms) simply takes the place of another, rather than anything being added across a bond. (NCERT 4.3.3, 4.3.4)",
+          "key_point": "An addition reaction adds hydrogen across an unsaturated compound's double or triple bond (with a catalyst like nickel), turning it saturated — the basis of hydrogenating vegetable oils — while a substitution reaction, needing sunlight, replaces a saturated hydrocarbon's hydrogen atoms one by one with another atom entirely, as chlorine does to methane."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "ethanol-and-ethanoic-acid",
+      "number": 6,
+      "title": "Ethanol and Ethanoic Acid",
+      "summary": "Ethanol (the alcohol in drinks and tinctures) and ethanoic acid (the acid in vinegar) are two commercially important carbon compounds, each with its own characteristic reactions — ethanol reacts with sodium and dehydrates to ethene, while ethanoic acid neutralises bases, reacts with carbonates, and forms sweet-smelling esters with alcohols.",
+      "sections": [
+        {
+          "heading": "Properties and reactions of ethanol",
+          "body": "Ethanol is a liquid at room temperature, fully soluble in water, and commonly called alcohol — it's the active ingredient in alcoholic drinks and, as a good solvent, also used in medicines like tincture iodine and cough syrups. Even a small quantity of pure ethanol (absolute alcohol) can be lethal, and long-term consumption of diluted ethanol causes serious health problems. Reacting ethanol with sodium metal releases hydrogen gas and forms sodium ethoxide: 2Na + 2CH3CH2OH → 2CH3CH2O⁻Na⁺ + H2 — the same hydrogen-releasing pattern metals show with acids and water. Heating ethanol with excess concentrated sulphuric acid at 443 K dehydrates it into ethene, with the acid acting as a dehydrating agent that removes water from the alcohol: CH3CH2OH →(Hot conc. H2SO4) CH2=CH2 + H2O. (NCERT 4.4.1)",
+          "key_point": "Ethanol reacts with sodium to release hydrogen gas (2Na + 2CH3CH2OH → 2CH3CH2O⁻Na⁺ + H2, the same pattern metals show with acids), and dehydrates to ethene when heated with excess concentrated sulphuric acid, which acts here purely as a dehydrating agent rather than reacting itself."
+        },
+        {
+          "heading": "Properties and reactions of ethanoic acid",
+          "body": "Ethanoic acid (commonly called acetic acid) belongs to the carboxylic acid family; a 5–8% solution of it in water is vinegar, used widely as a food preservative, and its melting point (290 K) is close enough to room temperature that pure ethanoic acid often freezes in cold winters, earning it the name glacial acetic acid. Unlike mineral acids like HCl, which ionise completely, carboxylic acids are weak acids. Reacting with a base gives a salt and water, the same pattern every acid follows: NaOH + CH3COOH → CH3COONa + H2O. Reacting with carbonates or hydrogencarbonates releases carbon dioxide, again the same general pattern as any acid: 2CH3COOH + Na2CO3 → 2CH3COONa + H2O + CO2. Reacted with an alcohol in the presence of an acid catalyst, ethanoic acid undergoes esterification, forming a sweet-smelling ester used in perfumes and as a flavouring agent — treating that ester back with sodium hydroxide reverses the reaction, converting it back to alcohol and the sodium salt of the acid, a process called saponification because it's the same reaction soap-making relies on. (NCERT 4.4.2)",
+          "key_point": "Ethanoic acid behaves as a weak carboxylic acid — neutralising bases and reacting with carbonates to release CO2, both the same way any acid does — and its signature reaction is esterification with an alcohol (forming a sweet-smelling ester), which can be reversed back into alcohol and a sodium salt through saponification, the reaction soap-making is built on."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "soaps-and-detergents",
+      "number": 7,
+      "title": "Soaps and Detergents",
+      "summary": "Soap cleans oily dirt by forming micelles — clusters of molecules with a water-loving ionic end facing out and an oil-loving hydrocarbon tail facing in — a trick that fails in hard water, which is exactly the gap detergents are built to close.",
+      "sections": [
+        {
+          "heading": "How soap cleans: micelle formation",
+          "body": "Shaking oil and water together with a little soap added separates the oil out of the water far faster than shaking oil and water alone, because soap molecules — sodium or potassium salts of long-chain carboxylic acids — have two ends with very different properties: an ionic end that interacts with water, and a long hydrocarbon tail that interacts with oil instead. In water, soap molecules cluster into structures called micelles, with their hydrocarbon tails pointing inward, toward a trapped droplet of oily dirt, and their ionic ends facing outward, into the surrounding water. This arrangement forms an emulsion, letting the soap micelle actually pull the oily dirt into the water and get washed away with it — which is exactly the cleaning action of soap. (NCERT 4.5)",
+          "key_point": "Soap cleans by forming micelles — clusters of soap molecules with their oil-loving hydrocarbon tails pointing inward around a trapped droplet of dirt, and their water-loving ionic ends facing outward — which is what lets soap pull oily dirt into water and rinse it away."
+        },
+        {
+          "heading": "Hard water and detergents",
+          "body": "Soap reacts with the calcium and magnesium salts that make water 'hard', forming an insoluble curdy precipitate (scum) instead of a useful lather — which means more soap has to be used just to get any cleaning effect at all in hard water. Detergents, generally sodium salts of sulphonic acids or ammonium salts with chloride or bromide ions, solve this problem: their charged ends don't form insoluble precipitates with calcium and magnesium ions the way soap's do, so they stay fully effective even in hard water, which is why they're commonly used in shampoos and laundry products specifically. (NCERT 4.5)",
+          "key_point": "Soap forms an insoluble curdy scum with the calcium and magnesium ions in hard water, wasting soap without cleaning effectively — detergents avoid this because their charged ends don't precipitate with those same ions, which is why they stay effective in hard water where soap doesn't."
+        }
+      ],
+      "estimated_minutes": 15
+    }
+  ],
+  "published": true
 }

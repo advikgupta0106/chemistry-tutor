@@ -1,12 +1,147 @@
 {
   "id": "metals-and-non-metals",
   "title": "Metals and Non-metals",
+  "unit_number": 3,
   "icon": "table",
   "tint": "purple",
   "class": [
     "10"
   ],
   "exams": [],
-  "chapters": [],
-  "published": false
+  "chapters": [
+    {
+      "id": "physical-properties-of-metals-and-non-metals",
+      "number": 1,
+      "title": "Physical Properties of Metals and Non-metals",
+      "summary": "Metals are typically lustrous, malleable, ductile, hard, sonorous, and good conductors of heat and electricity, while non-metals typically lack these properties — though each rule has genuine exceptions, which is exactly why chemical behaviour, not just physical appearance, is needed to classify elements reliably.",
+      "sections": [
+        {
+          "heading": "Metallic lustre, malleability and ductility",
+          "body": "Cleaning the surface of iron, copper, aluminium or magnesium with sandpaper reveals a shining surface underneath — this shine, called metallic lustre, is a property of metals in their pure state. Metals can also be beaten into thin sheets, a property called malleability (gold and silver are the most malleable metals known), and drawn out into thin wires, a property called ductility (gold is so ductile that one gram of it can be drawn into a wire roughly 2 km long). It's exactly because of malleability and ductility together that metals can be shaped into whatever form a particular use calls for. (NCERT 3.1.1)",
+          "key_point": "Metallic lustre (a shining surface once cleaned), malleability (can be beaten into sheets) and ductility (can be drawn into wires) are classic metal properties — gold is the standout example of both of the latter two, being both the most malleable and most ductile metal known."
+        },
+        {
+          "heading": "Conductivity, hardness, sonority — and the exceptions",
+          "body": "Heating a clamped aluminium or copper wire shows metals are good conductors of heat (silver and copper conduct best; lead and mercury comparatively poorly), and a simple circuit test shows most metals conduct electricity too. Striking metals with a hammer shows they're generally hard, though hardness varies considerably between metals, and metals that produce a ringing sound when struck are called sonorous (which is why school bells are made of metal). Non-metals — carbon, sulphur, iodine, oxygen, hydrogen among them — are either solid or gas at room temperature, except for bromine, which is a liquid, and generally lack all of these metallic properties. But the physical-property rule has real exceptions on both sides: mercury is a liquid metal at room temperature, while gallium and caesium have such low melting points they'd melt in your palm; alkali metals like sodium and potassium are soft enough to cut with a knife; iodine, a non-metal, is lustrous; and carbon exists in different forms (allotropes) with very different properties from each other — diamond is the hardest known natural substance, while graphite conducts electricity, something most non-metals don't. Because physical properties alone have so many exceptions, elements are more reliably classified as metals or non-metals by their chemical properties instead. (NCERT 3.1.1, 3.1.2)",
+          "key_point": "Metals are generally hard, sonorous, and good conductors of heat and electricity, but genuine exceptions on both sides — mercury (liquid metal), sodium (soft metal), iodine (lustrous non-metal), graphite (conducting non-metal) — are exactly why chemical properties, not physical ones, are the more reliable way to classify an element."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "reactions-of-metals-with-oxygen-and-water",
+      "number": 2,
+      "title": "Reactions of Metals with Oxygen and Water",
+      "summary": "Metals react with oxygen to form metal oxides — mostly basic, though a few are amphoteric — and react with water, where they react at all, to form a metal hydroxide and hydrogen gas, with both reactions happening at very different rates depending on which metal is involved.",
+      "sections": [
+        {
+          "heading": "Burning metals in air",
+          "body": "Almost all metals combine with oxygen to form a metal oxide: Metal + Oxygen → Metal oxide, as when copper forms black copper(II) oxide (2Cu + O2 → 2CuO) or aluminium forms aluminium oxide (4Al + 3O2 → 2Al2O3). Most metal oxides are basic, but a few — aluminium oxide and zinc oxide among them — are amphoteric oxides, reacting with both acids and bases to produce a salt and water: Al2O3 + 6HCl → 2AlCl3 + 3H2O, and Al2O3 + 2NaOH → 2NaAlO2 + H2O. Different metals react with oxygen at very different rates: sodium and potassium react so vigorously they're stored under kerosene oil to prevent accidental fires, magnesium/aluminium/zinc/lead develop only a thin, self-limiting protective oxide layer at ordinary temperature, iron doesn't burn but iron filings do when sprinkled into a flame, and silver and gold don't react with oxygen even at high temperatures. (NCERT 3.2.1)",
+          "key_point": "Metals combine with oxygen to form metal oxides (Metal + Oxygen → Metal oxide), almost all basic except for a handful of amphoteric exceptions like Al2O3 and ZnO — and how vigorously (or whether at all) a given metal reacts with oxygen varies enormously, from sodium catching fire in open air to gold not reacting even when hot."
+        },
+        {
+          "heading": "Reacting metals with water",
+          "body": "A metal reacting with water forms a metal oxide and hydrogen gas, and if that oxide is itself water-soluble, it dissolves further into a metal hydroxide: Metal + Water → Metal oxide + Hydrogen, then Metal oxide + Water → Metal hydroxide. Potassium and sodium react so violently and exothermically with cold water that the hydrogen released catches fire immediately (2K(s) + 2H2O(l) → 2KOH(aq) + H2(g) + heat); calcium reacts more gently, not releasing enough heat to ignite the hydrogen, and visibly floats as bubbles of the gas cling to its surface (Ca(s) + 2H2O(l) → Ca(OH)2(aq) + H2(g)); magnesium doesn't react with cold water but does with hot water, also floating the same way. Aluminium, iron and zinc react with neither cold nor hot water, but do react with steam to form the metal oxide and hydrogen (2Al(s) + 3H2O(g) → Al2O3(s) + 3H2(g)); lead, copper, silver and gold don't react with water at all. (NCERT 3.2.2)",
+          "key_point": "Not every metal reacts with water, and those that do span a wide range of vigour — potassium/sodium react violently enough with cold water to ignite the hydrogen released, calcium and magnesium react more gently (visibly floating on the hydrogen bubbles produced), aluminium/iron/zinc need steam, and lead/copper/silver/gold don't react with water at all."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "reactions-of-metals-with-acids-and-salt-solutions",
+      "number": 3,
+      "title": "Reactions of Metals with Acids and Salt Solutions",
+      "summary": "Metals react with dilute acids to release hydrogen gas and form a salt — though at very different rates, and nitric acid is a notable exception — and a metal can also displace a less reactive metal straight out of that metal's own salt solution.",
+      "sections": [
+        {
+          "heading": "Reacting metals with dilute acids",
+          "body": "A metal reacting with a dilute acid gives a salt and hydrogen gas: Metal + Dilute acid → Salt + Hydrogen. Testing several metals against dilute hydrochloric acid and tracking both the rate of bubble formation and the temperature change shows the reaction is fastest and most exothermic with magnesium, decreasing through aluminium, zinc and iron, and producing nothing at all with copper, which doesn't react with dilute HCl. Nitric acid is a notable exception to the general pattern — it doesn't release hydrogen gas with most metals, because HNO3 is a strong oxidising agent that oxidises the hydrogen produced straight to water while itself getting reduced to one of several nitrogen oxides, though magnesium and manganese are exceptions that do evolve H2 gas with very dilute nitric acid. (NCERT 3.2.3)",
+          "key_point": "Reacting a metal with dilute acid releases hydrogen gas and forms a salt (Metal + Dilute acid → Salt + Hydrogen) at a rate that tracks each metal's reactivity (Mg > Al > Zn > Fe, with copper not reacting at all) — except with nitric acid, which almost always oxidises the hydrogen away instead of releasing it as gas."
+        },
+        {
+          "heading": "Displacing metals from salt solutions",
+          "body": "Placing a copper wire in iron sulphate solution shows no reaction, but placing an iron nail in copper sulphate solution does — the nail gradually gains a coating of copper. A more reactive metal can displace a less reactive one straight out of its compound in solution or molten form: Metal A + Salt solution of B → Salt solution of A + Metal B, and if metal A displaces metal B this way, A is simply more reactive than B. (NCERT 3.2.4)",
+          "key_point": "A displacement reaction between a metal and another metal's salt solution — Metal A + Salt solution of B → Salt solution of A + Metal B — only runs in the direction from the more reactive metal to the less reactive one, which is exactly what makes it a direct, practical test of relative reactivity."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "the-reactivity-series",
+      "number": 4,
+      "title": "The Reactivity Series",
+      "summary": "Combining every displacement result from reactions with oxygen, water, acids and other metals' salts builds a single reactivity series — a ranked list of metals from most to least reactive that explains and predicts how each one behaves.",
+      "sections": [
+        {
+          "heading": "Building and reading the reactivity series",
+          "body": "No single reagent — not oxygen, not water, not dilute acid — is enough on its own to rank every metal's reactivity, since many metals don't react with one or more of them at all. Combining the results of every displacement experiment across all of these reagents instead builds the reactivity series (or activity series): a list of common metals arranged in decreasing order of reactivity, running from potassium (most reactive) through sodium, calcium, magnesium, aluminium, zinc, iron, lead, hydrogen, copper, mercury, silver, to gold (least reactive). This single ordering is what makes sense of every reaction pattern covered so far at a glance — why potassium and sodium are kept under kerosene, why magnesium reacts faster than iron with dilute acid, and why only metals above hydrogen in the series can displace hydrogen gas from a dilute acid at all. (NCERT 3.2.5)",
+          "key_point": "The reactivity series ranks metals from most reactive (potassium) to least reactive (gold) by combining the results of every displacement-style experiment (with oxygen, water, acids, and other metals' salts) — and metals positioned above hydrogen in it are specifically the ones capable of displacing hydrogen gas from a dilute acid at all."
+        }
+      ],
+      "estimated_minutes": 10
+    },
+    {
+      "id": "ionic-bonding-and-properties-of-ionic-compounds",
+      "number": 5,
+      "title": "Ionic Bonding and Properties of Ionic Compounds",
+      "summary": "Metals and non-metals react by transferring electrons — the metal losing them to become a positive ion, the non-metal gaining them to become a negative ion — and the resulting ionic compounds share a characteristic set of properties: hardness, high melting points, water solubility, and the ability to conduct electricity once molten or dissolved.",
+      "sections": [
+        {
+          "heading": "Electron transfer and ionic compound formation",
+          "body": "A sodium atom has just one electron in its outermost shell; losing it leaves sodium with a complete, stable octet in the shell below, and a net positive charge from its 11 protons now outnumbering only 10 remaining electrons — giving the sodium cation, Na⁺. A chlorine atom, with seven electrons in its outermost shell, needs just one more to complete its own octet; gaining the electron sodium lost gives it a net negative charge — the chloride anion, Cl⁻. The oppositely charged Na⁺ and Cl⁻ ions then attract each other through strong electrostatic forces to form sodium chloride, NaCl — which exists not as individual molecules but as a vast aggregate of these oppositely charged ions. Compounds formed this way, through the transfer of electrons from a metal to a non-metal, are called ionic (or electrovalent) compounds; magnesium chloride forms the same way, with magnesium losing two electrons (Mg → Mg²⁺ + 2e⁻) to two separate chlorine atoms. (NCERT 3.3)",
+          "key_point": "An ionic compound forms when a metal atom loses electrons (becoming a positive cation) to a non-metal atom that gains them (becoming a negative anion) — sodium losing one electron to chlorine, forming Na⁺ and Cl⁻ that then attract each other electrostatically as NaCl, is the textbook example."
+        },
+        {
+          "heading": "Properties of ionic compounds",
+          "body": "Heating samples of ionic salts like sodium chloride or barium chloride shows they don't melt easily, and they're generally hard but brittle, breaking apart under pressure rather than bending — all because of the strong electrostatic attraction holding the ions together, which also demands a considerable amount of energy to overcome, giving ionic compounds characteristically high melting and boiling points (NaCl melts at 1074 K, for instance). They're generally soluble in water but insoluble in solvents like kerosene or petrol. Ionic compounds don't conduct electricity in the solid state, since their rigid structure doesn't let the ions move — but they do conduct once molten or dissolved in water, since the ions are then free to move toward the oppositely charged electrode, carrying current as they go. (NCERT 3.3.1)",
+          "key_point": "Ionic compounds are hard but brittle, have high melting/boiling points (from the strong electrostatic attraction holding their ions together), dissolve in water but not in solvents like kerosene, and conduct electricity only once molten or dissolved — never as a rigid solid, since the ions can't move there."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "extraction-and-refining-of-metals",
+      "number": 6,
+      "title": "Extraction and Refining of Metals",
+      "summary": "Which extraction method works for a given metal's ore depends entirely on where that metal sits in the reactivity series — unreactive metals need only heating, mid-reactivity ones need roasting or calcination before reduction, and the most reactive need electrolysis outright — and electrolytic refining is what then removes the impurities left behind.",
+      "sections": [
+        {
+          "heading": "Minerals, ores, and matching extraction to reactivity",
+          "body": "Elements or compounds that occur naturally in the earth's crust are called minerals; wherever a mineral contains a high enough percentage of a particular metal to be profitably extracted, it's specifically called an ore. Which extraction method actually works for a given metal depends directly on its position in the reactivity series: metals low in the series (gold, silver, copper) are unreactive enough to occur as free elements in nature, while metals at the very top (potassium, sodium, calcium, magnesium, aluminium) are so reactive they're never found free at all, and metals in the middle (zinc, iron, lead) are found mainly as oxides, sulphides or carbonates. (NCERT 3.4, 3.4.1)",
+          "key_point": "An ore is a mineral with enough of a given metal to be worth extracting — and where in nature that metal is found (free, or as oxides/sulphides/carbonates) tracks its position in the reactivity series directly: the least reactive metals occur free, the most reactive never do."
+        },
+        {
+          "heading": "Extracting metals of low and middle reactivity",
+          "body": "Metals low in the reactivity series are unreactive enough that heating their ore in air alone reduces it to the metal — cinnabar (HgS) first converts to mercuric oxide on heating, which further heating then reduces to metallic mercury, and copper can be obtained from Cu2S the same direct way. Metals in the middle of the series are usually found as sulphides or carbonates, which are easier to reduce once first converted to the corresponding oxide: heating a sulphide ore strongly in excess air is called roasting, while heating a carbonate ore strongly in limited air is called calcination — 2ZnS(s) + 3O2(g) →(Heat) 2ZnO(s) + 2SO2(g) for roasting, ZnCO3(s) →(Heat) ZnO(s) + CO2(g) for calcination. The resulting oxide is then reduced to the metal using a reducing agent such as carbon: ZnO(s) + C(s) → Zn(s) + CO(g), itself a reduction process in exactly the sense covered earlier. (NCERT 3.4.3, 3.4.4)",
+          "key_point": "Low-reactivity metal ores (like HgS) reduce to the metal with heating alone, while middle-reactivity metals need their sulphide or carbonate ore converted to an oxide first — via roasting (sulphides, in excess air) or calcination (carbonates, in limited air) — before that oxide is reduced to the metal with carbon."
+        },
+        {
+          "heading": "Extracting the most reactive metals, and refining",
+          "body": "Metals at the very top of the reactivity series — sodium, magnesium, calcium, aluminium — have more affinity for oxygen than carbon does, so carbon can't reduce their oxides; they're obtained instead by electrolytic reduction of their molten compounds, with the metal deposited at the cathode and, for the chlorides, chlorine liberated at the anode: at cathode, Na⁺ + e⁻ → Na; at anode, 2Cl⁻ → Cl2 + 2e⁻. Highly reactive metals can also serve as reducing agents themselves in displacement reactions — the thermit reaction, Fe2O3(s) + 2Al(s) → 2Fe(l) + Al2O3(s) + Heat, is so exothermic it produces molten iron directly, and is used to join railway tracks and repair cracked machine parts. Whatever reduction method was used, the resulting metal usually still contains impurities, removed by electrolytic refining: the impure metal is made the anode, a thin strip of pure metal the cathode, and a solution of the metal's salt the electrolyte — passing current dissolves pure metal off the anode and deposits an equivalent amount on the cathode, while insoluble impurities simply settle at the bottom as anode mud. (NCERT 3.4.5, 3.4.6)",
+          "key_point": "The most reactive metals (Na, Mg, Ca, Al) are extracted by electrolysis of their molten compounds, since carbon can't reduce their oxides — and whichever extraction method was used, electrolytic refining (impure metal as anode, pure strip as cathode, the metal's own salt solution as electrolyte) is what removes the impurities left behind afterward."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "corrosion-and-alloys",
+      "number": 7,
+      "title": "Corrosion and Alloys",
+      "summary": "Corrosion is a metal's surface slowly being eaten away by its environment — most visibly as iron's rust — and is prevented by sealing the metal off (painting, oiling, galvanising) or by alloying it with another substance, which also happens to be the standard way to deliberately improve a metal's properties for a given use.",
+      "sections": [
+        {
+          "heading": "Corrosion and how to prevent it",
+          "body": "Iron nails left in a test tube with both air and water present develop rust, while identical nails kept in boiled, air-free water or in dry air (using anhydrous calcium chloride to absorb any moisture) do not — showing that iron needs both air and water together to rust at all. The same underlying process, corrosion, shows up differently on other metals: silver tarnishes black by reacting with sulphur in the air, and copper develops a green coating of basic copper carbonate by reacting with moist carbon dioxide. Rusting can be prevented by painting, oiling, greasing, galvanising (coating steel or iron with a thin protective layer of zinc, which keeps protecting the iron underneath even if the zinc coating itself gets scratched), chrome plating, anodising, or simply by alloying the metal with something else. (NCERT 3.5, 3.5.1)",
+          "key_point": "Iron needs both air and water together to rust — confirmed directly by nails that don't rust when either one is excluded — and rusting (along with corrosion generally) is prevented by sealing the metal's surface off from its environment, whether by paint, grease, galvanising, or alloying."
+        },
+        {
+          "heading": "Alloys",
+          "body": "An alloy is a homogeneous mixture of two or more metals, or of a metal and a non-metal, made by melting the primary metal, dissolving the other components into it in definite proportions, and then cooling the mixture back to room temperature. Alloying is the standard way to deliberately improve a metal's properties for a given purpose: pure iron is too soft and stretches easily when hot, but mixing in a small amount of carbon (about 0.05%) makes it hard and strong, and mixing in nickel and chromium instead gives stainless steel, which resists rusting entirely. Brass (copper and zinc) and bronze (copper and tin) are both poor conductors of electricity compared to pure copper, which is exactly why pure copper, not an alloy, is used for electrical wiring; solder (lead and tin) has a conveniently low melting point, which is why it's used for welding electrical wires together. An alloy containing mercury specifically is called an amalgam. (NCERT 3.5.1)",
+          "key_point": "An alloy — a homogeneous mixture of a metal with other metals or non-metals, made by melting them together and cooling — is the standard way to deliberately reshape a metal's properties: a touch of carbon turns soft iron hard and strong, nickel and chromium turn it rust-resistant as stainless steel, and lead-tin solder trades conductivity for a convenient, low melting point."
+        }
+      ],
+      "estimated_minutes": 15
+    }
+  ],
+  "published": true
 }

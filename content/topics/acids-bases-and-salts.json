@@ -1,12 +1,152 @@
 {
   "id": "acids-bases-and-salts",
   "title": "Acids, Bases and Salts",
+  "unit_number": 2,
   "icon": "flask",
   "tint": "orange",
   "class": [
     "10"
   ],
   "exams": [],
-  "chapters": [],
-  "published": false
+  "chapters": [
+    {
+      "id": "chemical-properties-of-acids-and-bases",
+      "number": 1,
+      "title": "Chemical Properties of Acids and Bases",
+      "summary": "Acids and bases can be told apart using indicators — dyes that change colour or odour in their presence — and both react characteristically with metals, releasing hydrogen gas and forming a salt in the process.",
+      "sections": [
+        {
+          "heading": "Indicators",
+          "body": "Litmus (a purple dye extracted from lichen) is the most familiar acid-base indicator: it turns red in acids and blue in bases. Synthetic indicators like phenolphthalein and methyl orange work the same way, each showing its own distinct colour change, and natural materials — turmeric, red cabbage leaves, the petals of flowers like Hydrangea and Petunia — can act as indicators too (it's exactly why a turmeric-yellow stain turns reddish-brown when scrubbed with basic soap, then back to yellow once rinsed with plenty of water). Not every indicator works by colour: olfactory indicators like onion or clove reveal acids and bases through a change in smell instead — onion's characteristic odour, for instance, fades when treated with a base. (NCERT 2.1.1)",
+          "key_point": "Indicators reveal whether a substance is acidic or basic through a change in colour (litmus turns red in acid, blue in base; synthetic ones like phenolphthalein and methyl orange work the same way) or, for olfactory indicators like onion and clove, through a change in smell instead."
+        },
+        {
+          "heading": "Reaction of acids and bases with metals",
+          "body": "Dropping zinc granules into dilute sulphuric acid produces visible bubbles on the metal's surface — a gas that makes a soap-solution froth and, brought near a flame, burns with a pop. This is hydrogen gas, and the same thing happens with other acids like HCl, HNO3 and acetic acid: a metal reacting with an acid displaces hydrogen atoms as hydrogen gas and forms a salt, summarised as Acid + Metal → Salt + Hydrogen gas. Bases can release hydrogen from metals too, though not from every metal — zinc reacts with sodium hydroxide to give sodium zincate and hydrogen gas: 2NaOH(aq) + Zn(s) → Na2ZnO2(s) + H2(g). (NCERT 2.1.2)",
+          "key_point": "A metal reacting with a dilute acid evolves hydrogen gas (testable with a pop sound near a flame) and forms a salt — Acid + Metal → Salt + Hydrogen gas — and some metals, like zinc, give the same hydrogen-releasing reaction with a base instead, forming a zincate salt."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "reactions-with-carbonates-oxides-and-each-other",
+      "number": 2,
+      "title": "Reactions with Carbonates, Oxides and Each Other",
+      "summary": "Metal carbonates and hydrogencarbonates react with acids to give a salt, water, and carbon dioxide; acids and bases neutralise each other entirely to give a salt and water; and this same acid-base pattern is what lets metal oxides be classed as basic and non-metal oxides as acidic.",
+      "sections": [
+        {
+          "heading": "Metal carbonates and hydrogencarbonates with acids",
+          "body": "Adding dilute hydrochloric acid to sodium carbonate, or to sodium hydrogencarbonate, both produce a brisk effervescence — the gas evolved turns lime water milky, confirming it's carbon dioxide: Na2CO3(s) + 2HCl(aq) → 2NaCl(aq) + H2O(l) + CO2(g), and similarly for NaHCO3. This is a general pattern: all metal carbonates and hydrogencarbonates react with acids to give the corresponding salt, carbon dioxide, and water — Metal carbonate/Metal hydrogencarbonate + Acid → Salt + Carbon dioxide + Water. (NCERT 2.1.3)",
+          "key_point": "Metal carbonates and hydrogencarbonates react with acids to release carbon dioxide gas (confirmed by turning lime water milky) alongside a salt and water — a reliable, general pattern across this entire family of compounds."
+        },
+        {
+          "heading": "Neutralisation: acids and bases cancelling each other",
+          "body": "Adding dilute hydrochloric acid, drop by drop, to sodium hydroxide solution that's been tinted pink with phenolphthalein makes the pink colour fade away — and adding more NaOH afterward brings the pink straight back. The reaction taking place, NaOH(aq) + HCl(aq) → NaCl(aq) + H2O(l), is a neutralisation reaction: a reaction between an acid and a base that produces a salt and water, generalised as Base + Acid → Salt + Water. (NCERT 2.1.4)",
+          "key_point": "A neutralisation reaction is an acid and a base reacting to exactly cancel each other's effect, producing a salt and water — Base + Acid → Salt + Water — directly demonstrable by watching phenolphthalein's pink colour disappear as acid is added, then reappear once more base is added back."
+        },
+        {
+          "heading": "Metal oxides and non-metal oxides",
+          "body": "Adding dilute hydrochloric acid to copper oxide turns the solution blue-green as the oxide dissolves, forming copper(II) chloride: Metal oxide + Acid → Salt + Water — the very same pattern a base reacting with an acid follows, which is why metal oxides are classed as basic oxides. The reverse pairing also holds: carbon dioxide (a non-metal oxide) reacting with calcium hydroxide (lime water) to form a salt and water follows the same pattern as a base reacting with an acid, which is why non-metal oxides are classed as acidic in nature. (NCERT 2.1.5, 2.1.6)",
+          "key_point": "A metal oxide reacting with an acid (Metal oxide + Acid → Salt + Water) behaves exactly like a base would, which is why metal oxides are called basic oxides — and a non-metal oxide reacting with a base the same way is why non-metal oxides are called acidic oxides."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "what-acids-and-bases-have-in-common",
+      "number": 3,
+      "title": "What Acids and Bases Have in Common",
+      "summary": "Every acid produces hydrogen ions and every base produces hydroxide ions when dissolved in water, and that ionisation step is itself genuinely dependent on water being present — a dry acid alone shows no acidic behaviour at all.",
+      "sections": [
+        {
+          "heading": "Ions are what make a solution conduct — and what make it acidic or basic",
+          "body": "Dipping two electrodes connected to a battery and a bulb into dilute hydrochloric or sulphuric acid makes the bulb glow, while the same test on glucose or alcohol solution leaves the bulb dark. A glowing bulb means current is flowing, and in solution that current is carried by ions — so acids must be producing ions in solution, while glucose and alcohol (despite also containing hydrogen) are not. Every acid contains H⁺ as its cation, paired with a different anion depending on the acid — Cl⁻ in HCl, NO3⁻ in HNO3, SO4²⁻ in H2SO4, CH3COO⁻ in CH3COOH — and it's specifically the H⁺ ions that acids release into solution, written H⁺(aq), that are responsible for acidic properties. Bases behave the same way but with hydroxide: NaOH(s) →(H2O) Na⁺(aq) + OH⁻(aq), and so on for KOH and Mg(OH)2. Bases that are soluble in water are specifically called alkalis. (NCERT 2.2, 2.2.1)",
+          "key_point": "Every acid releases H⁺(aq) ions in solution and every base releases OH⁻(aq) ions — it's exactly these ions, moving through the solution, that let an acidic or basic solution conduct electricity (which is why a glucose or alcohol solution, with no ions at all, doesn't)."
+        },
+        {
+          "heading": "Why water matters: the hydronium ion",
+          "body": "Generating dry HCl gas and testing it against dry litmus paper produces no colour change at all — but testing the same gas against moist litmus paper does. This shows that dry HCl gas alone has no acidic character; the separation of H⁺ from the HCl molecule only happens in the presence of water: HCl + H2O → H3O⁺ + Cl⁻. A bare H⁺ ion can't exist on its own in solution — it always combines with a water molecule, which is why acidic hydrogen ions are more precisely written as the hydronium ion, H3O⁺, rather than simply H⁺(aq): H⁺ + H2O → H3O⁺. Mixing an acid or a base into water decreases the concentration of these ions per unit volume, a process called dilution — and because dissolving either a concentrated acid or a concentrated base in water is highly exothermic, the acid must always be added slowly to water (never the reverse), stirring constantly, to avoid the heat generated causing a dangerous splash. (NCERT 2.2.1)",
+          "key_point": "An acid's acidic behaviour genuinely depends on water being present — dry HCl gas shows no acidic character at all until it reacts with water to form the hydronium ion, H3O⁺ — which is also why concentrated acid must always be added slowly to water, not the other way round, since the process is strongly exothermic."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "the-ph-scale",
+      "number": 4,
+      "title": "The pH Scale",
+      "summary": "The pH scale gives a single number, from 0 to 14, for how acidic or basic a solution is — lower means more acidic, higher means more basic, exactly 7 is neutral — and staying within a narrow pH range matters for everything from living cells to tooth enamel to farm soil.",
+      "sections": [
+        {
+          "heading": "Measuring acid and base strength",
+          "body": "A universal indicator — a mixture of several individual indicators — shows a different colour at different hydrogen ion concentrations, which is what the pH scale is built on: a scale, generally running from 0 (very acidic) through 7 (neutral) to 14 (very alkaline), that measures hydrogen ion concentration in a solution (the 'p' stands for the German 'potenz', meaning power). A higher hydronium ion concentration corresponds to a lower pH value; moving up from pH 7 toward 14 means an increasing concentration of OH⁻ ions, and so an increasing strength of alkali. Acids that produce more H⁺ ions at the same concentration are called strong acids, while those producing fewer are weak acids — and the same strong/weak distinction applies to bases, based on how much OH⁻ they produce. (NCERT 2.3)",
+          "key_point": "The pH scale (roughly 0–14) measures hydrogen ion concentration directly — pH below 7 is acidic, above 7 is basic, exactly 7 is neutral — and how much H⁺ (or OH⁻) a given acid (or base) actually produces at a fixed concentration is what separates a strong one from a weak one."
+        },
+        {
+          "heading": "Why pH matters in everyday life",
+          "body": "Living organisms function only within a narrow pH range — the human body works within pH 7.0 to 7.8 — which is why acid rain (rain water below pH 5.6) draining into rivers and lowering their water's pH makes survival difficult for aquatic life there. The stomach itself produces hydrochloric acid to aid digestion; when it produces too much, causing pain, a mild base called an antacid (commonly magnesium hydroxide, or milk of magnesia) neutralises the excess. Tooth enamel — the hardest substance in the body — starts to corrode once the mouth's pH drops below 5.5, which bacteria cause by breaking down leftover sugar and food into acids; cleaning the mouth after eating, or using a basic toothpaste to neutralise that acid, helps prevent the tooth decay that follows. Even a bee sting's pain (acidic) can be relieved with a mild base like baking soda, while a nettle sting (which injects methanoic acid) is traditionally treated by rubbing it with a dock leaf. Plants also need a specific soil pH range to grow healthily, which is why testing and adjusting soil pH matters in agriculture. (NCERT 2.3.1)",
+          "key_point": "Staying within a narrow pH range matters well beyond the lab — the human body operates at pH 7.0–7.8, acid rain below pH 5.6 threatens aquatic life, tooth enamel starts corroding below pH 5.5, and antacids, toothpaste and even a dock leaf on a nettle sting all work by neutralising a locally acidic (or basic) excess."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "family-of-salts-and-ph-of-salts",
+      "number": 5,
+      "title": "Family of Salts and pH of Salts",
+      "summary": "Salts sharing the same positive or negative ion belong to the same family, and a salt's own pH — acidic, basic, or neutral — depends entirely on whether the acid and base it was formed from were strong or weak.",
+      "sections": [
+        {
+          "heading": "Families of salts",
+          "body": "Salts that share the same positive or negative radical are said to belong to a family: sodium chloride and sodium sulphate both belong to the family of sodium salts, while sodium chloride and potassium chloride both belong to the family of chloride salts. Identifying the acid and base each salt could be formed from — for instance, sodium sulphate from sulphuric acid and sodium hydroxide — reveals these groupings directly, since a salt is, at its core, the product of an acid-base neutralisation. (NCERT 2.4.1)",
+          "key_point": "Salts belong to the same family when they share a positive ion (sodium salts) or a negative ion (chloride salts) — a grouping that falls directly out of tracing each salt back to the acid and base that would neutralise to form it."
+        },
+        {
+          "heading": "The pH of a salt depends on its parent acid and base",
+          "body": "Testing the pH of different salt samples in water shows they aren't all neutral — some turn litmus, some don't — and this tracks directly back to the strength of the acid and base each salt came from. A salt formed from a strong acid and a strong base is neutral, with pH 7 exactly. A salt formed from a strong acid and a weak base is acidic, with pH below 7. A salt formed from a strong base and a weak acid is basic, with pH above 7. (NCERT 2.4.2)",
+          "key_point": "A salt's own pH is set entirely by whether its parent acid and base were strong or weak — strong acid + strong base gives a neutral salt (pH 7), strong acid + weak base gives an acidic salt (pH < 7), and strong base + weak acid gives a basic salt (pH > 7)."
+        }
+      ],
+      "estimated_minutes": 15
+    },
+    {
+      "id": "chemicals-from-common-salt",
+      "number": 6,
+      "title": "Chemicals from Common Salt",
+      "summary": "Common salt (sodium chloride) is the starting raw material for several everyday chemicals made via the chlor-alkali process — sodium hydroxide, bleaching powder, baking soda and washing soda — each with its own distinct industrial and household uses.",
+      "sections": [
+        {
+          "heading": "Sodium hydroxide and bleaching powder (the chlor-alkali process)",
+          "body": "Passing electricity through an aqueous solution of sodium chloride (brine) decomposes it into sodium hydroxide, chlorine gas at the anode, and hydrogen gas at the cathode: 2NaCl(aq) + 2H2O(l) → 2NaOH(aq) + Cl2(g) + H2(g). This is called the chlor-alkali process, named for its two main products — chlor for chlorine, alkali for sodium hydroxide — and all three products it yields are independently useful. The chlorine produced here is itself used to make bleaching powder, Ca(ClO)2, by reacting it with dry slaked lime: 2Ca(OH)2 + 2Cl2 → Ca(ClO)2 + CaCl2 + 2H2O. Bleaching powder bleaches cotton and linen in textiles and wood pulp in paper-making, acts as an oxidising agent in various chemical industries, and is used to disinfect drinking water. (NCERT 2.4.3)",
+          "key_point": "Electrolysing brine (the chlor-alkali process) produces sodium hydroxide, chlorine and hydrogen all at once — and the chlorine byproduct is itself the raw material for bleaching powder, Ca(ClO)2, used in textile bleaching, as an industrial oxidising agent, and to disinfect drinking water."
+        },
+        {
+          "heading": "Baking soda and washing soda",
+          "body": "Sodium hydrogencarbonate (baking soda, NaHCO3) is made from sodium chloride: NaCl + H2O + CO2 + NH3 → NH4Cl + NaHCO3. Being a mild, non-corrosive base, it neutralises stomach acid as an ingredient in antacids, and on heating decomposes to release carbon dioxide — 2NaHCO3 →(Heat) Na2CO3 + H2O + CO2 — which is exactly what makes bread or cake rise when baking powder (a mixture of baking soda and the weak acid tartaric acid) reacts and is heated or mixed into water. It's also used in soda-acid fire extinguishers. Heating baking soda and then recrystallising the resulting sodium carbonate gives washing soda, Na2CO3·10H2O: Na2CO3 + 10H2O → Na2CO3·10H2O. Washing soda is used in the glass, soap and paper industries, in manufacturing other sodium compounds like borax, as a household cleaning agent, and for removing the permanent hardness of water. (NCERT 2.4.3)",
+          "key_point": "Baking soda (NaHCO3) neutralises acid (in antacids and fire extinguishers) and releases CO2 on heating (making baked goods rise); recrystallising it after heating gives washing soda (Na2CO3·10H2O), used industrially in glass/soap/paper making and domestically for cleaning and softening hard water."
+        }
+      ],
+      "estimated_minutes": 20
+    },
+    {
+      "id": "water-of-crystallisation",
+      "number": 7,
+      "title": "Water of Crystallisation",
+      "summary": "Many salt crystals that look perfectly dry actually hold a fixed number of water molecules locked into their structure, and Plaster of Paris — made by driving most of that water out of gypsum — is useful precisely because it readily takes that water back up again, hardening as it does.",
+      "sections": [
+        {
+          "heading": "Water locked inside a crystal",
+          "body": "Heating blue copper sulphate crystals in a dry boiling tube turns them white, and water droplets appear in the tube — moistening the white residue with a few drops of water brings the blue colour straight back. The water that was driven off was never just surface moisture; it's water of crystallisation — a fixed number of water molecules chemically bound within one formula unit of the salt — and copper sulphate's formula is written CuSO4·5H2O to show its exact five molecules of it. Gypsum (CaSO4·2H2O) is another salt with water of crystallisation, holding two water molecules per formula unit. (NCERT 2.4.4)",
+          "key_point": "Water of crystallisation is a fixed, specific number of water molecules chemically bound inside a salt's crystal structure — not surface moisture — which is why heating blue CuSO4·5H2O drives it off (turning the salt white), and re-adding water restores the original colour."
+        },
+        {
+          "heading": "Plaster of Paris",
+          "body": "Heating gypsum (CaSO4·2H2O) at 373 K drives off some of its water of crystallisation, leaving calcium sulphate hemihydrate, CaSO4·½H2O — Plaster of Paris, a white powder doctors use to support and set fractured bones. Only half a water molecule appears in its formula because two formula units of CaSO4 actually share one water molecule between them. Mixed with water, Plaster of Paris changes back into gypsum, forming a hard solid mass as it does: CaSO4·½H2O + 1½H2O → CaSO4·2H2O. Because of this same water-absorbing reaction, Plaster of Paris has to be stored in a moisture-proof container — any ambient moisture would otherwise set it hard while it's still in storage. (NCERT 2.4.4)",
+          "key_point": "Plaster of Paris (CaSO4·½H2O) is gypsum with most of its water of crystallisation driven off by heat, and it hardens back into gypsum the moment it's mixed with water again — exactly why it must be kept in a moisture-proof container, and exactly why it's useful for setting fractures."
+        }
+      ],
+      "estimated_minutes": 15
+    }
+  ],
+  "published": true
 }
