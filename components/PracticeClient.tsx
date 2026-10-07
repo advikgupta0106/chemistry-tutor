@@ -3,9 +3,10 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Check, X, RotateCcw } from "lucide-react";
-import type { Question } from "@/lib/content";
+import type { Question, Topic } from "@/lib/content";
 import { recordAnswer } from "@/lib/progress";
 import { formatFormula } from "@/lib/formatFormula";
+import { useUserClass, topicMatchesUserClass } from "@/lib/userClass";
 
 function shuffle<T>(arr: T[]): T[] {
   const copy = [...arr];
@@ -18,7 +19,31 @@ function shuffle<T>(arr: T[]): T[] {
 
 type AnsweredRecord = { question: Question; selectedIndex: number; correct: boolean };
 
-export default function PracticeClient({ questions }: { questions: Question[] }) {
+export default function PracticeClient({
+  questions,
+  topics,
+}: {
+  questions: Question[];
+  topics: Topic[];
+}) {
+  const userClass = useUserClass();
+  const topicClassById = useMemo(
+    () => new Map(topics.map((t) => [t.id, t.class])),
+    [topics]
+  );
+  // A question with no matching topic (shouldn't happen for a published
+  // question, but the content pipeline doesn't guarantee it) is left in
+  // rather than silently dropped, same "fail open" choice
+  // topicMatchesUserClass(_, null) already makes before a class is chosen.
+  const classQuestions = useMemo(
+    () =>
+      questions.filter((q) => {
+        const cls = topicClassById.get(q.topic_id);
+        return cls ? topicMatchesUserClass(cls, userClass) : true;
+      }),
+    [questions, topicClassById, userClass]
+  );
+
   // Start with the stable server-rendered order and shuffle only after
   // mount (client-only) - shuffling in initial state would run Math.random()
   // during SSR and again on the client, producing a hydration mismatch.
@@ -29,9 +54,17 @@ export default function PracticeClient({ questions }: { questions: Question[] })
   const [finished, setFinished] = useState(false);
 
   useEffect(() => {
-    setOrder(shuffle(questions));
+    setOrder(shuffle(classQuestions));
+    setIndex(0);
+    setSelected(null);
+    setAnswered([]);
+    setFinished(false);
+    // Re-shuffles whenever the resolved class actually changes (including
+    // the initial null -> real-value resolution on mount), not on every
+    // render — classQuestions/questions are deliberately left out, since
+    // they'd otherwise be a new array reference each render.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [userClass]);
 
   const question = order[index];
   const total = order.length;
@@ -55,14 +88,14 @@ export default function PracticeClient({ questions }: { questions: Question[] })
   }
 
   function handleRestart() {
-    setOrder(shuffle(questions));
+    setOrder(shuffle(classQuestions));
     setIndex(0);
     setSelected(null);
     setAnswered([]);
     setFinished(false);
   }
 
-  if (questions.length === 0) {
+  if (classQuestions.length === 0) {
     return (
       <div className="mx-auto max-w-md px-6 pb-10 pt-8 md:max-w-2xl md:px-10">
         <h1 className="text-lg font-bold text-text">Practice</h1>

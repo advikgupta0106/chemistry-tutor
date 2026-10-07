@@ -6,14 +6,20 @@ import ProgressRing from "@/components/ProgressRing";
 import ProgressRow from "@/components/ProgressRow";
 import type { Topic } from "@/lib/content";
 import { getProgress, computeStats, type ComputedStats } from "@/lib/progress";
+import { useUserClass, topicMatchesUserClass } from "@/lib/userClass";
 
 export default function ProgressClient({ topics }: { topics: Topic[] }) {
   const [stats, setStats] = useState<ComputedStats | null>(null);
+  const userClass = useUserClass();
+  const classTopics = topics.filter((t) => topicMatchesUserClass(t.class, userClass));
 
   useEffect(() => {
-    setStats(computeStats(getProgress(), topics));
+    setStats(computeStats(getProgress(), classTopics));
+    // Deliberately re-runs only when userClass changes, not on every
+    // render — classTopics/topics are omitted since they'd otherwise be a
+    // new array reference each render.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [userClass]);
 
   if (!stats) return null;
 
@@ -49,7 +55,7 @@ export default function ProgressClient({ topics }: { topics: Topic[] }) {
       <div className="mt-4 rounded-2xl border border-border bg-surface p-5">
         <p className="mb-4 text-sm font-semibold text-text">All Topics</p>
         <div className="flex flex-col gap-4">
-          {topics.map((topic) => (
+          {classTopics.map((topic) => (
             <ProgressRow
               key={topic.id}
               icon={topic.icon}

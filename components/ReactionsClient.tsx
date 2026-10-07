@@ -5,6 +5,7 @@ import { Search, FlaskConical } from "lucide-react";
 import { formatFormula } from "@/lib/formatFormula";
 import type { Reaction, Topic } from "@/lib/content";
 import ReactionSolver from "@/components/ReactionSolver";
+import { useUserClass, topicMatchesUserClass } from "@/lib/userClass";
 
 export default function ReactionsClient({
   reactions,
@@ -15,8 +16,15 @@ export default function ReactionsClient({
 }) {
   const [search, setSearch] = useState("");
   const [topicFilter, setTopicFilter] = useState("All");
+  const userClass = useUserClass();
 
-  const topicById = Object.fromEntries(topics.map((t) => [t.id, t]));
+  // The topic chips and each reaction card's topic tags both come from this
+  // class-restricted list — ReactionSolver (below) already filters its own
+  // chapter picker internally, so passing it the full `topics` is fine.
+  const classTopics = topics.filter((t) => topicMatchesUserClass(t.class, userClass));
+  const classTopicIds = new Set(classTopics.map((t) => t.id));
+
+  const topicById = Object.fromEntries(classTopics.map((t) => [t.id, t]));
 
   const filtered = reactions.filter((r) => {
     const matchesSearch =
@@ -24,7 +32,11 @@ export default function ReactionsClient({
       r.type.toLowerCase().includes(search.toLowerCase()) ||
       r.explanation.toLowerCase().includes(search.toLowerCase());
     const matchesTopic = topicFilter === "All" || r.topics.includes(topicFilter);
-    return matchesSearch && matchesTopic;
+    // A reaction only belongs in the library if at least one of its tagged
+    // topics is actually in the student's class — same "relevant to my
+    // syllabus" rule the topic chips themselves follow.
+    const matchesClass = r.topics.some((id) => classTopicIds.has(id));
+    return matchesSearch && matchesTopic && matchesClass;
   });
 
   return (
@@ -62,7 +74,7 @@ export default function ReactionsClient({
         >
           All
         </button>
-        {topics.map((t) => (
+        {classTopics.map((t) => (
           <button
             key={t.id}
             onClick={() => setTopicFilter(t.id)}

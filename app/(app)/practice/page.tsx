@@ -1,5 +1,5 @@
 import PracticeClient from "@/components/PracticeClient";
-import { getPublishedQuestions } from "@/lib/content";
+import { getPublishedQuestions, getPublishedTopics } from "@/lib/content";
 import { pageMetadata } from "@/lib/pageMetadata";
 
 export const metadata = pageMetadata(
@@ -9,5 +9,6 @@ export const metadata = pageMetadata(
 
 export default function PracticePage() {
   const questions = getPublishedQuestions();
-  return <PracticeClient questions={questions} />;
+  const topics = getPublishedTopics();
+  return <PracticeClient questions={questions} topics={topics} />;
 }
