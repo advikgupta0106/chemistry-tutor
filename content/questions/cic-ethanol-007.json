@@ -1,0 +1,17 @@
+{
+  "id": "cic-ethanol-007",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "ethanol-and-ethanoic-acid",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Reacting ethanoic acid with an alcohol in the presence of an acid catalyst produces a sweet-smelling compound through a process called:",
+  "options": [
+    "Esterification",
+    "Saponification",
+    "Neutralisation",
+    "Hydrogenation"
+  ],
+  "answer_index": 0,
+  "explanation": "Esterification is the reaction of an acid with an alcohol, forming a sweet-smelling ester.",
+  "source": "NCERT Class 10, Ch 4"
+}

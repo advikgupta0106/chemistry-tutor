@@ -1,0 +1,17 @@
+{
+  "id": "abs-commonsalt-007",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemicals-from-common-salt",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Washing soda is obtained by:",
+  "options": [
+    "Electrolysing brine directly",
+    "Recrystallising sodium carbonate after heating baking soda",
+    "Heating limestone directly",
+    "Dissolving bleaching powder in water"
+  ],
+  "answer_index": 1,
+  "explanation": "Heating baking soda and then recrystallising the resulting sodium carbonate gives washing soda.",
+  "source": "NCERT Class 10, Ch 2"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "abs-crystallisation-008",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "water-of-crystallisation",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Mixing Plaster of Paris with water converts it back into:",
+  "options": [
+    "Washing soda",
+    "Gypsum",
+    "Baking soda",
+    "Bleaching powder"
+  ],
+  "answer_index": 1,
+  "explanation": "Adding water to Plaster of Paris reverses the dehydration, forming a hard mass of gypsum again.",
+  "source": "NCERT Class 10, Ch 2"
+}

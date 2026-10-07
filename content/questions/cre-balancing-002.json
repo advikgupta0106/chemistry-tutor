@@ -1,0 +1,17 @@
+{
+  "id": "cre-balancing-002",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "balancing-chemical-equations",
+  "difficulty": "hard",
+  "exams": [],
+  "prompt": "What are the correct coefficients, in order, to balance Fe + H2O -> Fe3O4 + H2?",
+  "options": [
+    "1, 4, 3, 4",
+    "3, 4, 1, 4",
+    "3, 4, 1, 1",
+    "1, 1, 1, 1"
+  ],
+  "answer_index": 1,
+  "explanation": "3Fe + 4H2O -> Fe3O4 + 4H2 balances every element: 3 Fe, 8 H, and 4 O on each side.",
+  "source": "NCERT Class 10, Ch 1"
+}

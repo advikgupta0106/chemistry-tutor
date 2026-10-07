@@ -1,0 +1,17 @@
+{
+  "id": "cre-redox-005",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "oxidation-and-reduction-class-10",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A reaction in which one substance is oxidised while another is reduced, both at the same time, is called a:",
+  "options": [
+    "Redox reaction",
+    "Combination reaction",
+    "Precipitation reaction",
+    "Neutralisation reaction"
+  ],
+  "answer_index": 0,
+  "explanation": "Because oxidation and reduction always happen together in the same reaction, the pair is called a redox reaction.",
+  "source": "NCERT Class 10, Ch 1"
+}

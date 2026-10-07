@@ -1,0 +1,17 @@
+{
+  "id": "mnm-acidsalt-007",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-acids-and-salt-solutions",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The general pattern for a metal displacing another metal from its salt solution is:",
+  "options": [
+    "Metal A + Metal B -> always forms an alloy",
+    "Metal A + Salt of B -> always reacts regardless of reactivity",
+    "Metal A + Salt of B -> Salt of A + Metal B, only if A is more reactive than B",
+    "Metal A + Salt of B -> Metal oxide + Salt"
+  ],
+  "answer_index": 2,
+  "explanation": "A metal can only displace another metal from its salt solution if the displacing metal is more reactive.",
+  "source": "NCERT Class 10, Ch 3"
+}

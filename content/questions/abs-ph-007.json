@@ -1,0 +1,17 @@
+{
+  "id": "abs-ph-007",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "the-ph-scale",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Tooth enamel begins to corrode once the mouth's pH drops below:",
+  "options": [
+    "7.0",
+    "6.0",
+    "5.5",
+    "4.0"
+  ],
+  "answer_index": 2,
+  "explanation": "Tooth enamel starts to corrode once the mouth's pH drops below 5.5, caused by bacteria breaking down food into acids.",
+  "source": "NCERT Class 10, Ch 2"
+}

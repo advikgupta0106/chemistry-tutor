@@ -1,0 +1,17 @@
+{
+  "id": "cic-functional-006",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "functional-groups-homologous-series-and-nomenclature",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Going up a homologous series, which property stays essentially constant?",
+  "options": [
+    "Molecular mass",
+    "Boiling point",
+    "Melting point",
+    "Chemical properties, set by the functional group"
+  ],
+  "answer_index": 3,
+  "explanation": "Chemical properties stay essentially the same up a homologous series, since they're set by the functional group alone.",
+  "source": "NCERT Class 10, Ch 4"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mnm-oxywater-004",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-oxygen-and-water",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which two metals are stored under kerosene oil because they react so vigorously with oxygen in air?",
+  "options": [
+    "Gold and silver",
+    "Iron and copper",
+    "Zinc and lead",
+    "Sodium and potassium"
+  ],
+  "answer_index": 3,
+  "explanation": "Sodium and potassium react so vigorously with oxygen that they're stored under kerosene to prevent accidental fires.",
+  "source": "NCERT Class 10, Ch 3"
+}

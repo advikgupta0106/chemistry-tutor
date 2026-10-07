@@ -1,0 +1,17 @@
+{
+  "id": "mnm-corrosion-004",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "corrosion-and-alloys",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Coating iron or steel with a thin protective layer of zinc to prevent rusting is called:",
+  "options": [
+    "Amalgamation",
+    "Chrome plating",
+    "Anodising",
+    "Galvanising"
+  ],
+  "answer_index": 3,
+  "explanation": "Galvanising is coating steel or iron with a thin protective layer of zinc.",
+  "source": "NCERT Class 10, Ch 3"
+}

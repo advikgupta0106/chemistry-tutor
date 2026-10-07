@@ -1,0 +1,17 @@
+{
+  "id": "mnm-oxywater-003",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-oxygen-and-water",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Which of the following metal oxides is amphoteric?",
+  "options": [
+    "CuO",
+    "Na2O",
+    "Al2O3",
+    "MgO"
+  ],
+  "answer_index": 2,
+  "explanation": "Aluminium oxide, Al2O3, is one of the few amphoteric metal oxides, reacting with both acids and bases.",
+  "source": "NCERT Class 10, Ch 3"
+}

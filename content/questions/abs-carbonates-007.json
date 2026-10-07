@@ -1,0 +1,17 @@
+{
+  "id": "abs-carbonates-007",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "reactions-with-carbonates-oxides-and-each-other",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Carbon dioxide reacting with calcium hydroxide (lime water) to form a salt and water is used as evidence that carbon dioxide is:",
+  "options": [
+    "An acidic oxide",
+    "A basic oxide",
+    "A metal oxide",
+    "A neutral oxide"
+  ],
+  "answer_index": 0,
+  "explanation": "A non-metal oxide reacting with a base the same way an acid would is exactly why non-metal oxides are classed as acidic.",
+  "source": "NCERT Class 10, Ch 2"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-soaps-006",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "soaps-and-detergents",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "In hard water, soap forms an insoluble curdy precipitate instead of a useful lather. This precipitate is commonly called:",
+  "options": [
+    "An ester",
+    "A micelle",
+    "An alloy",
+    "Scum"
+  ],
+  "answer_index": 3,
+  "explanation": "The insoluble curdy precipitate soap forms with hard water's calcium and magnesium ions is called scum.",
+  "source": "NCERT Class 10, Ch 4"
+}

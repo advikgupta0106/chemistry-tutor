@@ -1,0 +1,17 @@
+{
+  "id": "cic-soaps-001",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "soaps-and-detergents",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Soap molecules are described as salts of:",
+  "options": [
+    "Short-chain alcohols",
+    "Long-chain carboxylic acids",
+    "Carbonates",
+    "Mineral acids"
+  ],
+  "answer_index": 1,
+  "explanation": "Soap molecules are sodium or potassium salts of long-chain carboxylic acids.",
+  "source": "NCERT Class 10, Ch 4"
+}

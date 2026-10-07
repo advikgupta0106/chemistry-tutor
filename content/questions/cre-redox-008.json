@@ -1,0 +1,17 @@
+{
+  "id": "cre-redox-008",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "oxidation-and-reduction-class-10",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In MnO2 + 4HCl -> MnCl2 + 2H2O + Cl2, hydrochloric acid is oxidised because it:",
+  "options": [
+    "Loses hydrogen",
+    "Gains hydrogen",
+    "Loses oxygen",
+    "Gains oxygen"
+  ],
+  "answer_index": 0,
+  "explanation": "HCl loses hydrogen as it turns into Cl2, which counts as oxidation, while manganese dioxide is reduced.",
+  "source": "NCERT Class 10, Ch 1"
+}

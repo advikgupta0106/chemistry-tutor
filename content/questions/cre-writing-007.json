@@ -1,0 +1,17 @@
+{
+  "id": "cre-writing-007",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "writing-chemical-equations",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which of the following correctly shows the direction a reaction proceeds in a chemical equation?",
+  "options": [
+    "An equals sign shows the direction",
+    "Either direction equally",
+    "Reactants to products",
+    "Products to reactants"
+  ],
+  "answer_index": 2,
+  "explanation": "The arrow points from reactants, on the left, to products, on the right, showing the direction the reaction runs.",
+  "source": "NCERT Class 10, Ch 1"
+}

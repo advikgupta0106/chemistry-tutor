@@ -1,0 +1,17 @@
+{
+  "id": "abs-common-008",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "what-acids-and-bases-have-in-common",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Every base releases which ion into solution?",
+  "options": [
+    "H+(aq)",
+    "OH-(aq)",
+    "Cl-(aq)",
+    "Na+(aq)"
+  ],
+  "answer_index": 1,
+  "explanation": "Bases release hydroxide ions, OH-(aq), into solution, just as acids release H+(aq).",
+  "source": "NCERT Class 10, Ch 2"
+}

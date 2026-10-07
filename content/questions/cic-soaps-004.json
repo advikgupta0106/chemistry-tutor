@@ -1,0 +1,17 @@
+{
+  "id": "cic-soaps-004",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "soaps-and-detergents",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "A soap micelle cleans oily dirt by:",
+  "options": [
+    "Neutralising the dirt's pH",
+    "Evaporating the dirt",
+    "Trapping the dirt inside, forming an emulsion that is washed away with water",
+    "Dissolving the dirt chemically"
+  ],
+  "answer_index": 2,
+  "explanation": "The micelle traps oily dirt inside, forming an emulsion that lets it be pulled into water and washed away.",
+  "source": "NCERT Class 10, Ch 4"
+}

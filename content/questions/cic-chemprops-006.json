@@ -1,0 +1,17 @@
+{
+  "id": "cic-chemprops-006",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chemical-properties-of-carbon-compounds",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "An addition reaction adds hydrogen across an unsaturated compound's double or triple bond, typically using a catalyst like:",
+  "options": [
+    "Sulphuric acid",
+    "Sodium or potassium",
+    "Potassium permanganate",
+    "Palladium or nickel"
+  ],
+  "answer_index": 3,
+  "explanation": "Addition reactions use a catalyst like palladium or nickel to add hydrogen across the double or triple bond.",
+  "source": "NCERT Class 10, Ch 4"
+}

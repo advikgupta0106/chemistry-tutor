@@ -1,0 +1,17 @@
+{
+  "id": "cic-catenation-001",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "catenation-and-saturation",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Carbon's unique ability to form bonds with other carbon atoms, building chains, branches or rings, is called:",
+  "options": [
+    "Catenation",
+    "Saturation",
+    "Isomerism",
+    "Hybridisation"
+  ],
+  "answer_index": 0,
+  "explanation": "Catenation is carbon's unmatched ability to bond with other carbon atoms into chains, branches or rings.",
+  "source": "NCERT Class 10, Ch 4"
+}

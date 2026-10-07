@@ -1,0 +1,9 @@
+{
+  "id": "aluminium-oxide-sodium-hydroxide",
+  "equation": "Al2O3 + 2NaOH -> 2NaAlO2 + H2O",
+  "type": "Acid-Base (Amphoteric Oxide) Reaction",
+  "explanation": "Aluminium oxide also reacts with sodium hydroxide like an acid would, forming sodium aluminate and water - demonstrating its amphoteric nature.",
+  "topics": [
+    "metals-and-non-metals"
+  ]
+}

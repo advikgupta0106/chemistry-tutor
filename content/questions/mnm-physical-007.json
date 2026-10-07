@@ -1,0 +1,17 @@
+{
+  "id": "mnm-physical-007",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "physical-properties-of-metals-and-non-metals",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Which allotrope of carbon conducts electricity, unlike most non-metals?",
+  "options": [
+    "Soot",
+    "Graphite",
+    "Coal",
+    "Diamond"
+  ],
+  "answer_index": 1,
+  "explanation": "Graphite, a non-metal allotrope of carbon, conducts electricity \u2014 something most non-metals don't do.",
+  "source": "NCERT Class 10, Ch 3"
+}

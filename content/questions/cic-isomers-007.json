@@ -1,0 +1,17 @@
+{
+  "id": "cic-isomers-007",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chains-branches-rings-and-isomers",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A carbon chain that closes into a ring, like cyclohexane, is an example of a(n):",
+  "options": [
+    "Straight-chain compound",
+    "Ionic compound",
+    "Branched-chain compound",
+    "Ring compound"
+  ],
+  "answer_index": 3,
+  "explanation": "Cyclohexane is a ring compound, where the carbon chain closes back on itself instead of staying straight or branched.",
+  "source": "NCERT Class 10, Ch 4"
+}

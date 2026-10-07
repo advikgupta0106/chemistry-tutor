@@ -1,0 +1,17 @@
+{
+  "id": "cre-balancing-004",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "balancing-chemical-equations",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In 3Fe(s) + 4H2O(g) -> Fe3O4(s) + 4H2(g), the (g) written after H2O specifically tells us that:",
+  "options": [
+    "Hydrogen is a solid",
+    "Oxygen gas is released",
+    "Water is a liquid here",
+    "This reaction uses steam, not liquid water"
+  ],
+  "answer_index": 3,
+  "explanation": "Writing H2O as a gas signals that the reaction specifically uses steam rather than liquid water.",
+  "source": "NCERT Class 10, Ch 1"
+}

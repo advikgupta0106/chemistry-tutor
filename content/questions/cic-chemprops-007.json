@@ -1,0 +1,17 @@
+{
+  "id": "cic-chemprops-007",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chemical-properties-of-carbon-compounds",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Hydrogenating vegetable oils into solid fats using a nickel catalyst is an example of:",
+  "options": [
+    "An oxidation reaction only",
+    "An addition reaction",
+    "A combustion reaction",
+    "A substitution reaction"
+  ],
+  "answer_index": 1,
+  "explanation": "Hydrogenation adds hydrogen across the unsaturated oil's double bonds, making it an addition reaction.",
+  "source": "NCERT Class 10, Ch 4"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-ethanol-004",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "ethanol-and-ethanoic-acid",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A 5-8% solution of ethanoic acid in water is commonly known as:",
+  "options": [
+    "Brine",
+    "Vinegar",
+    "Bleach",
+    "Alcohol"
+  ],
+  "answer_index": 1,
+  "explanation": "Vinegar is a 5-8% solution of ethanoic acid (acetic acid) in water.",
+  "source": "NCERT Class 10, Ch 4"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mnm-acidsalt-002",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-acids-and-salt-solutions",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Testing metals against dilute hydrochloric acid shows the reaction is fastest and most exothermic with:",
+  "options": [
+    "Iron",
+    "Zinc",
+    "Aluminium",
+    "Magnesium"
+  ],
+  "answer_index": 3,
+  "explanation": "Magnesium reacts fastest and most exothermically with dilute HCl, ahead of aluminium, zinc and iron.",
+  "source": "NCERT Class 10, Ch 3"
+}

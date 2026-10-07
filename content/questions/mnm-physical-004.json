@@ -1,0 +1,17 @@
+{
+  "id": "mnm-physical-004",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "physical-properties-of-metals-and-non-metals",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which metal is considered both the most malleable AND the most ductile metal known?",
+  "options": [
+    "Gold",
+    "Aluminium",
+    "Copper",
+    "Iron"
+  ],
+  "answer_index": 0,
+  "explanation": "Gold is both the most malleable and most ductile metal known \u2014 one gram can be drawn into a wire roughly 2 km long.",
+  "source": "NCERT Class 10, Ch 3"
+}

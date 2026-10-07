@@ -1,0 +1,9 @@
+{
+  "id": "ferrous-sulphate-decomposition",
+  "equation": "2FeSO4 -> Fe2O3 + SO2 + SO3",
+  "type": "Thermal Decomposition Reaction",
+  "explanation": "Heating ferrous sulphate crystals breaks them down into ferric oxide, sulphur dioxide and sulphur trioxide, turning the green crystals reddish.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ]
+}

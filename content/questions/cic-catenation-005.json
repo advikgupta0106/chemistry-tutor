@@ -1,0 +1,17 @@
+{
+  "id": "cic-catenation-005",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "catenation-and-saturation",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A compound with at least one carbon-carbon double or triple bond is called:",
+  "options": [
+    "Unsaturated",
+    "Catenated",
+    "Saturated",
+    "Amphoteric"
+  ],
+  "answer_index": 0,
+  "explanation": "An unsaturated compound has at least one double or triple bond between carbon atoms.",
+  "source": "NCERT Class 10, Ch 4"
+}

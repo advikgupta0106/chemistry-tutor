@@ -1,0 +1,17 @@
+{
+  "id": "abs-commonsalt-001",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemicals-from-common-salt",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The chlor-alkali process is named after its two main products:",
+  "options": [
+    "Chlorine and sodium hydroxide",
+    "Chlorine and ammonia",
+    "Calcium and chlorine",
+    "Chlorine and carbon dioxide"
+  ],
+  "answer_index": 0,
+  "explanation": "Chlor-alkali is named for chlorine and sodium hydroxide (an alkali), its two main products besides hydrogen.",
+  "source": "NCERT Class 10, Ch 2"
+}

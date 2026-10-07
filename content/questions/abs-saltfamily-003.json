@@ -1,0 +1,17 @@
+{
+  "id": "abs-saltfamily-003",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "family-of-salts-and-ph-of-salts",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "A salt formed from a strong acid and a strong base has a pH of:",
+  "options": [
+    "Above 7",
+    "Exactly 0",
+    "Exactly 7",
+    "Below 7"
+  ],
+  "answer_index": 2,
+  "explanation": "A salt formed from a strong acid and a strong base is neutral, with pH exactly 7.",
+  "source": "NCERT Class 10, Ch 2"
+}

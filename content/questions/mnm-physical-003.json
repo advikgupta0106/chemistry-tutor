@@ -1,0 +1,17 @@
+{
+  "id": "mnm-physical-003",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "physical-properties-of-metals-and-non-metals",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The ability of a metal to be drawn into thin wires is called:",
+  "options": [
+    "Lustre",
+    "Ductility",
+    "Conductivity",
+    "Malleability"
+  ],
+  "answer_index": 1,
+  "explanation": "Ductility is the property that lets a metal be drawn out into thin wires.",
+  "source": "NCERT Class 10, Ch 3"
+}

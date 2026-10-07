@@ -1,0 +1,17 @@
+{
+  "id": "cre-oxeffects-002",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "effects-of-oxidation-in-everyday-life",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Corrosion is best described as:",
+  "options": [
+    "A metal gaining mass by absorbing water",
+    "A metal melting at a low temperature",
+    "A metal reacting with another metal",
+    "A metal's surface being attacked and worn away by substances around it"
+  ],
+  "answer_index": 3,
+  "explanation": "Corrosion is a metal's surface being slowly attacked and eaten away by moisture, acids or other substances in its environment.",
+  "source": "NCERT Class 10, Ch 1"
+}

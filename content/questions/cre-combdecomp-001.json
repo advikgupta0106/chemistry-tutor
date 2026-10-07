@@ -1,0 +1,17 @@
+{
+  "id": "cre-combdecomp-001",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "combination-and-decomposition",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A reaction in which a single product forms from two or more reactants is called a:",
+  "options": [
+    "Combination reaction",
+    "Neutralisation reaction",
+    "Displacement reaction",
+    "Decomposition reaction"
+  ],
+  "answer_index": 0,
+  "explanation": "Combination reactions join two or more reactants into exactly one product.",
+  "source": "NCERT Class 10, Ch 1"
+}

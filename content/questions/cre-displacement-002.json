@@ -1,0 +1,17 @@
+{
+  "id": "cre-displacement-002",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "displacement-and-double-displacement",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Dipping iron nails into copper sulphate solution for about twenty minutes coats the nails with copper because:",
+  "options": [
+    "Iron dissolves completely in water",
+    "Copper sulphate is unstable on its own",
+    "Copper is more reactive than iron",
+    "Iron is more reactive than copper"
+  ],
+  "answer_index": 3,
+  "explanation": "Iron displaces copper from copper sulphate precisely because iron is more reactive than copper.",
+  "source": "NCERT Class 10, Ch 1"
+}

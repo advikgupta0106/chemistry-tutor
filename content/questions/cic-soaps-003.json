@@ -1,0 +1,17 @@
+{
+  "id": "cic-soaps-003",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "soaps-and-detergents",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Clusters of soap molecules in water, with hydrocarbon tails pointing inward and ionic ends facing outward, are called:",
+  "options": [
+    "Esters",
+    "Micelles",
+    "Alloys",
+    "Isomers"
+  ],
+  "answer_index": 1,
+  "explanation": "Micelles are the clusters soap molecules form in water, tails pointing inward and ionic ends facing outward.",
+  "source": "NCERT Class 10, Ch 4"
+}

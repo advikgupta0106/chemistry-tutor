@@ -1,0 +1,17 @@
+{
+  "id": "cre-combdecomp-008",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "combination-and-decomposition",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Every decomposition reaction is classified as endothermic because:",
+  "options": [
+    "It always produces a gas",
+    "It always releases light",
+    "It always needs a catalyst",
+    "It always needs an input of energy to break the reactant apart"
+  ],
+  "answer_index": 3,
+  "explanation": "Breaking a single reactant apart into two or more products always requires absorbing energy, as heat, light, or electricity.",
+  "source": "NCERT Class 10, Ch 1"
+}

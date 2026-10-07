@@ -1,0 +1,17 @@
+{
+  "id": "cic-functional-007",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "functional-groups-homologous-series-and-nomenclature",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Naming a three-carbon chain with a ketone group gives:",
+  "options": [
+    "Propanone",
+    "Propyne",
+    "Propanal",
+    "Propanol"
+  ],
+  "answer_index": 0,
+  "explanation": "Propane plus the ketone suffix -one, dropping the final 'e', gives propanone.",
+  "source": "NCERT Class 10, Ch 4"
+}

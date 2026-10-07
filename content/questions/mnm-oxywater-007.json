@@ -1,0 +1,17 @@
+{
+  "id": "mnm-oxywater-007",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-oxygen-and-water",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which metals do NOT react with water at all, even as steam?",
+  "options": [
+    "Aluminium and zinc",
+    "Calcium and magnesium",
+    "Sodium and potassium",
+    "Lead, copper, silver and gold"
+  ],
+  "answer_index": 3,
+  "explanation": "Lead, copper, silver and gold don't react with water in any form.",
+  "source": "NCERT Class 10, Ch 3"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mnm-physical-006",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "physical-properties-of-metals-and-non-metals",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Which non-metal is an exception because it shows metallic lustre?",
+  "options": [
+    "Sulphur",
+    "Oxygen",
+    "Hydrogen",
+    "Iodine"
+  ],
+  "answer_index": 3,
+  "explanation": "Iodine is a lustrous non-metal, an exception to the general rule that non-metals lack metallic lustre.",
+  "source": "NCERT Class 10, Ch 3"
+}

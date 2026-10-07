@@ -1,0 +1,17 @@
+{
+  "id": "mnm-acidsalt-008",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-acids-and-salt-solutions",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "If metal A displaces metal B from its salt solution, what can be concluded?",
+  "options": [
+    "A and B are equally reactive",
+    "A is less reactive than B",
+    "B is a non-metal",
+    "A is more reactive than B"
+  ],
+  "answer_index": 3,
+  "explanation": "A displacement happening at all is direct proof that the displacing metal, A, is more reactive than B.",
+  "source": "NCERT Class 10, Ch 3"
+}

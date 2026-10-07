@@ -1,0 +1,17 @@
+{
+  "id": "abs-common-003",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "what-acids-and-bases-have-in-common",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Bases that are soluble in water are specifically called:",
+  "options": [
+    "Indicators",
+    "Salts",
+    "Acids",
+    "Alkalis"
+  ],
+  "answer_index": 3,
+  "explanation": "A water-soluble base is specifically called an alkali.",
+  "source": "NCERT Class 10, Ch 2"
+}

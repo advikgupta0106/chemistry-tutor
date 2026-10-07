@@ -1,0 +1,17 @@
+{
+  "id": "cre-writing-008",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "writing-chemical-equations",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A substance newly formed in a chemical reaction, written on the right side of the equation, is called a:",
+  "options": [
+    "Catalyst",
+    "Reactant",
+    "Reagent",
+    "Product"
+  ],
+  "answer_index": 3,
+  "explanation": "The product is the new substance formed, written after the arrow on the right-hand side.",
+  "source": "NCERT Class 10, Ch 1"
+}

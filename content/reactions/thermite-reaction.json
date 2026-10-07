@@ -1,0 +1,9 @@
+{
+  "id": "thermite-reaction",
+  "equation": "Fe2O3 + 2Al -> 2Fe + Al2O3",
+  "type": "Displacement (Thermite) Reaction",
+  "explanation": "Aluminium displaces iron from iron(III) oxide in this highly exothermic reaction, producing molten iron directly - used to join railway tracks and repair cracked machine parts.",
+  "topics": [
+    "metals-and-non-metals"
+  ]
+}

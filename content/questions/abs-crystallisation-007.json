@@ -1,0 +1,17 @@
+{
+  "id": "abs-crystallisation-007",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "water-of-crystallisation",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Plaster of Paris must be stored in a moisture-proof container because:",
+  "options": [
+    "It reacts with oxygen to form rust",
+    "It is highly flammable",
+    "It dissolves instantly in dry air",
+    "Any ambient moisture would set it hard while still in storage"
+  ],
+  "answer_index": 3,
+  "explanation": "Plaster of Paris readily takes up water and hardens, so any ambient moisture in storage would set it hard prematurely.",
+  "source": "NCERT Class 10, Ch 2"
+}

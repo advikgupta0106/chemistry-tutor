@@ -1,0 +1,17 @@
+{
+  "id": "abs-ph-002",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "the-ph-scale",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A solution with pH exactly 7 is:",
+  "options": [
+    "Weakly acidic",
+    "Strongly basic",
+    "Neutral",
+    "Strongly acidic"
+  ],
+  "answer_index": 2,
+  "explanation": "pH 7 is exactly neutral \u2014 neither acidic nor basic.",
+  "source": "NCERT Class 10, Ch 2"
+}

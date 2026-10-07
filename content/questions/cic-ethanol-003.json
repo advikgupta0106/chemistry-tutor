@@ -1,0 +1,17 @@
+{
+  "id": "cic-ethanol-003",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "ethanol-and-ethanoic-acid",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In the dehydration of ethanol to ethene, concentrated sulphuric acid acts as:",
+  "options": [
+    "A dehydrating agent",
+    "A catalyst that is itself consumed",
+    "A reducing agent",
+    "An oxidising agent"
+  ],
+  "answer_index": 0,
+  "explanation": "Concentrated sulphuric acid removes water from the alcohol, acting purely as a dehydrating agent.",
+  "source": "NCERT Class 10, Ch 4"
+}

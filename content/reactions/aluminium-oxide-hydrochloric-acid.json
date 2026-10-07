@@ -1,0 +1,9 @@
+{
+  "id": "aluminium-oxide-hydrochloric-acid",
+  "equation": "Al2O3 + 6HCl -> 2AlCl3 + 3H2O",
+  "type": "Acid-Base (Amphoteric Oxide) Reaction",
+  "explanation": "Aluminium oxide, an amphoteric oxide, reacts with hydrochloric acid like a base would, forming aluminium chloride and water.",
+  "topics": [
+    "metals-and-non-metals"
+  ]
+}

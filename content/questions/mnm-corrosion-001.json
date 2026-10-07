@@ -1,0 +1,17 @@
+{
+  "id": "mnm-corrosion-001",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "corrosion-and-alloys",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Iron rusts only when exposed to:",
+  "options": [
+    "Air alone",
+    "Dry heat",
+    "Both air and water together",
+    "Water alone"
+  ],
+  "answer_index": 2,
+  "explanation": "Nails kept in air-free water or dry air don't rust, showing iron needs both air and water together to rust.",
+  "source": "NCERT Class 10, Ch 3"
+}

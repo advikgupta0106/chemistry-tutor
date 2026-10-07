@@ -1,0 +1,17 @@
+{
+  "id": "mnm-corrosion-008",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "corrosion-and-alloys",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "An alloy containing mercury is specifically called a(n):",
+  "options": [
+    "Brass",
+    "Solder",
+    "Bronze",
+    "Amalgam"
+  ],
+  "answer_index": 3,
+  "explanation": "An alloy containing mercury is specifically called an amalgam.",
+  "source": "NCERT Class 10, Ch 3"
+}

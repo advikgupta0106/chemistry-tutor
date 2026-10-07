@@ -1,0 +1,17 @@
+{
+  "id": "abs-commonsalt-002",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemicals-from-common-salt",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Passing electricity through brine (aqueous NaCl) produces sodium hydroxide, chlorine gas, and:",
+  "options": [
+    "Hydrogen gas",
+    "Carbon dioxide",
+    "Nitrogen gas",
+    "Oxygen gas"
+  ],
+  "answer_index": 0,
+  "explanation": "Electrolysing brine produces sodium hydroxide, chlorine gas at the anode, and hydrogen gas at the cathode.",
+  "source": "NCERT Class 10, Ch 2"
+}

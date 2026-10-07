@@ -1,0 +1,17 @@
+{
+  "id": "abs-saltfamily-004",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "family-of-salts-and-ph-of-salts",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "A salt formed from a strong acid and a weak base is:",
+  "options": [
+    "Neutral, pH 7",
+    "Acidic, pH below 7",
+    "Basic, pH above 7",
+    "Always insoluble"
+  ],
+  "answer_index": 1,
+  "explanation": "A salt formed from a strong acid and a weak base is acidic, with pH below 7.",
+  "source": "NCERT Class 10, Ch 2"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-chemprops-001",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chemical-properties-of-carbon-compounds",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Carbon and its compounds burn in oxygen to release:",
+  "options": [
+    "Only heat",
+    "Only light",
+    "Heat and light",
+    "Neither heat nor light"
+  ],
+  "answer_index": 2,
+  "explanation": "Carbon and most of its compounds burn in oxygen to give carbon dioxide along with heat and light.",
+  "source": "NCERT Class 10, Ch 4"
+}

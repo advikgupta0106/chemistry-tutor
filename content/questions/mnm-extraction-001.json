@@ -1,0 +1,17 @@
+{
+  "id": "mnm-extraction-001",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "extraction-and-refining-of-metals",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A mineral that contains enough of a particular metal to be profitably extracted is specifically called a(n):",
+  "options": [
+    "Oxide",
+    "Amalgam",
+    "Alloy",
+    "Ore"
+  ],
+  "answer_index": 3,
+  "explanation": "An ore is a mineral with a high enough percentage of a metal to be profitably extracted.",
+  "source": "NCERT Class 10, Ch 3"
+}

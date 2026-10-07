@@ -1,0 +1,17 @@
+{
+  "id": "abs-commonsalt-008",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemicals-from-common-salt",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Washing soda, Na2CO3.10H2O, is used in all of the following EXCEPT:",
+  "options": [
+    "The glass and soap industries",
+    "Removing permanent hardness of water",
+    "As an antacid for stomach acid",
+    "As a household cleaning agent"
+  ],
+  "answer_index": 2,
+  "explanation": "Washing soda is used industrially and for cleaning and softening hard water \u2014 baking soda, not washing soda, is the antacid.",
+  "source": "NCERT Class 10, Ch 2"
+}

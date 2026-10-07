@@ -1,0 +1,17 @@
+{
+  "id": "cic-catenation-004",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "catenation-and-saturation",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A compound whose carbon atoms are linked only by single bonds is called:",
+  "options": [
+    "Aromatic",
+    "Unsaturated",
+    "Saturated",
+    "Ionic"
+  ],
+  "answer_index": 2,
+  "explanation": "A saturated compound links its carbon atoms only by single bonds.",
+  "source": "NCERT Class 10, Ch 4"
+}

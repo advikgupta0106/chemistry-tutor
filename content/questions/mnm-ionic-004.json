@@ -1,0 +1,17 @@
+{
+  "id": "mnm-ionic-004",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "ionic-bonding-and-properties-of-ionic-compounds",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Magnesium forms an ionic compound with chlorine by losing:",
+  "options": [
+    "Two electrons",
+    "Four electrons",
+    "One electron",
+    "Three electrons"
+  ],
+  "answer_index": 0,
+  "explanation": "Magnesium loses two electrons (Mg -> Mg2+ + 2e-) to two separate chlorine atoms, forming magnesium chloride.",
+  "source": "NCERT Class 10, Ch 3"
+}

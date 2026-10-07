@@ -1,0 +1,17 @@
+{
+  "id": "cic-chemprops-002",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chemical-properties-of-carbon-compounds",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Saturated hydrocarbons generally burn with a clean flame, while unsaturated hydrocarbons burn with a:",
+  "options": [
+    "Green flame",
+    "No flame at all",
+    "Clean blue flame",
+    "Yellow, sooty flame"
+  ],
+  "answer_index": 3,
+  "explanation": "Unsaturated hydrocarbons burn with a yellow, sooty flame, depositing visible soot.",
+  "source": "NCERT Class 10, Ch 4"
+}

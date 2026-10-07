@@ -1,0 +1,17 @@
+{
+  "id": "cre-combdecomp-002",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "combination-and-decomposition",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A reaction that releases heat is called:",
+  "options": [
+    "Isothermic",
+    "Exothermic",
+    "Endothermic",
+    "Adiabatic"
+  ],
+  "answer_index": 1,
+  "explanation": "An exothermic reaction is one that gives out heat along with its products.",
+  "source": "NCERT Class 10, Ch 1"
+}

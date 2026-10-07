@@ -1,0 +1,17 @@
+{
+  "id": "abs-saltfamily-002",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "family-of-salts-and-ph-of-salts",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Sodium chloride and potassium chloride belong to the same family of salts because they share the same:",
+  "options": [
+    "State of matter",
+    "Positive ion",
+    "Negative ion",
+    "pH value"
+  ],
+  "answer_index": 2,
+  "explanation": "Both salts share the chloride negative ion, placing them in the same family of chloride salts.",
+  "source": "NCERT Class 10, Ch 2"
+}

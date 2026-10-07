@@ -1,0 +1,17 @@
+{
+  "id": "mnm-extraction-008",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "extraction-and-refining-of-metals",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In electrolytic refining, the impure metal is made the:",
+  "options": [
+    "Electrolyte",
+    "Catalyst",
+    "Anode",
+    "Cathode"
+  ],
+  "answer_index": 2,
+  "explanation": "The impure metal is made the anode; a thin strip of pure metal is the cathode.",
+  "source": "NCERT Class 10, Ch 3"
+}

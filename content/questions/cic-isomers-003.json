@@ -1,0 +1,17 @@
+{
+  "id": "cic-isomers-003",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chains-branches-rings-and-isomers",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Unsaturated hydrocarbons containing at least one double bond are called:",
+  "options": [
+    "Isomers",
+    "Alkynes",
+    "Alkanes",
+    "Alkenes"
+  ],
+  "answer_index": 3,
+  "explanation": "Alkenes are unsaturated hydrocarbons containing one or more double bonds.",
+  "source": "NCERT Class 10, Ch 4"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mnm-reactivity-003",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "the-reactivity-series",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which metal sits at the very bottom (least reactive) of the standard reactivity series?",
+  "options": [
+    "Gold",
+    "Copper",
+    "Silver",
+    "Mercury"
+  ],
+  "answer_index": 0,
+  "explanation": "Gold is the least reactive metal in the standard reactivity series.",
+  "source": "NCERT Class 10, Ch 3"
+}

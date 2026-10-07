@@ -1,0 +1,9 @@
+{
+  "id": "silver-chloride-photolysis",
+  "equation": "2AgCl -> 2Ag + Cl2",
+  "type": "Photolytic Decomposition Reaction",
+  "explanation": "Silver chloride decomposes into silver metal and chlorine gas when exposed to sunlight, the same light-driven reaction black-and-white photography relies on.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ]
+}

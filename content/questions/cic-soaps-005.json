@@ -1,0 +1,17 @@
+{
+  "id": "cic-soaps-005",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "soaps-and-detergents",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Water containing dissolved calcium and magnesium salts is called:",
+  "options": [
+    "Saline water",
+    "Hard water",
+    "Soft water",
+    "Distilled water"
+  ],
+  "answer_index": 1,
+  "explanation": "Water containing dissolved calcium and magnesium salts is called hard water.",
+  "source": "NCERT Class 10, Ch 4"
+}

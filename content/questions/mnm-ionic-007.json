@@ -1,0 +1,17 @@
+{
+  "id": "mnm-ionic-007",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "ionic-bonding-and-properties-of-ionic-compounds",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Ionic compounds conduct electricity:",
+  "options": [
+    "Only when molten or dissolved in water",
+    "Only in the solid state",
+    "Never, under any conditions",
+    "Only when mixed with a metal"
+  ],
+  "answer_index": 0,
+  "explanation": "Ions are free to move and carry current only when the compound is molten or dissolved, not as a rigid solid.",
+  "source": "NCERT Class 10, Ch 3"
+}

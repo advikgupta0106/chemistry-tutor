@@ -1,0 +1,17 @@
+{
+  "id": "cic-isomers-004",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chains-branches-rings-and-isomers",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Unsaturated hydrocarbons containing at least one triple bond are called:",
+  "options": [
+    "Esters",
+    "Alkynes",
+    "Alkenes",
+    "Alkanes"
+  ],
+  "answer_index": 1,
+  "explanation": "Alkynes are unsaturated hydrocarbons containing one or more triple bonds.",
+  "source": "NCERT Class 10, Ch 4"
+}

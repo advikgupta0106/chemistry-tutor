@@ -1,0 +1,17 @@
+{
+  "id": "mnm-reactivity-007",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "the-reactivity-series",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Where does copper sit relative to hydrogen in the reactivity series?",
+  "options": [
+    "Exactly at hydrogen's position",
+    "Above hydrogen",
+    "Copper is not a metal",
+    "Below hydrogen"
+  ],
+  "answer_index": 3,
+  "explanation": "Copper sits below hydrogen in the reactivity series, which is why it can't displace hydrogen from a dilute acid.",
+  "source": "NCERT Class 10, Ch 3"
+}

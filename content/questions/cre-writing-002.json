@@ -1,0 +1,17 @@
+{
+  "id": "cre-writing-002",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "writing-chemical-equations",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "In a chemical equation, the substances written on the left of the arrow are called:",
+  "options": [
+    "Products",
+    "Indicators",
+    "Reactants",
+    "Catalysts"
+  ],
+  "answer_index": 2,
+  "explanation": "Reactants are written on the left, before the arrow; products are written on the right, after it.",
+  "source": "NCERT Class 10, Ch 1"
+}

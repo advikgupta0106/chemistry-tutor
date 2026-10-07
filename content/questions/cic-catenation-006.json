@@ -1,0 +1,17 @@
+{
+  "id": "cic-catenation-006",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "catenation-and-saturation",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Ethene, C2H4, is unsaturated because:",
+  "options": [
+    "A single bond alone would leave one valency per carbon unsatisfied, so it needs a double bond",
+    "It contains no hydrogen atoms",
+    "It has only single bonds",
+    "It has a triple bond between its carbons"
+  ],
+  "answer_index": 0,
+  "explanation": "A single bond between ethene's two carbons would leave a valency unsatisfied on each, so it needs a double bond instead.",
+  "source": "NCERT Class 10, Ch 4"
+}

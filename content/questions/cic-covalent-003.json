@@ -1,0 +1,17 @@
+{
+  "id": "cic-covalent-003",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "covalent-bonding-in-carbon",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A shared pair of electrons between two atoms forms a:",
+  "options": [
+    "Metallic bond",
+    "Covalent bond",
+    "Hydrogen bond",
+    "Ionic bond"
+  ],
+  "answer_index": 1,
+  "explanation": "A shared pair of electrons between two atoms constitutes a single covalent bond.",
+  "source": "NCERT Class 10, Ch 4"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "abs-crystallisation-001",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "water-of-crystallisation",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Water of crystallisation is:",
+  "options": [
+    "Surface moisture on a crystal",
+    "Water added just before use",
+    "A fixed number of water molecules chemically bound within a salt's formula unit",
+    "Water that evaporates at room temperature"
+  ],
+  "answer_index": 2,
+  "explanation": "Water of crystallisation is a fixed, specific number of water molecules chemically bound inside a salt's crystal structure.",
+  "source": "NCERT Class 10, Ch 2"
+}

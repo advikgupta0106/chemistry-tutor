@@ -1,0 +1,9 @@
+{
+  "id": "aluminium-oxygen-combination",
+  "equation": "4Al + 3O2 -> 2Al2O3",
+  "type": "Combination Reaction",
+  "explanation": "Aluminium burns in oxygen to form a protective layer of aluminium oxide on its surface.",
+  "topics": [
+    "metals-and-non-metals"
+  ]
+}

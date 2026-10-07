@@ -1,0 +1,17 @@
+{
+  "id": "cre-displacement-007",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "displacement-and-double-displacement",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In Na2SO4 + BaCl2 -> BaSO4 + 2NaCl, how many sodium atoms appear on each side?",
+  "options": [
+    "1",
+    "2",
+    "4",
+    "3"
+  ],
+  "answer_index": 1,
+  "explanation": "Na2SO4 has 2 sodium atoms, matching the 2NaCl on the product side.",
+  "source": "NCERT Class 10, Ch 1"
+}

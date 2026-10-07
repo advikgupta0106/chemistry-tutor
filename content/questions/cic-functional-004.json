@@ -1,0 +1,17 @@
+{
+  "id": "cic-functional-004",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "functional-groups-homologous-series-and-nomenclature",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "A series of compounds sharing the same functional group, with carbon chains of increasing length, is called a:",
+  "options": [
+    "Periodic series",
+    "Functional series",
+    "Homologous series",
+    "Isomeric series"
+  ],
+  "answer_index": 2,
+  "explanation": "A homologous series is a family of compounds sharing one functional group across chains of increasing length.",
+  "source": "NCERT Class 10, Ch 4"
+}

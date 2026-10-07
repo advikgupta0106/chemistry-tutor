@@ -1,0 +1,9 @@
+{
+  "id": "zinc-oxide-carbon",
+  "equation": "ZnO + C -> Zn + CO",
+  "type": "Reduction (Redox) Reaction",
+  "explanation": "Carbon reduces zinc oxide to metallic zinc by removing its oxygen, while carbon itself is oxidised to carbon monoxide.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ]
+}

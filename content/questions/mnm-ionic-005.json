@@ -1,0 +1,17 @@
+{
+  "id": "mnm-ionic-005",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "ionic-bonding-and-properties-of-ionic-compounds",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Ionic compounds generally have high melting and boiling points because:",
+  "options": [
+    "Their ions are very small",
+    "They are always gases at room temperature",
+    "Of the strong electrostatic attraction holding their ions together",
+    "They contain covalent bonds"
+  ],
+  "answer_index": 2,
+  "explanation": "A considerable amount of energy is needed to overcome the strong electrostatic attraction between the ions.",
+  "source": "NCERT Class 10, Ch 3"
+}

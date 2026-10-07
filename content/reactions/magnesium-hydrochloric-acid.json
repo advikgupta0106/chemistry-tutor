@@ -1,0 +1,9 @@
+{
+  "id": "magnesium-hydrochloric-acid",
+  "equation": "Mg + 2HCl -> MgCl2 + H2",
+  "type": "Metal-Acid Reaction",
+  "explanation": "Magnesium reacts rapidly with dilute hydrochloric acid, releasing hydrogen gas and forming magnesium chloride.",
+  "topics": [
+    "metals-and-non-metals"
+  ]
+}

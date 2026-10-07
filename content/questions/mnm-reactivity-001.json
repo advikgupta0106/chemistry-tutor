@@ -1,0 +1,17 @@
+{
+  "id": "mnm-reactivity-001",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "the-reactivity-series",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The reactivity series is built by combining the results of displacement experiments with:",
+  "options": [
+    "Oxygen only",
+    "Oxygen, water, acids, and other metals' salts",
+    "Water only",
+    "Acids only"
+  ],
+  "answer_index": 1,
+  "explanation": "No single reagent ranks every metal, so the reactivity series combines results across oxygen, water, acids and salt-displacement reactions.",
+  "source": "NCERT Class 10, Ch 3"
+}

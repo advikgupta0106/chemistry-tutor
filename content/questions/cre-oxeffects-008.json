@@ -1,0 +1,17 @@
+{
+  "id": "cre-oxeffects-008",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "effects-of-oxidation-in-everyday-life",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Corrosion is considered a costly industrial problem mainly because it:",
+  "options": [
+    "Has no real economic impact",
+    "Makes metals shinier",
+    "Damages structures like car bodies, bridges and ships, requiring expensive replacement",
+    "Only affects decorative metals"
+  ],
+  "answer_index": 2,
+  "explanation": "Corrosion damages cars, bridges, railings and ships, and a huge amount of money is spent every year replacing iron it has damaged.",
+  "source": "NCERT Class 10, Ch 1"
+}

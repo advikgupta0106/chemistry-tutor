@@ -1,0 +1,17 @@
+{
+  "id": "cre-redox-006",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "oxidation-and-reduction-class-10",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In ZnO + C -> Zn + CO, carbon is:",
+  "options": [
+    "Reduced, because it gains hydrogen",
+    "Oxidised, because it gains oxygen",
+    "Reduced, because it loses oxygen",
+    "Oxidised, because it loses hydrogen"
+  ],
+  "answer_index": 1,
+  "explanation": "Carbon gains oxygen as it turns into carbon monoxide, so it is oxidised, while zinc oxide is reduced to zinc.",
+  "source": "NCERT Class 10, Ch 1"
+}

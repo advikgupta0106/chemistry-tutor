@@ -1,0 +1,17 @@
+{
+  "id": "cic-chemprops-004",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chemical-properties-of-carbon-compounds",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A substance capable of adding oxygen to another compound is called a(n):",
+  "options": [
+    "Indicator",
+    "Oxidising agent",
+    "Reducing agent",
+    "Catalyst"
+  ],
+  "answer_index": 1,
+  "explanation": "An oxidising agent is a substance capable of adding oxygen to another compound.",
+  "source": "NCERT Class 10, Ch 4"
+}

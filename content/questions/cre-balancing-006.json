@@ -1,0 +1,17 @@
+{
+  "id": "cre-balancing-006",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "balancing-chemical-equations",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Following the conventional hit-and-trial approach, which compound should usually be balanced first when balancing Fe + H2O -> Fe3O4 + H2?",
+  "options": [
+    "H2",
+    "H2O",
+    "Fe3O4, because it has the most atoms of one element",
+    "Fe"
+  ],
+  "answer_index": 2,
+  "explanation": "It's conventional to start with whichever compound has the most atoms of a single element \u2014 here, the four oxygens in Fe3O4.",
+  "source": "NCERT Class 10, Ch 1"
+}

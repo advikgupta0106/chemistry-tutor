@@ -1,0 +1,17 @@
+{
+  "id": "abs-common-007",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "what-acids-and-bases-have-in-common",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "When preparing a dilute acid solution, why must the concentrated acid always be added slowly to water, and never the reverse?",
+  "options": [
+    "Because acid evaporates faster than water",
+    "Because water is heavier than acid",
+    "Because the mixing order affects the acid's colour",
+    "Because the process is highly exothermic, and the reverse order risks a dangerous splash"
+  ],
+  "answer_index": 3,
+  "explanation": "Dissolving concentrated acid in water is strongly exothermic, so acid must be added slowly to water to avoid a dangerous splash.",
+  "source": "NCERT Class 10, Ch 2"
+}

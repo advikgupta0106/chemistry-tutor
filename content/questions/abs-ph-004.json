@@ -1,0 +1,17 @@
+{
+  "id": "abs-ph-004",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "the-ph-scale",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A solution has pH 3 and another has pH 9. Which solution is more acidic?",
+  "options": [
+    "The pH 3 solution",
+    "Both are equally acidic",
+    "Neither is acidic",
+    "The pH 9 solution"
+  ],
+  "answer_index": 0,
+  "explanation": "A lower pH value means a more acidic solution, so the pH 3 solution is more acidic.",
+  "source": "NCERT Class 10, Ch 2"
+}

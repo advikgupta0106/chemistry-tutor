@@ -1,0 +1,17 @@
+{
+  "id": "abs-common-006",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "what-acids-and-bases-have-in-common",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Dissolving an acid or base in more water, decreasing the concentration of its ions per unit volume, is called:",
+  "options": [
+    "Dissociation",
+    "Precipitation",
+    "Neutralisation",
+    "Dilution"
+  ],
+  "answer_index": 3,
+  "explanation": "Mixing an acid or base into more water, lowering the ion concentration, is called dilution.",
+  "source": "NCERT Class 10, Ch 2"
+}

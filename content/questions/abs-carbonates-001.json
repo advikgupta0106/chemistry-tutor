@@ -1,0 +1,17 @@
+{
+  "id": "abs-carbonates-001",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "reactions-with-carbonates-oxides-and-each-other",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Adding dilute hydrochloric acid to sodium carbonate produces a gas that:",
+  "options": [
+    "Smells like rotten eggs",
+    "Relights a glowing splint",
+    "Is hydrogen gas",
+    "Turns lime water milky"
+  ],
+  "answer_index": 3,
+  "explanation": "The gas evolved is carbon dioxide, confirmed because it turns lime water milky.",
+  "source": "NCERT Class 10, Ch 2"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-ethanol-006",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "ethanol-and-ethanoic-acid",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Unlike mineral acids like HCl, which ionise completely, carboxylic acids like ethanoic acid are classified as:",
+  "options": [
+    "Neutral acids",
+    "Weak acids",
+    "Strong acids",
+    "Bases"
+  ],
+  "answer_index": 1,
+  "explanation": "Carboxylic acids are weak acids, unlike mineral acids such as HCl, which ionise completely.",
+  "source": "NCERT Class 10, Ch 4"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "abs-ph-005",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "the-ph-scale",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "An acid that produces more H+ ions at a given concentration, compared to another acid, is called a:",
+  "options": [
+    "Neutral acid",
+    "Strong acid",
+    "Dilute acid",
+    "Weak acid"
+  ],
+  "answer_index": 1,
+  "explanation": "Acids that produce more H+ ions at the same concentration are called strong acids.",
+  "source": "NCERT Class 10, Ch 2"
+}

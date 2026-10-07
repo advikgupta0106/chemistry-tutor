@@ -1,0 +1,17 @@
+{
+  "id": "cic-ethanol-005",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "ethanol-and-ethanoic-acid",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Pure ethanoic acid often freezes in cold winters because its melting point, 290 K, is close to room temperature \u2014 this earns it the name:",
+  "options": [
+    "Frozen ester",
+    "Solid alcohol",
+    "Rock vinegar",
+    "Glacial acetic acid"
+  ],
+  "answer_index": 3,
+  "explanation": "Ethanoic acid's melting point near room temperature is why it's called glacial acetic acid.",
+  "source": "NCERT Class 10, Ch 4"
+}

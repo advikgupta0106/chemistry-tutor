@@ -1,0 +1,17 @@
+{
+  "id": "cre-displacement-008",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "displacement-and-double-displacement",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Lead displacing copper from copper chloride (Pb + CuCl2 -> PbCl2 + Cu) is possible because:",
+  "options": [
+    "Copper chloride is itself a precipitate",
+    "Lead is more reactive than copper",
+    "Lead is less reactive than copper",
+    "Lead is a non-metal"
+  ],
+  "answer_index": 1,
+  "explanation": "A more reactive element can displace a less reactive one from its compound \u2014 lead is more reactive than copper.",
+  "source": "NCERT Class 10, Ch 1"
+}

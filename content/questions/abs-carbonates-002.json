@@ -1,0 +1,17 @@
+{
+  "id": "abs-carbonates-002",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "reactions-with-carbonates-oxides-and-each-other",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The general reaction pattern for a metal carbonate reacting with an acid is:",
+  "options": [
+    "Metal carbonate + Base -> Salt + Water",
+    "Metal carbonate + Acid -> Salt + Carbon dioxide + Water",
+    "Metal carbonate + Acid -> Salt + Oxygen",
+    "Metal carbonate + Acid -> Salt + Hydrogen"
+  ],
+  "answer_index": 1,
+  "explanation": "Metal carbonates and hydrogencarbonates react with acids to give the corresponding salt, carbon dioxide, and water.",
+  "source": "NCERT Class 10, Ch 2"
+}

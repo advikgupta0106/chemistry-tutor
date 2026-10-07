@@ -1,0 +1,17 @@
+{
+  "id": "cic-covalent-004",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "covalent-bonding-in-carbon",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "How many covalent bonds does carbon form in methane, CH4?",
+  "options": [
+    "2",
+    "4",
+    "1",
+    "3"
+  ],
+  "answer_index": 1,
+  "explanation": "Carbon shares one electron each with four separate hydrogen atoms, forming four single covalent bonds.",
+  "source": "NCERT Class 10, Ch 4"
+}

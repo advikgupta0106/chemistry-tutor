@@ -1,0 +1,17 @@
+{
+  "id": "cic-covalent-001",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "covalent-bonding-in-carbon",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Carbon has how many electrons in its outermost shell?",
+  "options": [
+    "4",
+    "6",
+    "2",
+    "8"
+  ],
+  "answer_index": 0,
+  "explanation": "Carbon's atomic number is 6, giving it four electrons in its outermost shell.",
+  "source": "NCERT Class 10, Ch 4"
+}

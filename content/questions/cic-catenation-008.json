@@ -1,0 +1,17 @@
+{
+  "id": "cic-catenation-008",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "catenation-and-saturation",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Compared to saturated compounds, unsaturated compounds are generally:",
+  "options": [
+    "More reactive, because of the extra double or triple bond available",
+    "Equally reactive",
+    "Never reactive at all",
+    "Less reactive, because of the extra bond"
+  ],
+  "answer_index": 0,
+  "explanation": "The extra double or triple bond available to react across makes unsaturated compounds generally more reactive.",
+  "source": "NCERT Class 10, Ch 4"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-functional-005",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "functional-groups-homologous-series-and-nomenclature",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Consecutive members of a homologous series differ from each other by a fixed:",
+  "options": [
+    "-COOH unit",
+    "-CH2- unit",
+    "-OH unit",
+    "-Cl unit"
+  ],
+  "answer_index": 1,
+  "explanation": "Consecutive members of a homologous series differ by a fixed -CH2- unit, and so a fixed difference in molecular mass.",
+  "source": "NCERT Class 10, Ch 4"
+}

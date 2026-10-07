@@ -1,0 +1,17 @@
+{
+  "id": "cre-redox-004",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "oxidation-and-reduction-class-10",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In the same reaction CuO + H2 -> Cu + H2O, which substance is oxidised?",
+  "options": [
+    "Cu",
+    "H2",
+    "H2O",
+    "CuO"
+  ],
+  "answer_index": 1,
+  "explanation": "Hydrogen gains the oxygen that copper(II) oxide loses, so hydrogen is oxidised.",
+  "source": "NCERT Class 10, Ch 1"
+}

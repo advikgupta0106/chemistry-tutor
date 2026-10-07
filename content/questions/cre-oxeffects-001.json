@@ -1,0 +1,17 @@
+{
+  "id": "cre-oxeffects-001",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "effects-of-oxidation-in-everyday-life",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The reddish-brown coating that forms on iron exposed to humid air is called:",
+  "options": [
+    "Tarnish",
+    "Rust",
+    "Scale",
+    "Verdigris"
+  ],
+  "answer_index": 1,
+  "explanation": "Rust is the specific reddish-brown coating that forms when iron corrodes in humid air.",
+  "source": "NCERT Class 10, Ch 1"
+}

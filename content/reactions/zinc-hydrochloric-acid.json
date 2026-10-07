@@ -1,0 +1,9 @@
+{
+  "id": "zinc-hydrochloric-acid",
+  "equation": "Zn + 2HCl -> ZnCl2 + H2",
+  "type": "Metal-Acid Reaction",
+  "explanation": "Zinc reacts with dilute hydrochloric acid to release hydrogen gas and form zinc chloride.",
+  "topics": [
+    "metals-and-non-metals"
+  ]
+}

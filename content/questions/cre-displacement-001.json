@@ -1,0 +1,17 @@
+{
+  "id": "cre-displacement-001",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "displacement-and-double-displacement",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A reaction where one element takes the place of another element already combined in a compound is called a:",
+  "options": [
+    "Combination reaction",
+    "Decomposition reaction",
+    "Double displacement reaction",
+    "Displacement reaction"
+  ],
+  "answer_index": 3,
+  "explanation": "A displacement reaction is exactly this: one element taking the place of another element already in a compound.",
+  "source": "NCERT Class 10, Ch 1"
+}

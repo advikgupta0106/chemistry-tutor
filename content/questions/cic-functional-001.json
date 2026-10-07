@@ -1,0 +1,17 @@
+{
+  "id": "cic-functional-001",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "functional-groups-homologous-series-and-nomenclature",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A heteroatom or group of atoms replacing a hydrogen on a carbon chain, which fixes the compound's chemical properties, is called a:",
+  "options": [
+    "Functional group",
+    "Homologous series",
+    "Isomer",
+    "Hydrocarbon"
+  ],
+  "answer_index": 0,
+  "explanation": "A functional group is a heteroatom or group of atoms that replaces hydrogen and fixes the compound's chemical properties.",
+  "source": "NCERT Class 10, Ch 4"
+}

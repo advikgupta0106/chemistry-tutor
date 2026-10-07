@@ -1,0 +1,17 @@
+{
+  "id": "cic-soaps-002",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "soaps-and-detergents",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A soap molecule has two distinct ends: an ionic end that interacts with water, and a:",
+  "options": [
+    "Second ionic end",
+    "Long hydrocarbon tail that interacts with oil",
+    "Short carbon chain that repels water",
+    "Metallic end"
+  ],
+  "answer_index": 1,
+  "explanation": "The other end of a soap molecule is a long hydrocarbon tail that interacts with oil.",
+  "source": "NCERT Class 10, Ch 4"
+}

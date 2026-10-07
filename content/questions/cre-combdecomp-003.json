@@ -1,0 +1,17 @@
+{
+  "id": "cre-combdecomp-003",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "combination-and-decomposition",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "CaO(s) + H2O(l) -> Ca(OH)2(aq) + Heat is an example of a reaction that is both:",
+  "options": [
+    "Decomposition and endothermic",
+    "Combination and exothermic",
+    "Displacement and endothermic",
+    "Combination and endothermic"
+  ],
+  "answer_index": 1,
+  "explanation": "Two reactants combine into one product (combination), and heat is released in the process (exothermic).",
+  "source": "NCERT Class 10, Ch 1"
+}

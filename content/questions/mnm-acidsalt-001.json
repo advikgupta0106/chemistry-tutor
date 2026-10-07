@@ -1,0 +1,17 @@
+{
+  "id": "mnm-acidsalt-001",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-acids-and-salt-solutions",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The general reaction pattern for a metal reacting with a dilute acid is:",
+  "options": [
+    "Metal + Dilute acid -> Salt + Water",
+    "Metal + Dilute acid -> Salt + Oxygen",
+    "Metal + Dilute acid -> Metal oxide + Water",
+    "Metal + Dilute acid -> Salt + Hydrogen"
+  ],
+  "answer_index": 3,
+  "explanation": "A metal reacting with a dilute acid gives a salt and releases hydrogen gas.",
+  "source": "NCERT Class 10, Ch 3"
+}

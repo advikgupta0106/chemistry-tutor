@@ -1,0 +1,17 @@
+{
+  "id": "mnm-ionic-002",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "ionic-bonding-and-properties-of-ionic-compounds",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "When a sodium atom loses its one outer electron, it becomes:",
+  "options": [
+    "Na-",
+    "Na+",
+    "Na2+",
+    "It remains neutral"
+  ],
+  "answer_index": 1,
+  "explanation": "Losing one electron gives sodium a net positive charge, forming the Na+ cation.",
+  "source": "NCERT Class 10, Ch 3"
+}

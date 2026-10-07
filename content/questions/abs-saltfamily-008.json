@@ -1,0 +1,17 @@
+{
+  "id": "abs-saltfamily-008",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "family-of-salts-and-ph-of-salts",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Testing the pH of several different salt solutions shows that some turn litmus while others don't. This shows that:",
+  "options": [
+    "Salts never affect litmus",
+    "All salts are neutral",
+    "A salt's pH depends on the strength of its parent acid and base",
+    "Only acidic salts actually exist"
+  ],
+  "answer_index": 2,
+  "explanation": "A salt's own pH is set entirely by whether its parent acid and base were strong or weak.",
+  "source": "NCERT Class 10, Ch 2"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-ethanol-008",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "ethanol-and-ethanoic-acid",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Treating an ester back with sodium hydroxide reverses esterification in a process called:",
+  "options": [
+    "Saponification",
+    "Dehydration",
+    "Substitution",
+    "Calcination"
+  ],
+  "answer_index": 0,
+  "explanation": "Saponification reverses esterification, converting the ester back into an alcohol and a sodium salt, the reaction soap-making relies on.",
+  "source": "NCERT Class 10, Ch 4"
+}

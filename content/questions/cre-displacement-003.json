@@ -1,0 +1,17 @@
+{
+  "id": "cre-displacement-003",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "displacement-and-double-displacement",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which statement about balancing Fe + CuSO4 -> FeSO4 + Cu is correct?",
+  "options": [
+    "It needs a coefficient of 2 in front of CuSO4",
+    "It is already balanced with coefficients of 1 throughout",
+    "It needs a coefficient of 2 in front of Fe",
+    "It needs a coefficient of 2 in front of Cu"
+  ],
+  "answer_index": 1,
+  "explanation": "Each element (Fe, Cu, S, O) already appears in equal numbers on both sides, so no extra coefficients are needed.",
+  "source": "NCERT Class 10, Ch 1"
+}

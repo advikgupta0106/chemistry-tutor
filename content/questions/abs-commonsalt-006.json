@@ -1,0 +1,17 @@
+{
+  "id": "abs-commonsalt-006",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemicals-from-common-salt",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Heating baking soda releases carbon dioxide, which is exactly why it makes:",
+  "options": [
+    "Fire extinguishers heavier",
+    "Bread and cakes rise",
+    "Soap lather",
+    "Water hard"
+  ],
+  "answer_index": 1,
+  "explanation": "The carbon dioxide released on heating baking soda is what makes bread or cake rise.",
+  "source": "NCERT Class 10, Ch 2"
+}

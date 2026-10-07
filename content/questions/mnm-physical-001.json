@@ -1,0 +1,17 @@
+{
+  "id": "mnm-physical-001",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "physical-properties-of-metals-and-non-metals",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The shining appearance seen on a freshly cleaned metal surface is called:",
+  "options": [
+    "Ductility",
+    "Metallic lustre",
+    "Sonority",
+    "Malleability"
+  ],
+  "answer_index": 1,
+  "explanation": "Metallic lustre is the shining surface a metal reveals once cleaned.",
+  "source": "NCERT Class 10, Ch 3"
+}

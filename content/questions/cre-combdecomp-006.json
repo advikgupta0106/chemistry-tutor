@@ -1,0 +1,17 @@
+{
+  "id": "cre-combdecomp-006",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "combination-and-decomposition",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In the decomposition CaCO3(s) -> CaO(s) + CO2(g), how many oxygen atoms are present on each side?",
+  "options": [
+    "1",
+    "2",
+    "4",
+    "3"
+  ],
+  "answer_index": 3,
+  "explanation": "CaCO3 has 3 oxygen atoms; on the product side, CaO contributes 1 and CO2 contributes 2, totalling 3.",
+  "source": "NCERT Class 10, Ch 1"
+}

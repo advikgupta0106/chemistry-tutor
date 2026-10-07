@@ -1,0 +1,17 @@
+{
+  "id": "abs-crystallisation-003",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "water-of-crystallisation",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Heating blue copper sulphate crystals in a dry tube turns them white because:",
+  "options": [
+    "It melts into a liquid",
+    "The copper sulphate decomposes completely",
+    "It reacts with oxygen in the air",
+    "Its water of crystallisation is driven off"
+  ],
+  "answer_index": 3,
+  "explanation": "Heating drives off the water of crystallisation, turning the blue crystals white.",
+  "source": "NCERT Class 10, Ch 2"
+}

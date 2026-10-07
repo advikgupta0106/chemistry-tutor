@@ -1,0 +1,17 @@
+{
+  "id": "abs-chemprops-008",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemical-properties-of-acids-and-bases",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which pair are both examples of synthetic acid-base indicators?",
+  "options": [
+    "Phenolphthalein and methyl orange",
+    "Onion and clove",
+    "Red cabbage and litmus",
+    "Litmus and turmeric"
+  ],
+  "answer_index": 0,
+  "explanation": "Phenolphthalein and methyl orange are synthetic indicators, unlike the naturally-derived litmus, turmeric or red cabbage.",
+  "source": "NCERT Class 10, Ch 2"
+}

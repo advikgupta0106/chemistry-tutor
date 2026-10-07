@@ -1,0 +1,17 @@
+{
+  "id": "cic-catenation-002",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "catenation-and-saturation",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Besides catenation, which other property of carbon lets it bond with many different elements?",
+  "options": [
+    "Its high reactivity",
+    "Its metallic lustre",
+    "Its fixed valency of four",
+    "Its small size alone"
+  ],
+  "answer_index": 2,
+  "explanation": "Carbon's fixed valency of four lets it bond not only with other carbon atoms but also with many other elements.",
+  "source": "NCERT Class 10, Ch 4"
+}

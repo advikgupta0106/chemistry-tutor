@@ -1,0 +1,17 @@
+{
+  "id": "cic-isomers-001",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chains-branches-rings-and-isomers",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Compounds containing only carbon and hydrogen are called:",
+  "options": [
+    "Esters",
+    "Hydrocarbons",
+    "Carbonates",
+    "Alcohols"
+  ],
+  "answer_index": 1,
+  "explanation": "Hydrocarbons are compounds containing only carbon and hydrogen.",
+  "source": "NCERT Class 10, Ch 4"
+}

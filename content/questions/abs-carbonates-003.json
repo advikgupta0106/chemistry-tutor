@@ -1,0 +1,17 @@
+{
+  "id": "abs-carbonates-003",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "reactions-with-carbonates-oxides-and-each-other",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A neutralisation reaction is defined as a reaction between:",
+  "options": [
+    "A metal and an acid",
+    "Two bases",
+    "An acid and a base that produces a salt and water",
+    "Two acids"
+  ],
+  "answer_index": 2,
+  "explanation": "Neutralisation is a reaction between an acid and a base that produces a salt and water.",
+  "source": "NCERT Class 10, Ch 2"
+}

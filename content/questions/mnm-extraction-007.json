@@ -1,0 +1,17 @@
+{
+  "id": "mnm-extraction-007",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "extraction-and-refining-of-metals",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The most reactive metals are instead extracted by:",
+  "options": [
+    "Calcination",
+    "Roasting",
+    "Heating in air alone",
+    "Electrolytic reduction of their molten compounds"
+  ],
+  "answer_index": 3,
+  "explanation": "The most reactive metals are obtained by electrolytic reduction of their molten compounds.",
+  "source": "NCERT Class 10, Ch 3"
+}

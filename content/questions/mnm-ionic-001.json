@@ -1,0 +1,17 @@
+{
+  "id": "mnm-ionic-001",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "ionic-bonding-and-properties-of-ionic-compounds",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "An ionic compound forms when:",
+  "options": [
+    "A metal transfers electrons to a non-metal",
+    "A metal and a non-metal share electrons equally",
+    "Two metals share electrons",
+    "Two non-metals share electrons"
+  ],
+  "answer_index": 0,
+  "explanation": "Ionic compounds form through the transfer of electrons from a metal to a non-metal.",
+  "source": "NCERT Class 10, Ch 3"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cre-oxeffects-004",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "effects-of-oxidation-in-everyday-life",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Rancidity in food is caused by:",
+  "options": [
+    "Bacteria growing on the food",
+    "Oxidation of the fats and oils in the food",
+    "Exposure to cold temperature",
+    "Loss of water from the food"
+  ],
+  "answer_index": 1,
+  "explanation": "Rancidity is specifically the oxidation of fats and oils, which turns food's smell and taste unpleasant.",
+  "source": "NCERT Class 10, Ch 1"
+}

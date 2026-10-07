@@ -1,0 +1,17 @@
+{
+  "id": "mnm-reactivity-004",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "the-reactivity-series",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Only metals positioned ___ hydrogen in the reactivity series can displace hydrogen gas from a dilute acid.",
+  "options": [
+    "Unrelated to",
+    "Above",
+    "Below",
+    "Equal to"
+  ],
+  "answer_index": 1,
+  "explanation": "Metals above hydrogen in the series are the ones capable of displacing hydrogen gas from a dilute acid.",
+  "source": "NCERT Class 10, Ch 3"
+}

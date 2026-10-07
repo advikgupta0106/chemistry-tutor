@@ -1,0 +1,9 @@
+{
+  "id": "calcium-water-reaction",
+  "equation": "Ca + 2H2O -> Ca(OH)2 + H2",
+  "type": "Metal-Water Reaction",
+  "explanation": "Calcium reacts with cold water to form calcium hydroxide and hydrogen gas, floating as bubbles of gas cling to its surface.",
+  "topics": [
+    "metals-and-non-metals"
+  ]
+}

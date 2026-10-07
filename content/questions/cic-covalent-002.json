@@ -1,0 +1,17 @@
+{
+  "id": "cic-covalent-002",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "covalent-bonding-in-carbon",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Carbon forms covalent bonds rather than ionic bonds mainly because:",
+  "options": [
+    "Carbon atoms repel each other",
+    "Carbon has no electrons to share",
+    "Carbon only bonds with metals",
+    "Losing or gaining four electrons would cost too much energy"
+  ],
+  "answer_index": 3,
+  "explanation": "Forming a C4+ or C4- ion would cost too much energy or be too unstable, so carbon shares electrons instead.",
+  "source": "NCERT Class 10, Ch 4"
+}

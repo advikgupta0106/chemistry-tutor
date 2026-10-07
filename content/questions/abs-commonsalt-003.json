@@ -1,0 +1,17 @@
+{
+  "id": "abs-commonsalt-003",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemicals-from-common-salt",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Bleaching powder, Ca(ClO)2, is manufactured by reacting chlorine gas with:",
+  "options": [
+    "Water",
+    "Sodium carbonate",
+    "Dry slaked lime",
+    "Sodium hydroxide"
+  ],
+  "answer_index": 2,
+  "explanation": "Chlorine reacts with dry slaked lime (calcium hydroxide) to produce bleaching powder.",
+  "source": "NCERT Class 10, Ch 2"
+}

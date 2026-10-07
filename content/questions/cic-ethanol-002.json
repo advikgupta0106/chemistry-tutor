@@ -1,0 +1,17 @@
+{
+  "id": "cic-ethanol-002",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "ethanol-and-ethanoic-acid",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Heating ethanol with excess concentrated sulphuric acid at 443 K produces:",
+  "options": [
+    "Ethane",
+    "Ethyne",
+    "Ethanoic acid",
+    "Ethene"
+  ],
+  "answer_index": 3,
+  "explanation": "This dehydration reaction converts ethanol into ethene, with sulphuric acid acting as a dehydrating agent.",
+  "source": "NCERT Class 10, Ch 4"
+}

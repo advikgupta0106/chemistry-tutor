@@ -1,0 +1,17 @@
+{
+  "id": "cre-oxeffects-005",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "effects-of-oxidation-in-everyday-life",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Chip manufacturers flush their bags with nitrogen gas before sealing them mainly to:",
+  "options": [
+    "Displace oxygen and prevent rancidity",
+    "Add flavour",
+    "Keep the chips crunchy",
+    "Increase the bag's weight"
+  ],
+  "answer_index": 0,
+  "explanation": "Nitrogen displaces the oxygen that would otherwise react with the oil in the chips and cause rancidity.",
+  "source": "NCERT Class 10, Ch 1"
+}

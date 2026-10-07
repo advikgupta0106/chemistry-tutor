@@ -1,0 +1,17 @@
+{
+  "id": "mnm-oxywater-001",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-oxygen-and-water",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The general reaction pattern for a metal reacting with oxygen is:",
+  "options": [
+    "Metal + Oxygen -> Metal hydroxide",
+    "Metal + Oxygen -> Metal oxide",
+    "Metal + Oxygen -> Metal carbonate",
+    "Metal + Oxygen -> Salt + Hydrogen"
+  ],
+  "answer_index": 1,
+  "explanation": "Almost all metals combine with oxygen to form a metal oxide.",
+  "source": "NCERT Class 10, Ch 3"
+}

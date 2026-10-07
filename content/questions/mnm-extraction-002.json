@@ -1,0 +1,17 @@
+{
+  "id": "mnm-extraction-002",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "extraction-and-refining-of-metals",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Metals low in the reactivity series, like gold and silver, are mostly found in nature as:",
+  "options": [
+    "Sulphides",
+    "Carbonates",
+    "Free elements",
+    "Oxides"
+  ],
+  "answer_index": 2,
+  "explanation": "Unreactive metals low in the series, like gold and silver, occur as free elements in nature.",
+  "source": "NCERT Class 10, Ch 3"
+}

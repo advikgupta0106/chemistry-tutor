@@ -1,0 +1,17 @@
+{
+  "id": "cic-covalent-008",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "covalent-bonding-in-carbon",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Methane is a major component of which two everyday fuels?",
+  "options": [
+    "Coal and charcoal",
+    "Kerosene and LPG",
+    "Biogas and CNG",
+    "Petrol and diesel"
+  ],
+  "answer_index": 2,
+  "explanation": "Methane is a major component of both biogas and CNG.",
+  "source": "NCERT Class 10, Ch 4"
+}

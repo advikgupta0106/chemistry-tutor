@@ -1,0 +1,17 @@
+{
+  "id": "abs-common-001",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "what-acids-and-bases-have-in-common",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A bulb connected to electrodes dipped in dilute hydrochloric acid glows, but the same test on glucose solution leaves the bulb dark. This shows that:",
+  "options": [
+    "Glucose is a stronger acid than HCl",
+    "Glucose conducts electricity better than acid",
+    "The bulb is faulty",
+    "Acids produce ions in solution while glucose does not"
+  ],
+  "answer_index": 3,
+  "explanation": "A glowing bulb means current is flowing, carried by ions \u2014 acids produce ions in solution, while glucose does not.",
+  "source": "NCERT Class 10, Ch 2"
+}

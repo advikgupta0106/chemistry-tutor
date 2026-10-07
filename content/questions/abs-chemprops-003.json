@@ -1,0 +1,17 @@
+{
+  "id": "abs-chemprops-003",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemical-properties-of-acids-and-bases",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Dropping zinc granules into dilute sulphuric acid produces a gas that burns with a pop near a flame. This gas is:",
+  "options": [
+    "Oxygen",
+    "Carbon dioxide",
+    "Nitrogen",
+    "Hydrogen"
+  ],
+  "answer_index": 3,
+  "explanation": "Hydrogen gas is released when zinc reacts with dilute sulphuric acid, confirmed by its characteristic pop near a flame.",
+  "source": "NCERT Class 10, Ch 2"
+}

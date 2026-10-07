@@ -1,0 +1,17 @@
+{
+  "id": "mnm-physical-008",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "physical-properties-of-metals-and-non-metals",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Because physical properties have so many exceptions, elements are more reliably classified as metals or non-metals using:",
+  "options": [
+    "Their cost",
+    "Their chemical properties",
+    "Their density alone",
+    "Their colour"
+  ],
+  "answer_index": 1,
+  "explanation": "Chemical properties, not physical ones, are the more reliable way to classify an element as a metal or non-metal.",
+  "source": "NCERT Class 10, Ch 3"
+}

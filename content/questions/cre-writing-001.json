@@ -1,0 +1,17 @@
+{
+  "id": "cre-writing-001",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "writing-chemical-equations",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which of these is NOT a reliable sign that a chemical reaction has occurred?",
+  "options": [
+    "An increase in the volume of the container",
+    "A change in colour",
+    "A change in state",
+    "Evolution of a gas"
+  ],
+  "answer_index": 0,
+  "explanation": "The four reliable signs are a change in state, colour, or temperature, or the evolution of a gas \u2014 a change in container volume isn't one of them.",
+  "source": "NCERT Class 10, Ch 1"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-chemprops-005",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chemical-properties-of-carbon-compounds",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Warming ethanol with alkaline potassium permanganate converts it into:",
+  "options": [
+    "An alkyne",
+    "Methane",
+    "An alkene",
+    "A carboxylic acid"
+  ],
+  "answer_index": 3,
+  "explanation": "Alkaline potassium permanganate acts as an oxidising agent, converting ethanol into a carboxylic acid.",
+  "source": "NCERT Class 10, Ch 4"
+}

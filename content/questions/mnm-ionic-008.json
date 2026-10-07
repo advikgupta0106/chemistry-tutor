@@ -1,0 +1,17 @@
+{
+  "id": "mnm-ionic-008",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "ionic-bonding-and-properties-of-ionic-compounds",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Ionic compounds are generally hard but brittle because they:",
+  "options": [
+    "Break apart under pressure rather than bending",
+    "Bend easily under pressure",
+    "Are always liquids at room temperature",
+    "Melt immediately under any pressure"
+  ],
+  "answer_index": 0,
+  "explanation": "Ionic compounds are hard but brittle, breaking apart under pressure rather than bending.",
+  "source": "NCERT Class 10, Ch 3"
+}

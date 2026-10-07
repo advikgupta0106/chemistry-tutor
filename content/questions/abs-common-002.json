@@ -1,0 +1,17 @@
+{
+  "id": "abs-common-002",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "what-acids-and-bases-have-in-common",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Every acid releases which ion into solution, responsible for its acidic properties?",
+  "options": [
+    "Cl-(aq)",
+    "H+(aq)",
+    "Na+(aq)",
+    "OH-(aq)"
+  ],
+  "answer_index": 1,
+  "explanation": "It is specifically the H+ ions an acid releases into solution that are responsible for its acidic properties.",
+  "source": "NCERT Class 10, Ch 2"
+}

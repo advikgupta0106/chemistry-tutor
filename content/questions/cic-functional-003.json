@@ -1,0 +1,17 @@
+{
+  "id": "cic-functional-003",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "functional-groups-homologous-series-and-nomenclature",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The suffix \"-oic acid\" indicates which functional group?",
+  "options": [
+    "Alcohol",
+    "Aldehyde",
+    "Carboxylic acid",
+    "Ketone"
+  ],
+  "answer_index": 2,
+  "explanation": "The suffix -oic acid names a carboxylic acid.",
+  "source": "NCERT Class 10, Ch 4"
+}

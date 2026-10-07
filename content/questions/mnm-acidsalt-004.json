@@ -1,0 +1,17 @@
+{
+  "id": "mnm-acidsalt-004",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-acids-and-salt-solutions",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Nitric acid is a notable exception to the acid-metal pattern mainly because it:",
+  "options": [
+    "Is a strong oxidising agent that oxidises the hydrogen produced instead of releasing it",
+    "Is too dilute to react at all",
+    "Never contains H+ ions",
+    "Only reacts with non-metals"
+  ],
+  "answer_index": 0,
+  "explanation": "Nitric acid oxidises the hydrogen produced straight to water while itself being reduced, so it usually doesn't release H2 gas.",
+  "source": "NCERT Class 10, Ch 3"
+}

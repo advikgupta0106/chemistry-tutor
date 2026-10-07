@@ -1,0 +1,17 @@
+{
+  "id": "abs-saltfamily-006",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "family-of-salts-and-ph-of-salts",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Every salt, at its core, is the product of:",
+  "options": [
+    "A combination reaction only",
+    "A thermal decomposition",
+    "A metal reacting with oxygen",
+    "An acid-base neutralisation"
+  ],
+  "answer_index": 3,
+  "explanation": "A salt is, at its core, the product of a neutralisation reaction between an acid and a base.",
+  "source": "NCERT Class 10, Ch 2"
+}

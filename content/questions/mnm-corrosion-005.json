@@ -1,0 +1,17 @@
+{
+  "id": "mnm-corrosion-005",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "corrosion-and-alloys",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Galvanising protects iron from rusting even if the zinc coating gets scratched because:",
+  "options": [
+    "Zinc regenerates itself automatically",
+    "The scratch seals itself with rust",
+    "Zinc prevents all water exposure permanently",
+    "Zinc continues to protect the iron underneath even once scratched"
+  ],
+  "answer_index": 3,
+  "explanation": "The zinc coating keeps protecting the iron underneath even if it gets scratched.",
+  "source": "NCERT Class 10, Ch 3"
+}

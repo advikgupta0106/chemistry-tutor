@@ -1,0 +1,17 @@
+{
+  "id": "mnm-ionic-003",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "ionic-bonding-and-properties-of-ionic-compounds",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "When a chlorine atom gains one electron, it becomes:",
+  "options": [
+    "Cl+",
+    "Cl2-",
+    "Cl-",
+    "It remains neutral"
+  ],
+  "answer_index": 2,
+  "explanation": "Gaining one electron gives chlorine a net negative charge, forming the Cl- anion.",
+  "source": "NCERT Class 10, Ch 3"
+}

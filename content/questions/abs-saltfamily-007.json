@@ -1,0 +1,17 @@
+{
+  "id": "abs-saltfamily-007",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "family-of-salts-and-ph-of-salts",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Sodium sulphate can be identified as a salt of which acid and base?",
+  "options": [
+    "Hydrochloric acid and sodium hydroxide",
+    "Sulphuric acid and sodium hydroxide",
+    "Nitric acid and potassium hydroxide",
+    "Acetic acid and ammonium hydroxide"
+  ],
+  "answer_index": 1,
+  "explanation": "Sodium sulphate comes from the neutralisation of sulphuric acid with sodium hydroxide.",
+  "source": "NCERT Class 10, Ch 2"
+}

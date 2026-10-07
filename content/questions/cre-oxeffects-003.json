@@ -1,0 +1,17 @@
+{
+  "id": "cre-oxeffects-003",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "effects-of-oxidation-in-everyday-life",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Silver develops a ___ coating when it corrodes, while copper develops a ___ coating.",
+  "options": [
+    "Green, black",
+    "Red, white",
+    "White, red",
+    "Black, green"
+  ],
+  "answer_index": 3,
+  "explanation": "Silver tarnishes black and copper develops a green coating, both forms of corrosion.",
+  "source": "NCERT Class 10, Ch 1"
+}

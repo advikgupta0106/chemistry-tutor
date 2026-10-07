@@ -1,0 +1,17 @@
+{
+  "id": "mnm-extraction-006",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "extraction-and-refining-of-metals",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "The most reactive metals, like sodium and aluminium, cannot be extracted using carbon because:",
+  "options": [
+    "They do not form oxides at all",
+    "They have more affinity for oxygen than carbon does",
+    "Carbon is too expensive to use",
+    "Carbon reacts explosively with them"
+  ],
+  "answer_index": 1,
+  "explanation": "These metals bind oxygen more strongly than carbon does, so carbon can't reduce their oxides.",
+  "source": "NCERT Class 10, Ch 3"
+}

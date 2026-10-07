@@ -1,0 +1,17 @@
+{
+  "id": "cre-combdecomp-004",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "combination-and-decomposition",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Thermal decomposition specifically refers to decomposition driven by:",
+  "options": [
+    "Light",
+    "Pressure",
+    "Electricity",
+    "Heat"
+  ],
+  "answer_index": 3,
+  "explanation": "Thermal decomposition is decomposition driven by heat, as in heating calcium carbonate into quicklime and carbon dioxide.",
+  "source": "NCERT Class 10, Ch 1"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mnm-ionic-006",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "ionic-bonding-and-properties-of-ionic-compounds",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Ionic compounds are generally soluble in water but insoluble in:",
+  "options": [
+    "Dilute acids",
+    "Dilute bases",
+    "All liquids equally",
+    "Kerosene or petrol"
+  ],
+  "answer_index": 3,
+  "explanation": "Ionic compounds dissolve in water but are generally insoluble in solvents like kerosene or petrol.",
+  "source": "NCERT Class 10, Ch 3"
+}

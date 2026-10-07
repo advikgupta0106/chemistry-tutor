@@ -1,0 +1,17 @@
+{
+  "id": "cre-displacement-006",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "displacement-and-double-displacement",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In a double displacement reaction, what actually happens between the two reacting compounds?",
+  "options": [
+    "One element is displaced by another",
+    "The compounds exchange ions with each other entirely",
+    "Electrons are transferred completely between atoms",
+    "Only gases are produced"
+  ],
+  "answer_index": 1,
+  "explanation": "A double displacement reaction is a full exchange of ions between two compounds, not just one element moving.",
+  "source": "NCERT Class 10, Ch 1"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "abs-chemprops-001",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemical-properties-of-acids-and-bases",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Litmus, a purple dye, turns ___ in acids and ___ in bases.",
+  "options": [
+    "Red, red",
+    "Blue, red",
+    "Blue, blue",
+    "Red, blue"
+  ],
+  "answer_index": 3,
+  "explanation": "Litmus turns red in the presence of an acid and blue in the presence of a base.",
+  "source": "NCERT Class 10, Ch 2"
+}

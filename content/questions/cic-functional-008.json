@@ -1,0 +1,17 @@
+{
+  "id": "cic-functional-008",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "functional-groups-homologous-series-and-nomenclature",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "An unsaturated carbon chain with one or more triple bonds uses the suffix:",
+  "options": [
+    "-ol",
+    "-yne",
+    "-ane",
+    "-ene"
+  ],
+  "answer_index": 1,
+  "explanation": "A triple-bonded unsaturated chain swaps its '-ane' ending for '-yne'.",
+  "source": "NCERT Class 10, Ch 4"
+}

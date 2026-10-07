@@ -1,0 +1,17 @@
+{
+  "id": "abs-chemprops-007",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemical-properties-of-acids-and-bases",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Turmeric stains turn reddish-brown when scrubbed with soap mainly because:",
+  "options": [
+    "Soap bleaches the turmeric chemically",
+    "Soap reacts only with water, not turmeric",
+    "Turmeric acts as a natural indicator and soap is basic",
+    "Turmeric is acidic and soap is also acidic"
+  ],
+  "answer_index": 2,
+  "explanation": "Turmeric is a natural indicator that changes colour with basic soap, then turns back to yellow once rinsed with water.",
+  "source": "NCERT Class 10, Ch 2"
+}

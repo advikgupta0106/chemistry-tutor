@@ -1,0 +1,17 @@
+{
+  "id": "mnm-corrosion-007",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "corrosion-and-alloys",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Mixing a small amount of carbon into pure iron (about 0.05%) makes it:",
+  "options": [
+    "Softer and more flexible",
+    "Hard and strong",
+    "More reactive with water",
+    "Lighter in weight"
+  ],
+  "answer_index": 1,
+  "explanation": "A small amount of carbon turns soft, easily-stretched pure iron into hard, strong steel.",
+  "source": "NCERT Class 10, Ch 3"
+}

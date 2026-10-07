@@ -1,0 +1,17 @@
+{
+  "id": "cic-functional-002",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "functional-groups-homologous-series-and-nomenclature",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The functional group -OH indicates which class of compound?",
+  "options": [
+    "Alcohol",
+    "Haloalkane",
+    "Carboxylic acid",
+    "Aldehyde"
+  ],
+  "answer_index": 0,
+  "explanation": "The -OH functional group is the defining feature of alcohols.",
+  "source": "NCERT Class 10, Ch 4"
+}

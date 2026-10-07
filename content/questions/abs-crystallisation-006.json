@@ -1,0 +1,17 @@
+{
+  "id": "abs-crystallisation-006",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "water-of-crystallisation",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Plaster of Paris has the chemical formula:",
+  "options": [
+    "CaSO4.10H2O",
+    "CaSO4.1/2H2O",
+    "CaSO4.2H2O",
+    "Ca(OH)2"
+  ],
+  "answer_index": 1,
+  "explanation": "Plaster of Paris is calcium sulphate hemihydrate, CaSO4.half a water molecule per formula unit.",
+  "source": "NCERT Class 10, Ch 2"
+}

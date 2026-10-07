@@ -1,0 +1,9 @@
+{
+  "id": "zinc-copper-sulphate",
+  "equation": "Zn + CuSO4 -> ZnSO4 + Cu",
+  "type": "Displacement Reaction",
+  "explanation": "Zinc, being more reactive than copper, displaces copper from copper sulphate solution, forming zinc sulphate and depositing metallic copper.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ]
+}

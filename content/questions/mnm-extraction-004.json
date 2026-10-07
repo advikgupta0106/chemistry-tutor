@@ -1,0 +1,17 @@
+{
+  "id": "mnm-extraction-004",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "extraction-and-refining-of-metals",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Heating a carbonate ore strongly in limited air to convert it into an oxide is called:",
+  "options": [
+    "Roasting",
+    "Calcination",
+    "Smelting",
+    "Amalgamation"
+  ],
+  "answer_index": 1,
+  "explanation": "Calcination is heating a carbonate ore strongly in limited air to convert it into the metal oxide.",
+  "source": "NCERT Class 10, Ch 3"
+}

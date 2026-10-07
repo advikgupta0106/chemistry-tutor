@@ -1,0 +1,17 @@
+{
+  "id": "mnm-extraction-003",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "extraction-and-refining-of-metals",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Heating a sulphide ore strongly in excess air to convert it into an oxide is called:",
+  "options": [
+    "Calcination",
+    "Roasting",
+    "Refining",
+    "Electrolysis"
+  ],
+  "answer_index": 1,
+  "explanation": "Roasting is heating a sulphide ore strongly in excess air to convert it into the metal oxide.",
+  "source": "NCERT Class 10, Ch 3"
+}

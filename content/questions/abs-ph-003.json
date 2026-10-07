@@ -1,0 +1,17 @@
+{
+  "id": "abs-ph-003",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "the-ph-scale",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "As pH decreases from 7 towards 0, a solution becomes:",
+  "options": [
+    "Less concentrated",
+    "More basic",
+    "More neutral",
+    "More acidic"
+  ],
+  "answer_index": 3,
+  "explanation": "A lower pH corresponds to a higher hydronium ion concentration, meaning a more acidic solution.",
+  "source": "NCERT Class 10, Ch 2"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "abs-chemprops-004",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemical-properties-of-acids-and-bases",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The general reaction pattern for a metal reacting with a dilute acid is:",
+  "options": [
+    "Metal + Base -> Acid + Water",
+    "Acid + Metal -> Salt + Hydrogen gas",
+    "Acid + Metal -> Salt + Water",
+    "Acid + Metal -> Salt + Oxygen gas"
+  ],
+  "answer_index": 1,
+  "explanation": "A metal reacting with a dilute acid displaces hydrogen atoms as hydrogen gas and forms a salt.",
+  "source": "NCERT Class 10, Ch 2"
+}

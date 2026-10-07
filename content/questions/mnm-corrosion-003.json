@@ -1,0 +1,17 @@
+{
+  "id": "mnm-corrosion-003",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "corrosion-and-alloys",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Copper develops a green coating when it corrodes because it reacts with:",
+  "options": [
+    "Sulphur, forming copper sulphide",
+    "Nitrogen, forming copper nitride",
+    "Oxygen alone, forming copper oxide",
+    "Moist carbon dioxide, forming basic copper carbonate"
+  ],
+  "answer_index": 3,
+  "explanation": "Copper develops its green coating by reacting with moist carbon dioxide to form basic copper carbonate.",
+  "source": "NCERT Class 10, Ch 3"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cre-writing-004",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "writing-chemical-equations",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "According to the law of conservation of mass, a correctly balanced chemical equation must have:",
+  "options": [
+    "An equal number of atoms of each element on both sides",
+    "An equal number of molecules on both sides",
+    "An equal volume of reactants and products",
+    "An equal number of moles of each compound"
+  ],
+  "answer_index": 0,
+  "explanation": "Mass can't be created or destroyed, so the number of atoms of every element must stay exactly the same on both sides.",
+  "source": "NCERT Class 10, Ch 1"
+}

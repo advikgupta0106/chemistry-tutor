@@ -1,0 +1,9 @@
+{
+  "id": "copper-oxide-hydrogen",
+  "equation": "CuO + H2 -> Cu + H2O",
+  "type": "Reduction (Redox) Reaction",
+  "explanation": "Hydrogen gas reduces black copper(II) oxide back to brown copper metal by removing its oxygen, while the hydrogen itself is oxidised to water.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ]
+}

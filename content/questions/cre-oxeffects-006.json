@@ -1,0 +1,17 @@
+{
+  "id": "cre-oxeffects-006",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "effects-of-oxidation-in-everyday-life",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Adding an antioxidant to packaged food helps prevent rancidity by:",
+  "options": [
+    "Absorbing moisture from the food",
+    "Specifically preventing oxidation",
+    "Lowering the food's pH",
+    "Adding a preservative smell"
+  ],
+  "answer_index": 1,
+  "explanation": "Antioxidants are substances that specifically prevent the oxidation responsible for rancidity.",
+  "source": "NCERT Class 10, Ch 1"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-soaps-008",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "soaps-and-detergents",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Detergents are generally sodium salts of sulphonic acids or:",
+  "options": [
+    "Long-chain alcohols",
+    "Ammonium salts with chloride or bromide ions",
+    "Carbonate salts",
+    "Carboxylic acids"
+  ],
+  "answer_index": 1,
+  "explanation": "Detergents are generally sodium salts of sulphonic acids, or ammonium salts with chloride or bromide ions.",
+  "source": "NCERT Class 10, Ch 4"
+}

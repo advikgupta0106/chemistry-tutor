@@ -1,0 +1,17 @@
+{
+  "id": "mnm-oxywater-005",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-oxygen-and-water",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "A metal reacting with cold water releases hydrogen gas so violently that the gas catches fire immediately. This metal is most likely:",
+  "options": [
+    "Aluminium",
+    "Calcium",
+    "Magnesium",
+    "Potassium"
+  ],
+  "answer_index": 3,
+  "explanation": "Potassium (and sodium) react so violently and exothermically with cold water that the hydrogen released ignites immediately.",
+  "source": "NCERT Class 10, Ch 3"
+}

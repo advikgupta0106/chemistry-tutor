@@ -1,0 +1,17 @@
+{
+  "id": "mnm-oxywater-002",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-oxygen-and-water",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Metal oxides that react with BOTH acids and bases to form a salt and water are called:",
+  "options": [
+    "Amphoteric oxides",
+    "Acidic oxides",
+    "Basic oxides",
+    "Neutral oxides"
+  ],
+  "answer_index": 0,
+  "explanation": "Amphoteric oxides, like aluminium oxide and zinc oxide, react with both acids and bases.",
+  "source": "NCERT Class 10, Ch 3"
+}

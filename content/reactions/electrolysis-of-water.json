@@ -1,0 +1,9 @@
+{
+  "id": "electrolysis-of-water",
+  "equation": "2H2O -> 2H2 + O2",
+  "type": "Electrolytic Decomposition Reaction",
+  "explanation": "Passing an electric current through water splits it into hydrogen and oxygen gas, with exactly twice as much hydrogen collected as oxygen.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ]
+}

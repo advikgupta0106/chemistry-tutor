@@ -1,0 +1,17 @@
+{
+  "id": "mnm-reactivity-005",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "the-reactivity-series",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Based on the reactivity series, which metal reacts faster with dilute acid: magnesium or iron?",
+  "options": [
+    "Iron reacts faster",
+    "Neither reacts",
+    "Magnesium reacts faster",
+    "They react at the same rate"
+  ],
+  "answer_index": 2,
+  "explanation": "Magnesium sits above iron in the reactivity series, so it reacts faster with dilute acid.",
+  "source": "NCERT Class 10, Ch 3"
+}

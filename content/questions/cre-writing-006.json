@@ -1,0 +1,17 @@
+{
+  "id": "cre-writing-006",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "writing-chemical-equations",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In the balanced equation Zn + H2SO4 -> ZnSO4 + H2, how many hydrogen atoms are present on each side?",
+  "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+  ],
+  "answer_index": 2,
+  "explanation": "H2SO4 has 2 hydrogen atoms, matching the 2 in H2 on the product side.",
+  "source": "NCERT Class 10, Ch 1"
+}

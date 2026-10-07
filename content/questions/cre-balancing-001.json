@@ -1,0 +1,17 @@
+{
+  "id": "cre-balancing-001",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "balancing-chemical-equations",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "When balancing a chemical equation by hit-and-trial, what is allowed to change?",
+  "options": [
+    "Both subscripts and coefficients",
+    "The coefficients placed in front of a formula",
+    "Nothing at all",
+    "The subscripts inside a formula"
+  ],
+  "answer_index": 1,
+  "explanation": "Balancing only ever adjusts whole-number coefficients in front of a formula \u2014 the subscripts inside it are fixed and never rewritten.",
+  "source": "NCERT Class 10, Ch 1"
+}

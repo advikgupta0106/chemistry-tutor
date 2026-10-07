@@ -1,0 +1,17 @@
+{
+  "id": "abs-common-004",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "what-acids-and-bases-have-in-common",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Generating dry HCl gas and testing it against dry litmus paper produces no colour change, but moist litmus paper does change colour. This shows that:",
+  "options": [
+    "HCl is not an acid at all",
+    "Litmus paper does not work on gases",
+    "HCl only reacts with moist air",
+    "HCl's acidic behaviour depends on the presence of water"
+  ],
+  "answer_index": 3,
+  "explanation": "Dry HCl gas alone has no acidic character \u2014 its H+ only separates and becomes acidic in the presence of water.",
+  "source": "NCERT Class 10, Ch 2"
+}

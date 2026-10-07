@@ -1,0 +1,17 @@
+{
+  "id": "cre-redox-001",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "oxidation-and-reduction-class-10",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A substance that gains oxygen during a reaction is said to be:",
+  "options": [
+    "Neutralised",
+    "Reduced",
+    "Oxidised",
+    "Displaced"
+  ],
+  "answer_index": 2,
+  "explanation": "Gaining oxygen during a reaction is the definition of being oxidised.",
+  "source": "NCERT Class 10, Ch 1"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cre-displacement-004",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "displacement-and-double-displacement",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A reaction that produces an insoluble solid from two dissolved compounds is called a:",
+  "options": [
+    "Redox reaction",
+    "Precipitation reaction",
+    "Thermal decomposition",
+    "Combination reaction"
+  ],
+  "answer_index": 1,
+  "explanation": "A precipitation reaction is any reaction that produces an insoluble solid, called a precipitate.",
+  "source": "NCERT Class 10, Ch 1"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "abs-saltfamily-001",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "family-of-salts-and-ph-of-salts",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Sodium chloride and sodium sulphate belong to the same family of salts because they share the same:",
+  "options": [
+    "Colour",
+    "Negative ion",
+    "Positive ion",
+    "Molecular mass"
+  ],
+  "answer_index": 2,
+  "explanation": "Both salts share the sodium positive ion, placing them in the same family of sodium salts.",
+  "source": "NCERT Class 10, Ch 2"
+}

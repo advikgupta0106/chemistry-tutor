@@ -1,0 +1,17 @@
+{
+  "id": "abs-carbonates-005",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "reactions-with-carbonates-oxides-and-each-other",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In a neutralisation experiment, phenolphthalein-tinted sodium hydroxide turns from pink to colourless as hydrochloric acid is added. Adding more NaOH afterward will:",
+  "options": [
+    "Keep the solution colourless",
+    "Bring the pink colour back",
+    "Turn the solution blue",
+    "Make the solution boil"
+  ],
+  "answer_index": 1,
+  "explanation": "Adding more base after the acid has neutralised the solution tips the balance back toward basic, bringing the pink colour back.",
+  "source": "NCERT Class 10, Ch 2"
+}

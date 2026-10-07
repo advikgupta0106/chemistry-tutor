@@ -1,0 +1,17 @@
+{
+  "id": "cre-balancing-005",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "balancing-chemical-equations",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Conditions like temperature, pressure, or a catalyst in a chemical equation are usually written:",
+  "options": [
+    "Inside brackets next to a coefficient",
+    "After the last product",
+    "Before the first reactant",
+    "Above or below the arrow"
+  ],
+  "answer_index": 3,
+  "explanation": "Reaction conditions are conventionally written directly above or below the reaction arrow.",
+  "source": "NCERT Class 10, Ch 1"
+}

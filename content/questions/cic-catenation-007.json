@@ -1,0 +1,17 @@
+{
+  "id": "cic-catenation-007",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "catenation-and-saturation",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Who disproved the idea that organic compounds could only form within a living system, by synthesising urea in the laboratory?",
+  "options": [
+    "Antoine Lavoisier",
+    "Dmitri Mendeleev",
+    "John Dalton",
+    "Friedrich Wohler"
+  ],
+  "answer_index": 3,
+  "explanation": "Friedrich Wohler disproved this idea in 1828 by synthesising urea from ammonium cyanate in the lab.",
+  "source": "NCERT Class 10, Ch 4"
+}

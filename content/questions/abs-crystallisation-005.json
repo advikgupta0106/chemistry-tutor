@@ -1,0 +1,17 @@
+{
+  "id": "abs-crystallisation-005",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "water-of-crystallisation",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Heating gypsum at 373 K to drive off some of its water of crystallisation produces:",
+  "options": [
+    "Bleaching powder",
+    "Plaster of Paris",
+    "Washing soda",
+    "Baking soda"
+  ],
+  "answer_index": 1,
+  "explanation": "Heating gypsum this way removes most of its water, leaving calcium sulphate hemihydrate, Plaster of Paris.",
+  "source": "NCERT Class 10, Ch 2"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cre-balancing-003",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "balancing-chemical-equations",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which state symbol is used for a substance dissolved in water?",
+  "options": [
+    "(aq)",
+    "(s)",
+    "(l)",
+    "(g)"
+  ],
+  "answer_index": 0,
+  "explanation": "(aq) marks a substance dissolved in water (aqueous); (s), (l) and (g) mark solid, liquid and gas.",
+  "source": "NCERT Class 10, Ch 1"
+}

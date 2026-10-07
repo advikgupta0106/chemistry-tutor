@@ -1,0 +1,17 @@
+{
+  "id": "cic-covalent-005",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "covalent-bonding-in-carbon",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Two oxygen atoms sharing two electrons each to complete their octets form a:",
+  "options": [
+    "Single bond",
+    "Double bond",
+    "Triple bond",
+    "Ionic bond"
+  ],
+  "answer_index": 1,
+  "explanation": "Sharing two electron pairs between two oxygen atoms forms a double bond.",
+  "source": "NCERT Class 10, Ch 4"
+}

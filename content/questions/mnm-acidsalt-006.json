@@ -1,0 +1,17 @@
+{
+  "id": "mnm-acidsalt-006",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-acids-and-salt-solutions",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Placing an iron nail in copper sulphate solution causes the nail to gain a copper coating, but placing a copper wire in iron sulphate solution shows no reaction. This proves that:",
+  "options": [
+    "Copper sulphate is unstable",
+    "Iron is more reactive than copper",
+    "Both metals are equally reactive",
+    "Copper is more reactive than iron"
+  ],
+  "answer_index": 1,
+  "explanation": "Only iron can displace copper from its salt solution, which proves iron is more reactive than copper.",
+  "source": "NCERT Class 10, Ch 3"
+}

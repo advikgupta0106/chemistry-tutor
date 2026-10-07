@@ -1,0 +1,17 @@
+{
+  "id": "cic-ethanol-001",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "ethanol-and-ethanoic-acid",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Ethanol reacting with sodium metal releases:",
+  "options": [
+    "Hydrogen gas",
+    "Chlorine gas",
+    "Carbon dioxide",
+    "Oxygen gas"
+  ],
+  "answer_index": 0,
+  "explanation": "Ethanol reacts with sodium to release hydrogen gas and form sodium ethoxide.",
+  "source": "NCERT Class 10, Ch 4"
+}

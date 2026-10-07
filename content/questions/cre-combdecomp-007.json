@@ -1,0 +1,17 @@
+{
+  "id": "cre-combdecomp-007",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "combination-and-decomposition",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Passing an electric current through water to split it into hydrogen and oxygen gas is an example of:",
+  "options": [
+    "Photolytic decomposition",
+    "Electrolytic decomposition",
+    "Combination reaction",
+    "Thermal decomposition"
+  ],
+  "answer_index": 1,
+  "explanation": "Decomposition driven by electricity, rather than heat or light, is called electrolytic decomposition.",
+  "source": "NCERT Class 10, Ch 1"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-isomers-002",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chains-branches-rings-and-isomers",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Saturated hydrocarbons, with single bonds only, are called:",
+  "options": [
+    "Alkynes",
+    "Alkanes",
+    "Aromatics",
+    "Alkenes"
+  ],
+  "answer_index": 1,
+  "explanation": "Alkanes are the name for saturated hydrocarbons, bonded entirely by single bonds.",
+  "source": "NCERT Class 10, Ch 4"
+}

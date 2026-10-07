@@ -1,0 +1,17 @@
+{
+  "id": "abs-ph-001",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "the-ph-scale",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The pH scale generally runs from:",
+  "options": [
+    "0 to 7",
+    "-7 to 7",
+    "0 to 10",
+    "0 to 14"
+  ],
+  "answer_index": 3,
+  "explanation": "The pH scale generally runs from 0 (very acidic) through 7 (neutral) to 14 (very alkaline).",
+  "source": "NCERT Class 10, Ch 2"
+}

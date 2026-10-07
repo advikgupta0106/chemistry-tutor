@@ -1,0 +1,9 @@
+{
+  "id": "lead-copper-chloride",
+  "equation": "Pb + CuCl2 -> PbCl2 + Cu",
+  "type": "Displacement Reaction",
+  "explanation": "Lead is more reactive than copper, so it displaces copper from copper chloride solution, forming lead chloride and metallic copper.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ]
+}

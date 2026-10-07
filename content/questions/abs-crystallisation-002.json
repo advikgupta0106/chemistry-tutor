@@ -1,0 +1,17 @@
+{
+  "id": "abs-crystallisation-002",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "water-of-crystallisation",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "How many water molecules are present in one formula unit of copper sulphate, CuSO4.5H2O?",
+  "options": [
+    "5",
+    "10",
+    "2",
+    "7"
+  ],
+  "answer_index": 0,
+  "explanation": "Copper sulphate's formula, CuSO4.5H2O, shows exactly five water molecules per formula unit.",
+  "source": "NCERT Class 10, Ch 2"
+}

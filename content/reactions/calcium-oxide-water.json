@@ -1,0 +1,9 @@
+{
+  "id": "calcium-oxide-water",
+  "equation": "CaO + H2O -> Ca(OH)2",
+  "type": "Combination Reaction",
+  "explanation": "Calcium oxide reacts vigorously with water to form calcium hydroxide, releasing a large amount of heat.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ]
+}

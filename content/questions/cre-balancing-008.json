@@ -1,0 +1,17 @@
+{
+  "id": "cre-balancing-008",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "balancing-chemical-equations",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "A skeletal chemical equation is one that:",
+  "options": [
+    "Has state symbols but no coefficients",
+    "Is fully balanced and complete",
+    "Correctly identifies every reactant and product but is not yet checked for balance",
+    "Shows only the reaction conditions"
+  ],
+  "answer_index": 2,
+  "explanation": "A skeletal equation uses correct formulas for every reactant and product, but doesn't yet guarantee the atom counts actually balance.",
+  "source": "NCERT Class 10, Ch 1"
+}

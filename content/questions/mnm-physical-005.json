@@ -1,0 +1,17 @@
+{
+  "id": "mnm-physical-005",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "physical-properties-of-metals-and-non-metals",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Which of these is an exception to the usual physical properties of metals?",
+  "options": [
+    "Iron is hard",
+    "Mercury is a liquid at room temperature",
+    "Copper is lustrous",
+    "Silver conducts electricity well"
+  ],
+  "answer_index": 1,
+  "explanation": "Mercury is a liquid metal at room temperature, an exception to the usual solid state of metals.",
+  "source": "NCERT Class 10, Ch 3"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "abs-chemprops-002",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemical-properties-of-acids-and-bases",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "An indicator that reveals acids and bases through a change in smell rather than colour is called a(n):",
+  "options": [
+    "Natural indicator",
+    "Synthetic indicator",
+    "Universal indicator",
+    "Olfactory indicator"
+  ],
+  "answer_index": 3,
+  "explanation": "Olfactory indicators, like onion or clove, reveal acids and bases through a change in smell instead of colour.",
+  "source": "NCERT Class 10, Ch 2"
+}

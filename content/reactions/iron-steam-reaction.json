@@ -1,0 +1,9 @@
+{
+  "id": "iron-steam-reaction",
+  "equation": "3Fe + 4H2O -> Fe3O4 + 4H2",
+  "type": "Metal-Steam Reaction",
+  "explanation": "Iron does not react with cold or hot water but reacts with steam to form iron oxide and hydrogen gas.",
+  "topics": [
+    "metals-and-non-metals"
+  ]
+}

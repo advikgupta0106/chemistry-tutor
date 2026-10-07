@@ -1,0 +1,17 @@
+{
+  "id": "abs-commonsalt-005",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemicals-from-common-salt",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Baking soda is chemically known as:",
+  "options": [
+    "Sodium chloride",
+    "Sodium hydroxide",
+    "Sodium carbonate",
+    "Sodium hydrogencarbonate"
+  ],
+  "answer_index": 3,
+  "explanation": "Baking soda is sodium hydrogencarbonate, NaHCO3.",
+  "source": "NCERT Class 10, Ch 2"
+}

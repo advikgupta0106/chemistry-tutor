@@ -1,0 +1,17 @@
+{
+  "id": "cic-catenation-003",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "catenation-and-saturation",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Which element other than carbon can also show catenation, though to a much smaller extent (chains of only 7-8 atoms)?",
+  "options": [
+    "Oxygen",
+    "Sulphur",
+    "Nitrogen",
+    "Silicon"
+  ],
+  "answer_index": 3,
+  "explanation": "Silicon can form hydrogen compounds with chains up to only seven or eight atoms long, far short of carbon's unmatched catenation.",
+  "source": "NCERT Class 10, Ch 4"
+}

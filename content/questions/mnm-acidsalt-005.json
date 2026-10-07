@@ -1,0 +1,17 @@
+{
+  "id": "mnm-acidsalt-005",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-acids-and-salt-solutions",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Which two metals are exceptions that DO release hydrogen gas even with very dilute nitric acid?",
+  "options": [
+    "Zinc and iron",
+    "Magnesium and manganese",
+    "Copper and lead",
+    "Silver and gold"
+  ],
+  "answer_index": 1,
+  "explanation": "Magnesium and manganese are exceptions that evolve hydrogen gas with very dilute nitric acid.",
+  "source": "NCERT Class 10, Ch 3"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-soaps-007",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "soaps-and-detergents",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Detergents remain effective in hard water, unlike soap, because:",
+  "options": [
+    "Their charged ends don't form insoluble precipitates with calcium and magnesium ions",
+    "Detergents react with water instead of oil",
+    "Detergents contain no ionic end at all",
+    "Detergents are always more concentrated"
+  ],
+  "answer_index": 0,
+  "explanation": "Detergents' charged ends don't precipitate with calcium and magnesium ions, so they stay effective in hard water.",
+  "source": "NCERT Class 10, Ch 4"
+}

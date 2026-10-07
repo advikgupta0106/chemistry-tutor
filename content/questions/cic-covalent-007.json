@@ -1,0 +1,17 @@
+{
+  "id": "cic-covalent-007",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "covalent-bonding-in-carbon",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Carbon compounds like methane and chloroform generally have ___ melting points and are ___ conductors of electricity.",
+  "options": [
+    "High, poor",
+    "Low, poor",
+    "High, good",
+    "Low, good"
+  ],
+  "answer_index": 1,
+  "explanation": "Covalent carbon compounds generally have low melting points and are poor conductors of electricity, since no ions are involved.",
+  "source": "NCERT Class 10, Ch 4"
+}

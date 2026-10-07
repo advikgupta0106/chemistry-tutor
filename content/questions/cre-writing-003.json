@@ -1,0 +1,17 @@
+{
+  "id": "cre-writing-003",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "writing-chemical-equations",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "What is the correct skeletal chemical equation for \"magnesium burns in oxygen to form magnesium oxide\"?",
+  "options": [
+    "Mg + O2 -> MgO",
+    "Mg + O -> MgO2",
+    "2Mg + O2 -> 2MgO",
+    "Mg2 + O -> MgO2"
+  ],
+  "answer_index": 0,
+  "explanation": "A skeletal equation correctly identifies every reactant and product using formulas, without yet checking that atom counts balance \u2014 Mg + O2 -> MgO.",
+  "source": "NCERT Class 10, Ch 1"
+}

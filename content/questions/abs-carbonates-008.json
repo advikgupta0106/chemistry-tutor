@@ -1,0 +1,17 @@
+{
+  "id": "abs-carbonates-008",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "reactions-with-carbonates-oxides-and-each-other",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In Na2CO3(s) + 2HCl(aq) -> 2NaCl(aq) + H2O(l) + CO2(g), how many chlorine atoms are present on each side?",
+  "options": [
+    "1",
+    "3",
+    "4",
+    "2"
+  ],
+  "answer_index": 3,
+  "explanation": "2HCl contains 2 chlorine atoms, matching the 2 chlorine atoms in 2NaCl.",
+  "source": "NCERT Class 10, Ch 2"
+}

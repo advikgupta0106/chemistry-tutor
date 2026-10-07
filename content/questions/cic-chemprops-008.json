@@ -1,0 +1,17 @@
+{
+  "id": "cic-chemprops-008",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chemical-properties-of-carbon-compounds",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "CH4 + Cl2 -> CH3Cl + HCl, occurring in sunlight, is an example of a:",
+  "options": [
+    "Substitution reaction",
+    "Decomposition reaction",
+    "Addition reaction",
+    "Neutralisation reaction"
+  ],
+  "answer_index": 0,
+  "explanation": "Chlorine replaces methane's hydrogen atoms one by one, which is why this is called a substitution reaction.",
+  "source": "NCERT Class 10, Ch 4"
+}

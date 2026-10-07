@@ -1,0 +1,17 @@
+{
+  "id": "cre-redox-003",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "oxidation-and-reduction-class-10",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In CuO + H2 -> Cu + H2O, which substance is reduced?",
+  "options": [
+    "Cu",
+    "H2",
+    "H2O",
+    "CuO"
+  ],
+  "answer_index": 3,
+  "explanation": "Copper(II) oxide loses its oxygen in this reaction, so it is reduced.",
+  "source": "NCERT Class 10, Ch 1"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "abs-carbonates-004",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "reactions-with-carbonates-oxides-and-each-other",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "NaOH(aq) + HCl(aq) -> NaCl(aq) + H2O(l) is an example of:",
+  "options": [
+    "A displacement reaction",
+    "A neutralisation reaction",
+    "A decomposition reaction",
+    "A combination reaction"
+  ],
+  "answer_index": 1,
+  "explanation": "An acid and a base reacting to exactly cancel each other's effect, producing a salt and water, is neutralisation.",
+  "source": "NCERT Class 10, Ch 2"
+}

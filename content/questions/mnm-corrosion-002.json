@@ -1,0 +1,17 @@
+{
+  "id": "mnm-corrosion-002",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "corrosion-and-alloys",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Silver tarnishes black mainly because it reacts with ___ in the air.",
+  "options": [
+    "Water vapour",
+    "Carbon dioxide",
+    "Oxygen",
+    "Sulphur"
+  ],
+  "answer_index": 3,
+  "explanation": "Silver tarnishes black by reacting with sulphur present in the air.",
+  "source": "NCERT Class 10, Ch 3"
+}

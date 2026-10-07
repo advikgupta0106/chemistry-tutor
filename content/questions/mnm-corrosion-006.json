@@ -1,0 +1,17 @@
+{
+  "id": "mnm-corrosion-006",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "corrosion-and-alloys",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "An alloy is best described as:",
+  "options": [
+    "A homogeneous mixture of two or more metals, or a metal and a non-metal",
+    "A metal dissolved only in mercury",
+    "Any compound containing a metal and oxygen",
+    "A pure metal in its natural state"
+  ],
+  "answer_index": 0,
+  "explanation": "An alloy is a homogeneous mixture of two or more metals, or of a metal and a non-metal.",
+  "source": "NCERT Class 10, Ch 3"
+}

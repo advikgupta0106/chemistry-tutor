@@ -1,0 +1,17 @@
+{
+  "id": "abs-crystallisation-004",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "water-of-crystallisation",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Gypsum, CaSO4.2H2O, contains how many water molecules per formula unit?",
+  "options": [
+    "3",
+    "2",
+    "4",
+    "1"
+  ],
+  "answer_index": 1,
+  "explanation": "Gypsum's formula shows two water molecules of crystallisation per formula unit.",
+  "source": "NCERT Class 10, Ch 2"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "abs-commonsalt-004",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "chemicals-from-common-salt",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Bleaching powder is used for all of the following EXCEPT:",
+  "options": [
+    "Neutralising stomach acid",
+    "Disinfecting drinking water",
+    "Acting as an oxidising agent",
+    "Bleaching cotton and linen"
+  ],
+  "answer_index": 0,
+  "explanation": "Bleaching powder bleaches textiles, disinfects water, and acts as an oxidising agent \u2014 neutralising stomach acid is baking soda's role, not bleaching powder's.",
+  "source": "NCERT Class 10, Ch 2"
+}

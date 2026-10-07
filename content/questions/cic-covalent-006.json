@@ -1,0 +1,17 @@
+{
+  "id": "cic-covalent-006",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "covalent-bonding-in-carbon",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Two nitrogen atoms sharing three electrons each form a:",
+  "options": [
+    "Single bond",
+    "Triple bond",
+    "No bond at all",
+    "Double bond"
+  ],
+  "answer_index": 1,
+  "explanation": "Sharing three electron pairs between two nitrogen atoms forms a triple bond.",
+  "source": "NCERT Class 10, Ch 4"
+}

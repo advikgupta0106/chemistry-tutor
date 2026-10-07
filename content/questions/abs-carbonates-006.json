@@ -1,0 +1,17 @@
+{
+  "id": "abs-carbonates-006",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "reactions-with-carbonates-oxides-and-each-other",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Metal oxides are classed as basic oxides because they react with acids following the same pattern as:",
+  "options": [
+    "A salt reacting with water",
+    "A base reacting with an acid",
+    "Two acids reacting together",
+    "A carbonate reacting with a base"
+  ],
+  "answer_index": 1,
+  "explanation": "Metal oxide + Acid -> Salt + Water is the same pattern a base reacting with an acid follows, which is why metal oxides are basic oxides.",
+  "source": "NCERT Class 10, Ch 2"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "sodium-sulphate-barium-chloride",
+  "equation": "Na2SO4 + BaCl2 -> BaSO4 + 2NaCl",
+  "type": "Double Displacement (Precipitation) Reaction",
+  "explanation": "Sodium sulphate and barium chloride exchange ions completely, producing an insoluble white precipitate of barium sulphate alongside dissolved sodium chloride.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ]
+}

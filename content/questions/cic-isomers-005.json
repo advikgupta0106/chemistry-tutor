@@ -1,0 +1,17 @@
+{
+  "id": "cic-isomers-005",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chains-branches-rings-and-isomers",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Compounds that share the exact same molecular formula but have a genuinely different structure are called:",
+  "options": [
+    "Isomers",
+    "Allotropes",
+    "Isotopes",
+    "Homologues"
+  ],
+  "answer_index": 0,
+  "explanation": "Structural isomers share an identical molecular formula but have a genuinely different structure.",
+  "source": "NCERT Class 10, Ch 4"
+}

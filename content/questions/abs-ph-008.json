@@ -1,0 +1,17 @@
+{
+  "id": "abs-ph-008",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "the-ph-scale",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "An antacid like milk of magnesia relieves excess stomach acid because it is:",
+  "options": [
+    "A strong acid",
+    "A mild base that neutralises the excess acid",
+    "An indicator",
+    "A salt that absorbs water"
+  ],
+  "answer_index": 1,
+  "explanation": "Milk of magnesia (magnesium hydroxide) is a mild base that neutralises the stomach's excess hydrochloric acid.",
+  "source": "NCERT Class 10, Ch 2"
+}

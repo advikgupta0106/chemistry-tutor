@@ -1,0 +1,17 @@
+{
+  "id": "abs-common-005",
+  "topic_id": "acids-bases-and-salts",
+  "chapter_id": "what-acids-and-bases-have-in-common",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "The ion formed when H+ combines with a water molecule is called the:",
+  "options": [
+    "Hydronium ion",
+    "Chloride ion",
+    "Hydroxide ion",
+    "Carbonate ion"
+  ],
+  "answer_index": 0,
+  "explanation": "A bare H+ ion can't exist alone in solution; it combines with water to form the hydronium ion, H3O+.",
+  "source": "NCERT Class 10, Ch 2"
+}

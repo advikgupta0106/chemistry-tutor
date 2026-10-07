@@ -1,0 +1,17 @@
+{
+  "id": "cre-balancing-007",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "balancing-chemical-equations",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Once Fe + H2O -> Fe3O4 + H2 is fully balanced as 3Fe + 4H2O -> Fe3O4 + 4H2, how many hydrogen atoms appear on the left-hand side?",
+  "options": [
+    "8",
+    "2",
+    "12",
+    "4"
+  ],
+  "answer_index": 0,
+  "explanation": "4H2O contains 4 x 2 = 8 hydrogen atoms, matching the 8 hydrogen atoms in 4H2 on the right.",
+  "source": "NCERT Class 10, Ch 1"
+}

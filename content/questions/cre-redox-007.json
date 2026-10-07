@@ -1,0 +1,17 @@
+{
+  "id": "cre-redox-007",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "oxidation-and-reduction-class-10",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Besides gaining or losing oxygen, oxidation and reduction can also be defined in terms of:",
+  "options": [
+    "Gain or loss of water",
+    "Gain or loss of hydrogen",
+    "Gain or loss of heat",
+    "Gain or loss of colour"
+  ],
+  "answer_index": 1,
+  "explanation": "A substance is also considered oxidised if it loses hydrogen, and reduced if it gains hydrogen.",
+  "source": "NCERT Class 10, Ch 1"
+}

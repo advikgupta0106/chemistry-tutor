@@ -1,0 +1,17 @@
+{
+  "id": "cre-writing-005",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "writing-chemical-equations",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Dropping zinc granules into dilute sulphuric acid produces bubbling and warms the test tube. Both of these are signs that:",
+  "options": [
+    "The acid is evaporating",
+    "A chemical reaction has taken place",
+    "No reaction has occurred",
+    "The zinc is melting"
+  ],
+  "answer_index": 1,
+  "explanation": "Gas evolution and a temperature change are two of the four reliable signals that a chemical reaction has occurred.",
+  "source": "NCERT Class 10, Ch 1"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cic-isomers-008",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chains-branches-rings-and-isomers",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Benzene, C6H6, is a ring compound built from six carbons joined by:",
+  "options": [
+    "Only double bonds",
+    "Only triple bonds",
+    "Alternating single and double bonds",
+    "Only single bonds"
+  ],
+  "answer_index": 2,
+  "explanation": "Benzene is a six-carbon ring joined by alternating single and double bonds.",
+  "source": "NCERT Class 10, Ch 4"
+}

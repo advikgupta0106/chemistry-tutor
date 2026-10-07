@@ -1,0 +1,17 @@
+{
+  "id": "mnm-reactivity-006",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "the-reactivity-series",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Why is no single reagent, like oxygen or water alone, enough to rank every metal's reactivity?",
+  "options": [
+    "Because reactivity cannot be measured",
+    "Because all metals react identically with every reagent",
+    "Because many metals don't react with one or more of these reagents at all",
+    "Because these reagents are too expensive"
+  ],
+  "answer_index": 2,
+  "explanation": "Many metals don't react at all with a given single reagent, so no one reagent alone can rank every metal.",
+  "source": "NCERT Class 10, Ch 3"
+}

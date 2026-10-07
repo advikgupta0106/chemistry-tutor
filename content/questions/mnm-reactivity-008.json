@@ -1,0 +1,17 @@
+{
+  "id": "mnm-reactivity-008",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "the-reactivity-series",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Potassium and sodium are stored under kerosene oil, a direct practical consequence of their position:",
+  "options": [
+    "Outside the reactivity series entirely",
+    "Near the bottom of the reactivity series",
+    "In the middle of the reactivity series",
+    "Near the top of the reactivity series"
+  ],
+  "answer_index": 3,
+  "explanation": "Their position at the very top of the reactivity series makes them react so vigorously with air that they must be stored under kerosene.",
+  "source": "NCERT Class 10, Ch 3"
+}

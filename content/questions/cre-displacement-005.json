@@ -1,0 +1,17 @@
+{
+  "id": "cre-displacement-005",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "displacement-and-double-displacement",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "In Na2SO4(aq) + BaCl2(aq) -> BaSO4(s) + 2NaCl(aq), which product is the precipitate?",
+  "options": [
+    "BaCl2",
+    "Na2SO4",
+    "NaCl",
+    "BaSO4"
+  ],
+  "answer_index": 3,
+  "explanation": "BaSO4 is marked (s) because it is the water-insoluble solid formed, while NaCl stays dissolved.",
+  "source": "NCERT Class 10, Ch 1"
+}

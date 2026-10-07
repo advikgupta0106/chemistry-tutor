@@ -1,0 +1,17 @@
+{
+  "id": "mnm-acidsalt-003",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-acids-and-salt-solutions",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which metal does NOT react at all with dilute hydrochloric acid?",
+  "options": [
+    "Magnesium",
+    "Copper",
+    "Iron",
+    "Zinc"
+  ],
+  "answer_index": 1,
+  "explanation": "Copper does not react with dilute hydrochloric acid, unlike magnesium, aluminium, zinc and iron.",
+  "source": "NCERT Class 10, Ch 3"
+}

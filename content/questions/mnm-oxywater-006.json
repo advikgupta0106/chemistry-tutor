@@ -1,0 +1,17 @@
+{
+  "id": "mnm-oxywater-006",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "reactions-of-metals-with-oxygen-and-water",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Which metals react with neither cold nor hot water, but do react with steam?",
+  "options": [
+    "Potassium and sodium",
+    "Aluminium, iron and zinc",
+    "Calcium and magnesium",
+    "Silver and gold"
+  ],
+  "answer_index": 1,
+  "explanation": "Aluminium, iron and zinc don't react with cold or hot water but do react with steam, forming the metal oxide and hydrogen.",
+  "source": "NCERT Class 10, Ch 3"
+}

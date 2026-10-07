@@ -1,0 +1,17 @@
+{
+  "id": "cre-combdecomp-005",
+  "topic_id": "chemical-reactions-and-equations",
+  "chapter_id": "combination-and-decomposition",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Heating ferrous sulphate crystals turns them from green to a reddish solid and releases the smell of burning sulphur. This is an example of:",
+  "options": [
+    "A displacement reaction",
+    "A combination reaction",
+    "An exothermic combination reaction",
+    "A thermal decomposition reaction"
+  ],
+  "answer_index": 3,
+  "explanation": "Heat breaks the ferrous sulphate apart into ferric oxide, sulphur dioxide and sulphur trioxide \u2014 a thermal decomposition.",
+  "source": "NCERT Class 10, Ch 1"
+}

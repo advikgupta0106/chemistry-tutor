@@ -1,0 +1,17 @@
+{
+  "id": "mnm-physical-002",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "physical-properties-of-metals-and-non-metals",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "The ability of a metal to be beaten into thin sheets is called:",
+  "options": [
+    "Malleability",
+    "Sonority",
+    "Lustre",
+    "Ductility"
+  ],
+  "answer_index": 0,
+  "explanation": "Malleability is the property that lets a metal be beaten into thin sheets.",
+  "source": "NCERT Class 10, Ch 3"
+}

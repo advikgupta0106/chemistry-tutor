@@ -1,0 +1,17 @@
+{
+  "id": "mnm-extraction-005",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "extraction-and-refining-of-metals",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "After roasting or calcination produces a metal oxide, it is usually reduced to the metal using:",
+  "options": [
+    "Dilute acid",
+    "More oxygen",
+    "Water",
+    "A reducing agent such as carbon"
+  ],
+  "answer_index": 3,
+  "explanation": "The oxide is reduced to the metal using a reducing agent such as carbon.",
+  "source": "NCERT Class 10, Ch 3"
+}

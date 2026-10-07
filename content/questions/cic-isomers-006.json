@@ -1,0 +1,17 @@
+{
+  "id": "cic-isomers-006",
+  "topic_id": "carbon-and-its-compounds",
+  "chapter_id": "chains-branches-rings-and-isomers",
+  "difficulty": "medium",
+  "exams": [],
+  "prompt": "Butane, C4H10, has two structural isomers because its four carbons can be arranged as:",
+  "options": [
+    "Only a ring",
+    "Only a straight chain",
+    "Only a double-bond structure",
+    "A straight chain or a branched chain"
+  ],
+  "answer_index": 3,
+  "explanation": "Butane's four carbons can form a straight chain or a branched chain, two distinct molecules sharing the same formula.",
+  "source": "NCERT Class 10, Ch 4"
+}

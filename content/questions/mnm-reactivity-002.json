@@ -1,0 +1,17 @@
+{
+  "id": "mnm-reactivity-002",
+  "topic_id": "metals-and-non-metals",
+  "chapter_id": "the-reactivity-series",
+  "difficulty": "easy",
+  "exams": [],
+  "prompt": "Which metal sits at the very top (most reactive) of the standard reactivity series?",
+  "options": [
+    "Magnesium",
+    "Sodium",
+    "Calcium",
+    "Potassium"
+  ],
+  "answer_index": 3,
+  "explanation": "Potassium is the most reactive metal in the standard reactivity series.",
+  "source": "NCERT Class 10, Ch 3"
+}
