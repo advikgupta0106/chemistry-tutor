@@ -1,0 +1,37 @@
+{
+  "id": "calcium-carbonate-excess-carbon-dioxide",
+  "equation": "CaCO3 + H2O + CO2 -> Ca(HCO3)2",
+  "type": "Acid-Carbonate (Dissolution) Reaction",
+  "explanation": "Passing excess carbon dioxide through a suspension of calcium carbonate dissolves it into soluble calcium bicarbonate \u2014 the reverse of the reaction that makes limewater turn milky, and the reaction behind how CO2-rich water erodes limestone caves.",
+  "topics": [
+    "acids-bases-and-salts"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A milky white calcium carbonate suspension in water, with excess carbon dioxide bubbled in.",
+    "final_appearance": "A clear, colourless solution once the cloudiness has dissolved.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "As more carbon dioxide is bubbled through, the milky cloudiness gradually clears as it dissolves into soluble calcium bicarbonate.",
+    "colors": {
+      "initial_solution": "#f2efe8",
+      "final_solution": "#e8f1f4",
+      "initial_solid": null,
+      "final_solid": null,
+      "solid_shape": null,
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "wohler-urea-synthesis",
+  "equation": "NH4CNO -> NH2CONH2",
+  "type": "Isomerisation (Historic Synthesis) Reaction",
+  "explanation": "Heating ammonium cyanate rearranges it into urea \u2014 Friedrich Wohler's 1828 synthesis, the experiment that disproved the idea that organic compounds could only be made by living things.",
+  "topics": [
+    "organic-chemistry-basics"
+  ],
+  "beaker_view": {
+    "initial_appearance": "White ammonium cyanate crystals, heated.",
+    "final_appearance": "White urea crystals \u2014 visually almost unchanged.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Heating the white crystals rearranges them into equally white urea crystals \u2014 the visual change is minimal; what made this experiment historic was what it proved, not what it looked like.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#f1f1ee",
+      "final_solid": "#f1f1ee",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

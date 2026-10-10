@@ -1,0 +1,37 @@
+{
+  "id": "magnesium-hot-water-reaction",
+  "equation": "Mg + 2H2O -> Mg(OH)2 + H2",
+  "type": "Metal-Water Reaction",
+  "explanation": "Magnesium doesn't react with cold water, but reacts with hot water to form magnesium hydroxide and hydrogen gas, floating as bubbles of the gas cling to its surface \u2014 much like calcium's gentler reaction with cold water.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A grey magnesium ribbon in hot water.",
+    "final_appearance": "A cloudy white magnesium hydroxide suspension; the ribbon still present, reacting slowly.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": true,
+      "colour": "white"
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "In hot water, the ribbon floats as bubbles of hydrogen cling to it, and the water slowly turns cloudy white.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#f2efe8",
+      "initial_solid": "#9ca3a8",
+      "final_solid": "#9ca3a8",
+      "solid_shape": "strip",
+      "precipitate": "#f1f1ee",
+      "thermal_visual_style": null
+    }
+  }
+}

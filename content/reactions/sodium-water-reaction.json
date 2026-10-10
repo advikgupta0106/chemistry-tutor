@@ -1,0 +1,37 @@
+{
+  "id": "sodium-water-reaction",
+  "equation": "2Na + 2H2O -> 2NaOH + H2",
+  "type": "Metal-Water Reaction",
+  "explanation": "Sodium reacts so violently and exothermically with cold water that the hydrogen gas released catches fire immediately \u2014 the same dramatic reaction as potassium's, just slightly less extreme.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A small silvery-grey piece of sodium metal, dropped onto water.",
+    "final_appearance": "A colourless sodium hydroxide solution; the metal is consumed.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "vigorous",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "The hydrogen gas catches fire immediately, with an orange-yellow flame skittering across the water."
+    },
+    "observation": "Dropped onto water, the sodium skitters across the surface and bursts into an orange-yellow flame.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#e8f1f4",
+      "initial_solid": "#9ca3a8",
+      "final_solid": null,
+      "solid_shape": "strip",
+      "precipitate": null,
+      "thermal_visual_style": "glow"
+    }
+  }
+}

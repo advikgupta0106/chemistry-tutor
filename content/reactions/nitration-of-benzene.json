@@ -3,5 +3,35 @@
   "equation": "C6H6 + HNO3 -> C6H5NO2 + H2O",
   "type": "Electrophilic Substitution Reaction",
   "explanation": "Benzene reacts with concentrated nitric acid (with sulfuric acid as catalyst) via electrophilic aromatic substitution to form nitrobenzene and water.",
-  "topics": ["organic-chemistry-basics"]
+  "topics": [
+    "organic-chemistry-basics"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Colourless benzene mixed with concentrated nitric and sulfuric acid, usually cooled in an ice bath.",
+    "final_appearance": "A pale yellow, oily liquid (nitrobenzene) that separates as its own layer, denser than water.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "The colourless benzene layer turns into a pale yellow, oily liquid with a faint almond-like smell, settling out as a distinct layer once the mixture is left to stand.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#eadd8a",
+      "initial_solid": null,
+      "final_solid": null,
+      "solid_shape": null,
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

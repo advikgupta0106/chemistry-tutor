@@ -5,5 +5,33 @@
   "explanation": "Calcium oxide reacts vigorously with water to form calcium hydroxide, releasing a large amount of heat.",
   "topics": [
     "chemical-reactions-and-equations"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "A white, dry calcium oxide (quicklime) powder, with colourless water poured onto it.",
+    "final_appearance": "A white, pasty, cloudy suspension of calcium hydroxide (slaked lime), since it's only slightly soluble in water.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": true,
+      "colour": "white"
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "The mixture hisses and gives off visible steam as it reacts \u2014 releasing enough heat that the water can appear to boil locally."
+    },
+    "observation": "The moment water touches the quicklime, the mixture hisses, steams, and turns into a thick white paste \u2014 releasing noticeably more heat than a simple dissolving would.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#f2efe8",
+      "initial_solid": "#f1f1ee",
+      "final_solid": null,
+      "solid_shape": "granules",
+      "precipitate": "#f1f1ee",
+      "thermal_visual_style": "steam"
+    }
+  }
 }

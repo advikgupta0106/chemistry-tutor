@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Search, FlaskConical } from "lucide-react";
+import { Search, FlaskConical, Beaker, ChevronUp } from "lucide-react";
 import { formatFormula } from "@/lib/formatFormula";
 import type { Reaction, Topic } from "@/lib/content";
 import ReactionSolver from "@/components/ReactionSolver";
+import BeakerAnimation from "@/components/BeakerAnimation";
 import { useUserClass, topicMatchesUserClass } from "@/lib/userClass";
 
 export default function ReactionsClient({
@@ -16,6 +17,7 @@ export default function ReactionsClient({
 }) {
   const [search, setSearch] = useState("");
   const [topicFilter, setTopicFilter] = useState("All");
+  const [openBeakerId, setOpenBeakerId] = useState<string | null>(null);
   const userClass = useUserClass();
 
   // The topic chips and each reaction card's topic tags both come from this
@@ -92,32 +94,62 @@ export default function ReactionsClient({
         {filtered.length === 0 && (
           <p className="py-8 text-center text-sm text-text-dim">No reactions match this filter.</p>
         )}
-        {filtered.map((reaction) => (
-          <div key={reaction.id} className="rounded-2xl border border-border bg-surface p-4">
-            <div className="flex items-center gap-2">
-              <FlaskConical size={16} strokeWidth={1.5} className="text-accent" />
-              <span className="rounded-full bg-accent/15 px-2.5 py-0.5 text-xs font-medium text-accent-2">
-                {reaction.type}
-              </span>
-            </div>
-            <p className="mt-3 text-sm font-medium text-text">{formatFormula(reaction.equation)}</p>
-            <p className="mt-2 text-sm text-text-dim">{reaction.explanation}</p>
-            <div className="mt-3 flex flex-wrap gap-1.5">
-              {reaction.topics.map((topicId) => {
-                const topic = topicById[topicId];
-                if (!topic) return null;
-                return (
-                  <span
-                    key={topicId}
-                    className="rounded-full bg-surface-2 px-2 py-0.5 text-xs text-text-dim"
-                  >
-                    {topic.short_title ?? topic.title}
+        {filtered.map((reaction) => {
+          const isOpen = openBeakerId === reaction.id;
+          return (
+            <div key={reaction.id} className="rounded-2xl border border-border bg-surface p-4">
+              <div className="flex items-center justify-between gap-2">
+                <div className="flex items-center gap-2">
+                  <FlaskConical size={16} strokeWidth={1.5} className="text-accent" />
+                  <span className="rounded-full bg-accent/15 px-2.5 py-0.5 text-xs font-medium text-accent-2">
+                    {reaction.type}
                   </span>
-                );
-              })}
+                </div>
+                {reaction.beaker_view && (
+                  <button
+                    onClick={() => setOpenBeakerId(isOpen ? null : reaction.id)}
+                    className={`flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold ${
+                      isOpen ? "bg-accent text-white" : "bg-surface-2 text-accent-2"
+                    }`}
+                  >
+                    {isOpen ? (
+                      <>
+                        <ChevronUp size={14} strokeWidth={2} />
+                        Hide
+                      </>
+                    ) : (
+                      <>
+                        <Beaker size={14} strokeWidth={2} />
+                        See it happen
+                      </>
+                    )}
+                  </button>
+                )}
+              </div>
+              <p className="mt-3 text-sm font-medium text-text">{formatFormula(reaction.equation)}</p>
+              <p className="mt-2 text-sm text-text-dim">{reaction.explanation}</p>
+              <div className="mt-3 flex flex-wrap gap-1.5">
+                {reaction.topics.map((topicId) => {
+                  const topic = topicById[topicId];
+                  if (!topic) return null;
+                  return (
+                    <span
+                      key={topicId}
+                      className="rounded-full bg-surface-2 px-2 py-0.5 text-xs text-text-dim"
+                    >
+                      {topic.short_title ?? topic.title}
+                    </span>
+                  );
+                })}
+              </div>
+              {isOpen && reaction.beaker_view && (
+                <div className="mt-4">
+                  <BeakerAnimation beakerView={reaction.beaker_view} />
+                </div>
+              )}
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

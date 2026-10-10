@@ -3,5 +3,35 @@
   "equation": "Fe + CuSO4 -> FeSO4 + Cu",
   "type": "Displacement (Redox) Reaction",
   "explanation": "Iron is more reactive than copper, so it displaces copper from copper sulfate solution, forming iron sulfate and depositing metallic copper.",
-  "topics": ["redox-reactions"]
+  "topics": [
+    "redox-reactions"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A grey iron nail dropped into a deep blue copper sulphate solution.",
+    "final_appearance": "A pale green iron sulphate solution, with the nail now coated in a reddish-brown layer of deposited copper.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Over about twenty minutes, the solution's deep blue colour visibly fades toward pale green as the nail picks up a reddish copper coating.",
+    "colors": {
+      "initial_solution": "#2f5fb3",
+      "final_solution": "#a9c9a0",
+      "initial_solid": "#9ca3a8",
+      "final_solid": "#b5651d",
+      "solid_shape": "strip",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

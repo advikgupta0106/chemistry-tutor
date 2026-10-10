@@ -5,5 +5,33 @@
   "explanation": "Aluminium oxide also reacts with sodium hydroxide like an acid would, forming sodium aluminate and water - demonstrating its amphoteric nature.",
   "topics": [
     "metals-and-non-metals"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "A white, insoluble aluminium oxide powder sitting in a colourless sodium hydroxide solution.",
+    "final_appearance": "A colourless sodium aluminate solution; the white powder has dissolved away.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "The same white aluminium oxide powder just as readily dissolves into the alkali, leaving a clear solution \u2014 direct evidence that it reacts with both an acid and a base.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#e8f1f4",
+      "initial_solid": "#f1f1ee",
+      "final_solid": null,
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

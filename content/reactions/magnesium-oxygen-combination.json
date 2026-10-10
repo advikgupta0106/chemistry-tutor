@@ -1,0 +1,37 @@
+{
+  "id": "magnesium-oxygen-combination",
+  "equation": "2Mg + O2 -> 2MgO",
+  "type": "Combination Reaction",
+  "explanation": "Magnesium burns in oxygen with a dazzling white flame to form magnesium oxide \u2014 the reaction NCERT uses to introduce what counts as a chemical reaction in the first place.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A shiny, silvery-grey magnesium ribbon.",
+    "final_appearance": "A soft white ash of magnesium oxide.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "Burns with a dazzling white flame, too bright to look at directly."
+    },
+    "observation": "The ribbon catches and burns with an intensely bright white flame, leaving behind a soft white ash.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#c9ced2",
+      "final_solid": "#f1f1ee",
+      "solid_shape": "strip",
+      "precipitate": null,
+      "thermal_visual_style": "glow"
+    }
+  }
+}

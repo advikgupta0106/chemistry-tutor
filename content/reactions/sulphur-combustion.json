@@ -1,0 +1,37 @@
+{
+  "id": "sulphur-combustion",
+  "equation": "S + O2 -> SO2",
+  "type": "Combination Reaction",
+  "explanation": "Burning sulphur powder in air produces sulphur dioxide gas, which turns moist litmus red \u2014 NCERT's example of a non-metal forming an acidic oxide, in contrast to magnesium's basic oxide from the same activity.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Yellow sulphur powder.",
+    "final_appearance": "Burns away almost entirely, releasing a sharp gas.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "moderate",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "Burns with a pale blue flame."
+    },
+    "observation": "The yellow powder catches and burns with a pale blue flame, giving off a sharp, choking gas.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#e8d44d",
+      "final_solid": null,
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "glow"
+    }
+  }
+}

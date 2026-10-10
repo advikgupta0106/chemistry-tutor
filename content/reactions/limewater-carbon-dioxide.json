@@ -1,0 +1,37 @@
+{
+  "id": "limewater-carbon-dioxide",
+  "equation": "Ca(OH)2 + CO2 -> CaCO3 + H2O",
+  "type": "Precipitation Reaction",
+  "explanation": "Carbon dioxide gas bubbled through limewater (a calcium hydroxide solution) forms calcium carbonate, turning it milky \u2014 the standard laboratory test for CO2, and the same reaction behind whitewashed walls hardening to a shiny finish over a few days.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Clear, colourless limewater, with carbon dioxide gas bubbled in.",
+    "final_appearance": "A milky white, cloudy suspension.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": true,
+      "colour": "white"
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "As carbon dioxide is bubbled through, the clear limewater quickly turns milky white \u2014 the standard test used to confirm a gas really is carbon dioxide.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#f2efe8",
+      "initial_solid": null,
+      "final_solid": null,
+      "solid_shape": null,
+      "precipitate": "#f1f1ee",
+      "thermal_visual_style": null
+    }
+  }
+}

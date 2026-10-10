@@ -1,0 +1,37 @@
+{
+  "id": "plaster-of-paris-hydration",
+  "equation": "2CaSO4.1/2H2O + 3H2O -> 2CaSO4.2H2O",
+  "type": "Hydration Reaction",
+  "explanation": "Mixing Plaster of Paris with water converts it back into gypsum, hardening into a solid mass as it does \u2014 exactly why Plaster of Paris is useful for setting fractured bones and must be stored away from moisture.",
+  "topics": [
+    "acids-bases-and-salts"
+  ],
+  "beaker_view": {
+    "initial_appearance": "White Plaster of Paris powder, mixed with water into a wet paste.",
+    "final_appearance": "Set hard into solid white gypsum.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Mixed with water, the white powder thickens and sets hard within minutes \u2014 a change in texture more than colour.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#f1f1ee",
+      "final_solid": "#f1f1ee",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

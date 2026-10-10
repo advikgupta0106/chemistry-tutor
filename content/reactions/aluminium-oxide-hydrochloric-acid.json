@@ -5,5 +5,33 @@
   "explanation": "Aluminium oxide, an amphoteric oxide, reacts with hydrochloric acid like a base would, forming aluminium chloride and water.",
   "topics": [
     "metals-and-non-metals"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "A white, insoluble aluminium oxide powder sitting in a colourless dilute hydrochloric acid solution.",
+    "final_appearance": "A colourless aluminium chloride solution; the white powder has dissolved away.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "The white aluminium oxide powder gradually dissolves into the acid, leaving a clear, colourless solution behind with no bubbling or precipitate.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#e8f1f4",
+      "initial_solid": "#f1f1ee",
+      "final_solid": null,
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

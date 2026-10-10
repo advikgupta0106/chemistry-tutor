@@ -1,0 +1,37 @@
+{
+  "id": "carbon-combustion",
+  "equation": "C + O2 -> CO2",
+  "type": "Combustion Reaction",
+  "explanation": "Carbon, as coal or charcoal, burns in oxygen to form carbon dioxide and heat \u2014 the simplest combination reaction NCERT uses to introduce exothermic reactions.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A black lump of coal or charcoal.",
+    "final_appearance": "Glowing red-hot embers, mostly burning away to ash as invisible carbon dioxide escapes.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "Glows red-hot and gives off heat as it burns away."
+    },
+    "observation": "The black lump catches and glows red-hot, slowly burning down to a small amount of grey ash.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#232323",
+      "final_solid": "#9a958c",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "glow"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sodium-carbonate-hydrochloric-acid",
+  "equation": "Na2CO3 + 2HCl -> 2NaCl + H2O + CO2",
+  "type": "Acid-Carbonate Reaction",
+  "explanation": "Sodium carbonate reacts briskly with dilute hydrochloric acid to release carbon dioxide gas, water and sodium chloride \u2014 one of the two test tubes NCERT uses to show that metal carbonates and hydrogencarbonates react with acids the same way.",
+  "topics": [
+    "acids-bases-and-salts"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Colourless dilute hydrochloric acid, with white sodium carbonate added.",
+    "final_appearance": "A colourless sodium chloride solution.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "vigorous",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Adding the acid sets off a brisk fizz of carbon dioxide gas, which turns lime water milky when tested.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#e8f1f4",
+      "initial_solid": "#f1f1ee",
+      "final_solid": null,
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

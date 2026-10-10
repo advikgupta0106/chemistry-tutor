@@ -1,0 +1,37 @@
+{
+  "id": "bleaching-powder-manufacture",
+  "equation": "2Ca(OH)2 + 2Cl2 -> Ca(ClO)2 + CaCl2 + 2H2O",
+  "type": "Combination Reaction",
+  "explanation": "Chlorine gas reacts with dry slaked lime to produce bleaching powder \u2014 the industrial reaction that turns chlorine from the chlor-alkali process into a usable disinfecting and bleaching agent.",
+  "topics": [
+    "acids-bases-and-salts"
+  ],
+  "beaker_view": {
+    "initial_appearance": "White, dry slaked lime powder, with chlorine gas passed over it.",
+    "final_appearance": "Still a white powder \u2014 now bleaching powder.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Chlorine gas passed over the dry slaked lime is absorbed into it; there's little visible change beyond the gas disappearing into the white solid.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#f1f1ee",
+      "final_solid": "#f1f1ee",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

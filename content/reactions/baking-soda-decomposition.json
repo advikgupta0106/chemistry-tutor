@@ -1,0 +1,37 @@
+{
+  "id": "baking-soda-decomposition",
+  "equation": "2NaHCO3 -> Na2CO3 + H2O + CO2",
+  "type": "Thermal Decomposition Reaction",
+  "explanation": "Heating sodium hydrogencarbonate (baking soda) breaks it down into sodium carbonate, water and carbon dioxide \u2014 exactly the reaction that makes baked goods rise when baking powder is heated.",
+  "topics": [
+    "acids-bases-and-salts"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Dry white baking soda powder, heated in a test tube.",
+    "final_appearance": "A drier white residue of sodium carbonate.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "endothermic",
+      "visually_obvious": true,
+      "visual_cue": "Needs continuous heating to decompose, releasing carbon dioxide and steam."
+    },
+    "observation": "As the white powder is heated, it fizzes gently and gives off carbon dioxide and steam, leaving a drier white residue behind.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#f1f1ee",
+      "final_solid": "#f1f1ee",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "steam"
+    }
+  }
+}

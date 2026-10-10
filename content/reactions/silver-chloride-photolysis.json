@@ -5,5 +5,33 @@
   "explanation": "Silver chloride decomposes into silver metal and chlorine gas when exposed to sunlight, the same light-driven reaction black-and-white photography relies on.",
   "topics": [
     "chemical-reactions-and-equations"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "A white solid, silver chloride.",
+    "final_appearance": "The solid darkens to grey, then black, where it's been exposed to light.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Left out in sunlight, the white solid gradually darkens to grey and then black as it decomposes \u2014 the same light-driven darkening black-and-white photographic film relies on.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#f1f1ee",
+      "final_solid": "#232323",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

@@ -5,5 +5,33 @@
   "explanation": "Aluminium burns in oxygen to form a protective layer of aluminium oxide on its surface.",
   "topics": [
     "metals-and-non-metals"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "Shiny, silvery-grey aluminium metal.",
+    "final_appearance": "A dull, greyish-white coating of aluminium oxide on the metal's surface.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Ordinary aluminium doesn't burst into flame the way magnesium does \u2014 it just loses its shine as a thin, dull oxide layer forms and seals the surface. (Only finely powdered aluminium, heated strongly, burns with the brilliant white flame this reaction is sometimes associated with.)",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#9ca3a8",
+      "final_solid": "#d6d2c8",
+      "solid_shape": "strip",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

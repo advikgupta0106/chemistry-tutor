@@ -5,5 +5,33 @@
   "explanation": "Aluminium displaces iron from iron(III) oxide in this highly exothermic reaction, producing molten iron directly - used to join railway tracks and repair cracked machine parts.",
   "topics": [
     "metals-and-non-metals"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "A mixed grey powder of reddish-brown iron(III) oxide and silvery aluminium.",
+    "final_appearance": "A glowing pool of molten iron, alongside solid white aluminium oxide.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "Blinding white sparks and light, with molten iron visibly glowing orange-white as it forms."
+    },
+    "observation": "Once ignited, the mixture flares into blinding white sparks and light, and molten iron can be seen pouring out, glowing orange-white with heat.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#8a6a5a",
+      "final_solid": "#e8e4de",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "glow"
+    }
+  }
 }

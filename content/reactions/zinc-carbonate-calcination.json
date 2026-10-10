@@ -1,0 +1,38 @@
+{
+  "id": "zinc-carbonate-calcination",
+  "equation": "ZnCO3 -> ZnO + CO2",
+  "type": "Calcination Reaction",
+  "explanation": "Heating zinc carbonate strongly in limited air converts it to zinc oxide, releasing carbon dioxide \u2014 calcination, the carbonate-ore equivalent of roasting a sulphide ore.",
+  "topics": [
+    "metals-and-non-metals",
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "White zinc carbonate powder.",
+    "final_appearance": "A similar-looking white residue of zinc oxide.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "endothermic",
+      "visually_obvious": true,
+      "visual_cue": "Needs strong, sustained heating to decompose at all."
+    },
+    "observation": "Heated strongly, the pale powder gives off carbon dioxide \u2014 the colour barely changes, but the mass does as the gas escapes.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#f1f1ee",
+      "final_solid": "#f1f1ee",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "steam"
+    }
+  }
+}

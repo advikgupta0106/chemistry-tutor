@@ -1,0 +1,37 @@
+{
+  "id": "manganese-dioxide-aluminium-reduction",
+  "equation": "3MnO2 + 4Al -> 3Mn + 2Al2O3",
+  "type": "Displacement (Aluminothermic) Reaction",
+  "explanation": "Aluminium powder reduces manganese dioxide to molten manganese metal in a highly exothermic displacement reaction \u2014 the same aluminothermic principle as the thermite reaction, just with a different metal oxide.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A mixed grey-black powder of manganese dioxide and silvery aluminium.",
+    "final_appearance": "A glowing pool of molten manganese, alongside solid white aluminium oxide.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "Burns with intense heat, producing molten manganese metal, much like the iron thermite reaction."
+    },
+    "observation": "Once ignited, the mixture reacts with intense heat, producing a glowing pool of molten manganese \u2014 essentially the same spectacle as the classic iron thermite reaction.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#4a4a48",
+      "final_solid": "#e8e4de",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "glow"
+    }
+  }
+}

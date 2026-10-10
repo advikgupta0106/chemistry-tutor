@@ -5,5 +5,33 @@
   "explanation": "Zinc reacts with dilute hydrochloric acid to release hydrogen gas and form zinc chloride.",
   "topics": [
     "metals-and-non-metals"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "Grey zinc granules in colourless dilute hydrochloric acid.",
+    "final_appearance": "A colourless zinc chloride solution; the granules shrink as they're consumed.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "moderate",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Bubbles of hydrogen gas form steadily on the surface of the granules, and the solution stays colourless throughout as the zinc is slowly used up.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#e8f1f4",
+      "initial_solid": "#9ca3a8",
+      "final_solid": null,
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

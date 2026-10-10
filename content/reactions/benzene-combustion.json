@@ -1,0 +1,37 @@
+{
+  "id": "benzene-combustion",
+  "equation": "2C6H6 + 15O2 -> 12CO2 + 6H2O",
+  "type": "Combustion Reaction",
+  "explanation": "Benzene burns in air with a characteristically sooty, smoky flame, producing carbon dioxide and water \u2014 a direct contrast to methane's clean blue flame, since benzene's high carbon-to-hydrogen ratio means it burns incompletely even with plenty of air.",
+  "topics": [
+    "hydrocarbons"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Colourless liquid benzene, at a burner wick.",
+    "final_appearance": "No solid residue in the fuel itself; a visible smear of black soot where the flame touched.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "Burns with a yellow, heavily sooty flame, depositing black soot on anything held above it."
+    },
+    "observation": "Unlike methane's clean blue flame, benzene burns with a smoky yellow flame, leaving a visible smear of black soot on anything held above it.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": null,
+      "final_solid": null,
+      "solid_shape": null,
+      "precipitate": null,
+      "thermal_visual_style": "flame"
+    }
+  }
+}

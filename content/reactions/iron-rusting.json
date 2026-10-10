@@ -1,0 +1,38 @@
+{
+  "id": "iron-rusting",
+  "equation": "4Fe + 3O2 + 2xH2O -> 2Fe2O3.xH2O",
+  "type": "Corrosion Reaction",
+  "explanation": "Iron exposed to both air and water slowly rusts, forming a hydrated iron(III) oxide \u2014 the most familiar case of corrosion, and the one NCERT's conditions-of-rusting activity (iron nails in air+water, water alone, and dry air) is built around. NCERT itself doesn't give a numbered balanced equation for rust; this is the standard simplified form chemists use.",
+  "topics": [
+    "metals-and-non-metals",
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A shiny grey iron nail, exposed to moist air.",
+    "final_appearance": "A flaky, reddish-brown coating of rust.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Left exposed to both moist air and water, the shiny nail slowly develops a flaky, reddish-brown coating.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#9ca3a8",
+      "final_solid": "#9c4a2e",
+      "solid_shape": "strip",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

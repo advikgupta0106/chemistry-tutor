@@ -5,5 +5,33 @@
   "explanation": "Hydrogen gas reduces black copper(II) oxide back to brown copper metal by removing its oxygen, while the hydrogen itself is oxidised to water.",
   "topics": [
     "chemical-reactions-and-equations"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "A black coating of copper(II) oxide powder, heated while hydrogen gas is passed over it.",
+    "final_appearance": "The black coating turns to the reddish-brown colour of metallic copper.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "As hydrogen gas passes over the heated black powder, the colour visibly changes from black to reddish-brown copper, with droplets of water forming further along the tube.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#232323",
+      "final_solid": "#b5651d",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

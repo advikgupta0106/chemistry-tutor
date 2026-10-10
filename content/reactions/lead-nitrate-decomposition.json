@@ -1,0 +1,37 @@
+{
+  "id": "lead-nitrate-decomposition",
+  "equation": "2Pb(NO3)2 -> 2PbO + 4NO2 + O2",
+  "type": "Thermal Decomposition Reaction",
+  "explanation": "Heating lead nitrate crystals decomposes them into lead(II) oxide, releasing brown fumes of nitrogen dioxide and oxygen gas.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "White, colourless crystals of lead nitrate.",
+    "final_appearance": "A yellow powdery residue of lead oxide.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "moderate",
+      "colour": "#7a5230"
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "endothermic",
+      "visually_obvious": true,
+      "visual_cue": "Needs continuous heating, and gives off brown fumes as it decomposes."
+    },
+    "observation": "As the white crystals are heated, they hiss and release brown fumes, leaving behind a yellow powder.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#f1f1ee",
+      "final_solid": "#d9b54a",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "steam"
+    }
+  }
+}

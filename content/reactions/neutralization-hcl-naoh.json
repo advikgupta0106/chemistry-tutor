@@ -3,5 +3,36 @@
   "equation": "HCl + NaOH -> NaCl + H2O",
   "type": "Acid-Base (Neutralization) Reaction",
   "explanation": "Hydrochloric acid reacts with sodium hydroxide in a neutralization reaction to form sodium chloride and water.",
-  "topics": ["equilibrium", "some-basic-concepts"]
+  "topics": [
+    "equilibrium",
+    "some-basic-concepts"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A pink solution \u2014 sodium hydroxide tinted with a few drops of phenolphthalein indicator.",
+    "final_appearance": "Colourless, once enough acid has been added to neutralise the base.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Adding the acid drop by drop makes the pink colour fade away to colourless right at the neutralisation point, and adding a little more base afterward brings the pink straight back.",
+    "colors": {
+      "initial_solution": "#f3a9c0",
+      "final_solution": "#e8f1f4",
+      "initial_solid": null,
+      "final_solid": null,
+      "solid_shape": null,
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

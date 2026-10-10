@@ -1,0 +1,37 @@
+{
+  "id": "sodium-oxide-water",
+  "equation": "Na2O + H2O -> 2NaOH",
+  "type": "Combination Reaction",
+  "explanation": "Sodium oxide dissolves in water to form sodium hydroxide \u2014 one of NCERT's two examples of a metal oxide soluble enough to form an alkali directly.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "White sodium oxide powder in water.",
+    "final_appearance": "A clear, colourless sodium hydroxide solution.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "The white powder dissolves completely into the water, forming a clear solution.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#e8f1f4",
+      "initial_solid": "#f1f1ee",
+      "final_solid": null,
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

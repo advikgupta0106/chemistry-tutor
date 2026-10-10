@@ -5,5 +5,33 @@
   "explanation": "Passing an electric current through water splits it into hydrogen and oxygen gas, with exactly twice as much hydrogen collected as oxygen.",
   "topics": [
     "chemical-reactions-and-equations"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "Colourless water, with two electrodes dipped in and connected to a power source.",
+    "final_appearance": "Still colourless; gas has simply collected above each electrode.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "A steady stream of small bubbles rises from each electrode, with noticeably more gas collecting above one electrode (hydrogen) than the other (oxygen), in a 2:1 ratio.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#e8f1f4",
+      "initial_solid": null,
+      "final_solid": null,
+      "solid_shape": null,
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

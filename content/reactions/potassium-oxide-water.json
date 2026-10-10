@@ -1,0 +1,37 @@
+{
+  "id": "potassium-oxide-water",
+  "equation": "K2O + H2O -> 2KOH",
+  "type": "Combination Reaction",
+  "explanation": "Potassium oxide dissolves in water to form potassium hydroxide \u2014 the second of NCERT's two examples of a metal oxide soluble enough to form an alkali directly.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "White potassium oxide powder in water.",
+    "final_appearance": "A clear, colourless potassium hydroxide solution.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Like sodium oxide, the white powder dissolves completely into the water to form a clear solution.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#e8f1f4",
+      "initial_solid": "#f1f1ee",
+      "final_solid": null,
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

@@ -3,5 +3,36 @@
   "equation": "CaCO3 -> CaO + CO2",
   "type": "Thermal Decomposition Reaction",
   "explanation": "On strong heating, calcium carbonate decomposes into calcium oxide (quicklime) and carbon dioxide gas.",
-  "topics": ["thermodynamics", "some-basic-concepts"]
+  "topics": [
+    "thermodynamics",
+    "some-basic-concepts"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A white solid, calcium carbonate (limestone, marble chips, or chalk).",
+    "final_appearance": "Still a white solid (calcium oxide), but reduced in mass as gas has escaped.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "endothermic",
+      "visually_obvious": true,
+      "visual_cue": "Needs strong, sustained heating to decompose at all."
+    },
+    "observation": "There's no obvious colour change in the solid itself \u2014 the clearest sign this reacted is the gas given off, which turns lime water milky when passed through it.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#f1f1ee",
+      "final_solid": "#f1f1ee",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "steam"
+    }
+  }
 }

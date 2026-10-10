@@ -5,5 +5,33 @@
   "explanation": "Zinc, being more reactive than copper, displaces copper from copper sulphate solution, forming zinc sulphate and depositing metallic copper.",
   "topics": [
     "chemical-reactions-and-equations"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "Grey zinc granules or a strip, in a deep blue copper sulphate solution.",
+    "final_appearance": "A colourless zinc sulphate solution, with the zinc now coated in reddish-brown copper.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "The deep blue solution fades to colourless as the zinc surface picks up a visible reddish-brown coating of displaced copper.",
+    "colors": {
+      "initial_solution": "#2f5fb3",
+      "final_solution": "#e8f1f4",
+      "initial_solid": "#9ca3a8",
+      "final_solid": "#b5651d",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
 }

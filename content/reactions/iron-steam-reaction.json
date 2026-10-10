@@ -5,5 +5,33 @@
   "explanation": "Iron does not react with cold or hot water but reacts with steam to form iron oxide and hydrogen gas.",
   "topics": [
     "metals-and-non-metals"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "Grey iron (filings or wire), held red-hot as steam is passed over it.",
+    "final_appearance": "A black coating of iron oxide (Fe3O4) forms on the iron's surface.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "moderate",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "endothermic",
+      "visually_obvious": true,
+      "visual_cue": "The iron has to be kept glowing red-hot for the reaction to keep going."
+    },
+    "observation": "The glowing iron darkens to black as it reacts with the steam, while hydrogen gas collects at the far end of the tube and can be popped with a lit splint.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#9ca3a8",
+      "final_solid": "#232323",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "steam"
+    }
+  }
 }

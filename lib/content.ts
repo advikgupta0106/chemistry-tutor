@@ -63,12 +63,45 @@ export type Mechanism = {
   steps: MechanismStep[];
 };
 
+// Resolved by hand from the prose appearance fields alongside it (see
+// content-schema.json's _beaker_view_colors_readme) — the renderer reads
+// only these, never the prose, since the prose is written for a human and
+// is too loose to parse reliably in code.
+export type BeakerViewColors = {
+  initial_solution: string | null;
+  final_solution: string | null;
+  initial_solid: string | null;
+  final_solid: string | null;
+  solid_shape: "strip" | "granules" | null;
+  precipitate: string | null;
+  thermal_visual_style: "steam" | "glow" | "flame" | null;
+};
+
+export type BeakerView = {
+  initial_appearance: string;
+  final_appearance: string;
+  gas_evolution: {
+    occurs: boolean;
+    vigor: "vigorous" | "moderate" | "gentle" | null;
+    colour: string | null;
+  };
+  precipitate: { forms: boolean; colour: string | null };
+  thermal: {
+    effect: "exothermic" | "endothermic" | "neither";
+    visually_obvious: boolean;
+    visual_cue: string | null;
+  };
+  observation: string;
+  colors: BeakerViewColors;
+};
+
 export type Reaction = {
   id: string;
   equation: string;
   type: string;
   explanation: string;
   topics: string[];
+  beaker_view?: BeakerView;
 };
 
 export type Question = {

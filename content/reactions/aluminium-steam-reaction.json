@@ -1,0 +1,37 @@
+{
+  "id": "aluminium-steam-reaction",
+  "equation": "2Al + 3H2O -> Al2O3 + 3H2",
+  "type": "Metal-Steam Reaction",
+  "explanation": "Aluminium doesn't react with cold or hot water, but reacts with steam to form aluminium oxide and hydrogen gas \u2014 the same pattern iron follows, just with a metal that only needs a thin oxide coating to show it.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A grey aluminium strip, held in a stream of steam.",
+    "final_appearance": "Coated with a dull grey-white oxide layer.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "moderate",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "endothermic",
+      "visually_obvious": true,
+      "visual_cue": "Needs a continuous stream of steam to react at all."
+    },
+    "observation": "Held in the steam, the aluminium slowly develops a dull oxide coating as hydrogen gas is given off.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#9ca3a8",
+      "final_solid": "#d6d2c8",
+      "solid_shape": "strip",
+      "precipitate": null,
+      "thermal_visual_style": "steam"
+    }
+  }
+}

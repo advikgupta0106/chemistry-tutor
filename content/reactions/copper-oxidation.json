@@ -1,0 +1,37 @@
+{
+  "id": "copper-oxidation",
+  "equation": "2Cu + O2 -> 2CuO",
+  "type": "Combination Reaction",
+  "explanation": "Heating copper powder in air coats its surface with black copper(II) oxide \u2014 the forward half of the oxidation-reduction pair NCERT uses to introduce redox reactions (the reverse, reducing copper oxide back to copper with hydrogen, is already in the library).",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Reddish-brown, shiny copper powder.",
+    "final_appearance": "Coated black.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "As the reddish-brown copper powder is heated, its surface darkens to a coating of black copper oxide.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#b5651d",
+      "final_solid": "#232323",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

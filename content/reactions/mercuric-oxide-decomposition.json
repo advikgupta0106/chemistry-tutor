@@ -1,0 +1,37 @@
+{
+  "id": "mercuric-oxide-decomposition",
+  "equation": "2HgO -> 2Hg + O2",
+  "type": "Thermal Decomposition Reaction",
+  "explanation": "Further heating converts mercuric oxide into liquid metallic mercury and oxygen gas \u2014 the second step in extracting mercury from cinnabar, and historically one of the reactions used in discovering oxygen itself.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A reddish solid residue of mercuric oxide.",
+    "final_appearance": "Silvery droplets of liquid mercury.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "endothermic",
+      "visually_obvious": true,
+      "visual_cue": "Needs strong, sustained heating to decompose."
+    },
+    "observation": "Heated further, the reddish oxide decomposes into silvery droplets of liquid mercury, with oxygen gas escaping.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#c75c3a",
+      "final_solid": "#c0c0c8",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "steam"
+    }
+  }
+}

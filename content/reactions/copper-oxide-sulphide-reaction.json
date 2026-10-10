@@ -1,0 +1,37 @@
+{
+  "id": "copper-oxide-sulphide-reaction",
+  "equation": "2Cu2O + Cu2S -> 6Cu + SO2",
+  "type": "Extraction Reaction",
+  "explanation": "The copper(I) oxide formed by roasting reacts further with remaining copper(I) sulphide to give metallic copper directly, completing the extraction of copper from its ore by heating alone.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A mixture of red copper(I) oxide and dark grey copper(I) sulphide.",
+    "final_appearance": "Reddish-brown metallic copper.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Heated together, the red oxide and dark sulphide react further, leaving behind reddish-brown metallic copper.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#8a5a50",
+      "final_solid": "#b5651d",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "hydrogen-oxygen-combination",
+  "equation": "2H2 + O2 -> 2H2O",
+  "type": "Combination Reaction",
+  "explanation": "Hydrogen and oxygen gas combine explosively on ignition to form water \u2014 NCERT's second named example of a combination reaction, alongside the burning of coal.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Colourless hydrogen and oxygen gas mixed together.",
+    "final_appearance": "Water droplets, once the flash is over.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "Ignites with a sharp pop and a brief flash as the gases combine."
+    },
+    "observation": "Igniting the gas mixture sets off a sharp pop and a flash, leaving water droplets where the flame just was.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": null,
+      "final_solid": null,
+      "solid_shape": null,
+      "precipitate": null,
+      "thermal_visual_style": "flame"
+    }
+  }
+}

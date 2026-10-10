@@ -1,0 +1,37 @@
+{
+  "id": "copper-oxide-hydrochloric-acid",
+  "equation": "CuO + 2HCl -> CuCl2 + H2O",
+  "type": "Metal Oxide-Acid Reaction",
+  "explanation": "Copper oxide dissolves in dilute hydrochloric acid to form blue-green copper(II) chloride solution \u2014 NCERT's example showing that metal oxides react with acids the same way bases do, which is why they're called basic oxides.",
+  "topics": [
+    "acids-bases-and-salts"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Black copper oxide powder in colourless dilute hydrochloric acid.",
+    "final_appearance": "A blue-green copper chloride solution, the powder dissolved.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "The black powder dissolves into the acid, turning the solution a distinct blue-green.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#3f9c8a",
+      "initial_solid": "#232323",
+      "final_solid": null,
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

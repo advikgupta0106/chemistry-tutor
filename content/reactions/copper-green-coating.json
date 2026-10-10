@@ -1,0 +1,37 @@
+{
+  "id": "copper-green-coating",
+  "equation": "2Cu + O2 + CO2 + H2O -> CuCO3.Cu(OH)2",
+  "type": "Corrosion Reaction",
+  "explanation": "Copper slowly reacts with moist carbon dioxide in the air to form a green coating of basic copper carbonate \u2014 the third of NCERT's three everyday corrosion examples, alongside rust and silver tarnish. The exact formula of this basic carbonate is somewhat approximate, and NCERT describes the process qualitatively rather than with a numbered equation.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A shiny reddish-brown copper surface.",
+    "final_appearance": "A green coating of basic copper carbonate.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Left exposed to moist air over time, the shiny copper surface loses its brown lustre and gains a green coating.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#b5651d",
+      "final_solid": "#5a8c6a",
+      "solid_shape": "strip",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

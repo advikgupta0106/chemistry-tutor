@@ -1,0 +1,37 @@
+{
+  "id": "manganese-dioxide-hydrochloric-acid",
+  "equation": "MnO2 + 4HCl -> MnCl2 + 2H2O + Cl2",
+  "type": "Redox Reaction",
+  "explanation": "Manganese dioxide reacts with concentrated hydrochloric acid, which is oxidised to chlorine gas as the manganese dioxide is reduced to manganese(II) chloride \u2014 one of NCERT's named examples extending oxidation and reduction to hydrogen loss and gain.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Black manganese dioxide powder in colourless concentrated hydrochloric acid.",
+    "final_appearance": "A faint pink manganese chloride solution, the black powder consumed.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "moderate",
+      "colour": "#cdd98a"
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "The black powder dissolves away as pale yellow-green chlorine gas bubbles off, leaving a faint pink solution behind.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#f0d8de",
+      "initial_solid": "#232323",
+      "final_solid": null,
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

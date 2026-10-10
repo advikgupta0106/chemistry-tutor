@@ -1,0 +1,37 @@
+{
+  "id": "potassium-water-reaction",
+  "equation": "2K + 2H2O -> 2KOH + H2",
+  "type": "Metal-Water Reaction",
+  "explanation": "Potassium reacts so violently and exothermically with cold water that the hydrogen gas released catches fire immediately \u2014 the most dramatic metal-water reaction in the activity series, and exactly why potassium is stored under kerosene.",
+  "topics": [
+    "metals-and-non-metals"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A small silvery-grey piece of potassium metal, dropped onto water.",
+    "final_appearance": "A colourless potassium hydroxide solution; the metal is consumed.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "vigorous",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "The hydrogen gas catches fire immediately, with a lilac-tinged flame skittering across the water."
+    },
+    "observation": "The moment the potassium touches the water, it skitters across the surface and bursts into a lilac-tinged flame.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#e8f1f4",
+      "initial_solid": "#9ca3a8",
+      "final_solid": null,
+      "solid_shape": "strip",
+      "precipitate": null,
+      "thermal_visual_style": "glow"
+    }
+  }
+}

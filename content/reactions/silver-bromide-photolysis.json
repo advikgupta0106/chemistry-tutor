@@ -1,0 +1,37 @@
+{
+  "id": "silver-bromide-photolysis",
+  "equation": "2AgBr -> 2Ag + Br2",
+  "type": "Photolytic Decomposition Reaction",
+  "explanation": "Silver bromide, like silver chloride, darkens in sunlight as it decomposes into silver metal and bromine \u2014 the same light-sensitivity black-and-white photographic film is built on.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A pale cream, almost yellowish solid.",
+    "final_appearance": "Darkened to grey, then black.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Left in sunlight, the pale cream solid gradually darkens to grey and then black, just like silver chloride under the same light.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#e8dcc0",
+      "final_solid": "#232323",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

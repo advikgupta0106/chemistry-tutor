@@ -42,12 +42,33 @@
     "structure_source": "pubchem_cid or embedded SDF/mol block for 3Dmol.js"
   },
 
+  "_beaker_view_readme": "Optional 'beaker_view' field on a reaction (see content/reactions/*.json) describes what a student would actually SEE happen in a beaker/test tube — grounded in NCERT and standard chemistry, never guessed. Omit the whole field entirely for a reaction with no meaningful visual change (e.g. esterification — the defining cue is smell, not sight) or one that isn't something a student observes directly (e.g. haber-process — industrial-scale, all gases, no beaker). Fields: initial_appearance/final_appearance (plain-prose colour + solid-present description, matching the chapter content's voice — not a controlled vocabulary); gas_evolution.occurs (bool) + .vigor ('vigorous'|'moderate'|'gentle', null iff occurs is false) + .colour (hex string, null unless the gas has a specific, notably-coloured appearance — e.g. brown NO2 fumes, pale yellow-green chlorine — leave null for an ordinary colourless gas so the renderer falls back to its default translucent-white bubble); precipitate.forms (bool) + .colour (string, null iff forms is false — a surface deposit from a metal-displacement reaction, e.g. copper plating onto zinc, is NOT a precipitate, describe that in final_appearance instead); thermal.effect ('exothermic'|'endothermic'|'neither' — 'neither' for anything electrically-driven like electrolysis, or where no reaction-specific thermal observation is actually taught) + .visually_obvious (bool — true only for steam/visible heat/light, NOT just 'feels warm to the touch') + .visual_cue (string describing that visible cue, null iff visually_obvious is false — including when the cue text would only explain why nothing is visible, e.g. 'kept cool to avoid a visible temperature rise'; that belongs in explanation/observation instead, not as a visual_cue) ; observation (one line, present tense, concrete — the same voice as a chapter's section body, e.g. 'the ribbon fizzes vigorously and dissolves quickly'). If you're not confident of a specific colour or vigor, say so inside the field's own text (see lead-copper-chloride's beaker_view for an example) rather than omitting the field or guessing silently — a flagged uncertainty is useful, a wrong colour stated as fact is not.",
+
+  "_beaker_view_colors_readme": "Optional 'colors' sub-object inside beaker_view (see components/BeakerAnimation.tsx, the renderer that consumes it) holds hex values resolved BY HAND from the prose fields above, because that prose is written for a human reader and is too loose to parse reliably in code (e.g. 'Grey zinc granules in colourless dilute hydrochloric acid' mixes the solid's and the solution's colour in one sentence). The prose stays the source of truth for what's true; 'colors' only exists so the renderer doesn't have to guess at string-parsing. Fields: initial_solution/final_solution (hex or null — null means no liquid is rendered at all, e.g. a dry solid-only reaction like silver chloride darkening in light); initial_solid/final_solid (hex or null — null on final_solid means the solid is fully consumed/dissolved by the end, e.g. a magnesium ribbon; an unchanged hex on both means it's present throughout but not chemically transformed, e.g. calcium metal just shrinking); solid_shape ('strip'|'granules', null if there's no solid at all) purely picks which of the two simple shapes the renderer draws, not anything chemically meaningful; precipitate (hex or null, resolved from precipitate.colour above); thermal_visual_style ('steam'|'glow'|'flame', null iff thermal.visually_obvious is false) picks which cheap effect the renderer draws — 'steam' for ordinary visible heating, 'glow' for the one genuinely blinding/molten case (thermite), 'flame' for a reaction that's a burning gas rather than a beaker at all (methane combustion) and overrides initial_solution/initial_solid even if those happen to be set.",
+
   "reaction": {
     "id": "acetic-acid-bicarbonate",
     "equation": "CH3COOH + NaHCO3 -> CH3COONa + H2O + CO2",
     "type": "Acid-Base Reaction",
     "explanation": "Acetic acid reacts with sodium bicarbonate to form sodium acetate, water and carbon dioxide.",
-    "topics": ["equilibrium", "some-basic-concepts"]
+    "topics": ["equilibrium", "some-basic-concepts"],
+    "beaker_view": {
+      "initial_appearance": "Two colourless liquids: vinegar (dilute acetic acid) and a white sodium bicarbonate powder or solution, no solid metal involved.",
+      "final_appearance": "Still a colourless solution once the fizzing stops; the bicarbonate is fully consumed.",
+      "gas_evolution": { "occurs": true, "vigor": "vigorous", "colour": null },
+      "precipitate": { "forms": false, "colour": null },
+      "thermal": { "effect": "endothermic", "visually_obvious": false, "visual_cue": null },
+      "observation": "Adding vinegar to baking soda sets off a brisk, immediate fizz of carbon dioxide bubbles, and the mixture feels slightly cool to the touch as it reacts.",
+      "colors": {
+        "initial_solution": "#e8f1f4",
+        "final_solution": "#e8f1f4",
+        "initial_solid": null,
+        "final_solid": null,
+        "solid_shape": null,
+        "precipitate": null,
+        "thermal_visual_style": null
+      }
+    }
   },
 
   "mechanism": {

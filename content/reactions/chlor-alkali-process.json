@@ -1,0 +1,37 @@
+{
+  "id": "chlor-alkali-process",
+  "equation": "2NaCl + 2H2O -> 2NaOH + Cl2 + H2",
+  "type": "Electrolytic Decomposition Reaction",
+  "explanation": "Passing electricity through concentrated brine splits it into sodium hydroxide, chlorine gas at the anode and hydrogen gas at the cathode \u2014 the industrial chlor-alkali process that supplies the raw materials for bleaching powder and several other everyday chemicals.",
+  "topics": [
+    "acids-bases-and-salts"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A colourless brine solution, with two electrodes dipped in.",
+    "final_appearance": "Still colourless; sodium hydroxide has formed near the cathode.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": "#cdd98a"
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Bubbles of gas rise steadily from each electrode as the current flows, while sodium hydroxide slowly forms in the solution.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#e8f1f4",
+      "initial_solid": null,
+      "final_solid": null,
+      "solid_shape": null,
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

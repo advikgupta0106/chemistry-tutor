@@ -1,0 +1,37 @@
+{
+  "id": "barium-hydroxide-ammonium-chloride",
+  "equation": "Ba(OH)2 + 2NH4Cl -> BaCl2 + 2NH3 + 2H2O",
+  "type": "Endothermic (Double Displacement) Reaction",
+  "explanation": "Mixing solid barium hydroxide with solid ammonium chloride absorbs heat rather than releasing it \u2014 NCERT's named example of an endothermic reaction a student can directly feel, releasing ammonia gas and water as the solids react.",
+  "topics": [
+    "chemical-reactions-and-equations"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Two white solid powders, mixed together.",
+    "final_appearance": "A damp, pasty white mixture.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "endothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "Mixing the two white powders turns the test tube noticeably cold to the touch, with a sharp smell of ammonia rising from the damp mixture that forms.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#f1f1ee",
+      "final_solid": "#ece7da",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

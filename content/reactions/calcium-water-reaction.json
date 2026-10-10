@@ -5,5 +5,33 @@
   "explanation": "Calcium reacts with cold water to form calcium hydroxide and hydrogen gas, floating as bubbles of gas cling to its surface.",
   "topics": [
     "metals-and-non-metals"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "A grey, metallic piece of calcium dropped into colourless water.",
+    "final_appearance": "A cloudy white suspension of calcium hydroxide (limewater), with the calcium piece shrinking as it's consumed.",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": true,
+      "colour": "white"
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "The calcium visibly floats, with gentle bubbles of hydrogen gas clinging to and rising off its surface, while the water around it slowly turns cloudy and white \u2014 reacting steadily, but not vigorously enough to ignite the gas the way sodium or potassium would.",
+    "colors": {
+      "initial_solution": "#e8f1f4",
+      "final_solution": "#f2efe8",
+      "initial_solid": "#9ca3a8",
+      "final_solid": "#9ca3a8",
+      "solid_shape": "strip",
+      "precipitate": "#f1f1ee",
+      "thermal_visual_style": null
+    }
+  }
 }

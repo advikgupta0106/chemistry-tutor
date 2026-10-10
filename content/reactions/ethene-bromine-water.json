@@ -1,0 +1,37 @@
+{
+  "id": "ethene-bromine-water",
+  "equation": "C2H4 + Br2 -> C2H4Br2",
+  "type": "Electrophilic Addition Reaction",
+  "explanation": "Ethene decolourises a reddish-orange bromine solution almost instantly as the halogen adds across its double bond \u2014 the standard laboratory test used to tell an unsaturated hydrocarbon from a saturated one, since alkanes don't react with bromine water under the same mild conditions.",
+  "topics": [
+    "hydrocarbons"
+  ],
+  "beaker_view": {
+    "initial_appearance": "A reddish-orange bromine solution, with ethene gas passed through.",
+    "final_appearance": "Colourless, once the addition is complete.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "neither",
+      "visually_obvious": false,
+      "visual_cue": null
+    },
+    "observation": "The moment ethene gas passes into the solution, its reddish-orange colour fades to colourless \u2014 a quick, unmistakable sign of a carbon-carbon double bond reacting.",
+    "colors": {
+      "initial_solution": "#d9631e",
+      "final_solution": "#e8f1f4",
+      "initial_solid": null,
+      "final_solid": null,
+      "solid_shape": null,
+      "precipitate": null,
+      "thermal_visual_style": null
+    }
+  }
+}

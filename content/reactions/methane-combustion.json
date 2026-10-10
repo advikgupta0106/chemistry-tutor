@@ -3,5 +3,36 @@
   "equation": "CH4 + 2O2 -> CO2 + 2H2O",
   "type": "Combustion Reaction",
   "explanation": "Methane burns completely in excess oxygen to form carbon dioxide and water, releasing a large amount of heat.",
-  "topics": ["organic-chemistry-basics", "thermodynamics"]
+  "topics": [
+    "organic-chemistry-basics",
+    "thermodynamics"
+  ],
+  "beaker_view": {
+    "initial_appearance": "Colourless methane gas at a burner jet, unlit.",
+    "final_appearance": "No visible solid residue; water droplets condense on a cool surface held above the flame.",
+    "gas_evolution": {
+      "occurs": false,
+      "vigor": null,
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "exothermic",
+      "visually_obvious": true,
+      "visual_cue": "Burns with a clean blue flame, giving off heat and light."
+    },
+    "observation": "Methane burns with a clean, steady blue flame (not the sooty yellow a poorly-aired flame would give), and holding a cold, dry surface above it fogs up with condensing water droplets.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": null,
+      "final_solid": null,
+      "solid_shape": null,
+      "precipitate": null,
+      "thermal_visual_style": "flame"
+    }
+  }
 }

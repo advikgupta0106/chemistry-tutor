@@ -5,5 +5,33 @@
   "explanation": "Heating ferrous sulphate crystals breaks them down into ferric oxide, sulphur dioxide and sulphur trioxide, turning the green crystals reddish.",
   "topics": [
     "chemical-reactions-and-equations"
-  ]
+  ],
+  "beaker_view": {
+    "initial_appearance": "Pale green crystals of ferrous sulphate, in a dry test tube held over a flame.",
+    "final_appearance": "A reddish-brown solid residue (ferric oxide).",
+    "gas_evolution": {
+      "occurs": true,
+      "vigor": "gentle",
+      "colour": null
+    },
+    "precipitate": {
+      "forms": false,
+      "colour": null
+    },
+    "thermal": {
+      "effect": "endothermic",
+      "visually_obvious": true,
+      "visual_cue": "Needs continuous, strong heating over a flame to proceed at all."
+    },
+    "observation": "As the green crystals are heated, they turn reddish-brown and give off a sharp, pungent smell of burning sulphur.",
+    "colors": {
+      "initial_solution": null,
+      "final_solution": null,
+      "initial_solid": "#a9c9a0",
+      "final_solid": "#9c4a2e",
+      "solid_shape": "granules",
+      "precipitate": null,
+      "thermal_visual_style": "steam"
+    }
+  }
 }
