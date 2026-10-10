@@ -41,7 +41,10 @@ function fakeRandom(seed: number): number {
 }
 
 const VIGOR_BUBBLE_COUNT: Record<string, number> = { vigorous: 8, moderate: 5, gentle: 3 };
-const VIGOR_SPEED: Record<string, number> = { vigorous: 1.6, moderate: 1.1, gentle: 0.7 };
+// x1.5 over the original 1.6/1.1/0.7 — each bubble now completes roughly
+// 2-3 rises across the animation instead of ~1, so there are more chances
+// to catch one at peak opacity rather than relying on a single pass.
+const VIGOR_SPEED: Record<string, number> = { vigorous: 2.4, moderate: 1.65, gentle: 1.05 };
 
 export default function BeakerAnimation({ beakerView }: { beakerView: BeakerView }) {
   const clipId = useId();
@@ -123,8 +126,12 @@ export default function BeakerAnimation({ beakerView }: { beakerView: BeakerView
   const bubbleSpeed = VIGOR_SPEED[gas.vigor ?? "gentle"];
   // Most gases are colourless, so the default translucent-white bubble is
   // correct far more often than not — only a handful of reactions (brown
-  // NO2 fumes, pale yellow-green chlorine) set an explicit colour.
+  // NO2 fumes, pale yellow-green chlorine) set an explicit colour. Those
+  // need a higher opacity ceiling too — at the same 0.6 peak as a plain
+  // white bubble, a muted hue like brown or yellow-green reads as a grey
+  // smudge rather than a distinct colour.
   const bubbleColor = gas.colour ?? "#f4f4f6";
+  const bubbleOpacityPeak = gas.colour ? 0.9 : 0.6;
   const bubbleTopY = hasLiquid ? LIQUID_TOP_Y : BEAKER_RIM_Y - 18;
   const bubbleBottomY = hasSolid ? solidY : BEAKER_BOTTOM_Y - 10;
 
@@ -198,7 +205,7 @@ export default function BeakerAnimation({ beakerView }: { beakerView: BeakerView
                 width={BEAKER_RIGHT - BEAKER_LEFT}
                 height={BEAKER_BOTTOM_Y - LIQUID_TOP_Y}
                 fill={liquidColor}
-                opacity={0.72}
+                opacity={0.88}
                 clipPath={`url(#${clipId})`}
               />
             </>
@@ -276,8 +283,9 @@ export default function BeakerAnimation({ beakerView }: { beakerView: BeakerView
             const x = 70 + fakeRandom(i * 9.1) * 20;
             const y = bubbleBottomY - cyclePos * (bubbleBottomY - bubbleTopY);
             const fadeIn = Math.min(1, progress / 0.08);
-            const opacity = fadeIn * (cyclePos < 0.1 ? cyclePos / 0.1 : cyclePos > 0.85 ? (1 - cyclePos) / 0.15 : 1) * 0.6;
-            return <circle key={i} cx={x} cy={y} r={1.6 + fakeRandom(i) * 1.2} fill={bubbleColor} opacity={opacity} />;
+            const opacity =
+              fadeIn * (cyclePos < 0.1 ? cyclePos / 0.1 : cyclePos > 0.85 ? (1 - cyclePos) / 0.15 : 1) * bubbleOpacityPeak;
+            return <circle key={i} cx={x} cy={y} r={2.8 + fakeRandom(i) * 1.7} fill={bubbleColor} opacity={opacity} />;
           })}
         </svg>
       </div>
