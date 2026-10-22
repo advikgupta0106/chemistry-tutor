@@ -33,6 +33,23 @@
       "solid_shape": "strip",
       "precipitate": null,
       "thermal_visual_style": null
+    },
+    "animation": {
+      "type": "surface_change",
+      "apparatus": "dish",
+      "solution": null,
+      "solid": {
+        "from": "#9ca3a8",
+        "to": "#9c4a2e",
+        "shape": "strip"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "none"
+      },
+      "temperature": "none",
+      "intensity": "slow",
+      "precipitate": null
     }
   }
 }

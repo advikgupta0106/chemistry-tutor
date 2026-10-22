@@ -32,6 +32,26 @@
       "solid_shape": "strip",
       "precipitate": "#f1f1ee",
       "thermal_visual_style": null
+    },
+    "animation": {
+      "type": "displacement",
+      "apparatus": "beaker",
+      "solution": {
+        "from": "#5a9c85",
+        "to": "#eef4f0"
+      },
+      "solid": {
+        "from": "#9ca3a8",
+        "to": "#b5651d",
+        "shape": "strip"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "none"
+      },
+      "temperature": "none",
+      "intensity": "slow",
+      "precipitate": null
     }
   }
 }

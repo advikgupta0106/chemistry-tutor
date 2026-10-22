@@ -112,7 +112,7 @@ export type ReactionAnimation = {
     anode: { gas: string; colour: string | null; volume: number };
     collect: boolean;
   };
-  effects?: ("steam" | "glow" | "sparks" | "flash" | "floats" | "darts" | "soot" | "condensation" | "limewater_test" | "settles")[];
+  effects?: ("steam" | "glow" | "sparks" | "flash" | "floats" | "darts" | "soot" | "condensation" | "limewater_test" | "settles" | "clears" | "layer" | "drops")[];
 };
 
 export type BeakerView = {

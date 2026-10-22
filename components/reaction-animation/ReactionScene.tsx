@@ -11,6 +11,8 @@ import LegacyScene from "./LegacyScene";
 import MetalWaterScene from "./MetalWaterScene";
 import PhotolyticScene from "./PhotolyticScene";
 import PrecipitationScene from "./PrecipitationScene";
+import SolutionScene from "./SolutionScene";
+import SurfaceScene from "./SurfaceScene";
 import TemperatureScene from "./TemperatureScene";
 import ThermalScene from "./ThermalScene";
 
@@ -23,6 +25,10 @@ const SCENES: Partial<Record<ReactionAnimation["type"], (props: SceneProps) => R
   thermal_decomposition: ThermalScene,
   photolytic: PhotolyticScene,
   temperature_change: TemperatureScene,
+  displacement: SolutionScene,
+  dissolution: SolutionScene,
+  colour_change: SolutionScene,
+  surface_change: SurfaceScene,
 };
 
 export default function ReactionScene({

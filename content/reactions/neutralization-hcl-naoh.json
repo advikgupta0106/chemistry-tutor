@@ -33,6 +33,25 @@
       "solid_shape": null,
       "precipitate": null,
       "thermal_visual_style": null
+    },
+    "animation": {
+      "type": "colour_change",
+      "apparatus": "beaker",
+      "solution": {
+        "from": "#f3a9c0",
+        "to": "#e8f1f4"
+      },
+      "solid": null,
+      "gas": {
+        "colour": null,
+        "amount": "none"
+      },
+      "temperature": "none",
+      "intensity": "steady",
+      "precipitate": null,
+      "effects": [
+        "drops"
+      ]
     }
   }
 }
