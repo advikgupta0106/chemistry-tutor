@@ -32,6 +32,31 @@
       "solid_shape": "strip",
       "precipitate": null,
       "thermal_visual_style": "glow"
+    },
+    "animation": {
+      "type": "combustion",
+      "apparatus": "flame",
+      "solution": null,
+      "solid": {
+        "from": "#c9ced2",
+        "to": "#f1f1ee",
+        "shape": "strip"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "none"
+      },
+      "temperature": "none",
+      "intensity": "violent",
+      "precipitate": null,
+      "flame": {
+        "colour": "#ffffff",
+        "smoke": null,
+        "fuel": "solid"
+      },
+      "effects": [
+        "glow"
+      ]
     }
   }
 }

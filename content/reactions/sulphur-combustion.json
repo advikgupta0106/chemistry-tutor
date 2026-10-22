@@ -32,6 +32,28 @@
       "solid_shape": "granules",
       "precipitate": null,
       "thermal_visual_style": "glow"
+    },
+    "animation": {
+      "type": "combustion",
+      "apparatus": "flame",
+      "solution": null,
+      "solid": {
+        "from": "#e8d44d",
+        "to": null,
+        "shape": "granules"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "some"
+      },
+      "temperature": "none",
+      "intensity": "steady",
+      "precipitate": null,
+      "flame": {
+        "colour": "#8fb4f0",
+        "smoke": null,
+        "fuel": "solid"
+      }
     }
   }
 }

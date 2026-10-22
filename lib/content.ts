@@ -77,6 +77,43 @@ export type BeakerViewColors = {
   thermal_visual_style: "steam" | "glow" | "flame" | null;
 };
 
+// Per-reaction animation parameters (see content-schema.json's
+// _beaker_view_animation_readme). `type` picks which scene renderer in
+// components/reaction-animation/ draws it; every colour and visible effect
+// here is taken from the reaction's own prose or NCERT, never invented.
+export type ColourChange = { from: string; to: string };
+
+export type ReactionAnimation = {
+  type:
+    | "combustion"
+    | "metal_water"
+    | "gas_evolution"
+    | "electrolysis"
+    | "thermal_decomposition"
+    | "photolytic"
+    | "precipitation"
+    | "temperature_change"
+    | "displacement"
+    | "dissolution"
+    | "surface_change"
+    | "colour_change";
+  apparatus: "beaker" | "test_tube" | "test_tube_burner" | "electrolysis_cell" | "flame" | "dish";
+  solution: ColourChange | null;
+  // `to: null` means the solid is used up by the end.
+  solid: { from: string; to: string | null; shape: "strip" | "granules" | "lump" } | null;
+  gas: { colour: string | null; amount: "none" | "little" | "some" | "lots" };
+  temperature: "hot" | "cold" | "none";
+  intensity: "slow" | "steady" | "violent";
+  precipitate: string | null;
+  flame?: { colour: string; smoke: string | null; fuel: "gas_jet" | "wick" | "solid" | "mixture" };
+  electrolysis?: {
+    cathode: { gas: string; colour: string | null; volume: number };
+    anode: { gas: string; colour: string | null; volume: number };
+    collect: boolean;
+  };
+  effects?: ("steam" | "glow" | "sparks" | "flash" | "floats" | "darts" | "soot" | "condensation")[];
+};
+
 export type BeakerView = {
   initial_appearance: string;
   final_appearance: string;
@@ -93,6 +130,7 @@ export type BeakerView = {
   };
   observation: string;
   colors: BeakerViewColors;
+  animation?: ReactionAnimation;
 };
 
 export type Reaction = {

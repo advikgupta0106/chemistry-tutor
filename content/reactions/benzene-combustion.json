@@ -32,6 +32,27 @@
       "solid_shape": null,
       "precipitate": null,
       "thermal_visual_style": "flame"
+    },
+    "animation": {
+      "type": "combustion",
+      "apparatus": "flame",
+      "solution": null,
+      "solid": null,
+      "gas": {
+        "colour": null,
+        "amount": "none"
+      },
+      "temperature": "none",
+      "intensity": "violent",
+      "precipitate": null,
+      "flame": {
+        "colour": "#f5a623",
+        "smoke": "#141414",
+        "fuel": "wick"
+      },
+      "effects": [
+        "soot"
+      ]
     }
   }
 }

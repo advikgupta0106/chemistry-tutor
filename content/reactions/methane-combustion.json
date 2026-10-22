@@ -33,6 +33,27 @@
       "solid_shape": null,
       "precipitate": null,
       "thermal_visual_style": "flame"
+    },
+    "animation": {
+      "type": "combustion",
+      "apparatus": "flame",
+      "solution": null,
+      "solid": null,
+      "gas": {
+        "colour": null,
+        "amount": "none"
+      },
+      "temperature": "none",
+      "intensity": "steady",
+      "precipitate": null,
+      "flame": {
+        "colour": "#4f7fe8",
+        "smoke": null,
+        "fuel": "gas_jet"
+      },
+      "effects": [
+        "condensation"
+      ]
     }
   }
 }

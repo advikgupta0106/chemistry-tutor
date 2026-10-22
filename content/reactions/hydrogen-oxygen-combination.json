@@ -32,6 +32,28 @@
       "solid_shape": null,
       "precipitate": null,
       "thermal_visual_style": "flame"
+    },
+    "animation": {
+      "type": "combustion",
+      "apparatus": "test_tube",
+      "solution": null,
+      "solid": null,
+      "gas": {
+        "colour": null,
+        "amount": "none"
+      },
+      "temperature": "none",
+      "intensity": "violent",
+      "precipitate": null,
+      "flame": {
+        "colour": "#f5b638",
+        "smoke": null,
+        "fuel": "mixture"
+      },
+      "effects": [
+        "flash",
+        "condensation"
+      ]
     }
   }
 }
