@@ -32,6 +32,29 @@
       "solid_shape": "granules",
       "precipitate": null,
       "thermal_visual_style": null
+    },
+    "animation": {
+      "type": "gas_evolution",
+      "apparatus": "test_tube",
+      "solution": {
+        "from": "#e8f1f4",
+        "to": "#e8f1f4"
+      },
+      "solid": {
+        "from": "#f1f1ee",
+        "to": null,
+        "shape": "granules"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "lots"
+      },
+      "temperature": "none",
+      "intensity": "violent",
+      "precipitate": null,
+      "effects": [
+        "limewater_test"
+      ]
     }
   }
 }

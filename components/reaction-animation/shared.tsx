@@ -462,3 +462,77 @@ export function GasCollector({
     </g>
   );
 }
+
+// Liquid inside a test tube, clipped to its rounded bottom. `name` keeps the
+// clip id unique when a scene has more than one tube.
+export function TubeLiquid({
+  uid,
+  name,
+  geom,
+  top,
+  colour,
+  opacity,
+}: {
+  uid: string;
+  name: string;
+  geom: TubeGeom;
+  top: number;
+  colour: string;
+  opacity?: number;
+}) {
+  const id = `${uid}-${name}-clip`;
+  return (
+    <>
+      <clipPath id={id}>
+        <path d={`${tubePath(geom)} Z`} />
+      </clipPath>
+      <line x1={geom.cx - geom.halfWidth + 1} x2={geom.cx + geom.halfWidth - 1} y1={top} y2={top} stroke={colour} strokeWidth={1.2} opacity={0.7} />
+      <rect
+        x={geom.cx - geom.halfWidth}
+        y={top}
+        width={geom.halfWidth * 2}
+        height={geom.bottom - top}
+        fill={colour}
+        opacity={opacity ?? liquidOpacity(colour)}
+        clipPath={`url(#${id})`}
+      />
+    </>
+  );
+}
+
+// Solid sitting in a vessel: an upright strip (ribbon/nail), a cluster of
+// granules/powder, or a single lump. `scale` shrinks it as it's used up.
+export function SolidPiece({
+  shape,
+  cx,
+  baseY,
+  colour,
+  scale,
+  height = 50,
+}: {
+  shape: "strip" | "granules" | "lump";
+  cx: number;
+  baseY: number;
+  colour: string;
+  scale: number;
+  height?: number;
+}) {
+  if (scale <= 0.02) return null;
+  if (shape === "strip") {
+    const h = height * scale;
+    return <rect x={cx - 4} y={baseY - h} width={8} height={h} rx={2} fill={colour} />;
+  }
+  if (shape === "lump") {
+    return <rect x={cx - 10 * scale} y={baseY - 14 * scale} width={20 * scale} height={14 * scale} rx={4} fill={colour} />;
+  }
+  return (
+    <>
+      {Array.from({ length: 9 }).map((_, i) => {
+        const x = cx - 16 + fakeRandom(i * 2.3) * 32;
+        const r = (3.2 + fakeRandom(i * 1.1) * 1.8) * scale;
+        const y = baseY - r - (i % 3 === 0 ? r * 1.3 : 0);
+        return <circle key={i} cx={x} cy={y} r={r} fill={colour} />;
+      })}
+    </>
+  );
+}
