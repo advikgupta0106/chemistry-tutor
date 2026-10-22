@@ -32,6 +32,23 @@
       "solid_shape": "granules",
       "precipitate": null,
       "thermal_visual_style": null
+    },
+    "animation": {
+      "type": "thermal_decomposition",
+      "apparatus": "dish",
+      "solution": null,
+      "solid": {
+        "from": "#b5651d",
+        "to": "#232323",
+        "shape": "granules"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "none"
+      },
+      "temperature": "none",
+      "intensity": "slow",
+      "precipitate": null
     }
   }
 }

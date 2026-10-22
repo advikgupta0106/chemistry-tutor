@@ -32,6 +32,26 @@
       "solid_shape": "granules",
       "precipitate": null,
       "thermal_visual_style": "steam"
+    },
+    "animation": {
+      "type": "thermal_decomposition",
+      "apparatus": "test_tube_burner",
+      "solution": null,
+      "solid": {
+        "from": "#f1f1ee",
+        "to": "#f1f1ee",
+        "shape": "granules"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "some"
+      },
+      "temperature": "none",
+      "intensity": "slow",
+      "precipitate": null,
+      "effects": [
+        "steam"
+      ]
     }
   }
 }
