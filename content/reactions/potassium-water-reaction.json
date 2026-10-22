@@ -24,15 +24,6 @@
       "visual_cue": "The hydrogen gas catches fire immediately, with a lilac-tinged flame skittering across the water."
     },
     "observation": "The moment the potassium touches the water, it skitters across the surface and bursts into a lilac-tinged flame.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#e8f1f4",
-      "initial_solid": "#9ca3a8",
-      "final_solid": null,
-      "solid_shape": "strip",
-      "precipitate": null,
-      "thermal_visual_style": "glow"
-    },
     "animation": {
       "type": "metal_water",
       "apparatus": "beaker",

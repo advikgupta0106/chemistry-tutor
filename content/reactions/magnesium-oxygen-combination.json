@@ -24,15 +24,6 @@
       "visual_cue": "Burns with a dazzling white flame, too bright to look at directly."
     },
     "observation": "The ribbon catches and burns with an intensely bright white flame, leaving behind a soft white ash.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#c9ced2",
-      "final_solid": "#f1f1ee",
-      "solid_shape": "strip",
-      "precipitate": null,
-      "thermal_visual_style": "glow"
-    },
     "animation": {
       "type": "combustion",
       "apparatus": "flame",

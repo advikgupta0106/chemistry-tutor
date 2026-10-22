@@ -25,15 +25,6 @@
       "visual_cue": null
     },
     "observation": "Adding vinegar to baking soda sets off a brisk, immediate fizz of carbon dioxide bubbles, and the mixture feels slightly cool to the touch as it reacts.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#e8f1f4",
-      "initial_solid": null,
-      "final_solid": null,
-      "solid_shape": null,
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "gas_evolution",
       "apparatus": "beaker",

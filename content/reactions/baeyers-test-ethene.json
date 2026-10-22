@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "As ethene gas passes in, the deep purple colour fades, leaving a brownish precipitate of manganese dioxide behind \u2014 the colour change itself is the test.",
-    "colors": {
-      "initial_solution": "#7b3f9e",
-      "final_solution": "#e8f1f4",
-      "initial_solid": null,
-      "final_solid": null,
-      "solid_shape": null,
-      "precipitate": "#6b4a35",
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "precipitation",
       "apparatus": "beaker",

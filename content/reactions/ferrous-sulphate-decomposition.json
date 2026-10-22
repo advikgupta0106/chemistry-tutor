@@ -24,15 +24,6 @@
       "visual_cue": "Needs continuous, strong heating over a flame to proceed at all."
     },
     "observation": "As the green crystals are heated, they turn reddish-brown and give off a sharp, pungent smell of burning sulphur.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#a9c9a0",
-      "final_solid": "#9c4a2e",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": "steam"
-    },
     "animation": {
       "type": "thermal_decomposition",
       "apparatus": "test_tube_burner",

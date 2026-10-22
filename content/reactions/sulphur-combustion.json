@@ -24,15 +24,6 @@
       "visual_cue": "Burns with a pale blue flame."
     },
     "observation": "The yellow powder catches and burns with a pale blue flame, giving off a sharp, choking gas.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#e8d44d",
-      "final_solid": null,
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": "glow"
-    },
     "animation": {
       "type": "combustion",
       "apparatus": "flame",

@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "Over about twenty minutes, the solution's deep blue colour visibly fades toward pale green as the nail picks up a reddish copper coating.",
-    "colors": {
-      "initial_solution": "#2f5fb3",
-      "final_solution": "#a9c9a0",
-      "initial_solid": "#9ca3a8",
-      "final_solid": "#b5651d",
-      "solid_shape": "strip",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "displacement",
       "apparatus": "beaker",

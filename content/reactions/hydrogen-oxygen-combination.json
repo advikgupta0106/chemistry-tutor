@@ -24,15 +24,6 @@
       "visual_cue": "Ignites with a sharp pop and a brief flash as the gases combine."
     },
     "observation": "Igniting the gas mixture sets off a sharp pop and a flash, leaving water droplets where the flame just was.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": null,
-      "final_solid": null,
-      "solid_shape": null,
-      "precipitate": null,
-      "thermal_visual_style": "flame"
-    },
     "animation": {
       "type": "combustion",
       "apparatus": "test_tube",

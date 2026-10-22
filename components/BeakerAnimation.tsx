@@ -100,7 +100,7 @@ export default function BeakerAnimation({ beakerView }: { beakerView: BeakerView
     setProgress(value);
   }
 
-  if (!beakerView?.animation && !beakerView?.colors) {
+  if (!beakerView?.animation) {
     return (
       <div className="flex flex-col items-center justify-center gap-2 rounded-xl border border-border bg-surface-2 py-8 text-center">
         <WifiOff size={20} strokeWidth={1.5} className="text-text-dim" />

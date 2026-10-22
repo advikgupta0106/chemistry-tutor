@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "The white powder dissolves completely into the water, forming a clear solution.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#e8f1f4",
-      "initial_solid": "#f1f1ee",
-      "final_solid": null,
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "dissolution",
       "apparatus": "beaker",

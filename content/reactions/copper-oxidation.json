@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "As the reddish-brown copper powder is heated, its surface darkens to a coating of black copper oxide.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#b5651d",
-      "final_solid": "#232323",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "thermal_decomposition",
       "apparatus": "dish",

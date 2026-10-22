@@ -25,15 +25,6 @@
       "visual_cue": null
     },
     "observation": "Adding the acid drop by drop makes the pink colour fade away to colourless right at the neutralisation point, and adding a little more base afterward brings the pink straight back.",
-    "colors": {
-      "initial_solution": "#f3a9c0",
-      "final_solution": "#e8f1f4",
-      "initial_solid": null,
-      "final_solid": null,
-      "solid_shape": null,
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "colour_change",
       "apparatus": "beaker",

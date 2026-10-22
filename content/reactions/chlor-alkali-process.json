@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "Bubbles of gas rise steadily from each electrode as the current flows, while sodium hydroxide slowly forms in the solution.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#e8f1f4",
-      "initial_solid": null,
-      "final_solid": null,
-      "solid_shape": null,
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "electrolysis",
       "apparatus": "electrolysis_cell",

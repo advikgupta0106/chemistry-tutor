@@ -25,15 +25,6 @@
       "visual_cue": "Burns with a clean blue flame, giving off heat and light."
     },
     "observation": "Methane burns with a clean, steady blue flame (not the sooty yellow a poorly-aired flame would give), and holding a cold, dry surface above it fogs up with condensing water droplets.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": null,
-      "final_solid": null,
-      "solid_shape": null,
-      "precipitate": null,
-      "thermal_visual_style": "flame"
-    },
     "animation": {
       "type": "combustion",
       "apparatus": "flame",

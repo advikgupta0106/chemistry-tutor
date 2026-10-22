@@ -25,15 +25,6 @@
       "visual_cue": null
     },
     "observation": "Bubbles form on the granules' surface and the test tube warms noticeably to the touch as the reaction proceeds.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#e8f1f4",
-      "initial_solid": "#9ca3a8",
-      "final_solid": null,
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "gas_evolution",
       "apparatus": "beaker",

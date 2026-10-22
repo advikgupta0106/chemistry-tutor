@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "As more carbon dioxide is bubbled through, the milky cloudiness gradually clears as it dissolves into soluble calcium bicarbonate.",
-    "colors": {
-      "initial_solution": "#f2efe8",
-      "final_solution": "#e8f1f4",
-      "initial_solid": null,
-      "final_solid": null,
-      "solid_shape": null,
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "colour_change",
       "apparatus": "beaker",

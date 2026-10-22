@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "Mixing the two white powders turns the test tube noticeably cold to the touch, with a sharp smell of ammonia rising from the damp mixture that forms.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#f1f1ee",
-      "final_solid": "#ece7da",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "temperature_change",
       "apparatus": "test_tube",

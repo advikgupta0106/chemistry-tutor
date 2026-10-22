@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "The colourless benzene layer turns into a pale yellow, oily liquid with a faint almond-like smell, settling out as a distinct layer once the mixture is left to stand.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#eadd8a",
-      "initial_solid": null,
-      "final_solid": null,
-      "solid_shape": null,
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "colour_change",
       "apparatus": "beaker",

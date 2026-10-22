@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "The green solution fades as the lead strip picks up a reddish copper coating \u2014 though this exact pairing is less commonly demonstrated than the iron or zinc versions, so treat the shade of green and whether a visible white precipitate forms as the less certain part of this one.",
-    "colors": {
-      "initial_solution": "#5a9c85",
-      "final_solution": "#eef4f0",
-      "initial_solid": "#9ca3a8",
-      "final_solid": "#b5651d",
-      "solid_shape": "strip",
-      "precipitate": "#f1f1ee",
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "displacement",
       "apparatus": "beaker",

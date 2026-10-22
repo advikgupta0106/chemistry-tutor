@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "Heating the white crystals rearranges them into equally white urea crystals \u2014 the visual change is minimal; what made this experiment historic was what it proved, not what it looked like.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#f1f1ee",
-      "final_solid": "#f1f1ee",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "thermal_decomposition",
       "apparatus": "test_tube_burner",

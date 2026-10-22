@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "Heated together, the red oxide and dark sulphide react further, leaving behind reddish-brown metallic copper.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#8a5a50",
-      "final_solid": "#b5651d",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "thermal_decomposition",
       "apparatus": "test_tube_burner",

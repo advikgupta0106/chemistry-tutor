@@ -24,15 +24,6 @@
       "visual_cue": "Needs strong, sustained heating to decompose."
     },
     "observation": "Heated further, the reddish oxide decomposes into silvery droplets of liquid mercury, with oxygen gas escaping.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#c75c3a",
-      "final_solid": "#c0c0c8",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": "steam"
-    },
     "animation": {
       "type": "thermal_decomposition",
       "apparatus": "test_tube_burner",

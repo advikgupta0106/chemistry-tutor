@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "The ribbon fizzes vigorously and dissolves quickly \u2014 faster and more energetically than any other common metal reacting with this acid \u2014 and the tube warms noticeably within seconds.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#e8f1f4",
-      "initial_solid": "#9ca3a8",
-      "final_solid": null,
-      "solid_shape": "strip",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "gas_evolution",
       "apparatus": "beaker",

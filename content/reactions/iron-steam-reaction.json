@@ -24,15 +24,6 @@
       "visual_cue": "The iron has to be kept glowing red-hot for the reaction to keep going."
     },
     "observation": "The glowing iron darkens to black as it reacts with the steam, while hydrogen gas collects at the far end of the tube and can be popped with a lit splint.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#9ca3a8",
-      "final_solid": "#232323",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": "steam"
-    },
     "animation": {
       "type": "metal_water",
       "apparatus": "test_tube_burner",

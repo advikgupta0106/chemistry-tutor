@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "The calcium visibly floats, with gentle bubbles of hydrogen gas clinging to and rising off its surface, while the water around it slowly turns cloudy and white \u2014 reacting steadily, but not vigorously enough to ignite the gas the way sodium or potassium would.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#f2efe8",
-      "initial_solid": "#9ca3a8",
-      "final_solid": "#9ca3a8",
-      "solid_shape": "strip",
-      "precipitate": "#f1f1ee",
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "metal_water",
       "apparatus": "beaker",

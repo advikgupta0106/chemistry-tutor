@@ -63,20 +63,6 @@ export type Mechanism = {
   steps: MechanismStep[];
 };
 
-// Resolved by hand from the prose appearance fields alongside it (see
-// content-schema.json's _beaker_view_colors_readme) — the renderer reads
-// only these, never the prose, since the prose is written for a human and
-// is too loose to parse reliably in code.
-export type BeakerViewColors = {
-  initial_solution: string | null;
-  final_solution: string | null;
-  initial_solid: string | null;
-  final_solid: string | null;
-  solid_shape: "strip" | "granules" | null;
-  precipitate: string | null;
-  thermal_visual_style: "steam" | "glow" | "flame" | null;
-};
-
 // Per-reaction animation parameters (see content-schema.json's
 // _beaker_view_animation_readme). `type` picks which scene renderer in
 // components/reaction-animation/ draws it; every colour and visible effect
@@ -130,7 +116,6 @@ export type BeakerView = {
     visual_cue: string | null;
   };
   observation: string;
-  colors: BeakerViewColors;
   animation?: ReactionAnimation;
 };
 

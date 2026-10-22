@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "The moment ethene gas passes into the solution, its reddish-orange colour fades to colourless \u2014 a quick, unmistakable sign of a carbon-carbon double bond reacting.",
-    "colors": {
-      "initial_solution": "#d9631e",
-      "final_solution": "#e8f1f4",
-      "initial_solid": null,
-      "final_solid": null,
-      "solid_shape": null,
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "colour_change",
       "apparatus": "beaker",

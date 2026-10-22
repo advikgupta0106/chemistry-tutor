@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "The deep blue solution fades to colourless as the zinc surface picks up a visible reddish-brown coating of displaced copper.",
-    "colors": {
-      "initial_solution": "#2f5fb3",
-      "final_solution": "#e8f1f4",
-      "initial_solid": "#9ca3a8",
-      "final_solid": "#b5651d",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "displacement",
       "apparatus": "beaker",

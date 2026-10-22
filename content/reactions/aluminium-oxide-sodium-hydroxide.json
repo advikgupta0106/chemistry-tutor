@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "The same white aluminium oxide powder just as readily dissolves into the alkali, leaving a clear solution \u2014 direct evidence that it reacts with both an acid and a base.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#e8f1f4",
-      "initial_solid": "#f1f1ee",
-      "final_solid": null,
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "dissolution",
       "apparatus": "beaker",

@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "Warmed with sodium hydroxide, the zinc granules bubble steadily with hydrogen gas and gradually shrink as sodium zincate forms.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#e8f1f4",
-      "initial_solid": "#9ca3a8",
-      "final_solid": null,
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "gas_evolution",
       "apparatus": "beaker",

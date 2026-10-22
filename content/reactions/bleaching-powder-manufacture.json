@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "Chlorine gas passed over the dry slaked lime is absorbed into it; there's little visible change beyond the gas disappearing into the white solid.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#f1f1ee",
-      "final_solid": "#f1f1ee",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "surface_change",
       "apparatus": "dish",

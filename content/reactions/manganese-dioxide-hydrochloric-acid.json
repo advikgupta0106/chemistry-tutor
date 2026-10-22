@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "The black powder dissolves away as pale yellow-green chlorine gas bubbles off, leaving a faint pink solution behind.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#f0d8de",
-      "initial_solid": "#232323",
-      "final_solid": null,
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "gas_evolution",
       "apparatus": "beaker",

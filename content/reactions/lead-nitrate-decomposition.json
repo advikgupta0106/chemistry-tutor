@@ -24,15 +24,6 @@
       "visual_cue": "Needs continuous heating, and gives off brown fumes as it decomposes."
     },
     "observation": "As the white crystals are heated, they hiss and release brown fumes, leaving behind a yellow powder.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#f1f1ee",
-      "final_solid": "#d9b54a",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": "steam"
-    },
     "animation": {
       "type": "thermal_decomposition",
       "apparatus": "test_tube_burner",

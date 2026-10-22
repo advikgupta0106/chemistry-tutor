@@ -24,15 +24,6 @@
       "visual_cue": null
     },
     "observation": "A steady stream of small bubbles rises from each electrode, with noticeably more gas collecting above one electrode (hydrogen) than the other (oxygen), in a 2:1 ratio.",
-    "colors": {
-      "initial_solution": "#e8f1f4",
-      "final_solution": "#e8f1f4",
-      "initial_solid": null,
-      "final_solid": null,
-      "solid_shape": null,
-      "precipitate": null,
-      "thermal_visual_style": null
-    },
     "animation": {
       "type": "electrolysis",
       "apparatus": "electrolysis_cell",

@@ -24,15 +24,6 @@
       "visual_cue": "Needs continuous heating to decompose, releasing carbon dioxide and steam."
     },
     "observation": "As the white powder is heated, it fizzes gently and gives off carbon dioxide and steam, leaving a drier white residue behind.",
-    "colors": {
-      "initial_solution": null,
-      "final_solution": null,
-      "initial_solid": "#f1f1ee",
-      "final_solid": "#f1f1ee",
-      "solid_shape": "granules",
-      "precipitate": null,
-      "thermal_visual_style": "steam"
-    },
     "animation": {
       "type": "thermal_decomposition",
       "apparatus": "test_tube_burner",
