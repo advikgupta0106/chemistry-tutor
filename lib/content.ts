@@ -105,7 +105,8 @@ export type ReactionAnimation = {
   temperature: "hot" | "cold" | "none";
   intensity: "slow" | "steady" | "violent";
   precipitate: string | null;
-  flame?: { colour: string; smoke: string | null; fuel: "gas_jet" | "wick" | "solid" | "mixture" };
+  // fuel is only needed by combustion scenes (it picks the burner/wick/spoon).
+  flame?: { colour: string; smoke: string | null; fuel?: "gas_jet" | "wick" | "solid" | "mixture" };
   electrolysis?: {
     cathode: { gas: string; colour: string | null; volume: number };
     anode: { gas: string; colour: string | null; volume: number };

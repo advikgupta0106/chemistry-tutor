@@ -32,6 +32,26 @@
       "solid_shape": "granules",
       "precipitate": null,
       "thermal_visual_style": "steam"
+    },
+    "animation": {
+      "type": "metal_water",
+      "apparatus": "test_tube_burner",
+      "solution": null,
+      "solid": {
+        "from": "#9ca3a8",
+        "to": "#232323",
+        "shape": "granules"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "some"
+      },
+      "temperature": "none",
+      "intensity": "steady",
+      "precipitate": null,
+      "effects": [
+        "glow"
+      ]
     }
   }
 }

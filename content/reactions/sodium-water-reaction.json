@@ -32,6 +32,33 @@
       "solid_shape": "strip",
       "precipitate": null,
       "thermal_visual_style": "glow"
+    },
+    "animation": {
+      "type": "metal_water",
+      "apparatus": "beaker",
+      "solution": {
+        "from": "#e8f1f4",
+        "to": "#e8f1f4"
+      },
+      "solid": {
+        "from": "#9ca3a8",
+        "to": null,
+        "shape": "lump"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "lots"
+      },
+      "temperature": "none",
+      "intensity": "steady",
+      "precipitate": null,
+      "flame": {
+        "colour": "#f5a623",
+        "smoke": null
+      },
+      "effects": [
+        "darts"
+      ]
     }
   }
 }

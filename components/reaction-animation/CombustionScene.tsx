@@ -2,7 +2,7 @@
 // colour and whether it smokes come straight from anim.flame, so a clean
 // blue methane flame and a sooty yellow benzene flame look nothing alike.
 
-import { GLASS, TestTube, fakeRandom, flamePath, lerpColor, seg, type SceneProps } from "./shared";
+import { Flame, GLASS, TestTube, fakeRandom, lerpColor, seg, type SceneProps } from "./shared";
 
 const PLATE = { x: 38, y: 34, w: 84, h: 5 };
 
@@ -75,37 +75,6 @@ function Smoke({ colour, fromY, toY, progress }: { colour: string; fromY: number
         );
       })}
     </>
-  );
-}
-
-function Flame({
-  cx,
-  baseY,
-  height,
-  halfWidth,
-  colour,
-  ragged,
-}: {
-  cx: number;
-  baseY: number;
-  height: number;
-  halfWidth: number;
-  colour: string;
-  ragged?: boolean;
-}) {
-  if (height <= 0) return null;
-  const inner = lerpColor(colour.startsWith("#") ? colour : "#ffffff", "#ffffff", 0.55);
-  return (
-    <g className={ragged ? "anim-flicker-fast" : "anim-flicker"} style={{ transformOrigin: `${cx}px ${baseY}px` }}>
-      <path d={flamePath(cx, baseY, height, halfWidth)} fill={colour} opacity={0.9} />
-      {ragged && (
-        <>
-          <path d={flamePath(cx - 6, baseY - height * 0.25, height * 0.55, halfWidth * 0.45)} fill={colour} opacity={0.8} />
-          <path d={flamePath(cx + 7, baseY - height * 0.2, height * 0.5, halfWidth * 0.4)} fill={colour} opacity={0.8} />
-        </>
-      )}
-      <path d={flamePath(cx, baseY, height * 0.5, halfWidth * 0.5)} fill={inner} opacity={0.85} />
-    </g>
   );
 }
 

@@ -32,6 +32,23 @@
       "solid_shape": "strip",
       "precipitate": null,
       "thermal_visual_style": "steam"
+    },
+    "animation": {
+      "type": "metal_water",
+      "apparatus": "test_tube_burner",
+      "solution": null,
+      "solid": {
+        "from": "#9ca3a8",
+        "to": "#d6d2c8",
+        "shape": "strip"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "some"
+      },
+      "temperature": "none",
+      "intensity": "slow",
+      "precipitate": null
     }
   }
 }

@@ -6,9 +6,11 @@ import type { BeakerView, ReactionAnimation } from "@/lib/content";
 import type { SceneProps } from "./shared";
 import CombustionScene from "./CombustionScene";
 import LegacyScene from "./LegacyScene";
+import MetalWaterScene from "./MetalWaterScene";
 
 const SCENES: Partial<Record<ReactionAnimation["type"], (props: SceneProps) => React.ReactNode>> = {
   combustion: CombustionScene,
+  metal_water: MetalWaterScene,
 };
 
 export default function ReactionScene({
