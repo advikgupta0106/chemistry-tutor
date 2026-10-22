@@ -5,6 +5,7 @@
 import type { BeakerView, ReactionAnimation } from "@/lib/content";
 import type { SceneProps } from "./shared";
 import CombustionScene from "./CombustionScene";
+import ElectrolysisScene from "./ElectrolysisScene";
 import GasEvolutionScene from "./GasEvolutionScene";
 import LegacyScene from "./LegacyScene";
 import MetalWaterScene from "./MetalWaterScene";
@@ -15,6 +16,7 @@ const SCENES: Partial<Record<ReactionAnimation["type"], (props: SceneProps) => R
   metal_water: MetalWaterScene,
   gas_evolution: GasEvolutionScene,
   precipitation: PrecipitationScene,
+  electrolysis: ElectrolysisScene,
 };
 
 export default function ReactionScene({

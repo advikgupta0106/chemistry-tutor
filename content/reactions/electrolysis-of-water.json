@@ -32,6 +32,35 @@
       "solid_shape": null,
       "precipitate": null,
       "thermal_visual_style": null
+    },
+    "animation": {
+      "type": "electrolysis",
+      "apparatus": "electrolysis_cell",
+      "solution": {
+        "from": "#e8f1f4",
+        "to": "#e8f1f4"
+      },
+      "solid": null,
+      "gas": {
+        "colour": null,
+        "amount": "some"
+      },
+      "temperature": "none",
+      "intensity": "steady",
+      "precipitate": null,
+      "electrolysis": {
+        "cathode": {
+          "gas": "H2",
+          "colour": null,
+          "volume": 2
+        },
+        "anode": {
+          "gas": "O2",
+          "colour": null,
+          "volume": 1
+        },
+        "collect": true
+      }
     }
   }
 }
