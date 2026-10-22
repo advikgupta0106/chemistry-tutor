@@ -11,6 +11,7 @@ import LegacyScene from "./LegacyScene";
 import MetalWaterScene from "./MetalWaterScene";
 import PhotolyticScene from "./PhotolyticScene";
 import PrecipitationScene from "./PrecipitationScene";
+import TemperatureScene from "./TemperatureScene";
 import ThermalScene from "./ThermalScene";
 
 const SCENES: Partial<Record<ReactionAnimation["type"], (props: SceneProps) => React.ReactNode>> = {
@@ -21,6 +22,7 @@ const SCENES: Partial<Record<ReactionAnimation["type"], (props: SceneProps) => R
   electrolysis: ElectrolysisScene,
   thermal_decomposition: ThermalScene,
   photolytic: PhotolyticScene,
+  temperature_change: TemperatureScene,
 };
 
 export default function ReactionScene({

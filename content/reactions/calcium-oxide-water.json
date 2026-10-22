@@ -32,6 +32,29 @@
       "solid_shape": "granules",
       "precipitate": "#f1f1ee",
       "thermal_visual_style": "steam"
+    },
+    "animation": {
+      "type": "temperature_change",
+      "apparatus": "beaker",
+      "solution": {
+        "from": "#e8f1f4",
+        "to": "#f2efe8"
+      },
+      "solid": {
+        "from": "#f1f1ee",
+        "to": null,
+        "shape": "lump"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "none"
+      },
+      "temperature": "hot",
+      "intensity": "violent",
+      "precipitate": "#f1f1ee",
+      "effects": [
+        "steam"
+      ]
     }
   }
 }

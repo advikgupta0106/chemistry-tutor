@@ -32,6 +32,23 @@
       "solid_shape": "granules",
       "precipitate": null,
       "thermal_visual_style": null
+    },
+    "animation": {
+      "type": "temperature_change",
+      "apparatus": "test_tube",
+      "solution": null,
+      "solid": {
+        "from": "#f1f1ee",
+        "to": "#ece7da",
+        "shape": "granules"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "little"
+      },
+      "temperature": "cold",
+      "intensity": "steady",
+      "precipitate": null
     }
   }
 }

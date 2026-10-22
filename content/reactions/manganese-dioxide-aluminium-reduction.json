@@ -32,6 +32,26 @@
       "solid_shape": "granules",
       "precipitate": null,
       "thermal_visual_style": "glow"
+    },
+    "animation": {
+      "type": "temperature_change",
+      "apparatus": "dish",
+      "solution": null,
+      "solid": {
+        "from": "#4a4a48",
+        "to": "#e8e4de",
+        "shape": "granules"
+      },
+      "gas": {
+        "colour": null,
+        "amount": "none"
+      },
+      "temperature": "hot",
+      "intensity": "violent",
+      "precipitate": null,
+      "effects": [
+        "glow"
+      ]
     }
   }
 }
