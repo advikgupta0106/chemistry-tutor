@@ -52,3 +52,4 @@ content/source/
 # scripts/'s own Python environment (rdkit etc.) — deliberately separate
 # from api/'s dependencies, and never committed
 scripts/.venv/
+.claude/
