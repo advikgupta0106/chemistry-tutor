@@ -25,9 +25,33 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n(i) CH 4",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) C H 3 8",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) Intermolecular forces are weak / not strong",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_1_MS_UNSIGNED (3).pdf",
+          "set_code": "31/1/1",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-main-31-1-1-q9",
@@ -66,9 +90,83 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "a) •\nH H H H\nH—C—C—C—C—H",
+          "marks": 0.5
+        },
+        {
+          "point": "H H H H\n•\nH H H\nH—C—C—C—H",
+          "marks": 0.5
+        },
+        {
+          "point": "H H\nH—C—H\nH\n• Isomers\n• C H 4 10",
+          "marks": 0.5
+        },
+        {
+          "point": "• Butane",
+          "marks": 0.5
+        },
+        {
+          "point": "• C H 4 6",
+          "marks": 1.0
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "9. b)\ni) • C6H6",
+          "marks": 0.5
+        },
+        {
+          "point": "•\nii)",
+          "marks": 0.5
+        },
+        {
+          "point": "• Single bond 9",
+          "marks": 0.5
+        },
+        {
+          "point": "• Double bond 3\niii) Hydrocarbons containing triple bond",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_1_MS_UNSIGNED (3).pdf",
+          "set_code": "31/1/1",
+          "question_no": 9,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_1_MS_UNSIGNED (3).pdf",
+          "set_code": "31/1/2",
+          "question_no": 12,
+          "pages": [
+            15,
+            16
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_1_MS_UNSIGNED (3).pdf",
+          "set_code": "31/1/3",
+          "question_no": 8,
+          "pages": [
+            23,
+            23
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-main-31-1-2-q7",
@@ -91,9 +189,37 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) • x is 2",
+          "marks": 0.5
+        },
+        {
+          "point": "• y is 4",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) • A is Ethyne",
+          "marks": 0.5
+        },
+        {
+          "point": "• B is Propyne",
+          "marks": 0.5
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_1_MS_UNSIGNED (3).pdf",
+          "set_code": "31/1/2",
+          "question_no": 7,
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-main-31-1-3-q2",
@@ -116,9 +242,33 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) • Period number—2",
+          "marks": 0.5
+        },
+        {
+          "point": "• Group number—16",
+          "marks": 0.5
+        },
+        {
+          "point": "(b)",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_1_MS_UNSIGNED (3).pdf",
+          "set_code": "31/1/3",
+          "question_no": 2,
+          "pages": [
+            21,
+            21
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-main-31-3-1-q2",
@@ -141,9 +291,29 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)",
+          "marks": 1
+        },
+        {
+          "point": "(b)",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_3_MS_UNSIGNED (1).pdf",
+          "set_code": "31/3/1",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-main-31-3-1-q9",
@@ -182,9 +352,71 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)\n(i) The forces of attraction between the molecules are weak.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) Bonding in carbon compounds does not give rise to any charged particles.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) Carbon only shares electrons with other atoms. It is not able to\nlose four electrons or gain four electrons.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n• A series of compounds in which some functional groups substitute for\nhydrogen in a carbon chain / the succeeding members differ by -CH2\nunit (14 u)",
+          "marks": 1
+        },
+        {
+          "point": "• Difference of CH 2 = 12u + 2u = 14u",
+          "marks": 1
+        },
+        {
+          "point": "(i) Melting and boiling points increase with increase in molecular\nmass.",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) Chemical properties, determined by the functional group remain same in a homologous series.",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_3_MS_UNSIGNED (1).pdf",
+          "set_code": "31/3/1",
+          "question_no": 9,
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_3_MS_UNSIGNED (1).pdf",
+          "set_code": "31/3/2",
+          "question_no": 12,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_3_MS_UNSIGNED (1).pdf",
+          "set_code": "31/3/3",
+          "question_no": 11,
+          "pages": [
+            23,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-main-31-3-2-q5",
@@ -207,9 +439,29 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) Electron dot structure of benzene",
+          "marks": 1
+        },
+        {
+          "point": "(b) Electron dot structure of ethane",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_3_MS_UNSIGNED (1).pdf",
+          "set_code": "31/3/2",
+          "question_no": 5,
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-main-31-3-3-q3",
@@ -232,9 +484,29 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "Structural isomers of butane\nCH3 CH2 CH2 CH3",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "most of the question text is missing from the PDF text layer"
+      "flag_reason": "most of the question text is missing from the PDF text layer; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_3_MS_UNSIGNED (1).pdf",
+          "set_code": "31/3/3",
+          "question_no": 3,
+          "pages": [
+            21,
+            21
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-comp-31-6-1-q1",
@@ -257,9 +529,29 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)",
+          "marks": 1
+        },
+        {
+          "point": "(b)",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022-COMPTT/X/Science/086_31_6_1.pdf",
+          "set_code": "31/6/1",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-comp-31-6-1-q9",
@@ -298,9 +590,83 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) (i) (I) oxygen / O",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) alcohol / - OH",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii)",
+          "marks": 0.5
+        },
+        {
+          "point": "(iii) (I)",
+          "marks": 0.5
+        },
+        {
+          "point": "(II)",
+          "marks": 0.5
+        },
+        {
+          "point": "• Benzene is unsaturated",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)\n(I)",
+          "marks": 1.0
+        },
+        {
+          "point": "(II) Functional Group\nAldehyde - CHO",
+          "marks": 0.5
+        },
+        {
+          "point": "Ketone",
+          "marks": 0.5
+        },
+        {
+          "point": "(Give marks if only name of the functional group is given)\n(ii) Due to strong covalent bonds between carbon atoms.",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula"
+      "flag_reason": "structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula; [scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022-COMPTT/X/Science/086_31_6_1.pdf",
+          "set_code": "31/6/1",
+          "question_no": 9,
+          "pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022-COMPTT/X/Science/086_31_6_2.pdf",
+          "set_code": "31/6/2",
+          "question_no": 12,
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022-COMPTT/X/Science/086_31_6_3.pdf",
+          "set_code": "31/6/3",
+          "question_no": 8,
+          "pages": [
+            5,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-comp-31-6-2-q7",
@@ -323,9 +689,29 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) Carboxylic Acid",
+          "marks": 1
+        },
+        {
+          "point": "(b) CnH2n+1COOH",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022-COMPTT/X/Science/086_31_6_2.pdf",
+          "set_code": "31/6/2",
+          "question_no": 7,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2022t2-comp-31-6-3-q2",
@@ -348,9 +734,29 @@
         }
       ],
       "exam_pattern": "2022_term2",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "Carbon has 4 electrons in its outermost shell and needs to gain or\nlose 4 electrons to attain noble gas configuration.\nLosing or gaining 4 electrons is not possible due to energy\nconsiderations; hence it shares electrons to form covalent bond.",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "most of the question text is missing from the PDF text layer"
+      "flag_reason": "most of the question text is missing from the PDF text layer; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2022-COMPTT/X/Science/086_31_6_3.pdf",
+          "set_code": "31/6/3",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31B-q7",
@@ -377,7 +783,7 @@
           "text": "C8H18"
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -392,7 +798,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 7,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31B-q34",
@@ -415,9 +832,49 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) (i) Propanoic acid",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) Benzene",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) Homologous series : A series of carbon compounds having similar\nstructure and chemical properties in which the successive members\ndiffer by – CH2 group.",
+          "marks": 1
+        },
+        {
+          "point": "• CH3OH, C2H5OH, C3H7OH",
+          "marks": 1
+        },
+        {
+          "point": "(c) An ester is formed",
+          "marks": 0.5
+        },
+        {
+          "point": "• Esterification\nAcid / H+",
+          "marks": 0.5
+        },
+        {
+          "point": "• C2H5OH + CH3OOH → CH3COOC2H5 + H2O",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 34,
+          "pages": [
+            7,
+            7
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-2-q6",
@@ -444,7 +901,7 @@
           "text": "Sodium ethoxide and hydrogen"
         }
       ],
-      "correct_option": null,
+      "correct_option": "d",
       "has_diagram": false,
       "source": [
         {
@@ -459,7 +916,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 6,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-2-q34",
@@ -498,9 +966,99 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) ‘X’ – CH3COOH / Ethanoic Acid / Acetic Acid",
+          "marks": 0.5
+        },
+        {
+          "point": "‘Y’ – C2H5OH / Ethanol",
+          "marks": 0.5
+        },
+        {
+          "point": "‘Z’ – CH3COOC2H5 / Ethyl Ethanoate",
+          "marks": 0.5
+        },
+        {
+          "point": "• CH3COOH + C2H5OH ⎯ catlyst ⎯ Acid⎯ ⎯ → CH3COOC2H5 + H2O",
+          "marks": 1
+        },
+        {
+          "point": "• Esterification Reaction",
+          "marks": 0.5
+        },
+        {
+          "point": "• CH3COOC2H5 ⎯NaOH ⎯ ⎯ ⎯ ⎯ → C2H5OH + CH3COONa",
+          "marks": 1
+        },
+        {
+          "point": "• Saponification Reaction",
+          "marks": 0.5
+        },
+        {
+          "point": "• It is used in the preparation of soap.",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)  Methane / CH4",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": " Covalent bond / Single Covalent bond/ Single bond",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) Biogas; Compressed Natural gas / CNG",
+          "marks": 1.0
+        },
+        {
+          "point": "(iii)  Alkanes ;  CnH2n+2",
+          "marks": 1.0
+        },
+        {
+          "point": "(iv) Clean flame/blue flame",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; [scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 34,
+          "pages": [
+            8,
+            8
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 34,
+          "pages": [
+            19,
+            20
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 35,
+          "pages": [
+            31,
+            32
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q7",
@@ -527,7 +1085,7 @@
           "text": ""
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": true,
       "source": [
         {
@@ -558,7 +1116,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "one or more options are drawings and have no text"
+      "flag_reason": "one or more options are drawings and have no text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 7,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 1,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 6,
+          "pages": [
+            23,
+            23
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q34",
@@ -581,9 +1168,73 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(A) (i)\n(a)",
+          "marks": 1
+        },
+        {
+          "point": "(b)",
+          "marks": 1
+        },
+        {
+          "point": "(ii) • Isomers",
+          "marks": 0.5
+        },
+        {
+          "point": "• Because they have same molecular formula but different\nstructures",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "[any one]\n(iii)\nSaturated Compounds Unsaturated Compounds\n• CnH2n+2 • CnH2n and CnH2n-2\n• The number of H atoms is • The number of H atoms is either\nmore than twice of ‘C’ equal to or less than twice of C\natoms atom\n(Any one)",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(B) (i) H2 gas is evolved and Sodium ethoxide is formed.",
+          "marks": 0.5
+        },
+        {
+          "point": "2CH3CH2OH + 2Na → 2CH3CH2ONa + H2",
+          "marks": 1
+        },
+        {
+          "point": "(Do not deduct marks for unbalanced equation)\n(ii) The melting point of pure ethanoic acid is low (290K) and hence it\nfreezes during winters in cold climates.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) • Ethene is formed /\nHot Conc.",
+          "marks": 1
+        },
+        {
+          "point": "𝑪𝑯𝟑𝑪𝑯𝟐𝑶𝑯 → 𝑪𝑯𝟐= 𝑪𝑯𝟐+ 𝑯𝟐𝑶 𝑯𝟐𝑺𝑶𝟒\nEthene\n• H2SO4 – Dehydrating agent / removes water from Ethanol",
+          "marks": 0.5
+        },
+        {
+          "point": "(iv) CH3COOCH2CH3 ⎯NaOH ⎯ ⎯ ⎯ → CH3COO-Na+ + CH3CH2OH",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 34,
+          "pages": [
+            7,
+            8
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-2-q36",
@@ -606,9 +1257,65 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(A) (i) Covalent compounds do not have free ions / electrons",
+          "marks": 1
+        },
+        {
+          "point": "(ii) • It does not form C4+ cation, as the removal of four valence\nelectrons will require a huge amount of energy.",
+          "marks": 1
+        },
+        {
+          "point": "• Carbon does not form C4- anion as the nucleus with six protons will not be able to hold ten electrons due to its small size.",
+          "marks": 1
+        },
+        {
+          "point": "(iii)",
+          "marks": 1
+        },
+        {
+          "point": "(iv) (a) Oxygen / O",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) Chlorine / Cl",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(B) (i) • The molecules of soap are Sodium or potassium salts of long chain carboxylic acids / RCOO-Na+ .",
+          "marks": 1
+        },
+        {
+          "point": "• The ionic end of soap interacts with water while the carbon chain\ninteracts with oily dirt. The soap molecules thus form structures\ncalled micelles where one end of the molecule is towards the oil\ndroplet while the ionic end faces outside. This forms an emulsion in water. The soap micelles thus helps in pulling out dirt in water\nand we can wash our clothes clean.",
+          "marks": 2
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "(ii) Detergents do not form insoluble precipitates (scum) with calcium and magnesium ions present in hard water.",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 36,
+          "pages": [
+            17,
+            18
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-3-q36",
@@ -631,9 +1338,77 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(A)\n(i) CH4 +2O2 → CO2 +2H2O",
+          "marks": 1
+        },
+        {
+          "point": "(ii)",
+          "marks": 1
+        },
+        {
+          "point": "Ethanol Ethanoic Acid\n(iii)",
+          "marks": 1
+        },
+        {
+          "point": "(iv)",
+          "marks": 1
+        },
+        {
+          "point": "(v)",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(B) (i)",
+          "marks": 1.0
+        },
+        {
+          "point": "(ii)",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 0.5
+        },
+        {
+          "point": "(iii)\n(a) Propanol",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) Propanal",
+          "marks": 0.5
+        },
+        {
+          "point": "(iv)\n(a) Benzene",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) Butene",
+          "marks": 0.5
+        },
+        {
+          "point": "(v)",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 36,
+          "pages": [
+            27,
+            29
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q7",
@@ -643,7 +1418,7 @@
       "marks": 1,
       "type": "mcq",
       "options": null,
-      "correct_option": null,
+      "correct_option": "a",
       "has_diagram": true,
       "source": [
         {
@@ -674,7 +1449,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "options are drawings in the PDF and could not be extracted as text"
+      "flag_reason": "options are drawings in the PDF and could not be extracted as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 7,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 1,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 6,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q34",
@@ -697,9 +1501,77 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) (i) X : CH3CH2OH / Ethyl alcohol / Ethanol",
+          "marks": 0.5
+        },
+        {
+          "point": "Y : CH3COOH / Acetic acid / Ethanoic acid",
+          "marks": 0.5
+        },
+        {
+          "point": "Z : CH3COOC2H5 / Ethyl ethanoate / Ethyl acetate",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii)\n(1) C2H5OH Acidified K2Cr2O7 → CH3COOH",
+          "marks": 1
+        },
+        {
+          "point": "(2) CH3COOH + C2H5OH ⎯ ⎯ Conc ⎯ ⎯ . H ⎯ 2SO ⎯ ⎯ ⎯ 4 → CH3COOC2H5 + H2O\nheat",
+          "marks": 1
+        },
+        {
+          "point": "(iii) (1) Oxidising agent / provides oxygen",
+          "marks": 0.5
+        },
+        {
+          "point": "(2) Dehydrating agent / helps in removing water",
+          "marks": 0.5
+        },
+        {
+          "point": "(iv) Saponification reaction",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i) C2H5OH ⎯ ⎯ Conc ⎯ 443 . ⎯ H 2 K ⎯ SO ⎯ ⎯ 4 → C2H4 + H2O",
+          "marks": 1
+        },
+        {
+          "point": "(ii) H2C=CH2 H2 → 𝑁𝑖/𝑃𝑑 CH3 - CH3",
+          "marks": 1
+        },
+        {
+          "point": "(iii) C2H6 + Cl2 ⎯Sunlight ⎯ ⎯ ⎯ ⎯ → C2H5Cl + HCl",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "(v) CH3COOH + C2H5OH ⎯Acid ⎯ ⎯ → CH3COOC2H5 + H2O",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 34,
+          "pages": [
+            8,
+            8
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-2-q36",
@@ -722,9 +1594,73 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) (i)",
+          "marks": 1
+        },
+        {
+          "point": "Number of C – H bonds = 10",
+          "marks": 0.5
+        },
+        {
+          "point": "Number of C – C bonds = 3",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) • Propanone",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "• Propanal",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i) It is a reaction in which an alkali reacts with an ester to form\nalcohol and a salt of carboxylic acid. /",
+          "marks": 1
+        },
+        {
+          "point": "Alternate Answer of b (i)\nCH3COOC2H5 + NaOH ⎯ ⎯→ CH3COONa + C2H5OH\nSoap Detergent",
+          "marks": 1
+        },
+        {
+          "point": "(1) Sodium or potassium salts of long chain carboxylic acids . ( RCOO-Na+) Sodium salts of long chain Sulphonic acid ( ROSO3-Na+)\n/ ammonium salts of chloride\nor bromide ions.\n(2) Forms an insoluble scum in Does not form insoluble\nhardwater . scum in hard-water.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) Micelle formation :\nThe ionic end of soap dissolves in water while the carbon chain dissolves in\noily dirt. The soap molecules, thus form structures called micelles where\none end of the molecules is towards the oil droplet while the ionic side\nfaces outside.",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 36,
+          "pages": [
+            19,
+            20
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-3-q36",
@@ -747,9 +1683,69 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) Carbon has 4 electrons in its outermost shell, and needs to gain or\nlose 4 electrons to attain noble gas configuration.\nLosing or gaining 4 electrons is not possible due to energy\nconsiderations, hence it shares electrons to form covalent bonds.",
+          "marks": 1
+        },
+        {
+          "point": "Two reasons :\n(i) Catenation : Unique ability of carbon to form bonds with other atoms\nof carbon, giving rise to long chains of different types of compounds.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) Tetravalency : Since carbon has a valiancy of 4, it is capable of\nbonding with four other atoms of carbon or atoms of elements like\noxygen, hydrogen, nitrogen, sulphur, chlorine etc.",
+          "marks": 1
+        },
+        {
+          "point": "The reason for the formation of strong bonds by carbon is its small size\nwhich enables the nucleus to hold on to the shared pair of electrons\nstrongly.",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i) • Alkene , CnH2n / Alkyne , CnH2n – 2",
+          "marks": 1.0
+        },
+        {
+          "point": "•Presence of catalyst such as Ni or Palladium",
+          "marks": 0.5
+        },
+        {
+          "point": "CH 2 = CH 2 + H 2 ⎯ ⎯ Ni ⎯ or ⎯ Pd ⎯ → CH 3 – CH 3",
+          "marks": 1
+        },
+        {
+          "point": "Ethene Ethane\nIn addition reaction unsaturated hydrocarbon gets converted to\nsaturated hydro carbon whereas in substitution reaction one atom or a\ngroup of atoms replace hydrogen in a saturated hydrocarbon.",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii)",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 36,
+          "pages": [
+            30,
+            30
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-supp-31B-q3",
@@ -1101,7 +2097,7 @@
           "text": "methane"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -1116,7 +2112,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 10,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31B-q30",
@@ -1139,9 +2146,37 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n• Ethanol /C2H5OH",
+          "marks": 0.5
+        },
+        {
+          "point": "• As a dehydrating agent",
+          "marks": 0.5
+        },
+        {
+          "point": "C2H5OH 𝐻𝑜𝑡 𝑐𝑜𝑛𝑐.𝐻2𝑆𝑂4 → C2H4 + H2O\nacid",
+          "marks": 1
+        },
+        {
+          "point": "(b) C2H5OH + CH3COOH → CH3COOC2H5 + H2O",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 30,
+          "pages": [
+            7,
+            7
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q5",
@@ -1168,7 +2203,7 @@
           "text": "3 and 3"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -1199,7 +2234,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 9,
+          "pages": [
+            11,
+            11
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 10,
+          "pages": [
+            19,
+            19
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q22",
@@ -1222,9 +2286,29 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "saturated hydrocarbon unsaturated hydrocarbon\nBurns with clean blue flame/ Burns with yellow flame with lots of\nComplete combustion black smoke. or Sooty flame /\nIncomplete combustion",
+          "marks": 1.0
+        },
+        {
+          "point": "• Carbon dioxide; Water",
+          "marks": 1.0
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 22,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q28",
@@ -1255,9 +2339,46 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "• Oxygen is added to ethanol to produce ethanoic acid.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Alkaline potassium permanganate or Acidified potassium dichromate",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "•\n• It is oxidation reaction while other is combustion reaction/ burning of\nethanol is exothermic while other is endothermic.",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 28,
+          "pages": [
+            4,
+            4
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 31,
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-3-q22",
@@ -1280,9 +2401,29 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "• Micelles",
+          "marks": 0.5
+        },
+        {
+          "point": "•",
+          "marks": 1.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 22,
+          "pages": [
+            20,
+            20
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-3-q28",
@@ -1305,9 +2446,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "(b)\n(c)",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 28,
+          "pages": [
+            20,
+            20
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q17",
@@ -1334,7 +2499,7 @@
           "text": "Assertion (A) is false, but Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -1365,7 +2530,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 17,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 18,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 18,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q22",
@@ -1388,9 +2582,29 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "• Low melting points and boiling points  Weak intermolecular forces of\nattraction.",
+          "marks": 1
+        },
+        {
+          "point": "• Non-conductors of electricity  Bonding in these compounds does not\ngive rise to any ions. / Covalent bonds or sharing of electrons do not form\nany charged particles.",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 22,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q37",
@@ -1429,9 +2643,67 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) Compounds formed by carbon and hydrogen only.",
+          "marks": 1
+        },
+        {
+          "point": "(b) Tetravalency and Catenation",
+          "marks": 1
+        },
+        {
+          "point": "(c) (i) (1) (2) H O",
+          "marks": 1.0
+        },
+        {
+          "point": "C O C\nCH3COOH  C2H5OH  Acid  CH3COOC2H5  H2O\nEster",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(c)\n(ii) Compounds with identical molecular formula but different structures",
+          "marks": 1
+        },
+        {
+          "point": "Two isomers of butane C4H10",
+          "marks": 1.0
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme includes content drawn as graphics that is not captured as text; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 37,
+          "pages": [
+            9,
+            10
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 38,
+          "pages": [
+            21,
+            21
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 38,
+          "pages": [
+            30,
+            31
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-2-q22",
@@ -1454,9 +2726,29 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) Carboxylic group\n Ethanoic acid\n(b) Aldehyde",
+          "marks": 2.0
+        },
+        {
+          "point": " Methanal",
+          "marks": null
+        }
+      ],
       "flagged": true,
-      "flag_reason": "structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula"
+      "flag_reason": "structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula; [scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 22,
+          "pages": [
+            15,
+            15
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-3-q22",
@@ -1479,9 +2771,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "C3H7OH\n= 3  12  7  1  16x1  1",
+          "marks": 0.5
+        },
+        {
+          "point": "= 60u",
+          "marks": 0.5
+        },
+        {
+          "point": "Boiling point of alcohols increases from lower to higher homologues",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 22,
+          "pages": [
+            25,
+            25
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31B-S-q5",
@@ -1617,7 +2933,7 @@
           "text": "Benzene"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1648,7 +2964,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')"
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 1,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 5,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-1-q17",
@@ -1675,7 +3020,7 @@
           "text": "Assertion (A) is false, but Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -1706,7 +3051,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 17,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 19,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 17,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-1-q37",
@@ -1745,9 +3119,75 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)\n/ CH3CH2OH",
+          "marks": 1
+        },
+        {
+          "point": "(b) Carbon dioxide and water / CO2 and H2O",
+          "marks": 1.0
+        },
+        {
+          "point": "(c) (i)\n• Ethanol is oxidised to ethanoic acid.",
+          "marks": 0.5
+        },
+        {
+          "point": "•\n/ CH3COOH",
+          "marks": 1
+        },
+        {
+          "point": "• Acts as an oxidizing agent.",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(c) (ii)\n• Ethene/ C2H4 is formed.",
+          "marks": 0.5
+        },
+        {
+          "point": "•",
+          "marks": 1
+        },
+        {
+          "point": "/ CH2 = CH2\n• Acts as a Dehydrating agent.",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 37,
+          "pages": [
+            10,
+            11
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 37,
+          "pages": [
+            23,
+            23
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 37,
+          "pages": [
+            35,
+            36
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q5",
@@ -1774,7 +3214,7 @@
           "text": "7"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -1797,7 +3237,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q37",
@@ -1836,9 +3296,71 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) Propyne",
+          "marks": 1
+        },
+        {
+          "point": "(b) Saturated carbon compounds produce blue / clean flame.",
+          "marks": 0.5
+        },
+        {
+          "point": "Unsaturated compounds produce yellow / sooty flame.",
+          "marks": 0.5
+        },
+        {
+          "point": "(c) (i)Unsaturated hydrocarbons undergo addition reactions",
+          "marks": 1
+        },
+        {
+          "point": "Example\n( or any other example)",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(c) (ii) Compounds with identical molecular formula but different\nstructural formula or structures are called structural isomers.",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1.0
+        }
+      ],
       "flagged": true,
-      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')"
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 37,
+          "pages": [
+            9,
+            10
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 38,
+          "pages": [
+            10,
+            11
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 39,
+          "pages": [
+            10,
+            10
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-2-q4",
@@ -1879,8 +3401,19 @@
       ],
       "exam_pattern": "2023_onward",
       "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme says to award the mark to all candidates, so there is no single correct option",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q22",
@@ -1907,7 +3440,7 @@
           "text": "Propene"
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -1922,7 +3455,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 22,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q23",
@@ -1949,7 +3493,7 @@
           "text": "Hydrogenation"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -1964,7 +3508,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 23,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q29",
@@ -1987,9 +3542,65 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n(i) To form 𝐶4+ion large amount of energy is required to remove 4 electrons.\nFor forming 𝐶4− anion, it would be difficult for the nucleus with six protons to\nhold on to ten electrons, that is, four extra electrons. Hence energetically not\nfeasible. Hence carbon completes its octet by sharing of electrons and forms\ncovalent bonds.\n(ii)",
+          "marks": 2
+        },
+        {
+          "point": "(I) Sodium ethoxide and Hydrogen gas are formed /\n(II) CH3COOC2H5 is formed / Ester is formed /",
+          "marks": 1
+        },
+        {
+          "point": "(Either statement or equation is to be marked)",
+          "marks": 1
+        },
+        {
+          "point": "(iii) Sodium or Potassium salt of long chain carboxylic acid.",
+          "marks": 0.5
+        },
+        {
+          "point": "Because soap forms scum with hard water.",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n(i)\n(I) Hydrocarbons having double bond ( C  C) or triple bond ( C  C) are\ncalled unsaturated hydrocarbons\nExample alkene / alkyne. (any other example)\n(II) A reaction in which one type of atom or a group of atoms take the place of\nanother.",
+          "marks": 1.0
+        },
+        {
+          "point": "Example CH 4  Cl 2  sunlight CH Cl +HCl 3 (any other example)\n(III) The reaction of an ester with an alkali to give alcohol and sodium salt of\ncarboxylic acid is called saponification.",
+          "marks": 1.0
+        },
+        {
+          "point": "CH3COOC2H5  NaOH  CH3COONa  C2H5OH\n(ii)\n Pure acetic acid has low melting point and often freezes in winter and\nappears like glacier.",
+          "marks": 1.0
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": " Preservative (any other use)",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "superscript charge on C4− lost"
+      "flag_reason": "superscript charge on C4− lost; [scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 29,
+          "pages": [
+            7,
+            8
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q19",
@@ -2016,7 +3627,7 @@
           "text": "Alcohol"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -2031,7 +3642,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 19,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q21",
@@ -2058,7 +3680,7 @@
           "text": "Hydrophobic head and a hydrophobic tail"
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -2089,7 +3711,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 21,
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 20,
+          "pages": [
+            18,
+            18
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 22,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q23",
@@ -2116,7 +3767,7 @@
           "text": "Carbonisation"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -2131,7 +3782,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 23,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q26",
@@ -2170,9 +3832,87 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "A - C2H5OH/ Ethanol",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 0.5
+        },
+        {
+          "point": "B - CH3COOH /Ethanoic acid/ acetic acid",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 0.5
+        },
+        {
+          "point": "C- CH3COOC2H5 /Ethyl ethanoate/ ethyl acetate/ester",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 0.5
+        },
+        {
+          "point": "Alternate answer\nC H OH 2 5  Acidified K Cr O 2 2 7 CH COOH 3",
+          "marks": 2
+        },
+        {
+          "point": "Ehanol (A) Ethanoic acid (B)\nEthyl ethanoate/ethyl acetate",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n(i) Unsaturated hydrocarbons having double or triple bonds have a\nstrong tendency to become saturated.\n/",
+          "marks": 1
+        },
+        {
+          "point": "Unsaturated hydrocarbons are reactive and undergo addition\nreactions.\n(ii) Long chain of hydrocarbon in detergents does not form insoluble\nprecipitate with Calcium or Magnesium ions of hard water and hence they remain effective even in hard water.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) Carbon is tetravalent. It can neither form C4 cation nor C4 anion.\nIt completes its octet by sharing its valence electrons with other atoms\nof carbon or other elements forming covalent bonds.",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; [scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 27,
+          "pages": [
+            18,
+            19
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 26,
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 26,
+          "pages": [
+            31,
+            32
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-2-q19",
@@ -2199,7 +3939,7 @@
           "text": "Alcohol"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -2214,7 +3954,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 19,
+          "pages": [
+            18,
+            18
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-2-q22",
@@ -2241,7 +3992,7 @@
           "text": "C3H4"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -2256,7 +4007,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 22,
+          "pages": [
+            18,
+            18
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-3-q19",
@@ -2283,7 +4045,7 @@
           "text": "Alcohol"
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -2298,7 +4060,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 19,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-3-q20",
@@ -2325,7 +4098,7 @@
           "text": "C2H6"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -2340,7 +4113,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 20,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
     }
   ]
 }

@@ -29,7 +29,7 @@
           "text": "Combination reaction as well as double displacement reaction"
         }
       ],
-      "correct_option": null,
+      "correct_option": "a",
       "has_diagram": false,
       "source": [
         {
@@ -44,7 +44,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31B-q21",
@@ -67,9 +78,41 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) • A balanced chemical equation which has equal number of atoms\nof each element on the side of reactants and products.",
+          "marks": 1
+        },
+        {
+          "point": " To obey the law of conservation of mass.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) • Zinc being more reactive, displaces iron from iron sulphate solution\ndue to the formation of zinc sulphate",
+          "marks": 1
+        },
+        {
+          "point": "• FeSO4 + Zn ⎯ ⎯→ ZnSO4 + Fe",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 21,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31B-q27",
@@ -92,9 +135,41 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) Pale green / green → brown",
+          "marks": 1
+        },
+        {
+          "point": "(b)  Sulphur dioxide (SO2)",
+          "marks": 0.5
+        },
+        {
+          "point": " Sulphur trioxide (SO3)",
+          "marks": 0.5
+        },
+        {
+          "point": "(c) 2FeSO4 ⎯heat ⎯ ⎯ ⎯ → Fe2O3 + SO2 + SO3",
+          "marks": 1
+        },
+        {
+          "point": "[Note: Do not cut marks if equation is not balanced]",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 27,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31B-q37",
@@ -117,9 +192,53 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) • due to absorption of heat.",
+          "marks": 1
+        },
+        {
+          "point": "(b) • In the presence of sunlight, silver bromide (AgBr) decomposes into\nsilver (Ag) metal and bromine (Br2) / 2AgBr → 2Ag + Br2 ℎν\n( or any other example)",
+          "marks": 1
+        },
+        {
+          "point": "(c) • Gas liberated at cathode – hydrogen (H2)",
+          "marks": 0.5
+        },
+        {
+          "point": "• Gas liberated at anode – oxygen (O2)",
+          "marks": 0.5
+        },
+        {
+          "point": "• Molar ratio of hydrogen and oxygen liberated on electrolysis of\nwater is 2 : 1",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "c) • Brown fumes are produced / Decomposition",
+          "marks": 1
+        },
+        {
+          "point": "• 2Pb(NO3)2 ⎯heat ⎯ ⎯ ⎯ → 2PbO + 4 NO2 +O2\n[Note: Do not cut marks if equation is not balanced]",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 37,
+          "pages": [
+            9,
+            9
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q1",
@@ -146,7 +265,7 @@
           "text": "Digestion of food in our body"
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -169,7 +288,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 4,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q3",
@@ -196,7 +335,7 @@
           "text": "4, 2"
         }
       ],
-      "correct_option": null,
+      "correct_option": "a",
       "has_diagram": false,
       "source": [
         {
@@ -227,7 +366,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 3,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 5,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 5,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q21",
@@ -266,9 +434,71 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) • Yellow precipitate of lead iodide is formed.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Double displacement reaction / Precipitation reaction",
+          "marks": 0.5
+        },
+        {
+          "point": "Pb (NO3)2 + 2KI ⎯ ⎯→ PbI2 + 2KNO3",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)  Oxygen is added to copper / Copper is oxidised",
+          "marks": 0.5
+        },
+        {
+          "point": " copper oxide / CuO",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) By passing hydrogen gas over it",
+          "marks": 1
+        },
+        {
+          "point": "Alternative answer\n(i) 2Cu + O2 ∆→2CuO\n(ii) CuO + H2 ⎯ ⎯→ Cu + H2O",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 21,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 23,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 23,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q27",
@@ -291,9 +521,37 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) White",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) Decomposition reaction / Photolytic decomposition",
+          "marks": 0.5
+        },
+        {
+          "point": "Sunlight\n2AgCl → 2Ag + Cl2",
+          "marks": 1
+        },
+        {
+          "point": "(c) used in black and white photography ; AgBr / Silver Bromide",
+          "marks": 1.0
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 27,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-2-q1",
@@ -320,7 +578,7 @@
           "text": "1 2 4"
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -335,7 +593,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "a stacked fraction in an option is flattened into separate digits"
+      "flag_reason": "a stacked fraction in an option is flattened into separate digits",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 1,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-2-q27",
@@ -358,9 +627,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) Combination reaction;\nN2 + 3H2 ⎯ ⎯→ 2NH3",
+          "marks": 1.0
+        },
+        {
+          "point": "(b) Decomposition reaction / Thermal Decomposition\n2Pb(NO3)2 Heat → 2PbO + 4NO2 + O2",
+          "marks": 1.0
+        },
+        {
+          "point": "(c) Displacement reaction;\nCu + 2AgNO3 ⎯ ⎯→ Cu(NO3)2 + 2Ag",
+          "marks": 1.0
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 27,
+          "pages": [
+            16,
+            16
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-3-q27",
@@ -383,9 +676,41 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) Gain of oxygen or loss of hydrogen.",
+          "marks": 1
+        },
+        {
+          "point": "(b) (i) Pb3O4",
+          "marks": 0.5
+        },
+        {
+          "point": "Pb3O4 + 8HCl ⎯ ⎯→ 3PbCl2 + Cl2 + 4H2O",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) MnO2",
+          "marks": 0.5
+        },
+        {
+          "point": "3MnO2 + 4Al ⎯ ⎯→ 3Mn + 2Al2O3",
+          "marks": 0.5
+        }
+      ],
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 27,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q2",
@@ -412,7 +737,7 @@
           "text": "KI + PbNO3 PbI2 + KNO3"
         }
       ],
-      "correct_option": null,
+      "correct_option": "b",
       "has_diagram": false,
       "source": [
         {
@@ -443,7 +768,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 6,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 1,
+          "pages": [
+            23,
+            23
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q3",
@@ -470,7 +824,7 @@
           "text": "X = Zn ; Y = ZnO ; Type of reaction = Endothermic"
         }
       ],
-      "correct_option": null,
+      "correct_option": "b",
       "has_diagram": false,
       "source": [
         {
@@ -501,7 +855,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 3,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 5,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 4,
+          "pages": [
+            23,
+            23
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q17",
@@ -528,7 +911,7 @@
           "text": "(A) is false but (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "a",
       "has_diagram": false,
       "source": [
         {
@@ -559,7 +942,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 17,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 20,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 18,
+          "pages": [
+            23,
+            23
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q27",
@@ -598,9 +1010,59 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(i) • To increase the conductivity of water",
+          "marks": 0.5
+        },
+        {
+          "point": "• Hydrogen – cathode Oxygen – anode",
+          "marks": 1.0
+        },
+        {
+          "point": "• Anode : Cathode\n1 : 2\n/Volume of hydrogen liberated at cathode is twice that of oxygen\nliberated at anode.",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) • White silver chloride turns grey",
+          "marks": 0.5
+        },
+        {
+          "point": "• Decomposition reaction / Photolytic Decomposition",
+          "marks": 0.5
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 27,
+          "pages": [
+            4,
+            4
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 33,
+          "pages": [
+            16,
+            17
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 28,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q2",
@@ -627,7 +1089,7 @@
           "text": "2 CaO + 3 H2O 2 Ca(OH)3 + O2 + Heat"
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -658,7 +1120,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 6,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 1,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q3",
@@ -685,7 +1176,7 @@
           "text": "H2"
         }
       ],
-      "correct_option": null,
+      "correct_option": "a",
       "has_diagram": false,
       "source": [
         {
@@ -716,7 +1207,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 3,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 5,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 4,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q17",
@@ -743,7 +1263,7 @@
           "text": "Assertion (A) is false, but Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "a",
       "has_diagram": false,
       "source": [
         {
@@ -774,7 +1294,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 17,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 20,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 18,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q27",
@@ -813,9 +1362,139 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) Reactions in which there is an exchange of ions between the\nreactants.",
+          "marks": 1
+        },
+        {
+          "point": "(b) (i)\n•HCl + NaOH ⎯ ⎯→ NaCl + H2O (or any other reaction)",
+          "marks": 0.5
+        },
+        {
+          "point": "•Acid reacts with base forming salt and water.",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii)\n•Na2SO4 + BaCl2 ⎯ ⎯→ BaSO4 + 2NaCl (or any other reaction)",
+          "marks": 0.5
+        },
+        {
+          "point": "•Insoluble substance or precipitate(BaSO4) is formed.",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 27,
+          "pages": [
+            4,
+            4
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 33,
+          "pages": [
+            17,
+            17
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 28,
+          "pages": [
+            25,
+            26
+          ]
+        }
+      ],
+      "marking_points_variants": [
+        {
+          "set_code": "31/5/1",
+          "question_no": 27,
+          "marking_points": [
+            {
+              "point": "(a) Reactions in which there is an exchange of ions between the\nreactants.",
+              "marks": 1
+            },
+            {
+              "point": "(b) (i)\n•HCl + NaOH ⎯ ⎯→ NaCl + H2O (or any other reaction)",
+              "marks": 0.5
+            },
+            {
+              "point": "•Acid reacts with base forming salt and water.",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii)\n•Na2SO4 + BaCl2 ⎯ ⎯→ BaSO4 + 2NaCl (or any other reaction)",
+              "marks": 0.5
+            },
+            {
+              "point": "•Insoluble substance or precipitate(BaSO4) is formed.",
+              "marks": 0.5
+            }
+          ]
+        },
+        {
+          "set_code": "31/5/2",
+          "question_no": 33,
+          "marking_points": [
+            {
+              "point": "(a) Reactions in which there is an exchange of ions between the reactants.",
+              "marks": 1
+            },
+            {
+              "point": "(b) (i)\n•HCl + NaOH ⎯ ⎯→ NaCl + H2O (or any other reaction)",
+              "marks": 0.5
+            },
+            {
+              "point": "•Acid reacts with base forming salt and water.",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii) Precipitation Reaction :\n•Na2SO4 + BaCl2 ⎯ ⎯→ BaSO4 + 2NaCl (or any other reaction)",
+              "marks": 0.5
+            },
+            {
+              "point": "• Insoluble substance or precipitate(BaSO4) is formed.",
+              "marks": 0.5
+            }
+          ]
+        },
+        {
+          "set_code": "31/5/3",
+          "question_no": 28,
+          "marking_points": [
+            {
+              "point": "(a) Reactions in which there is an exchange of ions between the\nreactants.",
+              "marks": 1
+            },
+            {
+              "point": "(b) (i)\n• HCl + NaOH ⎯ ⎯→ NaCl + H2O (or any other reaction)",
+              "marks": 0.5
+            },
+            {
+              "point": "•Acid reacts with base forming salt and water.",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii)\n• Na2SO4 + BaCl2 ⎯ ⎯→ BaSO4 + 2NaCl (or any other reaction)",
+              "marks": 0.5
+            },
+            {
+              "point": "• Insoluble substance or precipitate(BaSO4) is formed.",
+              "marks": 0.5
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-supp-31B-q1",
@@ -1109,7 +1788,7 @@
           "text": "4, 2, 4, 3"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1124,7 +1803,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 6,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31B-q24",
@@ -1147,9 +1837,29 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "• Aluminium is more reactive than iron.",
+          "marks": 1
+        },
+        {
+          "point": "• 3 FeSO4+ 2 Al ⎯ ⎯→ Al2 (SO4)3 + 3 Fe",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 24,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31B-q38",
@@ -1172,9 +1882,49 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(i) Reaction No. (1): Exothermic",
+          "marks": 1.0
+        },
+        {
+          "point": "(ii) Reaction No. (3): Colour change − Blue to pale (light) green",
+          "marks": 1.0
+        },
+        {
+          "point": "(iii) (a) Reaction No. (2)\nℎ𝑒𝑎𝑡",
+          "marks": 1
+        },
+        {
+          "point": "2 FeSO4 → Fe2O3 + SO2 + SO3",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(iii) (b)\nSodium Sulphate + Barium chloride → Barium Sulphate + Sodium\nchloride\n* It is not a redox reaction because in this reaction, only exchange of ions\ntakes place / and there is no gain or loss of oxygen or hydrogen.",
+          "marks": 1
+        },
+        {
+          "point": "Note: Award 1 mark to all the candidates for * marked part.",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 38,
+          "pages": [
+            11,
+            12
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q1",
@@ -1201,7 +1951,7 @@
           "text": "Combination reaction"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -1224,7 +1974,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 5,
+          "pages": [
+            19,
+            19
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q34",
@@ -1255,9 +2025,200 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) A chemical reaction involves the breaking and making of bonds between\natoms to produce new substances. / when reactant changes to products.",
+          "marks": 1
+        },
+        {
+          "point": "(i) Add lead nitrate solution to potassium iodide solution taken in a test tube.\nThe colour changes from colourless solution to yellow ppt. /",
+          "marks": 2
+        },
+        {
+          "point": "(Deduct ½ marks if colour is not mentioned in the reaction)\n(or any example)\n(ii) Calcium oxide reacts vigorously with water to produce slaked lime\n(calcium hydroxide) releasing a large amount of heat. /\n(or any example)",
+          "marks": 2
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n(i) •A reactant breaks down to give two or more products. /A reaction which\nrequires energy to split a compound or reactant in two or more simple\nsubstances.",
+          "marks": 1
+        },
+        {
+          "point": "(I) Water splits into hydrogen gas and oxygen gas.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Electrical energy",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Silver bromide decomposes into silver and bromine",
+          "marks": 0.5
+        },
+        {
+          "point": "• Light energy",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii)\n(I) Formation of calcium oxide:",
+          "marks": 0.5
+        },
+        {
+          "point": "• It is an endothermic reaction/decomposition reaction.",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Formation of calcium hydroxide:\n𝐶𝑎𝑂+ 𝐻2𝑂 → 𝐶𝑎(𝑂𝐻)2 +Heat",
+          "marks": 0.5
+        },
+        {
+          "point": "• It is exothermic/combination reaction",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 34,
+          "pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 35,
+          "pages": [
+            22,
+            23
+          ]
+        }
+      ],
+      "marking_points_variants": [
+        {
+          "set_code": "31/4/1",
+          "question_no": 34,
+          "marking_points": [
+            {
+              "point": "(a) A chemical reaction involves the breaking and making of bonds between\natoms to produce new substances. / when reactant changes to products.",
+              "marks": 1
+            },
+            {
+              "point": "(i) Add lead nitrate solution to potassium iodide solution taken in a test tube.\nThe colour changes from colourless solution to yellow ppt. /",
+              "marks": 2
+            },
+            {
+              "point": "(Deduct ½ marks if colour is not mentioned in the reaction)\n(or any example)\n(ii) Calcium oxide reacts vigorously with water to produce slaked lime\n(calcium hydroxide) releasing a large amount of heat. /\n(or any example)",
+              "marks": 2
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b)\n(i) •A reactant breaks down to give two or more products. /A reaction which\nrequires energy to split a compound or reactant in two or more simple\nsubstances.",
+              "marks": 1
+            },
+            {
+              "point": "(I) Water splits into hydrogen gas and oxygen gas.",
+              "marks": 0.5
+            },
+            {
+              "point": "• Electrical energy",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Silver bromide decomposes into silver and bromine",
+              "marks": 0.5
+            },
+            {
+              "point": "• Light energy",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii)\n(I) Formation of calcium oxide:",
+              "marks": 0.5
+            },
+            {
+              "point": "• It is an endothermic reaction/decomposition reaction.",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Formation of calcium hydroxide:\n𝐶𝑎𝑂+ 𝐻2𝑂 → 𝐶𝑎(𝑂𝐻)2 +Heat",
+              "marks": 0.5
+            },
+            {
+              "point": "• It is exothermic/combination reaction",
+              "marks": 0.5
+            }
+          ]
+        },
+        {
+          "set_code": "31/4/3",
+          "question_no": 35,
+          "marking_points": [
+            {
+              "point": "(a) A chemical reaction involves the breaking and making of bonds between\natoms to produce new substances. / when reactant changes to products.",
+              "marks": 1
+            },
+            {
+              "point": "(i) Add lead nitrate solution to potassium iodide solution taken in a test tube.\nThe colour changes from colourless solution to yellow ppt. /",
+              "marks": 2
+            },
+            {
+              "point": "(or any example)\n(ii) Calcium oxide reacts vigorously with water to produce slaked lime\n(calcium hydroxide) releasing a large amount of heat. /\n(or any example)\n(Deduct ½ marks if change in colour or heat is not mentioned in the reaction)",
+              "marks": 2
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b)\n(i) •A reactant breaks down to give two or more products. /A reaction which\nrequires energy to split a compound or reactant in two or more simple\nsubstances.",
+              "marks": 1
+            },
+            {
+              "point": "(I) Water splits into hydrogen gas and oxygen gas.",
+              "marks": 0.5
+            },
+            {
+              "point": "• Electrical energy",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Silver bromide decomposes into silver and bromine",
+              "marks": 0.5
+            },
+            {
+              "point": "• Light energy",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii)\n(I) Formation of calcium oxide:",
+              "marks": 0.5
+            },
+            {
+              "point": "• It is an endothermic reaction/decomposition reaction.",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Formation of calcium hydroxide:",
+              "marks": 0.5
+            },
+            {
+              "point": "• It is exothermic/combination reaction 𝐶𝑎𝑂+ 𝐻2𝑂 → 𝐶𝑎(𝑂𝐻)2 +Heat",
+              "marks": 0.5
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-2-q1",
@@ -1284,7 +2245,7 @@
           "text": "Displacement Reaction"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1299,7 +2260,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 1,
+          "pages": [
+            11,
+            11
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-2-q34",
@@ -1322,9 +2294,77 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) (i) • Decomposition reaction",
+          "marks": 0.5
+        },
+        {
+          "point": "• A reaction in which a single reactant breaks down to simpler products.",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) Nitrogen dioxide, NO2",
+          "marks": 1.0
+        },
+        {
+          "point": "(iii)",
+          "marks": 1
+        },
+        {
+          "point": "(iv) Residue left − Lead oxide.\n• Dissolve the residue in water and test the solution using litmus\npaper/Universal indicator. The colour of the litmus paper changes to\nblue indicating that lead oxide is basic in nature.",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i) Pb(NO3) (aq)+ 2 KI (aq) ⎯⎯→ PbI2(ppt) + 2 KNO3(aq)",
+          "marks": 1
+        },
+        {
+          "point": "• Yes, it is a double displacement reaction.",
+          "marks": 0.5
+        },
+        {
+          "point": "• In this reaction, exchange of ions between the reactants",
+          "marks": 0.5
+        },
+        {
+          "point": "(Lead nitrate and potassium iodide) is taking place.\n• Lead iodide; [𝑃𝑏2+] [I-]",
+          "marks": 1.0
+        },
+        {
+          "point": "(ii) Calcium hydroxide is prepared on adding water to quicklime (calcium oxide) /",
+          "marks": 0.5
+        },
+        {
+          "point": "• When CO2 is passed through Ca(OH)2 It turns milky white/\ncalcium carbonate is formed.",
+          "marks": 0.5
+        },
+        {
+          "point": "•",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 34,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q1",
@@ -1351,7 +2391,7 @@
           "text": "2, 4, 2"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1374,7 +2414,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 5,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q2",
@@ -1401,7 +2461,7 @@
           "text": "Fe2O3 + 3 CO 2 Fe + 3 CO2"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -1432,7 +2492,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 5,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 6,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q21",
@@ -1471,9 +2560,63 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) • Copper Oxide",
+          "marks": 0.5
+        },
+        {
+          "point": "• Black",
+          "marks": 0.5
+        },
+        {
+          "point": "2Cu  O2  2CuO Heat",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) BaCl2 (aq) Na2SO4 (aq) BaSO4 (s) 2NaCl (aq)",
+          "marks": 1
+        },
+        {
+          "point": "Ba2, SO42",
+          "marks": 1.0
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 21,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 23,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 23,
+          "pages": [
+            25,
+            25
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q27",
@@ -1504,9 +2647,80 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "• Fe(s)  CuSO4 (aq)  FeSO4(aq) + Cu(s)",
+          "marks": 1
+        },
+        {
+          "point": "• Displacement reaction  A reaction in which a more reactive metal displaces a\nless reactive metal from its salt solution.",
+          "marks": 1.0
+        },
+        {
+          "point": "• Zinc, Aluminium, Calcium, Magnesium (Any two)",
+          "marks": 1.0
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ; [scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 29,
+          "pages": [
+            16,
+            16
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 27,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ],
+      "marking_points_variants": [
+        {
+          "set_code": "31/5/1",
+          "question_no": 27,
+          "marking_points": [
+            {
+              "point": "• Fe(s)  CuSO4 (aq)  FeSO4(aq) + Cu(s)",
+              "marks": 1
+            },
+            {
+              "point": "• Displacement reaction  A reaction in which a more reactive metal\ndisplaces a less reactive metal from its salt solution.",
+              "marks": 1.0
+            },
+            {
+              "point": "• Zinc, Aluminium, Calcium, Magnesium (Any two) ½ ,+½",
+              "marks": null
+            }
+          ]
+        },
+        {
+          "set_code": "31/5/2",
+          "question_no": 29,
+          "marking_points": [
+            {
+              "point": "• Fe(s)  CuSO4 (aq)  FeSO4(aq) + Cu(s)",
+              "marks": 1
+            },
+            {
+              "point": "• Displacement reaction  A reaction in which a more reactive metal displaces a\nless reactive metal from its salt solution.",
+              "marks": 1.0
+            },
+            {
+              "point": "• Zinc, Aluminium, Calcium, Magnesium (Any two)",
+              "marks": 1.0
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q34",
@@ -1537,9 +2751,94 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n(i) The molecules of water of crystallisation in ferrous sulphate crystals\nget evaporated on heating.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) Green   White",
+          "marks": 0.5
+        },
+        {
+          "point": "(iii) Seven / (FeSO4  7H2O)",
+          "marks": 0.5
+        },
+        {
+          "point": "(I) CuSO4  5H2O",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Na2CO3  10H2O",
+          "marks": 0.5
+        },
+        {
+          "point": "(iv) • On heating gypsum (CaSO42H2O) at 373 K it loses water\nmolecules/ CaSO42 H2O  373 K  CaSO41 2 H2O  1 1 2 H2O",
+          "marks": 1
+        },
+        {
+          "point": "Two uses of plaster of Paris:\n Making toys / material for decoration\n Supporting fractured bones (or any other)",
+          "marks": 1.0
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n(i) X-Tartaric acid",
+          "marks": 0.5
+        },
+        {
+          "point": "Y-Baking soda",
+          "marks": 0.5
+        },
+        {
+          "point": "Z- Baking powder",
+          "marks": 0.5
+        },
+        {
+          "point": "Y- NaHCO3",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii)\nNaCl  H2O  CO2  NH3   NH4Cl  NaHCO3",
+          "marks": 1
+        },
+        {
+          "point": "NaHCO3 + H+ CO 2 + H2O + Sodium salt of acid",
+          "marks": 0.5
+        },
+        {
+          "point": "CO2 released during heating makes the cake soft and spongy",
+          "marks": 0.5
+        },
+        {
+          "point": "(iii) Magnesium hydroxide; Mg(OH)2",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; [scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 34,
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 35,
+          "pages": [
+            28,
+            29
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-2-q1",
@@ -1566,7 +2865,7 @@
           "text": "Pb(NO3)2 2 PbO + 4 NO2 + O2"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1581,7 +2880,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 1,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-3-q27",
@@ -1604,9 +2914,37 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) Because water breaks up into hydrogen gas and oxygen gas.",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) Endothermic reaction as Electrical energy is required to decompose\nwater.",
+          "marks": 1.0
+        },
+        {
+          "point": "(c) Anode  oxygen; Cathode  hydrogen",
+          "marks": 1.0
+        },
+        {
+          "point": "(d) Mass ratio = 8 : 1",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 27,
+          "pages": [
+            25,
+            26
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31B-S-q1",
@@ -1784,7 +3122,7 @@
           "text": "I, III and IV"
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -1807,7 +3145,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 3,
+          "pages": [
+            15,
+            15
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-1-q5",
@@ -1834,7 +3192,7 @@
           "text": "double displacement reaction"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -1865,7 +3223,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 7,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 4,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-1-q7",
@@ -1892,7 +3279,7 @@
           "text": "H2 is an oxidising agent."
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -1923,7 +3310,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 7,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 5,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 6,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-1-q27",
@@ -1954,9 +3370,42 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)\nBlue Light Green",
+          "marks": 1
+        },
+        {
+          "point": "(any other suitable example)\n(b)\n• CuO(s) + H2(g) Heat → Cu(s) + H2O(g)",
+          "marks": 1
+        },
+        {
+          "point": "• Redox reaction",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 27,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 30,
+          "pages": [
+            18,
+            18
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-3-q1",
@@ -1983,7 +3432,7 @@
           "text": "PbO2, NO2 and O2"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1998,7 +3447,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 1,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-3-q27",
@@ -2021,9 +3481,37 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) 2Cu + O2 ∆→ 2CuO",
+          "marks": 1
+        },
+        {
+          "point": "Reddish Black\nbrown\n(b) CaO + H2O → Ca(OH)2 + heat/ rise in temperature",
+          "marks": 1
+        },
+        {
+          "point": "(c) BaCl2 + Na2SO4 → BaSO4 + 2NaCl\nWhite precipitate",
+          "marks": 1
+        },
+        {
+          "point": "(Or any other chemical reaction in each of the above cases)",
+          "marks": null
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 27,
+          "pages": [
+            30,
+            30
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q1",
@@ -2050,7 +3538,7 @@
           "text": "Refining of copper"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -2081,7 +3569,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 8,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q2",
@@ -2108,7 +3625,7 @@
           "text": "(i) and (iv)"
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -2131,7 +3648,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 7,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q17",
@@ -2158,7 +3695,7 @@
           "text": "Assertion (A) is false, but Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -2189,7 +3726,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 17,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 19,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 18,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q21",
@@ -2228,9 +3794,47 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) 2Al (s) + 3CuCl2 (aq) →2AlCl3 (aq) + 3Cu(s)",
+          "marks": 1
+        },
+        {
+          "point": "(b) Zn(s) + 2NaOH(aq)→Na2ZnO2 (aq) +H2(g)",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 21,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 22,
+          "pages": [
+            4,
+            4
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 22,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q28",
@@ -2253,9 +3857,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "• A reaction in which a more reactive element displaces a less\nreactive element from its compound.",
+          "marks": 1
+        },
+        {
+          "point": "• Thermit reaction",
+          "marks": 1
+        },
+        {
+          "point": "• Reaction of Iron (III) oxide with aluminium is a highly\nexothermic reaction, producing iron in molten form which is\nused to join railway tracks:",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 28,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-3-q1",
@@ -2282,7 +3910,7 @@
           "text": "(i) and (iv)"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -2297,7 +3925,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q17",
@@ -2324,7 +3963,7 @@
           "text": "No chemical reaction occurs."
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -2339,7 +3978,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 17,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q24",
@@ -2366,7 +4016,7 @@
           "text": "Assertion (A) is false, but Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -2381,7 +4031,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 24,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q26",
@@ -2404,9 +4065,37 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) Brown fumes of NO2 gas evolves /",
+          "marks": 1
+        },
+        {
+          "point": "(b) A white substance/ precipitate of BaSO4 is formed /",
+          "marks": 1
+        },
+        {
+          "point": "(c) Black coating on surface turns brown/copper is obtained:",
+          "marks": 1
+        },
+        {
+          "point": "(Either statement or equation is to be marked)",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 26,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q18",
@@ -2433,7 +4122,7 @@
           "text": "No smell"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -2448,7 +4137,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 18,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q20",
@@ -2475,7 +4175,7 @@
           "text": "III and IV"
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -2506,7 +4206,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 20,
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 21,
+          "pages": [
+            18,
+            18
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 23,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q24",
@@ -2533,7 +4262,7 @@
           "text": "Assertion (A) is false, but Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -2564,7 +4293,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 24,
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 24,
+          "pages": [
+            18,
+            18
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 24,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q27",
@@ -2603,9 +4361,51 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) Combination reaction",
+          "marks": 1
+        },
+        {
+          "point": "The beaker becomes hot because a large amount of heat is released\nduring the reaction/ it is a highly exothermic reaction.",
+          "marks": 1
+        },
+        {
+          "point": "(b)",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 27,
+          "pages": [
+            7,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 26,
+          "pages": [
+            18,
+            18
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 27,
+          "pages": [
+            32,
+            32
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-2-q18",
@@ -2632,7 +4432,7 @@
           "text": "brown fumes"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -2647,7 +4447,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 18,
+          "pages": [
+            18,
+            18
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-3-q18",
@@ -2674,7 +4485,7 @@
           "text": "CaCl2"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -2689,7 +4500,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 18,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
     }
   ]
 }

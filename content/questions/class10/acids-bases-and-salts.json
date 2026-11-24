@@ -29,7 +29,7 @@
           "text": "CO2 is a product of incomplete combustion whereas CO is a product of respiration."
         }
       ],
-      "correct_option": null,
+      "correct_option": "b",
       "has_diagram": false,
       "source": [
         {
@@ -44,7 +44,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 3,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31B-q5",
@@ -71,7 +82,7 @@
           "text": ""
         }
       ],
-      "correct_option": null,
+      "correct_option": "b",
       "has_diagram": false,
       "source": [
         {
@@ -86,7 +97,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; one or more options are drawings and have no text"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; one or more options are drawings and have no text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31B-q6",
@@ -113,7 +135,7 @@
           "text": "Ammonium chloride"
         }
       ],
-      "correct_option": null,
+      "correct_option": "d",
       "has_diagram": false,
       "source": [
         {
@@ -128,7 +150,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 6,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31B-q28",
@@ -151,9 +184,57 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) (i)  Milk of Magnesia / Mg(OH)2 (Magnesium hydroxide)\n/ (Al(OH)3 (Aluminium hydroxide)\n/ (NaHCO3) (Sodium hydrogen carbonate)",
+          "marks": 1
+        },
+        {
+          "point": "(any other example)\n neutralises excess acid produced in the stomach.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) If water is added to acid, excessive heat is produced which may cause\nburn / injury .Therefore, acid should be added to water drop-\nby-drop with constant stirring.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i) CO2 / Carbon dioxide",
+          "marks": 1
+        },
+        {
+          "point": "(ii)  Lime water turns milky",
+          "marks": 0.5
+        },
+        {
+          "point": " Due to formation of CaCO3 which is insoluble in water.",
+          "marks": 0.5
+        },
+        {
+          "point": "(iii)  A clear solution is obtained when excess of CO2 is passed.",
+          "marks": 0.5
+        },
+        {
+          "point": " It is due to formation of calcium hydrogen carbonate / Calcium\nbicarbonate / Ca(HCO3)2 which is soluble in water.",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 28,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q2",
@@ -180,7 +261,7 @@
           "text": "(ii), (iii) and (iv)"
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": true,
       "source": [
         {
@@ -203,7 +284,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 3,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q4",
@@ -230,7 +331,7 @@
           "text": "Zinc oxide"
         }
       ],
-      "correct_option": null,
+      "correct_option": "b",
       "has_diagram": false,
       "source": [
         {
@@ -253,7 +354,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 6,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q37",
@@ -292,9 +413,67 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) (i) Groups A and B – less than 7",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) Group C – greater than 7",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) pH paper and universal indicator.",
+          "marks": 1.0
+        },
+        {
+          "point": "(c) • Copper vessel is tarnished due to formation of basic copper oxide.\n• Lemon juice being acidic react with copper oxide and the salt formed is\nwashed away.",
+          "marks": 2
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(c)  An optimal pH is required for digestion.\n Change in pH can cause tooth decay\n Animals and plants defend themselves through change in pH.\n Survival of aquatic life becomes difficult when pH of river water becomes\nlow.",
+          "marks": 2
+        },
+        {
+          "point": "(or any other) (Any two)",
+          "marks": null
+        }
+      ],
       "flagged": true,
-      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; [scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 37,
+          "pages": [
+            10,
+            10
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 37,
+          "pages": [
+            21,
+            22
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 37,
+          "pages": [
+            33,
+            33
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-2-q4",
@@ -321,7 +500,7 @@
           "text": "Hydrochloric acid < Sodium chloride < Acetic acid"
         }
       ],
-      "correct_option": null,
+      "correct_option": "a",
       "has_diagram": false,
       "source": [
         {
@@ -336,7 +515,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 4,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-3-q2",
@@ -363,7 +553,7 @@
           "text": "(i), (ii) and (iv)"
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -378,7 +568,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 2,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-3-q7",
@@ -405,7 +606,7 @@
           "text": "Sodium nitrate HNO3 NaOH Acidic"
         }
       ],
-      "correct_option": null,
+      "correct_option": "b",
       "has_diagram": false,
       "source": [
         {
@@ -420,7 +621,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 7,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q1",
@@ -447,7 +659,7 @@
           "text": "Carbon dioxide; it blows off a burning match stick with a pop sound."
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -478,7 +690,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 7,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 2,
+          "pages": [
+            23,
+            23
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q4",
@@ -505,7 +746,7 @@
           "text": "Oxalic acid"
         }
       ],
-      "correct_option": null,
+      "correct_option": "d",
       "has_diagram": false,
       "source": [
         {
@@ -536,7 +777,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 4,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 3,
+          "pages": [
+            23,
+            23
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q5",
@@ -563,7 +833,7 @@
           "text": "Sodium hydroxide and Ferric hydroxide both are strong base but the solubility of Sodium hydroxide in water is comparatively higher than that of Ferric hydroxide."
         }
       ],
-      "correct_option": null,
+      "correct_option": "b",
       "has_diagram": false,
       "source": [
         {
@@ -594,7 +864,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 3,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 7,
+          "pages": [
+            23,
+            23
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q6",
@@ -621,7 +920,7 @@
           "text": "Calcium sulphate hemihydrate (CaSO4. 1 2 H2O)"
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -652,7 +951,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "the fraction ½ in CaSO4·½H2O is split into separate digits"
+      "flag_reason": "the fraction ½ in CaSO4·½H2O is split into separate digits",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 6,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 2,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 5,
+          "pages": [
+            23,
+            23
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q21",
@@ -691,9 +1019,71 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(A) (i) • Copper (II) chloride / Copper chloride / Cupric\nchloride / CuCl2",
+          "marks": 0.5
+        },
+        {
+          "point": "• colour- blue-green.",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) CuO + 2HCl → CuCl2 + H2O",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(B) X : Sodium Chloride / NaCl",
+          "marks": 0.5
+        },
+        {
+          "point": "Y : Hydrogen /H2",
+          "marks": 0.5
+        },
+        {
+          "point": "Z : Chlorine / Cl2",
+          "marks": 0.5
+        },
+        {
+          "point": "B : Bleaching powder / CaOCl2",
+          "marks": 0.5
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 21,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 26,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 22,
+          "pages": [
+            23,
+            23
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q28",
@@ -716,9 +1106,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(i) The acid must always be added slowly to water with constant stirring.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) Sodium sulphate / Na2SO4\npH = 7",
+          "marks": 1.0
+        },
+        {
+          "point": "(iii) Dry HCl is unable to ionise\n/ Due to absence of hydrogen ion or hydronium ion",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 28,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-2-q32",
@@ -741,9 +1155,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(i) Acidified water has more ions than pure water.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) KOH (s) ⎯ ⎯ H 2 ⎯ O → K+ (aq) + OH-(aq)",
+          "marks": 1
+        },
+        {
+          "point": "(iii) The process is highly exothermic / may cause excessive heating /heat is\nreleased and may cause harm / mixture may splash out",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 32,
+          "pages": [
+            16,
+            16
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-3-q27",
@@ -766,9 +1204,41 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) •7",
+          "marks": 0.5
+        },
+        {
+          "point": "• salt of strong acid and strong base",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) • Pink / orange",
+          "marks": 0.5
+        },
+        {
+          "point": "• salt of weak base and strong acid",
+          "marks": 0.5
+        },
+        {
+          "point": "(c) • No change / remain blue",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 27,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q1",
@@ -795,7 +1265,7 @@
           "text": "Vanilla and methyl orange"
         }
       ],
-      "correct_option": null,
+      "correct_option": "a",
       "has_diagram": false,
       "source": [
         {
@@ -826,7 +1296,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 7,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 2,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q4",
@@ -853,7 +1352,7 @@
           "text": "Baking soda (Sodium hydrogen carbonate)"
         }
       ],
-      "correct_option": null,
+      "correct_option": "d",
       "has_diagram": false,
       "source": [
         {
@@ -884,7 +1383,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 4,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 3,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q6",
@@ -911,7 +1439,7 @@
           "text": "Ethanol and water"
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -942,7 +1470,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 6,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 2,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 5,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q21",
@@ -981,9 +1538,67 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) (i) X = CaSO4 . 2H2O /Gypsum / Calcium sulphate dihydrate",
+          "marks": 0.5
+        },
+        {
+          "point": "Y = CaSO4. 2 1 H2O/Plaster of Paris/ Calcium sulphate hemi-hydrate",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) CaSO4 . 2 1 H2O + 1 2 1 H2O ⎯ ⎯→ CaSO4 . 2H2O",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i) M, it is an acidic solution",
+          "marks": 1.0
+        },
+        {
+          "point": "(ii) Neutral",
+          "marks": 0.5
+        },
+        {
+          "point": "M is an acid and N is a base./Neutralization reaction",
+          "marks": 0.5
+        }
+      ],
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 21,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 26,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 22,
+          "pages": [
+            24,
+            25
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q28",
@@ -1006,9 +1621,41 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) Bacteria present in the mouth produce acids by degradation of sugar\nand food particles remaining in the mouth after eating.",
+          "marks": 1
+        },
+        {
+          "point": "(b) X : Na2CO3 . 10H2O/ Washing soda /",
+          "marks": 0.5
+        },
+        {
+          "point": "Sodium carbonate decahydrate\nUses :\n• Glass, soap and paper industries\n• Manufacture of borax\n• Cleaning agent\n• Removing permanent hardness of water (any two)",
+          "marks": 1.0
+        },
+        {
+          "point": "(c) The water of crystallisation is removed./\n𝒉𝒆𝒂𝒕",
+          "marks": 0.5
+        },
+        {
+          "point": "CuSO4.5H2O → CuSO4 + 5H2O ↑\n(white)",
+          "marks": null
+        }
+      ],
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 28,
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-2-q32",
@@ -1031,9 +1678,37 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) Universal Indicator gives a wide range of colours of acids and bases\nwhereas Litmus solution only one colour change. / Universal indicator\ngives the strength of acids/bases, Litmus does not.",
+          "marks": 1
+        },
+        {
+          "point": "(b)\n(i) Its range is 0 to 14.",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) It measures hydrogen ion concentration in a solution.",
+          "marks": 0.5
+        },
+        {
+          "point": "(iii) as H+ concentration decreases pH increases and vice versa\n(any two)\n(c) If water is added to concentrated acid, the heat generated may\ncause the mixture to splash out and cause burns / excess heat is\ngenerated.",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 32,
+          "pages": [
+            17,
+            17
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-3-q27",
@@ -1056,9 +1731,37 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) (i) 2Al + 3H2SO4 ⎯ ⎯→ Al2(SO4)3 + 3H2",
+          "marks": 1
+        },
+        {
+          "point": "(ii) 2Al + 2NaOH ⎯ ⎯→ 2NaAlO2 + H2",
+          "marks": 1
+        },
+        {
+          "point": "(credit marks even if reaction is not balanced)\n(b) •Blue green • due to the formation of Copper chloride /Copper (II)chloride /",
+          "marks": 1.0
+        },
+        {
+          "point": "Cupric chloride",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 27,
+          "pages": [
+            25,
+            25
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-supp-31B-q2",
@@ -1393,7 +2096,7 @@
           "text": "strong acid and strong base"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -1408,7 +2111,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 7,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31B-q8",
@@ -1435,7 +2149,7 @@
           "text": "HCl and CO2"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -1450,7 +2164,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 8,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31B-q23",
@@ -1473,9 +2198,49 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) (i) • X – Gypsum / CaSO4 · 2 H2O",
+          "marks": 0.5
+        },
+        {
+          "point": "• Y − Plaster of Paris / CaSO4 · 1 2 H2O",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) By adding water to Plaster of Paris (Y)",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)\n• X • because it is an acid.",
+          "marks": 1.0
+        },
+        {
+          "point": "(ii)\n• neutral",
+          "marks": 0.5
+        },
+        {
+          "point": "• because its solution turns universal indicator green.",
+          "marks": 0.5
+        }
+      ],
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 23,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31B-q35",
@@ -1498,9 +2263,45 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "• Chlor-alkali process\n• When electric current is passed through an aqueous solution of\nsodium chloride (brine), three products namely; sodium\nhydroxide (alkali) and two gases are obtained.",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "• At anode – chlorine gas",
+          "marks": 0.5
+        },
+        {
+          "point": "At cathode - hydrogen gas\nUses of chlorine:\nWater treatment/preparation of PVC/as disinfectants/preparation of\nCFCs/in Pesticides",
+          "marks": 0.5
+        },
+        {
+          "point": "(Any two)\nUses of hydrogen:\nAs a fuel /in margarine/Manufacturing of ammonia for fertilizer",
+          "marks": 1.0
+        },
+        {
+          "point": "(Any two)",
+          "marks": 1.0
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 35,
+          "pages": [
+            9,
+            10
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q2",
@@ -1527,7 +2328,7 @@
           "text": "HCl and NH4OH"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -1550,7 +2351,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 6,
+          "pages": [
+            11,
+            11
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q3",
@@ -1577,7 +2398,7 @@
           "text": "Hydrochloric acid and sulphuric acid"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -1608,7 +2429,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 3,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 7,
+          "pages": [
+            11,
+            11
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 6,
+          "pages": [
+            19,
+            19
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q21",
@@ -1647,9 +2497,71 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n(i) • HCl gas was evolved",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) (I) No change in colour",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Wet blue litmus turns red",
+          "marks": 0.5
+        },
+        {
+          "point": "• HCl gas is acidic in nature",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) • Zn + H2SO4 ⎯ ⎯→ ZnSO4 + H2 (g)",
+          "marks": 1
+        },
+        {
+          "point": "( Any other example)",
+          "marks": 1
+        },
+        {
+          "point": "• Hydrogen burns with a pop sound when a burning matchstick is brought\nnear it.",
+          "marks": null
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 21,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 23,
+          "pages": [
+            11,
+            12
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 23,
+          "pages": [
+            20,
+            20
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q27",
@@ -1680,9 +2592,42 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "• Plaster of Paris; Calcium sulphate hemihydrate",
+          "marks": 1.0
+        },
+        {
+          "point": "•Prepared from gypsum (CaSO4  2H2O) by heating it at 373K",
+          "marks": 1
+        },
+        {
+          "point": "CaSO4  1 2 H2O + 1 1 2 H2O ⎯ ⎯→ CaSO4  2H2O",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "the fraction ½ in CaSO4·½H2O is split into separate digits"
+      "flag_reason": "the fraction ½ in CaSO4·½H2O is split into separate digits; [scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 27,
+          "pages": [
+            4,
+            4
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 31,
+          "pages": [
+            21,
+            21
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-2-q22",
@@ -1705,9 +2650,29 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) 2 CH3COOH + Na2CO3 ⎯⎯→2 CH3COONa + H2O + CO2",
+          "marks": 1
+        },
+        {
+          "point": "(b) Pass the gas/CO2 in lime water. It turns lime water milky.",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 22,
+          "pages": [
+            11,
+            11
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-2-q27",
@@ -1730,9 +2695,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "• Copper Chloride; Blue- green",
+          "marks": 1.0
+        },
+        {
+          "point": "• CuO + 2HCl ⎯⎯→CuCl2 + H2O",
+          "marks": 1
+        },
+        {
+          "point": "• CuO is basic.",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 27,
+          "pages": [
+            12,
+            12
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-3-q2",
@@ -1759,7 +2748,7 @@
           "text": "Lactic acid, Mg(OH)2"
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -1774,7 +2763,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 2,
+          "pages": [
+            19,
+            19
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q3",
@@ -1801,7 +2801,7 @@
           "text": "Aluminium phosphate"
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -1824,7 +2824,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 3,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 6,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q4",
@@ -1851,7 +2871,7 @@
           "text": "3"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1882,7 +2902,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 8,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 7,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-2-q34",
@@ -1905,9 +2954,73 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) • Chlor-akali process  When electricity is passed through aqueous solution\nof sodium chloride (brine), it decomposes to form sodium hydroxide, chlorine\nand hydrogen.",
+          "marks": 1
+        },
+        {
+          "point": "• 2NaCl (aq)  2H2O (l)  2NaOH  Cl2  H2",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 0.5
+        },
+        {
+          "point": "• Anode – Chlorine gas / Cl2",
+          "marks": 0.5
+        },
+        {
+          "point": "Cathode- Hydrogen gas/ H2\n• Cl2  1. Used in the preparation of bleaching powder.",
+          "marks": 0.5
+        },
+        {
+          "point": "2. To make drinking water free from germs or any other.",
+          "marks": 0.5
+        },
+        {
+          "point": "• H2  1. Used in the manufacture of ammonia fertilisers.",
+          "marks": 0.5
+        },
+        {
+          "point": "2. Used in fuels and margarine.",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) • Concentrated solution of sodium chloride reacts with ammonia and carbon\ndioxide to obtain sodium hydrogen carbonate and ammonium chloride.\nNaCl  NH3  CO2  H2O  NaHCO3  NH4Cl",
+          "marks": 1
+        },
+        {
+          "point": "• When sodium hydrogen carbonate is heated strongly, sodium carbonate is\nobtained.\n2NaHCO3  Na2CO3  CO2  H2O Heat",
+          "marks": 1
+        },
+        {
+          "point": "• Sodium carbonate is dissolved in water to obtain washing soda.\nUses : Na2CO3  10H2O  Na2CO3 10H2O",
+          "marks": 1
+        },
+        {
+          "point": "• In glass, soap and paper industries\n• Manufacture of borax\n• As cleaning agent for domestic purposes.\n•For removing permanent hardness of water.",
+          "marks": 2.0
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 34,
+          "pages": [
+            17,
+            18
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-3-q3",
@@ -1934,7 +3047,7 @@
           "text": "basic acidic basic"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -1949,7 +3062,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; the beginning of the question is missing from the PDF text layer"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; the beginning of the question is missing from the PDF text layer",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 3,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31B-S-q3",
@@ -2110,7 +3234,7 @@
           "text": "Lemon juice"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -2133,7 +3257,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 2,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-1-q3",
@@ -2160,7 +3304,7 @@
           "text": "Citric acid"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -2183,7 +3327,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 3,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 4,
+          "pages": [
+            15,
+            15
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-1-q6",
@@ -2210,7 +3374,7 @@
           "text": "Ammonium hydrogen carbonate"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -2233,7 +3397,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 6,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 7,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-1-q28",
@@ -2256,9 +3440,65 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n• pH of a solution is a measure of H+ ion concentration in it\n/ a number which indicates the acidic or basic nature of a\nsolution.",
+          "marks": 1
+        },
+        {
+          "point": "• City B",
+          "marks": 0.5
+        },
+        {
+          "point": "• Lower the pH, more is the acidic nature.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Acidic rain water lowers the pH of pond making the\nsurvival of aquatic life difficult.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i) (I) Acid – HCl / Hydrochloric acid\nBase – NaOH/Sodium hydroxide",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Acid – H2SO4/ Sulphuric acid\nBase – NH4OH/ Ammonium Hydroxide",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) • Neutral",
+          "marks": 0.5
+        },
+        {
+          "point": "Reason : salt of strong acid and strong base",
+          "marks": 0.5
+        },
+        {
+          "point": "• Acidic",
+          "marks": 0.5
+        },
+        {
+          "point": "Reason : salt of strong acid and weak base.",
+          "marks": 0.5
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 28,
+          "pages": [
+            5,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-2-q2",
@@ -2285,7 +3525,7 @@
           "text": "Slaked lime with chlorine"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -2300,7 +3540,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 2,
+          "pages": [
+            15,
+            15
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-2-q6",
@@ -2327,7 +3578,7 @@
           "text": "Copper sulphate"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -2342,7 +3593,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 6,
+          "pages": [
+            15,
+            15
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-2-q21",
@@ -2365,9 +3627,29 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "• Solutions B and C",
+          "marks": 1.0
+        },
+        {
+          "point": "• Due to the presence of free ions.",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 21,
+          "pages": [
+            15,
+            15
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-2-q28",
@@ -2390,9 +3672,61 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) (i)\n• CO2",
+          "marks": 0.5
+        },
+        {
+          "point": "• Lime water turns milky.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Ca(OH)2+ CO2 → CaCO3 + H2O",
+          "marks": 1
+        },
+        {
+          "point": "(ii)\n• Milky colour turns to colourless in excess of CO2.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Formula: -Ca(HCO3)2",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n• NaCl+H2O+CO2+NH3→ NaHCO3 + NH4Cl",
+          "marks": 1
+        },
+        {
+          "point": "Baking soda\n• Baking soda is mixed with a mild edible acid such as\ntartaric acid.",
+          "marks": 0.5
+        },
+        {
+          "point": "• When baking powder is heated or mixed in water then Carbon dioxide produced during the reaction makes bread\nor cake to rise.",
+          "marks": 0.5
+        },
+        {
+          "point": "• NaHCO3 + H + CO2+H2O+Sodium salt of acid",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 28,
+          "pages": [
+            17,
+            18
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-3-q3",
@@ -2419,7 +3753,7 @@
           "text": "CaSO4 . 5H2O"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -2434,7 +3768,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "the fraction ½ in CaSO4·½H2O is split into separate digits"
+      "flag_reason": "the fraction ½ in CaSO4·½H2O is split into separate digits",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 3,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-3-q28",
@@ -2457,9 +3802,65 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n• Sodium carbonate/Na2CO3",
+          "marks": 1
+        },
+        {
+          "point": "• Recrystallisation of sodium carbonate /\nNa2CO3 + 10H2O → Na2CO3.10H2O",
+          "marks": 0.5
+        },
+        {
+          "point": "• Basic.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Salt of a strong base and a weak acid.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n• Sodium Hydroxide/NaOH/caustic soda – near cathode",
+          "marks": 0.5
+        },
+        {
+          "point": "• Chlorine/Cl2 – at anode",
+          "marks": 0.5
+        },
+        {
+          "point": "• Hydrogen/H2 – at cathode\nUse: (any one use of each)",
+          "marks": 0.5
+        },
+        {
+          "point": "• NaOH: Degreasing metal/soaps and detergents/ paper\nmaking/ artificial fibres.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Chlorine: water treatment/ PVC/ pesticides/ disinfectants/\nCFCs",
+          "marks": 0.5
+        },
+        {
+          "point": "• Hydrogen: fuel/ margarine/ammonia/fertilizers.",
+          "marks": 0.5
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 28,
+          "pages": [
+            30,
+            31
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q27",
@@ -2498,9 +3899,55 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n• Baking soda / sodium hydrogen carbonate",
+          "marks": 0.5
+        },
+        {
+          "point": "• NaHCO3",
+          "marks": 0.5
+        },
+        {
+          "point": "NaCl + H2O + CO2 + NH3 →NH4Cl + NaHCO3",
+          "marks": 1
+        },
+        {
+          "point": "(b) Being alkaline or basic in nature, it neutralises excess acid in the\nstomach & provides relief.",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 27,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 30,
+          "pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 28,
+          "pages": [
+            5,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q34",
@@ -2523,9 +3970,73 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n• Chlor alkali process",
+          "marks": 0.5
+        },
+        {
+          "point": "• When electricity is passed through an aqueous solution of\nsodium chloride called brine, it decomposes to form sodium\nhydroxide and chlorine.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Chlorine gas produced at anode",
+          "marks": 1.0
+        },
+        {
+          "point": "Hydrogen gas produced at cathode.",
+          "marks": 1.0
+        },
+        {
+          "point": "Compound C – Bleaching Powder",
+          "marks": 1
+        },
+        {
+          "point": "(Any one reaction)",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n(i) water of crystallisation/ water molecules present in crystal of ferrous sulphate",
+          "marks": 1
+        },
+        {
+          "point": "(ii) greenish to white to brown /greenish to white/ greenish to brown\n(iii)",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "(iv) 7",
+          "marks": 1
+        },
+        {
+          "point": "(v) (I) CuSO4.5H2O",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Na2CO3.10H2O",
+          "marks": 0.5
+        }
+      ],
       "flagged": true,
-      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')"
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 34,
+          "pages": [
+            7,
+            7
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-2-q28",
@@ -2548,9 +4059,37 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n• ‘X’.",
+          "marks": 0.5
+        },
+        {
+          "point": "• X is an acidic solution and acids have higher concentration\nof hydrogen ions (H+ ions).",
+          "marks": 1
+        },
+        {
+          "point": "(b)\n• Neutral.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Because acids and bases when mixed in proper amounts\nneutralise each other and neutral solutions show green colour\nwith universal indicator.",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 28,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-2-q34",
@@ -2573,9 +4112,77 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)\n(i)\n• Effervescence is observed due to formation of CO2 gas.",
+          "marks": 1
+        },
+        {
+          "point": "• Na2CO3 + dil HCl →NaCl + H2O + CO2",
+          "marks": 1
+        },
+        {
+          "point": "• To test the gas, pass it through lime water, lime water will\nturn milky. /",
+          "marks": 1
+        },
+        {
+          "point": "(ii)",
+          "marks": 1
+        },
+        {
+          "point": "• When excess CO2 passes through lime water,\nmilkiness disappears.",
+          "marks": 1
+        },
+        {
+          "point": "•",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)\n• Copper Chloride/ CuCl2",
+          "marks": 1
+        },
+        {
+          "point": "• blue – green solution",
+          "marks": 1
+        },
+        {
+          "point": "• CuO(s) +2HCl(s) →CuCl2(aq) + H2O (l)",
+          "marks": 1
+        },
+        {
+          "point": "(ii) I.\nX-Gypsum / CaSO4· 2H2O",
+          "marks": 0.5
+        },
+        {
+          "point": "Y-Plaster of Paris / CaSO4· 1 H2O/ Calcium 2\nsulphate hemihydrate",
+          "marks": 0.5
+        },
+        {
+          "point": "II. By adding water to Plaster of Paris /",
+          "marks": 1
+        },
+        {
+          "point": "(Do not cut marks for unbalanced equation)",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] marking points for 31/S/2 Q34 add up to 11 (alternatives: 6, 5), not 5; [scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 34,
+          "pages": [
+            7,
+            7
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-3-q36",
@@ -2598,9 +4205,57 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) (i)Higher the hydrogen ion concentration, lower is its pH\nvalue. / Lesser the hydrogen ion concentration, more is its\npH value.",
+          "marks": 2
+        },
+        {
+          "point": "(ii)\n• It is a highly exothermic reaction.",
+          "marks": 1
+        },
+        {
+          "point": "• Heat generated during dilution may cause the mixture to\nsplash out and cause burns / glass container may break due\nto excessive localised heat.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) HCl is strong acid which produces more hydrogen ions\nwhile acetic acid is a weak acid and produces less hydrogen\nions.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n(i) Its crystals loose water of crystallisation.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) It will absorb moisture to form hard mass of gypsum.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) Baking soda neutralises acid of bee sting.",
+          "marks": 2
+        },
+        {
+          "point": "(iv) (v) To neutralise the excess acid in the soil. Distilled water does not contain ions/salts.",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')"
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 36,
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q18",
@@ -2627,7 +4282,7 @@
           "text": "Tartaric acid"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -2642,7 +4297,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 18,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q19",
@@ -2669,7 +4335,7 @@
           "text": "Sodium chloride"
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -2684,7 +4350,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 19,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q28",
@@ -2707,9 +4384,49 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(i) An indicator which shows different colours at different hydrogen ion\nconcentration/ different pH values in a solution.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) ‘A’",
+          "marks": 1
+        },
+        {
+          "point": "(iii)\n(a) The reaction of an acid and a base to form salt and water.",
+          "marks": 1
+        },
+        {
+          "point": "NaOH + HCl  NaCl + H2O (or any other)",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(iii)\n(b) (I) Strongly alkaline – D",
+          "marks": 1
+        },
+        {
+          "point": "(II) Strongly acidic – B",
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; [scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 28,
+          "pages": [
+            7,
+            7
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q22",
@@ -2736,7 +4453,7 @@
           "text": "Bitter and change blue litmus to red."
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -2751,7 +4468,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 22,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q25",
@@ -2774,9 +4502,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "X- Sodium bicarbonate/sodium hydrogen carbonate/NaHCO3",
+          "marks": 0.5
+        },
+        {
+          "point": "Y- Carbon dioxide/CO2 gas",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 1
+        }
+      ],
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; the beginning of the question is missing from the PDF text layer; most of the question text is missing from the PDF text layer"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; the beginning of the question is missing from the PDF text layer; most of the question text is missing from the PDF text layer; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 25,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q28",
@@ -2815,9 +4567,79 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)",
+          "marks": 0.5
+        },
+        {
+          "point": " CaSO4.½H2O / (CaSO4)2.H2O\n Calcium sulphate hemihydrate",
+          "marks": 0.5
+        },
+        {
+          "point": "(b)\n Washing soda / Sodium carbonate",
+          "marks": 0.5
+        },
+        {
+          "point": " Na2CO3.10H2O",
+          "marks": 0.5
+        },
+        {
+          "point": "(c) (i) (I) Fixed number of water molecules present in one formula unit\nof salt.",
+          "marks": 1
+        },
+        {
+          "point": "(II) Ca(OH) 2  Cl 2  CaOCl 2  Η Ο 2",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(c) (ii) (I) Vanilla  Onion  Clove / Olfactory indicator\n(any other suitable example)",
+          "marks": 1
+        },
+        {
+          "point": "(II) - In textile industry  paper industry as a bleaching\nagent.\n- as an oxidising agent in chemical industries\n- as a disinfectant",
+          "marks": 1
+        },
+        {
+          "point": "( any one and any other)",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 28,
+          "pages": [
+            8,
+            8
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 28,
+          "pages": [
+            20,
+            20
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 28,
+          "pages": [
+            32,
+            33
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-2-q23",
@@ -2844,7 +4666,7 @@
           "text": "Universal indicator"
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -2854,7 +4676,52 @@
           "series": "E7FDG",
           "set_code": "31/7/2",
           "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 23,
+          "pages": [
+            18,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-3-q21",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Natural indicator"
         },
+        {
+          "label": "B",
+          "text": "Synthetic indicator"
+        },
+        {
+          "label": "C",
+          "text": "Olfactory indicator"
+        },
+        {
+          "label": "D",
+          "text": "Universal indicator"
+        }
+      ],
+      "correct_option": "B",
+      "has_diagram": false,
+      "source": [
         {
           "folder": "Science 2",
           "file": "31-7-3_Science_E2_May 2026.pdf",
@@ -2866,8 +4733,19 @@
       ],
       "exam_pattern": "2023_onward",
       "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "flagged": true,
+      "flag_reason": "the question stem is drawn as vector outlines in the PDF and is missing entirely (only the four options are in the text layer), so check against the source page",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 21,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-2-q25",
@@ -2890,9 +4768,29 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)Acids do not produce H+ ions in absence of water. /\nThe separation of H+ ion from acid molecule cannot occur in\nabsence of water.",
+          "marks": 1
+        },
+        {
+          "point": "(b) Acids present in curd form toxic salts with copper.",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 25,
+          "pages": [
+            18,
+            18
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-3-q25",
@@ -2915,9 +4813,29 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) Because distilled water does not contain ions whereas rain water\nhas ions.",
+          "marks": 1
+        },
+        {
+          "point": "(b) The process of addition of water to acid is highly exothermic which\ncan cause acid to splash out and break the container.",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 25,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
     }
   ]
 }

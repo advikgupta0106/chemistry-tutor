@@ -29,7 +29,7 @@
           "text": "Its pH is 10 and it turns red litmus to blue."
         }
       ],
-      "correct_option": null,
+      "correct_option": "d",
       "has_diagram": false,
       "source": [
         {
@@ -44,7 +44,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 1,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31B-q4",
@@ -71,7 +82,7 @@
           "text": "turns colourless and reddish brown substance is deposited on the coin."
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -86,7 +97,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31B-q17",
@@ -113,7 +135,7 @@
           "text": "Assertion (A) is false, but Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "d",
       "has_diagram": false,
       "source": [
         {
@@ -128,7 +150,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_B_MS_UNSIGNED.pdf",
+          "set_code": "31(B)",
+          "question_no": 17,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q5",
@@ -155,7 +188,7 @@
           "text": "Aluminium"
         }
       ],
-      "correct_option": null,
+      "correct_option": "a",
       "has_diagram": false,
       "source": [
         {
@@ -186,7 +219,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 2,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 3,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q6",
@@ -213,7 +275,7 @@
           "text": "5, 6 or 8"
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -236,7 +298,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 6,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 1,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q17",
@@ -263,7 +345,7 @@
           "text": "Assertion (A) is false, but Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "d",
       "has_diagram": false,
       "source": [
         {
@@ -286,7 +368,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 17,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 18,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-1-q28",
@@ -317,9 +419,58 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "Roasting Calcination\n1 It is carried out for sulphide ores. It is carried out for carbonate ores.\n2 Ore is heated in excess of air Ore is heated in absence or limited\nsupply of air.",
+          "marks": 0.5
+        },
+        {
+          "point": "2ZnS + 3O2 ⎯ ⎯→ 2ZnO + 2SO2 ZnCO3 ⎯Heat ⎯ ⎯ ⎯ → ZnO + CO2",
+          "marks": 0.5
+        },
+        {
+          "point": "OR OR\n2HgS + 3O2 ⎯Heat ⎯ ⎯ ⎯ → 2HgO + 2SO2 CaCO3 heat → CaO + CO2\nOR OR\n2Cu2S + 3O2 ⎯Heat ⎯ ⎯ ⎯ → 2Cu2O + 2SO2 PbCO3 heat → PbO + CO2",
+          "marks": 1
+        },
+        {
+          "point": "Reduction with the help of carbon",
+          "marks": 0.5
+        },
+        {
+          "point": "ZnO + C → Zn + CO\nHeat\nAlternate answer\nWith the help of heat\n2HgO(s) ⎯Heat ⎯ ⎯ ⎯ → 2 Hg (l) + O2(g)",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "Auto reduction / Heating with its ore\n2Cu2O + Cu2S ⎯Heat ⎯ ⎯ ⎯ → 6Cu (s) + SO2(g)\n(or Any other)",
+          "marks": null
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 28,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 31,
+          "pages": [
+            17,
+            18
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-2-q17",
@@ -346,7 +497,7 @@
           "text": "Assertion (A) is false, but Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "d",
       "has_diagram": false,
       "source": [
         {
@@ -361,7 +512,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 17,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-2-3-q28",
@@ -384,9 +546,41 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) Gas ‘A’ – CO2 / Carbon dioxide",
+          "marks": 0.5
+        },
+        {
+          "point": "Green substance – Basic copper carbonate. / [CuCO3.Cu (OH)2]",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) Roasting",
+          "marks": 1
+        },
+        {
+          "point": "2Cu2S + 3O2 ⎯ ⎯→ 2Cu2O + 2SO2",
+          "marks": 0.5
+        },
+        {
+          "point": "2Cu2O + Cu2S ⎯ ⎯→ 6Cu + SO2",
+          "marks": 0.5
+        }
+      ],
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; [scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 28,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-4-1-q37",
@@ -425,9 +619,71 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(i)",
+          "marks": 1
+        },
+        {
+          "point": "(ii)\n• They are hard solids\n• They are soluble in water\n• They conduct electricity in aqueous solution or molten state",
+          "marks": 1.0
+        },
+        {
+          "point": "[Any other]\n[Any two]\n(iii) (A) • Sodium atom has one electron in its outermost shell",
+          "marks": 1
+        },
+        {
+          "point": "• It attains its nearest noble gas configuration by losing this electron\nforming Na+ ion / 𝐍𝐚 → 𝐍𝐚+ + 𝐞−\n2,8,1 2,8\nstable",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(iii) (B) (i) Because movement of ions in the solid is not possible due to\ntheir rigid structure.",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "(ii) H2 gas is liberated at cathode.",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/1",
+          "question_no": 37,
+          "pages": [
+            9,
+            9
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/2",
+          "question_no": 39,
+          "pages": [
+            20,
+            20
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_4_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/4/3",
+          "question_no": 39,
+          "pages": [
+            30,
+            30
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q5",
@@ -454,7 +710,7 @@
           "text": "It reacts only with base and does not form water."
         }
       ],
-      "correct_option": null,
+      "correct_option": "c",
       "has_diagram": false,
       "source": [
         {
@@ -485,7 +741,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 3,
+          "pages": [
+            13,
+            13
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 7,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-main-31-5-1-q37",
@@ -524,9 +809,71 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) Cinnabar ; HgS (Sulphide form)",
+          "marks": 1.0
+        },
+        {
+          "point": "(b) It forms Zinc oxide (Calcination)",
+          "marks": 1
+        },
+        {
+          "point": "Alternate answer:\nZnCO3 (s) ⎯ heat ⎯→ ZnO + CO2\n(c) (I) Aluminium, Thermit Reaction",
+          "marks": 1.0
+        },
+        {
+          "point": "(II) Fe2O3 + 2Al ⎯ ⎯→ 2Fe + Al2O3 + Heat",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(c) • Sodium has more affinity for oxygen than carbon / Sodium is\nhighly reactive.",
+          "marks": 1
+        },
+        {
+          "point": "• At cathode Na+ + e- ⎯ ⎯→ Na",
+          "marks": 0.5
+        },
+        {
+          "point": "• At anode 2Cl– ⎯ ⎯→ Cl2 + 2e-",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] marking points for 31/5/1 Q37 add up to 6 (alternatives: 2, 2, 2), not 4; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/1",
+          "question_no": 37,
+          "pages": [
+            9,
+            9
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/2",
+          "question_no": 39,
+          "pages": [
+            21,
+            21
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_5_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/5/3",
+          "question_no": 39,
+          "pages": [
+            31,
+            32
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2023-supp-31B-q4",
@@ -894,7 +1241,7 @@
           "text": "Calcium"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -909,7 +1256,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 9,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31B-q18",
@@ -936,7 +1294,7 @@
           "text": "Assertion (A) is false and Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "A",
       "has_diagram": false,
       "source": [
         {
@@ -951,7 +1309,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 18,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31B-q29",
@@ -974,9 +1343,65 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a)\n• Electrolytic refining",
+          "marks": 0.5
+        },
+        {
+          "point": "• Anode- impure metal",
+          "marks": 0.5
+        },
+        {
+          "point": "• Cathode- strip of pure metal",
+          "marks": 0.5
+        },
+        {
+          "point": "• Electrolyte- a soluble salt solution of the metal",
+          "marks": 0.5
+        },
+        {
+          "point": "• On passing the current through the electrolyte, the pure metal\nfrom the anode dissolves into the electrolyte. An equivalent\namount of pure metal from the electrolyte is deposited on the\ncathode. The impurities settle down at the bottom of the anode\nand are known as anode mud.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\nRoasting Calcination\nHeating of sulphide ore strongly in Heating of carbonate ore strongly\nthe presence of air. in limited supply of air.",
+          "marks": 1
+        },
+        {
+          "point": "2ZnS + 3O2 𝐻𝑒𝑎𝑡 → 2ZnO + SO2 ZnCO3 Heat → ZnO + CO2",
+          "marks": 1.0
+        },
+        {
+          "point": "• Heating of the oxide of the metal with suitable reducing agent\n(Carbon or highly reactive metals such as K, Na, Al, etc).",
+          "marks": 0.5
+        },
+        {
+          "point": "• ZnO + C Heat → ZnO + CO /\nFe2O3 + 2Al → 2Fe + Al2O3",
+          "marks": 0.5
+        },
+        {
+          "point": "(or any other reaction)",
+          "marks": null
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science (Blind Engl.).pdf",
+          "set_code": "31(B)",
+          "question_no": 29,
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q4",
@@ -1003,7 +1428,7 @@
           "text": "Gold and silver"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1034,7 +1459,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 8,
+          "pages": [
+            11,
+            11
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 7,
+          "pages": [
+            19,
+            19
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q17",
@@ -1061,7 +1515,7 @@
           "text": "Assertion (A) is false, but Reason (R) is true."
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -1092,7 +1546,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 17,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 19,
+          "pages": [
+            11,
+            11
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 19,
+          "pages": [
+            19,
+            19
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-4-1-q37",
@@ -1131,9 +1614,67 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "(a) In the test tube containing magnesium.",
+          "marks": 1
+        },
+        {
+          "point": "(b) All three metals react with HCl because they are more reactive than\nhydrogen.",
+          "marks": 1
+        },
+        {
+          "point": "(Award marks if student write any less reactive metal with reason)\n(c) (i)Because HNO3 is a strong oxidizing agent and oxidizes the H2 produced\nto water.",
+          "marks": 1
+        },
+        {
+          "point": "• Ultimate products are water, oxides of nitrogen.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(c)\n(ii) • Displacement Reaction",
+          "marks": 1
+        },
+        {
+          "point": "• If metal X displaces metal Y from its salt solution it is more reactive than\nY or vice versa.",
+          "marks": 1
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/1",
+          "question_no": 37,
+          "pages": [
+            7,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/2",
+          "question_no": 38,
+          "pages": [
+            16,
+            16
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/X-086-31-4 -MS-UNSIGNED ALL SET....pdf",
+          "set_code": "31/4/3",
+          "question_no": 38,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q5",
@@ -1160,7 +1701,7 @@
           "text": "Mg, MgO"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -1191,7 +1732,36 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": true,
-      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; the beginning of the question is missing from the PDF text layer"
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; the beginning of the question is missing from the PDF text layer",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 9,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 8,
+          "pages": [
+            24,
+            24
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-1-q28",
@@ -1222,9 +1792,46 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "• Cinnabar",
+          "marks": 0.5
+        },
+        {
+          "point": "• Sulphide ore",
+          "marks": 0.5
+        },
+        {
+          "point": "• 2HgS  3O2 𝐻𝑒𝑎𝑡 → 2HgO  2SO2",
+          "marks": 1
+        },
+        {
+          "point": "• 2HgO 2Hg  O2 Heat",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/1",
+          "question_no": 28,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/3",
+          "question_no": 30,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-main-31-5-2-q28",
@@ -1247,9 +1854,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "•\nActivity  Magnesium Sulphur\nBurn magnesium ribbon Burn sulphur\nCollect the ashes Collect the fumes\nDissolve in water Add water",
+          "marks": 1
+        },
+        {
+          "point": "Add blue Add red Add blue Add red\nLitmus Litmus Litmus Litmus\nsolution solution solution solution\nRemains Turns blue Turns red Remains red\nblue",
+          "marks": 1
+        },
+        {
+          "point": "Inference : Metalic oxides are Oxides of non – metals are\nbasic in nature acidic in nature",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024/X/Science/Science_English)/science(eng.)set 5.pdf",
+          "set_code": "31/5/2",
+          "question_no": 28,
+          "pages": [
+            16,
+            16
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31B-S-q19",
@@ -1355,9 +1986,103 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)\n• X : 2,8,2",
+          "marks": 0.5
+        },
+        {
+          "point": "• Y: 2,8,7",
+          "marks": 0.5
+        },
+        {
+          "point": "• (Any one of the following below formations)\n/",
+          "marks": 1
+        },
+        {
+          "point": "• Name: Magnesium chloride",
+          "marks": 0.5
+        },
+        {
+          "point": "• Formula : MgCl2/XY2",
+          "marks": 0.5
+        },
+        {
+          "point": "• The compound will dissociate into ions/ions will move\nfreely to the opposite electrodes/electrolysis will occur.",
+          "marks": 1
+        },
+        {
+          "point": "• (i) Cathode: Mg2+ / Magnesium ion/Cation",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) Anode: Cl- /Chloride ion/Anion",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)\n• Zinc, Iron, Lead, Copper (any two)",
+          "marks": 1.0
+        },
+        {
+          "point": "• Zinc is more reactive than Iron/Iron is more reactive than\nCopper/Lead is more reactive than Copper (or any other suitable combination)",
+          "marks": 1
+        },
+        {
+          "point": "• Demonstration:\n1. Put iron nail in a solution of copper sulphate taken in a\ntest tube.\n2. After sometime blue colour of CuSO4 fades.",
+          "marks": 1
+        },
+        {
+          "point": "(Any other relevant activity)\n(ii)\n• Calcination",
+          "marks": 0.5
+        },
+        {
+          "point": "• Reduction using Carbon",
+          "marks": 0.5
+        },
+        {
+          "point": "Chemical Reactions\nHeat\n1. ZnCO3 ZnO + CO2",
+          "marks": 0.5
+        },
+        {
+          "point": "2. ZnO + C Zn + CO",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/1",
+          "question_no": 34,
+          "pages": [
+            7,
+            8
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/2",
+          "question_no": 35,
+          "pages": [
+            20,
+            21
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 36,
+          "pages": [
+            34,
+            35
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2024-supp-31-S-3-q21",
@@ -1380,9 +2105,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "• Sodium",
+          "marks": 0.5
+        },
+        {
+          "point": "• Sodium has more affinity for oxygen than carbon / Na is\nhighly reactive",
+          "marks": 1
+        },
+        {
+          "point": "• Electrolytic reduction",
+          "marks": 0.5
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2024-COMPTT/X/Science/Science(English).pdf",
+          "set_code": "31/S/3",
+          "question_no": 21,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q3",
@@ -1409,7 +2158,7 @@
           "text": "Gold and copper"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1432,7 +2181,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 3,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q4",
@@ -1459,7 +2228,7 @@
           "text": "Most vigorous reaction with zinc and no reaction with copper"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1482,7 +2251,27 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 3,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-1-q22",
@@ -1521,9 +2310,171 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)(i) Homogenous mixture of two or more metals / homogenous\nmixture of a metal & a non-metal",
+          "marks": 1
+        },
+        {
+          "point": "(ii)\n• Composition of solder : lead and tin / Pb and Sn",
+          "marks": 0.5
+        },
+        {
+          "point": "• low melting point.",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)\ncathode – thin wire/strip of pure silver\nanode – impure silver",
+          "marks": 1.0
+        },
+        {
+          "point": "(ii)\n• Insoluble impurities settled down at the bottom of the anode",
+          "marks": 0.5
+        },
+        {
+          "point": "• As it is impurities produced during electrolytic refining of\nmetal at the bottom of anode.",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_1_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/1",
+          "question_no": 22,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_2_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/2",
+          "question_no": 21,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 23,
+          "pages": [
+            4,
+            4
+          ]
+        }
+      ],
+      "marking_points_variants": [
+        {
+          "set_code": "31/S/1",
+          "question_no": 22,
+          "marking_points": [
+            {
+              "point": "(a)(i) Homogenous mixture of two or more metals / homogenous\nmixture of a metal & a non-metal",
+              "marks": 1
+            },
+            {
+              "point": "(ii)\n• Composition of solder : lead and tin / Pb and Sn",
+              "marks": 0.5
+            },
+            {
+              "point": "• low melting point.",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i)\ncathode – thin wire/strip of pure silver\nanode – impure silver",
+              "marks": 1.0
+            },
+            {
+              "point": "(ii)\n• Insoluble impurities settled down at the bottom of the anode",
+              "marks": 0.5
+            },
+            {
+              "point": "• As it is impurities produced during electrolytic refining of\nmetal at the bottom of anode.",
+              "marks": 0.5
+            }
+          ]
+        },
+        {
+          "set_code": "31/S/2",
+          "question_no": 21,
+          "marking_points": [
+            {
+              "point": "(a)(i) Homogenous mixture of two or more metals / homogenous\nmixture of a metal & a non-metal",
+              "marks": 1
+            },
+            {
+              "point": "(ii)\n• Composition of solder: Lead and Tin (Pb and Sn)",
+              "marks": 0.5
+            },
+            {
+              "point": "• low melting point.",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i)\ncathode – thin wire or strip of pure silver\nanode – impure silver",
+              "marks": 1.0
+            },
+            {
+              "point": "(ii)\n• Insoluble impurities settled down at the bottom of the anode",
+              "marks": 0.5
+            },
+            {
+              "point": "• Anode mud are the impurities produced during electrolytic\nrefining of metal at the bottom of anode.",
+              "marks": 0.5
+            }
+          ]
+        },
+        {
+          "set_code": "31/S/3",
+          "question_no": 23,
+          "marking_points": [
+            {
+              "point": "(a)(i) Homogenous mixture of two or more metals / homogenous\nmixture of a metal & a non-metal",
+              "marks": 1
+            },
+            {
+              "point": "(ii)\n• Composition of solder: lead & tin / Pb & Sn",
+              "marks": 0.5
+            },
+            {
+              "point": "• low melting point.",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i)\ncathode – thin wire/strip of pure silver\nanode – impure silver",
+              "marks": 1.0
+            },
+            {
+              "point": "(ii)\n• Insoluble impurities settled down at the bottom of the\nanode",
+              "marks": 0.5
+            },
+            {
+              "point": "• Anode mud are the impurities produced during electrolytic\nrefining of metal at the bottom of anode.",
+              "marks": 0.5
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-3-q5",
@@ -1550,7 +2501,7 @@
           "text": "Neutral"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -1565,7 +2516,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2025-supp-31-S-3-q27",
@@ -1588,9 +2550,25 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
+      "marking_points": [
+        {
+          "point": "Ore\nConcentration of ore\nCarbonate ore Sulphide ore\nCalcination Roasting\nOxide of metal\nReduction of metal\nPurification of metal\n*Award marks if a student explains through a flow chart\nusing an example (like Fe2O3)",
+          "marks": 3
+        }
+      ],
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025-COMPTT/X/SCIENCE/31_S_3_086_MS_ENGLISH-encrypted.pdf",
+          "set_code": "31/S/3",
+          "question_no": 27,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q20",
@@ -1617,7 +2595,7 @@
           "text": "Calcium"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1632,7 +2610,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 20,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q21",
@@ -1659,7 +2648,7 @@
           "text": "Iron"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1674,7 +2663,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 21,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q25",
@@ -1697,9 +2697,33 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": " The compound formed by transfer of electrons from metal to non-metal.",
+          "marks": 1
+        },
+        {
+          "point": "Properties:\n Generally soluble in water,",
+          "marks": 1.0
+        },
+        {
+          "point": " high melting point and boiling point,\n good conductor of heat and electricity.\n(any two or any other)",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 25,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31B-q27",
@@ -1722,9 +2746,53 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a)\n(i) The conversion of sulphide ore into oxide by heating strongly in the\npresence of excess air.",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 0.5
+        },
+        {
+          "point": "(Or any other example)\n(ii)\n An alloy is a homogeneous mixture of two or more metals or a metal\nand a non-metal.",
+          "marks": 1.0
+        },
+        {
+          "point": " Example Brass\n(or any other)\n(iii) The slow and gradual degradation of metals due to their reaction with\nmoisture, acids etc. present in the atmosphere is called corrosion\nExample: Formation of Fe2O3. xH2O (Rust) or silver sulphide on silver\narticles. (any one or any other)",
+          "marks": 1.0
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n(i) Alloying helps in getting desired properties in metals such as alloys are hard\nand strong, resistant to corrosion etc.",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "(ii) Because highly reactive metals have more affinity for oxygen than carbon.\n(iii) Due to the formation of silver sulphide",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-B in English.pdf",
+          "set_code": "31(B)",
+          "question_no": 27,
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q17",
@@ -1751,7 +2819,7 @@
           "text": "Cu"
         }
       ],
-      "correct_option": null,
+      "correct_option": "C",
       "has_diagram": false,
       "source": [
         {
@@ -1766,7 +2834,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 17,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-1-q29",
@@ -1805,9 +2884,87 @@
         }
       ],
       "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null
+      "marking_points": [
+        {
+          "point": "(a) (i) (I)",
+          "marks": 1
+        },
+        {
+          "point": "(II)",
+          "marks": 1
+        },
+        {
+          "point": "(III)",
+          "marks": 1
+        },
+        {
+          "point": "(ii) (I) Because movement of ions in solid state is not possible due to its\nrigid structure.",
+          "marks": 1
+        },
+        {
+          "point": "(II) A large amount of heat energy is required to overcome strong\nelectrostatic forces of attraction between oppositely charged ions\nin ionic compounds.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "b) (i)\n Cathode – Thin strip of pure zinc metal",
+          "marks": 0.5
+        },
+        {
+          "point": " Anode – Impure zinc metal",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii)\n A solution of Zinc salt like ZnSO4.",
+          "marks": 1
+        },
+        {
+          "point": " On the cathode.",
+          "marks": 1
+        },
+        {
+          "point": "(iii)\n Zinc forms a protective layer on iron preventing reaction\nof air and water with iron surface.",
+          "marks": 1
+        },
+        {
+          "point": " Galvanisation.",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/1",
+          "question_no": 29,
+          "pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 29,
+          "pages": [
+            20,
+            21
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 29,
+          "pages": [
+            33,
+            34
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-2-q17",
@@ -1834,7 +2991,7 @@
           "text": "Al"
         }
       ],
-      "correct_option": null,
+      "correct_option": "B",
       "has_diagram": false,
       "source": [
         {
@@ -1849,7 +3006,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/2",
+          "question_no": 17,
+          "pages": [
+            18,
+            18
+          ]
+        }
+      ]
     },
     {
       "id": "cbse10-2026-exam2-31-7-3-q17",
@@ -1876,7 +3044,7 @@
           "text": "Caesium"
         }
       ],
-      "correct_option": null,
+      "correct_option": "D",
       "has_diagram": false,
       "source": [
         {
@@ -1891,7 +3059,18 @@
       "exam_pattern": "2023_onward",
       "marking_points": null,
       "flagged": false,
-      "flag_reason": null
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026-COMPTT/Second_Board_X/Science/Eng/MS Science (086) 31-7-1 to3) in English.pdf",
+          "set_code": "31/7/3",
+          "question_no": 17,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
     }
   ]
 }
