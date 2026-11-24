@@ -1,0 +1,2923 @@
+{
+  "chapter_id": "acids-bases-and-salts",
+  "class": "10",
+  "topic_file": "content/topics/acids-bases-and-salts.json",
+  "source_note": "CBSE Class 10 Science (code 31) board papers with a text layer, 2022–2026. English text only; chemistry questions only. See content-schema.json → cbse_question.",
+  "questions": [
+    {
+      "id": "cbse10-2023-main-31B-q3",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Select the correct statement from the following :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "CO2 is a product of respiration whereas CO is a product of photosynthesis."
+        },
+        {
+          "label": "b",
+          "text": "CO2 is a product of respiration whereas Cl2 is a product of chlor-alkali process."
+        },
+        {
+          "label": "c",
+          "text": "CO2 is a product of photosynthesis whereas H2 is a product of chlor-alkali process."
+        },
+        {
+          "label": "d",
+          "text": "CO2 is a product of incomplete combustion whereas CO is a product of respiration."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31B-q5",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "A compound X is used in the paper, soap and glass industries.",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "anhydrous sodium carbonate (Na2CO3)"
+        },
+        {
+          "label": "b",
+          "text": "sodium carbonate decahydrate (Na2CO3 . 10H2O)"
+        },
+        {
+          "label": "c",
+          "text": "sodium hydrogen carbonate (NaHCO3) 1 H2O) sodium sulphate hemihydrate (Na2SO4 . 2"
+        },
+        {
+          "label": "d",
+          "text": ""
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; one or more options are drawings and have no text"
+    },
+    {
+      "id": "cbse10-2023-main-31B-q6",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Select from the following, a salt whose aqueous solution will \nhave pH less than seven.",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium chloride"
+        },
+        {
+          "label": "b",
+          "text": "Potassium sulphate"
+        },
+        {
+          "label": "c",
+          "text": "Sodium carbonate"
+        },
+        {
+          "label": "d",
+          "text": "Ammonium chloride"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31B-q28",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) (i) Name one antacid. State how it helps to relieve\nindigestion in the stomach.\n(ii) A student wants to dilute a strong acid such as\nsulphuric acid. For this purpose, why should the\nacid be added to water and not water to the acid ?\nOR\n(b) A student dropped a few pieces of white marble in dilute\nhydrochloric acid contained in a test tube. The gas\nevolved was then passed through freshly prepared lime\nwater.\n(i) Name the gas evolved.\n(ii) State the change the student would observe in lime\nwater.\n(iii) What change would be observed if excess of this gas\nis passed through lime water ?\nGive reason for your answer in (ii) and (iii) given above.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q2",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "In the given experimental set-up, if the experiment is carried out \nseparately with each of the following solutions the cases in which the \nbulb will glow is/are : \n+ \nSolution \n(i) Dilute hydrochloric acid \n(ii) Dilute sulphuric acid \n(iii) Glucose solution \n(iv) Alcohol",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "(i) only"
+        },
+        {
+          "label": "b",
+          "text": "(ii) only"
+        },
+        {
+          "label": "c",
+          "text": "(i) and (ii)"
+        },
+        {
+          "label": "d",
+          "text": "(ii), (iii) and (iv)"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 2
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q4",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "When zinc reacts with sodium hydroxide, the product formed is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium oxide"
+        },
+        {
+          "label": "b",
+          "text": "Sodium zincate"
+        },
+        {
+          "label": "c",
+          "text": "Zinc hydroxide"
+        },
+        {
+          "label": "d",
+          "text": "Zinc oxide"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 4
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q37",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The teacher while conducting practicals in the laboratory divided the\nstudents into three groups and gave them various solutions to find out\ntheir pH and classify them into acidic, basic and neutral solutions.\nGroup A Lemon juice, vinegar, colourless aerated drink\nGroup B Tomato juice, coffee, ginger juice\nGroup C Sodium hydroxide, sodium chloride, lime water\n(a) For the solutions provided, which group is/are likely to have pH\nvalue (i) less than 7, and (ii) greater than 7 ?\n(b) List two ways of determining pH of a solution\n(c) Explain, why the sour substances such as lemon juice are effective\nin cleaning the tarnished copper vessels.\nOR\n(c)\nby giving two examples.",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 37
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 37
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 37
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2023-main-31-2-2-q4",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Which of the following gives the correct increasing order of acidic \nstrength ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium chloride < Acetic acid < Hydrochloric acid"
+        },
+        {
+          "label": "b",
+          "text": "Sodium chloride < Hydrochloric acid < Acetic acid"
+        },
+        {
+          "label": "c",
+          "text": "Acetic acid < Sodium chloride < Hydrochloric acid"
+        },
+        {
+          "label": "d",
+          "text": "Hydrochloric acid < Sodium chloride < Acetic acid"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-3-q2",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Select the correct option(s) in the following table : \nOption Natural Sources Acid present \n(i) Tamarind Tartaric acid \n(ii) Tomato Acetic acid \n(iii) Ant sting Oxalic acid \n(iv) Nettle sting Methanoic acid",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "(i) only"
+        },
+        {
+          "label": "b",
+          "text": "(iii) only"
+        },
+        {
+          "label": "c",
+          "text": "(i) and (iv)"
+        },
+        {
+          "label": "d",
+          "text": "(i), (ii) and (iv)"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-3-q7",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Select the correct option from the following : \nSalt Parent acid Parent base Nature of salt",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium acetate CH3COOH NaOH Neutral"
+        },
+        {
+          "label": "b",
+          "text": "Sodium carbonate H2CO3 NaOH Basic"
+        },
+        {
+          "label": "c",
+          "text": "Sodium chloride HCl NaOH Acidic"
+        },
+        {
+          "label": "d",
+          "text": "Sodium nitrate HNO3 NaOH Acidic"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q1",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "When Sodium bicarbonate reacts with dilute hydrochloric acid, the gas \nevolved is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Hydrogen; it gives pop sound with burning match stick."
+        },
+        {
+          "label": "b",
+          "text": "Hydrogen; it turns lime water milky."
+        },
+        {
+          "label": "c",
+          "text": "Carbon dioxide; it turns lime water milky."
+        },
+        {
+          "label": "d",
+          "text": "Carbon dioxide; it blows off a burning match stick with a pop sound."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 1
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 7
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q4",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Acid present in tomato is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Methanoic acid"
+        },
+        {
+          "label": "b",
+          "text": "Acetic acid"
+        },
+        {
+          "label": "c",
+          "text": "Lactic acid"
+        },
+        {
+          "label": "d",
+          "text": "Oxalic acid"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 4
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 4
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q5",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Sodium hydroxide is termed an alkali while Ferric hydroxide is not \nbecause :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium hydroxide is a strong base, while Ferric hydroxide is a weak base."
+        },
+        {
+          "label": "b",
+          "text": "Sodium hydroxide is a base which is soluble in water while Ferric hydroxide is also a base but it is not soluble in water."
+        },
+        {
+          "label": "c",
+          "text": "Sodium hydroxide is a strong base while Ferric hydroxide is a strong acid."
+        },
+        {
+          "label": "d",
+          "text": "Sodium hydroxide and Ferric hydroxide both are strong base but the solubility of Sodium hydroxide in water is comparatively higher than that of Ferric hydroxide."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 3
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q6",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The name of the salt used to remove permanent hardness of water is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium hydrogen carbonate (NaHCO3)"
+        },
+        {
+          "label": "b",
+          "text": "Sodium chloride (NaCl)"
+        },
+        {
+          "label": "c",
+          "text": "Sodium carbonate decahydrate (Na2CO3.10H2O)"
+        },
+        {
+          "label": "d",
+          "text": "Calcium sulphate hemihydrate (CaSO4. 1 2 H2O)"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 6
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 2
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "the fraction ½ in CaSO4·½H2O is split into separate digits"
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q21",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(A) A student took a small amount of copper oxide in a conical flask and\nadded dilute hydrochloric acid to it with constant stirring. He\nobserved a change in colour of the solution.\n(i) Write the name of the compound formed and its colour.\n(ii) Write a balanced chemical equation for the reaction involved.\nOR\n(B) The industrial process used for the manufacture of caustic soda\ninvolves electrolysis of an aqueous solution of compound ‘X’. In this\nprocess, two gases ‘Y’ and ‘Z’ are liberated. ‘Y’ is liberated at\ncathode and ‘Z’, which is liberated at anode, on treatment with dry\nslaked lime forms a compound ‘B’. Name X, Y, Z and B.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 21
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 26
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q28",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(i) Suggest a safe procedure of diluting a strong concentrated acid.\n(ii) Name the salt formed when sulphuric acid is added to sodium\nhydroxide and write its pH.\n(iii) Dry HCl gas does not change the colour of dry blue litmus paper.\nWhy ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-2-q32",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(i) Why is acidified water considered to be a good conductor of\nelectricity ?\n(ii) Write a chemical equation showing the ionic products formed on\ndissolving potassium hydroxide in water.\n(iii) Care must be taken while diluting concentrated nitric acid with water.\nWhy ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 32
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-3-q27",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Consider the following salts :\n(i) YCl (ii)   NH4X (iii)   ZCO3\n(a) What would be the pH of the salt solution if in YCl, Y is sodium ?\nGive reason for your answer.\n(b) If in salt NH4X, X is nitrate, then its solution will give what colour\nwith universal indicator ? Why ?\n(c) What would be the change in colour in blue litmus solution if ZCO3\nis added to it and Z is potassium ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q1",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Select a pair of olfactory indicators from the following :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Clove oil and vanilla essence"
+        },
+        {
+          "label": "b",
+          "text": "Onion and turmeric"
+        },
+        {
+          "label": "c",
+          "text": "Clove oil and litmus solution"
+        },
+        {
+          "label": "d",
+          "text": "Vanilla and methyl orange"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 1
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 7
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q4",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Fresh milk has a pH of 6. To delay its curdling, a chemical substance is \nadded to it, which is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium carbonate"
+        },
+        {
+          "label": "b",
+          "text": "Baking powder"
+        },
+        {
+          "label": "c",
+          "text": "Sodium hydroxide (Caustic soda)"
+        },
+        {
+          "label": "d",
+          "text": "Baking soda (Sodium hydrogen carbonate)"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 4
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 4
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q6",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Hydronium ions are formed by the reaction between :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium hydroxide and water"
+        },
+        {
+          "label": "b",
+          "text": "Calcium chloride and water"
+        },
+        {
+          "label": "c",
+          "text": "Hydrogen chloride gas and water"
+        },
+        {
+          "label": "d",
+          "text": "Ethanol and water"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 6
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 2
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q21",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a)\nnes\nin the right position.\n(i) Identify X and Y\n(ii) How can X be reobtained from Y ?\nOR\n(b) Two solutions M and N give Red and Blue colour respectively with a\nuniversal indicator.\n(i) In which solution will the hydrogen ion concentration be\nmore ? Justify your answer.\n(ii) If both M and N solutions are mixed and the resultant mixture\nis tested with a universal indicator, it turns green. What is the\nnature of the salt formed ? Justify your answer.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 21
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 26
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q28",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) Sometimes the pH of our mouth gets lower than 5·5. Why ?\n(b)\n(c) Why do copper sulphate crystals turn white on heating ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2023-main-31-5-2-q32",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) How is a universal indicator better than litmus solution ?\n(b) State two features of pH scale.\n(c) Why should we not add water to a concentrated acid ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 32
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-5-3-q27",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) Write a balanced equation to show the reaction that occurs when a\npiece of aluminium is dipped in a dilute solution of (i) sulphuric acid\nand (ii) sodium hydroxide.\n(b) Write the colour of the solution formed when copper oxide is treated\nwith hydrochloric acid. Give reason for this observation.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q2",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The aqueous solution of which one of the following salts will \nhave pH more than seven ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "NH4Cl"
+        },
+        {
+          "label": "b",
+          "text": "NaCl"
+        },
+        {
+          "label": "c",
+          "text": "Na2CO3"
+        },
+        {
+          "label": "d",
+          "text": "NaNO3"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q5",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Carbon dioxide gas is not produced when hydrochloric acid \nreacts with :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Limestone"
+        },
+        {
+          "label": "b",
+          "text": "Lime water"
+        },
+        {
+          "label": "c",
+          "text": "Baking Soda"
+        },
+        {
+          "label": "d",
+          "text": "Marble"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q28",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "You have three test tubes containing three colourless liquids,\nsay conc. sulphuric acid, conc. solution of sodium hydroxide\nand conc. solution of sodium sulphate. You also have strips of\npH paper.\n(a) How would identify these three liquids using pH paper\nstrips ?\n(b) Which two liquids, when mixed together in proper\nquantities can form a neutral salt solution ?\n(c) Write the chemical equation for the reaction that will\noccur between the two liquids mixed in (b).",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q3",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Select from the following compounds which is not a base :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium hydroxide"
+        },
+        {
+          "label": "b",
+          "text": "Calcium hydroxide"
+        },
+        {
+          "label": "c",
+          "text": "Sodium sulphate"
+        },
+        {
+          "label": "d",
+          "text": "Zinc oxide"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 3
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 6
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q6",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "You want to test for hardness of water but hard water is not available in \nthe laboratory. Which of the following compounds may be dissolved in \npure water to make it hard ? \n(i) Hydrogen Carbonate of Sodium \n(ii) Sulphate of Magnesium \n(iii) Chloride of Calcium \n(iv) Carbonate of Sodium",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "(i) and (ii)"
+        },
+        {
+          "label": "b",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "label": "c",
+          "text": "(iii) and (iv)"
+        },
+        {
+          "label": "d",
+          "text": "(i) and (iv)"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 6
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 2
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q34",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) (i) An aqueous solution turns blue litmus red. Which of the\nfollowing solutions when added in excess would reverse the\nchange ?\n(1) Lemon juice\n(2) Magnesium hydroxide\n(3) Vinegar\n(4) Calcium sulphate\n(ii) Out of the following, which compound/compounds will turn\nthe phenolphthalein solution pink ?\n(1) CH3COOH\n(2) Ca(OH)2\n(3) HCl\n(4) NaOH\n(iii) Name a gas whose aqueous solution is basic. Write the\nformula/name of this solution.\n(iv) A basic substance is used to treat a honey-bee sting. Why ?\n(v) Name the acid which is present in (1) Tomato and\n(2) Tamarind.\nOR\n(b) (i) Define water of crystallisation.\n(ii) Write the chemical name and formula of a compound having\nwater of crystallisation in its molecule and appears blue.\n(iii) Write the chemical formula of bleaching powder. Write a\nbalanced chemical equation of the reaction involved in its\npreparation. List its three uses.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 34
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 35
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-3-q3",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Which of the following will allow the electricity to flow through it/them ? \n(i) Glucose \n(ii) Dry HCl gas \n(iii) Alcohol \n(iv) Dil. H2SO4",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "(i) and (iii) only"
+        },
+        {
+          "label": "b",
+          "text": "(iv) only"
+        },
+        {
+          "label": "c",
+          "text": "(ii) and (iv) only"
+        },
+        {
+          "label": "d",
+          "text": "(ii), (iii) and (iv)"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31B-q7",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The pH of an aqueous solution of a salt is 9. The types of acid \nand base from which this salt is formed are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "weak acid and weak base"
+        },
+        {
+          "label": "B",
+          "text": "weak acid and strong base"
+        },
+        {
+          "label": "C",
+          "text": "strong acid and weak base"
+        },
+        {
+          "label": "D",
+          "text": "strong acid and strong base"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31B-q8",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "A colourless gas G is produced when egg-shells are treated \nwith a solution S. The gas G turns lime water milky. S and G \nrespectively are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "H2SO4 and SO2"
+        },
+        {
+          "label": "B",
+          "text": "HCl and SO2"
+        },
+        {
+          "label": "C",
+          "text": "NaCl and CO2"
+        },
+        {
+          "label": "D",
+          "text": "HCl and CO2"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 8
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31B-q23",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a)\ndoctors for supporting fractured bones in the right\nposition.\n(i) Identify and .\n(ii) How can we obtain from ?\nOR\n(b) Two solutions X and Y give red and blue colour\nrespectively with universal indicator.\n(i) In which solution is the hydrogen ion concentration\nmore than the other ? Justify your answer.\n(ii) If X and Y are mixed in proper amounts and the\nresultant mixture is tested with a universal\nindicator, it turns green. What is the nature of the\nsalt formed ? Justify your answer.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2024-main-31B-q35",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Name and explain the process used to obtain sodium hydroxide\nfrom the aqueous solution of sodium chloride (Brine). Name\nthe two gases which are given at the anode and the cathode\nrespectively. List two uses of each of these gases.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 35
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q2",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "An aqueous solution of a salt turns blue litmus to red. The salt could be \nthe one obtained by the reaction of :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "HNO3 and NaOH"
+        },
+        {
+          "label": "B",
+          "text": "H2SO4 and KOH"
+        },
+        {
+          "label": "C",
+          "text": "CH3COOH and NaOH"
+        },
+        {
+          "label": "D",
+          "text": "HCl and NH4OH"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 2
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q3",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Four solutions, namely glucose, alcohol, hydrochloric acid and sulphuric \nacid filled in four separate beakers are connected one by one in an electric \ncircuit with a bulb. The solutions in which the bulb will glow when \ncurrent is passed are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Glucose and alcohol"
+        },
+        {
+          "label": "B",
+          "text": "Alcohol and hydrochloric acid"
+        },
+        {
+          "label": "C",
+          "text": "Glucose and sulphuric acid"
+        },
+        {
+          "label": "D",
+          "text": "Hydrochloric acid and sulphuric acid"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 3
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 7
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q21",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) 1 gram of solid sodium chloride was taken in a clean and dry test\ntube and concentrated sulphuric acid was added to it.\n(i) Name the gas evolved in the reaction.\n(ii) What will be observed when this gas is tested with (I) dry,\nand (II) wet blue litmus paper ? Write your conclusion about\nthe nature (acidic/basic) of this gas.\nOR\n(b) Some metals react with acids to produce salt and hydrogen gas.\nIllustrate it with an example. How will you test the presence of\nthis gas ?",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 21
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 23
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q27",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Write the common name and the chemical name of the compound\nCaSO4 . 1 2 H2O. Write the method of its preparation. Give chemical\nequation for the reaction, when water reacts with CaSO4 . 1 2 H2O.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 27
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 31
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "the fraction ½ in CaSO4·½H2O is split into separate digits"
+    },
+    {
+      "id": "cbse10-2024-main-31-4-2-q22",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "A spatula full of sodium carbonate is taken in a test tube and 2 mL of\ndilute ethanoic acid is added to it.\n(a) Write a chemical equation for the reaction.\n(b) Suggest a method of testing the gas liberated in the reaction.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-2-q27",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "A small amount of copper oxide was taken in a beaker and dilute\nhydrochloric acid was added with continuous stirring of the solution.\nName the compound formed and state the colour of its solution. Write\nbalanced chemical equation for the reaction that occurs. Based on the\nreaction, state the nature (acidic/basic) of copper oxide.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-3-q2",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The acid produced in our stomach during digestion and the base used to \nneutralise the excess acid during indigestion respectively are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "HCl, Mg(OH)2"
+        },
+        {
+          "label": "B",
+          "text": "HCl, Ca(OH)2"
+        },
+        {
+          "label": "C",
+          "text": "Amino acids, Ca(OH)2"
+        },
+        {
+          "label": "D",
+          "text": "Lactic acid, Mg(OH)2"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q3",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The salt present in tooth enamel is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Calcium phosphate"
+        },
+        {
+          "label": "B",
+          "text": "Magnesium phosphate"
+        },
+        {
+          "label": "C",
+          "text": "Sodium phosphate"
+        },
+        {
+          "label": "D",
+          "text": "Aluminium phosphate"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 3
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q4",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "An aqueous solution of sodium chloride is prepared in distilled water. \nThe pH of this solution is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 4
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 8
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-2-q34",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) Explain chlor-alkali process and write balanced chemical equations\nfor the reactions that occur. Name the gases obtained at the anode\nand cathode respectively. Mention two uses each of the two gases\nobtained in the above process.\nOR\n(b) Common salt is a very important raw material as many compounds\nof industrial use can be prepared from it. Explain, giving chemical\nequations, the method of preparation of washing soda from sodium\nchloride. List four industrial/domestic uses of washing soda.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-3-q3",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "another \nreaction, the mixture appears pink again. The respective changes in the \nnature of the solution are from :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "acidic basic basic"
+        },
+        {
+          "label": "B",
+          "text": "basic acidic acidic"
+        },
+        {
+          "label": "C",
+          "text": "acidic basic acidic"
+        },
+        {
+          "label": "D",
+          "text": "basic acidic basic"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; the beginning of the question is missing from the PDF text layer"
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q3",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Identify the pair of natural indicators from the following :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Turmeric and methyl orange"
+        },
+        {
+          "label": "B",
+          "text": "Phenolphthalein and methyl orange"
+        },
+        {
+          "label": "C",
+          "text": "Litmus and turmeric"
+        },
+        {
+          "label": "D",
+          "text": "Litmus and methyl orange"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q4",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Identify from the following a compound used in paper, glass and soap \nindustries.",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sodium chloride"
+        },
+        {
+          "label": "B",
+          "text": "Bleaching powder"
+        },
+        {
+          "label": "C",
+          "text": "Baking soda"
+        },
+        {
+          "label": "D",
+          "text": "Washing soda"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q22",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) Write the chemical name and molecular formula of Plaster of\nParis. Why should it be stored in a moisture proof container ?\nOR\n(b) What is a neutralisation reaction ? Write the chemical equation for\na neutralisation reaction and write the name of the salt produced.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q27",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Consider the following salts :\n(i) XCl (ii) NH4Y (iii) ZCO3\nAnswer the following questions giving reason in each case.\n(a) If ‘X’ is sodium, what is the pH of XCl ?\n(b) If ‘Y’ is sulphate, what colour would the aqueous solution of NH4Y\ngive when a few drops of universal indicator are added to it ?\n(c) If ‘Z’ is calcium, what would be the change in colour in blue\nlitmus paper when a drop of ZCO3 is poured on it ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q2",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "A few drops of turmeric solution are added to a colourless liquid. If the liquid \nbecomes red, the liquid may be :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hydrochloric acid"
+        },
+        {
+          "label": "B",
+          "text": "Distilled water"
+        },
+        {
+          "label": "C",
+          "text": "Ammonium hydroxide"
+        },
+        {
+          "label": "D",
+          "text": "Lemon juice"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 2
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q3",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The acid present in nettle sting is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Acetic acid"
+        },
+        {
+          "label": "B",
+          "text": "Methanoic acid"
+        },
+        {
+          "label": "C",
+          "text": "Tartaric acid"
+        },
+        {
+          "label": "D",
+          "text": "Citric acid"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 3
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q6",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The name of the compound ‘A’ formed in the following reaction is : \nNaCl + NH3 + H2O + CO2  ¾¾® ‘A’ + NH4Cl",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sodium carbonate"
+        },
+        {
+          "label": "B",
+          "text": "Ammonium carbonate"
+        },
+        {
+          "label": "C",
+          "text": "Sodium hydrogen carbonate"
+        },
+        {
+          "label": "D",
+          "text": "Ammonium hydrogen carbonate"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 6
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q28",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) What is meant by the term pH of a solution ? The pH of rain water\ncollected from two cities ‘A’ and ‘B’ was found to be 6·1 and 5·3\nrespectively. The water of which city is more acidic ? Justify your answer.\nState with reason what would happen to the aquatic life of a pond in which\nthe rain water of city ‘B’ flows.\nOR\n(b) (i) Identify the acid and the base from which the following salts are\nobtained :\n(I) Sodium chloride\n(II) Ammonium sulphate\n(ii) Write the nature, acidic/basic/neutral, of each of the above mentioned\nsalts, giving reason for your answer.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-2-q2",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Bleaching powder can be prepared by reacting :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Baking power with chlorine"
+        },
+        {
+          "label": "B",
+          "text": "Washing soda with chlorine"
+        },
+        {
+          "label": "C",
+          "text": "Baking soda with chlorine"
+        },
+        {
+          "label": "D",
+          "text": "Slaked lime with chlorine"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-2-q6",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Which among the following has minimum number of water of crystallisation ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Washing soda"
+        },
+        {
+          "label": "B",
+          "text": "Gypsum"
+        },
+        {
+          "label": "C",
+          "text": "Ferrous sulphate"
+        },
+        {
+          "label": "D",
+          "text": "Copper sulphate"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-2-q21",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The experimental set-up, shown in the diagram, is used for testing the\nconductivity of a solution filled in the beaker. If we have four solutions, namely\nsolutions of A – sugar, B – common salt, C – lemon juice and D – alcohol and fill\nthem in the beaker one by one to test their conductivity, in which case/cases will\nthe bulb glow ? Give reason to justify your answer.\nGraphite rod\nSolution",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 21
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-2-q28",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) Study the experimental set-up shown in the diagram and answer the\nquestions that follow :\nDil. Hydrochloric acid\n+\nSodium carbonate\nLime water\n(i) Name the gas evolved and write the change observed in the lime\nwater. Write chemical equation of the reaction.\n(ii) If the same gas is passed in excess in the product of the above\nreaction, what change is observed in the contents of the test tube ?\nWrite the chemical formula of the new product formed.\nOR\n(b) Write chemical equation to show the preparation of baking soda. How is\nbaking powder prepared from baking soda ? Explain how baking powder\nmakes the bread or cake soft and spongy. Write chemical equation for the\nreaction which occurs when baking power is heated.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-3-q3",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The chemical formula of Gypsum is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 H2O CaSO4 . 2"
+        },
+        {
+          "label": "B",
+          "text": "CaSO4 . 2H2O"
+        },
+        {
+          "label": "C",
+          "text": "CaSO4 . H2O"
+        },
+        {
+          "label": "D",
+          "text": "CaSO4 . 5H2O"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "the fraction ½ in CaSO4·½H2O is split into separate digits"
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-3-q28",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) A chemical compound which is obtained from baking soda is used in glass,\nsoap and paper industries. Identify the compound. How is this compound\nobtained in its crystalline form ? State whether this compound is\nacidic/basic/neutral in nature. Justify your answer.\nOR\n(b) When electricity is passed through an aqueous solution of common salt,\nthree products are obtained. Name them, specifying the electrode at which\neach of these products is obtained. Also give one use of each product.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q27",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) Write the name and chemical formula of a sodium compound which\nis sometimes added for faster cooking. How is it produced from\nsodium chloride as one of the raw materials ? Give chemical\nequation for the reaction involved.\n(b) The compound mentioned in (a) above is also an ingredient of\nantacids. Why ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 27
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 30
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q34",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) Name and state in brief the process used to obtain sodium\nhydroxide from brine. In this process, along with the main product\n(i.e., sodium hydroxide), two gases A and B are also produced at the\ntwo electrodes. Name A and B specifying the name of their\nrespective electrodes. One of these gases, when reacting with dry\ncalcium hydroxide, produces a compound C which is used as an\noxidising agent in many chemical industries as well as to make\ndrinking water free from germs. Name C and write the chemical\nequation for the reaction in its formation.\nOR\n(b) When dry crystals of ferrous sulphate were heated in a dry boiling\ntube, some tiny water droplets were observed in the tube after\nsome time. 5´1=5\n(i) State the source of these water droplets.\n(ii) Write the colour change observed during heating.\n(iii) Write the balanced chemical equation of the reaction that\noccurs during heating.\n(iv) How many water molecules are attached per formula unit of\nferrous sulphate crystal ?\n(v) Write the molecular formula of crystalline form of (I) copper\nsulphate, and (II) sodium carbonate.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')"
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-2-q28",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "You have two solutions ‘X’ and ‘Y’. ‘X’ gives red colour and ‘Y’ gives blue\ncolour with universal indicator.\n(a) In which solution is the hydrogen ion concentration more than the\nother ? Give reason to justify your answer.\n(b) If ‘X’ and ‘Y’ are mixed in proper amounts and the resultant\nmixture of ‘X’ and ‘Y’, with the universal indicator turns green,\nwhat would be the nature of the resultant mixture ? Justify your\nanswer.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-2-q34",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) (i) On adding dilute HCl to a test tube containing sodium\ncarbonate, an effervescence is observed. Explain the\nobservation giving chemical equation for the reaction. How\nis the gas released tested in a school laboratory ?\n(ii) What happens when excess carbon dioxide passes through\nlime water ? Write chemical equations to explain your\nanswer.\nOR\n(b) (i) A small amount of copper oxide is taken in a beaker and\ndilute HCl is added to it slowly. Name the compound formed\nand state the colour of the solution formed. Write the\nbalanced chemical equation for the reaction that occurs.\n(ii) A compound ‘X’ on heating at 373 K, loses water molecules\nand becomes ‘Y’. Substance ‘Y’ is used by doctors for\nsupporting fractured bones in the right position.\nI. Identify ‘X’ and ‘Y’.\nII. How can ‘X’ be obtained from ‘Y’ ?",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-3-q36",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "(a) (i) Give the relation between hydrogen ion concentration of an\naqueous solution and its pH.\n(ii) Concentrated acids should not be diluted by adding water to\nacid. Why ?\n(iii) Why do same molar concentrations of hydrochloric acid and\nacetic acid not produce same amounts of hydrogen ions ?\nOR\n(b) Give reason : 5´1=5\n(i) Crystals of washing soda change to white powder on\nexposure to air.\n(ii) Plaster of Paris should be stored in moisture-proof\ncontainers.\n(iii) Baking soda can be used on bee sting area to get relief.\n(iv) Distilled water does not conduct electricity.\n(v) Farmers treat the soil of their fields with quick lime.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 36
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')"
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q18",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "The acid present in tamarind is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Oxalic acid"
+        },
+        {
+          "label": "B",
+          "text": "Methanoic acid"
+        },
+        {
+          "label": "C",
+          "text": "Citric acid"
+        },
+        {
+          "label": "D",
+          "text": "Tartaric acid"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q19",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Which of the following compounds is used as both an antacid \nand in a fire extinguisher ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sodium hydrogen carbonate"
+        },
+        {
+          "label": "B",
+          "text": "Sodium carbonate"
+        },
+        {
+          "label": "C",
+          "text": "Sodium hydroxide"
+        },
+        {
+          "label": "D",
+          "text": "Sodium chloride"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 19
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q28",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Read the following passage and answer the questions that\nfollow :\nVarious substances can be classified as acids, bases and salts.\nBased on their strength, acids and bases are further classified\nas strong and weak. We can find this by using universal\nindicators, which shows different colours at different\nconcentrations of hydrogen ions in a solution. A pH scale has\nbeen developed, which indicates acidic or basic nature of a\nsolution, from 0 (very acidic) to 14 (very alkaline).\n(i) Define universal indicator.\n(ii)\nWhich solution has more hydrogen ion concentration ?\n(iii) (a) What is neutralisation reaction ? Give one example.\nOR\n(iii) (b) Four solutions A, B, C and D when tested with\nuniversal indicator showed pH as 5, 1, 9 and 13\nrespectively. Which solution is : (I) strongly\nalkaline, and (II) strongly acidic ?",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q22",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Which of the following statements is true for acids ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bitter and change red litmus to blue."
+        },
+        {
+          "label": "B",
+          "text": "Sour and change red litmus to blue."
+        },
+        {
+          "label": "C",
+          "text": "Sour and change blue litmus to red."
+        },
+        {
+          "label": "D",
+          "text": "Bitter and change blue litmus to red."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q25",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "for the reaction which takes place.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 25
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; the beginning of the question is missing from the PDF text layer; most of the question text is missing from the PDF text layer"
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q28",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Read the following passage and answer the questions that follow :\nSalts are formed by reactions of acids and bases. Strong acids react with\nstrong bases to form neutral salts. Weak acids react with strong bases to\nform basic salts. Acidic salts are formed by strong acids and weak bases.\nNa2CO3 and NaHCO3 are salts of strong base (NaOH) and weak acid\n(H2CO3). Bleaching powder is prepared when slaked lime reacts with dry\nchlorine gas. Crystalline salts are hydrated and lose water on heating.\nGypsum on heating at 373 K gives Plaster of Paris.\n(a) What is the formula of POP (Plaster of Paris) ? What is its\nchemical name ?\n(b) Name the compound of sodium which is used for softening\nhard water. What is its chemical formula ?\n(c) (i) (I) What is water of crystallization ?\n(II) Write the preparation of bleaching powder.\nOR\n(c) (ii) (I) Name an indicator used by visually impaired children.\n(II) Give one use of bleaching powder.",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 28
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 28
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-2-q23",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Turmeric is an example of :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Natural indicator"
+        },
+        {
+          "label": "B",
+          "text": "Synthetic indicator"
+        },
+        {
+          "label": "C",
+          "text": "Olfactory indicator"
+        },
+        {
+          "label": "D",
+          "text": "Universal indicator"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 23
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 21
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-2-q25",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Give reasons for the following :\n(a) Why do acids not show acidic behaviour in the absence of water ?\n(b) Why should curd and sour substances not be kept in copper\nvessels ?",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 25
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-3-q25",
+      "class": "10",
+      "chapter_id": "acids-bases-and-salts",
+      "question_text": "Answer the following :\n(a) Why does distilled water not conduct electricity, whereas\nrainwater does ?\n(b) While diluting an acid, why is it recommended that the acid should\nbe added to water and not water to acid ?",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 25
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ]
+}

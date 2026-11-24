@@ -1,0 +1,2346 @@
+{
+  "chapter_id": "carbon-and-its-compounds",
+  "class": "10",
+  "topic_file": "content/topics/carbon-and-its-compounds.json",
+  "source_note": "CBSE Class 10 Science (code 31) board papers with a text layer, 2022–2026. English text only; chemistry questions only. See content-schema.json → cbse_question.",
+  "questions": [
+    {
+      "id": "cbse10-2022t2-main-31-1-1-q1",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) Write the molecular formula of the following carbon compounds :\n(i) Methane\n(ii) Propane\n(b) Carbon compounds have low melting and boiling points. Why ?",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-1-1 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/1",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-1-1-q9",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) Draw two different possible structures of a saturated hydrocarbon\nhaving four carbon atoms in its molecule. What are these two\nstructures of the hydrocarbon having same molecular formula\ncalled ? Write the molecular formula and the common name of this\ncompound. Also write the molecular formula of its alkyne.\nOR\n(b) (i) Write the molecular formula of benzene and draw its\nstructure.\n(ii) Write the number of single and double covalent bonds\npresent in a molecule of benzene.\n(iii) Which compounds are called alkynes ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-1-1 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/1",
+          "question_no": 9
+        },
+        {
+          "folder": "Science 7",
+          "file": "31-1-2 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/2",
+          "question_no": 12
+        },
+        {
+          "folder": "Science 7",
+          "file": "31-1-3 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/3",
+          "question_no": 8
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-1-2-q7",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The molecular formulae of two alkynes, A and B are CxH2 and C3Hy\nrespectively.\n(a) Find the values of x and y.\n(b) Write the names of A and B.",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-1-2 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/2",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-1-3-q2",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The atomic number of a non-\n(a)\n(b) Draw the electron dot structure of its molecule.",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-1-3 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2022t2-main-31-3-1-q2",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Draw the electron dot structure of the following :\n(a) Cyclohexane\n(b) Butane",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-3-1 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/1",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-3-1-q9",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) State the reason why\n(i) carbon compounds have low melting and boiling points.\n(ii) carbon compounds do not conduct electricity.\n(iii) carbon can form only covalent compounds.\nOR\n(b) What is a homologous series ? Find the difference in molecular\nmass between the two consecutive members of a homologous\nseries. State how in a homologous series of carbon compounds the\nfollowing properties vary with increase in molecular mass :\n(i) Melting and boiling points\n(ii) Chemical properties",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-3-1 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/1",
+          "question_no": 9
+        },
+        {
+          "folder": "Science 7",
+          "file": "31-3-2 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/2",
+          "question_no": 12
+        },
+        {
+          "folder": "Science 7",
+          "file": "31-3-3 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/3",
+          "question_no": 11
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-3-2-q5",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Draw the electron dot structure of the following :\n(a) Benzene\n(b) Ethane",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-3-2 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/2",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-3-3-q3",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Draw two structural isomers of butane.",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-3-3 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/3",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "most of the question text is missing from the PDF text layer"
+    },
+    {
+      "id": "cbse10-2022t2-comp-31-6-1-q1",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Draw the electron dot structure of the molecules of  (a) Oxygen, and\n(b) Nitrogen. The atomic numbers of oxygen and nitrogen are 8 and 7\nrespectively.",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-1 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/1",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-comp-31-6-1-q9",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) (i) In the given below compound\nH   H\n|    |\nH  C  C  O  H\n|     |\nH    H\nidentify (I) the heteroatom, and (II) the functional group.\n(ii) Write the structural formula of butane (C4H10).\n(iii) Draw the complete structure of the molecule of\n(I) Cyclohexane, and (II) Benzene.\nWhich of the two is unsaturated ?\nOR\n(b) (i) A compound with molecular formula C3H6O has two isomers.\n(I) Draw the structures of both the isomers.\n(II) Write their functional group.\n(ii) Why are the compounds of carbon exceptionally\nstable ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-1 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/1",
+          "question_no": 9
+        },
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-2 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/2",
+          "question_no": 12
+        },
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-3 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/3",
+          "question_no": 8
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula"
+    },
+    {
+      "id": "cbse10-2022t2-comp-31-6-2-q7",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Consider the following organic compounds :\nI II\n(a) Name the functional group present in these compounds.\n(b) Write the general formula of the compounds having this functional\ngroup.",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-2 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/2",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-comp-31-6-3-q2",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Carbon forms compounds mainly by covalent bonding. Why ?",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-3 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "most of the question text is missing from the PDF text layer"
+    },
+    {
+      "id": "cbse10-2023-main-31B-q7",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The hydrocarbon which will decolourize bromine water is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "C2H6"
+        },
+        {
+          "label": "b",
+          "text": "C3H8"
+        },
+        {
+          "label": "c",
+          "text": "C7H14"
+        },
+        {
+          "label": "d",
+          "text": "C8H18"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31B-q34",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) Write the names of the following compounds :\n(i) CH3 CH2COOH\n(ii) C6H6\n(b) What is a homologous series of carbon compounds ?\nConstruct a homologous series of alcohols.\n(c) What happens when ethanol reacts with ethanoic acid in\nthe presence of an acid ? Name the reaction and write its\nchemical equation.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-2-q6",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "When ethanol reacts with sodium two products are formed. These \nproducts are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium ethanoate and oxygen"
+        },
+        {
+          "label": "b",
+          "text": "Sodium ethanoate and hydrogen"
+        },
+        {
+          "label": "c",
+          "text": "Sodium ethoxide and oxygen"
+        },
+        {
+          "label": "d",
+          "text": "Sodium ethoxide and hydrogen"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-2-q34",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) h each other in the presence\nhydroxide produces back the al\nWrite the chemical equation for the reaction involved and name it,\ngiving justification for the name.\nOR\n(b) (i) Name the simplest saturated hydrocarbon. Draw its electron\ndot structure. Which type of bonds exist in this compound ?\n(ii) Name any two mixtures of the carbon compound used as a\nfuel in daily life, of which the above mentioned compound is\nan important component.\n(iii) In which homologous series of carbon compounds can this\ncompound be placed ? Write the general formula of the\nseries.\n(iv) Which type of flame is produced on burning it ?",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 34
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 34
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 35
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q7",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The electron dot structure of chlorine molecule is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": ""
+        },
+        {
+          "label": "b",
+          "text": ""
+        },
+        {
+          "label": "c",
+          "text": ""
+        },
+        {
+          "label": "d",
+          "text": ""
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 7
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 1
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "one or more options are drawings and have no text"
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q34",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(A) (i) Draw the structure of the following compounds :\n(a) Butanoic acid (b) Chloropentane\n(ii) How are structure (i) and structure (ii) given below related to\none another ? Give reason to justify your answer.\nDraw one more possible structure for above case.\n(iii) Differentiate between saturated and unsaturated carbon\ncompounds on the basis of their general formula.\nOR\n(B) (i) What happens when a small piece of sodium is dropped in\nethanol ? Write the equation for this reaction.\n(ii) Why is glacial acetic acid called so ?\n(iii) What happens when ethanol is heated at 443 K in the presence\nof conc. H2SO4 ? Write the role of conc. H2SO4 in this case.\n(iv) Write an equation showing saponification.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-2-q36",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(A) (i) It is observed that covalent compounds are bad conductors of\nelectricity. Give reason.\n(ii) Carbon can neither form C4+ cation nor C4− anion. Why ?\n(iii) Draw electron dot structure of Ethanol.\n(iv) Identify hetero atom(s) in the following compounds :\n(a) CH CH − C − CH\n3 2 3\nO\n(b) CH3CH2Cl\nOR\n(B) (i) What are soaps ?  Explain the mechanism of cleansing action of\nsoap with the help of a labelled diagram.\n(ii) Detergents are better than soaps. Justify.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 36
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-3-q36",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(A) Write the chemical equation for the following :\n(i) Combustion of methane (ii) Oxidation of ethanol\n(iii) Hydrogenation of ethene (iv) Esterification Reaction\n(v) Saponification Reaction\nOR\n(B) (i) Draw two structural isomers of butane.\n(ii) Draw the structures of propanol and propanone.\n(iii) Name the third homologue of :\n(a) alcohols (b) aldehydes\n(iv) Name the following :\n(a)\n(b) CH3−CH2CH = CH2\n(v) Show the covalent bond formation in nitrogen molecule.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 36
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q7",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The correct representation of covalent bonding in an oxygen molecule is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 7
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 1
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "options are drawings in the PDF and could not be extracted as text"
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q34",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) 2H6O) on\nreacting with acidified K2Cr2O7\npresence of conc. H2SO4 to give a sweet smelling compoun\n(i) Identify X , Y and Z\n(ii) Write the chemical equations for the reactions in the\nconversion of (1) X to Y and (2) X to Z .\n(iii) State the role of (1) acidified K2Cr2O7 in the conversion of X\nto Y and (2) conc. H2SO4 in the reaction of X and Y .\n(iv) Name the reaction which occurs when Z reacts with an alkali.\nOR\n(b) Carry out the following conversions, stating the condition(s) for\neach :\n(i) Ethanol Ethene\n(ii) Ethene Ethane\n(iii) Ethane Chloroethane\n(iv) Ethanol Ethanoic acid\n(v) Ethanoic acid Ethyl ethanoate",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2023-main-31-5-2-q36",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) (i) Butane had both Carbon Carbon bonds as well as\nCarbon  Hydrogen bonds. Draw its structural formula and\nstate the number of (1) C  H bonds and (2) C  C bonds in it.\n(ii) You have two carbon compounds with the molecular formula\nC3H6O. Name two compounds with this formula and also\ndraw their structural formula.\nOR\n(b) (i) What is saponification ? Differentiate between soaps and\ndetergents on the basis of the following :\n(1) Their chemical composition\n(2) Their mechanism in hard water\n(ii) Explain the formation of micelles between oily dirt and soap\nmolecules. Also draw its diagram.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 36
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-5-3-q36",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) Explain why carbon forms compounds mainly by covalent bonds.\nExplain in brief two main reasons for carbon forming a large\nnumber of compounds. Why does carbon form strong bonds with\nmost other elements ?\nOR\n(b) (i) Write the name and general formula of a chain of\nhydrocarbons in which an addition reaction with hydrogen can\ntake place. Stating the essential condition required for an\naddition reaction to occur, write the chemical equation giving\nthe name of the reactant and product of such a reaction. How\nis an addition reaction different from a substitution reaction ?\n(ii) Write the structure of benzene.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 36
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q3",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Triple covalent bond is found in :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "C6H6"
+        },
+        {
+          "label": "b",
+          "text": "C2H4"
+        },
+        {
+          "label": "c",
+          "text": "C3H4"
+        },
+        {
+          "label": "d",
+          "text": "CH3CHO"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q7",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The carbon compound having                   functional group is : C \nH",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Propanal"
+        },
+        {
+          "label": "b",
+          "text": "Propanone"
+        },
+        {
+          "label": "c",
+          "text": "Propyne"
+        },
+        {
+          "label": "d",
+          "text": "Propanol"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula"
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q17",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Assertion (A) : Ethyne is widely used for cutting and welding\niron and steel.\nReason (R) : Ethyne is an unsaturated hydrocarbon\ninvolving carbon-to-carbon triple bond.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "a",
+          "text": "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "b",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "c",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "d",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q34",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) Write the molecular formula of methane and ethane,\nstating the general formula of the homologous series to\nwhich these compounds belong. What is the difference in\nthe molecular mass in between the two successive\nmembers of a homologous series ?\n(b) Write the name and molecular formula of an alcohol\nhaving two carbon atoms in its molecule. Write balanced\nchemical equation to indicate what happens when this\ncompound is heated at 443 K with excess conc. H2SO4.\nName the main product formed in the reaction stating\nthe function of conc. H2SO4 in the reaction.\nOR\n(a) How do the following conversions take place ? Write\nchemical equation for each :\n(i) Ethanol to Ethanoic acid\n(ii) Ethene to Ethane\n(b) Give one example each with chemical equation for the\nfollowing reactions :\n(i) Combustion reaction\n(ii) Substitution reaction\n(iii) Saponification reaction",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q2",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Consider the following substances : \n(i) Acidified K2Cr2O7 \n(ii) Alkaline KMnO4 \n(iii) Oxygen \n(iv) Hydrogen \nOut of these, the commonly used oxidising agents are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "(i) and (ii) only"
+        },
+        {
+          "label": "b",
+          "text": "(ii) and (iii) only"
+        },
+        {
+          "label": "c",
+          "text": "(i), (ii) and (iii)"
+        },
+        {
+          "label": "d",
+          "text": "(i), (ii) and (iv)"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 2
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 4
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q7",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Which one of the following properties of Carbon is not responsible for its \nformation of large number of compounds ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Tetravalency"
+        },
+        {
+          "label": "b",
+          "text": "Isomerism"
+        },
+        {
+          "label": "c",
+          "text": "Allotropy"
+        },
+        {
+          "label": "d",
+          "text": "Catenation"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 7
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 12
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q28",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) An organic compound X when reacts with sodium liberates\nhydrogen. The same compound X when heated at 443 K in the\npresence of concentrated sulphuric acid gives an unsaturated\nhydrocarbon.\n(i) Identify X\n(ii) Write the chemical equations for the above mentioned\nreactions and state the role of concentrated sulphuric acid in\nthe second reaction.\nOR\n(b) (i) Why are carbon compounds exceptionally stable ?\n(ii) Differentiate between saturated and unsaturated\ncompounds. Give structures of both the types of compounds\nhaving three carbon atoms in their molecules.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 28
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 32
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-3-q28",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) (i) Why are the chemical properties of different members of a\nhomologous series similar ?\n(ii) What is the difference in the number of carbon and\nhydrogen atoms between any two successive members of a\nhomologous series ? Justify your answer by giving an\nexample from (i) alkynes, (ii) alcohols and (iii) aldehydes.\nOR\n(b) (i) State reasons why\n(1) Carbon forms strong bonds and stable compounds\nwith most other elements.\n(2) The melting and boiling points of covalent compounds\nare low.\n(ii) Draw the electron dot structure for the molecule of Chlorine\n(Atomic number 17).",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31B-q10",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "One mole of a hydrocarbon, on combustion in air, produces two \nmoles of CO2, two moles of H2O and a large amount of heat. \nThis hydrocarbon is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "ethyne"
+        },
+        {
+          "label": "B",
+          "text": "ethene"
+        },
+        {
+          "label": "C",
+          "text": "ethane"
+        },
+        {
+          "label": "D",
+          "text": "methane"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 10
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31B-q30",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Consider the following organic compounds :\nC2H5CHO, CH3COOH, C2H5OH, CH3COCH3\n(a) Which one of these compounds when heated at 443 K in\nexcess conc. H2SO4 forms ethene as its major product ?\nState the role of conc. H2SO4 in the reaction. Also, write\nthe chemical equation for the chemical reaction involved.\n(b) Give chemical equation for the chemical reaction when\nCH3COOH and C2H5OH react in the presence of conc.\nH2SO4.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 30
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q5",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The number of single and double bonds present in a molecule of benzene \n(C6H6) respectively, are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 and 6"
+        },
+        {
+          "label": "B",
+          "text": "9 and 3"
+        },
+        {
+          "label": "C",
+          "text": "3 and 9"
+        },
+        {
+          "label": "D",
+          "text": "3 and 3"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 9
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 10
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q22",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Distinguish between a saturated and an unsaturated hydrocarbon by\nflame test. List the products of combustion reaction of a saturated\nhydrocarbon.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q28",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Why is the conversion of ethanol to ethanoic acid an oxidation reaction ?\nName the oxidising agent used in this conversion. Write chemical\nequation for this oxidation reaction. How is this reaction different from\nthe reaction in which ethanol burns in the presence of oxygen ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 28
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 31
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-3-q22",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "When a soap is dissolved in water, the soap molecules form structures.\nWhat are these structures called ? Draw a labelled diagram of these\nstructures.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-3-q28",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Write chemical equations for the following reactions, giving the\nconditions for the reaction in each case :\n(a) Reaction of ethanol with ethanoic acid\n(b) Reaction of an ester with a base (NaOH)\n(c) Formation of ethene from ethanol",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q17",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Assertion (A) : Some vegetable oils are healthy.\nReason (R) : Vegetable oils generally have long unsaturated carbon\nchains.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 17
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 18
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q22",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The melting and boiling points of carbon compounds are generally low\nand they are largely non-conductors of electricity. State two conclusions\nbased on these two properties.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q37",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Carbon is a versatile element that forms the basis of all living organisms\nand many of the things we use. A large variety of compounds is formed\nbecause of its tetravalency. Compounds of carbon are formed with\noxygen, hydrogen, nitrogen, sulphur, chlorine and many other elements.\nAnswer the following questions :\n(a) What are hydrocarbons ?\n(b) List two properties by virtue of which carbon can form a large\nnumber of compounds.\n(c) (i) Write the formula of the functional group present in\n(1) aldehydes, and (2) ketones. Write chemical equation for\nthe reaction that occurs between ethanoic acid and ethanol\nin the presence of a catalyst.\nOR\n(c) (ii) What are structural isomers ? Write the structures of two\nisomers of butane (C4H10).",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 37
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 38
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 38
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-2-q22",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Identify the functional group present in the following compounds and also\nname them :\nH    O\n|    ||\n(a) H  C  C  OH\n|\nH\nO\n||\n(b) H  C  H",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula"
+    },
+    {
+      "id": "cbse10-2024-main-31-5-3-q22",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Write the formula and the molecular mass of the third homologue of\nalcohols. State how the boiling point of an alcohol changes as one moves\nfrom lower to higher homologues.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q5",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Select a group of unsaturated hydrocarbons from the following :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ethane, propane, butane"
+        },
+        {
+          "label": "B",
+          "text": "Ethyne, butene, cyclohexane"
+        },
+        {
+          "label": "C",
+          "text": "Ethene, propene, butyne"
+        },
+        {
+          "label": "D",
+          "text": "Methane, ethene, propyne"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q6",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "In the structure of cyclohexane (C6H12) there are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Six single bonds, four double bonds and two triple bonds"
+        },
+        {
+          "label": "B",
+          "text": "Six single bonds, two double bonds and one triple bond"
+        },
+        {
+          "label": "C",
+          "text": "Eight single bonds and five double bonds"
+        },
+        {
+          "label": "D",
+          "text": "Eighteen single bonds only"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q34",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) (i) Write the name and formula of (1) an alcohol and (2) a\ncarboxylic acid having two carbon atoms.\n(ii) If alcohol is X and carboxylic acid is Y, then\n(1) what happens when X and Y react in the presence of\nan acid catalyst ? Write chemical equation for the\nreaction.\n(2) what happens when X is heated in excess of\nconc. sulphuric acid at 443 K ? Write the role of\nconc. sulphuric acid in the reaction.\nOR\n(b) (i) What are structural isomers ? Write the structures of two\nisomers of butane.\n(ii) Write the name and formula of the simplest saturated\nhydrocarbon. Write the general formula of the homologous\nseries of carbon compounds in which this compound can be\nplaced. Using this formula, find the 2nd member of this\nseries. Write chemical equation for the reaction when this\nsimplest hydrocarbon burns in air.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q4",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "A hydrocarbon which contains two C – C single bonds and one C º C triple bond \nis :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ethyne"
+        },
+        {
+          "label": "B",
+          "text": "Propyne"
+        },
+        {
+          "label": "C",
+          "text": "Butyne"
+        },
+        {
+          "label": "D",
+          "text": "Benzene"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 4
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 1
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')"
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q17",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Assertion (A) : Soaps do not form lather (foam) with hard water.\nReason (R) : Hard water has calcium and magnesium salts dissolved in it\nwhich on reacting with soap form scum.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 17
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 19
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q37",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Ethanol (commonly known as alcohol) is an important carbon compound widely\nused in industries, hospitals, etc. Because it is a very good solvent, it is used in\nmedicines such as cough syrups, tincture iodine and many tonics. As it is a cleaner\nfuel, ethanol is used as an additive in petrol in most of the developed countries of\nthe world.\n(a) Write the structure of ethanol.\n(b) Name the products formed when ethanol burns in sufficient air (oxygen).\n(c) (i) State what happens when 5% solution of alkaline potassium\npermanganate is added to warm ethanol. Draw the structure of the\nproduct formed and state the role of 5% solution of alkaline\npotassium permanganate in the reaction.\nOR\n(c) (ii) State what happens when ethanol is heated with excess conc.\nH2SO4 at 443 K. Draw the structure of the product formed and state\nthe role of conc. H2SO4 in the reaction.",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 37
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 37
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 37
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q5",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The number of covalent bond(s) present in a nitrogen molecule is/are : \n(Atomic number of nitrogen is 7)",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 5
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q37",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "All compounds of carbon which contain only carbon and hydrogen are\ncalled hydrocarbons. Among these, saturated hydrocarbons are called\n‘alkanes’, unsaturated compounds with one or more double bonds are\ncalled ‘alkenes’ and compounds containing one or more triple bonds are\ncalled ‘alkynes’.\n(a) Identify the following compound and write its name.\nCH3 − C  CH\n(b) How do saturated and unsaturated carbon compounds differ in\nterms of the flame produced by them on burning ?\n(c) (i) Which type of hydrocarbons undergo addition reactions ?\nShow with an example.\nOR\n(c) (ii) What are structural isomers ? Draw two structural isomers\nof butane (C4H10).",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 37
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 38
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 39
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')"
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-2-q4",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The number of single and double bonds present in a molecule of benzene \n(C6H6) respectively, are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 and 3"
+        },
+        {
+          "label": "B",
+          "text": "3 and 6"
+        },
+        {
+          "label": "C",
+          "text": "6 and 9"
+        },
+        {
+          "label": "D",
+          "text": "3 and 9"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q22",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Which of the following hydrocarbons will not undergo addition \nreactions ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ethane"
+        },
+        {
+          "label": "B",
+          "text": "Ethene"
+        },
+        {
+          "label": "C",
+          "text": "Ethyne"
+        },
+        {
+          "label": "D",
+          "text": "Propene"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q23",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The process used to convert vegetable oils to ghee (fats) is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Saponification"
+        },
+        {
+          "label": "B",
+          "text": "Oxidation"
+        },
+        {
+          "label": "C",
+          "text": "Esterification"
+        },
+        {
+          "label": "D",
+          "text": "Hydrogenation"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q29",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Attempt either subpart (a) or (b) :\n(a) (i) Give reason why carbon can neither form C4+ cation\nnor C4 anion,  but forms covalent compounds.\n(ii) What happens when :\n(I) a piece of sodium is dropped into ethanol ?\n(II) ethanol is heated with ethanoic acid in the\npresence of an acid ?\n(iii) Define soap. Why are soaps not effective in hard\nwater ? 2+2+1=5\nOR\n(b) (i) Define the following terms with an example :\n(I) Unsaturated hydrocarbons\n(II) Substitution reaction\n(III) Saponification\n(ii) Why is ethanoic acid called glacial acetic acid ?\nWrite one use of ethanoic acid.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 29
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "superscript charge on C4− lost"
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q19",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Butanal is a four-carbon compound with the functional group :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Carboxylic acid"
+        },
+        {
+          "label": "B",
+          "text": "Aldehyde"
+        },
+        {
+          "label": "C",
+          "text": "Ketone"
+        },
+        {
+          "label": "D",
+          "text": "Alcohol"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 19
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q21",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The soap molecule has a :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hydrophilic head and a hydrophobic tail"
+        },
+        {
+          "label": "B",
+          "text": "Hydrophobic head and a hydrophilic tail"
+        },
+        {
+          "label": "C",
+          "text": "Hydrophilic head and a hydrophilic tail"
+        },
+        {
+          "label": "D",
+          "text": "Hydrophobic head and a hydrophobic tail"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 21
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 20
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q23",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The property of carbon atoms by virtue of which they form bonds with \nother carbon atoms is called :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Chemical bonding"
+        },
+        {
+          "label": "B",
+          "text": "Polymerisation"
+        },
+        {
+          "label": "C",
+          "text": "Catenation"
+        },
+        {
+          "label": "D",
+          "text": "Carbonisation"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q26",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Attempt either (a) or (b) :\n(a) 2H6O) reacts\nwith acidified K2Cr2O7 and on oxidation gives an acidic compound\npresence of concentrated H2SO4 to give a sweet smelling substance\nOR\n(b) Give reasons for the following :\n(i) Unsaturated hydrocarbons show addition reactions.\n(ii) Detergents are better cleansing agents than soaps.\n(iii) Carbon forms only covalent compounds.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 26
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 27
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 26
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-2-q19",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Butanone is a four-carbon compound with the functional group :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Carboxylic acid"
+        },
+        {
+          "label": "B",
+          "text": "Aldehyde"
+        },
+        {
+          "label": "C",
+          "text": "Ketone"
+        },
+        {
+          "label": "D",
+          "text": "Alcohol"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 19
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-2-q22",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Which of the following compounds is a member of homologous series of \nalkyne ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "C4H10"
+        },
+        {
+          "label": "B",
+          "text": "C3H8"
+        },
+        {
+          "label": "C",
+          "text": "C2H4"
+        },
+        {
+          "label": "D",
+          "text": "C3H4"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-3-q19",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Butanoic acid is a four-carbon compound with the functional group :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Carboxylic acid"
+        },
+        {
+          "label": "B",
+          "text": "Aldehyde"
+        },
+        {
+          "label": "C",
+          "text": "Ketone"
+        },
+        {
+          "label": "D",
+          "text": "Alcohol"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 19
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-3-q20",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Which of the following compound is a member of homologous series of \nalkene ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "C4H10"
+        },
+        {
+          "label": "B",
+          "text": "C2H2"
+        },
+        {
+          "label": "C",
+          "text": "C3H6"
+        },
+        {
+          "label": "D",
+          "text": "C2H6"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 20
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ]
+}

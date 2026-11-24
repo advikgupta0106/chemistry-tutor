@@ -1,0 +1,1897 @@
+{
+  "chapter_id": "metals-and-non-metals",
+  "class": "10",
+  "topic_file": "content/topics/metals-and-non-metals.json",
+  "source_note": "CBSE Class 10 Science (code 31) board papers with a text layer, 2022–2026. English text only; chemistry questions only. See content-schema.json → cbse_question.",
+  "questions": [
+    {
+      "id": "cbse10-2023-main-31B-q1",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "After burning a magnesium ribbon a student collected the ash \nso formed in a watch glass. He then dissolved this ash in water \nand tested the nature (acidic or basic) of the solution using pH \npaper and litmus solution. His correct observation would be :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Its pH is 10 and it turns blue litmus to red."
+        },
+        {
+          "label": "b",
+          "text": "Its pH is 4 and it turns blue litmus to red."
+        },
+        {
+          "label": "c",
+          "text": "Its pH is 4 and it turns red litmus to blue."
+        },
+        {
+          "label": "d",
+          "text": "Its pH is 10 and it turns red litmus to blue."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31B-q4",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "On placing a silver coin in a test tube containing blue \nsolution of CuSO4, a student would observe after some time, \nsay 20 minutes, that the CuSO4 solution",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "turns green and a grey substance is deposited on the coin."
+        },
+        {
+          "label": "b",
+          "text": "turns colourless and a grey substance is deposited on the coin."
+        },
+        {
+          "label": "c",
+          "text": "remains blue with no change in the silver coin."
+        },
+        {
+          "label": "d",
+          "text": "turns colourless and reddish brown substance is deposited on the coin."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31B-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Assertion (A) : It is possible to store copper sulphate solution\nin a container made of iron sheet.\nReason (R) : Iron is a more reactive metal than copper.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "a",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "b",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "c",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "d",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q5",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Among the following, the metal with lowest density is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Lithium"
+        },
+        {
+          "label": "b",
+          "text": "Lead"
+        },
+        {
+          "label": "c",
+          "text": "Magnesium"
+        },
+        {
+          "label": "d",
+          "text": "Aluminium"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 2
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q6",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The number of electrons in the outermost shell of the atom of a non-metal \ncan be :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "1, 2 or 3"
+        },
+        {
+          "label": "b",
+          "text": "3, 4 or 5"
+        },
+        {
+          "label": "c",
+          "text": "5, 6 or 7"
+        },
+        {
+          "label": "d",
+          "text": "5, 6 or 8"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 6
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Assertion (A) : Sodium oxide is an amphoteric oxide.\nReason (R) : Metal oxides which react with both acids as well as bases\nare known as amphoteric oxides.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "a",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "b",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "c",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "d",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 17
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q28",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "With the help of suitable chemical equations, list the two main\ndifferences between roasting and calcination. How is metal reduced from\nthe product obtained after roasting/calcination of the ore ? Write the\nchemical equation for the reaction involved.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 28
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 31
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-2-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Assertion (A) : Sodium, calcium and magnesium are obtained by the\nelectrolysis of their molten oxides.\nReason (R) : These metals have more affinity for oxygen than carbon.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "a",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "b",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "c",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "d",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-3-q28",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "(a) Copper rea\nof the green coating formed on the surface of copper.\n(b) How is copper obtained from its sulphide ore ? Write the chemical\nequations for the reaction involved in its extraction.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q37",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The melting points and boiling points of some ionic compounds are given\nbelow :\nCompound Melting Point (K) Boiling Point (K)\nNaCl 1074 1686\nLiCl 887 1600\nCaCl2 1045 1900\nCaO 2850 3120\nMgCl2 981 1685\nThese compounds are termed ionic because they are formed by the transfer\nof electrons from a metal to a non-metal. The electron transfer in such\ncompounds is controlled by the electronic configuration of the elements\ninvolved. Every element tends to attain a completely filled valence shell of\nits nearest noble gas or a stable octet.\n(i) Show the electron transfer in the formation of magnesium chloride.\n(ii) List two properties of ionic compounds other than their high melting\nand boiling points.\n(iii) (A) While forming an ionic compound say sodium chloride\nhow does sodium atom attain its stable configuration ?\nOR\n(iii) (B) Give reasons :\n(i) Why do ionic compounds in the solid state not\nconduct electricity ?\n(ii) What happens at the cathode when electricity is\npassed through an aqueous solution of sodium\nchloride ?",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 37
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 39
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 39
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q5",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which of the following statements is true for an amphoteric oxide ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "It reacts only with acid and does not form water."
+        },
+        {
+          "label": "b",
+          "text": "It reacts with acid as well as base to form salt and hydrogen gas."
+        },
+        {
+          "label": "c",
+          "text": "It reacts with both acid as well as base to form salt and water."
+        },
+        {
+          "label": "d",
+          "text": "It reacts only with base and does not form water."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 3
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q37",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Metals are required for a variety of purposes. For this we need their\nextraction from their ores. Ores mined from the earth are usually\ncontaminated with many impurities which must be removed prior to the\nextraction of metals. The extraction of pure metal involves the following\nsteps :\n(1) Concentration of ore\n(2) Extraction of the metal from the concentrated ore\n(3) Refining of the metal\n(a) Name an ore of Mercury and state the form in which Mercury is\npresent in it.\n(b) What happens to zinc carbonate when it is heated strongly in a\nlimited supply of air ?\n(c) The reaction of a metal A with Fe2O3 is highly exothermic and is\nused to join railway tracks.\n(I) Identify the metal A and name the reaction taking place.\n(II) Write the chemical equation for the reaction of metal A with\nFe2O3.\nOR\n(c) We cannot use carbon to obtain sodium from sodium oxide. Why ?\nState the reactions taking place at cathode and anode during\nelectrolytic reduction of sodium chloride.",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 37
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 39
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 39
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q4",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which of the following oxide(s) is/are soluble in water to form \nalkali/alkalies ? \n(i) SO2 \n(ii) Na2O \n(iii) NO2 \n(iv) K2O",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "(ii) and (iv)"
+        },
+        {
+          "label": "b",
+          "text": "Only (iii)"
+        },
+        {
+          "label": "c",
+          "text": "(i), (ii) and (iv)"
+        },
+        {
+          "label": "d",
+          "text": "Only (iv)"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q6",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "In the process of galvanisation of iron, the metal used for the \ncoating over iron is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Aluminium"
+        },
+        {
+          "label": "b",
+          "text": "Gallium"
+        },
+        {
+          "label": "c",
+          "text": "Zinc"
+        },
+        {
+          "label": "d",
+          "text": "Lead O"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q38",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The melting points and the boiling points of ionic compounds\nare comparatively much higher than that of the covalent\ncompounds. The ionic compounds are so called because they\nare formed by the transfer of electrons from a metal to a\nnon-metal. In the ionic compounds, the transfer of electrons\nfrom one element to the other is controlled by their electronic\nconfigurations. It is because every element tends to attain a\ncompletely filled valence shell of its nearest noble gas or a\nstable octet.\n(a) The atomic number of sodium is 11. Write its electronic\nconfiguration and state the number of electrons it can\nlose to have a stable octet.\n(b) The atomic number of chlorine is 17. Write its electronic\nconfiguration. Name the nearest noble gas whose octet\nchlorine will attain after gaining one electron.\n(c) (i) Show the formation of MgO by the transfer of\nelectrons. The atomic numbers of magnesium and\noxygen are 12 and 8 respectively.\nOR\n(ii) Write the symbols and names of the anion and the\ncation present in the aqueous solution of the\nfollowing compounds :\n(I) Sodium chloride\n(II) Potassium nitrate",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 38
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q4",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "2 g of yellow sulphur powder is burnt in a china dish and the fumes are \ncollected in a test tube. Water is added in the test tube and the solution is \ntested separately with blue and red litmus paper. The correct option is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Blue litmus remains blue and red litmus turns blue."
+        },
+        {
+          "label": "b",
+          "text": "Blue litmus turns red and red litmus remains red."
+        },
+        {
+          "label": "c",
+          "text": "Blue litmus turns red and red litmus turns blue."
+        },
+        {
+          "label": "d",
+          "text": "Blue litmus remains blue and red litmus remains red."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 4
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 1
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q5",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which one of the following metals is malleable and a poor conductor of \nelectricity ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Copper"
+        },
+        {
+          "label": "b",
+          "text": "Zinc"
+        },
+        {
+          "label": "c",
+          "text": "Lead"
+        },
+        {
+          "label": "d",
+          "text": "Silver"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 5
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 8
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q21",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "(a)\nth cold or hot water,\nall. Identify the metals A , B , C and D .\nOR\n(b) When two compounds namely sodium chloride and calcium\nchloride are heated directly, one by one on the flame of a burner,\nthey impart different colours to the flame.\n(i) Name the colour imparted by (1) sodium chloride and\n(2) calcium chloride.\n(ii) Are these compounds soluble in organic solvents such as\nkerosene or petrol ? Justify your answer.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 21
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 24
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 24
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q37",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The iron pillar in Qutab Minar complex in Delhi was built 1600 years\nago. It is still standing intact and shows no signs of rusting even today.\nThis shows that the ancient metallurgists of India in those times had\nfully developed metallurgical processes as well as the techniques of\nprotection of different metals. The protection of metals, was done by\nseveral processes like coating of a thin film of another metal, alloying etc.\n(a) Where is iron placed in the reactivity series of metals ? Write the\nform/forms in which its ores are found in nature.\n(b) Differentiate between roasting and calcination.\n(c) Explain any two methods that are employed to prevent\nrusting/corrosion of metals.\nOR\n(c) Why is aluminium used to join railway tracks or the cracked\nmachine parts of iron ? Write a balanced chemical equation for\nthe reaction which occurs.",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 37
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 37
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 37
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-2-q5",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The metal which melts when kept on the palm is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium"
+        },
+        {
+          "label": "b",
+          "text": "Potassium"
+        },
+        {
+          "label": "c",
+          "text": "Lithium"
+        },
+        {
+          "label": "d",
+          "text": "Gallium"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31B-q9",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The most reactive metal among the following towards cold \nwater is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Aluminium"
+        },
+        {
+          "label": "B",
+          "text": "Potassium"
+        },
+        {
+          "label": "C",
+          "text": "Sodium"
+        },
+        {
+          "label": "D",
+          "text": "Calcium"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 9
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31B-q18",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Assertion (A) : Silver oxide is an amphoteric oxide.\nReason (R) : Metal oxides which react with both acids as\nwell as bases are called amphoteric oxides.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true and Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false and Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31B-q29",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "(a) Name and explain the most widely used method for\nrefining impure metals.\nOR\n(b) With the help of chemical equations differentiate\nbetween roasting and calcination. How is metal reduced\nfrom the product obtained after roasting/calcination of\nthe ore ? Write the chemical equation for the reaction\ninvolved.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 29
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q4",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The metals which are found in both free state as well as combined state \nare :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gold and platinum"
+        },
+        {
+          "label": "B",
+          "text": "Platinum and silver"
+        },
+        {
+          "label": "C",
+          "text": "Copper and silver"
+        },
+        {
+          "label": "D",
+          "text": "Gold and silver"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 4
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 8
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Assertion (A) : The extraction of metals from their sulphide ores cannot\ntake place without roasting of the ore.\nReason (R) : Roasting converts sulphide ores directly into metals.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 17
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 19
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 19
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q37",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Three metal samples of magnesium, aluminium and iron were taken and\nrubbed with sand paper. These samples were then put separately in test\ntubes containing dilute hydrochloric acid. Thermometers were also\nsuspended in each test tube so that their bulbs dipped in the acid. The\nrate of formation of bubbles was observed. The above activity was\nrepeated with dilute nitric acid and the observations were recorded.\nAnswer the following questions :\n(a) When activity was done with dilute hydrochloric acid, then in\nwhich one of the test tubes was the rate of formation of bubbles the\nfastest and the thermometer showed the highest temperature ?\n(b) Which metal did not react with dilute hydrochloric acid ? Give\nreason.\n(c) (i) Why is hydrogen gas not evolved when a metal reacts with\ndilute nitric acid ? Name the ultimate products formed in the\nreaction.\nOR\n(c) (ii) Name the type of reaction on the basis of which reactivity of\nmetals is decided. You have two metals X and Y. How would\nyou decide which is more reactive than the other ?",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 37
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 38
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 38
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q5",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "vely \nare :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mn, MnO2"
+        },
+        {
+          "label": "B",
+          "text": "Al, Al2O3"
+        },
+        {
+          "label": "C",
+          "text": "Fe, Fe2O3"
+        },
+        {
+          "label": "D",
+          "text": "Mg, MgO"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 9
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 8
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; the beginning of the question is missing from the PDF text layer"
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q28",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Name the ore of mercury and state the form in which it is found in\nnature. Write the chemical equations along with the condition required\nfor the reactions involved in the extraction of mercury from its ore.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 28
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 30
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-2-q28",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Suggest an activity to differentiate between the chemical properties\n(acidic or basic character) of the product obtained on burning a metal\n(magnesium) and a non-metal (sulphur).",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q19",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Assertion (A) : Calcium oxide is an amphoteric oxide.\nReason (R) : Metal oxides which react with both acids as well as bases\nto form salt and water are called amphoteric oxides.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 19
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q37",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Alloying is a very good method of improving the properties of metals.\nMost of the metallic objects (cooking utensils, ornaments, coins, guns,\netc.) are made up of alloys. It is because pure metals are generally very\nsoft and have low melting points. For example, iron is the most widely\nused metal, but it is never used in its pure form to make cooking pans\nbecause it is very soft in its purest form, it is corrosive and easily\nstretches when hot.\n(a) What is an alloy ?\n(b) Write the constituents of bronze.\n(c) (i) How is stainless steel made ? List two properties in which it\ndiffers from iron.\nOR\n(c) (ii) What is solder ? Write its main use stating the property of\nsolder which makes it suitable for this specific use.",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 37
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q34",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "(a) Write electronic configurations of two elements X (At. no. 12) and Y (At.\nno. 17). Show the formation of ionic compound when X and Y combine\nwith each other. Write the name and formula of the compound formed.\nState what would happen if electric current is passed through the aqueous\nsolution of this compound. Name the ion that will reach at (i) cathode, and\n(ii) anode.\nOR\n(b) (i) Write the name of two metals of moderate reactivity. Which one of\nthe two is more reactive ? How can this fact be demonstrated\nexperimentally in a school laboratory ?\n(ii) Some metals of moderate reactivity are also found in the Earth’s\ncrust in the form of their carbonates. Name the processes involved in\nthe extraction of metal from them, giving chemical equations for the\nreactions that occur.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 34
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 35
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 36
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-3-q21",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "A metal exists in nature in the form of common salt. Name the metal. Give reason\nwhy this metal cannot be obtained from its compounds by heating with carbon.\nName the method by which it is obtained from its compound.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 21
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q3",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The most malleable metals are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Iron and gold"
+        },
+        {
+          "label": "B",
+          "text": "Copper and silver"
+        },
+        {
+          "label": "C",
+          "text": "Silver and gold"
+        },
+        {
+          "label": "D",
+          "text": "Gold and copper"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 3
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q4",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Consider the reactions of dil. hydrochloric acid with the following metals : \nAluminium, Copper, Iron, Magnesium and Zinc \nThe correct observation is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Most vigorous reaction with aluminium and no reaction with iron"
+        },
+        {
+          "label": "B",
+          "text": "Most vigorous reaction with magnesium and no reaction with iron"
+        },
+        {
+          "label": "C",
+          "text": "Most vigorous reaction with magnesium and no reaction with copper"
+        },
+        {
+          "label": "D",
+          "text": "Most vigorous reaction with zinc and no reaction with copper"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 4
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q22",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "(a) (i) What is an alloy ?\n(ii) Write the composition of solder and the property which\nmakes it suitable for welding electric wires.\nOR\n(b) During electrolytic refining of silver :\n(i) What are the electrodes – cathode and anode made up of ?\n(ii) What is anode mud ? Why is it called so ?",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 22
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 21
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-3-q5",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Oxides of aluminium and zinc are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Acidic"
+        },
+        {
+          "label": "B",
+          "text": "Amphoteric"
+        },
+        {
+          "label": "C",
+          "text": "Basic"
+        },
+        {
+          "label": "D",
+          "text": "Neutral"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-3-q27",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Using flow chart, show the steps involved in the method of extraction of a\nmetal of medium reactivity from its ore.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q20",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which of the following metal does not react with cold water, \nbut reacts with steam ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sodium"
+        },
+        {
+          "label": "B",
+          "text": "Potassium"
+        },
+        {
+          "label": "C",
+          "text": "Iron"
+        },
+        {
+          "label": "D",
+          "text": "Calcium"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 20
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q21",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which of the following metals forms an amphoteric oxide ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Calcium"
+        },
+        {
+          "label": "B",
+          "text": "Magnesium"
+        },
+        {
+          "label": "C",
+          "text": "Aluminium"
+        },
+        {
+          "label": "D",
+          "text": "Iron"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 21
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q25",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Define ionic compound. Write two properties of ionic\ncompounds.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 25
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q27",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Attempt either subpart (a) or (b) :\n(a) Define the following terms with an example :\n(i) Roasting\n(ii) Alloy\n(iii) Corrosion\nOR\n(b) Give reasons for the following :\n(i) Alloying is a very good method of improving the\nproperties of a metal.\n(ii) Carbon cannot be used as a reducing agent to\nobtain highly reactive metals from their oxides.\n(iii) Silver articles become black after some time when\nexposed to air ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Although most of the metals form basic oxides, which of the following \nmetals forms an amphoteric oxide ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Na"
+        },
+        {
+          "label": "B",
+          "text": "Ca"
+        },
+        {
+          "label": "C",
+          "text": "Al"
+        },
+        {
+          "label": "D",
+          "text": "Cu"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q29",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Attempt either (a) or (b) :\n(a) (i) Write the balanced chemical equation involved in the\nextraction of :\n(I) Hg from HgS\n(II) Zn from ZnCO3\n(III) Na from NaCl\n(ii) Why does sodium chloride :\n(I) not conduct electricity in solid state ?\n(II) have very high melting point ?\nOR\n(b) During extraction of metals, electrolytic refining is used to obtain\npure metals.\n(i) Which material will be used as cathode and anode for\nrefining of zinc metal by this process ?\n(ii) Name the electrolyte used in this process. Where do we get\npure zinc after passing electric current ?\n(iii) How does zinc prevent rusting of iron ? Also, name the\nprocess.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 29
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 29
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 29
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-2-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which of the following metals is a poor conductor of heat ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Na"
+        },
+        {
+          "label": "B",
+          "text": "Pb"
+        },
+        {
+          "label": "C",
+          "text": "Cu"
+        },
+        {
+          "label": "D",
+          "text": "Al"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-3-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which of the following metals has a very low melting point ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Copper"
+        },
+        {
+          "label": "B",
+          "text": "Sodium"
+        },
+        {
+          "label": "C",
+          "text": "Aluminium"
+        },
+        {
+          "label": "D",
+          "text": "Caesium"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ]
+}

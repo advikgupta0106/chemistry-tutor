@@ -1,0 +1,331 @@
+{
+  "chapter_id": "periodic-classification-of-elements",
+  "class": "10",
+  "topic_file": "content/topics/periodic-classification-of-elements.json",
+  "source_note": "CBSE Class 10 Science (code 31) board papers with a text layer, 2022–2026. English text only; chemistry questions only. See content-schema.json → cbse_question.",
+  "questions": [
+    {
+      "id": "cbse10-2022t2-main-31-1-1-q2",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "The electrons in the atoms of two elements X and Y are distributed in\nthree shells having 1 and 7 electrons respectively in their outermost\nshells.\n(a) Write the group numbers of these elements in the Modern Periodic\nTable.\n(b) Write the molecular formula of the compound formed when X and\nY combine with each other.\n(c) Which of the two is electropositive ?",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-1-1 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/1",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-1-1-q8",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "(a) List two advantages of adopting the atomic number of an element\nas the basis of classification of elements in the Modern Periodic\nTable.\n(b) Write the electronic configurations of the elements X (atomic\nnumber 13) and Y (atomic number 20).",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-1-1 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/1",
+          "question_no": 8
+        },
+        {
+          "folder": "Science 7",
+          "file": "31-1-2 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/2",
+          "question_no": 13
+        },
+        {
+          "folder": "Science 7",
+          "file": "31-1-3 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/3",
+          "question_no": 9
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-1-3-q1",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "Two elements, A and B belong to the 3rd period of Modern Periodic Table.\nElement A belongs to Group 1 whereas Element B belongs to Group 16.\nCompare the following characteristics of A and B, giving justification for\neach :\n(a) Atomic size\n(b) Metallic character",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-1-3 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQARR/1",
+          "set_code": "31/1/3",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-3-1-q3",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "State the criteria used by Mendeleev for creating his Periodic Table.\nTable and in the Modern Periodic Table.",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-3-1 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/1",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2022t2-main-31-3-1-q10",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "In the following table, some elements have been arranged in a certain\npattern :\nsa re ga ma pa da ni\n(do) (re) (mi) (fa) (so) (la) (ti)\nH Li Be B C N O\nF Na Mg Al Si P S\nCl K Ca Cr Ti Mn Fe\nCo and Ni Cu Zn Y In As Se\nBr Rb Sr Ce and La Zr\nIdentify the periodic law with which the given table is associated. List\ntwo important features and two anomalies of the above periodic law.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-3-1 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/1",
+          "question_no": 10
+        },
+        {
+          "folder": "Science 7",
+          "file": "31-3-2 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/2",
+          "question_no": 11
+        },
+        {
+          "folder": "Science 7",
+          "file": "31-3-3 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/3",
+          "question_no": 8
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-3-2-q4",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "Write the electronic configuration of an element X having atomic\nnumber 24. Explain how on the basis of this electronic configuration we\ncan determine the valency, group number and the period number of X.",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-3-2 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/2",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-main-31-3-3-q2",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "In the modern periodic table, compare the tendency of the elements to\nlose electrons while moving (i) down a group, and (ii) from left to right in\na period.",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 7",
+          "file": "31-3-3 Science.pdf",
+          "session": "2022 Term-2 main (May 2022)",
+          "series": "QQBRR/3",
+          "set_code": "31/3/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-comp-31-6-1-q2",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "(a) Arrange the following elements of 2nd period in the increasing\norder of their atomic radii :\nF (9),  Li (3),  Be (4),  N (7)\nThe atomic numbers of the elements are given in parenthesis.\n(b) Determine the va\nnumber 13 and Period number 3 and write the formula of the",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-1 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/1",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2022t2-comp-31-6-1-q8",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "(a) f elements.\n(b) What was the limitation of Dö\n(c) T\nmolecular formulae (i) X2O3 and (ii) YH2 be placed ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-1 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/1",
+          "question_no": 8
+        },
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-2 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/2",
+          "question_no": 13
+        },
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-3 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/3",
+          "question_no": 9
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2022t2-comp-31-6-2-q6",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "Consider the four elements of the 3rd period of the Modern Periodic Table\nas given below :\n(i) Si,  (ii) Na,  (iii) Cl,  and  (iv) Ar\nWhich of these is\n(a) most metallic,\n(b) a noble gas,\n(c) most electronegative, and\n(d) a metalloid ?",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-2 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/2",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2022t2-comp-31-6-3-q1",
+      "class": "10",
+      "chapter_id": "periodic-classification-of-elements",
+      "question_text": "nd group and 3rd period of Modern Periodic\nTable.\n(a) o members of the same group.\n(b)",
+      "marks": 2,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 6",
+          "file": "31-6-3 SCIENCE.pdf",
+          "session": "2022 Term-2 compartment (Aug 2022)",
+          "series": "SRQPE/C",
+          "set_code": "31/6/3",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2022_term2",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "large parts of the question text are drawn as vector outlines in the PDF and are missing here, so check against the source page; some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text; the beginning of the question is missing from the PDF text layer"
+    }
+  ]
+}

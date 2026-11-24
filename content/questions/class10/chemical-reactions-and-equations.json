@@ -1,0 +1,2695 @@
+{
+  "chapter_id": "chemical-reactions-and-equations",
+  "class": "10",
+  "topic_file": "content/topics/chemical-reactions-and-equations.json",
+  "source_note": "CBSE Class 10 Science (code 31) board papers with a text layer, 2022–2026. English text only; chemistry questions only. See content-schema.json → cbse_question.",
+  "questions": [
+    {
+      "id": "cbse10-2023-main-31B-q2",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Consider the following reaction : \n4NH3 + 5O2 4NO + 6H2O \nThis reaction is an example of which one of the following two \nreactions ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Displacement reaction as well as redox reaction"
+        },
+        {
+          "label": "b",
+          "text": "Double displacement reaction as well as redox reaction"
+        },
+        {
+          "label": "c",
+          "text": "Displacement reaction as well as combination reaction"
+        },
+        {
+          "label": "d",
+          "text": "Combination reaction as well as double displacement reaction"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-main-31B-q21",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "(a) What is a balanced chemical equation ? Why do we\nbalance chemical equations ?\nOR\n(b) Why does the colour of iron sulphate solution fade when\na piece of zinc is dipped in it ? Give chemical equation for\nthe reaction involved.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 21
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31B-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "A student is heating ferrous sulphate crystals in a boiling tube.\n(a) State the change in colour he is likely to observe during\nthe process of heating.\n(b) Name the gases produced during heating.\n(c) Write chemical equation for the reaction.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31B-q37",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Decomposition is a type of reaction in which a single compound\nsplits into two or more simple compounds. Decomposition\nreactions are generally classified into three types, depending\nupon the type of energy required for the reaction. The three\ntypes are thermal decomposition, photolytic decomposition and\nelectrolytic decomposition.\n(a) Why are decomposition reactions known as endothermic\nreactions ?\n(b) Give an example of photolytic decomposition.\n(c) Name the gas liberated at the (i) cathode, and (ii) anode\nwhen water is electrolysed. Write the molar ratio of\nhydrogen and oxygen (Hydrogen : Oxygen) liberated\nduring electrolysis.\nOR\n(c) What happens when lead nitrate powder is heated in a\nboiling tube ? Write chemical equation for the reaction.",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_B_5_Science for VI.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "ZWYX",
+          "set_code": "31(B)",
+          "question_no": 37
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Which of the following is an example of endothermic process ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Formation of slaked lime"
+        },
+        {
+          "label": "b",
+          "text": "Decomposition of vegetable matter into compost"
+        },
+        {
+          "label": "c",
+          "text": "Dissolution of ammonium chloride in water"
+        },
+        {
+          "label": "d",
+          "text": "Digestion of food in our body"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 1
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q3",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "In order to balance the following chemical equation, the values of the \ncoefficients x and y respectively are : \nHeat \nx Pb(NO3)2 2 PbO + y NO2 + O2",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "2, 4"
+        },
+        {
+          "label": "b",
+          "text": "2, 2"
+        },
+        {
+          "label": "c",
+          "text": "2, 3"
+        },
+        {
+          "label": "d",
+          "text": "4, 2"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 3
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q21",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "(a) What is observed when aqueous solutions of potassium iodide and\nlead nitrate are mixed together ? Name the type of reaction and\nwrite the chemical equation for the reaction that occurs.\nOR\n(b) When copper powder is heated in a watch glass, a black substance\nis formed.\n(i) Why is this black substance formed ? Name it.\n(ii) How can this black substance be reversed to its original\nform ?",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 21
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 23
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-1-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Silver chloride kept in a china dish turns grey in sunlight.\n(a) Write the colour of silver chloride when it was kept in the china\ndish.\n(b) Name the type of chemical reaction taking place and write the\nchemical equation for the reaction.\n(c) State one use of the reaction. Name one more chemical which can\nbe used for the same purpose.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/1",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-2-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "During electrolysis of water, if the volumes of oxygen and hydrogen \nevolved at the electrodes are VO and VH respectively, then VO/ VH is",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "4"
+        },
+        {
+          "label": "b",
+          "text": "2"
+        },
+        {
+          "label": "c",
+          "text": "1"
+        },
+        {
+          "label": "d",
+          "text": "1 2 4"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "a stacked fraction in an option is flattened into separate digits"
+    },
+    {
+      "id": "cbse10-2023-main-31-2-2-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Write down the balanced chemical equations for the following reactions\nand identify the type of reaction in each case.\n(a) Nitrogen gas is treated with hydrogen gas to form ammonia gas.\n(b) Lead nitrate is heated strongly to form lead monoxide, nitrogen\ndioxide and oxygen.\n(c) A copper wire is dipped in silver nitrate solution and a shining\ndeposit of silver is produced.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-2-3-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "(a) Define oxidation.\n(b) Identify the oxidising agent in the following reactions and balance\nthe chemical equations :\n(i) Pb3O4 + HCl PbCl2 + Cl2 + H2O\n(ii) MnO2 + Al Mn + Al2O3",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/3",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q2",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "When aqueous solutions of potassium iodide and lead nitrate are mixed, an \ninsoluble substance separates out. The chemical equation for the reaction \ninvolved is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "KI + PbNO3 PbI + KNO3"
+        },
+        {
+          "label": "b",
+          "text": "2KI + Pb(NO3)2 PbI2 + 2KNO3"
+        },
+        {
+          "label": "c",
+          "text": "KI + Pb(NO3)2 PbI + KNO3"
+        },
+        {
+          "label": "d",
+          "text": "KI + PbNO3 PbI2 + KNO3"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 2
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 6
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q3",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "A metal ribbon ‘X’ burns in oxygen with a dazzling white flame forming a \nwhite ash ‘Y’. The correct description of X, Y and the type of reaction is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "X = Ca ; Y = CaO ; Type of reaction = Decomposition"
+        },
+        {
+          "label": "b",
+          "text": "X = Mg ; Y = MgO ; Type of reaction = Combination"
+        },
+        {
+          "label": "c",
+          "text": "X = Al ; Y = Al2O3 ; Type of reaction = Thermal decomposition"
+        },
+        {
+          "label": "d",
+          "text": "X = Zn ; Y = ZnO ; Type of reaction = Endothermic"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 3
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q17",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Assertion (A) : Reaction of Quicklime with water is an exothermic\nreaction.\nReason (R) : Quicklime reacts vigorously with water releasing a large\namount of heat.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "a",
+          "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)."
+        },
+        {
+          "label": "b",
+          "text": "Both (A) and (R) are true but (R) is not the correct explanation of (A)."
+        },
+        {
+          "label": "c",
+          "text": "(A) is true but (R) is false."
+        },
+        {
+          "label": "d",
+          "text": "(A) is false but (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 17
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 20
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-4-1-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "(i) While electrolysing water before passing the current some drops of\nan acid are added. Why ? Name the gases liberated at cathode and\nanode. Write the relationship between the volume of gas collected at\nanode and the volume of gas collected at cathode.\n(ii) What is observed when silver chloride is exposed to sunlight ? Give\nthe type of reaction involved.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_1_ Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/1",
+          "question_no": 27
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/2",
+          "question_no": 33
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_4_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/4",
+          "set_code": "31/4/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q2",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "The balanced chemical equation showing reaction between quicklime and \nwater is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "2 CaO + H2O 2 CaOH + H2 + Heat"
+        },
+        {
+          "label": "b",
+          "text": "CaO + H2O Ca(OH)2 + H2 + Heat"
+        },
+        {
+          "label": "c",
+          "text": "CaO + H2O Ca(OH)2 + Heat"
+        },
+        {
+          "label": "d",
+          "text": "2 CaO + 3 H2O 2 Ca(OH)3 + O2 + Heat"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 2
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 6
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q3",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Study the following chemical reaction : \n2 Na (s) + 2 H2O (l) 2 NaOH (aq) + H2 (g) \nThe reducing agent in this reaction is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Na"
+        },
+        {
+          "label": "b",
+          "text": "H2O"
+        },
+        {
+          "label": "c",
+          "text": "NaOH"
+        },
+        {
+          "label": "d",
+          "text": "H2"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 3
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q17",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Assertion (A) : In the following reaction\nZnO + C Zn + CO\nZnO undergoes reduction.\nReason (R) : Carbon is a reducing agent that reduces ZnO to Zn.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "a",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "b",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "c",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "d",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 17
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 20
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-main-31-5-1-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "(a) Define a double displacement reaction.\n(b) Write the chemical equation of a double displacement reaction\nwhich is also a (i) Neutralization reaction and (ii) Precipitation\nreaction. Give justification for your answer.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_1_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/1",
+          "question_no": 27
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/2",
+          "question_no": 33
+        },
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_5_3_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/5",
+          "set_code": "31/5/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "In order to balance the following chemical equation, the values \nof x and y respectively are : \n3Fe + x H2O Fe3O4 + y H2",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "2, 2"
+        },
+        {
+          "label": "b",
+          "text": "4, 2"
+        },
+        {
+          "label": "c",
+          "text": "2, 4"
+        },
+        {
+          "label": "d",
+          "text": "4, 4"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q21",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Give one example each of the reaction in which :\n(a) (i) a more reactive metal displaces a less reactive metal\nfrom its aqueous salt solution and the colour of the\nsolution changes.\n(ii) an insoluble precipitate is formed.\nOR\n(b)  When a zinc plate is dipped in ferrous sulphate solution\nfor some time, it is observed that the pale green colour of\nthe solution disappears.\n(i) Explain the observation.\n(ii) Write the chemical equation for the reaction taking\nplace.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 21
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2023-supp-31B-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Consider the types of reaction mentioned below in (i) and (ii) :\n(i) AB    +    C2B                      A(BC)2\n(ii) ABO3                      AO    +    BO2\n(a) Identify the types of reactions mentioned in the chemical\nequations (i) and (ii).\n(b) Give one example for each type of reaction in the form of\nword equation or chemical equation.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_B_C SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "ZWYX/C",
+          "set_code": "31(B)",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "In the electrolysis of water, if the mass of the gas collected at the anode is \nma and the mass of the gas collected at the cathode is mc, the value of \n(mc/ma) is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "8"
+        },
+        {
+          "label": "b",
+          "text": "16"
+        },
+        {
+          "label": "c",
+          "text": "1"
+        },
+        {
+          "label": "d",
+          "text": "1 16 8"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 1
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 3
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "a stacked fraction in an option is flattened into separate digits"
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-1-q17",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Assertion (A) : In the reaction, Na2SO4 + BaCl2 BaSO4 + 2NaCl,\nsodium chloride is precipitated.\nReason (R) : When an aqueous solution is added to another aqueous\nsolution, an insoluble substance is formed, which is called\nprecipitate.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "a",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "b",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "c",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "d",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_1 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/1",
+          "question_no": 17
+        },
+        {
+          "folder": "Science 4",
+          "file": "31_C_3 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/3",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-2-q17",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Assertion (A) : MnO2 + 4HCl MnCl2 + 2H2O + Cl2 is a redox\nreaction.\nReason (R) : In this reaction, HCl is oxidised to  Cl2 and  MnO2 is\nreduced to  MnCl2.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "a",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "b",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "c",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "d",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2023-supp-31-C-2-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Observe the given diagram and answer the following questions :\nBeaker\nWater\nCalcium oxide\n(a) Write a balanced chemical equation for the reaction taking place in\nthe beaker.\n(b) Name the two types of reactions in which the above reaction can be\nplaced, giving justification for each.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "Science 4",
+          "file": "31_C_2 SCIENCE.pdf",
+          "session": "2023 supplementary (Jul 2023)",
+          "series": "Z1XYW/C",
+          "set_code": "31/C/2",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31B-q6",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Consider the following chemical equations : \np MnO2 + q Al r Mn + s Al2O3 \nTo balance this chemical equation the values of the coefficients \np, q, r and s must be respectively :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "3, 2, 3, 4"
+        },
+        {
+          "label": "B",
+          "text": "4, 3, 4, 2"
+        },
+        {
+          "label": "C",
+          "text": "3, 4, 3, 2"
+        },
+        {
+          "label": "D",
+          "text": "4, 2, 4, 3"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2024-main-31B-q24",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "When a strip of aluminium metal is dipped in a solution of\nferrous sulphate, the pale green colour of the solution fades\naway. State the conclusion you can draw from this observation.\nWrite chemical equation for the reaction that occurs in this\ncase.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 24
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31B-q38",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Consider the unbalanced chemical equations of a the chemical\nreactions listed below :\n(1) CaO + H2O Ca(OH)2\n(2) Pb(NO3)2 PbO + NO2 + O2\n(3) CuSO4 + Fe FeSO4 + Cu\n(4) Na2SO4 + BaCl2 BaSO4 + NaCl\n(i) Select combination reaction from the reactions listed\nabove. Is this reaction endothermic or exothermic ?\n(ii) Which one of the these reactions represents a\ndisplacement reaction ? State the colour change observed\nin this reaction.\n(iii) (a) Identify from the above list a reaction in which\nthermal decomposition occurs. Write the balanced\nchemical equation to represent thermal\ndecomposition of ferrous sulphate.\nOR\n(iii) (b) Write the word equation for the double displacement\nreaction given in the above list. Giving reason, state\nwhether this reaction is a redox reaction or not.",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_B_Science_VI.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "#CDBA",
+          "set_code": "31(B)",
+          "question_no": 38
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Zn + 2CH3COOH (CH3COO)2 Zn + H2 \nThe above reaction is a :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Decomposition reaction"
+        },
+        {
+          "label": "B",
+          "text": "Displacement reaction"
+        },
+        {
+          "label": "C",
+          "text": "Double displacement reaction"
+        },
+        {
+          "label": "D",
+          "text": "Combination reaction"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 1
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2024-main-31-4-1-q34",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "(a) What is a chemical reaction ? Describe one activity each to show\nthat a chemical change has occurred in which (i) change of colour,\nand (ii) change in temperature has taken place.\nOR\n(b) (i) Define a decomposition reaction. How can we say that\n(I) electrolysis of water, and (II) blackening of silver bromide\nwhen exposed to sunlight, are decomposition reactions ?\nMention the type of energy involved in each case.\n(ii) The type of reactions in which (I) calcium oxide is formed,\nand (II) calcium hydroxide is formed are opposite reactions\nto each other. Justify this statement with the help of\nchemical equations.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/1",
+          "question_no": 34
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/3",
+          "question_no": 35
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-2-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "A chemical reaction in which exchange of ions occurs between the \nreactants, is known as :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Endothermic Reaction"
+        },
+        {
+          "label": "B",
+          "text": "Exothermic Reaction"
+        },
+        {
+          "label": "C",
+          "text": "Double Displacement Reaction"
+        },
+        {
+          "label": "D",
+          "text": "Displacement Reaction"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-4-2-q34",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "(a) When lead nitrate is heated strongly in a boiling tube, two gases\nare liberated and a solid residue is left behind in the test tube.\n(i) Name the type of chemical reaction and define it.\n(ii) Write the name and formula of the coloured gas liberated.\n(iii) Write the balanced chemical equation for the reaction.\n(iv) Name the residue left in the test tube and state the method\nof testing its nature (acidic/basic).\nOR\n(b) (i) Write balanced chemical equation for the following word\nequation.\nLead nitrate + Potassium iodide Lead iodide + Potassium\nnitrate\nIs this a double displacement reaction ? Justify your answer.\nName the compound precipitated and write the ions present\nin it.\n(ii) Write the method of preparation of Ca(OH)2. What happens\nwhen CO2 is passed through it ? Write balanced chemical\nequation for the reaction involved.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_4_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "D4CBA/4",
+          "set_code": "31/4/2",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "To balance the following chemical equation, the values of the coefficients \nx, y and z must be respectively : \nx Zn(NO3)2 y ZnO + z NO2 + O2",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "4, 2, 2"
+        },
+        {
+          "label": "B",
+          "text": "4, 4, 2"
+        },
+        {
+          "label": "C",
+          "text": "2, 2, 4"
+        },
+        {
+          "label": "D",
+          "text": "2, 4, 2"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 1
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q2",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Which of the following is a redox reaction, but not a combination \nreaction ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "C + O2 CO2"
+        },
+        {
+          "label": "B",
+          "text": "2 H2 + O2 2 H2O"
+        },
+        {
+          "label": "C",
+          "text": "2 Mg + O2 2 MgO"
+        },
+        {
+          "label": "D",
+          "text": "Fe2O3 + 3 CO 2 Fe + 3 CO2"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 2
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q21",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "(a) Copper powder is taken in a china dish and heated over a burner.\nName the product formed and state its colour. Write the chemical\nequation for the reaction involved.\nOR\n(b) Write chemical equation for the chemical reaction which occurs\nwhen the aqueous solutions of barium chloride and sodium\nsulphate react together. Write the symbols of the ions present in\nthe compound precipitated in the reaction.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 21
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 23
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Study the experimental set-up shown in the diagram and write chemical\nequation for the chemical reaction involved. Name and define the type of\nreaction. List two other metals which can be used in place of iron to show\nthe same type of reaction with copper sulphate solution.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 27
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 29
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-main-31-5-1-q34",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "(a) A few crystals of ferrous sulphate were taken in a dry boiling tube\nand heated. Tiny water droplets were observed in the tube after\nsome time.\n(i) From where did these water droplets appear ? Explain.\n(ii) What colour change will be observed during heating ?\n(iii) How many molecules of water are attached per molecule of\nFeSO4 crystal ? Write the molecular formula of crystalline\nforms of (I) Copper sulphate, and (II) Sodium carbonate.\n(iv) State how is Plaster of Paris obtained from gypsum. Write\ntwo uses of Plaster of Paris.\nOR\n(b)\ncakes\nfaster cooking.\n(i) Write the common names o\n(ii)\nsoft and spongy ? Illustrate the reaction with suitable\nchemical equation.\n(iii) Write the name and chemical formula of a mild base other",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_1_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/1",
+          "question_no": 34
+        },
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 35
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "some characters on this question are drawn as vector outlines in the PDF, so words or symbols may be missing from the text"
+    },
+    {
+      "id": "cbse10-2024-main-31-5-2-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Which of the following is not a thermal decomposition reaction ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 FeSO4 Fe2O3 + SO2 + SO3"
+        },
+        {
+          "label": "B",
+          "text": "CaCO3 CaO + CO2"
+        },
+        {
+          "label": "C",
+          "text": "2 AgCl 2 Ag + Cl2"
+        },
+        {
+          "label": "D",
+          "text": "Pb(NO3)2 2 PbO + 4 NO2 + O2"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_2_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/2",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2024-main-31-5-3-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Answer the following questions in the context of electrolysis of water :\n(a) Why is this reaction/process called a decomposition reaction ?\n(b) Giving reason state whether this reaction is exothermic or\nendothermic.\n(c) Name the gases collected at the anode and cathode.\n(d) What is the mass ratio of the gases collected at the anode and\ncathode ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 3",
+          "file": "31_5_3_Science.pdf",
+          "session": "2024 main (Mar 2024)",
+          "series": "CABD5/5",
+          "set_code": "31/5/3",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "In order to balance the following chemical equation, the values of a, b, c \nand d respectively are : \na  Pb(NO3)2 ¾heat b  PbO + c  NO2 + d  O2 ¾ ® ¾",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "2, 4, 2, 1"
+        },
+        {
+          "label": "B",
+          "text": "2, 2, 4, 1"
+        },
+        {
+          "label": "C",
+          "text": "2, 2, 1, 4"
+        },
+        {
+          "label": "D",
+          "text": "2, 2, 3, 4"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´')"
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q2",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Select chemical equation of a precipitation reaction from the following :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Na2SO4 + BaCl2 t BaSO4 + 2NaCl"
+        },
+        {
+          "label": "B",
+          "text": "2NaOH + H2SO4 t Na2SO4 + 2H2O"
+        },
+        {
+          "label": "C",
+          "text": "Fe2O3 + Al t Al2O3 + 2Fe"
+        },
+        {
+          "label": "D",
+          "text": "2FeSO4 ¾heat Fe2O3 + SO2 + SO3 ¾ ® ¾"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q7",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Which one of the following is an example of endothermic process ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Digestion of food in human body"
+        },
+        {
+          "label": "B",
+          "text": "Formation of slaked lime"
+        },
+        {
+          "label": "C",
+          "text": "Decomposition of vegetable matter into compost"
+        },
+        {
+          "label": "D",
+          "text": "Decomposition of silver bromide into silver and bromine"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31B-S-q28",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "In the electrolysis of acidulated water\n(a) Name the gas collected at the (i) cathode and (ii) anode.\n(b) Why is the volume of one gas collected at one electrode two times\nthe gas collected at the other electrode ?\n(c) Write the method of testing of any one of the gases evolved in this\ncase.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31 (B)-S SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31(B)/S",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "In the following case(s) the combination reaction occurs in : \nI. CuO + H2 \nII. ZnO + C \nIII. Na + O2 \nIV. CH4 + O2",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only III"
+        },
+        {
+          "label": "B",
+          "text": "Only IV"
+        },
+        {
+          "label": "C",
+          "text": "II and III"
+        },
+        {
+          "label": "D",
+          "text": "I, III and IV"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 1
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q5",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "When aqueous solutions of barium chloride and sodium sulphate react together, an \ninsoluble substance along with aqueous solution of sodium chloride is formed. This \nreaction is an example of a :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "combination reaction"
+        },
+        {
+          "label": "B",
+          "text": "decomposition reaction"
+        },
+        {
+          "label": "C",
+          "text": "displacement reaction"
+        },
+        {
+          "label": "D",
+          "text": "double displacement reaction"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 7
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q7",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Select the correct statement from the following about the reaction : \nCuO + H2 ¾¾® Cu + H2O",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "CuO is getting oxidised and H2 is getting reduced."
+        },
+        {
+          "label": "B",
+          "text": "H2 is getting oxidised and CuO is getting reduced."
+        },
+        {
+          "label": "C",
+          "text": "CuO is a reducing agent."
+        },
+        {
+          "label": "D",
+          "text": "H2 is an oxidising agent."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 7
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 5
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); reaction arrow is not in the PDF text layer (drawn as a graphic), so the equation reads without an arrow"
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-1-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "(a) Write a chemical equation for the reaction in which change in colour is\nobserved when a metal is kept immersed in a salt solution of another metal.\n(b) When hydrogen gas is passed over heated copper(II) oxide, copper and\nsteam are formed. Write the balanced chemical equation with physical\nstates for this reaction. State what kind of chemical reaction is this.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-1 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/1",
+          "question_no": 27
+        },
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-2 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/2",
+          "question_no": 30
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-3-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "When lead nitrate powder is heated in a boiling tube, three substances are produced. \nThese three substances are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "PbO, NO and O2"
+        },
+        {
+          "label": "B",
+          "text": "PbO2, NO and NO2"
+        },
+        {
+          "label": "C",
+          "text": "PbO, NO2 and O2"
+        },
+        {
+          "label": "D",
+          "text": "PbO2, NO2 and O2"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2024-supp-31-S-3-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Write one chemical equation each for the reactions in which the following\nchanges occur, specifying the change observed :\n(a) Change in colour\n(b) Change in temperature\n(c) Formation of precipitate",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE (2)",
+          "file": "31-S-3 SCIENCE.pdf",
+          "session": "2024 supplementary (Jul 2024)",
+          "series": "#CDBA/S",
+          "set_code": "31/S/3",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "From the following, select a process in which combination reaction occurs :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Black and white photography"
+        },
+        {
+          "label": "B",
+          "text": "Burning of carbon (coal)"
+        },
+        {
+          "label": "C",
+          "text": "Burning of methane"
+        },
+        {
+          "label": "D",
+          "text": "Refining of copper"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 1
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 8
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q2",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Select exothermic processes from the following : \n(i) Dilution of acid \n(ii) Burning of natural gas \n(iii) Evaporation of water \n(iv) Electrolysis of water",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) and (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(iii) and (iv)"
+        },
+        {
+          "label": "D",
+          "text": "(i) and (iv)"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 2
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 7
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q17",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Assertion (A) : Decomposition of vegetable matter into compost is an\nexothermic reaction.\nReason (R) : Decomposition reactions need energy to break down the\nreactants.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 17
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 19
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q21",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Translate the following statements into balanced chemical equations :\n(a) Aluminium reacts with copper chloride to form aluminium chloride\nand copper.\n(b) Zinc reacts with sodium hydroxide to give sodium zincate and\nhydrogen gas.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 21
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-2_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/2",
+          "question_no": 22
+        },
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-1-q28",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Define a displacement reaction. Name a displacement reaction which is\nhighly exothermic and has its use in joining railway tracks. Explain the\nprocess with a balanced chemical equation of the reaction that occurs.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-1_Science.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/1",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2025-supp-31-S-3-q1",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Select from the following decomposition reactions in which the source of \nenergy for decomposition is heat : \n(i) CaCO3 ⎯→ CaO + CO2 \n(ii) 2H2O ⎯→ 2H2 + O2 \n(iii) 2AgBr ⎯→ 2Ag + Br2 \n(iv) 2FeSO4 ⎯→ Fe2O3 + SO2 + SO3",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) and (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(iii) and (iv)"
+        },
+        {
+          "label": "D",
+          "text": "(i) and (iv)"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science",
+          "file": "31-S-3 Scince.pdf",
+          "session": "2025 supplementary (Jul 2025)",
+          "series": "EFGH/S",
+          "set_code": "31/S/3",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q17",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "If an iron nail is kept in an aqueous solution of copper \nsulphate :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Iron gets precipitated in the solution."
+        },
+        {
+          "label": "B",
+          "text": "Displacement reaction takes place."
+        },
+        {
+          "label": "C",
+          "text": "Double-displacement reaction takes place."
+        },
+        {
+          "label": "D",
+          "text": "No chemical reaction occurs."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q24",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Assertion (A) : Fat/oil-containing food items become rancid if\nthey are kept in air for a long time.\nReason (R) : Oils and fats present in food items undergo\nslow oxidation in air.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 24
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31B-q26",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "What happens when :\n(a) Lead nitrate powder is heated ?\n(b) Sodium sulphate solution is added to barium chloride\nsolution ?\n(c) Hydrogen gas is passed over hot copper(II) oxide ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31_B_ Science for V.I._E22026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31(B)",
+          "question_no": 26
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q18",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "On heating ferrous sulphate crystals, one would get :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sweet smell"
+        },
+        {
+          "label": "B",
+          "text": "Rotten egg smell"
+        },
+        {
+          "label": "C",
+          "text": "Characteristic smell of burning sulphur"
+        },
+        {
+          "label": "D",
+          "text": "No smell"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q20",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Which of the following are exothermic processes ? \nI. The decomposition of vegetable matter into compost \nII. Dilution of an acid \nIII. Evaporation of water \nIV. Sublimation of camphor \nOptions :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "I and II"
+        },
+        {
+          "label": "B",
+          "text": "II and III"
+        },
+        {
+          "label": "C",
+          "text": "I and IV"
+        },
+        {
+          "label": "D",
+          "text": "III and IV"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 20
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 21
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q24",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Assertion (A) : Burning of natural gas is an endothermic reaction.\nReason (R) : Methane gas reacts with oxygen to produce CO2 and H2O.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 24
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 24
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 24
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-1-q27",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Beaker\nWater\nHot to touch\nQuick lime (CaO)\n(a) Identify the type of reaction taking place and mention why does\nthe beaker become hot.\n(b) Write the balanced chemical equation.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-1_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/1",
+          "question_no": 27
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 26
+        },
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-2-q18",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "On heating lead nitrate crystals, one would get :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "yellow fumes"
+        },
+        {
+          "label": "B",
+          "text": "rotten egg smell"
+        },
+        {
+          "label": "C",
+          "text": "burning smell of sulphur"
+        },
+        {
+          "label": "D",
+          "text": "brown fumes"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-2_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/2",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    },
+    {
+      "id": "cbse10-2026-exam2-31-7-3-q18",
+      "class": "10",
+      "chapter_id": "chemical-reactions-and-equations",
+      "question_text": "Which of the following compounds is formed on heating limestone with \nthe release of CO2 gas ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ca(OH)2"
+        },
+        {
+          "label": "B",
+          "text": "CaCO3"
+        },
+        {
+          "label": "C",
+          "text": "CaO"
+        },
+        {
+          "label": "D",
+          "text": "CaCl2"
+        }
+      ],
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "Science 2",
+          "file": "31-7-3_Science_E2_May 2026.pdf",
+          "session": "2026 second board exam (May 2026)",
+          "series": "E7FDG",
+          "set_code": "31/7/3",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null
+    }
+  ]
+}
