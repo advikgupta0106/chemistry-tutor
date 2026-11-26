@@ -1,0 +1,14 @@
+[
+  {
+    "question_id": "cbse10-2023-main-31-4-1-q28",
+    "student_answer": "(i) Always add the acid slowly to water with constant stirring, never water to acid.\n(ii) Sodium sulphate is formed. Its pH is 7.\n(iii) Dry HCl gas does not ionise, so there are no H+ ions to change the colour of the litmus.",
+    "expected_marks": 3,
+    "note": "complete answer"
+  },
+  {
+    "question_id": "cbse10-2023-main-31-4-1-q28",
+    "student_answer": "(i) Add acid to water slowly.\n(ii) Sodium sulphate.\n(iii) Because it is dry.",
+    "expected_marks": 1.5,
+    "note": "pH missing in (ii), reason in (iii) too vague"
+  }
+]

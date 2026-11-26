@@ -26,6 +26,15 @@ uvicorn main:app --reload --port 8000
   returns `{ questions: [{ prompt, options, answer_index, explanation, difficulty }] }`.
 - `POST /smart-search` — body `{ query }`, returns
   `{ answer, related_topics, related_chapter_id }`.
+- `POST /mark-answer` — body `{ question_text, marks, marking_points, student_answer }`
+  (`marking_points` exactly as stored in `content/questions/class10/*.json`,
+  including `{ point: "OR", marks: null }` separators; `student_answer` up to
+  2000 characters). Returns `{ points: [{ point, max_marks, awarded_marks,
+  reason, branch }], total_awarded, max_marks, practice_bonus, practice_total,
+  feedback, caution_notes }`. Per-point marks are capped at each point's
+  maximum, only the best OR branch counts, and `total_awarded` never exceeds
+  `marks`. `practice_bonus` is +1 for a partly right answer (never on a zero,
+  never above full marks) and is kept separate from the honest total.
 - `GET /health` — returns `{ status: "ok", api_key_configured }`.
 
 ## Deployment (Render)
