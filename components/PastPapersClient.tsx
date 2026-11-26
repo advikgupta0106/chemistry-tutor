@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Check, ChevronLeft, ChevronRight, Lightbulb, Loader2, RotateCcw, Sparkles, X } from "lucide-react";
+import { ArrowLeft, Check, ChevronLeft, ChevronRight, Lightbulb, Loader2, RotateCcw, Sparkles, Timer, X } from "lucide-react";
+import TestHistoryList from "@/components/TestHistoryList";
 import TopicIcon from "@/components/TopicIcon";
 import { formatFormula } from "@/lib/formatFormula";
 import { useUserClass } from "@/lib/userClass";
@@ -18,7 +19,7 @@ import {
 
 const MARK_FILTERS = [1, 2, 3, 4, 5] as const;
 
-const TYPE_LABEL: Record<BoardQuestionType, string> = {
+export const TYPE_LABEL: Record<BoardQuestionType, string> = {
   mcq: "Multiple choice",
   assertion_reason: "Assertion–reason",
   very_short: "Very short answer",
@@ -34,7 +35,7 @@ const TYPE_LABEL: Record<BoardQuestionType, string> = {
 const NEW_ITEM =
   /^\s*(\(?[a-h]\)|\(?(?:i|ii|iii|iv|v|vi|vii|viii)\)|\([A-D]\)|\([IVX]+\)|[IVX]+\.|OR\b|•|||Assertion|Reason|Alternat|\d+\.\s|\(\d+\))/;
 
-function displayText(raw: string): string {
+export function displayText(raw: string): string {
   const lines = raw.split("\n").map((l) => l.trim()).filter(Boolean);
   let out = "";
   for (const line of lines) {
@@ -44,7 +45,7 @@ function displayText(raw: string): string {
   return formatFormula(out);
 }
 
-function formatMarks(n: number): string {
+export function formatMarks(n: number): string {
   const whole = Math.floor(n);
   const half = n - whole >= 0.5;
   if (whole === 0 && half) return "½";
@@ -113,7 +114,24 @@ export default function PastPapersClient({
           </p>
         )}
 
-        <div className="mt-5 flex flex-col gap-2.5">
+        <Link
+          href="/past-papers/test"
+          className="mt-5 flex items-center gap-3 rounded-2xl border border-accent/50 bg-accent/10 p-4 hover:border-accent"
+        >
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-accent/20">
+            <Timer size={20} strokeWidth={1.5} className="text-accent" />
+          </div>
+          <div className="min-w-0 flex-1">
+            <p className="text-sm font-semibold text-text">Chemistry section tests</p>
+            <p className="mt-0.5 text-xs text-text-dim">Timed like the board exam, marked when you submit</p>
+          </div>
+          <ChevronRight size={18} strokeWidth={1.5} className="shrink-0 text-text-dim" />
+        </Link>
+
+        <TestHistoryList limit={5} />
+
+        <p className="mt-6 text-sm font-semibold text-text">Practise by chapter</p>
+        <div className="mt-3 flex flex-col gap-2.5">
           {chapters.map((c) => {
             const done = questions.filter((q) => q.chapterId === c.id && attempts[q.id]).length;
             return (
@@ -565,7 +583,7 @@ function WrittenAnswer({
   );
 }
 
-function AiMarkCard({ result, stale }: { result: AiMarkResult; stale: boolean }) {
+export function AiMarkCard({ result, stale }: { result: AiMarkResult; stale: boolean }) {
   const branches = [...new Set(result.points.map((p) => p.branch))];
   const branchTotal = (b: number) =>
     result.points.filter((p) => p.branch === b).reduce((s, p) => s + p.awarded_marks, 0);
