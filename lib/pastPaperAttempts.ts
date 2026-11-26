@@ -1,5 +1,7 @@
 "use client";
 
+import type { AiMarkResult } from "@/lib/markAnswer";
+
 // Per-question attempts on the Past Board Questions page, kept in
 // localStorage like lib/progress.ts and lib/bookmarks.ts (no backend/auth
 // yet). Deliberately separate from progress.ts so these self-marked board
@@ -20,6 +22,9 @@ export type WrittenAttempt = {
   ticked: number[];
   score: number;
   answeredAt: string;
+  // Latest AI marking of a typed answer, with the exact answer text it
+  // marked (the box may have been edited since).
+  aiMark?: { answer: string; result: AiMarkResult; markedAt: string };
 };
 
 export type PastPaperAttempt = OptionAttempt | WrittenAttempt;

@@ -2,10 +2,11 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Check, ChevronLeft, ChevronRight, RotateCcw, X } from "lucide-react";
+import { ArrowLeft, Check, ChevronLeft, ChevronRight, Lightbulb, Loader2, RotateCcw, Sparkles, X } from "lucide-react";
 import TopicIcon from "@/components/TopicIcon";
 import { formatFormula } from "@/lib/formatFormula";
 import { useUserClass } from "@/lib/userClass";
+import { MAX_ANSWER_LENGTH, markAnswer, type AiMarkResult } from "@/lib/markAnswer";
 import type { BoardChapter, BoardQuestion, BoardQuestionType, MarkingPoint } from "@/lib/pastPapers";
 import {
   clearAttempt,
@@ -394,6 +395,40 @@ function WrittenAnswer({
     save({ ticked: [...next].sort((a, b) => a - b) });
   }
 
+  const [status, setStatus] = useState<"idle" | "loading" | "error">("idle");
+  const [error, setError] = useState<string | null>(null);
+  const [elapsed, setElapsed] = useState(0);
+  const aiMark = attempt?.aiMark;
+  const answerChanged = !!aiMark && aiMark.answer !== draft.trim();
+
+  useEffect(() => {
+    if (status !== "loading") return;
+    const started = Date.now();
+    setElapsed(0);
+    const t = setInterval(() => setElapsed(Math.floor((Date.now() - started) / 1000)), 1000);
+    return () => clearInterval(t);
+  }, [status]);
+
+  async function requestMarking() {
+    const answer = draft.trim();
+    if (!answer || status === "loading") return;
+    setStatus("loading");
+    setError(null);
+    try {
+      const result = await markAnswer({
+        questionText: question.text,
+        marks: question.marks,
+        markingPoints: points,
+        studentAnswer: answer,
+      });
+      save({ aiMark: { answer, result, markedAt: new Date().toISOString() } });
+      setStatus("idle");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Something went wrong while marking. Please try again.");
+      setStatus("error");
+    }
+  }
+
   return (
     <div className="mt-4">
       <label htmlFor={`answer-${question.id}`} className="text-xs font-medium text-text-dim">
@@ -402,21 +437,68 @@ function WrittenAnswer({
       <textarea
         id={`answer-${question.id}`}
         value={draft}
+        maxLength={MAX_ANSWER_LENGTH}
         onChange={(e) => setDraft(e.target.value)}
         onBlur={() => attempt && draft !== attempt.answer && save({})}
-        rows={4}
-        placeholder="Write your answer, then check it against the marking scheme."
+        rows={5}
+        placeholder="Write your answer, then mark it or check it against the marking scheme."
         className="mt-1.5 w-full rounded-xl border border-border bg-surface-2 p-3 text-sm text-text placeholder:text-text-dim/70 focus:border-accent focus:outline-none"
       />
+      <p className="mt-1 text-right text-xs text-text-dim">
+        {draft.length} / {MAX_ANSWER_LENGTH}
+      </p>
 
-      {!revealed ? (
+      <div className={`mt-2 grid gap-2.5 ${revealed ? "grid-cols-1" : "grid-cols-2"}`}>
         <button
-          onClick={() => save({ revealed: true })}
-          className="mt-3 w-full rounded-xl bg-accent py-3 text-sm font-semibold text-white"
+          onClick={requestMarking}
+          disabled={!draft.trim() || status === "loading"}
+          className="flex items-center justify-center gap-1.5 rounded-xl bg-accent py-3 text-sm font-semibold text-white disabled:opacity-40"
         >
-          Show marking scheme
+          <Sparkles size={16} strokeWidth={1.5} />
+          {aiMark && !answerChanged ? "Mark again" : "Mark my answer"}
         </button>
-      ) : (
+        {!revealed && (
+          <button
+            onClick={() => save({ revealed: true })}
+            className="rounded-xl border border-border py-3 text-sm font-semibold text-text"
+          >
+            Show marking scheme
+          </button>
+        )}
+      </div>
+
+      {status === "loading" && (
+        <div className="mt-3 flex items-start gap-3 rounded-xl border border-border bg-surface-2 p-3" role="status" aria-live="polite">
+          <Loader2 size={18} strokeWidth={1.5} className="mt-0.5 shrink-0 animate-spin text-accent motion-reduce:animate-none" />
+          <div className="text-sm">
+            <p className="font-medium text-text">Marking your answer… {elapsed > 0 ? `${elapsed}s` : ""}</p>
+            {elapsed >= 6 && (
+              <p className="mt-1 text-text-dim">
+                Waking up the marking server. The first answer after a quiet spell can take up to a minute.
+              </p>
+            )}
+          </div>
+        </div>
+      )}
+
+      {status === "error" && error && (
+        <div className="mt-3 rounded-xl border border-danger/50 bg-danger/10 p-3" role="alert">
+          <p className="text-sm text-text">{error}</p>
+          <button
+            onClick={requestMarking}
+            className="mt-2 inline-flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-semibold text-text"
+          >
+            <RotateCcw size={14} strokeWidth={1.5} />
+            Retry
+          </button>
+        </div>
+      )}
+
+      {aiMark && status !== "loading" && (
+        <AiMarkCard result={aiMark.result} stale={answerChanged} />
+      )}
+
+      {!revealed ? null : (
         <div className="mt-4">
           <p className="text-sm font-semibold text-text">Official marking scheme</p>
           <p className="mt-0.5 text-xs text-text-dim">Tick each point your answer covers.</p>
@@ -479,6 +561,95 @@ function WrittenAnswer({
           </button>
         </div>
       )}
+    </div>
+  );
+}
+
+function AiMarkCard({ result, stale }: { result: AiMarkResult; stale: boolean }) {
+  const branches = [...new Set(result.points.map((p) => p.branch))];
+  const branchTotal = (b: number) =>
+    result.points.filter((p) => p.branch === b).reduce((s, p) => s + p.awarded_marks, 0);
+  const counted = branches.reduce((best, b) => (branchTotal(b) > branchTotal(best) ? b : best), branches[0]);
+  const bonusLabel = result.practice_bonus === 1 ? "+1" : `+${formatMarks(result.practice_bonus)}`;
+
+  return (
+    <div className="mt-4 rounded-xl border border-border bg-surface-2 p-4">
+      <div className="flex items-center justify-between">
+        <p className="text-sm font-semibold text-text">AI marking</p>
+        <p className="text-lg font-bold text-text">
+          {formatMarks(result.total_awarded)} / {result.max_marks}
+        </p>
+      </div>
+      {result.practice_bonus > 0 && (
+        <div className="mt-2 flex items-center justify-between rounded-lg bg-success/10 px-3 py-2">
+          <p className="text-xs font-medium text-success">Practice mark (includes {bonusLabel} encouragement)</p>
+          <p className="text-sm font-bold text-success">
+            {formatMarks(result.practice_total)} / {result.max_marks}
+          </p>
+        </div>
+      )}
+      {stale && (
+        <p className="mt-2 text-xs text-warning">You’ve changed your answer since this was marked. Mark it again to update.</p>
+      )}
+
+      {result.feedback && (
+        <p className="mt-3 whitespace-pre-line text-sm text-text">{formatFormula(result.feedback)}</p>
+      )}
+
+      {result.caution_notes.length > 0 && (
+        <div className="mt-3 rounded-lg border border-warning/40 bg-warning/10 p-3">
+          <p className="flex items-center gap-1.5 text-xs font-semibold text-warning">
+            <Lightbulb size={14} strokeWidth={1.5} />
+            Keep this in mind next time
+          </p>
+          <ul className="mt-1.5 list-disc space-y-1 pl-5 text-sm text-text">
+            {result.caution_notes.map((n, i) => (
+              <li key={i}>{formatFormula(n)}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-text-dim">Point by point</p>
+      <ul className="mt-2 flex flex-col gap-2">
+        {result.points.map((p, i) => {
+          const firstOfBranch = i > 0 && p.branch !== result.points[i - 1].branch;
+          const full = p.awarded_marks >= p.max_marks;
+          const none = p.awarded_marks === 0;
+          return (
+            <li key={i}>
+              {firstOfBranch && (
+                <div className="mb-2 flex items-center gap-3 text-xs font-semibold text-text-dim">
+                  <span className="h-px flex-1 bg-border" />
+                  OR
+                  <span className="h-px flex-1 bg-border" />
+                </div>
+              )}
+              <div
+                className={`rounded-lg border p-3 ${
+                  branches.length > 1 && p.branch !== counted ? "border-border opacity-60" : "border-border"
+                }`}
+              >
+                <div className="flex items-start gap-3">
+                  <p className="flex-1 whitespace-pre-line text-sm text-text">{displayText(p.point ?? "(drawn in the official scheme)")}</p>
+                  <span
+                    className={`shrink-0 rounded-lg px-2 py-0.5 text-xs font-semibold ${
+                      full ? "bg-success/15 text-success" : none ? "bg-danger/15 text-danger" : "bg-warning/15 text-warning"
+                    }`}
+                  >
+                    {formatMarks(p.awarded_marks)} / {formatMarks(p.max_marks)}
+                  </span>
+                </div>
+                <p className="mt-1.5 text-xs text-text-dim">{formatFormula(p.reason)}</p>
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+      {branches.length > 1 && (
+        <p className="mt-2 text-xs text-text-dim">Only your best branch of the “OR” choice counts; the other is dimmed.</p>
+      )}
+      <p className="mt-3 text-xs text-text-dim">AI marking is a guide. The official marking scheme is the final word.</p>
     </div>
   );
 }
