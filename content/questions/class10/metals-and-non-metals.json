@@ -2,7 +2,7 @@
   "chapter_id": "metals-and-non-metals",
   "class": "10",
   "topic_file": "content/topics/metals-and-non-metals.json",
-  "source_note": "CBSE Class 10 Science (code 31) board papers with a text layer, 2022–2026. English text only; chemistry questions only. See content-schema.json → cbse_question.",
+  "source_note": "CBSE Class 10 Science (code 31) board papers with a text layer, 2022–2026 (including 2025 main and the 2026 first board exam). English text only; chemistry questions only. See content-schema.json → cbse_question.",
   "questions": [
     {
       "id": "cbse10-2023-main-31B-q1",
@@ -2134,6 +2134,1579 @@
       ]
     },
     {
+      "id": "cbse10-2025-main-31-1-1-q2",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The products formed when Aluminium and Magnesium are burnt in the \npresence of air respectively are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Al3O4 and MgO2"
+        },
+        {
+          "label": "B",
+          "text": "Al2O3 and MgO"
+        },
+        {
+          "label": "C",
+          "text": "Al3O4 and MgO"
+        },
+        {
+          "label": "D",
+          "text": "Al2O3 and MgO2"
+        }
+      ],
+      "correct_option": "B",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-1-1_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/1",
+          "question_no": 2
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-2_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/2",
+          "question_no": 7
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-3_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/3",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/1",
+          "question_no": 2,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/2",
+          "question_no": 7,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/3",
+          "question_no": 6,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-1-1-q5",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Reaction between two elements A and B, forms a compound C. A loses \nelectrons and B gains electrons. Which one of the following properties \nwill not be shown by compound C ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "It has high melting point."
+        },
+        {
+          "label": "B",
+          "text": "It is highly soluble in water."
+        },
+        {
+          "label": "C",
+          "text": "It has weak electrostatic forces of attraction between its oppositely charged ions."
+        },
+        {
+          "label": "D",
+          "text": "It conducts electricity in its molten state or aqueous solution."
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-1-1_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/1",
+          "question_no": 5
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-2_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/2",
+          "question_no": 4
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-3_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/3",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/1",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/2",
+          "question_no": 4,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/3",
+          "question_no": 3,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-1-1-q6",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The metals obtained from their molten chlorides by the process of \nelectrolytic reduction are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gold and silver"
+        },
+        {
+          "label": "B",
+          "text": "Calcium and magnesium"
+        },
+        {
+          "label": "C",
+          "text": "Aluminium and silver"
+        },
+        {
+          "label": "D",
+          "text": "Sodium and iron"
+        }
+      ],
+      "correct_option": "B",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-1-1_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/1",
+          "question_no": 6
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-2_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/2",
+          "question_no": 2
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-3_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/3",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/1",
+          "question_no": 6,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/2",
+          "question_no": 2,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/3",
+          "question_no": 1,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-1-1-q7",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The formation of magnesium oxide is correctly shown in option :",
+      "marks": 1,
+      "type": "mcq",
+      "options": null,
+      "correct_option": "A",
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-1-1_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/1",
+          "question_no": 7
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-2_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/2",
+          "question_no": 1
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-3_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/3",
+          "question_no": 2
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "options are drawings in the PDF and could not be extracted as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/1",
+          "question_no": 7,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/2",
+          "question_no": 1,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/3",
+          "question_no": 2,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-1-1-q27",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "(a) ‘‘Displacement reactions also play a key role in extracting metals\nin the middle of the reactivity series.’’ Justify this statement with\ntwo examples.\n(b) Why can metals high up in the reactivity series not be obtained by\nreduction of their oxides by carbon ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-1-1_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/1",
+          "question_no": 27
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-2_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/2",
+          "question_no": 31
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-3_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/3",
+          "question_no": 33
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a)\n3 𝑀𝑛𝑂2(𝑠) + 4 𝐴𝑙(𝑠) → 3 𝑀𝑛(𝑙) + 2 𝐴𝑙2𝑂3(𝑠) + ℎ𝑒𝑎𝑡",
+          "marks": 1
+        },
+        {
+          "point": "𝐹𝑒2𝑂3(𝑠) + 2 𝐴𝑙(𝑠) → 2 𝐹𝑒(𝑙) + 𝐴𝑙2𝑂3(𝑠) + ℎ𝑒𝑎𝑡",
+          "marks": 1
+        },
+        {
+          "point": "(Award marks if explained through statement or any other\nreactions.)\n(b)\nMetals towards the top of the reactivity series (Na, Mg, Ca) have\nmore affinity for oxygen than carbon.",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ",
+      "marking_points_variants": [
+        {
+          "set_code": "31/1/1",
+          "question_no": 27,
+          "marking_points": [
+            {
+              "point": "(a)\n3 𝑀𝑛𝑂2(𝑠) + 4 𝐴𝑙(𝑠) → 3 𝑀𝑛(𝑙) + 2 𝐴𝑙2𝑂3(𝑠) + ℎ𝑒𝑎𝑡",
+              "marks": 1
+            },
+            {
+              "point": "𝐹𝑒2𝑂3(𝑠) + 2 𝐴𝑙(𝑠) → 2 𝐹𝑒(𝑙) + 𝐴𝑙2𝑂3(𝑠) + ℎ𝑒𝑎𝑡",
+              "marks": 1
+            },
+            {
+              "point": "(Award marks if explained through statement or any other\nreactions.)\n(b)\nMetals towards the top of the reactivity series (Na, Mg, Ca) have\nmore affinity for oxygen than carbon.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "set_code": "31/1/2",
+          "question_no": 31,
+          "marking_points": [
+            {
+              "point": "(a)\n3 𝑀𝑛𝑂2(𝑠) + 4 𝐴𝑙(𝑠) → 3 𝑀𝑛(𝑙) + 2 𝐴𝑙2𝑂3(𝑠) + ℎ𝑒𝑎𝑡",
+              "marks": 1
+            },
+            {
+              "point": "𝐹𝑒2𝑂3(𝑠) + 2 𝐴𝑙(𝑠) → 2 𝐹𝑒(𝑙) + 𝐴𝑙2𝑂3(𝑠) + ℎ𝑒𝑎𝑡",
+              "marks": 1
+            },
+            {
+              "point": "(Award marks if explained through statement or any other\nreaction)\n(b)\nMetals towards the top of the reactivity series (Na, Mg, Ca) have more\naffinity for oxygen than carbon.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "set_code": "31/1/3",
+          "question_no": 33,
+          "marking_points": [
+            {
+              "point": "(a)\n3 𝑀𝑛𝑂2(𝑠) + 4 𝐴𝑙(𝑠) → 3 𝑀𝑛(𝑙) + 2 𝐴𝑙2𝑂3(𝑠) + ℎ𝑒𝑎𝑡",
+              "marks": 1
+            },
+            {
+              "point": "𝐹𝑒2𝑂3(𝑠) + 2 𝐴𝑙(𝑠) → 2 𝐹𝑒(𝑙) + 𝐴𝑙2𝑂3(𝑠) + ℎ𝑒𝑎𝑡",
+              "marks": 1
+            },
+            {
+              "point": "(Award marks if explained through statement)\n(b)\nMetals towards the top of the reactivity series (Na, Mg, Ca) have more\naffinity for oxygen than carbon.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/1",
+          "question_no": 27,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/2",
+          "question_no": 31,
+          "pages": [
+            19,
+            19
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/3",
+          "question_no": 33,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-1-1-q28",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "(a) With the help of an activity, explain the conditions under which\niron articles get rusted.\nOR\n(b) (i) Name two metals which react violently with cold water. List\nany three observations which a student notes when these\nmetal are dropped in a beaker containing water.\n(ii) Write a test to identify the gas evolved (if any) during the\nreaction of these metals with water.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-1-1_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/1",
+          "question_no": 28
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-2_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/2",
+          "question_no": 30
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-1-3_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/3",
+          "question_no": 32
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a)\n➢ Take three test tubes and place clean iron nails in each of\nthem.\n➢ Label these test tubes A, B and C.\n➢ Pour some water in test tube A and cork it.\n➢ Pour boiled distilled water in test tube B, add about 1 mL of\noil and cork it. The oil will float on water and prevent the air\nfrom dissolving in the water.\n➢ Put some anhydrous calcium chloride in test tube C and cork\nit. Anhydrous calcium chloride will absorb the moisture, if\nany, from the air.\nIron nails rust in test tube A, but they do not rust in test tubes B\nand C.\nRusting of iron takes place when exposed to both air and water.\n/\nIron nails rust in test tube A, but they do not rust in test tubes B\nand C.\nRusting of iron takes place when exposed to both air and water.\n(Note: if a student explains activity through description or through\nlabelled diagram, award full marks.)",
+          "marks": 3
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)\n• Sodium, Potassium, Lithium",
+          "marks": 1.0
+        },
+        {
+          "point": "(any two)\n• Observations:\n➢ A violent reaction occurs.\n➢ Large amount of heat is evolved.",
+          "marks": 1.5
+        },
+        {
+          "point": "➢ Evolved gas may catch fire.\n(ii) The gas (bubbles) burns with a pop sound",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/1",
+          "question_no": 28,
+          "pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/2",
+          "question_no": 30,
+          "pages": [
+            18,
+            19
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/3",
+          "question_no": 32,
+          "pages": [
+            30,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-1-q4",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Aluminium powder is used in thermit welding because :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Its reaction with iron is highly exothermic."
+        },
+        {
+          "label": "B",
+          "text": "When it is heated with iron (III) oxide, molten iron is obtained."
+        },
+        {
+          "label": "C",
+          "text": "When it is heated with iron (III) oxide, molten aluminium oxide is obtained to join railway tracks."
+        },
+        {
+          "label": "D",
+          "text": "Its melting point is low as compared to iron and a molten alloy of iron and aluminium is formed on heating which is used to join railway tracks."
+        }
+      ],
+      "correct_option": "B",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-1_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/1",
+          "question_no": 4
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-2-2_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/2",
+          "question_no": 2
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-2-3_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/3",
+          "question_no": 5
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 2,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 5,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-1-q5",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Two metals zinc and tin are dissolved separately in definite proportions \nin molten copper (the primary metal) to obtain two different alloys \nrespectively known as :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bronze and Brass"
+        },
+        {
+          "label": "B",
+          "text": "Brass and Solder"
+        },
+        {
+          "label": "C",
+          "text": "Brass and Bronze"
+        },
+        {
+          "label": "D",
+          "text": "Solder and Bronze"
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-1_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/1",
+          "question_no": 5
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-2-2_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/2",
+          "question_no": 4
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-2-3_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/3",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 4,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 4,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-1-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Assertion (A) : The metals high up in the reactivity series cannot be\nobtained from their compounds by heating with carbon.\nReason (R) : Displacement reactions can also be used to obtain metal.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": "B",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-1_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/1",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 17,
+          "pages": [
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-1-q28",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Write the electron-dot structures of (i) sodium, and (ii) oxygen. Using\nthese structures, show the formation of sodium oxide. Mark the anion\nand cation present in this compound.\n(At. No. – Sodium = 11 and Oxygen = 8)",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-1_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/1",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "Na O\n2, 8, 1 2, 6\n(i)\n(ii) ",
+          "marks": 0.5
+        },
+        {
+          "point": "O :\n• Formation of sodium oxide Na2O",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "Anion: O 2-\n+",
+          "marks": 0.5
+        },
+        {
+          "point": "Cation: Na",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 28,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-2-q28",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Study the experimental set-up given in the figure and answer the\nfollowing questions :\n(a) Identify these metals from the following which can be used as\n‘‘metal sample’’ in the given set-up :\nAluminium, Copper, Iron, Lead, Silver\n(b) Write balanced chemical equations for the reaction in each case.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-2_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/2",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) Aluminium (Al) and Iron (Fe)",
+          "marks": 1.0
+        },
+        {
+          "point": "(b)\n• 2Al + 3H2O(g) ⎯⎯→Al2O3 + 3H2",
+          "marks": 1
+        },
+        {
+          "point": "• 3Fe + 4H2O(g) ⎯⎯→Fe3O4 + 4H2",
+          "marks": 1
+        }
+      ],
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 28,
+          "pages": [
+            16,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-3-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Assertion (A) : Ductility is that property of metals which enables copper\nto be used in making cooking utensils.\nReason (R) : Copper is a metal which is ductile as well as malleable.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-3_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/3",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 17,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-3-q28",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Two substances ‘A’ and ‘B’ are burnt in air separately. For ‘A’, ashes are\ncollected and dissolved in water to get solution ‘X’, while for ‘B’, fumes\nproduced are passed through water to get solution ‘Y’. Both the solutions\n‘X’ and ‘Y’ are then tested with pH paper.\n(a) If ‘X’ gives light blue colour and ‘Y’ gives orange colour to the pH\npaper, then write the nature and range of pH of ‘X’ and ‘Y’.\n(b) Which one of the  two – A and B, is a metal ? Justify your answer.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-3_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) X – Basic Y–Acidic\n \npH range 9 – 11 pH range 4 – 6",
+          "marks": 2.0
+        },
+        {
+          "point": "(b) ‘A’ – metal, because it forms basic oxide.",
+          "marks": 1.0
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 28,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-3-1-q3",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The most common method of extraction of metals from their oxide ores \nis :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Reduction with carbon"
+        },
+        {
+          "label": "B",
+          "text": "Reduction with hydrogen"
+        },
+        {
+          "label": "C",
+          "text": "Reduction with aluminium"
+        },
+        {
+          "label": "D",
+          "text": "Electrolytic reduction"
+        }
+      ],
+      "correct_option": "A",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-3-1_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/1",
+          "question_no": 3
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-3-3_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/3",
+          "question_no": 1
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/1",
+          "question_no": 3,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/3",
+          "question_no": 1,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-3-1-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Assertion (A) : Hydrogen gas is not evolved when a metal reacts with\nnitric acid.\nReason (R) : Nitric acid is a strong reducing agent and reduces the\nhydrogen produced in the reaction to water.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-3-1_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/1",
+          "question_no": 17
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-3-2_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/2",
+          "question_no": 19
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/1",
+          "question_no": 17,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/2",
+          "question_no": 19,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-3-1-q27",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "(a) What is a reactivity series of elements ? How is it developed ?\nArrange the following elements as they are arranged in the\nreactivity series :\nAluminum,  Calcium,  Copper,  Lead\n(b) Write balanced chemical equation to show the reaction of\niron (III) oxide (Fe2O3) with aluminium.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-3-1_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/1",
+          "question_no": 27
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) • A series of metals arranged in the order of their\ndecreasing reactivity/ activity.",
+          "marks": 0.5
+        },
+        {
+          "point": "• By performing displacement reactions",
+          "marks": 0.5
+        },
+        {
+          "point": "• Calcium, Aluminium, Lead, Copper",
+          "marks": 1
+        },
+        {
+          "point": "(b) Fe O + 2 Al 2 3 ⎯⎯→ Al O + 2 Fe + Heat 2 3",
+          "marks": 1
+        }
+      ],
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/1",
+          "question_no": 27,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-3-1-q34",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "(a) (i) Consider the following metals :\nK, Ca, Al, Cu, Ag, Fe\nSelect from the above metals, a metal which\nI. does not react with oxygen even at high temperature.\nII. reacts with oxygen at ordinary temperature and\nforms a protective oxide layer which prevents the\nmetal from further oxidation.\nIII. catches fire when kept in the open.\nIV. does not burn in oxygen but the hot metal is coated\nwith a black coloured oxide layer.\n(ii) What are amphoteric oxides ? With the help of balanced\nchemical equations show that aluminium oxide is an\namphoteric oxide.\n(iii) What are alkalis ? Give one example.\nOR\n(b) (i) With the help of balanced chemical equations state the\nprocess of extracting (I) mercury from its ore called cinnabar,\nand (II) copper from its sulphide ore.\n(ii) Silver and copper articles slowly lose their shiny surfaces\nwhen exposed to air. Name the compounds formed on\n(I) silver articles, and (II) copper articles in the form of\ncoating.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-3-1_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/1",
+          "question_no": 34
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-3-2_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/2",
+          "question_no": 35
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-3-3_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/3",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) (i) (I) Ag,",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Al,",
+          "marks": 1.0
+        },
+        {
+          "point": "(III) K,",
+          "marks": 0.5
+        },
+        {
+          "point": "(IV) Cu\n(ii) Metal oxides which react with both acids as well as\nbases to produce salts and water are called amphoteric oxides.",
+          "marks": 1
+        },
+        {
+          "point": "Al O + 6 HCl 2 3 ⎯⎯⎯ → 2 AlCl + 3 H O 3 2",
+          "marks": 0.5
+        },
+        {
+          "point": "Al O + 2 NaOH 2 3 ⎯⎯⎯ → 2 NaAlO + H O 2 2",
+          "marks": 0.5
+        },
+        {
+          "point": "(Do not deduct marks if equation is not balanced)\n(iii) Water soluble bases are called Alkalis.",
+          "marks": 0.5
+        },
+        {
+          "point": "NaOH / KOH /\nSodium Hydroxide / Potassium Hydroxide\n(any one)",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)\n(I) 2 HgS(s) + 3 O (g) 2 ⎯⎯⎯⎯ Heat → 2 HgO(s) + 2 SO (s) 2\ncinnabar) (",
+          "marks": 1
+        },
+        {
+          "point": "2 HgO(s) ⎯⎯⎯⎯ Heat → 2 Hg( ) + O (g) l 2",
+          "marks": 1
+        },
+        {
+          "point": "(II)\n2 CuS + 3 O (g) 2 ⎯⎯⎯⎯ Heat → 2 Cu O(s) + 2 SO (g) 2 2",
+          "marks": 1
+        },
+        {
+          "point": "2 Cu O + Cu S 2 2 ⎯⎯⎯⎯ Heat → 6 Cu(s) + SO (g) 2\n(Deduct half mark each for unbalanced equation)",
+          "marks": 1
+        },
+        {
+          "point": "(ii)\n(I) Silver sulphide /Ag2S",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Basic Copper carbonate/ Cu(OH)2. CuCO3",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "marking_points_variants": [
+        {
+          "set_code": "31/3/1",
+          "question_no": 34,
+          "marking_points": [
+            {
+              "point": "(a) (i) (I) Ag,",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Al,",
+              "marks": 1.0
+            },
+            {
+              "point": "(III) K,",
+              "marks": 0.5
+            },
+            {
+              "point": "(IV) Cu\n(ii) Metal oxides which react with both acids as well as\nbases to produce salts and water are called amphoteric oxides.",
+              "marks": 1
+            },
+            {
+              "point": "Al O + 6 HCl 2 3 ⎯⎯⎯ → 2 AlCl + 3 H O 3 2",
+              "marks": 0.5
+            },
+            {
+              "point": "Al O + 2 NaOH 2 3 ⎯⎯⎯ → 2 NaAlO + H O 2 2",
+              "marks": 0.5
+            },
+            {
+              "point": "(Do not deduct marks if equation is not balanced)\n(iii) Water soluble bases are called Alkalis.",
+              "marks": 0.5
+            },
+            {
+              "point": "NaOH / KOH /\nSodium Hydroxide / Potassium Hydroxide\n(any one)",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i)\n(I) 2 HgS(s) + 3 O (g) 2 ⎯⎯⎯⎯ Heat → 2 HgO(s) + 2 SO (s) 2\ncinnabar) (",
+              "marks": 1
+            },
+            {
+              "point": "2 HgO(s) ⎯⎯⎯⎯ Heat → 2 Hg( ) + O (g) l 2",
+              "marks": 1
+            },
+            {
+              "point": "(II)\n2 CuS + 3 O (g) 2 ⎯⎯⎯⎯ Heat → 2 Cu O(s) + 2 SO (g) 2 2",
+              "marks": 1
+            },
+            {
+              "point": "2 Cu O + Cu S 2 2 ⎯⎯⎯⎯ Heat → 6 Cu(s) + SO (g) 2\n(Deduct half mark each for unbalanced equation)",
+              "marks": 1
+            },
+            {
+              "point": "(ii)\n(I) Silver sulphide /Ag2S",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Basic Copper carbonate/ Cu(OH)2. CuCO3",
+              "marks": 0.5
+            }
+          ]
+        },
+        {
+          "set_code": "31/3/2",
+          "question_no": 35,
+          "marking_points": [
+            {
+              "point": "(a) (i) (I) Ag,",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Al,",
+              "marks": 0.5
+            },
+            {
+              "point": "(III) K,",
+              "marks": 0.5
+            },
+            {
+              "point": "(IV) Cu",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii) Metal oxides which react with both acids as well as\nbases to produce salts and water are called amphoteric\noxides.",
+              "marks": 1
+            },
+            {
+              "point": "Al O + 6 HCl 2 3 ⎯⎯⎯ → 2 AlCl + 3 H O 3 2",
+              "marks": 0.5
+            },
+            {
+              "point": "Al O + 2 NaOH 2 3 ⎯⎯⎯ → 2 NaAlO + H O 2 2",
+              "marks": 0.5
+            },
+            {
+              "point": "(Do not deduct marks if equation is not balanced)\n(iii) Water soluble bases are called Alkalis.",
+              "marks": 0.5
+            },
+            {
+              "point": "NaOH/KOH\nSodium Hydroxide / Potassium Hydroxide\n(any one)",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i)\n(I)\n2 HgS(s) + 3 O (g) 2 ⎯⎯⎯⎯→ Heat 2 HgO(s) + 2 SO (s) 2\ncinnabar) (",
+              "marks": 1
+            },
+            {
+              "point": "2 HgO(s) ⎯⎯⎯⎯→ Heat 2 Hg( ) + O (g) l 2",
+              "marks": 1
+            },
+            {
+              "point": "(II)\n2 CuS + 3 O (g) 2 ⎯⎯⎯⎯→ Heat 2 Cu O(s) + 2 SO (g) 2 2",
+              "marks": 1
+            },
+            {
+              "point": "2 Cu O + Cu S 2 2 ⎯⎯⎯⎯→ Heat 6 Cu(s) + SO (g) 2",
+              "marks": 1
+            },
+            {
+              "point": "(Deduct half mark each for unbalanced equation)\n(ii)\n(I) Silver sulphide /Ag2S",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Basic Copper carbonate/Cu(OH)2. CuCO3",
+              "marks": 0.5
+            }
+          ]
+        },
+        {
+          "set_code": "31/3/3",
+          "question_no": 34,
+          "marking_points": [
+            {
+              "point": "(a) (i) (I) Ag,",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Al,",
+              "marks": 0.5
+            },
+            {
+              "point": "(III) K,",
+              "marks": 0.5
+            },
+            {
+              "point": "(IV) Cu",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii) Metal oxides which react with both acids as well as\nbases to produce salts and water are called amphoteric\noxides.",
+              "marks": 1
+            },
+            {
+              "point": null,
+              "marks": 0.5
+            },
+            {
+              "point": "Al O + 2 NaOH Al O + 6 HCl 2 2 3 3 ⎯⎯⎯ ⎯⎯⎯ → 2 AlCl + 3 H O → 2 NaAlO + H O 3 2 2 2",
+              "marks": 0.5
+            },
+            {
+              "point": "(Do not deduct marks if equation is not balanced)\n(iii) Water soluble bases are called Alkalis.",
+              "marks": 0.5
+            },
+            {
+              "point": "NaOH / KOH\n(Sodium Hydroxide) / (Potassium Hydroxide)\n(any one)",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i)\n(I)\n2 HgS(s) + 3 O (g) 2 ⎯⎯⎯⎯→ Heat 2 HgO(s) + 2 SO (s) 2\ncinnabar) (",
+              "marks": 1
+            },
+            {
+              "point": "2 HgO(s) ⎯⎯⎯⎯→ Heat 2 Hg( ) + O (g) l 2",
+              "marks": 1
+            },
+            {
+              "point": "(II)\n2 CuS + 3 O (g) 2 ⎯⎯⎯⎯→ Heat 2 Cu O(s) + 2 SO (g) 2 2",
+              "marks": 1
+            },
+            {
+              "point": "2 Cu O + Cu S 2 2 ⎯⎯⎯⎯→ Heat 6 Cu(s) + SO (g) 2\n(Deduct half mark each for unbalanced equation)\n(ii)\n(I) Silver sulphide /Ag2S",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Basic Copper carbonate/Cu(OH)2. CuCO3",
+              "marks": 0.5
+            }
+          ]
+        }
+      ],
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/1",
+          "question_no": 34,
+          "pages": [
+            7,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/2",
+          "question_no": 35,
+          "pages": [
+            20,
+            21
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/3",
+          "question_no": 34,
+          "pages": [
+            30,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-3-3-q17",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Assertion (A) : Brass is prepared by first melting copper and then\ndissolving tin into it in a definite proportion.\nReason (R) : The primary metal of brass is copper.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-3-3_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/3",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/3",
+          "question_no": 17,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
+    },
+    {
       "id": "cbse10-2025-supp-31-S-1-q3",
       "class": "10",
       "chapter_id": "metals-and-non-metals",
@@ -2566,6 +4139,1874 @@
           "pages": [
             5,
             5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31B-q20",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which one of the following non-metals exists as liquid at room \ntemperature ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bromine"
+        },
+        {
+          "label": "B",
+          "text": "Sulphur"
+        },
+        {
+          "label": "C",
+          "text": "Iodine"
+        },
+        {
+          "label": "D",
+          "text": "Chlorine"
+        }
+      ],
+      "correct_option": "A",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31(B)-Science for V.I..pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31(B)",
+          "question_no": 20
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_31.B (Blind) in ENGLISH.pdf",
+          "set_code": "31(B)",
+          "question_no": 20,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31B-q21",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which one among the following alloys has mercury as one of its \nconstituents ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Stainless steel"
+        },
+        {
+          "label": "B",
+          "text": "Brass"
+        },
+        {
+          "label": "C",
+          "text": "Zinc amalgam"
+        },
+        {
+          "label": "D",
+          "text": "Bronze"
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31(B)-Science for V.I..pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31(B)",
+          "question_no": 21
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_31.B (Blind) in ENGLISH.pdf",
+          "set_code": "31(B)",
+          "question_no": 21,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31B-q28",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Read the following passage and answer the questions that\nfollow :\nWhen metals are burnt in air, they form oxides. Metal oxides\nare generally basic in nature. But some metal oxides show\nboth acidic as well as basic behaviour. Most metal oxides are\ninsoluble in water, but some of these dissolve in water to form\nalkalis. Different metals show different reactivities towards\noxygen. Metals such as sodium and potassium react vigorously\nwhereas metals like silver and gold do not react with oxygen\neven at high temperature.\n(a) Why are metals like sodium and potassium kept\nimmersed in kerosene oil ?\n(b) Why does copper metal turn black on heating ?\n(c) (i) What are the amphoteric oxides ? Give two\nexamples.\nOR\n(c) (ii) (I) Name a water soluble metal oxide. Write the\nchemical equation for its reaction with water.\n(II) Why do silver and gold not react with oxygen\neven at high temperature ?",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31(B)-Science for V.I..pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31(B)",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a)Because of their high reactivity they react vigorously with air and water and\ncatch fire if kept in open.",
+          "marks": 1
+        },
+        {
+          "point": "(b)Copper combines with oxygen to form CuO or Copper (II) Oxide, a black\noxide/ 2𝐶𝑢(𝑠) +O2→2𝐶𝑢𝑂(𝑠)",
+          "marks": 1
+        },
+        {
+          "point": "(c) (i) Oxides which react with both acid and base to produce salt and water/\nmetal oxide which shows both acidic as well as basic behaviour.",
+          "marks": 1
+        },
+        {
+          "point": "Examples: Al2O3, ZnO",
+          "marks": 1.0
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "MS-Science (VI)/086/31B 7 10-B-86K\n(c) (ii) (I)\n• Na2O/K2O/CaO/Sodium oxide /Potassium oxide/Calcium oxide",
+          "marks": 0.5
+        },
+        {
+          "point": "• Na2O+H2O 2NaOH / K2O+H2O 2KOH /",
+          "marks": 1
+        },
+        {
+          "point": "CaO+H2O Ca(OH)2\n(II) Because of the least reactive nature of silver and gold.",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] a scheme equation reads without a reaction arrow (arrow not in the text layer)",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_31.B (Blind) in ENGLISH.pdf",
+          "set_code": "31(B)",
+          "question_no": 28,
+          "pages": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-2-1-q20",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "When Mg metal is treated with hot water, it starts floating on the surface \nof the water. The reason for its different behaviour is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mg is a lighter element than water."
+        },
+        {
+          "label": "B",
+          "text": "Mg reacts with water to produce H2 gas which helps in floating."
+        },
+        {
+          "label": "C",
+          "text": "Mg reacts with water to produce N2 gas which helps in floating."
+        },
+        {
+          "label": "D",
+          "text": "Mg reacts with water to form CO2 gas which helps in floating."
+        }
+      ],
+      "correct_option": "B",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/1",
+          "question_no": 20
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/2",
+          "question_no": 21
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/3",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/1",
+          "question_no": 20,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/2",
+          "question_no": 21,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/3",
+          "question_no": 23,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-2-1-q25",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Read the following passage and answer the questions that follow :\nOne student was comparing the reactivity of different metals for his\nscience project. He added iron filings in four test tubes A, B, C and D\ncontaining aqueous solutions of  ZnSO4, CuSO4, FeSO4 and Al2(SO4)3.\n(i) In which of the test tubes will he observe the reaction to be the\nmost vigorous and why ?\n(ii) Write a balanced equation for the reaction involved.",
+      "marks": 2,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/1",
+          "question_no": 25
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(i)\n• Test tube B",
+          "marks": 0.5
+        },
+        {
+          "point": "• Iron is more reactive than copper, so iron can displace copper",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) from copper sulphate solution. Fe(s) + CuSO4 (aq)→FeSO4 (aq)+Cu (s)",
+          "marks": 1
+        }
+      ],
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/1",
+          "question_no": 25,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-2-1-q26",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Attempt either (a) or (b) :\n(a) (i) Write one example each of one metal that is so soft that it\ncan be cut with a knife, and one non-metal that is a good\nconductor of electricity.\n(ii) Using the electronic configuration, explain how Mg atom\ncombines with oxygen to form magnesium oxide by transfer\nof electrons. [Atomic number : Mg = 12, O = 8]\nOR\n(b) Give reasons :\n(i) Metal sulphides and carbonates should be converted to their\nmetal oxides in the process of extraction of metals.\n(ii) Aluminium oxide is considered as an amphoteric oxide.\n(iii) Metals like Na, K, Ca and Mg are never found in their free\nstate in nature.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/1",
+          "question_no": 26
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/2",
+          "question_no": 27
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/3",
+          "question_no": 26
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a)\n(i)\n• Lithium(Li) / Sodium(Na) / Potassium(K) (anyone)",
+          "marks": 0.5
+        },
+        {
+          "point": "• Graphite",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii)",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n(i) It is easier to obtain metal from its metal oxide / It is easier to\nreduce metal oxide to metal.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) Aluminium Oxide can react with both acids as well as bases to\nform salt and water.\n/",
+          "marks": 1
+        },
+        {
+          "point": "(iii)As they are highly reactive metals so exist in combined state.",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "marking_points_variants": [
+        {
+          "set_code": "31/2/1",
+          "question_no": 26,
+          "marking_points": [
+            {
+              "point": "(a) (i)\n• Lithium (Li) / Sodium (Na) / Potassium (K) (anyone)",
+              "marks": 0.5
+            },
+            {
+              "point": "• Graphite",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii)",
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b)(i) It is easier to obtain metal from its metal oxide / It is easier to\nreduce metal oxide to metal.",
+              "marks": 1
+            },
+            {
+              "point": "(ii) Aluminium oxide can react with both acids as well as bases to\nform salt and water.\n/",
+              "marks": 1
+            },
+            {
+              "point": "(iii) As they are highly reactive metals so exist in combined state.",
+              "marks": 4
+            }
+          ]
+        },
+        {
+          "set_code": "31/2/2",
+          "question_no": 27,
+          "marking_points": [
+            {
+              "point": "(a)\n(i)\n• Lithium(Li) / Sodium(Na) / Potassium(K) (anyone)",
+              "marks": 0.5
+            },
+            {
+              "point": "• Graphite",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii)",
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b)\n(i) It is easier to obtain metal from its metal oxide / It is easier to\nreduce metal oxide to metal.",
+              "marks": 1
+            },
+            {
+              "point": "(ii) Aluminium Oxide can react with both acids as well as bases to\nform salt and water.\n/",
+              "marks": 1
+            },
+            {
+              "point": "(iii)As they are highly reactive metals so exist in combined state.",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "set_code": "31/2/3",
+          "question_no": 26,
+          "marking_points": [
+            {
+              "point": "(a) (i)\n• Lithium (Li) / Sodium (Na) / Potassium (K) (anyone)",
+              "marks": 0.5
+            },
+            {
+              "point": "• Graphite",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii)",
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b)(i) It is easier to obtain metal from its metal oxide / It is easier to reduce\nmetal oxide to metal.",
+              "marks": 1
+            },
+            {
+              "point": "(ii) Aluminium oxide can react with both acids as well as bases to form\nsalt and water.\n/",
+              "marks": 1
+            },
+            {
+              "point": "(iii) As they are highly reactive metals so exist in combined state.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/2",
+          "question_no": 27,
+          "pages": [
+            16,
+            16
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/1",
+          "question_no": 26,
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/3",
+          "question_no": 26,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-2-2-q26",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Answer the following :\n(a) Why can the oxides of highly reactive metals not be reduced by\ncarbon ?\n(b) Why do ionic compounds have high melting and boiling points ?\n(c) Why is a solder, an alloy of lead and tin, used for welding electrical\nwires together ?",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/2",
+          "question_no": 26
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a)Highly reactive metals have more affinity for oxygen than\ncarbon.",
+          "marks": 1
+        },
+        {
+          "point": "(b)Because a considerable amount of energy is required to break\nthe strong inter-ionic attraction /Because of strong forces of\nattraction between oppositely charged ions.",
+          "marks": 1
+        },
+        {
+          "point": "(c) Because of its low melting point.",
+          "marks": 1
+        }
+      ],
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/2",
+          "question_no": 26,
+          "pages": [
+            16,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-2-3-q25",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Write balanced equations for the reactions of the following :\n(a) Iron with steam\n(b) Calcium with water",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/3",
+          "question_no": 25
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) 3Fe(s) + 4H2O(g) → Fe3O4(s) + 4H2(g)",
+          "marks": 1
+        },
+        {
+          "point": "(b) Ca(s) + 2H2O(l) → Ca(OH)2(aq) + H2(g)\n(Deduct ½ mark for no/incorrect balancing in each case)",
+          "marks": 1
+        }
+      ],
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/3",
+          "question_no": 25,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-3-1-q21",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "The reaction of calcium with cold water is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Less violent, but the heat evolved is sufficient for the hydrogen to catch fire."
+        },
+        {
+          "label": "B",
+          "text": "Very violent and exothermic and hydrogen catches fire."
+        },
+        {
+          "label": "C",
+          "text": "Exothermic, but the heat evolved is not sufficient for the hydrogen to catch fire."
+        },
+        {
+          "label": "D",
+          "text": "Slow and endothermic."
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/1",
+          "question_no": 21
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/2",
+          "question_no": 19
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/3",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/1",
+          "question_no": 21,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/2",
+          "question_no": 19,
+          "pages": [
+            16,
+            16
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/3",
+          "question_no": 22,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-3-1-q25",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Show the formation of the following ionic compounds by transfer of\nelectrons between the combining atoms :\n(i) Sodium oxide (Na2O)\n(ii) Magnesium chloride (MgCl2)\n(Given : Atomic number : Na = 11, Mg = 12, O = 8, Cl = 17)",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/1",
+          "question_no": 25
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(i)",
+          "marks": 1
+        },
+        {
+          "point": "(ii)",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/1",
+          "question_no": 25,
+          "pages": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-3-1-q28",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Read the following passage and answer the questions that follow :\nAn electrochemical process is used for refining metals by selectively\ndissolving and depositing them through electrolysis. Electrolytic refining\nis used for metals like Copper, Zinc, Tin, Nickel, Silver and Gold.\n(a) Define anode mud.\n(b) In electrolytic refining of copper, name the anode and the cathode.\n(c) (i) With the help of chemical equations, show the extraction of\ncopper from its ore Cu2S.\nOR\n(c) (ii) Draw a neat and labelled diagram showing electrolytic\nrefining of copper.",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/1",
+          "question_no": 28
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/2",
+          "question_no": 28
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) During electrolytic refining of a metal, the insoluble impurities\nwhich settle down at the bottom of the anode is called anode mud.",
+          "marks": 1
+        },
+        {
+          "point": "(b) Anode: Impure copper rod",
+          "marks": 0.5
+        },
+        {
+          "point": "Cathode: Pure copper strip",
+          "marks": 0.5
+        },
+        {
+          "point": "(c) (i) 2Cu2S + 3O2(g) heat → 2Cu2O (s) + 2SO2(g)",
+          "marks": 1
+        },
+        {
+          "point": "2Cu2O + Cu2S heat → 6Cu(s) + SO2(g)",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(c) (ii)",
+          "marks": 2
+        },
+        {
+          "point": "(Diagram- 1 mark, Labelling-1 mark)",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/1",
+          "question_no": 28,
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/2",
+          "question_no": 28,
+          "pages": [
+            17,
+            17
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/3",
+          "question_no": 28,
+          "pages": [
+            28,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-3-2-q25",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Comment on the following properties of ionic compounds and give reason\nin support of your answer :\n(i) Physical nature\n(ii) Melting and boiling points",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/2",
+          "question_no": 25
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(i) Hard and brittle solid because of strong force of attraction between\npositive and negative ions.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) High melting and boiling point because a considerable amount of\nenergy is required to break the strong inter-ionic attraction.",
+          "marks": 1
+        }
+      ],
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/2",
+          "question_no": 25,
+          "pages": [
+            16,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-3-3-q25",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Show the formation of NaCl by transfer of electrons. Why does solid NaCl\nnot conduct electricity ? [Atomic number : Na = 11, Cl = 17]",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/3",
+          "question_no": 25
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "• Because the movement of ions in solid NaCl is not possible due to\nits rigid structure.",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/3",
+          "question_no": 25,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-4-1-q21",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which one of the following metals does not react with cold water ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sodium"
+        },
+        {
+          "label": "B",
+          "text": "Potassium"
+        },
+        {
+          "label": "C",
+          "text": "Calcium"
+        },
+        {
+          "label": "D",
+          "text": "Magnesium"
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-1_31-4-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/1",
+          "question_no": 21
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-3_31-4-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/3",
+          "question_no": 19
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/1",
+          "question_no": 21,
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/3",
+          "question_no": 19,
+          "pages": [
+            30,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-4-1-q22",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Alloys are homogeneous mixture of metal with a metal or non-metal. \nWhich among the following alloys contain non-metal as one of its \nconstituents ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Brass"
+        },
+        {
+          "label": "B",
+          "text": "Bronze"
+        },
+        {
+          "label": "C",
+          "text": "Amalgam"
+        },
+        {
+          "label": "D",
+          "text": "Steel"
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-1_31-4-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/1",
+          "question_no": 22
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-2_31-4-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/2",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/1",
+          "question_no": 22,
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/2",
+          "question_no": 23,
+          "pages": [
+            19,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-4-1-q27",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Attempt either option (A) or (B).\n(A) (i) Which method will be used to convert each of them to their\nrespective metal oxides ?\n(a) Carbonate ore (b)     Sulphide ore\n{ }\n(ii) Write a chemical reaction to illustrate the use of aluminium for\njoining cracked railway tracks.\n(iii) During extraction of metals, electrolytic refining is used to\nobtain pure metals. Which material will be used as anode and\ncathode for the refining of copper metal by this process ?\nOR\n(B) (i) Write all the reactions involved in the extraction of Zn from\nZnS.\n(ii) Hydrogen gas is not evolved when most of the metals react with\nnitric acid. Give reason.",
+      "marks": 3,
+      "type": "short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-1_31-4-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/1",
+          "question_no": 27
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-2_31-4-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/2",
+          "question_no": 27
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-3_31-4-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/3",
+          "question_no": 26
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(A)\n(i) (a) Carbonate ore: Calcination",
+          "marks": 0.5
+        },
+        {
+          "point": "(b) Sulphide ore : Roasting",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii)",
+          "marks": 1
+        },
+        {
+          "point": "(iii)\n• Anode: Impure copper rod.",
+          "marks": 0.5
+        },
+        {
+          "point": "• Cathode: Pure copper strip.",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(B)\n(i)",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "(ii) water. Nitric acid is a strong oxidising agent and oxidises H2 gas produced to",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "marking_points_variants": [
+        {
+          "set_code": "31/4/1",
+          "question_no": 27,
+          "marking_points": [
+            {
+              "point": "(A)\n(i) (a) Carbonate ore: Calcination",
+              "marks": 0.5
+            },
+            {
+              "point": "(b) Sulphide ore : Roasting",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii)",
+              "marks": 1
+            },
+            {
+              "point": "(iii)\n• Anode: Impure copper rod.",
+              "marks": 0.5
+            },
+            {
+              "point": "• Cathode: Pure copper strip.",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(B)\n(i)",
+              "marks": 1
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "(ii) water. Nitric acid is a strong oxidising agent and oxidises H2 gas produced to",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "set_code": "31/4/2",
+          "question_no": 27,
+          "marking_points": [
+            {
+              "point": "(A)\n(i) (a) Carbonate ore: Calcination",
+              "marks": 0.5
+            },
+            {
+              "point": "(b) Sulphide ore : Roasting",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii)",
+              "marks": 1
+            },
+            {
+              "point": "(iii)\n• Anode: Impure copper rod.",
+              "marks": 0.5
+            },
+            {
+              "point": "• Cathode: Pure copper strip.",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(B)\n(i)",
+              "marks": 1
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "(ii) water. Nitric acid is a strong oxidising agent and oxidises H2 gas produced to",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "set_code": "31/4/3",
+          "question_no": 26,
+          "marking_points": [
+            {
+              "point": "(A)\n(i) (a) Carbonate ore: Calcination",
+              "marks": 0.5
+            },
+            {
+              "point": "(b) Sulphide ore: Roasting",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii)",
+              "marks": 1
+            },
+            {
+              "point": "(iii)",
+              "marks": 0.5
+            },
+            {
+              "point": "• Anode: Impure copper rod.\n• Cathode: Pure copper strip.",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(B)\n(i)",
+              "marks": 1
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "(ii) Nitric acid is a strong oxidising agent and oxidises H2 gas produced to water.",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/1",
+          "question_no": 27,
+          "pages": [
+            7,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/2",
+          "question_no": 27,
+          "pages": [
+            19,
+            19
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/3",
+          "question_no": 26,
+          "pages": [
+            31,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-4-2-q21",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which one of the following metals neither reacts with cold water nor \nreacts with hot water but reacts with steam ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sodium"
+        },
+        {
+          "label": "B",
+          "text": "Calcium"
+        },
+        {
+          "label": "C",
+          "text": "Iron"
+        },
+        {
+          "label": "D",
+          "text": "Magnesium"
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-2_31-4-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/2",
+          "question_no": 21
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/2",
+          "question_no": 21,
+          "pages": [
+            18,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-4-3-q22",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Solder is an alloy of",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "copper and zinc"
+        },
+        {
+          "label": "B",
+          "text": "lead and zinc"
+        },
+        {
+          "label": "C",
+          "text": "lead and tin"
+        },
+        {
+          "label": "D",
+          "text": "copper and tin"
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-3_31-4-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/3",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/3",
+          "question_no": 22,
+          "pages": [
+            30,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-5-1-q19",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which of the following is an amphoteric oxide ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Na2O"
+        },
+        {
+          "label": "B",
+          "text": "K2O"
+        },
+        {
+          "label": "C",
+          "text": "CO2"
+        },
+        {
+          "label": "D",
+          "text": "Al2O3 { }"
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-1_31-5-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/1",
+          "question_no": 19
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-2_31-5-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/2",
+          "question_no": 18
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-3_31-5-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/3",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/1",
+          "question_no": 19,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/2",
+          "question_no": 18,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/3",
+          "question_no": 17,
+          "pages": [
+            25,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-5-1-q23",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Which gas is evolved when magnesium metal reacts with very dilute \nHNO3 ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Oxygen"
+        },
+        {
+          "label": "B",
+          "text": "Nitrogen"
+        },
+        {
+          "label": "C",
+          "text": "Hydrogen"
+        },
+        {
+          "label": "D",
+          "text": "Nitrogen Dioxide { }"
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-1_31-5-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/1",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/1",
+          "question_no": 23,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-5-1-q29",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Attempt either option (A) or (B) :\n(A) (i) Give reasons for the following :\n(I) Ionic compound have generally high melting points and\nboiling points.\n(II) Solder, an alloy of lead and tin, is used for welding\nelectrical wires.\n(III) Carbon cannot reduce the oxides of Na or Mg.\n(ii) The reaction of compound ‘X’ with aluminium is used to join\nrailway tracks :\n(I) Identify the compound ‘X’.\n(II) Name the reaction.\n(III) Write the balanced chemical equation of the reaction of\ncompound ‘X’ with aluminium.\nOR\n(B) (i) Write the balanced chemical equations when :\n(I) A mixture of Cu2O and Cu2S is heated.\n(II) ZnS is heated in the presence of oxygen.\n(ii) Give reasons for the following :\n(I) The wires carrying current in homes have a coating of\nPVC.\n(II) To make hot water tanks, copper is used and not steel.\n(iii) Show the formation of ionic compound CaO with electron dot\nstructure.\n[Atomic number : Ca = 20, O = 8]\n{ }",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-1_31-5-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/1",
+          "question_no": 29
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-2_31-5-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/2",
+          "question_no": 29
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-3_31-5-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/3",
+          "question_no": 29
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(A)\n(i) (I) A considerable amount of energy is required to break\nstrong inter-ionic attraction.",
+          "marks": 1
+        },
+        {
+          "point": "(II) Solder has low melting point.",
+          "marks": 1
+        },
+        {
+          "point": "(III) Because Na or Mg have more affinity for oxygen\nthan carbon.",
+          "marks": 1
+        },
+        {
+          "point": "(ii) (I) Fe2O3/ Iron (III) oxide",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Thermit reaction",
+          "marks": 0.5
+        },
+        {
+          "point": "(III) Fe2O3(s) + 2Al(s) →2Fe(l) + Al2O3(s) + Ηeat\n(Deduct ½ mark if no/ incorrect balancing)",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(B) (i)\n(I) 2Cu2O + Cu2S →6Cu(s) + SΟ2(g)",
+          "marks": 1
+        },
+        {
+          "point": "(II) 2ZnS(s) + 3Ο2(g) →2ΖnΟ(s) + 2SΟ2(g)",
+          "marks": 1
+        },
+        {
+          "point": "(Deduct ½ mark if no/ incorrect balancing)\n(ii) (I) PVC provides insulation on the current carrying wires.",
+          "marks": 1
+        },
+        {
+          "point": "(II) Copper does not react with cold water, hot water and\nsteam. / Copper is a better conductor than steel.",
+          "marks": 1
+        },
+        {
+          "point": "(iii)",
+          "marks": 1
+        },
+        {
+          "point": "PHYSICS",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/1",
+          "question_no": 29,
+          "pages": [
+            7,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/2",
+          "question_no": 29,
+          "pages": [
+            17,
+            17
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/3",
+          "question_no": 29,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-5-2-q23",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "On reaction with dilute HCl, which of the following pair of metals will \nevolve hydrogen gas ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "copper and zinc"
+        },
+        {
+          "label": "B",
+          "text": "copper and iron"
+        },
+        {
+          "label": "C",
+          "text": "silver and magnesium"
+        },
+        {
+          "label": "D",
+          "text": "magnesium and aluminium { }"
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-2_31-5-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/2",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/2",
+          "question_no": 23,
+          "pages": [
+            15,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-5-3-q19",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Magnesium ribbon burns with a dazzling white flame and changes into a \nwhite powder as shown in the diagram given below : \nThe powder is dissolved in water. \nIdentify the chemical formula of the white powder and the correct change \nobserved when the solution is tested with litmus paper.",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "MgO, turns blue litmus into red."
+        },
+        {
+          "label": "B",
+          "text": "MgO, turns red litmus blue."
+        },
+        {
+          "label": "C",
+          "text": "MgO2, turns red litmus blue."
+        },
+        {
+          "label": "D",
+          "text": "Mg2O, turns blue litmus red."
+        }
+      ],
+      "correct_option": "B",
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-3_31-5-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/3",
+          "question_no": 19
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/3",
+          "question_no": 19,
+          "pages": [
+            25,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-5-3-q23",
+      "class": "10",
+      "chapter_id": "metals-and-non-metals",
+      "question_text": "Galvanization is a process of coating iron articles with a thin layer of zinc \nto prevent iron from rusting. The iron is protected even if the zinc coating \nis scratched and iron is exposed. Which of the following is/are true about \nhow zinc prevents the rusting of iron ? \n(P) A galvanised iron article does not undergo oxidation. \n(Q) The zinc coating prevents contact of iron with air. \n(R) Zinc provides continuous protection to iron from rusting.",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only (P)"
+        },
+        {
+          "label": "B",
+          "text": "Only (Q)"
+        },
+        {
+          "label": "C",
+          "text": "(Q) and (R)"
+        },
+        {
+          "label": "D",
+          "text": "(P) and (Q) { }"
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-3_31-5-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/3",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/3",
+          "question_no": 23,
+          "pages": [
+            25,
+            25
           ]
         }
       ]

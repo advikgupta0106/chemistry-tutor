@@ -2,7 +2,7 @@
   "chapter_id": "carbon-and-its-compounds",
   "class": "10",
   "topic_file": "content/topics/carbon-and-its-compounds.json",
-  "source_note": "CBSE Class 10 Science (code 31) board papers with a text layer, 2022–2026. English text only; chemistry questions only. See content-schema.json → cbse_question.",
+  "source_note": "CBSE Class 10 Science (code 31) board papers with a text layer, 2022–2026 (including 2025 main and the 2026 first board exam). English text only; chemistry questions only. See content-schema.json → cbse_question.",
   "questions": [
     {
       "id": "cbse10-2022t2-main-31-1-1-q1",
@@ -877,59 +877,6 @@
       ]
     },
     {
-      "id": "cbse10-2023-main-31-2-2-q6",
-      "class": "10",
-      "chapter_id": "carbon-and-its-compounds",
-      "question_text": "When ethanol reacts with sodium two products are formed. These \nproducts are :",
-      "marks": 1,
-      "type": "mcq",
-      "options": [
-        {
-          "label": "a",
-          "text": "Sodium ethanoate and oxygen"
-        },
-        {
-          "label": "b",
-          "text": "Sodium ethanoate and hydrogen"
-        },
-        {
-          "label": "c",
-          "text": "Sodium ethoxide and oxygen"
-        },
-        {
-          "label": "d",
-          "text": "Sodium ethoxide and hydrogen"
-        }
-      ],
-      "correct_option": "d",
-      "has_diagram": false,
-      "source": [
-        {
-          "folder": "SCIENCE 5",
-          "file": "31_2_2_Science.pdf",
-          "session": "2023 main (Mar 2023)",
-          "series": "Z1XYW/2",
-          "set_code": "31/2/2",
-          "question_no": 6
-        }
-      ],
-      "exam_pattern": "2023_onward",
-      "marking_points": null,
-      "flagged": false,
-      "flag_reason": null,
-      "answer_source": [
-        {
-          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
-          "set_code": "31/2/2",
-          "question_no": 6,
-          "pages": [
-            14,
-            14
-          ]
-        }
-      ]
-    },
-    {
       "id": "cbse10-2023-main-31-2-2-q34",
       "class": "10",
       "chapter_id": "carbon-and-its-compounds",
@@ -1056,6 +1003,59 @@
           "pages": [
             31,
             32
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2023-main-31-2-2-q6",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "When ethanol reacts with sodium two products are formed. These \nproducts are :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sodium ethanoate and oxygen"
+        },
+        {
+          "label": "b",
+          "text": "Sodium ethanoate and hydrogen"
+        },
+        {
+          "label": "c",
+          "text": "Sodium ethoxide and oxygen"
+        },
+        {
+          "label": "d",
+          "text": "Sodium ethoxide and hydrogen"
+        }
+      ],
+      "correct_option": "d",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "SCIENCE 5",
+          "file": "31_2_2_Science.pdf",
+          "session": "2023 main (Mar 2023)",
+          "series": "Z1XYW/2",
+          "set_code": "31/2/2",
+          "question_no": 6
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2023/X/Science_English_Medium/X_086_31_2_MS_UNSIGNED_ALL SETS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 6,
+          "pages": [
+            14,
+            14
           ]
         }
       ]
@@ -3190,6 +3190,926 @@
       ]
     },
     {
+      "id": "cbse10-2025-main-31-1-1-q34",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) (i) Draw two isomeric structures of Butene (C4H8).\n(ii) Name the following compounds :\nH H H\n  \n(I) H – C – C – C – C l\n  \nH H H\nH H H\n  \n(II) H – C – C – C – C – H\n   \nH H O H\n(iii) Write the chemical equations for the following reactions.\nMention one essential condition each for these reactions to\ntake place.\n(I) Ethanol undergoes complete oxidation\n(II) Propene undergoes hydrogenation\n(III) Ethanoic acid reacts with ethanol\nOR\n(b) (i) A carbon compound X is a good solvent. On reaction with\nsodium, X forms two products Y and Z. Z is used to convert\nvegetable oil into vegetable ghee. Identify and name X, Y\nand Z. Also write the equation of reaction of X with sodium\nto justify your answer.\n(ii) Write chemical equation to show what happens when\nethanol :\n(I) burns in oxygen/air.\n(II) is heated at 443 K in excess conc. H2SO4.\n(III) reacts with acidified potassium dichromate.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-1-1_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/1",
+          "question_no": 34
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a)\n(i)",
+          "marks": 1.0
+        },
+        {
+          "point": "(any two)\n(ii) (I) Chloropropane",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Butanone/ Butan-2-one",
+          "marks": 0.5
+        },
+        {
+          "point": "(iii) (I)",
+          "marks": 1
+        },
+        {
+          "point": "(II)\nCH3CH=CH2 + H2 CH3CH2CH3",
+          "marks": 1
+        },
+        {
+          "point": "(III) 𝐶𝐻3𝐶𝑂𝑂𝐻 + 𝐶2𝐻5𝑂𝐻 𝐴𝑐𝑖𝑑 → 𝐶𝐻3𝐶𝑂𝑂𝐶2𝐻5 + 𝐻2𝑂",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n(i) X = Ethanol/ Ethyl alcohol/ C2H5OH",
+          "marks": 0.5
+        },
+        {
+          "point": "Y = Sodium ethoxide/ C2H5ONa",
+          "marks": 0.5
+        },
+        {
+          "point": "Z = Hydrogen/H2",
+          "marks": 0.5
+        },
+        {
+          "point": "𝐶𝐻3𝐶𝐻2𝑂𝐻+ 𝑁𝑎 → 𝐶𝐻3𝐶𝐻2𝑂𝑁𝑎 + 1 2 𝐻2",
+          "marks": 0.5
+        },
+        {
+          "point": "X Y Z\n(ii)\n(I)",
+          "marks": 1
+        },
+        {
+          "point": "(II)",
+          "marks": 1
+        },
+        {
+          "point": "(III)",
+          "marks": 1
+        },
+        {
+          "point": "(No mark to be deducted if equations are not balanced.)",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula; [scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/1",
+          "question_no": 34,
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-1-2-q35",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) A saturated organic compound ‘A’ with two carbon atoms belongs\nto the homologous series of alcohols. On oxidation, it forms an\norganic acid ‘B’ with molecular mass 60 u. On heating ‘A’ with\nexcess concentrated sulphuric acid at 443 K, an unsaturated\nhydrocarbon ‘C’ is formed.\n(i) Name A, B and C.\n(ii) Calculate molecular mass of C.\n(iii) What happens when a pinch of sodium carbonate is added to\ncompound B ? Write chemical equation for the reaction.\n(iv) Draw electron dot structure of compound B.\nOR\n(b) (i) What is a homologous series of carbon compounds ? Write\nthe name and formula of three successive members of the\nhomologous series of compounds having functional group\n– COOH.\n(ii) Write the name of two carbon compounds in which carbon\natoms are arranged in the form of a ring. Draw the structure\nof any one of the two.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-1-2_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/2",
+          "question_no": 35
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "• (a) (i) A = Ethanol /Ethyl alcohol / C2H5OH",
+          "marks": 1.0
+        },
+        {
+          "point": "B = Ethanoic acid /Acetic acid / CH3COOH",
+          "marks": 0.5
+        },
+        {
+          "point": "C = Ethene / C2H4/CH2=CH2\n•\n(ii) Molecular mass of ethene (C2H4)\n12  2 + 1  4 = 24 + 4 = 28 u",
+          "marks": 1
+        },
+        {
+          "point": "• (iii) Brisk effervescence is observed.",
+          "marks": 0.5
+        },
+        {
+          "point": "𝐶𝐻3𝐶𝑂𝑂𝐻 + 𝑁𝑎2𝐶𝑂3 → 𝐶𝐻3𝐶𝑂𝑂𝑁𝑎 + 𝐻2𝑂 + 𝐶𝑂2",
+          "marks": 1
+        },
+        {
+          "point": "(iv) (Ethanoic acid)",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)\n• • Homologous series: A series of organic compounds in\nwhich the same functional groups or hetero-atom substitutes\nfor hydrogen in a carbon chain/A sequence of a carbon\ncompound with same general formula and similar chemical\nproperties.",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "• HCOOH, CH3COOH, C2H5COOH\n• Methanoic acid, Ethanoic acid, Propanoic acid",
+          "marks": 1
+        },
+        {
+          "point": "(any other 3 successive members)\n• (ii) (I) Benzene",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Cyclohexane\nBenzene",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "Cyclohexane (any other example )",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/2",
+          "question_no": 35,
+          "pages": [
+            21,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-1-3-q36",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) (i) Draw electron dot structure of chlorine molecule.\n(Atomic Number of Chlorine = 17)\n(ii) What happens when chlorine reacts with methane in the\npresence of sunlight ? Write the name of the reaction.\n(iii) Name the two oxidising agents used for the conversion of\nalcohols to acids.\n(iv) List four differences in properties between covalent\ncompounds and ionic compounds.\nOR\n(b) (i) Give reason why carbon forms compounds mainly by\ncovalent bonding.\n(ii) Why do covalent compounds have low melting and boiling\npoints.\n(iii) Give reason for the following :\nI. Covalent compounds are bad conductors of electricity.\nII. Carbon shows catenation.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-1-3_Science.pdf",
+          "session": "2025 main",
+          "series": "1GEFH",
+          "set_code": "31/1/3",
+          "question_no": 36
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) (i)\n(ii)",
+          "marks": 1
+        },
+        {
+          "point": "• 𝐶𝐻4 + 𝐶𝑙2 𝑆𝑢𝑛𝑙𝑖𝑔ℎ𝑡 → 𝐶𝐻3𝐶𝑙 + 𝐻𝐶𝑙\n/ Chloromethane is formed;",
+          "marks": 0.5
+        },
+        {
+          "point": "• substitution reaction",
+          "marks": 0.5
+        },
+        {
+          "point": "(iii) Alkaline KMnO4/ Acidified KMnO4 /Acidified K2Cr2O7\n(any two)\n(iv)\nCovalent compounds Ionic Compounds\nLow melting and boiling High melting and boiling\npoints points",
+          "marks": 1.0
+        },
+        {
+          "point": "Poor conductors of electricity Conduct electricity in aqueous\nsolution and molten state.\nGenerally soft if solids Hard crystalline solids\nGenerally soluble in oil or Generally soluble in soluble in\nnon-polar solvents water/polar solvents",
+          "marks": 2.0
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i) Carbon could gain four electrons forming C4– anion.\nBut it would be difficult for the nucleus with six\nprotons to hold on to ten electrons. Carbon could also\nlose four electrons forming C4+ cation. But it would\nrequire a large amount of energy to remove four\nelectrons leaving behind a carbon cation with six\nprotons in its nucleus.\n It shares four electrons of the outermost shell to form\ncovalent bond/covalent compound.\n(ii) There are weak forces of attraction between the molecules\nof covalent compound.",
+          "marks": 2
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "(iii) (I) Covalent compounds do not form ions hence are poor\nconductors.",
+          "marks": 1
+        },
+        {
+          "point": "(II) Carbon-carbon single bond is very strong and stable.",
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-1-1 to 3 Science_MS.pdf",
+          "set_code": "31/1/3",
+          "question_no": 36,
+          "pages": [
+            33,
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-1-q22",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) Select from the following the members of same homologous series :\nH H H H H\n    \n(1) H – C – C – C = O (2) H – C – C – C – H\n    \nH H H O H\nH H O H H H H\n      \n(3) H – C – C – C – OH (4) H – C – C – C – C = O\n    \nH H H H H\n(b) What happens to (i) the melting point, and (ii) the solubility of\ncompounds as the molecular mass of the compounds in a\nhomologous series increases ?",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-1_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/1",
+          "question_no": 22
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-2-2_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/2",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) (1) and (4)",
+          "marks": 1
+        },
+        {
+          "point": "(b) (i) melting point increases with increasing molecular mass.",
+          "marks": 0.5
+        },
+        {
+          "point": "(ii) Solubility shows regular gradation/ decreases with increase in\nmolecular mass.",
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 22,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 22,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-1-q34",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "(a) (i) A compound ‘X’ having two carbon atoms in its molecule\nturns blue litmus red and 5 – 8% solution of ‘X’ in water is\nwidely used as a preservative. Identify the compound ‘X’ and\nwrite its structure.\n(ii) Compare its pH nature with a mineral acid.\n(iii) ‘X’ on reacting with alcohols produces sweet smelling\ncompounds, used in making perfumes. Name the reaction\nand write its chemical equation.\n(iv) When sodium carbonate is added to ‘X’, a colourless gas\nis produced which turns lime water milky. Write the\nchemical equation for the reaction giving the name of the\nsalt produced.\nOR\n(b) (i) Differentiate between saturated and unsaturated\nhydrocarbons by giving one example each, with a structural\nformula.\n(ii) Write the method of converting an unsaturated hydrocarbon\ninto a saturated hydrocarbon. Name the industry where this\nreaction is commonly used.\n(iii) Write the name and structure of a hydrocarbon having\ndouble bond and four carbon atoms in its one molecule.",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-1_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/1",
+          "question_no": 34
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-2-2_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/2",
+          "question_no": 34
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-2-3_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/3",
+          "question_no": 35
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) (i) X- Ethanoic acid/ Acetic acid",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "/ CH3COOH\n(ii) pH of ‘X’ will be higher than that of a mineral acid.",
+          "marks": 0.5
+        },
+        {
+          "point": "(iii) Esterification reaction",
+          "marks": 0.5
+        },
+        {
+          "point": "CH3COOH + CH3CH2OH ⎯⎯⎯⎯→ ⎯⎯⎯ Acid CH3 –COOCH2CH3 + H2O",
+          "marks": 1
+        },
+        {
+          "point": "(X)\n(or reaction with any other alcohol)",
+          "marks": 1
+        },
+        {
+          "point": "(X) Sodium acetate/sodium ethanoate (iv) 2CH3COOH + Na2CO3 ⎯⎯ → 2CH3COONa + CO2 + H2O\n(balancing of equation is not mandatory)",
+          "marks": 0.5
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i)\nSaturated hydrocarbons Unsaturated hydrocarbons\nCompounds which have single Compounds which have at least one double\ncovalent bond between all carbon or triple bond between carbon and carbon\natoms. / Compounds with general atom. / Compounds with general formula\nformula CnH2n+2 CnH2n and CnH2n-2",
+          "marks": 1
+        },
+        {
+          "point": "Example: Propane Example: Propene- CH2=CH-CH3/\nH H H H\n   \nH – C – C – C – H H – C = C – C – H",
+          "marks": 1
+        },
+        {
+          "point": "     \nH H H H H H /\nH\n/ CH3CH2CH3 \nPropyne H – C C– C – H \n\n(any other) (any other) H\n(ii)\n• Addition of hydrogen in the presence of Ni orPd / Hydrogenation /",
+          "marks": 1
+        },
+        {
+          "point": "(any other)\n• It is used in the hydrogenation of vegetable oil.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) Butene",
+          "marks": 0.5
+        },
+        {
+          "point": null,
+          "marks": 0.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ; [scheme] scheme text contains symbols that extracted as garbage or private-use characters; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "marking_points_variants": [
+        {
+          "set_code": "31/2/1",
+          "question_no": 34,
+          "marking_points": [
+            {
+              "point": "(a) (i) X- Ethanoic acid/ Acetic acid",
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "/ CH3COOH\n(ii) pH of ‘X’ will be higher than that of a mineral acid.",
+              "marks": 0.5
+            },
+            {
+              "point": "(iii) Esterification reaction",
+              "marks": 0.5
+            },
+            {
+              "point": "CH3COOH + CH3CH2OH ⎯⎯⎯⎯→ ⎯⎯⎯ Acid CH3 –COOCH2CH3 + H2O",
+              "marks": 1
+            },
+            {
+              "point": "(X)\n(or reaction with any other alcohol)",
+              "marks": 1
+            },
+            {
+              "point": "(X) Sodium acetate/sodium ethanoate (iv) 2CH3COOH + Na2CO3 ⎯⎯ → 2CH3COONa + CO2 + H2O\n(balancing of equation is not mandatory)",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i)\nSaturated hydrocarbons Unsaturated hydrocarbons\nCompounds which have single Compounds which have at least one double\ncovalent bond between all carbon or triple bond between carbon and carbon\natoms. / Compounds with general atom. / Compounds with general formula\nformula CnH2n+2 CnH2n and CnH2n-2",
+              "marks": 1
+            },
+            {
+              "point": "Example: Propane Example: Propene- CH2=CH-CH3/\nH H H H\n   \nH – C – C – C – H H – C = C – C – H",
+              "marks": 1
+            },
+            {
+              "point": "     \nH H H H H H /\nH\n/ CH3CH2CH3 \nPropyne H – C C– C – H \n\n(any other) (any other) H\n(ii)\n• Addition of hydrogen in the presence of Ni orPd / Hydrogenation /",
+              "marks": 1
+            },
+            {
+              "point": "(any other)\n• It is used in the hydrogenation of vegetable oil.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Butene",
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 0.5
+            }
+          ]
+        },
+        {
+          "set_code": "31/2/2",
+          "question_no": 34,
+          "marking_points": [
+            {
+              "point": "(a) (i) X - Ethanoic acid/ Acetic acid",
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "/ CH3COOH\n(ii) pH of ‘X’ will be higher than that of a mineral acid.",
+              "marks": 0.5
+            },
+            {
+              "point": "(iii) Esterification reaction",
+              "marks": 0.5
+            },
+            {
+              "point": "CH3COOH + CH3CH2OH ⎯⎯⎯⎯→ ⎯⎯⎯ Acid CH3 –COOCH2CH3 + H2O",
+              "marks": 1
+            },
+            {
+              "point": "(X)\n(or reaction with any other alcohol)\n(iv) 2CH3COOH + Na2CO3 ⎯⎯ → 2CH3COONa + CO2 + H2O",
+              "marks": 1
+            },
+            {
+              "point": "(X) Sodium acetate/sodium ethanoate\n(balancing of equation is not mandatory)",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i)\nSaturated hydrocarbons Unsaturated hydrocarbons\nCompounds which have single Compounds which have at least one\ncovalent bond between all carbon double or triple bond between carbon\natoms. / Compounds with general and carbon atom. / Compounds with\nformula CnH2n+2 general formula CnH2n and CnH2n-2",
+              "marks": 1
+            },
+            {
+              "point": "Example – Propane Example – Propene- CH2=CH-CH3/",
+              "marks": 1
+            },
+            {
+              "point": "H – C – C – C – H H H   H H   H H   H – C = C – C – H H  H  H H   /\n/ CH3CH2CH3 H \nPropyne H – C C– C – H \n\n(any other) H\n(any other)\n(ii)\n• Addition of hydrogen in the presence of Ni orPd / Hydrogenation /",
+              "marks": 1
+            },
+            {
+              "point": "(any other)\n• It is used in the hydrogenation of vegetable oil.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Butene",
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 0.5
+            }
+          ]
+        },
+        {
+          "set_code": "31/2/3",
+          "question_no": 35,
+          "marking_points": [
+            {
+              "point": "(a) (i) X - Ethanoic acid/ Acetic acid",
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "/ CH3COOH\n(ii) pH of ‘X’ will be higher than that of a mineral acid.",
+              "marks": 0.5
+            },
+            {
+              "point": "(iii) Esterification reaction",
+              "marks": 0.5
+            },
+            {
+              "point": "CH3COOH + CH3CH2OH ⎯⎯⎯⎯→ ⎯⎯⎯ Acid CH3 –COOCH2CH3 + H2O",
+              "marks": 1
+            },
+            {
+              "point": "(X)\n(or reaction with any other alcohol)\n(iv) 2CH3COOH + Na2CO3 ⎯⎯ → 2CH3COONa + CO2 + H2O\n(X) Sodium acetate/sodium ethanoate\n(balancing of equation is not mandatory)",
+              "marks": 0.5
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i)\nSaturated hydrocarbons Unsaturated hydrocarbons\nCompounds which have Compounds which have at least\nsingle covalent bond one double or triple bond between\nbetween all carbon atoms. / carbon and carbon atom. /",
+              "marks": 1
+            },
+            {
+              "point": "Compounds with general Compounds with general formula\nformula CnH2n+2 CnH2n and CnH2n-2\nExample – Propane Example – Propene-\nH H H CH2=CH-CH3/\n  \nH – C – C – C – H    H ",
+              "marks": 1
+            },
+            {
+              "point": "H H H H – C = C – C – H\n  \n/ CH3CH2CH3 H H H / H\n\nPropyne H – C C– C – H \n(any other) \nH\n(any other)\n(ii)\n• Addition of hydrogen in presence of Ni or Pd / Hydrogenation\n/",
+              "marks": 1
+            },
+            {
+              "point": "(or any other)\n• It is used in the hydrogenation of vegetable oil.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Butene",
+              "marks": 0.5
+            },
+            {
+              "point": null,
+              "marks": 0.5
+            }
+          ]
+        }
+      ],
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/1",
+          "question_no": 34,
+          "pages": [
+            7,
+            8
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 34,
+          "pages": [
+            18,
+            19
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 35,
+          "pages": [
+            31,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-2-q17",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Assertion (A) : Propanal and propanone are structural isomers.\nReason (R) : Propanal and propanone both have the same molecular\nformula.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": "A",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-2_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/2",
+          "question_no": 17
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/2",
+          "question_no": 17,
+          "pages": [
+            14,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-2-3-q22",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "What are micelles ? Draw the structure.",
+      "marks": 2,
+      "type": "very_short",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-2-3_Science.pdf",
+          "session": "2025 main",
+          "series": "GHF2E",
+          "set_code": "31/2/3",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "The clusters of soap molecules in which the hydrophobic tails are in\nthe interior of the cluster (towards oil) and the ionic ends are on the\nsurface of the cluster (towards water) is called a micelle",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31-2-1 to 3_Science_MS.pdf",
+          "set_code": "31/2/3",
+          "question_no": 22,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-3-1-q4",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Given below are the structures of some hydrocarbons. Select the two \nstructures which are related to each other from the given options : \nH H H H H H H \n       \n(i) H – C – C – C = C – H (ii) H – C – C – C – C – H \n       \nH H H H H H H \nH H H \n   \n(iii) (iv) C l – C – C – C = C – H \n   \nH H H",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) and (iv)"
+        },
+        {
+          "label": "B",
+          "text": "(ii) and (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i) and (iii)"
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-3-1_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/1",
+          "question_no": 4
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-3-2_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/2",
+          "question_no": 1
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-3-3_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/3",
+          "question_no": 3
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/1",
+          "question_no": 4,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/2",
+          "question_no": 1,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/3",
+          "question_no": 3,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2025-main-31-3-1-q5",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Choose the incorrect statement about the common reaction used in \nhydrogenation of vegetable oils.",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is an addition reaction."
+        },
+        {
+          "label": "B",
+          "text": "It takes place in the presence of nickel or palladium catalyst."
+        },
+        {
+          "label": "C",
+          "text": "The product contains only single bonds between carbon atoms."
+        },
+        {
+          "label": "D",
+          "text": "It is an addition reaction which occurs in the presence of an acid catalyst."
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2025-main",
+          "file": "31-3-1_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/1",
+          "question_no": 5
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-3-2_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/2",
+          "question_no": 2
+        },
+        {
+          "folder": "2025-main",
+          "file": "31-3-3_Science.pdf",
+          "session": "2025 main",
+          "series": "3EGFH",
+          "set_code": "31/3/3",
+          "question_no": 4
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/1",
+          "question_no": 5,
+          "pages": [
+            3,
+            3
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/2",
+          "question_no": 2,
+          "pages": [
+            14,
+            14
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2025/X/Science/086 Science (English Medium)/X_086_31_3-1 to 3_Science_MS.pdf",
+          "set_code": "31/3/3",
+          "question_no": 4,
+          "pages": [
+            26,
+            26
+          ]
+        }
+      ]
+    },
+    {
       "id": "cbse10-2025-supp-31-S-1-q5",
       "class": "10",
       "chapter_id": "carbon-and-its-compounds",
@@ -3411,6 +4331,2030 @@
           "pages": [
             3,
             3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31B-q22",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "When ethanoic acid is treated with sodium hydrogen \ncarbonate, the gas evolved is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "CO2"
+        },
+        {
+          "label": "B",
+          "text": "CH4"
+        },
+        {
+          "label": "C",
+          "text": "CO"
+        },
+        {
+          "label": "D",
+          "text": "H2"
+        }
+      ],
+      "correct_option": "A",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31(B)-Science for V.I..pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31(B)",
+          "question_no": 22
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_31.B (Blind) in ENGLISH.pdf",
+          "set_code": "31(B)",
+          "question_no": 22,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31B-q23",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "The second member of alkyne homologous series is :",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "propene"
+        },
+        {
+          "label": "B",
+          "text": "ethyne"
+        },
+        {
+          "label": "C",
+          "text": "ethene"
+        },
+        {
+          "label": "D",
+          "text": "propyne"
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31(B)-Science for V.I..pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31(B)",
+          "question_no": 23
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_31.B (Blind) in ENGLISH.pdf",
+          "set_code": "31(B)",
+          "question_no": 23,
+          "pages": [
+            6,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31B-q29",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Attempt either subpart (a) or (b) :\n(a) (i) Define catenation. Why does carbon show\ncatenation ?\n(ii) Define homologous series. Give examples of two\nhomologues whose molecular mass differ by 14 amu.\n(iii) Why do soaps not work well in hard water ?\nOR\n(b) (i) Why do covalent compounds have low melting and\nboiling points ?\n(ii) Name the reagent that can convert ethanol to\nethanoic acid.\n(iii) Why is ethanoic acid a weaker acid than mineral\nacids ?\n(iv) Define esterification reaction.\n(v) What are ‘Micelles’ ?",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31(B)-Science for V.I..pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31(B)",
+          "question_no": 29
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) (i)\n• The unique ability of carbon to form bonds with other atoms of carbon\ngiving rise to large molecules.",
+          "marks": 1
+        },
+        {
+          "point": "• Because of strong and stable C-C bond.",
+          "marks": 1
+        },
+        {
+          "point": "(ii)\n• A group of organic compounds with the same functional group and\nsimilar chemical properties / Series of compounds in which the same\nfunctional group substitutes for Hydrogen in a carbon chain /",
+          "marks": 1
+        },
+        {
+          "point": "Compounds having same general formula, successive member differ by\nCH2 or 14u.\n• Example: - Methane-Ethane or any other.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) Because soap forms insoluble precipitates (scum) by reacting with\ncalcium and magnesium salts present in hard water.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b)\n(i) Because of weak inter molecular forces of attraction.",
+          "marks": 1
+        },
+        {
+          "point": "(ii)Alkaline KMnO4/Acidified K2Cr2O7",
+          "marks": 1
+        },
+        {
+          "point": "(iii) Ethanoic acid gives less H+ ions as compared to mineral acids /",
+          "marks": 1
+        },
+        {
+          "point": "Unlike mineral acids ethanoic acids does not ionize completely in water.\n(iv)Reaction of carboxylic acid and alcohol in presence of acid to form an ester.",
+          "marks": 1
+        },
+        {
+          "point": "(v)A cluster of soap molecules in which ionic /hydrophilic end interacts with\nwater on the surface and carbon/hydrophobic tail interacts with oil/ dirt in the\ninterior of the cluster /",
+          "marks": 1
+        },
+        {
+          "point": "Water Oily dirt\nPHYSICS\nMS-Science (VI)/086/31B 8 10-B-86K",
+          "marks": null
+        }
+      ],
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_31.B (Blind) in ENGLISH.pdf",
+          "set_code": "31(B)",
+          "question_no": 29,
+          "pages": [
+            8,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-2-1-q24",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Assertion (A) : Carbon compounds can form chains, branched and ring\nstructures.\nReason (R) : Carbon exhibits the property of catenation.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": "A",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/1",
+          "question_no": 24
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/1",
+          "question_no": 24,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-2-1-q29",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Attempt either (a) or (b) :\n(a) A carbon compound ‘P’ of molecular formula C2H6O is found to be\nneutral when tested with red and blue litmus. A gas that burns\nwith a pop sound is produced when sodium metal reacts with\ncompound ‘P’.\n(i) Identify the compound ‘P’.\n(ii) The carbon compound ‘P’ is heated with conc. H2SO4 at\n443 K to produce compound ‘Q’.\n(I) Write the chemical equation for the reaction.\n(II) What is the role of conc. H2SO4 in this reaction ?\n(iii) What is likely to be observed on heating compound ‘P’ with\nethanoic acid with an acid as a catalyst ? Write the chemical\nequation for the reaction.\nOR\n(b) (i) Write the structural formula of benzene.\n(ii) State the reason why carbon can neither form C4+ cation nor\nC4– anion.\n(iii) What type of bond is formed between carbon and hydrogen ?\n(iv) How is ethanol converted to ethanoic acid ?\n(v) Complete the following chemical equation :\nCH3COOC2H5 + NaOH ⎯⎯→",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/1",
+          "question_no": 29
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/2",
+          "question_no": 29
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/3",
+          "question_no": 29
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a)\n(i) P- Ethanol /C2H5OH / CH3CH2OH",
+          "marks": 1
+        },
+        {
+          "point": "(ii)\n(I)",
+          "marks": 1
+        },
+        {
+          "point": "(II) Dehydrating agent / Catalyst",
+          "marks": 1
+        },
+        {
+          "point": "(iii)\n• Sweet smelling compound/ester is formed. •",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(b) (i) ( any other resonating structure)",
+          "marks": 1
+        },
+        {
+          "point": "(ii) Carbon cannot form C4+ cation because removal of four\nelectrons is energetically not possible. Carbon cannot form C4−\nanion because nucleus with six protons cannot hold ten\nelectrons.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) Covalent bond",
+          "marks": 1
+        },
+        {
+          "point": "(iv)",
+          "marks": 1
+        },
+        {
+          "point": "/\nEthanol is converted to Ethanoic Acid by adding Alkaline\nKMnO4/Acidified K2Cr2O7 as oxidising agent.\n(v)",
+          "marks": 1
+        },
+        {
+          "point": "PHYSICS",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null; [scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "marking_points_variants": [
+        {
+          "set_code": "31/2/1",
+          "question_no": 29,
+          "marking_points": [
+            {
+              "point": "(a)\n(i) P- Ethanol /C2H5OH / CH3CH2OH",
+              "marks": 1
+            },
+            {
+              "point": "(ii)\n(I)",
+              "marks": 1
+            },
+            {
+              "point": "(II) Dehydrating agent / Catalyst",
+              "marks": 1
+            },
+            {
+              "point": "(iii)\n• Sweet smelling compound/ester is formed. •",
+              "marks": 1
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i) ( any other resonating structure)",
+              "marks": 1
+            },
+            {
+              "point": "(ii) Carbon cannot form C4+ cation because removal of four\nelectrons is energetically not possible. Carbon cannot form C4−\nanion because nucleus with six protons cannot hold ten\nelectrons.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Covalent bond",
+              "marks": 1
+            },
+            {
+              "point": "(iv)",
+              "marks": 1
+            },
+            {
+              "point": "/\nEthanol is converted to Ethanoic Acid by adding Alkaline\nKMnO4/Acidified K2Cr2O7 as oxidising agent.\n(v)",
+              "marks": 1
+            },
+            {
+              "point": "PHYSICS",
+              "marks": null
+            }
+          ]
+        },
+        {
+          "set_code": "31/2/2",
+          "question_no": 29,
+          "marking_points": [
+            {
+              "point": "(a)\n(i) P- Ethanol /C2H5OH / CH3CH2OH",
+              "marks": 1
+            },
+            {
+              "point": "(ii)\n(I)",
+              "marks": 1
+            },
+            {
+              "point": "(II) Dehydrating agent / Catalyst",
+              "marks": 1
+            },
+            {
+              "point": "(iii)\n• Sweet smelling compound/ester is formed.",
+              "marks": 1
+            },
+            {
+              "point": "•",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i) (any other resonating structure)",
+              "marks": 1
+            },
+            {
+              "point": "(ii)\nCarbon cannot form C4+ cation because removal of\nfour electrons is energetically not possible. Carbon\ncannot form C4− anion because nucleus with six\nprotons cannot hold ten electrons.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Covalent bond",
+              "marks": 1
+            },
+            {
+              "point": "(iv)\n/\nEthanol is converted to Ethanoic Acid by adding\nAlkaline KMnO4/Acidified K2Cr2O7 as oxidising agent.\n(v)",
+              "marks": 1
+            },
+            {
+              "point": "Physics",
+              "marks": null
+            }
+          ]
+        },
+        {
+          "set_code": "31/2/3",
+          "question_no": 29,
+          "marking_points": [
+            {
+              "point": "(a)\n(i) P- Ethanol /C2H5OH / CH3CH2OH",
+              "marks": 1
+            },
+            {
+              "point": "(ii)\n(I)",
+              "marks": 1
+            },
+            {
+              "point": "(II) Dehydrating agent / Catalyst",
+              "marks": 1
+            },
+            {
+              "point": "(iii)\n• Sweet smelling compound/ester is formed.",
+              "marks": 1
+            },
+            {
+              "point": "•",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i) (or other resonating structure)",
+              "marks": 1
+            },
+            {
+              "point": "(ii)\nCarbon cannot form C4+ cation because removal of four\nelectrons is energetically not possible. Carbon cannot form C4−\nanion because nucleus with six protons cannot hold ten\nelectrons.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Covalent bond",
+              "marks": 1
+            },
+            {
+              "point": "(iv)",
+              "marks": 1
+            },
+            {
+              "point": "/\nEthanol is converted to Ethanoic Acid by adding Alkaline\nKMnO4/Acidified K2Cr2O7 as oxidising agent.\n(v)",
+              "marks": 1
+            },
+            {
+              "point": "Physics",
+              "marks": null
+            }
+          ]
+        }
+      ],
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/1",
+          "question_no": 29,
+          "pages": [
+            7,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/2",
+          "question_no": 29,
+          "pages": [
+            17,
+            18
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/3",
+          "question_no": 29,
+          "pages": [
+            28,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-2-2-q24",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Assertion (A) : Carbon shows the property of catenation.\nReason (R) : C – C bond is weak due to its small size.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/2",
+          "question_no": 24
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/2",
+          "question_no": 24,
+          "pages": [
+            16,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-2-3-q24",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Assertion (A) : Carbon shows the property of catenation.\nReason (R) : This is due to strong C – C bond.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": "A",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-2-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LMNK2",
+          "set_code": "31/2/3",
+          "question_no": 24
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-.2(31.2.1 to 31.2.3) in  ENGLISH.pdf",
+          "set_code": "31/2/3",
+          "question_no": 24,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-3-1-q20",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Consider the structures ‘X’ and ‘Y’ given below : \nH \nH H H H  \n    H H – C – H H \nH – C – C – C – C – H and    \n    H – C  ––  C – – C – H \nH H H H    \nH H H \n‘X’ ‘Y’ \nWhich of the following statements are correct ? \n(i) ‘X’ and ‘Y’ are homologues. \n(ii) ‘X’ and ‘Y’ have the same structural formula, but different \nmolecular formula. \n(iii) ‘X’ and ‘Y’ have the same molecular formula, but different \nstructural formula. \n(iv) ‘X’ and ‘Y’ are structural isomers.",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) and (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(i) and (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(ii) and (iv)"
+        },
+        {
+          "label": "D",
+          "text": "(iii) and (iv)"
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/1",
+          "question_no": 20
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula",
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/1",
+          "question_no": 20,
+          "pages": [
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-3-1-q24",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Assertion (A) : There are large number of compounds with many carbon\natoms linked to each other.\nReason (R) : Carbon-Carbon bond is very strong and stable.",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": "A",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/1",
+          "question_no": 24
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/2",
+          "question_no": 24
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/3",
+          "question_no": 24
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/1",
+          "question_no": 24,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/2",
+          "question_no": 24,
+          "pages": [
+            16,
+            16
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/3",
+          "question_no": 24,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-3-1-q29",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Attempt either (a) or (b) :\n(a) (i) What is homologous series ? Which two of the following\norganic compounds belong to the same homologous series ?\nC2H4, C4H10, C3H4, C4H8\n(ii) Write the product(s) in the following reactions :\nAcid\n(I) CH3 – CH2 – OH + CH3COOH  ⎯⎯⎯⎯→\nBurning\n(II) C2H5OH + O2 ⎯⎯⎯⎯→\n(iii) Why does micelle formation take place when soap is added\nto water ?\nOR\n(b) (i) Name the following compounds :\n(I) CH – C – CH\n3 3\n\nO\nH\n\n(II) H – C – C  C – H \n\nH\n(ii) Name the reaction which is commonly used in the\nconversion of vegetable oils to fats.\n(iii) Why is the melting point of C4H10 higher than C3H8 ?\n(iv) What happens when a piece of sodium is dropped into\nethanol ?\n(v) Write the products in the following reaction :\nCH3COOC2H5 + NaOH ⎯⎯→",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-1.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/1",
+          "question_no": 29
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/2",
+          "question_no": 29
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/3",
+          "question_no": 29
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a) (i)\n• A series of compounds in which the same functional group\nsubstitutes for hydrogen in a carbon chain. / Can be\nrepresented by a single general formula and successive\nmembers differ by -CH2 unit or 14u.",
+          "marks": 1
+        },
+        {
+          "point": "• C2H4 and C4H8 belong to the same homologous series/ are\nalkenes.",
+          "marks": 1
+        },
+        {
+          "point": null,
+          "marks": 1
+        },
+        {
+          "point": "(ii) (I) CH3CH2OH + CH3COOH (II) C2H5OH + 3O2 Burning → 2CO2 + 3H2O Acid → CH3COOC2H5 + H2O",
+          "marks": 1
+        },
+        {
+          "point": "(balancing may be ignored)\n(iii) The ionic end of soap interacts with water while the carbon chain\ninteracts with oil/dirt. The soap molecules thus form a structure\ncalled micelle.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": null,
+          "marks": 0.5
+        },
+        {
+          "point": "(b) (i) (I) Propanone/acetone",
+          "marks": 0.5
+        },
+        {
+          "point": "(II) Propyne\n(ii) Hydrogenation/addition reaction.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) C4H10 will have higher melting point, as it has a higher molecular\nmass than C3H8 and melting point increases with the increase in\nmolecular mass.",
+          "marks": 1
+        },
+        {
+          "point": "(iv) Sodium ethoxide (C2H5ONa) is formed and hydrogen gas is\nevolved.\n/",
+          "marks": 1
+        },
+        {
+          "point": "(balancing may be ignored)\n(v) CH3COON C2H5 + NaOH ⟶CH3COONa + C2H5OH",
+          "marks": 1.0
+        },
+        {
+          "point": "(Physics)",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula; [scheme] schemes for different sets of this question differ; [scheme] the scheme awards marks for content drawn as graphics (a diagram, structure or equation) that is not in the text layer, so that point is null",
+      "marking_points_variants": [
+        {
+          "set_code": "31/3/1",
+          "question_no": 29,
+          "marking_points": [
+            {
+              "point": "(a) (i)\n• A series of compounds in which the same functional group\nsubstitutes for hydrogen in a carbon chain. / Can be\nrepresented by a single general formula and successive\nmembers differ by -CH2 unit or 14u.",
+              "marks": 1
+            },
+            {
+              "point": "• C2H4 and C4H8 belong to the same homologous series/ are\nalkenes.",
+              "marks": 1
+            },
+            {
+              "point": null,
+              "marks": 1
+            },
+            {
+              "point": "(ii) (I) CH3CH2OH + CH3COOH (II) C2H5OH + 3O2 Burning → 2CO2 + 3H2O Acid → CH3COOC2H5 + H2O",
+              "marks": 1
+            },
+            {
+              "point": "(balancing may be ignored)\n(iii) The ionic end of soap interacts with water while the carbon chain\ninteracts with oil/dirt. The soap molecules thus form a structure\ncalled micelle.",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": null,
+              "marks": 0.5
+            },
+            {
+              "point": "(b) (i) (I) Propanone/acetone",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Propyne\n(ii) Hydrogenation/addition reaction.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) C4H10 will have higher melting point, as it has a higher molecular\nmass than C3H8 and melting point increases with the increase in\nmolecular mass.",
+              "marks": 1
+            },
+            {
+              "point": "(iv) Sodium ethoxide (C2H5ONa) is formed and hydrogen gas is\nevolved.\n/",
+              "marks": 1
+            },
+            {
+              "point": "(balancing may be ignored)\n(v) CH3COON C2H5 + NaOH ⟶CH3COONa + C2H5OH",
+              "marks": 1.0
+            },
+            {
+              "point": "(Physics)",
+              "marks": null
+            }
+          ]
+        },
+        {
+          "set_code": "31/3/2",
+          "question_no": 29,
+          "marking_points": [
+            {
+              "point": "(a) (i)\n• A series of compounds in which the same functional group\nsubstitutes for hydrogen in a carbon chain./ Can be\nrepresented by a single general formula and successive\nmembers differ by -CH2 unit or 14u.",
+              "marks": 1
+            },
+            {
+              "point": "• C2H4 and C4H8 belong to the same homologous series/ are\nalkenes.",
+              "marks": 1
+            },
+            {
+              "point": "(ii) (I) CH3CH2OH + CH3COOH Burning Acid → CH3COOC2H5 + H2O",
+              "marks": 1
+            },
+            {
+              "point": "(II) C2H5OH + 3O2 → 2CO2 + 3H2O",
+              "marks": 1
+            },
+            {
+              "point": "(balancing may be ignored)\n(iii) The ionic end of soap interacts with water while the carbon chain\ninteracts with oil/dirt. The soap molecules thus form a structure called\nmicelle.",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i) (I) Propanone/acetone",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Propyne",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii) Hydrogenation/addition reaction.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) C4H10 will have higher melting point, as it has a higher molecular\nmass than C3H8 and melting point increases with the increase in molecular\nmass.",
+              "marks": 1
+            },
+            {
+              "point": "(iv) Sodium ethoxide (C2H5ONa) is formed and hydrogen gas is evolved\n/",
+              "marks": 1
+            },
+            {
+              "point": "(balancing may be ignored)\n(v) CH3COON C2H5 + NaOH ⟶CH3COONa + C2H5OH",
+              "marks": 1.0
+            },
+            {
+              "point": "(Physics)",
+              "marks": null
+            }
+          ]
+        },
+        {
+          "set_code": "31/3/3",
+          "question_no": 29,
+          "marking_points": [
+            {
+              "point": "(a) (i)\n• A series of compounds in which the same functional group\nsubstitutes for hydrogen in a carbon chain. / Can be\nrepresented by a single general formula and successive\nmembers differ by -CH2 unit or 14u.",
+              "marks": 1
+            },
+            {
+              "point": "• C2H4 and C4H8 belong to the same homologous series/ are\nalkenes.\n(ii)",
+              "marks": 1
+            },
+            {
+              "point": "(I) CH3CH2OH + CH3COOH Acid → CH3COOC2H5 + H2O\nBurning",
+              "marks": 1
+            },
+            {
+              "point": "(II) C2H5OH + 3O2 → 2CO2 + 3H2O\n(balancing may be ignored)",
+              "marks": 1
+            },
+            {
+              "point": "(iii) The ionic end of soap interacts with water while the carbon chain\ninteracts with oil/dirt. The soap molecules thus form a structure called\nmicelle.",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(b) (i) (I) Propanone/acetone",
+              "marks": 0.5
+            },
+            {
+              "point": "(II) Propyne",
+              "marks": 0.5
+            },
+            {
+              "point": "(ii) Hydrogenation/addition reaction.\n(iii) C4H10 will have higher melting point, as it has a higher molecular\nmass than C3H8 and Melting point increases with the increase in molecular\nmass.",
+              "marks": 1
+            },
+            {
+              "point": "(iv) Sodium ethoxide (C2H5ONa) is formed and hydrogen gas is evolved\n/\n(balancing may be ignored)",
+              "marks": 1
+            },
+            {
+              "point": "(v) CH3COON C2H5 + NaOH ⟶CH3COONa + C2H5OH\n(Physics)",
+              "marks": 1.0
+            }
+          ]
+        }
+      ],
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/1",
+          "question_no": 29,
+          "pages": [
+            7,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/2",
+          "question_no": 29,
+          "pages": [
+            17,
+            18
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/3",
+          "question_no": 29,
+          "pages": [
+            28,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-3-2-q20",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Which of the following compounds will undergo addition reaction ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "C4H10"
+        },
+        {
+          "label": "B",
+          "text": "C4H8"
+        },
+        {
+          "label": "C",
+          "text": "C3H8"
+        },
+        {
+          "label": "D",
+          "text": "CH4"
+        }
+      ],
+      "correct_option": "B",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-2.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/2",
+          "question_no": 20
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/2",
+          "question_no": 20,
+          "pages": [
+            16,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-3-3-q20",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Which of the following compounds does not undergo addition reaction ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "C4H8"
+        },
+        {
+          "label": "B",
+          "text": "C2H2"
+        },
+        {
+          "label": "C",
+          "text": "C5H10"
+        },
+        {
+          "label": "D",
+          "text": "C3H8"
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "31-3-3.pdf",
+          "session": "2026 first board exam",
+          "series": "LKN3M",
+          "set_code": "31/3/3",
+          "question_no": 20
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-3 (31.3.1 to 31.3.5) in ENGLISH.pdf",
+          "set_code": "31/3/3",
+          "question_no": 20,
+          "pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-4-1-q20",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "While washing dirty clothes by soap, micelles are formed. Select the \ncorrect statement about micelles.",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "The hydrophobic tail of the soap molecule is in the interior of the cluster, whereas hydrophilic end is on the surface of the cluster."
+        },
+        {
+          "label": "B",
+          "text": "The hydrophobic tail is on the surface of the cluster, whereas hydrophilic end is in the interior of cluster."
+        },
+        {
+          "label": "C",
+          "text": "Both hydrophobic tail and hydrophilic end are in the interior of the cluster."
+        },
+        {
+          "label": "D",
+          "text": "Both hydrophobic tail and hydrophilic end are on the surface of the cluster. { }"
+        }
+      ],
+      "correct_option": "A",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-1_31-4-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/1",
+          "question_no": 20
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-2_31-4-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/2",
+          "question_no": 18
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-3_31-4-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/3",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/1",
+          "question_no": 20,
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/2",
+          "question_no": 18,
+          "pages": [
+            18,
+            18
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/3",
+          "question_no": 18,
+          "pages": [
+            30,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-4-1-q24",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "In the question, two statements are given – One labelled as Assertion (A) \nand other labelled as Reason (R). Write the correct answer selecting the \nappropriate option from (A), (B), (C) & (D) given below : \nAssertion (A) : Pure ethanoic acid is also known as glacial acetic acid. \nReason (R) : Pure ethanoic acid often freezes during winter due to \nits low melting point of 290 K. \n(A) Both Assertion (A) and Reason (R) are true and Reason (R) is the \ncorrect explanation of the Assertion",
+      "marks": 1,
+      "type": "assertion_reason",
+      "options": [
+        {
+          "label": "A",
+          "text": "."
+        },
+        {
+          "label": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)."
+        },
+        {
+          "label": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "label": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correct_option": "A",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-1_31-4-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/1",
+          "question_no": 24
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-2_31-4-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/2",
+          "question_no": 24
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-3_31-4-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/3",
+          "question_no": 24
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/1",
+          "question_no": 24,
+          "pages": [
+            6,
+            6
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/2",
+          "question_no": 24,
+          "pages": [
+            19,
+            19
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/3",
+          "question_no": 24,
+          "pages": [
+            30,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-4-1-q29",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Attempt either option (A) or (B) :\n(A) (i) Carbon cannot form C4+ cation and C4– anion. Explain.\n(ii) Define homologous series of carbon compounds. Why are the\nmelting and boiling points of C4H10 higher than C3H8 or\nC2H6 ?\n(iii) What happens when ethanol is heated with acidified potassium\ndichromate ?\nOR\n(B) (i) How would you name the following :\nI. CH3 – CH2 – C ==  O\n|\nH\nII. CH3 – C   CH\n(ii) When ethanol reacts with ethanoic acid in the presence of\nconc. H2SO4, a substance with sweet smell is produced. Answer\nthe following :\nI. State the class of compounds to which the sweet smelling\ncompounds belong.\nII. Write the chemical equation for the reaction.\n(iii) Why soaps do not produce foam with hard water ?\n{ }",
+      "marks": 5,
+      "type": "long",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": true,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-1_31-4-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/1",
+          "question_no": 29
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-2_31-4-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/2",
+          "question_no": 29
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1190-3_31-4-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "LN4MK",
+          "set_code": "31/4/3",
+          "question_no": 29
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(A)\n(i) Carbon cannot form C4+ cation because removal of four electrons is\nenergetically not possible. Carbon cannot form C4− anion because nucleus\nwith six protons cannot hold ten electrons.",
+          "marks": 2
+        },
+        {
+          "point": "(ii)\n• A series of compounds in which the same functional group substitutes\nfor hydrogen in carbon chain is called a homologous series.",
+          "marks": 1
+        },
+        {
+          "point": "• Because of higher molecular mass of C4H10 than C3H8 or C2H6.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) Ethanoic acid / acetic acid / CH3COOH is formed /\nacidified K2Cr2O7 +Heat\nCH3-CH2OH → CH3COOH",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(B)\n(i) I. Propanal",
+          "marks": 1
+        },
+        {
+          "point": "II. Propyne",
+          "marks": 1
+        },
+        {
+          "point": "(ii) I. Ester group",
+          "marks": 1
+        },
+        {
+          "point": "II.",
+          "marks": 1
+        },
+        {
+          "point": "(iii) Soaps reacts with calcium and magnesium salts present in hard water\nto form scum (insoluble substance).",
+          "marks": 1
+        },
+        {
+          "point": "Physics",
+          "marks": null
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "symbols extracted as garbage characters (e.g. reaction arrow '¾¾®', triple bond 'º', multiplication '´'); structural formula is drawn in the PDF, so its extracted text is letters and bond lines, not a usable formula; [scheme] schemes for different sets of this question differ; [scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "marking_points_variants": [
+        {
+          "set_code": "31/4/1",
+          "question_no": 29,
+          "marking_points": [
+            {
+              "point": "(A)\n(i) Carbon cannot form C4+ cation because removal of four electrons is\nenergetically not possible. Carbon cannot form C4− anion because nucleus\nwith six protons cannot hold ten electrons.",
+              "marks": 2
+            },
+            {
+              "point": "(ii)\n• A series of compounds in which the same functional group substitutes\nfor hydrogen in carbon chain is called a homologous series.",
+              "marks": 1
+            },
+            {
+              "point": "• Because of higher molecular mass of C4H10 than C3H8 or C2H6.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Ethanoic acid / acetic acid / CH3COOH is formed /\nacidified K2Cr2O7 +Heat\nCH3-CH2OH → CH3COOH",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(B)\n(i) I. Propanal",
+              "marks": 1
+            },
+            {
+              "point": "II. Propyne",
+              "marks": 1
+            },
+            {
+              "point": "(ii) I. Ester group",
+              "marks": 1
+            },
+            {
+              "point": "II.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Soaps reacts with calcium and magnesium salts present in hard water\nto form scum (insoluble substance).",
+              "marks": 1
+            },
+            {
+              "point": "Physics",
+              "marks": null
+            }
+          ]
+        },
+        {
+          "set_code": "31/4/2",
+          "question_no": 29,
+          "marking_points": [
+            {
+              "point": "(A)\n(i) Carbon cannot form C4+ cation because removal of four electrons is\nenergetically not possible. Carbon cannot form C4− anion because nucleus with\nsix protons cannot hold ten electrons.",
+              "marks": 2
+            },
+            {
+              "point": "(ii)\n• A series of compounds in which the same functional group substitutes for\nhydrogen in carbon chain is called a homologous series.",
+              "marks": 1
+            },
+            {
+              "point": "• Because of higher molecular mass of C4H10 than C3H8 or C2H6.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Ethanoic acid / acetic acid / CH3COOH is formed /\nacidifiedK2Cr2O7 +Heat\nCH3-CH2OH → CH3COOH",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(B)",
+              "marks": 1
+            },
+            {
+              "point": "(i) I. Propanal",
+              "marks": 1
+            },
+            {
+              "point": "II. Propyne",
+              "marks": 1
+            },
+            {
+              "point": "(ii) I. Ester group\nII.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Soaps reacts with calcium and magnesium salts present in hard water to\nform scum (insoluble substance).",
+              "marks": 1
+            },
+            {
+              "point": "PHYSICS",
+              "marks": null
+            }
+          ]
+        },
+        {
+          "set_code": "31/4/3",
+          "question_no": 29,
+          "marking_points": [
+            {
+              "point": "(A)\n(i) Carbon cannot form C4+ cation because removal of four electrons is energetically\nnot possible. Carbon cannot form C4− anion because nucleus with six protons cannot\nhold ten electrons.",
+              "marks": 2
+            },
+            {
+              "point": "(ii)\n• A series of compounds in which the same functional group substitutes for\nhydrogen in carbon chain is called a homologous series.",
+              "marks": 1
+            },
+            {
+              "point": "• Because of higher molecular mass of C4H10 than C3H8 or C2H6.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Ethanoic acid / acetic acid / CH3COOH is formed /",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(B)\n(i) I. Propanal",
+              "marks": 1
+            },
+            {
+              "point": "II. Propyne",
+              "marks": 1
+            },
+            {
+              "point": "(ii) I. Ester group",
+              "marks": 1
+            },
+            {
+              "point": "II.",
+              "marks": 1
+            },
+            {
+              "point": "(iii) Soaps reacts with calcium and magnesium salts present in hard water to form\nscum (insoluble substance).",
+              "marks": 1
+            },
+            {
+              "point": "Physics",
+              "marks": null
+            }
+          ]
+        }
+      ],
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/1",
+          "question_no": 29,
+          "pages": [
+            8,
+            8
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/2",
+          "question_no": 29,
+          "pages": [
+            20,
+            20
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
+          "set_code": "31/4/3",
+          "question_no": 29,
+          "pages": [
+            32,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-5-1-q18",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Which of the following set of compounds does not belong to same \nhomologous series ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "CH4 and C4H10"
+        },
+        {
+          "label": "B",
+          "text": "C2H6 and C3H8"
+        },
+        {
+          "label": "C",
+          "text": "C3H8 and C5H12"
+        },
+        {
+          "label": "D",
+          "text": "C4H8 and C5H12"
+        }
+      ],
+      "correct_option": "D",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-1_31-5-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/1",
+          "question_no": 18
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-2_31-5-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/2",
+          "question_no": 17
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-3_31-5-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/3",
+          "question_no": 20
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/1",
+          "question_no": 18,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/2",
+          "question_no": 17,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/3",
+          "question_no": 20,
+          "pages": [
+            25,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-5-1-q21",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Which of the following will not undergo addition reaction ?",
+      "marks": 1,
+      "type": "mcq",
+      "options": [
+        {
+          "label": "A",
+          "text": "C4H8"
+        },
+        {
+          "label": "B",
+          "text": "C2H2"
+        },
+        {
+          "label": "C",
+          "text": "C3H8"
+        },
+        {
+          "label": "D",
+          "text": "C2H4"
+        }
+      ],
+      "correct_option": "C",
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-1_31-5-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/1",
+          "question_no": 21
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-2_31-5-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/2",
+          "question_no": 22
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-3_31-5-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/3",
+          "question_no": 18
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": null,
+      "flagged": false,
+      "flag_reason": null,
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/1",
+          "question_no": 21,
+          "pages": [
+            5,
+            5
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/2",
+          "question_no": 22,
+          "pages": [
+            15,
+            15
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/3",
+          "question_no": 18,
+          "pages": [
+            25,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbse10-2026-exam1-31-5-1-q28",
+      "class": "10",
+      "chapter_id": "carbon-and-its-compounds",
+      "question_text": "Alcohol forms a homologous series with general formula CnH2n + 1 –OH\nand –OH group as functional group. Ethanol is commonly called alcohol\nand is used in alcoholic drinks. It is good solvent, used in medicines, cough\nsyrups, tonics etc.\n(a) Write structural formula and name of 4th member of alcohol\nhomologous series.\n(b) What happens when ethanol is heated with alkaline KMnO4 ? Write\nchemical equation involved.\n(c) Write the chemical equation of reaction of ethanol with ethanoic acid\nin the presence of concentrated H2SO4. Write the name of this\nreaction.\nOR\n(c) What happens when ethanol is heated with excess concentrated\nsulphuric acid at 443 K ? Write chemical equation involved. What is\nthe role of concentrated sulphuric acid in this reaction ?\n{ }",
+      "marks": 4,
+      "type": "case_based",
+      "options": null,
+      "correct_option": null,
+      "has_diagram": false,
+      "source": [
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-1_31-5-1_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/1",
+          "question_no": 28
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-2_31-5-2_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/2",
+          "question_no": 28
+        },
+        {
+          "folder": "2026-first-exam",
+          "file": "1191-3_31-5-3_Science.pdf",
+          "session": "2026 first board exam",
+          "series": "KL5NM",
+          "set_code": "31/5/3",
+          "question_no": 28
+        }
+      ],
+      "exam_pattern": "2023_onward",
+      "marking_points": [
+        {
+          "point": "(a)\n• CH3 −CH2 −CΗ2 −CΗ2 −ΟΗ /",
+          "marks": 0.5
+        },
+        {
+          "point": "• Butanol",
+          "marks": 0.5
+        },
+        {
+          "point": "(b)\n• Ethanol gets oxidised to form ethanoic acid.",
+          "marks": 0.5
+        },
+        {
+          "point": "• CH3 −CH2 −ΟΗ alkaline KMnO4+heat → CH3COOH",
+          "marks": 0.5
+        },
+        {
+          "point": "(c)\n•",
+          "marks": 1
+        },
+        {
+          "point": "• Esterification reaction.",
+          "marks": 1
+        },
+        {
+          "point": "OR",
+          "marks": null
+        },
+        {
+          "point": "(c)\n• Ethanol will get dehydrated to form ethene.",
+          "marks": 0.5
+        },
+        {
+          "point": "• C2H5OH Conc.H2SO4 at 443K → CH2 = CH2 + H2O\n• Dehydrating agent/ Catalyst",
+          "marks": 1.5
+        }
+      ],
+      "flagged": true,
+      "flag_reason": "[scheme] schemes for different sets of this question differ; [scheme] the scheme includes content drawn as graphics that is not captured as text",
+      "marking_points_variants": [
+        {
+          "set_code": "31/5/1",
+          "question_no": 28,
+          "marking_points": [
+            {
+              "point": "(a)\n• CH3 −CH2 −CΗ2 −CΗ2 −ΟΗ /",
+              "marks": 0.5
+            },
+            {
+              "point": "• Butanol",
+              "marks": 0.5
+            },
+            {
+              "point": "(b)\n• Ethanol gets oxidised to form ethanoic acid.",
+              "marks": 0.5
+            },
+            {
+              "point": "• CH3 −CH2 −ΟΗ alkaline KMnO4+heat → CH3COOH",
+              "marks": 0.5
+            },
+            {
+              "point": "(c)\n•",
+              "marks": 1
+            },
+            {
+              "point": "• Esterification reaction.",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(c)\n• Ethanol will get dehydrated to form ethene.",
+              "marks": 0.5
+            },
+            {
+              "point": "• C2H5OH Conc.H2SO4 at 443K → CH2 = CH2 + H2O\n• Dehydrating agent/ Catalyst",
+              "marks": 1.5
+            }
+          ]
+        },
+        {
+          "set_code": "31/5/2",
+          "question_no": 28,
+          "marking_points": [
+            {
+              "point": "(a)\n• CH3 −CH2 −CΗ2 −CΗ2ΟΗ /",
+              "marks": 0.5
+            },
+            {
+              "point": "• Butanol",
+              "marks": 0.5
+            },
+            {
+              "point": "(b)\n• Ethanol gets oxidised to form ethanoic acid.",
+              "marks": 0.5
+            },
+            {
+              "point": "• CH3 −CH2 −ΟΗ alkaline KMnO4+heat → CH3COOH",
+              "marks": 0.5
+            },
+            {
+              "point": "(c)\n•",
+              "marks": 1
+            },
+            {
+              "point": "• Esterification reaction.",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(c)\n• Ethanol will get dehydrated to form ethene.",
+              "marks": 0.5
+            },
+            {
+              "point": "𝐶H3𝐶H2OH Conc.H2SO4 at 443K → CH2 = CH2 + H2O",
+              "marks": 0.5
+            },
+            {
+              "point": "• Dehydrating agent / Catalyst",
+              "marks": 1
+            }
+          ]
+        },
+        {
+          "set_code": "31/5/3",
+          "question_no": 28,
+          "marking_points": [
+            {
+              "point": "(a)\n• CH3 −CH2 −CΗ2 −CΗ2ΟΗ /",
+              "marks": 0.5
+            },
+            {
+              "point": "• Butanol",
+              "marks": 0.5
+            },
+            {
+              "point": "(b)\n• Ethanol gets oxidised to form ethanoic acid.",
+              "marks": 0.5
+            },
+            {
+              "point": "• CH3 −CH2 −ΟΗ alkaline KMnO4+heat → CH3COOH",
+              "marks": 0.5
+            },
+            {
+              "point": "(c)\n•",
+              "marks": 1
+            },
+            {
+              "point": "• Esterification reaction.",
+              "marks": 1
+            },
+            {
+              "point": "OR",
+              "marks": null
+            },
+            {
+              "point": "(c)\n• Ethanol will get dehydrated to form ethene.",
+              "marks": 0.5
+            },
+            {
+              "point": "• CH3 −CH2 −ΟΗ alkaline KMnO4+heat → CH3COOH",
+              "marks": 0.5
+            },
+            {
+              "point": "(Award full marks if equation is written with condition)\n• Dehydrating agent/ Catalyst",
+              "marks": 1
+            }
+          ]
+        }
+      ],
+      "answer_source": [
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/1",
+          "question_no": 28,
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/2",
+          "question_no": 28,
+          "pages": [
+            16,
+            17
+          ]
+        },
+        {
+          "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/X_086_Set-5 (31.5.1 to 31.5.3)  in ENGLISH.pdf",
+          "set_code": "31/5/3",
+          "question_no": 28,
+          "pages": [
+            26,
+            27
           ]
         }
       ]
