@@ -449,8 +449,8 @@
           "marks": 1
         }
       ],
-      "flagged": false,
-      "flag_reason": null,
+      "flagged": true,
+      "flag_reason": "[scheme] Both 1-mark answers are electron-dot drawings in the scheme PDF; the text points only name the structure, so a typed answer can't be marked against them.",
       "answer_source": [
         {
           "file": "content/source/cbse/marking-schemes/extracted/2022/X/science/X_086_31_3_MS_UNSIGNED (1).pdf",
@@ -4472,11 +4472,11 @@
           "marks": 1
         },
         {
-          "point": "(ii)\n• A group of organic compounds with the same functional group and\nsimilar chemical properties / Series of compounds in which the same\nfunctional group substitutes for Hydrogen in a carbon chain /",
+          "point": "(ii)\n• A group of organic compounds with the same functional group and\nsimilar chemical properties / Series of compounds in which the same\nfunctional group substitutes for Hydrogen in a carbon chain /\nCompounds having same general formula, successive member differ by\nCH2 or 14u.",
           "marks": 1
         },
         {
-          "point": "Compounds having same general formula, successive member differ by\nCH2 or 14u.\n• Example: - Methane-Ethane or any other.",
+          "point": "• Example: - Methane-Ethane or any other.",
           "marks": 1
         },
         {
@@ -4496,20 +4496,16 @@
           "marks": 1
         },
         {
-          "point": "(iii) Ethanoic acid gives less H+ ions as compared to mineral acids /",
+          "point": "(iii) Ethanoic acid gives less H+ ions as compared to mineral acids /\nUnlike mineral acids ethanoic acids does not ionize completely in water.",
           "marks": 1
         },
         {
-          "point": "Unlike mineral acids ethanoic acids does not ionize completely in water.\n(iv)Reaction of carboxylic acid and alcohol in presence of acid to form an ester.",
+          "point": "(iv)Reaction of carboxylic acid and alcohol in presence of acid to form an ester.",
           "marks": 1
         },
         {
           "point": "(v)A cluster of soap molecules in which ionic /hydrophilic end interacts with\nwater on the surface and carbon/hydrophobic tail interacts with oil/ dirt in the\ninterior of the cluster /",
           "marks": 1
-        },
-        {
-          "point": "Water Oily dirt\nPHYSICS\nMS-Science (VI)/086/31B 8 10-B-86K",
-          "marks": null
         }
       ],
       "flagged": false,

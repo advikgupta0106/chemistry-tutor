@@ -3483,11 +3483,11 @@
       "exam_pattern": "2023_onward",
       "marking_points": [
         {
-          "point": "(a) 2Cu + O2 ∆→ 2CuO",
+          "point": "(a) 2Cu + O2 ∆→ 2CuO\nReddish Black\nbrown",
           "marks": 1
         },
         {
-          "point": "Reddish Black\nbrown\n(b) CaO + H2O → Ca(OH)2 + heat/ rise in temperature",
+          "point": "(b) CaO + H2O → Ca(OH)2 + heat/ rise in temperature",
           "marks": 1
         },
         {
@@ -4499,16 +4499,12 @@
           "marks": 1
         },
         {
-          "point": "• Na SO + BaCl 2 4 2 ⎯⎯ → BaSO + 2 NaCl 4",
+          "point": "• Na SO + BaCl 2 4 2 ⎯⎯ → BaSO + 2 NaCl 4\n(Double displacement Reaction)",
           "marks": 1
         },
         {
-          "point": "(Double displacement Reaction)\n• Fe + CuSO4 → FeSO4 + Cu ( Displacement reaction)",
+          "point": "• Fe + CuSO4 → FeSO4 + Cu ( Displacement reaction)\n(Any other example)",
           "marks": 1
-        },
-        {
-          "point": "(Any other example)",
-          "marks": null
         }
       ],
       "flagged": false,
@@ -4553,10 +4549,14 @@
         },
         {
           "point": "• Oxidation/Redox reaction",
-          "marks": 1.0
+          "marks": 0.5
         },
         {
-          "point": "• 2 Cu + O 2 ⎯⎯⎯⎯→ Heat 2 CuO\n• Corrosion occurs in open air whereas oxidation occurs\non heating.",
+          "point": "• 2 Cu + O 2 ⎯⎯⎯⎯→ Heat 2 CuO",
+          "marks": 0.5
+        },
+        {
+          "point": "• Corrosion occurs in open air whereas oxidation occurs\non heating.",
           "marks": 0.5
         },
         {

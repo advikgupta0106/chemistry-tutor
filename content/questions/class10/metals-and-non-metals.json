@@ -421,15 +421,15 @@
       "exam_pattern": "2023_onward",
       "marking_points": [
         {
-          "point": "Roasting Calcination\n1 It is carried out for sulphide ores. It is carried out for carbonate ores.\n2 Ore is heated in excess of air Ore is heated in absence or limited\nsupply of air.",
+          "point": "Roasting Calcination\n1 It is carried out for sulphide ores. It is carried out for carbonate ores.",
           "marks": 0.5
         },
         {
-          "point": "2ZnS + 3O2 ⎯ ⎯→ 2ZnO + 2SO2 ZnCO3 ⎯Heat ⎯ ⎯ ⎯ → ZnO + CO2",
+          "point": "2 Ore is heated in excess of air Ore is heated in absence or limited\nsupply of air.",
           "marks": 0.5
         },
         {
-          "point": "OR OR\n2HgS + 3O2 ⎯Heat ⎯ ⎯ ⎯ → 2HgO + 2SO2 CaCO3 heat → CaO + CO2\nOR OR\n2Cu2S + 3O2 ⎯Heat ⎯ ⎯ ⎯ → 2Cu2O + 2SO2 PbCO3 heat → PbO + CO2",
+          "point": "2ZnS + 3O2 ⎯ ⎯→ 2ZnO + 2SO2 ZnCO3 ⎯Heat ⎯ ⎯ ⎯ → ZnO + CO2\nOR OR\n2HgS + 3O2 ⎯Heat ⎯ ⎯ ⎯ → 2HgO + 2SO2 CaCO3 heat → CaO + CO2\nOR OR\n2Cu2S + 3O2 ⎯Heat ⎯ ⎯ ⎯ → 2Cu2O + 2SO2 PbCO3 heat → PbO + CO2",
           "marks": 1
         },
         {
@@ -437,15 +437,11 @@
           "marks": 0.5
         },
         {
-          "point": "ZnO + C → Zn + CO\nHeat\nAlternate answer\nWith the help of heat\n2HgO(s) ⎯Heat ⎯ ⎯ ⎯ → 2 Hg (l) + O2(g)",
+          "point": "ZnO + C → Zn + CO\nHeat",
           "marks": 0.5
         },
         {
-          "point": "OR",
-          "marks": null
-        },
-        {
-          "point": "Auto reduction / Heating with its ore\n2Cu2O + Cu2S ⎯Heat ⎯ ⎯ ⎯ → 6Cu (s) + SO2(g)\n(or Any other)",
+          "point": "Alternate answer\nWith the help of heat\n2HgO(s) ⎯Heat ⎯ ⎯ ⎯ → 2 Hg (l) + O2(g)\nOR\nAuto reduction / Heating with its ore\n2Cu2O + Cu2S ⎯Heat ⎯ ⎯ ⎯ → 6Cu (s) + SO2(g)\n(or Any other)",
           "marks": null
         }
       ],
@@ -1620,11 +1616,11 @@
           "marks": 1
         },
         {
-          "point": "(b) All three metals react with HCl because they are more reactive than\nhydrogen.",
+          "point": "(b) All three metals react with HCl because they are more reactive than\nhydrogen.\n(Award marks if student write any less reactive metal with reason)",
           "marks": 1
         },
         {
-          "point": "(Award marks if student write any less reactive metal with reason)\n(c) (i)Because HNO3 is a strong oxidizing agent and oxidizes the H2 produced\nto water.",
+          "point": "(c) (i)Because HNO3 is a strong oxidizing agent and oxidizes the H2 produced\nto water.",
           "marks": 1
         },
         {

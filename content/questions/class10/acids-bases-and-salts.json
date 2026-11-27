@@ -1112,8 +1112,12 @@
           "marks": 1
         },
         {
-          "point": "(ii) Sodium sulphate / Na2SO4\npH = 7",
-          "marks": 1.0
+          "point": "(ii) Sodium sulphate / Na2SO4",
+          "marks": 0.5
+        },
+        {
+          "point": "pH = 7",
+          "marks": 0.5
         },
         {
           "point": "(iii) Dry HCl is unable to ionise\n/ Due to absence of hydrogen ion or hydronium ion",
@@ -1684,15 +1688,11 @@
           "marks": 1
         },
         {
-          "point": "(b)\n(i) Its range is 0 to 14.",
-          "marks": 0.5
+          "point": "(b)\n(i) Its range is 0 to 14.\n(ii) It measures hydrogen ion concentration in a solution.\n(iii) as H+ concentration decreases pH increases and vice versa\n(any two)",
+          "marks": 1
         },
         {
-          "point": "(ii) It measures hydrogen ion concentration in a solution.",
-          "marks": 0.5
-        },
-        {
-          "point": "(iii) as H+ concentration decreases pH increases and vice versa\n(any two)\n(c) If water is added to concentrated acid, the heat generated may\ncause the mixture to splash out and cause burns / excess heat is\ngenerated.",
+          "point": "(c) If water is added to concentrated acid, the heat generated may\ncause the mixture to splash out and cause burns / excess heat is\ngenerated.",
           "marks": 1
         }
       ],
@@ -2519,16 +2519,12 @@
           "marks": null
         },
         {
-          "point": "(b) • Zn + H2SO4 ⎯ ⎯→ ZnSO4 + H2 (g)",
-          "marks": 1
-        },
-        {
-          "point": "( Any other example)",
+          "point": "(b) • Zn + H2SO4 ⎯ ⎯→ ZnSO4 + H2 (g)\n( Any other example)",
           "marks": 1
         },
         {
           "point": "• Hydrogen burns with a pop sound when a burning matchstick is brought\nnear it.",
-          "marks": null
+          "marks": 1
         }
       ],
       "flagged": false,
@@ -3832,11 +3828,11 @@
           "marks": 0.5
         },
         {
-          "point": "• Hydrogen/H2 – at cathode\nUse: (any one use of each)",
+          "point": "• Hydrogen/H2 – at cathode",
           "marks": 0.5
         },
         {
-          "point": "• NaOH: Degreasing metal/soaps and detergents/ paper\nmaking/ artificial fibres.",
+          "point": "Use: (any one use of each)\n• NaOH: Degreasing metal/soaps and detergents/ paper\nmaking/ artificial fibres.",
           "marks": 0.5
         },
         {
@@ -4806,11 +4802,11 @@
           "marks": 1
         },
         {
-          "point": "(b)\nSalt A Salt B\nSoap Detergent\nNa/K salt of long chain sodium salt of sulphonic\ncarboxylic acids acids or ammonium salts\nwith chloride or bromide\nions.",
+          "point": "(b)\nSalt A Salt B\nSoap Detergent\nNa/K salt of long chain sodium salt of sulphonic\ncarboxylic acids acids or ammonium salts\nwith chloride or bromide\nions.\nDoes not form lather with Forms lather even with\nhard water hard water\n( Any one )",
           "marks": 1
         },
         {
-          "point": "Does not form lather with Forms lather even with\nhard water hard water\n( Any one )\n(c) (i)\n• Esters are sweet smelling substances used in making\nperfumes and flavoring agents. / Formed when alcohol\nand carboxylic acid react in presence of acid to form\nester.",
+          "point": "(c) (i)\n• Esters are sweet smelling substances used in making\nperfumes and flavoring agents. / Formed when alcohol\nand carboxylic acid react in presence of acid to form\nester.",
           "marks": 1
         },
         {
@@ -4902,11 +4898,11 @@
         },
         {
           "point": "• By the action of chlorine on dry slaked lime.",
-          "marks": 1.0
+          "marks": 0.5
         },
         {
           "point": "• Ca(OH)2 + Cl2 → CaOCl2 + H2O",
-          "marks": null
+          "marks": 0.5
         }
       ],
       "flagged": false,
@@ -7078,16 +7074,12 @@
       "exam_pattern": "2023_onward",
       "marking_points": [
         {
-          "point": "(a) Ca (OH) 2 + Cl2 → CaOCl2 + H2O /",
+          "point": "(a) Ca (OH) 2 + Cl2 → CaOCl2 + H2O /\n(Bleaching powder)",
           "marks": 1
         },
         {
-          "point": "(Bleaching powder)\n(b) NaCl + H2O + CO2 + NH3 → NH4Cl + NaHCO3",
+          "point": "(b) NaCl + H2O + CO2 + NH3 → NH4Cl + NaHCO3\n(Baking soda)",
           "marks": 1
-        },
-        {
-          "point": "(Baking soda)",
-          "marks": null
         }
       ],
       "flagged": false,
@@ -7192,8 +7184,8 @@
           "marks": null
         }
       ],
-      "flagged": false,
-      "flag_reason": null,
+      "flagged": true,
+      "flag_reason": "[scheme] Part (a)'s 1-mark answer (the electrolysis equation) is an image in the scheme PDF with no text layer, so the marking point is empty.",
       "answer_source": [
         {
           "file": "content/source/cbse/marking-schemes/extracted/2026/X/086_SCIENCE/Revised MS X_086_31.4 ALL ENGLISH.pdf",
